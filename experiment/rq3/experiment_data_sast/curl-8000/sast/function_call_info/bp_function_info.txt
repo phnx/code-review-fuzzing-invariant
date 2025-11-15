@@ -1,0 +1,24 @@
+=====================
+lib/http_chunks.c
+=====================
+{
+    "0": {
+        "bp_line": 144,
+        "func_name": "Curl_httpchunk_read",
+        "func_start": 109,
+        "func_end": 329
+    }
+}
+
+=====================
+lib/transfer.c
+=====================
+{
+    "1": {
+        "bp_line": 1524,
+        "func_name": "strcpy_url",
+        "func_start": 1497,
+        "func_end": 1542
+    }
+}
+

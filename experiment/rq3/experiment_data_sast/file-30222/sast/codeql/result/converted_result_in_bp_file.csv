@@ -1,0 +1,4 @@
+location_hash,location_file,location_start_line,location_start_column,location_end_line,location_end_column,warning_in_target_file,warning_in_target_function,warning_in_target_code_block,warning_rule_id,warning_rule_name,warning_message,warning_weakness,warning_severity
+28e74e6b89f8daa3:1,src/funcs.c,96,10,-1,11,True,False,False,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+d9b8f4aa95e935ae:1,src/funcs.c,100,4,-1,5,True,False,False,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+725c679b171bb644:1,src/funcs.c,111,4,-1,5,True,False,False,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW

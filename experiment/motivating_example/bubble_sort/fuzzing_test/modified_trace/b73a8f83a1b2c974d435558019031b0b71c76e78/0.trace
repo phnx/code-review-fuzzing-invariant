@@ -1,0 +1,6 @@
+dummy; I i; I j; I temp;
+dummy; 0; 0; 65535;
+dummy; 0; 1; 65535;
+dummy; 0; 2; 65535;
+dummy; 0; 4; 16777216;
+dummy; 0; 5; 16777216;

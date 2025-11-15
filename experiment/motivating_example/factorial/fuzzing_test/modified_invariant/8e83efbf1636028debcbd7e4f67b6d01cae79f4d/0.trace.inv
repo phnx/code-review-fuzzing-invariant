@@ -1,0 +1,7 @@
+settings:INFO:2025-04-10 06:41:43.410120: /program/dig/src/dig.py /script/motivating_example/sample_set/factorial/fuzzing_test/modified_trace/8e83efbf1636028debcbd7e4f67b6d01cae79f4d/0.trace -log 3 --nofilter --nosimplify --seed 27
+alg:INFO:analyzing '/script/motivating_example/sample_set/factorial/fuzzing_test/modified_trace/8e83efbf1636028debcbd7e4f67b6d01cae79f4d/0.trace'
+alg:INFO:got 173 traces over 1 locs
+alg:INFO:check 3 invs using 173 traces (0.07s)
+dummy (2 invs):
+1. -i <= -2
+2. min(result, 0) - i - 2 <= 0

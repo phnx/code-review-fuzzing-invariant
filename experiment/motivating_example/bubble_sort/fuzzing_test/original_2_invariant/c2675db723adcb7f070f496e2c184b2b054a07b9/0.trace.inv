@@ -1,0 +1,31 @@
+settings:INFO:2025-04-10 06:36:40.656488: /program/dig/src/dig.py /script/motivating_example/sample_set/bubble_sort/fuzzing_test/original_2_trace/c2675db723adcb7f070f496e2c184b2b054a07b9/0.trace -log 3 --nofilter --nosimplify --seed 27
+alg:INFO:analyzing '/script/motivating_example/sample_set/bubble_sort/fuzzing_test/original_2_trace/c2675db723adcb7f070f496e2c184b2b054a07b9/0.trace'
+alg:INFO:got 31 traces over 1 locs
+alg:INFO:check 28 invs using 31 traces (0.15s)
+dummy (26 invs):
+1. i**2 - i == 0
+2. i <= 1
+3. -j <= 0
+4. j <= 15
+5. -i <= 0
+6. i - j <= 1
+7. -i - j <= 0
+8. i + j <= 15
+9. -i + j <= 15
+10. min(j, 0) - i <= 0
+11. min(i, 0) - j <= 0
+12. min(temp, 0) - j <= 0
+13. min(temp, 0) - i <= 0
+14. i - 1 - min(j, 0) <= 0
+15. i - 1 - max(j, 0) <= 0
+16. min(i, temp, 0) - j <= 0
+17. min(j, temp, 0) - i <= 0
+18. i - 1 - min(temp, 0) <= 0
+19. i - 1 - min(j, temp) <= 0
+20. i - 1 - min(j, temp, 0) <= 0
+21. temp === 7471152 (mod 59637840)
+22. -temp === 52166688 (mod 59637840)
+23. i + temp === 7471153 (mod 59637839)
+24. -i + temp === 7471151 (mod 59637841)
+25. i - temp === 52166690 (mod 59637841)
+26. -i - temp === 52166686 (mod 59637839)

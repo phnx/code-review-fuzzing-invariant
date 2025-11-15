@@ -1,0 +1,11 @@
+location_hash,location_file,location_start_line,location_start_column,location_end_line,location_end_column,warning_in_target_file,warning_in_target_function,warning_in_target_code_block,warning_rule_id,warning_rule_name,warning_message,warning_weakness,warning_severity
+46dae5bf90071aa4:1,htp/lzma/LzmaDec.c,831,15,-1,54,True,False,False,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+2b527a72dbe31d2d:1,htp/lzma/LzmaDec.c,817,11,-1,61,True,False,False,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+701cc2bd6ad22643:1,htp/lzma/LzmaDec.c,682,7,-1,55,True,False,False,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+a731a7d3946f58ac:1,htp/lzma/LzmaDec.c,487,15,494,17,True,False,False,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+e0b1574aad74b2ab:1,htp/lzma/LzmaDec.c,126,-1,132,3,True,False,False,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+ab9527e4c242ff11:1,htp/lzma/LzmaDec.c,121,-1,123,3,True,False,False,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+36137561834ac2ef:1,htp/lzma/LzmaDec.c,42,-1,-1,29,True,False,False,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+955c3488eb1ecea8:1,htp/lzma/LzmaDec.c,9,-1,-1,27,True,False,False,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+c3599b467b57143d:1,htp/lzma/LzmaDec.c,877,6,-1,25,True,False,False,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 145 lines.,,MEDIUM
+67865f8470ae958a:1,htp/lzma/LzmaDec.c,662,19,-1,35,True,False,False,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 191 lines.,,MEDIUM

@@ -1,0 +1,28 @@
+settings:INFO:2025-04-10 05:44:48.770869: /program/dig/src/dig.py /script/motivating_example/sample_set/gcd/fuzzing_test/original_2_trace/210247cbe75d6125aad76f6da0b552bbc3498881/0.trace -log 3 --nofilter --nosimplify --seed 27
+alg:INFO:analyzing '/script/motivating_example/sample_set/gcd/fuzzing_test/original_2_trace/210247cbe75d6125aad76f6da0b552bbc3498881/0.trace'
+alg:INFO:got 18 traces over 1 locs
+infer.eqt:WARNING:NO EQTS RESULTS, reducing deg to 6
+infer.eqt:WARNING:NO EQTS RESULTS, reducing deg to 5
+infer.eqt:WARNING:NO EQTS RESULTS, reducing deg to 4
+infer.eqt:WARNING:NO EQTS RESULTS, reducing deg to 3
+infer.eqt:WARNING:NO EQTS RESULTS, reducing deg to 2
+infer.eqt:WARNING:NO EQTS RESULTS, reducing deg to 1
+infer.eqt:WARNING:NO EQTS RESULTS, reducing deg to 0
+alg:INFO:check 16 invs using 18 traces (0.08s)
+dummy (16 invs):
+1. -b <= 0
+2. -a <= -2
+3. -a + b <= -2
+4. -a - b <= -2
+5. min(a, 0) - b <= 0
+6. b + 2 - max(a, 0) <= 0
+7. min(b, 0) - a - 2 <= 0
+8. max(b, 0) - a - 2 <= 0
+9. a === 0 (mod 2)
+10. b === 0 (mod 2)
+11. -b === 0 (mod 2)
+12. -a === 0 (mod 2)
+13. a + b === 0 (mod 2)
+14. a - b === 0 (mod 2)
+15. -a + b === 0 (mod 2)
+16. -a - b === 0 (mod 2)

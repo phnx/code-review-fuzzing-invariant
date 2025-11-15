@@ -1,0 +1,82 @@
+--- a/xmlmemory.c
++++ b/xmlmemory.c
+@@ -172,12 +172,19 @@ xmlMallocLoc(size_t size, const char * file, int line)
+ 
+     TEST_POINT
+ 
++asm("nop"); /* breakpoint */
++#ifdef MAGMA_ENABLE_FIXES
+     if (size > (MAX_SIZE_T - RESERVE_SIZE)) {
+ 	xmlGenericError(xmlGenericErrorContext,
+ 		"xmlMallocLoc : Unsigned overflow\n");
+ 	xmlMemoryDump();
+ 	return(NULL);
+     }
++#endif
++asm("nop"); /* breakpoint */
++#ifdef MAGMA_ENABLE_CANARIES
++    MAGMA_LOG("%MAGMA_BUG%", size > (MAX_SIZE_T - RESERVE_SIZE));
++#endif
+ 
+     p = (MEMHDR *) malloc(RESERVE_SIZE+size);
+ 
+@@ -248,12 +253,19 @@ xmlMallocAtomicLoc(size_t size, const char * file, int line)
+ 
+     TEST_POINT
+
++asm("nop"); /* breakpoint */ 
++#ifdef MAGMA_ENABLE_FIXES
+     if (size > (MAX_SIZE_T - RESERVE_SIZE)) {
+ 	xmlGenericError(xmlGenericErrorContext,
+ 		"xmlMallocAtomicLoc : Unsigned overflow\n");
+ 	xmlMemoryDump();
+ 	return(NULL);
+     }
++#endif
++asm("nop"); /* breakpoint */
++#ifdef MAGMA_ENABLE_CANARIES
++    MAGMA_LOG("%MAGMA_BUG%", size > (MAX_SIZE_T - RESERVE_SIZE));
++#endif
+ 
+     p = (MEMHDR *) malloc(RESERVE_SIZE+size);
+ 
+@@ -359,12 +369,19 @@ xmlReallocLoc(void *ptr,size_t size, const char * file, int line)
+ #endif
+     xmlMutexUnlock(xmlMemMutex);
+ 
++asm("nop"); /* breakpoint */
++#ifdef MAGMA_ENABLE_FIXES
+     if (size > (MAX_SIZE_T - RESERVE_SIZE)) {
+ 	xmlGenericError(xmlGenericErrorContext,
+ 		"xmlReallocLoc : Unsigned overflow\n");
+ 	xmlMemoryDump();
+ 	return(NULL);
+     }
++#endif
++asm("nop"); /* breakpoint */
++#ifdef MAGMA_ENABLE_CANARIES
++    MAGMA_LOG("%MAGMA_BUG%", size > (MAX_SIZE_T - RESERVE_SIZE));
++#endif
+ 
+     tmp = (MEMHDR *) realloc(p,RESERVE_SIZE+size);
+     if (!tmp) {
+@@ -513,12 +528,19 @@ xmlMemStrdupLoc(const char *str, const char *file, int line)
+     if (!xmlMemInitialized) xmlInitMemory();
+     TEST_POINT
+ 
++asm("nop"); /* breakpoint */
++#ifdef MAGMA_ENABLE_FIXES
+     if (size > (MAX_SIZE_T - RESERVE_SIZE)) {
+ 	xmlGenericError(xmlGenericErrorContext,
+ 		"xmlMemStrdupLoc : Unsigned overflow\n");
+ 	xmlMemoryDump();
+ 	return(NULL);
+     }
++#endif
++asm("nop"); /* breakpoint */
++#ifdef MAGMA_ENABLE_CANARIES
++    MAGMA_LOG("%MAGMA_BUG%", size > (MAX_SIZE_T - RESERVE_SIZE));
++#endif
+ 
+     p = (MEMHDR *) malloc(RESERVE_SIZE+size);
+     if (!p) {

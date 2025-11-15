@@ -1,0 +1,11 @@
+dummy; I i; I result;
+dummy; 2; 1;
+dummy; 3; 2;
+dummy; 4; 6;
+dummy; 5; 24;
+dummy; 6; 120;
+dummy; 7; 720;
+dummy; 8; 5040;
+dummy; 9; 40320;
+dummy; 10; 362880;
+dummy; 11; 3628800;

@@ -1,0 +1,582 @@
+=====================
+lib/decompress/zstd_decompress.c
+=====================
+{
+    "ZSTD_sizeof_DCtx ": [
+        "ZSTD_sizeof_DDict"
+    ],
+    "ZSTD_estimateDCtxSize": [],
+    "ZSTD_startingInputLength": [
+        "ZSTD_FRAMEHEADERSIZE_PREFIX",
+        "assert"
+    ],
+    "ZSTD_initDCtx_internal": [
+        "ZSTD_cpuid_bmi2",
+        "ZSTD_cpuid"
+    ],
+    "* ZSTD_initStaticDCtx": [
+        "ZSTD_initDCtx_internal"
+    ],
+    "* ZSTD_createDCtx_advanced": [
+        "ZSTD_malloc",
+        "ZSTD_initDCtx_internal"
+    ],
+    "* ZSTD_createDCtx": [
+        "DEBUGLOG",
+        "ZSTD_createDCtx_advanced"
+    ],
+    "ZSTD_clearDict": [
+        "ZSTD_freeDDict"
+    ],
+    "ZSTD_freeDCtx": [
+        "RETURN_ERROR_IF",
+        "ZSTD_clearDict",
+        "ZSTD_free",
+        "ZSTD_freeLegacyStreamContext",
+        "ZSTD_free"
+    ],
+    "ZSTD_copyDCtx": [
+        "memcpy"
+    ],
+    "ZSTD_isFrame": [
+        "MEM_readLE32",
+        "ZSTD_isLegacy"
+    ],
+    "ZSTD_frameHeaderSize_internal": [
+        "ZSTD_startingInputLength",
+        "RETURN_ERROR_IF"
+    ],
+    "ZSTD_frameHeaderSize": [
+        "ZSTD_frameHeaderSize_internal"
+    ],
+    "ZSTD_getFrameHeader_advanced": [
+        "ZSTD_startingInputLength",
+        "memset",
+        "RETURN_ERROR_IF",
+        "MEM_readLE32",
+        "MEM_readLE32",
+        "memset",
+        "MEM_readLE32",
+        "RETURN_ERROR",
+        "ZSTD_frameHeaderSize_internal",
+        "RETURN_ERROR_IF",
+        "RETURN_ERROR_IF",
+        "assert",
+        "MEM_readLE16",
+        "MEM_readLE32",
+        "assert",
+        "MEM_readLE16",
+        "MEM_readLE32",
+        "MEM_readLE64",
+        "MIN"
+    ],
+    "ZSTD_getFrameHeader": [
+        "ZSTD_getFrameHeader_advanced"
+    ],
+    "ZSTD_getFrameContentSize": [
+        "ZSTD_isLegacy",
+        "ZSTD_getDecompressedSize_legacy",
+        "ZSTD_getFrameHeader"
+    ],
+    "readSkippableFrameSize": [
+        "RETURN_ERROR_IF",
+        "MEM_readLE32",
+        "RETURN_ERROR_IF",
+        "",
+        "RETURN_ERROR_IF"
+    ],
+    "ZSTD_findDecompressedSize": [
+        "ZSTD_startingInputLength",
+        "MEM_readLE32",
+        "readSkippableFrameSize",
+        "ZSTD_isError",
+        "assert",
+        "ZSTD_getFrameContentSize",
+        "ZSTD_findFrameCompressedSize",
+        "ZSTD_isError"
+    ],
+    "ZSTD_getDecompressedSize": [
+        "ZSTD_getFrameContentSize",
+        "ZSTD_STATIC_ASSERT"
+    ],
+    "ZSTD_decodeFrameHeader": [
+        "ZSTD_getFrameHeader_advanced",
+        "ZSTD_isError",
+        "RETURN_ERROR_IF",
+        "RETURN_ERROR_IF",
+        "XXH64_reset"
+    ],
+    "ZSTD_errorFrameSizeInfo": [],
+    "ZSTD_findFrameSizeInfo": [
+        "memset",
+        "ZSTD_isLegacy",
+        "ZSTD_findFrameSizeInfoLegacy",
+        "MEM_readLE32",
+        "readSkippableFrameSize",
+        "assert",
+        "ZSTD_isError",
+        "ZSTD_getFrameHeader",
+        "ZSTD_isError",
+        "ZSTD_errorFrameSizeInfo",
+        "ZSTD_errorFrameSizeInfo",
+        "ERROR",
+        "ZSTD_getcBlockSize",
+        "ZSTD_isError",
+        "ZSTD_errorFrameSizeInfo",
+        "ZSTD_errorFrameSizeInfo",
+        "ERROR",
+        "ZSTD_errorFrameSizeInfo",
+        "ERROR"
+    ],
+    "ZSTD_findFrameCompressedSize": [
+        "ZSTD_findFrameSizeInfo"
+    ],
+    "ZSTD_decompressBound": [
+        "ZSTD_findFrameSizeInfo",
+        "ZSTD_isError",
+        "assert"
+    ],
+    "ZSTD_insertBlock": [
+        "DEBUGLOG",
+        "ZSTD_checkContinuity"
+    ],
+    "ZSTD_copyRawBlock": [
+        "DEBUGLOG",
+        "RETURN_ERROR",
+        "RETURN_ERROR_IF",
+        "memcpy"
+    ],
+    "ZSTD_setRleBlock": [
+        "RETURN_ERROR",
+        "RETURN_ERROR_IF",
+        "memset"
+    ],
+    "ZSTD_decompressFrame": [
+        "DEBUGLOG",
+        "RETURN_ERROR_IF",
+        "ZSTD_FRAMEHEADERSIZE_MIN",
+        "ZSTD_frameHeaderSize_internal",
+        "ZSTD_FRAMEHEADERSIZE_PREFIX",
+        "ZSTD_isError",
+        "RETURN_ERROR_IF",
+        "FORWARD_IF_ERROR",
+        "ZSTD_decodeFrameHeader",
+        "ZSTD_getcBlockSize",
+        "ZSTD_isError",
+        "RETURN_ERROR_IF",
+        "ZSTD_decompressBlock_internal",
+        "ZSTD_copyRawBlock",
+        "ZSTD_setRleBlock",
+        "RETURN_ERROR",
+        "ZSTD_isError",
+        "XXH64_update",
+        "assert",
+        "RETURN_ERROR_IF",
+        "",
+        "XXH64_digest",
+        "RETURN_ERROR_IF",
+        "MEM_readLE32",
+        "RETURN_ERROR_IF"
+    ],
+    "ZSTD_decompressMultiFrame": [
+        "DEBUGLOG",
+        "assert",
+        "ZSTD_DDict_dictContent",
+        "ZSTD_DDict_dictSize",
+        "ZSTD_startingInputLength",
+        "ZSTD_isLegacy",
+        "ZSTD_findFrameCompressedSizeLegacy",
+        "ZSTD_isError",
+        "RETURN_ERROR_IF",
+        "ZSTD_decompressLegacy",
+        "ZSTD_isError",
+        "assert",
+        "MEM_readLE32",
+        "DEBUGLOG",
+        "readSkippableFrameSize",
+        "FORWARD_IF_ERROR",
+        "assert",
+        "FORWARD_IF_ERROR",
+        "ZSTD_decompressBegin_usingDDict",
+        "FORWARD_IF_ERROR",
+        "ZSTD_decompressBegin_usingDict",
+        "ZSTD_checkContinuity",
+        "ZSTD_decompressFrame",
+        "RETURN_ERROR_IF",
+        "ZSTD_getErrorCode",
+        "ZSTD_isError",
+        "assert",
+        "RETURN_ERROR_IF"
+    ],
+    "ZSTD_decompress_usingDict": [
+        "ZSTD_decompressMultiFrame"
+    ],
+    "* ZSTD_getDDict": [
+        "assert",
+        "ZSTD_clearDict"
+    ],
+    "ZSTD_decompressDCtx": [
+        "ZSTD_decompress_usingDDict",
+        "ZSTD_getDDict"
+    ],
+    "ZSTD_decompress": [
+        "ZSTD_createDCtx",
+        "RETURN_ERROR_IF",
+        "ZSTD_decompressDCtx",
+        "ZSTD_freeDCtx",
+        "ZSTD_initDCtx_internal",
+        "ZSTD_decompressDCtx"
+    ],
+    "ZSTD_nextSrcSizeToDecompress": [],
+    "ZSTD_nextSrcSizeToDecompressWithInputSize": [
+        "MIN",
+        "MAX"
+    ],
+    "ZSTD_nextInputType": [
+        "assert"
+    ],
+    "ZSTD_isSkipFrame": [],
+    "ZSTD_decompressContinue": [
+        "DEBUGLOG",
+        "RETURN_ERROR_IF",
+        "ZSTD_nextSrcSizeToDecompressWithInputSize",
+        "ZSTD_checkContinuity",
+        "assert",
+        "assert",
+        "MEM_readLE32",
+        "memcpy",
+        "ZSTD_frameHeaderSize_internal",
+        "ZSTD_isError",
+        "memcpy",
+        "assert",
+        "memcpy",
+        "FORWARD_IF_ERROR",
+        "ZSTD_decodeFrameHeader",
+        "ZSTD_getcBlockSize",
+        "ZSTD_isError",
+        "RETURN_ERROR_IF",
+        "DEBUGLOG",
+        "DEBUGLOG",
+        "ZSTD_decompressBlock_internal",
+        "assert",
+        "ZSTD_copyRawBlock",
+        "FORWARD_IF_ERROR",
+        "assert",
+        "ZSTD_setRleBlock",
+        "RETURN_ERROR",
+        "FORWARD_IF_ERROR",
+        "RETURN_ERROR_IF",
+        "DEBUGLOG",
+        "XXH64_update",
+        "DEBUGLOG",
+        "RETURN_ERROR_IF",
+        "assert",
+        "XXH64_digest",
+        "MEM_readLE32",
+        "DEBUGLOG",
+        "RETURN_ERROR_IF",
+        "assert",
+        "assert",
+        "memcpy",
+        "MEM_readLE32",
+        "assert",
+        "RETURN_ERROR"
+    ],
+    "ZSTD_refDictContent": [],
+    "ZSTD_loadDEntropy": [
+        "RETURN_ERROR_IF",
+        "assert",
+        "MEM_readLE32",
+        "ZSTD_STATIC_ASSERT",
+        "ZSTD_STATIC_ASSERT",
+        "ZSTD_STATIC_ASSERT",
+        "HUF_readDTableX1_wksp",
+        "HUF_readDTableX2_wksp",
+        "RETURN_ERROR_IF",
+        "HUF_isError",
+        "FSE_readNCount",
+        "RETURN_ERROR_IF",
+        "FSE_isError",
+        "RETURN_ERROR_IF",
+        "RETURN_ERROR_IF",
+        "ZSTD_buildFSETable",
+        "FSE_readNCount",
+        "RETURN_ERROR_IF",
+        "FSE_isError",
+        "RETURN_ERROR_IF",
+        "RETURN_ERROR_IF",
+        "ZSTD_buildFSETable",
+        "FSE_readNCount",
+        "RETURN_ERROR_IF",
+        "FSE_isError",
+        "RETURN_ERROR_IF",
+        "RETURN_ERROR_IF",
+        "ZSTD_buildFSETable",
+        "RETURN_ERROR_IF",
+        "MEM_readLE32",
+        "RETURN_ERROR_IF"
+    ],
+    "ZSTD_decompress_insertDictionary": [
+        "ZSTD_refDictContent",
+        "MEM_readLE32",
+        "ZSTD_refDictContent",
+        "MEM_readLE32",
+        "ZSTD_loadDEntropy",
+        "RETURN_ERROR_IF",
+        "ZSTD_isError",
+        "ZSTD_refDictContent"
+    ],
+    "ZSTD_decompressBegin": [
+        "assert",
+        "ZSTD_startingInputLength",
+        "",
+        "ZSTD_STATIC_ASSERT",
+        "memcpy"
+    ],
+    "ZSTD_decompressBegin_usingDict": [
+        "FORWARD_IF_ERROR",
+        "ZSTD_decompressBegin",
+        "RETURN_ERROR_IF",
+        "ZSTD_isError",
+        "ZSTD_decompress_insertDictionary"
+    ],
+    "ZSTD_decompressBegin_usingDDict": [
+        "DEBUGLOG",
+        "assert",
+        "ZSTD_DDict_dictContent",
+        "ZSTD_DDict_dictSize",
+        "DEBUGLOG",
+        "FORWARD_IF_ERROR",
+        "ZSTD_decompressBegin",
+        "ZSTD_copyDDictParameters"
+    ],
+    "ZSTD_getDictID_fromDict": [
+        "MEM_readLE32",
+        "MEM_readLE32"
+    ],
+    "ZSTD_getDictID_fromFrame": [
+        "ZSTD_getFrameHeader",
+        "ZSTD_isError"
+    ],
+    "ZSTD_decompress_usingDDict": [
+        "ZSTD_decompressMultiFrame"
+    ],
+    "* ZSTD_createDStream": [
+        "DEBUGLOG",
+        "ZSTD_createDStream_advanced"
+    ],
+    "* ZSTD_initStaticDStream": [
+        "ZSTD_initStaticDCtx"
+    ],
+    "* ZSTD_createDStream_advanced": [
+        "ZSTD_createDCtx_advanced"
+    ],
+    "ZSTD_freeDStream": [
+        "ZSTD_freeDCtx"
+    ],
+    "ZSTD_DStreamInSize": [],
+    "ZSTD_DStreamOutSize": [],
+    "ZSTD_DCtx_loadDictionary_advanced": [
+        "RETURN_ERROR_IF",
+        "ZSTD_clearDict",
+        "ZSTD_createDDict_advanced",
+        "RETURN_ERROR_IF"
+    ],
+    "ZSTD_DCtx_loadDictionary_byReference": [
+        "ZSTD_DCtx_loadDictionary_advanced"
+    ],
+    "ZSTD_DCtx_loadDictionary": [
+        "ZSTD_DCtx_loadDictionary_advanced"
+    ],
+    "ZSTD_DCtx_refPrefix_advanced": [
+        "FORWARD_IF_ERROR",
+        "ZSTD_DCtx_loadDictionary_advanced"
+    ],
+    "ZSTD_DCtx_refPrefix": [
+        "ZSTD_DCtx_refPrefix_advanced"
+    ],
+    "ZSTD_initDStream_usingDict": [
+        "DEBUGLOG",
+        "FORWARD_IF_ERROR",
+        "ZSTD_DCtx_reset",
+        "FORWARD_IF_ERROR",
+        "ZSTD_DCtx_loadDictionary",
+        "ZSTD_startingInputLength"
+    ],
+    "ZSTD_initDStream": [
+        "DEBUGLOG",
+        "ZSTD_initDStream_usingDDict"
+    ],
+    "ZSTD_initDStream_usingDDict": [
+        "FORWARD_IF_ERROR",
+        "ZSTD_DCtx_reset",
+        "FORWARD_IF_ERROR",
+        "ZSTD_DCtx_refDDict",
+        "ZSTD_startingInputLength"
+    ],
+    "ZSTD_resetDStream": [
+        "FORWARD_IF_ERROR",
+        "ZSTD_DCtx_reset",
+        "ZSTD_startingInputLength"
+    ],
+    "ZSTD_DCtx_refDDict": [
+        "RETURN_ERROR_IF",
+        "ZSTD_clearDict"
+    ],
+    "ZSTD_DCtx_setMaxWindowSize": [
+        "ZSTD_dParam_getBounds",
+        "RETURN_ERROR_IF",
+        "RETURN_ERROR_IF",
+        "RETURN_ERROR_IF"
+    ],
+    "ZSTD_DCtx_setFormat": [
+        "ZSTD_DCtx_setParameter"
+    ],
+    "ZSTD_dParam_getBounds": [
+        "ZSTD_STATIC_ASSERT",
+        "ERROR"
+    ],
+    "ZSTD_dParam_withinBounds": [
+        "ZSTD_dParam_getBounds",
+        "ZSTD_isError"
+    ],
+    "ZSTD_DCtx_setParameter": [
+        "RETURN_ERROR_IF",
+        "CHECK_DBOUNDS",
+        "CHECK_DBOUNDS",
+        "CHECK_DBOUNDS",
+        "RETURN_ERROR"
+    ],
+    "ZSTD_DCtx_reset": [
+        "RETURN_ERROR_IF",
+        "ZSTD_clearDict"
+    ],
+    "ZSTD_sizeof_DStream": [
+        "ZSTD_sizeof_DCtx"
+    ],
+    "ZSTD_decodingBufferSize_min": [
+        "MIN",
+        "MIN",
+        "RETURN_ERROR_IF"
+    ],
+    "ZSTD_estimateDStreamSize": [
+        "MIN",
+        "ZSTD_decodingBufferSize_min",
+        "ZSTD_estimateDCtxSize"
+    ],
+    "ZSTD_estimateDStreamSize_fromFrame": [
+        "ZSTD_getFrameHeader",
+        "ZSTD_isError",
+        "RETURN_ERROR_IF",
+        "RETURN_ERROR_IF",
+        "ZSTD_estimateDStreamSize"
+    ],
+    "ZSTD_DCtx_isOverflow": [],
+    "ZSTD_DCtx_updateOversizedDuration": [
+        "ZSTD_DCtx_isOverflow"
+    ],
+    "ZSTD_DCtx_isOversizedTooLong": [],
+    "ZSTD_checkOutBuffer": [
+        "RETURN_ERROR"
+    ],
+    "ZSTD_decompressContinueStream": [
+        "ZSTD_isSkipFrame",
+        "ZSTD_decompressContinue",
+        "FORWARD_IF_ERROR",
+        "ZSTD_decompressContinue",
+        "FORWARD_IF_ERROR",
+        "assert",
+        "assert"
+    ],
+    "ZSTD_decompressStream": [
+        "DEBUGLOG",
+        "RETURN_ERROR_IF",
+        "RETURN_ERROR_IF",
+        "DEBUGLOG",
+        "",
+        "FORWARD_IF_ERROR",
+        "ZSTD_checkOutBuffer",
+        "DEBUGLOG",
+        "DEBUGLOG",
+        "",
+        "RETURN_ERROR_IF",
+        "ZSTD_decompressLegacyStream",
+        "ZSTD_getFrameHeader_advanced",
+        "DEBUGLOG",
+        "ZSTD_isError",
+        "ZSTD_isLegacy",
+        "ZSTD_getDDict",
+        "ZSTD_DDict_dictContent",
+        "ZSTD_DDict_dictSize",
+        "DEBUGLOG",
+        "RETURN_ERROR_IF",
+        "FORWARD_IF_ERROR",
+        "ZSTD_initLegacyStream",
+        "ZSTD_decompressLegacyStream",
+        "assert",
+        "memcpy",
+        "MAX",
+        "ZSTD_FRAMEHEADERSIZE_MIN",
+        "assert",
+        "memcpy",
+        "ZSTD_findFrameCompressedSize",
+        "ZSTD_decompress_usingDDict",
+        "ZSTD_getDDict",
+        "ZSTD_isError",
+        "DEBUGLOG",
+        "RETURN_ERROR",
+        "DEBUGLOG",
+        "FORWARD_IF_ERROR",
+        "ZSTD_decompressBegin_usingDDict",
+        "ZSTD_getDDict",
+        "MEM_readLE32",
+        "MEM_readLE32",
+        "FORWARD_IF_ERROR",
+        "ZSTD_decodeFrameHeader",
+        "DEBUGLOG",
+        "",
+        "",
+        "MAX",
+        "RETURN_ERROR_IF",
+        "MAX",
+        "ZSTD_decodingBufferSize_min",
+        "ZSTD_DCtx_updateOversizedDuration",
+        "ZSTD_DCtx_isOversizedTooLong",
+        "DEBUGLOG",
+        "DEBUGLOG",
+        "DEBUGLOG",
+        "assert",
+        "RETURN_ERROR_IF",
+        "ZSTD_free",
+        "ZSTD_malloc",
+        "RETURN_ERROR_IF",
+        "DEBUGLOG",
+        "ZSTD_nextSrcSizeToDecompressWithInputSize",
+        "DEBUGLOG",
+        "FORWARD_IF_ERROR",
+        "ZSTD_decompressContinueStream",
+        "ZSTD_nextSrcSizeToDecompress",
+        "ZSTD_isSkipFrame",
+        "assert",
+        "ZSTD_nextSrcSizeToDecompressWithInputSize",
+        "MIN",
+        "RETURN_ERROR_IF",
+        "ZSTD_limitCopy",
+        "FORWARD_IF_ERROR",
+        "ZSTD_decompressContinueStream",
+        "ZSTD_limitCopy",
+        "DEBUGLOG",
+        "assert",
+        "RETURN_ERROR",
+        "RETURN_ERROR_IF",
+        "RETURN_ERROR_IF",
+        "assert",
+        "ZSTD_nextSrcSizeToDecompress",
+        "ZSTD_nextInputType",
+        "assert"
+    ],
+    "ZSTD_decompressStream_simpleArgs ": [
+        "ZSTD_decompressStream"
+    ]
+}
+

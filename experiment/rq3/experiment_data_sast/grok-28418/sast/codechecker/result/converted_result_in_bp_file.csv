@@ -1,0 +1,11 @@
+location_hash,location_file,location_start_line,location_start_column,location_end_line,location_end_column,warning_in_target_file,warning_in_target_function,warning_in_target_code_block,warning_rule_id,warning_rule_name,warning_message,warning_weakness,warning_severity
+5e2ef2d41f8794c4e79a7471fc5984c5,src/lib/jp2/codestream/PacketIter.cpp,224,3,224,3,True,True,True,deadcode.DeadStores,deadcode.DeadStores,Value stored to 'comp' is never read,CWE-710,LOW
+af9ee11335868439b17df35ba63fe54b,src/lib/jp2/codestream/PacketIter.cpp,243,41,243,41,True,True,True,core.NullDereference,core.NullDereference,Access to field 'pw' results in a dereference of a null pointer (loaded from variable 'res'),"CWE-703,CWE-710",HIGH
+d362e2f3692441ff4c4b95045cfea495,src/lib/jp2/codestream/PacketIter.cpp,268,3,268,3,True,True,True,deadcode.DeadStores,deadcode.DeadStores,Value stored to 'comp' is never read,CWE-710,LOW
+179bd455ec5fe1de9fbe96c07d823b02,src/lib/jp2/codestream/PacketIter.cpp,284,41,284,41,True,True,True,core.NullDereference,core.NullDereference,Access to field 'pw' results in a dereference of a null pointer (loaded from variable 'res'),"CWE-703,CWE-710",HIGH
+3b8ac884efaae644c089a90fb106ce23,src/lib/jp2/codestream/PacketIter.cpp,382,75,382,75,True,True,True,core.DivideZero,core.DivideZero,Division by zero,CWE-682,HIGH
+0bb7ce8ebc6b69c6204dfc29f439cc90,src/lib/jp2/codestream/PacketIter.cpp,383,76,383,76,True,True,True,core.DivideZero,core.DivideZero,Division by zero,CWE-682,HIGH
+44363a427ccf3e8e817cbb806a34ceb6,src/lib/jp2/codestream/PacketIter.cpp,422,29,422,29,True,True,True,core.DivideZero,core.DivideZero,Division by zero,CWE-682,HIGH
+eb06448a5e5c4d866a1aef07a959514c,src/lib/jp2/codestream/PacketIter.cpp,424,30,424,30,True,True,True,core.DivideZero,core.DivideZero,Division by zero,CWE-682,HIGH
+56802e4aad80b67479be8c116ee9e675,src/lib/jp2/codestream/PacketIter.cpp,469,75,469,75,True,True,True,core.DivideZero,core.DivideZero,Division by zero,CWE-682,HIGH
+d488eefa2f0c266937562fc35ded9061,src/lib/jp2/t2/T2Decompress.cpp,96,13,96,13,True,True,True,cplusplus.NewDeleteLeaks,cplusplus.NewDeleteLeaks,Potential leak of memory pointed to by 'first_pass_failed',CWE-664,HIGH

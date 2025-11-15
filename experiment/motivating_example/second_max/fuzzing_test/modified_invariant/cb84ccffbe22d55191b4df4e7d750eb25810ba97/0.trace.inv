@@ -1,0 +1,55 @@
+settings:INFO:2025-04-10 10:15:48.739951: /program/dig/src/dig.py /script/motivating_example/sample_set/second_max/fuzzing_test/modified_trace/cb84ccffbe22d55191b4df4e7d750eb25810ba97/0.trace -log 3 --nofilter --nosimplify --seed 27
+alg:INFO:analyzing '/script/motivating_example/sample_set/second_max/fuzzing_test/modified_trace/cb84ccffbe22d55191b4df4e7d750eb25810ba97/0.trace'
+alg:INFO:got 5 traces over 1 locs
+alg:INFO:check 55 invs using 5 traces (0.07s)
+dummy (50 invs):
+1. count - 30 == 0
+2. max_**2 - 1090519040*max_ == 0
+3. -a <= 1
+4. -max_ <= 0
+5. a - max_ <= 0
+6. -a - max_ <= 1
+7. -a + sec_ <= 0
+8. -max_ + sec_ <= -1
+9. min(a, 0) - max_ <= 0
+10. min(sec_, 0) - a <= 0
+11. a - max(max_, 0) <= 0
+12. sec_ - max(a, 0) <= 0
+13. max(a, 0) - max_ <= 0
+14. max(sec_, 0) - max_ <= 0
+15. a - max(max_, sec_) <= 0
+16. sec_ - min(a, max_) <= 0
+17. min(max_, sec_) - a <= 0
+18. max(a, sec_) - max_ <= 0
+19. sec_ - max(a, count) <= 0
+20. min(count, 0) - max_ <= 0
+21. min(count, sec_) - a <= 0
+22. a - max(count, max_) <= 0
+23. min(a, count) - max_ <= 0
+24. max(a, sec_, 0) - max_ <= 0
+25. a - max(max_, sec_, 0) <= 0
+26. min(max_, sec_, 0) - a <= 0
+27. min(a, sec_) - max_ - 1 <= 0
+28. min(count, sec_, 0) - a <= 0
+29. min(a, count, 0) - max_ <= 0
+30. sec_ + 1 - max(a, max_) <= 0
+31. min(sec_, 0) - max_ - 1 <= 0
+32. sec_ + 1 - max(max_, 0) <= 0
+33. a - max(count, max_, 0) <= 0
+34. sec_ - max(a, count, 0) <= 0
+35. min(count, max_, sec_) - a <= 0
+36. a - max(count, max_, sec_) <= 0
+37. min(a, sec_, 0) - max_ - 1 <= 0
+38. sec_ + 1 - max(a, max_, 0) <= 0
+39. min(count, sec_) - max_ - 1 <= 0
+40. a - max(count, max_, sec_, 0) <= 0
+41. min(count, max_, sec_, 0) - a <= 0
+42. min(a, count, sec_) - max_ - 1 <= 0
+43. min(count, sec_, 0) - max_ - 1 <= 0
+44. min(a, count, sec_, 0) - max_ - 1 <= 0
+45. max_ === 0 (mod 1090519040)
+46. -max_ === 0 (mod 1090519040)
+47. count - max_ === 30 (mod 1090519040)
+48. count + max_ === 30 (mod 1090519040)
+49. -count - max_ === 1090519010 (mod 1090519040)
+50. -count + max_ === 1090519010 (mod 1090519040)

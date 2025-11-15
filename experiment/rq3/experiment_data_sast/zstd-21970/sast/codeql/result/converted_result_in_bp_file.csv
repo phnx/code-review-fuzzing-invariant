@@ -1,0 +1,3 @@
+location_hash,location_file,location_start_line,location_start_column,location_end_line,location_end_column,warning_in_target_file,warning_in_target_function,warning_in_target_code_block,warning_rule_id,warning_rule_name,warning_message,warning_weakness,warning_severity
+88721284b2aa2a5f:1,lib/decompress/zstd_decompress.c,1608,9,1821,6,True,True,True,cpp/long-switch,Long switch case,Switch has at least one case that is too long: [zdss_loadHeader (134 lines)](1).,,LOW
+bae84e0938992b61:1,lib/decompress/zstd_decompress.c,892,5,1032,6,True,False,False,cpp/long-switch,Long switch case,Switch has at least one case that is too long: [ZSTDds_decompressBlock (56 lines)](1).,,LOW

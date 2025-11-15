@@ -1,0 +1,31 @@
+{
+    "src/OT/Layout/GPOS/MarkLigPosFormat1.hh": [
+        [
+            118,
+            122,
+            3
+        ],
+        [
+            123,
+            129,
+            4
+        ]
+    ],
+    "src/OT/Layout/GPOS/MarkBasePosFormat1.hh": [
+        [
+            153,
+            157,
+            1
+        ],
+        [
+            126,
+            139,
+            0
+        ],
+        [
+            158,
+            160,
+            2
+        ]
+    ]
+}

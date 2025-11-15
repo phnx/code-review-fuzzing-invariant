@@ -1,0 +1,5 @@
+dummy; I a; I b;
+dummy; -2147483648; -7;
+dummy; -7; -2;
+dummy; -2; -1;
+dummy; -1; 0;

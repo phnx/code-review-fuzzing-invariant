@@ -1,0 +1,24 @@
+=====================
+src/pix4.c
+=====================
+{
+    "0": {
+        "bp_line": 2790,
+        "func_name": "pixGetBinnedColor",
+        "func_start": 2759,
+        "func_end": 2887
+    },
+    "1": {
+        "bp_line": 2803,
+        "func_name": "pixGetBinnedColor",
+        "func_start": 2759,
+        "func_end": 2887
+    },
+    "2": {
+        "bp_line": 2841,
+        "func_name": "pixGetBinnedColor",
+        "func_start": 2759,
+        "func_end": 2887
+    }
+}
+

@@ -1,0 +1,3313 @@
+(lldb) target create "original_1_fuzz"
+Current executable set to '/script/motivating_example/sample_set/second_max/original_1_fuzz' (x86_64).
+(lldb) command source -s 0 '/script/motivating_example/sample_set/second_max/fuzzing_test/original_1_debug/script/96b399bc6b562e122886e6e0f7539a8168d7bac2/batch.lldb'
+Executing commands in '/script/motivating_example/sample_set/second_max/fuzzing_test/original_1_debug/script/96b399bc6b562e122886e6e0f7539a8168d7bac2/batch.lldb'.
+(lldb) settings set interpreter.stop-command-source-on-error 0
+(lldb) settings set auto-confirm 1
+(lldb) breakpoint set --file /script/motivating_example/sample_set/second_max/original_1.c --line 26
+Breakpoint 1: where = original_1_fuzz`second_max + 392 at original_1.c:26:9, address = 0x0000000000067548
+(lldb) breakpoint command add 1
+(lldb) run /script/motivating_example/sample_set/second_max/fuzzing_test/modified_inputs/96b399bc6b562e122886e6e0f7539a8168d7bac2
+INFO: Running with entropic power schedule (0xFF, 100).
+INFO: Seed: 4182940187
+INFO: Loaded 1 modules   (14 inline 8-bit counters): 14 [0x5555555defc0, 0x5555555defce), 
+INFO: Loaded 1 PC tables (14 PCs): 14 [0x5555555defd0,0x5555555df0b0), 
+/script/motivating_example/sample_set/second_max/original_1_fuzz: Running 1 inputs 1 time(s) each.
+Running: /script/motivating_example/sample_set/second_max/fuzzing_test/modified_inputs/96b399bc6b562e122886e6e0f7539a8168d7bac2
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = -2147483648
+(lldb)  frame variable a -f dec 
+(int) a = 2130771957
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = -16777216
+(lldb)  frame variable a -f dec 
+(int) a = -16777216
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 0
+(lldb)  frame variable a -f dec 
+(int) a = 0
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 16777215
+(lldb)  frame variable a -f dec 
+(int) a = 16777215
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 16777215
+(lldb)  frame variable a -f dec 
+(int) a = -1
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 16777215
+(lldb)  frame variable a -f dec 
+(int) a = -1
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 16777215
+(lldb)  frame variable a -f dec 
+(int) a = -1
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 16777215
+(lldb)  frame variable a -f dec 
+(int) a = -1
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 16777215
+(lldb)  frame variable a -f dec 
+(int) a = -1
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 16777215
+(lldb)  frame variable a -f dec 
+(int) a = -1
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 16777215
+(lldb)  frame variable a -f dec 
+(int) a = -1
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 16777215
+(lldb)  frame variable a -f dec 
+(int) a = -1
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 16777215
+(lldb)  frame variable a -f dec 
+(int) a = -1
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 16777215
+(lldb)  frame variable a -f dec 
+(int) a = -1
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 16777215
+(lldb)  frame variable a -f dec 
+(int) a = -1
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 16777215
+(lldb)  frame variable a -f dec 
+(int) a = -1
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 16777215
+(lldb)  frame variable a -f dec 
+(int) a = -1
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 16777215
+(lldb)  frame variable a -f dec 
+(int) a = 65535
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 16777215
+(lldb)  frame variable a -f dec 
+(int) a = 0
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 16777215
+(lldb)  frame variable a -f dec 
+(int) a = 0
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 16777215
+(lldb)  frame variable a -f dec 
+(int) a = 0
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 16777215
+(lldb)  frame variable a -f dec 
+(int) a = 0
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 16777215
+(lldb)  frame variable a -f dec 
+(int) a = 0
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 16777215
+(lldb)  frame variable a -f dec 
+(int) a = 0
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 16777215
+(lldb)  frame variable a -f dec 
+(int) a = 0
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 16777215
+(lldb)  frame variable a -f dec 
+(int) a = 0
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 16777215
+(lldb)  frame variable a -f dec 
+(int) a = 0
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 16777215
+(lldb)  frame variable a -f dec 
+(int) a = 0
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 16777215
+(lldb)  frame variable a -f dec 
+(int) a = 0
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 16777215
+(lldb)  frame variable a -f dec 
+(int) a = 0
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 16777215
+(lldb)  frame variable a -f dec 
+(int) a = 0
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 16777215
+(lldb)  frame variable a -f dec 
+(int) a = 0
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 16777215
+(lldb)  frame variable a -f dec 
+(int) a = 0
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 16777215
+(lldb)  frame variable a -f dec 
+(int) a = 0
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 16777215
+(lldb)  frame variable a -f dec 
+(int) a = 0
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 16777215
+(lldb)  frame variable a -f dec 
+(int) a = -256
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 16777215
+(lldb)  frame variable a -f dec 
+(int) a = -1
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 16777215
+(lldb)  frame variable a -f dec 
+(int) a = 255
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 16777215
+(lldb)  frame variable a -f dec 
+(int) a = 0
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 16777215
+(lldb)  frame variable a -f dec 
+(int) a = 0
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 16777215
+(lldb)  frame variable a -f dec 
+(int) a = 0
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 16777215
+(lldb)  frame variable a -f dec 
+(int) a = 0
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 16777215
+(lldb)  frame variable a -f dec 
+(int) a = 0
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 16777215
+(lldb)  frame variable a -f dec 
+(int) a = 0
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 16777215
+(lldb)  frame variable a -f dec 
+(int) a = 0
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 16777215
+(lldb)  frame variable a -f dec 
+(int) a = 0
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 16777215
+(lldb)  frame variable a -f dec 
+(int) a = 0
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 16777215
+(lldb)  frame variable a -f dec 
+(int) a = 0
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 16777215
+(lldb)  frame variable a -f dec 
+(int) a = 0
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 16777215
+(lldb)  frame variable a -f dec 
+(int) a = 0
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 16777215
+(lldb)  frame variable a -f dec 
+(int) a = 0
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 16777215
+(lldb)  frame variable a -f dec 
+(int) a = 0
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 16777215
+(lldb)  frame variable a -f dec 
+(int) a = -1
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 16777215
+(lldb)  frame variable a -f dec 
+(int) a = -1
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 16777215
+(lldb)  frame variable a -f dec 
+(int) a = -1
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 16777215
+(lldb)  frame variable a -f dec 
+(int) a = -1
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 16777215
+(lldb)  frame variable a -f dec 
+(int) a = -1
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 16777215
+(lldb)  frame variable a -f dec 
+(int) a = -1
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 16777215
+(lldb)  frame variable a -f dec 
+(int) a = -1
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 16777215
+(lldb)  frame variable a -f dec 
+(int) a = -1
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 16777215
+(lldb)  frame variable a -f dec 
+(int) a = -1
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 16777215
+(lldb)  frame variable a -f dec 
+(int) a = -1
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 16777215
+(lldb)  frame variable a -f dec 
+(int) a = -1
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 16777215
+(lldb)  frame variable a -f dec 
+(int) a = -1
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 16777215
+(lldb)  frame variable a -f dec 
+(int) a = -1
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 16777215
+(lldb)  frame variable a -f dec 
+(int) a = -1
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 16777215
+(lldb)  frame variable a -f dec 
+(int) a = -1
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 16777215
+(lldb)  frame variable a -f dec 
+(int) a = -1
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 16777215
+(lldb)  frame variable a -f dec 
+(int) a = -1
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 16777215
+(lldb)  frame variable a -f dec 
+(int) a = -1
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 16777215
+(lldb)  frame variable a -f dec 
+(int) a = -1
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 16777215
+(lldb)  frame variable a -f dec 
+(int) a = -1
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 16777215
+(lldb)  frame variable a -f dec 
+(int) a = -1
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 16777215
+(lldb)  frame variable a -f dec 
+(int) a = -1
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 16777215
+(lldb)  frame variable a -f dec 
+(int) a = -1
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 16777215
+(lldb)  frame variable a -f dec 
+(int) a = -1
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 16777215
+(lldb)  frame variable a -f dec 
+(int) a = -1
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 16777215
+(lldb)  frame variable a -f dec 
+(int) a = -1
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 16777215
+(lldb)  frame variable a -f dec 
+(int) a = -1
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 16777215
+(lldb)  frame variable a -f dec 
+(int) a = -1
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 16777215
+(lldb)  frame variable a -f dec 
+(int) a = -1
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 16777215
+(lldb)  frame variable a -f dec 
+(int) a = -1
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 16777215
+(lldb)  frame variable a -f dec 
+(int) a = -1
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 16777215
+(lldb)  frame variable a -f dec 
+(int) a = -1
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 16777215
+(lldb)  frame variable a -f dec 
+(int) a = -1
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 16777215
+(lldb)  frame variable a -f dec 
+(int) a = -1
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 16777215
+(lldb)  frame variable a -f dec 
+(int) a = 16777215
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 16777215
+(lldb)  frame variable a -f dec 
+(int) a = 0
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 16777215
+(lldb)  frame variable a -f dec 
+(int) a = 0
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 16777215
+(lldb)  frame variable a -f dec 
+(int) a = 0
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 16777215
+(lldb)  frame variable a -f dec 
+(int) a = 0
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 16777215
+(lldb)  frame variable a -f dec 
+(int) a = 0
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 16777215
+(lldb)  frame variable a -f dec 
+(int) a = 0
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 16777215
+(lldb)  frame variable a -f dec 
+(int) a = 0
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 16777215
+(lldb)  frame variable a -f dec 
+(int) a = 0
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 16777215
+(lldb)  frame variable a -f dec 
+(int) a = 0
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 16777215
+(lldb)  frame variable a -f dec 
+(int) a = 0
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 16777215
+(lldb)  frame variable a -f dec 
+(int) a = 0
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = 2046820352
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = 0
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = 0
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = 0
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = 0
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = 0
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = 0
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = 0
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = 0
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = 0
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = 0
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = 0
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = 0
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = 0
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = 0
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = 0
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = 0
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = 0
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = 0
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = 0
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = 1566375936
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = 1566399837
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = 0
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = 0
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = 0
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = 0
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = 0
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = -1
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = -1
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = 0
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = 0
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = 0
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = 0
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = 0
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = 0
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = 0
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = 0
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = 0
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = 0
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = 0
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = 0
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = 0
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = 0
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = -16777216
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = -1
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = -1
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = -1
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = -1
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = -1
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = -1
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = -1
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = -1
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = -1
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = -1
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = -1
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = -1
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = -1
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = -1
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = -1
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = -1
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = -1
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = -1
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = -1
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = -1
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = -1
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = -1
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = -1
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = -1
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = -1
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = -1
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = -1
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = -1
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = -1
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = 255
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = 0
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = 0
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = 0
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = 0
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = 0
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = 0
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = 0
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = 0
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = 0
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = 0
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = 0
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = 0
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = 0
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = 0
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = 0
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = 0
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = 0
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = -1
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = -1
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = 0
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = 0
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = 0
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = 0
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = 0
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = 0
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = 0
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = 0
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = 0
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = 0
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = 0
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = 0
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = 0
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = 0
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = -16777216
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = -1
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = -1
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = -1
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = -1
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = -1
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = -1
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = -1
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = -1
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = -1
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = -1
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = -1
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = -1
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = -1
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = -1
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = -1
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = -1
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = -1
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = -1
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = -1
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = -1
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = -1
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = -1
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = -1
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = -1
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = -1
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = -1
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = -1
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = -1
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = -1
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = -1
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = -1
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = -1
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = -1
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = -1
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = -1
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = -1
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = -1
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = -1
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = 65535
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = 0
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = 0
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = 0
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = 0
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = 0
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = 0
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = 0
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb548 original_1_fuzz`second_max(count=253, arr=0x0000555555f68330) at original_1.c:26:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 253
+(lldb)  frame variable max -f dec 
+(int) max = 2130771957
+(lldb)  frame variable sec -f dec 
+(int) sec = 2046820352
+(lldb)  frame variable a -f dec 
+(int) a = 0
+(lldb)  continue
+Process 170774 resuming
+Command #7 'continue' continued the target.
+Executed /script/motivating_example/sample_set/second_max/fuzzing_test/modified_inputs/96b399bc6b562e122886e6e0f7539a8168d7bac2 in 394 ms
+***
+*** NOTE: fuzzing was not performed, you have only
+***       executed the target code on a fixed set of inputs.
+***
+Process 170774 exited with status = 0 (0x00000000)
+Process 170774 launched: '/script/motivating_example/sample_set/second_max/original_1_fuzz' (x86_64)
+(lldb) quit

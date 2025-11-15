@@ -1,0 +1,3 @@
+dummy; I count; I max_; I sec_; I a;
+dummy; 2; -256; -2147483648; -256;
+dummy; 2; 255; -2147483648; 255;

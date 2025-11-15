@@ -1,0 +1,39 @@
+settings:INFO:2025-04-10 10:23:47.867174: /program/dig/src/dig.py /script/motivating_example/sample_set/second_max/fuzzing_test/original_2_trace/b21ba448a5a7296c312fa3398521c3e05d0a3951/0.trace -log 3 --nofilter --nosimplify --seed 27
+alg:INFO:analyzing '/script/motivating_example/sample_set/second_max/fuzzing_test/original_2_trace/b21ba448a5a7296c312fa3398521c3e05d0a3951/0.trace'
+alg:INFO:got 4 traces over 1 locs
+alg:INFO:check 34 invs using 4 traces (0.07s)
+dummy (34 invs):
+1. count - 4 == 0
+2. count <= 4
+3. -count <= -4
+4. a - max_ <= 0
+5. max(a, 0) - max_ <= 0
+6. a - max(max_, 0) <= 0
+7. a - max(max_, sec_) <= 0
+8. max(a, sec_) - max_ <= 0
+9. a - max(count, max_) <= 0
+10. max(a, count) - max_ <= 0
+11. a - max(max_, sec_, 0) <= 0
+12. max(a, sec_, 0) - max_ <= 0
+13. a - max(count, max_, 0) <= 0
+14. max(a, count, 0) - max_ <= 0
+15. max(a, count, sec_) - max_ <= 0
+16. a - max(count, max_, sec_) <= 0
+17. a - max(count, max_, sec_, 0) <= 0
+18. max(a, count, sec_, 0) - max_ <= 0
+19. a === 1 (mod 4)
+20. -a === 3 (mod 4)
+21. max_ === 1 (mod 4)
+22. -max_ === 3 (mod 4)
+23. a + max_ === 2 (mod 4)
+24. a - count === 1 (mod 4)
+25. -a - max_ === 2 (mod 4)
+26. a + count === 1 (mod 4)
+27. -a + count === 3 (mod 4)
+28. -a - count === 3 (mod 4)
+29. count + max_ === 1 (mod 4)
+30. count - max_ === 3 (mod 4)
+31. -count - max_ === 3 (mod 4)
+32. -count + max_ === 1 (mod 4)
+33. a - max_ === 0 (mod 4259579148)
+34. -a + max_ === 0 (mod 4259579148)

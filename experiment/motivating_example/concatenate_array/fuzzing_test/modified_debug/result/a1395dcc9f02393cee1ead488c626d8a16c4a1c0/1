@@ -1,0 +1,194 @@
+frame #0: 0x00005555555bb664 modified_fuzz`concatenate_array(arr1=0x0000555555f68000, size1=17, arr2=0x0000555555f68050, size2=17) at modified.c:23:9
+(lldb)  frame variable dest_pos -f dec 
+(size_t) dest_pos = 17
+(lldb)  frame variable orig_pos -f dec 
+(size_t) orig_pos = 17
+(lldb)  frame variable val -f dec 
+(int) val = 0
+(lldb)  continue
+Process 109272 resuming
+Command #6 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb664 modified_fuzz`concatenate_array(arr1=0x0000555555f68000, size1=17, arr2=0x0000555555f68050, size2=17) at modified.c:23:9
+(lldb)  frame variable dest_pos -f dec 
+(size_t) dest_pos = 18
+(lldb)  frame variable orig_pos -f dec 
+(size_t) orig_pos = 18
+(lldb)  frame variable val -f dec 
+(int) val = 7889
+(lldb)  continue
+Process 109272 resuming
+Command #6 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb664 modified_fuzz`concatenate_array(arr1=0x0000555555f68000, size1=17, arr2=0x0000555555f68050, size2=17) at modified.c:23:9
+(lldb)  frame variable dest_pos -f dec 
+(size_t) dest_pos = 19
+(lldb)  frame variable orig_pos -f dec 
+(size_t) orig_pos = 19
+(lldb)  frame variable val -f dec 
+(int) val = 0
+(lldb)  continue
+Process 109272 resuming
+Command #6 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb664 modified_fuzz`concatenate_array(arr1=0x0000555555f68000, size1=17, arr2=0x0000555555f68050, size2=17) at modified.c:23:9
+(lldb)  frame variable dest_pos -f dec 
+(size_t) dest_pos = 20
+(lldb)  frame variable orig_pos -f dec 
+(size_t) orig_pos = 20
+(lldb)  frame variable val -f dec 
+(int) val = -138286112
+(lldb)  continue
+Process 109272 resuming
+Command #6 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb664 modified_fuzz`concatenate_array(arr1=0x0000555555f68000, size1=17, arr2=0x0000555555f68050, size2=17) at modified.c:23:9
+(lldb)  frame variable dest_pos -f dec 
+(size_t) dest_pos = 21
+(lldb)  frame variable orig_pos -f dec 
+(size_t) orig_pos = 21
+(lldb)  frame variable val -f dec 
+(int) val = 32767
+(lldb)  continue
+Process 109272 resuming
+Command #6 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb664 modified_fuzz`concatenate_array(arr1=0x0000555555f68000, size1=17, arr2=0x0000555555f68050, size2=17) at modified.c:23:9
+(lldb)  frame variable dest_pos -f dec 
+(size_t) dest_pos = 22
+(lldb)  frame variable orig_pos -f dec 
+(size_t) orig_pos = 22
+(lldb)  frame variable val -f dec 
+(int) val = -138286112
+(lldb)  continue
+Process 109272 resuming
+Command #6 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb664 modified_fuzz`concatenate_array(arr1=0x0000555555f68000, size1=17, arr2=0x0000555555f68050, size2=17) at modified.c:23:9
+(lldb)  frame variable dest_pos -f dec 
+(size_t) dest_pos = 23
+(lldb)  frame variable orig_pos -f dec 
+(size_t) orig_pos = 23
+(lldb)  frame variable val -f dec 
+(int) val = 32767
+(lldb)  continue
+Process 109272 resuming
+Command #6 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb664 modified_fuzz`concatenate_array(arr1=0x0000555555f68000, size1=17, arr2=0x0000555555f68050, size2=17) at modified.c:23:9
+(lldb)  frame variable dest_pos -f dec 
+(size_t) dest_pos = 24
+(lldb)  frame variable orig_pos -f dec 
+(size_t) orig_pos = 24
+(lldb)  frame variable val -f dec 
+(int) val = 0
+(lldb)  continue
+Process 109272 resuming
+Command #6 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb664 modified_fuzz`concatenate_array(arr1=0x0000555555f68000, size1=17, arr2=0x0000555555f68050, size2=17) at modified.c:23:9
+(lldb)  frame variable dest_pos -f dec 
+(size_t) dest_pos = 25
+(lldb)  frame variable orig_pos -f dec 
+(size_t) orig_pos = 25
+(lldb)  frame variable val -f dec 
+(int) val = 0
+(lldb)  continue
+Process 109272 resuming
+Command #6 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb664 modified_fuzz`concatenate_array(arr1=0x0000555555f68000, size1=17, arr2=0x0000555555f68050, size2=17) at modified.c:23:9
+(lldb)  frame variable dest_pos -f dec 
+(size_t) dest_pos = 26
+(lldb)  frame variable orig_pos -f dec 
+(size_t) orig_pos = 26
+(lldb)  frame variable val -f dec 
+(int) val = 0
+(lldb)  continue
+Process 109272 resuming
+Command #6 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb664 modified_fuzz`concatenate_array(arr1=0x0000555555f68000, size1=17, arr2=0x0000555555f68050, size2=17) at modified.c:23:9
+(lldb)  frame variable dest_pos -f dec 
+(size_t) dest_pos = 27
+(lldb)  frame variable orig_pos -f dec 
+(size_t) orig_pos = 27
+(lldb)  frame variable val -f dec 
+(int) val = 0
+(lldb)  continue
+Process 109272 resuming
+Command #6 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb664 modified_fuzz`concatenate_array(arr1=0x0000555555f68000, size1=17, arr2=0x0000555555f68050, size2=17) at modified.c:23:9
+(lldb)  frame variable dest_pos -f dec 
+(size_t) dest_pos = 28
+(lldb)  frame variable orig_pos -f dec 
+(size_t) orig_pos = 28
+(lldb)  frame variable val -f dec 
+(int) val = 0
+(lldb)  continue
+Process 109272 resuming
+Command #6 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb664 modified_fuzz`concatenate_array(arr1=0x0000555555f68000, size1=17, arr2=0x0000555555f68050, size2=17) at modified.c:23:9
+(lldb)  frame variable dest_pos -f dec 
+(size_t) dest_pos = 29
+(lldb)  frame variable orig_pos -f dec 
+(size_t) orig_pos = 29
+(lldb)  frame variable val -f dec 
+(int) val = 0
+(lldb)  continue
+Process 109272 resuming
+Command #6 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb664 modified_fuzz`concatenate_array(arr1=0x0000555555f68000, size1=17, arr2=0x0000555555f68050, size2=17) at modified.c:23:9
+(lldb)  frame variable dest_pos -f dec 
+(size_t) dest_pos = 30
+(lldb)  frame variable orig_pos -f dec 
+(size_t) orig_pos = 30
+(lldb)  frame variable val -f dec 
+(int) val = 0
+(lldb)  continue
+Process 109272 resuming
+Command #6 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb664 modified_fuzz`concatenate_array(arr1=0x0000555555f68000, size1=17, arr2=0x0000555555f68050, size2=17) at modified.c:23:9
+(lldb)  frame variable dest_pos -f dec 
+(size_t) dest_pos = 31
+(lldb)  frame variable orig_pos -f dec 
+(size_t) orig_pos = 31
+(lldb)  frame variable val -f dec 
+(int) val = 0
+(lldb)  continue
+Process 109272 resuming
+Command #6 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb664 modified_fuzz`concatenate_array(arr1=0x0000555555f68000, size1=17, arr2=0x0000555555f68050, size2=17) at modified.c:23:9
+(lldb)  frame variable dest_pos -f dec 
+(size_t) dest_pos = 32
+(lldb)  frame variable orig_pos -f dec 
+(size_t) orig_pos = 32
+(lldb)  frame variable val -f dec 
+(int) val = 0
+(lldb)  continue
+Process 109272 resuming
+Command #6 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb664 modified_fuzz`concatenate_array(arr1=0x0000555555f68000, size1=17, arr2=0x0000555555f68050, size2=17) at modified.c:23:9
+(lldb)  frame variable dest_pos -f dec 
+(size_t) dest_pos = 33
+(lldb)  frame variable orig_pos -f dec 
+(size_t) orig_pos = 33
+(lldb)  frame variable val -f dec 
+(int) val = 0
+(lldb)  continue
+Process 109272 resuming
+Command #6 'continue' continued the target.
+Executed /script/motivating_example/sample_set/concatenate_array/fuzzing_test/modified_inputs/a1395dcc9f02393cee1ead488c626d8a16c4a1c0 in 53 ms
+***
+*** NOTE: fuzzing was not performed, you have only
+***       executed the target code on a fixed set of inputs.
+***
+Process 109272 exited with status = 0 (0x00000000)
+Process 109272 launched: '/script/motivating_example/sample_set/concatenate_array/modified_fuzz' (x86_64)
+(lldb) quit

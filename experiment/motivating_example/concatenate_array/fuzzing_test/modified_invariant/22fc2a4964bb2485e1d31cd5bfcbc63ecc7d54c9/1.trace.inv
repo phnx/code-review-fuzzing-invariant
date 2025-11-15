@@ -1,0 +1,47 @@
+settings:INFO:2025-04-10 05:49:47.073822: /program/dig/src/dig.py /script/motivating_example/sample_set/concatenate_array/fuzzing_test/modified_trace/22fc2a4964bb2485e1d31cd5bfcbc63ecc7d54c9/1.trace -log 3 --nofilter --nosimplify --seed 27
+alg:INFO:analyzing '/script/motivating_example/sample_set/concatenate_array/fuzzing_test/modified_trace/22fc2a4964bb2485e1d31cd5bfcbc63ecc7d54c9/1.trace'
+alg:INFO:got 2 traces over 1 locs
+alg:INFO:check 42 invs using 2 traces (0.04s)
+dummy (42 invs):
+1. dest_pos - orig_pos == 0
+2. orig_pos**2 - 3*orig_pos + 2 == 0
+3. dest_pos <= 2
+4. orig_pos <= 2
+5. -dest_pos <= -1
+6. -orig_pos <= -1
+7. dest_pos + orig_pos <= 4
+8. dest_pos - orig_pos <= 0
+9. -dest_pos + orig_pos <= 0
+10. -dest_pos - orig_pos <= -2
+11. min(val, 0) - dest_pos - 1 <= 0
+12. min(val, 0) - orig_pos - 1 <= 0
+13. dest_pos - 2 - max(val, 0) <= 0
+14. orig_pos - 2 - max(val, 0) <= 0
+15. orig_pos - max(dest_pos, 0) <= 0
+16. max(orig_pos, 0) - dest_pos <= 0
+17. max(dest_pos, 0) - orig_pos <= 0
+18. dest_pos - max(orig_pos, 0) <= 0
+19. min(dest_pos, val) - orig_pos <= 0
+20. dest_pos - max(orig_pos, val) <= 0
+21. min(orig_pos, val) - dest_pos <= 0
+22. orig_pos - max(dest_pos, val) <= 0
+23. orig_pos - 2 - min(dest_pos, 0) <= 0
+24. min(orig_pos, 0) - dest_pos - 1 <= 0
+25. min(dest_pos, 0) - orig_pos - 1 <= 0
+26. dest_pos - 2 - min(orig_pos, 0) <= 0
+27. dest_pos - max(orig_pos, val, 0) <= 0
+28. orig_pos - max(dest_pos, val, 0) <= 0
+29. min(dest_pos, val, 0) - orig_pos - 1 <= 0
+30. min(orig_pos, val, 0) - dest_pos - 1 <= 0
+31. val === 10496 (mod 138296608)
+32. dest_pos + orig_pos === 0 (mod 2)
+33. -val === 138286112 (mod 138296608)
+34. -dest_pos - orig_pos === 0 (mod 2)
+35. dest_pos + val === 10497 (mod 138296607)
+36. orig_pos + val === 10497 (mod 138296607)
+37. -orig_pos + val === 10495 (mod 138296609)
+38. -dest_pos + val === 10495 (mod 138296609)
+39. orig_pos - val === 138286114 (mod 138296609)
+40. dest_pos - val === 138286114 (mod 138296609)
+41. -orig_pos - val === 138286110 (mod 138296607)
+42. -dest_pos - val === 138286110 (mod 138296607)

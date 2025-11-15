@@ -1,0 +1,36 @@
+=====================
+libarchive/archive_read_support_format_rar.c
+=====================
+{
+    "0": {
+        "bp_line": 2188,
+        "func_name": "read_data_compressed",
+        "func_start": 1983,
+        "func_end": 2221
+    },
+    "1": {
+        "bp_line": 2891,
+        "func_name": "expand",
+        "func_start": 2829,
+        "func_end": 3056
+    },
+    "2": {
+        "bp_line": 2914,
+        "func_name": "expand",
+        "func_start": 2829,
+        "func_end": 3056
+    },
+    "3": {
+        "bp_line": 2925,
+        "func_name": "expand",
+        "func_start": 2829,
+        "func_end": 3056
+    },
+    "4": {
+        "bp_line": 3346,
+        "func_name": "run_filters",
+        "func_start": 3325,
+        "func_end": 3393
+    }
+}
+

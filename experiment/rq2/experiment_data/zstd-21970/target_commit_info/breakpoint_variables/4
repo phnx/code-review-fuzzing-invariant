@@ -1,0 +1,6 @@
+zds->outBuff
+zds->outStart
+zds->outBuffSize
+zds->outStart
+zds->inBuff
+neededInSize

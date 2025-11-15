@@ -1,0 +1,12 @@
+=====================
+usrsctplib/netinet/sctp_asconf.c
+=====================
+{
+    "0": {
+        "bp_line": 722,
+        "func_name": "sctp_handle_asconf",
+        "func_start": 625,
+        "func_end": 861
+    }
+}
+

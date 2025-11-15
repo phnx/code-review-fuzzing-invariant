@@ -1,0 +1,80 @@
+=====================
+src/OT/Layout/GPOS/MarkBasePosFormat1.hh
+=====================
+{
+    "sanitize ": [
+        37,
+        45
+    ],
+    "intersects ": [
+        47,
+        51
+    ],
+    "closure_lookups ": [
+        53,
+        53
+    ],
+    "collect_variation_indices ": [
+        55,
+        83
+    ],
+    "collect_glyphs ": [
+        85,
+        89
+    ],
+    "&get_coverage ": [
+        91,
+        91
+    ],
+    "accept ": [
+        93,
+        110
+    ],
+    "apply ": [
+        112,
+        160
+    ],
+    "subset ": [
+        162,
+        229
+    ]
+}
+
+=====================
+src/OT/Layout/GPOS/MarkLigPosFormat1.hh
+=====================
+{
+    "sanitize ": [
+        33,
+        41
+    ],
+    "intersects ": [
+        43,
+        47
+    ],
+    "closure_lookups ": [
+        49,
+        49
+    ],
+    "collect_variation_indices ": [
+        51,
+        85
+    ],
+    "collect_glyphs ": [
+        87,
+        91
+    ],
+    "&get_coverage ": [
+        93,
+        93
+    ],
+    "apply ": [
+        95,
+        161
+    ],
+    "subset ": [
+        163,
+        210
+    ]
+}
+

@@ -1,0 +1,55 @@
+settings:INFO:2025-04-10 10:17:09.459792: /program/dig/src/dig.py /script/motivating_example/sample_set/second_max/fuzzing_test/modified_trace/13bcb40b0ea73fc58b16ee3f2ac665d36718e52e/0.trace -log 3 --nofilter --nosimplify --seed 27
+alg:INFO:analyzing '/script/motivating_example/sample_set/second_max/fuzzing_test/modified_trace/13bcb40b0ea73fc58b16ee3f2ac665d36718e52e/0.trace'
+alg:INFO:got 4 traces over 1 locs
+alg:INFO:check 50 invs using 4 traces (0.08s)
+dummy (50 invs):
+1. count - 4 == 0
+2. sec_ <= -1
+3. count <= 4
+4. -count <= -4
+5. a - max_ <= 0
+6. -a + sec_ <= 0
+7. count + sec_ <= 3
+8. -count + sec_ <= -5
+9. max(a, 0) - max_ <= 0
+10. min(sec_, 0) - a <= 0
+11. sec_ - min(a, 0) <= 0
+12. a - max(max_, 0) <= 0
+13. max(a, sec_) - max_ <= 0
+14. sec_ - min(a, max_) <= 0
+15. min(max_, sec_) - a <= 0
+16. a - max(max_, sec_) <= 0
+17. sec_ + 1 - max(a, 0) <= 0
+18. a - max(count, max_) <= 0
+19. min(count, sec_) - a <= 0
+20. sec_ - min(a, count) <= 0
+21. max(a, count) - max_ <= 0
+22. a - max(max_, sec_, 0) <= 0
+23. min(max_, sec_, 0) - a <= 0
+24. sec_ - min(a, max_, 0) <= 0
+25. max(a, sec_, 0) - max_ <= 0
+26. a - max(count, max_, 0) <= 0
+27. sec_ - min(a, count, 0) <= 0
+28. min(count, sec_, 0) - a <= 0
+29. max(a, count, 0) - max_ <= 0
+30. sec_ + 1 - min(max_, 0) <= 0
+31. sec_ + 1 - min(count, 0) <= 0
+32. min(count, max_, sec_) - a <= 0
+33. a - max(count, max_, sec_) <= 0
+34. max(a, count, sec_) - max_ <= 0
+35. sec_ - min(a, count, max_) <= 0
+36. a - max(count, max_, sec_, 0) <= 0
+37. min(count, max_, sec_, 0) - a <= 0
+38. max(a, count, sec_, 0) - max_ <= 0
+39. sec_ - min(a, count, max_, 0) <= 0
+40. sec_ + 1 - min(count, max_, 0) <= 0
+41. a - sec_ === 0 (mod 4)
+42. a + sec_ === 0 (mod 2)
+43. -a - sec_ === 0 (mod 2)
+44. -a + sec_ === 0 (mod 4)
+45. max_ === 1946865 (mod 4184539)
+46. -max_ === 2237674 (mod 4184539)
+47. count - max_ === 2237678 (mod 4184539)
+48. count + max_ === 1946869 (mod 4184539)
+49. -count + max_ === 1946861 (mod 4184539)
+50. -count - max_ === 2237670 (mod 4184539)

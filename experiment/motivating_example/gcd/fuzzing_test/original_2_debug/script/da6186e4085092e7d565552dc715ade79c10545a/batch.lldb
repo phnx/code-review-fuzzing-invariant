@@ -1,0 +1,16 @@
+
+settings set interpreter.stop-command-source-on-error 0
+settings set auto-confirm 1
+breakpoint set --file /script/motivating_example/sample_set/gcd/original_2.c --line 6
+breakpoint command add 1
+frame info
+frame variable a -f dec 
+frame variable b -f dec 
+
+continue
+DONE
+
+
+
+run /script/motivating_example/sample_set/gcd/fuzzing_test/modified_inputs/da6186e4085092e7d565552dc715ade79c10545a
+quit

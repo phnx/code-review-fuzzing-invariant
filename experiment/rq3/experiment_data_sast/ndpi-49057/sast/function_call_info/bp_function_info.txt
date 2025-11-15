@@ -1,0 +1,36 @@
+=====================
+src/lib/protocols/snmp_proto.c
+=====================
+{
+    "0": {
+        "bp_line": 76,
+        "func_name": "ndpi_search_snmp",
+        "func_start": 57,
+        "func_end": 146
+    },
+    "1": {
+        "bp_line": 82,
+        "func_name": "ndpi_search_snmp",
+        "func_start": 57,
+        "func_end": 146
+    },
+    "2": {
+        "bp_line": 112,
+        "func_name": "ndpi_search_snmp",
+        "func_start": 57,
+        "func_end": 146
+    },
+    "3": {
+        "bp_line": 117,
+        "func_name": "ndpi_search_snmp",
+        "func_start": 57,
+        "func_end": 146
+    },
+    "4": {
+        "bp_line": 133,
+        "func_name": "ndpi_search_snmp",
+        "func_start": 57,
+        "func_end": 146
+    }
+}
+

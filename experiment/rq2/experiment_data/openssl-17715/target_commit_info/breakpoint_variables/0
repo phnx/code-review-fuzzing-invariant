@@ -1,0 +1,3 @@
+gen->d.otherName->type_id
+gen->d.otherName->value->value.utf8string->data
+gen->d.otherName->value->value.ia5string->data

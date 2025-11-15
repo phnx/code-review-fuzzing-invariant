@@ -1,0 +1,68 @@
+settings:INFO:2025-04-10 05:51:08.964976: /program/dig/src/dig.py /script/motivating_example/sample_set/concatenate_array/fuzzing_test/original_2_trace/1d0780480ec3f2ad667e46a015205b8f9045ee81/1.trace -log 3 --nofilter --nosimplify --seed 27
+alg:INFO:analyzing '/script/motivating_example/sample_set/concatenate_array/fuzzing_test/original_2_trace/1d0780480ec3f2ad667e46a015205b8f9045ee81/1.trace'
+alg:INFO:got 1 traces over 1 locs
+alg:INFO:check 69 invs using 1 traces (0.05s)
+dummy (63 invs):
+1. val == 0
+2. orig_pos == 0
+3. dest_pos - 1 == 0
+4. val <= 0
+5. -val <= 0
+6. orig_pos <= 0
+7. dest_pos <= 1
+8. -orig_pos <= 0
+9. -dest_pos <= -1
+10. dest_pos + val <= 1
+11. dest_pos - val <= 1
+12. orig_pos + val <= 0
+13. orig_pos - val <= 0
+14. -orig_pos + val <= 0
+15. -orig_pos - val <= 0
+16. -dest_pos - val <= -1
+17. -dest_pos + val <= -1
+18. dest_pos - orig_pos <= 1
+19. dest_pos + orig_pos <= 1
+20. -dest_pos + orig_pos <= -1
+21. -dest_pos - orig_pos <= -1
+22. val - min(orig_pos, 0) <= 0
+23. max(val, 0) - orig_pos <= 0
+24. min(orig_pos, 0) - val <= 0
+25. orig_pos - max(val, 0) <= 0
+26. min(val, 0) - orig_pos <= 0
+27. max(orig_pos, 0) - val <= 0
+28. val - min(dest_pos, 0) <= 0
+29. orig_pos - min(val, 0) <= 0
+30. val - max(orig_pos, 0) <= 0
+31. min(dest_pos, 0) - val <= 0
+32. dest_pos - 1 - max(val, 0) <= 0
+33. max(val, 0) - dest_pos - 1 <= 0
+34. val + 1 - max(dest_pos, 0) <= 0
+35. dest_pos - 1 - min(val, 0) <= 0
+36. min(val, 0) - dest_pos - 1 <= 0
+37. min(dest_pos, 0) - orig_pos <= 0
+38. orig_pos - min(dest_pos, 0) <= 0
+39. orig_pos - min(dest_pos, val) <= 0
+40. min(dest_pos, val) - orig_pos <= 0
+41. val - min(dest_pos, orig_pos) <= 0
+42. min(dest_pos, orig_pos) - val <= 0
+43. min(orig_pos, 0) - dest_pos - 1 <= 0
+44. dest_pos - 1 - max(orig_pos, 0) <= 0
+45. dest_pos - 1 - min(orig_pos, 0) <= 0
+46. orig_pos + 1 - max(dest_pos, 0) <= 0
+47. max(orig_pos, 0) - dest_pos - 1 <= 0
+48. val - min(dest_pos, orig_pos, 0) <= 0
+49. orig_pos - min(dest_pos, val, 0) <= 0
+50. min(dest_pos, val, 0) - orig_pos <= 0
+51. min(dest_pos, orig_pos, 0) - val <= 0
+52. orig_pos + 1 - max(dest_pos, val) <= 0
+53. dest_pos - 1 - min(orig_pos, val) <= 0
+54. max(orig_pos, val) - dest_pos - 1 <= 0
+55. val + 1 - max(dest_pos, orig_pos) <= 0
+56. min(orig_pos, val) - dest_pos - 1 <= 0
+57. dest_pos - 1 - max(orig_pos, val) <= 0
+58. min(orig_pos, val, 0) - dest_pos - 1 <= 0
+59. dest_pos - 1 - min(orig_pos, val, 0) <= 0
+60. val + 1 - max(dest_pos, orig_pos, 0) <= 0
+61. max(orig_pos, val, 0) - dest_pos - 1 <= 0
+62. orig_pos + 1 - max(dest_pos, val, 0) <= 0
+63. dest_pos - 1 - max(orig_pos, val, 0) <= 0

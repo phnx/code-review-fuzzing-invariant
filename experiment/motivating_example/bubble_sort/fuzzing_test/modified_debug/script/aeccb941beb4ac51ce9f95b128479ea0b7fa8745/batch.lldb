@@ -1,0 +1,17 @@
+
+settings set interpreter.stop-command-source-on-error 0
+settings set auto-confirm 1
+breakpoint set --file /script/motivating_example/sample_set/bubble_sort/modified.c --line 18
+breakpoint command add 1
+frame info
+frame variable i -f dec 
+frame variable j -f dec 
+frame variable temp -f dec 
+
+continue
+DONE
+
+
+
+run /script/motivating_example/sample_set/bubble_sort/fuzzing_test/modified_inputs/aeccb941beb4ac51ce9f95b128479ea0b7fa8745
+quit

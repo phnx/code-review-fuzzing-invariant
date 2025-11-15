@@ -1,0 +1,24 @@
+=====================
+xmlreader.c
+=====================
+{
+    "0": {
+        "bp_line": 378,
+        "func_name": "xmlTextReaderFreeNodeList",
+        "func_start": 348,
+        "func_end": 433
+    },
+    "1": {
+        "bp_line": 384,
+        "func_name": "xmlTextReaderFreeNodeList",
+        "func_start": 348,
+        "func_end": 433
+    },
+    "2": {
+        "bp_line": 425,
+        "func_name": "xmlTextReaderFreeNodeList",
+        "func_start": 348,
+        "func_end": 433
+    }
+}
+

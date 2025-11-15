@@ -1,0 +1,698 @@
+=====================
+src/tags_int.cpp
+=====================
+{
+    "& printVersion": [
+        "str.size",
+        "str.front",
+        "str.front"
+    ],
+    "* ifdTagList": [],
+    "* exifTagList": [],
+    "* gpsTagList": [],
+    "* mpfTagList": [],
+    "* iopTagList": [],
+    "* mnTagList": [],
+    "isMakerIfd": [
+        "find",
+        "strcmp"
+    ],
+    "isExifIfd": [],
+    "taglist": [
+        "Internal::tagList"
+    ],
+    "* tagList": [
+        "find",
+        "GroupInfo::GroupName",
+        "ii->tagList_"
+    ],
+    "* tagInfo": [
+        "tagList",
+        "tagName.empty",
+        "tagName.c_str",
+        "strcmp"
+    ],
+    "groupId": [
+        "find",
+        "GroupInfo::GroupName",
+        "static_cast<IfdId>"
+    ],
+    "* ifdName": [
+        "find"
+    ],
+    "* groupName": [
+        "find"
+    ],
+    "& printValue": [],
+    "& printBitmask": [
+        "value.typeId",
+        "value.typeId",
+        "value.count",
+        "static_cast<uint16_t>",
+        "value.toInt64",
+        "N_",
+        "printValue"
+    ],
+    "fnumber": [
+        "std::exp",
+        "std::log",
+        "std::abs"
+    ],
+    "exposureTime": [
+        "std::exp",
+        "std::log",
+        "static_cast<double>",
+        "std::round",
+        "std::numeric_limits<uint32_t>::max",
+        "static_cast<uint32_t>",
+        "std::round",
+        "std::numeric_limits<uint32_t>::max",
+        "static_cast<uint32_t>"
+    ],
+    "tagNumber": [
+        "tagInfo",
+        "isHex",
+        "Error"
+    ],
+    "& printInt64": [
+        "value.toRational",
+        "static_cast<int64_t>"
+    ],
+    "& printFloat": [
+        "value.toRational",
+        "value.toFloat"
+    ],
+    "& printDegrees": [
+        "os.flags",
+        "value.count",
+        "value.toRational",
+        "value.toRational",
+        "value.toRational",
+        "std::numeric_limits<int32_t>::max",
+        "static_cast<float>",
+        "oss.copyfmt",
+        "std::setprecision",
+        "os.copyfmt",
+        "os.flags"
+    ],
+    "& printUcs2": [
+        "value.typeId",
+        "value.size",
+        "value.size",
+        "value.copy",
+        "buf.data",
+        "buf.size",
+        "buf.resize",
+        "buf.size",
+        "buf.size",
+        "buf.read_uint8",
+        "buf.size",
+        "buf.read_uint8",
+        "buf.size",
+        "buf.resize",
+        "buf.size",
+        "buf.c_str",
+        "buf.size",
+        "convertStringCharset"
+    ],
+    "& printExifUnit": [
+        "EXV_PRINT_TAG",
+        "EXV_PRINT_TAG"
+    ],
+    "& print0x0000": [
+        "value.size",
+        "value.typeId",
+        "value.toInt64",
+        "value.toInt64"
+    ],
+    "& print0x0005": [
+        "EXV_PRINT_TAG",
+        "EXV_PRINT_TAG"
+    ],
+    "& print0x0006": [
+        "os.flags",
+        "oss.copyfmt",
+        "value.toRational",
+        "std::setprecision",
+        "value.toFloat",
+        "os.copyfmt",
+        "os.flags"
+    ],
+    "& print0x0007": [
+        "os.flags",
+        "value.count",
+        "value.toRational",
+        "oss.copyfmt",
+        "value.toFloat",
+        "value.toFloat",
+        "value.toFloat",
+        "enforce<std::overflow_error>",
+        "std::isfinite",
+        "std::fmod",
+        "std::fmod",
+        "static_cast<int>",
+        "std::fmod",
+        "static_cast<int>",
+        "std::fmod",
+        "std::setw",
+        "std::setfill",
+        "std::setw",
+        "std::setfill",
+        "std::setw",
+        "std::setfill",
+        "std::setprecision",
+        "os.copyfmt",
+        "os.flags"
+    ],
+    "& print0x0009": [
+        "EXV_PRINT_TAG",
+        "EXV_PRINT_TAG"
+    ],
+    "& print0x000a": [
+        "EXV_PRINT_TAG",
+        "EXV_PRINT_TAG"
+    ],
+    "& print0x000c": [
+        "EXV_PRINT_TAG",
+        "EXV_PRINT_TAG"
+    ],
+    "& print0x0019": [
+        "EXV_PRINT_TAG",
+        "EXV_PRINT_TAG"
+    ],
+    "& print0x001e": [
+        "EXV_PRINT_TAG",
+        "EXV_PRINT_TAG"
+    ],
+    "& print0x0112": [
+        "EXV_PRINT_TAG",
+        "EXV_PRINT_TAG"
+    ],
+    "& print0x0213": [
+        "EXV_PRINT_TAG",
+        "EXV_PRINT_TAG"
+    ],
+    "& print0x8298": [
+        "value.toString",
+        "val.find",
+        "editor.empty"
+    ],
+    "& print0x829a": [
+        "value.count",
+        "value.typeId",
+        "value.toRational",
+        "static_cast<float>"
+    ],
+    "& print0x829d": [
+        "os.flags",
+        "value.toRational",
+        "oss.copyfmt",
+        "std::setprecision",
+        "static_cast<float>",
+        "os.copyfmt",
+        "os.flags"
+    ],
+    "& print0x8822": [
+        "EXV_PRINT_TAG",
+        "EXV_PRINT_TAG"
+    ],
+    "& print0x8827": [
+        "value.toInt64"
+    ],
+    "& print0x9101": [
+        "value.count",
+        "value.toInt64"
+    ],
+    "& print0x9201": [
+        "value.toRational",
+        "value.ok",
+        "exposureTime",
+        "static_cast<float>"
+    ],
+    "& print0x9202": [
+        "os.flags",
+        "value.count",
+        "value.toRational",
+        "oss.copyfmt",
+        "std::setprecision",
+        "fnumber",
+        "value.toFloat",
+        "os.copyfmt",
+        "os.flags"
+    ],
+    "& print0x9204": [
+        "value.toRational",
+        "static_cast<int32_t>",
+        "std::gcd",
+        "std::abs"
+    ],
+    "& print0x9206": [
+        "os.flags",
+        "value.toRational",
+        "_",
+        "static_cast<uint32_t>",
+        "_",
+        "oss.copyfmt",
+        "std::setprecision",
+        "static_cast<float>",
+        "os.copyfmt",
+        "os.flags"
+    ],
+    "& print0x9207": [
+        "EXV_PRINT_TAG",
+        "EXV_PRINT_TAG"
+    ],
+    "& print0x9208": [
+        "EXV_PRINT_TAG",
+        "EXV_PRINT_TAG"
+    ],
+    "& print0x920a": [
+        "os.flags",
+        "value.toRational",
+        "oss.copyfmt",
+        "std::setprecision",
+        "static_cast<float>",
+        "os.copyfmt",
+        "os.flags"
+    ],
+    "& print0xa001": [
+        "EXV_PRINT_TAG",
+        "EXV_PRINT_TAG"
+    ],
+    "& print0xa217": [
+        "EXV_PRINT_TAG",
+        "EXV_PRINT_TAG"
+    ],
+    "& print0xa300": [
+        "EXV_PRINT_TAG",
+        "EXV_PRINT_TAG"
+    ],
+    "& print0xa301": [
+        "EXV_PRINT_TAG",
+        "EXV_PRINT_TAG"
+    ],
+    "& print0xa401": [
+        "EXV_PRINT_TAG",
+        "EXV_PRINT_TAG"
+    ],
+    "& print0xa402": [
+        "EXV_PRINT_TAG",
+        "EXV_PRINT_TAG"
+    ],
+    "& print0xa403": [
+        "EXV_PRINT_TAG",
+        "EXV_PRINT_TAG"
+    ],
+    "& print0xa404": [
+        "os.flags",
+        "value.toRational",
+        "_",
+        "oss.copyfmt",
+        "std::setprecision",
+        "static_cast<float>",
+        "os.copyfmt",
+        "os.flags"
+    ],
+    "& print0xa405": [
+        "value.toInt64",
+        "_"
+    ],
+    "& print0xa406": [
+        "EXV_PRINT_TAG",
+        "EXV_PRINT_TAG"
+    ],
+    "& print0xa407": [
+        "EXV_PRINT_TAG",
+        "EXV_PRINT_TAG"
+    ],
+    "& print0xa409": [
+        "EXV_PRINT_TAG",
+        "EXV_PRINT_TAG"
+    ],
+    "& print0xa40c": [
+        "EXV_PRINT_TAG",
+        "EXV_PRINT_TAG"
+    ],
+    "& printGPSDirRef": [
+        "EXV_PRINT_TAG",
+        "EXV_PRINT_TAG"
+    ],
+    "& printNormalSoftHard": [
+        "EXV_PRINT_TAG",
+        "EXV_PRINT_TAG"
+    ],
+    "& printExifVersion": [
+        "value.size",
+        "value.typeId",
+        "static_cast<char>",
+        "value.toInt64",
+        "printVersion"
+    ],
+    "& printXmpVersion": [
+        "value.size",
+        "value.typeId",
+        "printVersion",
+        "value.toString"
+    ],
+    "& printXmpDate": [
+        "value.size",
+        "value.size",
+        "value.typeId",
+        "value.toString",
+        "stringValue.size",
+        "stringValue.at",
+        "stringValue.pop_back",
+        "std::replace",
+        "stringValue.begin",
+        "stringValue.end",
+        "std::replace",
+        "stringValue.begin",
+        "stringValue.end"
+    ],
+    "* groupList": []
+}
+
+=====================
+src/types.cpp
+=====================
+{
+    "operator==": [],
+    "* TypeInfo::typeName": [
+        "std::find",
+        "typeInfoTable.begin",
+        "typeInfoTable.end",
+        "typeInfoTable.end"
+    ],
+    "TypeInfo::typeId": [
+        "std::find",
+        "typeInfoTable.begin",
+        "typeInfoTable.end",
+        "typeInfoTable.end"
+    ],
+    "TypeInfo::typeSize": [
+        "std::find",
+        "typeInfoTable.begin",
+        "typeInfoTable.end",
+        "typeInfoTable.end"
+    ],
+    "DataBuf::DataBuf": [
+        "std::copy_n",
+        "pData_.begin"
+    ],
+    "DataBuf::alloc": [
+        "pData_.resize"
+    ],
+    "DataBuf::resize": [
+        "pData_.resize"
+    ],
+    "DataBuf::reset": [
+        "pData_.clear"
+    ],
+    "Exiv2::DataBuf::read_uint8": [
+        "pData_.size",
+        "std::out_of_range"
+    ],
+    "Exiv2::DataBuf::write_uint8": [
+        "pData_.size",
+        "std::out_of_range"
+    ],
+    "Exiv2::DataBuf::read_uint16": [
+        "pData_.size",
+        "pData_.size",
+        "std::out_of_range",
+        "getUShort"
+    ],
+    "Exiv2::DataBuf::write_uint16": [
+        "pData_.size",
+        "pData_.size",
+        "std::out_of_range",
+        "us2Data"
+    ],
+    "Exiv2::DataBuf::read_uint32": [
+        "pData_.size",
+        "pData_.size",
+        "std::out_of_range",
+        "getULong"
+    ],
+    "Exiv2::DataBuf::write_uint32": [
+        "pData_.size",
+        "pData_.size",
+        "std::out_of_range",
+        "ul2Data"
+    ],
+    "Exiv2::DataBuf::read_uint64": [
+        "pData_.size",
+        "pData_.size",
+        "std::out_of_range",
+        "getULongLong"
+    ],
+    "Exiv2::DataBuf::write_uint64": [
+        "pData_.size",
+        "pData_.size",
+        "std::out_of_range",
+        "ull2Data"
+    ],
+    "Exiv2::DataBuf::cmpBytes": [
+        "pData_.size",
+        "pData_.size",
+        "std::out_of_range",
+        "memcmp"
+    ],
+    "* Exiv2::DataBuf::data": [
+        "const_cast<byte*>",
+        "c_data"
+    ],
+    "* Exiv2::DataBuf::c_data": [
+        "pData_.empty",
+        "pData_.size",
+        "std::out_of_range"
+    ],
+    "* Exiv2::DataBuf::c_str": [
+        "reinterpret_cast<const char*>",
+        "c_data"
+    ],
+    "checkDataBufBounds": [
+        "enforce<std::invalid_argument>",
+        "static_cast<size_t>",
+        "std::numeric_limits<long>::max",
+        "enforce<std::out_of_range>",
+        "buf.size"
+    ],
+    "makeSlice": [
+        "checkDataBufBounds",
+        "buf.c_data"
+    ],
+    "& operator<<": [],
+    "& fromStreamToRational": [
+        "std::tolower",
+        "is.peek",
+        "std::log",
+        "std::log",
+        "Exiv2::floatToRationalCast",
+        "is.setstate"
+    ],
+    "& operator>>": [
+        "fromStreamToRational"
+    ],
+    "getUShort": [
+        "getUShort",
+        "makeSliceUntil"
+    ],
+    "getULong": [],
+    "getULongLong": [
+        "static_cast<uint64_t>",
+        "static_cast<uint64_t>",
+        "static_cast<uint64_t>",
+        "static_cast<uint64_t>",
+        "static_cast<uint64_t>",
+        "static_cast<uint64_t>",
+        "static_cast<uint64_t>",
+        "static_cast<uint64_t>",
+        "static_cast<uint64_t>",
+        "static_cast<uint64_t>",
+        "static_cast<uint64_t>",
+        "static_cast<uint64_t>",
+        "static_cast<uint64_t>",
+        "static_cast<uint64_t>",
+        "static_cast<uint64_t>",
+        "static_cast<uint64_t>"
+    ],
+    "getURational": [
+        "getULong",
+        "getULong"
+    ],
+    "getShort": [],
+    "getLong": [],
+    "getRational": [
+        "getLong",
+        "getLong"
+    ],
+    "getFloat": [
+        "getULong"
+    ],
+    "getDouble": [
+        "static_cast<uint64_t>",
+        "static_cast<uint64_t>",
+        "static_cast<uint64_t>",
+        "static_cast<uint64_t>",
+        "static_cast<uint64_t>",
+        "static_cast<uint64_t>",
+        "static_cast<uint64_t>",
+        "static_cast<uint64_t>",
+        "static_cast<uint64_t>",
+        "static_cast<uint64_t>",
+        "static_cast<uint64_t>",
+        "static_cast<uint64_t>",
+        "static_cast<uint64_t>",
+        "static_cast<uint64_t>",
+        "static_cast<uint64_t>",
+        "static_cast<uint64_t>"
+    ],
+    "us2Data": [
+        "static_cast<byte>",
+        "static_cast<byte>",
+        "static_cast<byte>",
+        "static_cast<byte>"
+    ],
+    "ul2Data": [
+        "static_cast<byte>",
+        "static_cast<byte>",
+        "static_cast<byte>",
+        "static_cast<byte>",
+        "static_cast<byte>",
+        "static_cast<byte>",
+        "static_cast<byte>",
+        "static_cast<byte>"
+    ],
+    "ull2Data": [
+        "static_cast<byte>",
+        "static_cast<byte>"
+    ],
+    "ur2Data": [
+        "ul2Data",
+        "ul2Data"
+    ],
+    "s2Data": [
+        "static_cast<byte>",
+        "static_cast<byte>",
+        "static_cast<byte>",
+        "static_cast<byte>"
+    ],
+    "l2Data": [
+        "static_cast<byte>",
+        "static_cast<byte>",
+        "static_cast<byte>",
+        "static_cast<byte>",
+        "static_cast<byte>",
+        "static_cast<byte>",
+        "static_cast<byte>",
+        "static_cast<byte>"
+    ],
+    "r2Data": [
+        "l2Data",
+        "l2Data"
+    ],
+    "f2Data": [
+        "ul2Data"
+    ],
+    "d2Data": [
+        "static_cast<byte>",
+        "static_cast<byte>",
+        "static_cast<byte>",
+        "static_cast<byte>",
+        "static_cast<byte>",
+        "static_cast<byte>",
+        "static_cast<byte>",
+        "static_cast<byte>",
+        "static_cast<byte>",
+        "static_cast<byte>",
+        "static_cast<byte>",
+        "static_cast<byte>",
+        "static_cast<byte>",
+        "static_cast<byte>",
+        "static_cast<byte>",
+        "static_cast<byte>"
+    ],
+    "hexdump": [
+        "os.flags",
+        "std::setw",
+        "std::setfill",
+        "std::setw",
+        "std::setfill",
+        "static_cast<int>",
+        "static_cast<int>",
+        "static_cast<int>",
+        "static_cast<char>",
+        "align.substr",
+        "ss.str",
+        "std::setfill",
+        "os.flags"
+    ],
+    "isHex": [
+        "str.size",
+        "prefix.size",
+        "str.substr",
+        "prefix.size",
+        "str.size",
+        "prefix.size",
+        "prefix.size",
+        "str.size",
+        "isxdigit"
+    ],
+    "exifTime": [
+        "std::sscanf"
+    ],
+    "* exvGettext": [
+        "_exvGettext"
+    ],
+    "stringTo<bool>": [
+        "lcs.length",
+        "std::tolower"
+    ],
+    "parseInt64": [
+        "stringTo<int64_t>",
+        "stringTo<float>",
+        "static_cast<int64_t>",
+        "stringTo<Rational>",
+        "static_cast<int64_t>",
+        "static_cast<float>",
+        "stringTo<bool>"
+    ],
+    "parseUint32": [
+        "parseInt64",
+        "std::numeric_limits<uint32_t>::max",
+        "static_cast<uint32_t>"
+    ],
+    "parseFloat": [
+        "stringTo<float>",
+        "stringTo<Rational>",
+        "static_cast<float>",
+        "stringTo<bool>"
+    ],
+    "parseRational": [
+        "stringTo<Rational>",
+        "stringTo<long>",
+        "stringTo<float>",
+        "floatToRationalCast",
+        "stringTo<bool>"
+    ],
+    "floatToRationalCast": [
+        "std::numeric_limits<int32_t>::min",
+        "std::numeric_limits<int32_t>::max",
+        "static_cast<int32_t>",
+        "Safe::abs",
+        "Safe::abs",
+        "Safe::abs",
+        "static_cast<int32_t>",
+        "std::round",
+        "std::gcd"
+    ],
+    "* _exvGettext": [
+        "Exiv2::getProcessPath",
+        "bindtextdomain",
+        "localeDir.c_str",
+        "bind_textdomain_codeset",
+        "dgettext"
+    ]
+}
+

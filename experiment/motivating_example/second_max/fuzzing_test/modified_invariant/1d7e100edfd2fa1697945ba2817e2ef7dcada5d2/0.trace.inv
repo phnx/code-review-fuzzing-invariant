@@ -1,0 +1,21 @@
+settings:INFO:2025-04-10 10:15:13.743832: /program/dig/src/dig.py /script/motivating_example/sample_set/second_max/fuzzing_test/modified_trace/1d7e100edfd2fa1697945ba2817e2ef7dcada5d2/0.trace -log 3 --nofilter --nosimplify --seed 27
+alg:INFO:analyzing '/script/motivating_example/sample_set/second_max/fuzzing_test/modified_trace/1d7e100edfd2fa1697945ba2817e2ef7dcada5d2/0.trace'
+alg:INFO:got 49 traces over 1 locs
+alg:INFO:check 16 invs using 49 traces (0.11s)
+dummy (16 invs):
+1. count - 510 == 0
+2. a - max_ <= 0
+3. a - max(max_, 0) <= 0
+4. max(a, 0) - max_ <= 0
+5. max(a, sec_) - max_ <= 0
+6. a - max(max_, sec_) <= 0
+7. a - max(count, max_) <= 0
+8. max(a, count) - max_ <= 0
+9. max(a, sec_, 0) - max_ <= 0
+10. a - max(max_, sec_, 0) <= 0
+11. a - max(count, max_, 0) <= 0
+12. max(a, count, 0) - max_ <= 0
+13. max(a, count, sec_) - max_ <= 0
+14. a - max(count, max_, sec_) <= 0
+15. max(a, count, sec_, 0) - max_ <= 0
+16. a - max(count, max_, sec_, 0) <= 0

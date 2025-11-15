@@ -1,0 +1,9 @@
+settings:INFO:2025-04-10 05:40:35.612409: /program/dig/src/dig.py /script/motivating_example/sample_set/gcd/fuzzing_test/modified_trace/24af67a4e82785810ddf9d4fbf1c7881f4f32f22/0.trace -log 3 --nofilter --nosimplify --seed 27
+alg:INFO:analyzing '/script/motivating_example/sample_set/gcd/fuzzing_test/modified_trace/24af67a4e82785810ddf9d4fbf1c7881f4f32f22/0.trace'
+alg:INFO:got 4 traces over 1 locs
+alg:INFO:check 4 invs using 4 traces (0.04s)
+dummy (4 invs):
+1. 26825*a**2 + 115212496990895*a + b**5 - b + 123708475888881541742730 == 0
+2. b <= 0
+3. -b <= 11
+4. b - max(a, 0) <= 0

@@ -1,0 +1,2 @@
+location_hash,location_file,location_start_line,location_start_column,location_end_line,location_end_column,warning_in_target_file,warning_in_target_function,warning_in_target_code_block,warning_rule_id,warning_rule_name,warning_message,warning_weakness,warning_severity
+a4f0a60f65ec939b:1,crypto/x509/v3_alt.c,619,5,-1,55,True,False,False,cpp/fixme-comment,FIXME comment,FIXME comment: should allow other character types...,CWE-546,LOW

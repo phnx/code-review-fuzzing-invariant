@@ -1,0 +1,134 @@
+=====================
+codec/decoder/plus/src/welsDecoderExt.cpp
+=====================
+{
+    "DECLARE_PROCTHREAD ": [
+        117,
+        131
+    ],
+    "ConstructAccessUnit ": [
+        99,
+        115
+    ],
+    "CWelsDecoder::CWelsDecoder ": [
+        133,
+        221
+    ],
+    "CWelsDecoder::~CWelsDecoder": [
+        231,
+        257
+    ],
+    "CWelsDecoder::Initialize ": [
+        259,
+        276
+    ],
+    "CWelsDecoder::Uninitialize": [
+        278,
+        282
+    ],
+    "CWelsDecoder::UninitDecoder ": [
+        284,
+        293
+    ],
+    "CWelsDecoder::OpenDecoderThreads": [
+        295,
+        324
+    ],
+    "CWelsDecoder::CloseDecoderThreads": [
+        325,
+        343
+    ],
+    "CWelsDecoder::UninitDecoderCtx ": [
+        345,
+        368
+    ],
+    "CWelsDecoder::InitDecoder ": [
+        371,
+        395
+    ],
+    "CWelsDecoder::InitDecoderCtx ": [
+        398,
+        434
+    ],
+    "CWelsDecoder::ResetDecoder ": [
+        436,
+        455
+    ],
+    "CWelsDecoder::ThreadResetDecoder ": [
+        457,
+        471
+    ],
+    "CWelsDecoder::SetOption ": [
+        476,
+        574
+    ],
+    "CWelsDecoder::GetOption ": [
+        579,
+        688
+    ],
+    "CWelsDecoder::DecodeFrameNoDelay ": [
+        690,
+        720
+    ],
+    "CWelsDecoder::DecodeFrame2WithCtx ": [
+        722,
+        901
+    ],
+    "CWelsDecoder::DecodeFrame2 ": [
+        903,
+        909
+    ],
+    "CWelsDecoder::FlushFrame ": [
+        911,
+        986
+    ],
+    "CWelsDecoder::OutputStatisticsLog ": [
+        988,
+        1031
+    ],
+    "CWelsDecoder::BufferingReadyPicture ": [
+        1033,
+        1087
+    ],
+    "CWelsDecoder::ReleaseBufferedReadyPicture ": [
+        1089,
+        1217
+    ],
+    "CWelsDecoder::ReorderPicturesInDisplay ": [
+        1219,
+        1230
+    ],
+    "CWelsDecoder::DecodeParser ": [
+        1232,
+        1312
+    ],
+    "CWelsDecoder::DecodeFrame ": [
+        1314,
+        1338
+    ],
+    "CWelsDecoder::DecodeFrameEx ": [
+        1340,
+        1351
+    ],
+    "CWelsDecoder::ParseAccessUnit ": [
+        1353,
+        1392
+    ],
+    "CWelsDecoder::ThreadDecodeFrameInternal ": [
+        1397,
+        1446
+    ],
+    "WelsGetDecoderCapability ": [
+        1456,
+        1469
+    ],
+    "WelsCreateDecoder ": [
+        1476,
+        1489
+    ],
+    "WelsDestroyDecoder ": [
+        1494,
+        1498
+    ]
+}
+

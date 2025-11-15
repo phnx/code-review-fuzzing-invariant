@@ -1,0 +1,276 @@
+=====================
+codec/decoder/plus/src/welsDecoderExt.cpp
+=====================
+{
+    "DECLARE_PROCTHREAD ": [
+        "RELEASE_SEMAPHORE",
+        "RELEASE_SEMAPHORE",
+        "WAIT_SEMAPHORE",
+        "ConstructAccessUnit"
+    ],
+    "ConstructAccessUnit ": [
+        "",
+        "WAIT_EVENT",
+        "RESET_EVENT",
+        "GetThreadCount",
+        "RESET_EVENT",
+        "pWelsDecoder->DecodeFrame2WithCtx"
+    ],
+    "CWelsDecoder::CWelsDecoder ": [
+        "m_pWelsTrace->SetCodecInstance",
+        "m_pWelsTrace->SetTraceLevel",
+        "WelsLog",
+        "ResetReorderingPictureBuffers",
+        "GetCPUCount",
+        "memset",
+        "WelsGetTimeOfDay",
+        "WelsSnprintf",
+        "WelsSnprintf",
+        "WelsStrftime",
+        "WelsStrftime",
+        "WelsSnprintf",
+        "WelsGetMillisecond",
+        "WelsSnprintf",
+        "WelsGetMillisecond",
+        "WelsFopen",
+        "WelsFopen"
+    ],
+    "CWelsDecoder::~CWelsDecoder": [
+        "WelsLog",
+        "CloseDecoderThreads",
+        "UninitDecoder",
+        "WelsFclose",
+        "WelsFclose"
+    ],
+    "CWelsDecoder::Initialize ": [
+        "WelsLog",
+        "InitDecoder"
+    ],
+    "CWelsDecoder::Uninitialize": [
+        "UninitDecoder"
+    ],
+    "CWelsDecoder::UninitDecoder ": [
+        "WelsResetRefPicWithoutUnRef",
+        "UninitDecoderCtx"
+    ],
+    "CWelsDecoder::OpenDecoderThreads": [
+        "CREATE_SEMAPHORE",
+        "WelsMutexInit",
+        "CREATE_EVENT",
+        "SET_EVENT",
+        "CREATE_EVENT",
+        "SET_EVENT",
+        "CREATE_EVENT",
+        "CREATE_EVENT",
+        "CREATE_EVENT",
+        "CREATE_SEMAPHORE",
+        "CREATE_SEMAPHORE",
+        "CREATE_THREAD"
+    ],
+    "CWelsDecoder::CloseDecoderThreads": [
+        "WAIT_SEMAPHORE",
+        "RELEASE_SEMAPHORE",
+        "WAIT_THREAD",
+        "CLOSE_EVENT",
+        "CLOSE_EVENT",
+        "CLOSE_EVENT",
+        "CLOSE_SEMAPHORE",
+        "CLOSE_SEMAPHORE",
+        "WelsMutexDestroy",
+        "CLOSE_EVENT",
+        "CLOSE_EVENT",
+        "CLOSE_SEMAPHORE"
+    ],
+    "CWelsDecoder::UninitDecoderCtx ": [
+        "WelsLog",
+        "WelsEndDecoder",
+        "WelsLog",
+        "pCtx->pMemAlign->WelsGetMemoryUsage",
+        "WelsFree"
+    ],
+    "CWelsDecoder::InitDecoder ": [
+        "WelsLog",
+        "OpenDecoderThreads",
+        "memset",
+        "memset",
+        "memset",
+        "UninitDecoder",
+        "WelsDecoderLastDecPicInfoDefaults",
+        "InitDecoderCtx"
+    ],
+    "CWelsDecoder::InitDecoderCtx ": [
+        "WelsLog",
+        "UninitDecoderCtx",
+        "WelsMallocz",
+        "WELS_VERIFY_RETURN_PROC_IF",
+        "UninitDecoderCtx",
+        "WelsDecoderDefaults",
+        "WelsDecoderSpsPpsDefaults",
+        "pCtx->pMemAlign->WelsMallocz",
+        "WELS_VERIFY_RETURN_PROC_IF",
+        "UninitDecoderCtx",
+        "DecoderConfigParam",
+        "WELS_VERIFY_RETURN_IFNEQ",
+        "WELS_VERIFY_RETURN_PROC_IF",
+        "WelsInitDecoder",
+        "UninitDecoderCtx"
+    ],
+    "CWelsDecoder::ResetDecoder ": [
+        "ThreadResetDecoder",
+        "WelsLog",
+        "memcpy",
+        "WELS_VERIFY_RETURN_PROC_IF",
+        "InitDecoderCtx",
+        "UninitDecoderCtx",
+        "WelsLog",
+        "ResetReorderingPictureBuffers"
+    ],
+    "CWelsDecoder::ThreadResetDecoder ": [
+        "WelsLog",
+        "memcpy",
+        "ResetReorderingPictureBuffers",
+        "CloseDecoderThreads",
+        "UninitDecoder",
+        "InitDecoder",
+        "WelsLog"
+    ],
+    "CWelsDecoder::SetOption ": [
+        "memset",
+        "WELS_CLIP3",
+        "WelsLog",
+        "InitErrorCon",
+        "WelsLog",
+        "m_pWelsTrace->SetTraceLevel",
+        "m_pWelsTrace->SetTraceCallback",
+        "WelsLog",
+        "m_pWelsTrace->SetTraceCallbackContext",
+        "WelsLog",
+        "WelsLog"
+    ],
+    "CWelsDecoder::GetOption ": [
+        "static_cast<SDecoderStatistics*>",
+        "memcpy",
+        "static_cast<PVuiSarInfo>",
+        "memset",
+        "WAIT_SEMAPHORE",
+        "RELEASE_SEMAPHORE"
+    ],
+    "CWelsDecoder::DecodeFrameNoDelay ": [
+        "ThreadDecodeFrameInternal",
+        "WAIT_EVENT",
+        "RESET_EVENT",
+        "ReleaseBufferedReadyPicture",
+        "SET_EVENT",
+        "DecodeFrame2",
+        "DecodeFrame2"
+    ],
+    "CWelsDecoder::DecodeFrame2WithCtx ": [
+        "WelsLog",
+        "WelsLog",
+        "CheckBsBuffer",
+        "ResetDecoder",
+        "WelsFwrite",
+        "WelsFflush",
+        "WelsFwrite",
+        "WelsFflush",
+        "GetThreadCount",
+        "WelsTime",
+        "GetThreadCount",
+        "GetThreadCount",
+        "memset",
+        "WelsDecodeBs",
+        "ResetDecoder",
+        "ResetDecoder",
+        "IS_PARAM_SETS_NALS",
+        "WelsLog",
+        "WelsLog",
+        "ResetDecStatNums",
+        "WelsTime",
+        "OutputStatisticsLog",
+        "GetThreadCount",
+        "WAIT_EVENT",
+        "RESET_EVENT",
+        "BufferingReadyPicture",
+        "SET_EVENT",
+        "ReorderPicturesInDisplay",
+        "ResetDecStatNums",
+        "OutputStatisticsLog",
+        "WelsTime",
+        "GetThreadCount",
+        "WAIT_EVENT",
+        "RESET_EVENT",
+        "BufferingReadyPicture",
+        "SET_EVENT",
+        "ReorderPicturesInDisplay"
+    ],
+    "CWelsDecoder::DecodeFrame2 ": [
+        "DecodeFrame2WithCtx"
+    ],
+    "CWelsDecoder::FlushFrame ": [
+        "fprintf",
+        "memcpy"
+    ],
+    "CWelsDecoder::OutputStatisticsLog ": [
+        "WelsLog"
+    ],
+    "CWelsDecoder::BufferingReadyPicture ": [
+        "memcpy",
+        "GetThreadCount"
+    ],
+    "CWelsDecoder::ReleaseBufferedReadyPicture ": [
+        "fprintf",
+        "memcpy",
+        "fprintf",
+        "memcpy",
+        "fprintf",
+        "memcpy"
+    ],
+    "CWelsDecoder::ReorderPicturesInDisplay ": [
+        "BufferingReadyPicture",
+        "ReleaseBufferedReadyPicture"
+    ],
+    "CWelsDecoder::DecodeParser ": [
+        "WelsLog",
+        "WelsLog",
+        "WelsTime",
+        "CheckBsBuffer",
+        "ResetDecoder",
+        "WelsFwrite",
+        "WelsFflush",
+        "memset",
+        "WelsDecodeBs",
+        "ResetDecoder",
+        "memcpy",
+        "ResetDecStatNums",
+        "WelsLog",
+        "WelsTime"
+    ],
+    "CWelsDecoder::DecodeFrame ": [
+        "memset",
+        "DecodeFrame2"
+    ],
+    "CWelsDecoder::DecodeFrameEx ": [],
+    "CWelsDecoder::ParseAccessUnit ": [
+        "CopySpsPps",
+        "GetThreadCount",
+        "DecodeFrame2WithCtx",
+        "InitConstructAccessUnit",
+        "",
+        "InitialDqLayersContext"
+    ],
+    "CWelsDecoder::ThreadDecodeFrameInternal ": [
+        "WAIT_SEMAPHORE",
+        "const_cast<uint8_t*>",
+        "memcpy",
+        "ParseAccessUnit",
+        "RELEASE_SEMAPHORE",
+        "WAIT_SEMAPHORE",
+        "RELEASE_SEMAPHORE"
+    ],
+    "WelsGetDecoderCapability ": [
+        "memset"
+    ],
+    "WelsCreateDecoder ": [],
+    "WelsDestroyDecoder ": []
+}
+

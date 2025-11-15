@@ -1,0 +1,29 @@
+settings:INFO:2025-04-10 10:17:07.124359: /program/dig/src/dig.py /script/motivating_example/sample_set/second_max/fuzzing_test/modified_trace/f8ba8f39a6c1631b7e069ea5b54c7340e27871aa/0.trace -log 3 --nofilter --nosimplify --seed 27
+alg:INFO:analyzing '/script/motivating_example/sample_set/second_max/fuzzing_test/modified_trace/f8ba8f39a6c1631b7e069ea5b54c7340e27871aa/0.trace'
+alg:INFO:got 4 traces over 1 locs
+alg:INFO:check 24 invs using 4 traces (0.05s)
+dummy (24 invs):
+1. count - 4 == 0
+2. count <= 4
+3. -count <= -4
+4. a - max_ <= 0
+5. a - max(max_, 0) <= 0
+6. max(a, 0) - max_ <= 0
+7. min(sec_, 0) - a <= 0
+8. a - max(max_, sec_) <= 0
+9. max(a, sec_) - max_ <= 0
+10. a - max(count, max_) <= 0
+11. max(a, count) - max_ <= 0
+12. a - max(max_, sec_, 0) <= 0
+13. min(max_, sec_, 0) - a <= 0
+14. max(a, sec_, 0) - max_ <= 0
+15. min(count, sec_, 0) - a <= 0
+16. a - max(count, max_, 0) <= 0
+17. max(a, count, 0) - max_ <= 0
+18. a - max(count, max_, sec_) <= 0
+19. max(a, count, sec_) - max_ <= 0
+20. min(count, max_, sec_, 0) - a <= 0
+21. a - max(count, max_, sec_, 0) <= 0
+22. max(a, count, sec_, 0) - max_ <= 0
+23. a - sec_ === 0 (mod 65)
+24. -a + sec_ === 0 (mod 65)

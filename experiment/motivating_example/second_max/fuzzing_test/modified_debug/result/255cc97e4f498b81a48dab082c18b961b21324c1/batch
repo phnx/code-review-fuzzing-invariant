@@ -1,0 +1,63 @@
+(lldb) target create "modified_fuzz"
+Current executable set to '/script/motivating_example/sample_set/second_max/modified_fuzz' (x86_64).
+(lldb) command source -s 0 '/script/motivating_example/sample_set/second_max/fuzzing_test/modified_debug/script/255cc97e4f498b81a48dab082c18b961b21324c1/batch.lldb'
+Executing commands in '/script/motivating_example/sample_set/second_max/fuzzing_test/modified_debug/script/255cc97e4f498b81a48dab082c18b961b21324c1/batch.lldb'.
+(lldb) settings set interpreter.stop-command-source-on-error 0
+(lldb) settings set auto-confirm 1
+(lldb) breakpoint set --file /script/motivating_example/sample_set/second_max/modified.c --line 20
+Breakpoint 1: where = modified_fuzz`second_max + 489 at modified.c:20:9, address = 0x00000000000675a9
+(lldb) breakpoint command add 1
+(lldb) run /script/motivating_example/sample_set/second_max/fuzzing_test/modified_inputs/255cc97e4f498b81a48dab082c18b961b21324c1
+INFO: Running with entropic power schedule (0xFF, 100).
+INFO: Seed: 3379731998
+INFO: Loaded 1 modules   (16 inline 8-bit counters): 16 [0x5555555defc0, 0x5555555defd0), 
+INFO: Loaded 1 PC tables (16 PCs): 16 [0x5555555defd0,0x5555555df0d0), 
+/script/motivating_example/sample_set/second_max/modified_fuzz: Running 1 inputs 1 time(s) each.
+Running: /script/motivating_example/sample_set/second_max/fuzzing_test/modified_inputs/255cc97e4f498b81a48dab082c18b961b21324c1
+(lldb)  frame info
+frame #0: 0x00005555555bb5a9 modified_fuzz`second_max(count=3, arr=0x0000555555f67f50) at modified.c:20:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 3
+(lldb)  frame variable max -f dec 
+(int) max = -64075
+(lldb)  frame variable sec -f dec 
+(int) sec = -2147483648
+(lldb)  frame variable a -f dec 
+(int) a = -64075
+(lldb)  continue
+Process 154379 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb5a9 modified_fuzz`second_max(count=3, arr=0x0000555555f67f50) at modified.c:20:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 3
+(lldb)  frame variable max -f dec 
+(int) max = 2131755009
+(lldb)  frame variable sec -f dec 
+(int) sec = -2147483648
+(lldb)  frame variable a -f dec 
+(int) a = 2131755009
+(lldb)  continue
+Process 154379 resuming
+Command #7 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb5a9 modified_fuzz`second_max(count=3, arr=0x0000555555f67f50) at modified.c:20:9
+(lldb)  frame variable count -f dec 
+(unsigned int) count = 3
+(lldb)  frame variable max -f dec 
+(int) max = 2131755009
+(lldb)  frame variable sec -f dec 
+(int) sec = -2139094793
+(lldb)  frame variable a -f dec 
+(int) a = -2139094793
+(lldb)  continue
+Process 154379 resuming
+Command #7 'continue' continued the target.
+Executed /script/motivating_example/sample_set/second_max/fuzzing_test/modified_inputs/255cc97e4f498b81a48dab082c18b961b21324c1 in 14 ms
+***
+*** NOTE: fuzzing was not performed, you have only
+***       executed the target code on a fixed set of inputs.
+***
+Process 154379 exited with status = 0 (0x00000000)
+Process 154379 launched: '/script/motivating_example/sample_set/second_max/modified_fuzz' (x86_64)
+(lldb) quit

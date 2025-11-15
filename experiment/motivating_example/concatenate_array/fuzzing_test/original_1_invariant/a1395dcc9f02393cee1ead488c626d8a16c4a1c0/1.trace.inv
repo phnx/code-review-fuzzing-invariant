@@ -1,0 +1,15 @@
+settings:INFO:2025-04-10 05:50:13.144033: /program/dig/src/dig.py /script/motivating_example/sample_set/concatenate_array/fuzzing_test/original_1_trace/a1395dcc9f02393cee1ead488c626d8a16c4a1c0/1.trace -log 3 --nofilter --nosimplify --seed 27
+alg:INFO:analyzing '/script/motivating_example/sample_set/concatenate_array/fuzzing_test/original_1_trace/a1395dcc9f02393cee1ead488c626d8a16c4a1c0/1.trace'
+alg:INFO:got 17 traces over 1 locs
+alg:INFO:check 10 invs using 17 traces (0.06s)
+dummy (10 invs):
+1. dest_pos - orig_pos - 17 == 0
+2. -orig_pos <= 0
+3. orig_pos <= 16
+4. -dest_pos <= -17
+5. dest_pos - orig_pos <= 17
+6. -dest_pos + orig_pos <= -17
+7. -dest_pos - orig_pos <= -17
+8. min(dest_pos, 0) - orig_pos <= 0
+9. dest_pos + orig_pos === 1 (mod 2)
+10. -dest_pos - orig_pos === 1 (mod 2)

@@ -1,0 +1,52 @@
+settings:INFO:2025-04-10 05:50:29.433574: /program/dig/src/dig.py /script/motivating_example/sample_set/concatenate_array/fuzzing_test/original_1_trace/7f957038b8196612351548259a4545ccafab0351/1.trace -log 3 --nofilter --nosimplify --seed 27
+alg:INFO:analyzing '/script/motivating_example/sample_set/concatenate_array/fuzzing_test/original_1_trace/7f957038b8196612351548259a4545ccafab0351/1.trace'
+alg:INFO:got 8 traces over 1 locs
+alg:INFO:check 50 invs using 8 traces (0.08s)
+dummy (47 invs):
+1. orig_pos*val - 7*val == 0
+2. val**2 + 1850736640*val == 0
+3. dest_pos - orig_pos - 1 == 0
+4. val <= 0
+5. orig_pos <= 7
+6. dest_pos <= 8
+7. -orig_pos <= 0
+8. -dest_pos <= -1
+9. orig_pos + val <= 6
+10. dest_pos + val <= 7
+11. -orig_pos + val <= 0
+12. -dest_pos + val <= -1
+13. dest_pos - orig_pos <= 1
+14. dest_pos + orig_pos <= 15
+15. -dest_pos + orig_pos <= -1
+16. -dest_pos - orig_pos <= -1
+17. max(val, 0) - orig_pos <= 0
+18. val - min(dest_pos, 0) <= 0
+19. val - max(orig_pos, 0) <= 0
+20. min(val, 0) - orig_pos <= 0
+21. val - min(orig_pos, 0) <= 0
+22. max(val, 0) - dest_pos - 1 <= 0
+23. val + 1 - max(dest_pos, 0) <= 0
+24. min(val, 0) - dest_pos - 1 <= 0
+25. min(dest_pos, 0) - orig_pos <= 0
+26. min(dest_pos, val) - orig_pos <= 0
+27. val - min(dest_pos, orig_pos) <= 0
+28. orig_pos + 1 - max(dest_pos, 0) <= 0
+29. min(orig_pos, 0) - dest_pos - 1 <= 0
+30. dest_pos - 1 - max(orig_pos, 0) <= 0
+31. max(orig_pos, 0) - dest_pos - 1 <= 0
+32. val - min(dest_pos, orig_pos, 0) <= 0
+33. min(dest_pos, val, 0) - orig_pos <= 0
+34. min(orig_pos, val) - dest_pos - 1 <= 0
+35. val + 1 - max(dest_pos, orig_pos) <= 0
+36. dest_pos - 1 - max(orig_pos, val) <= 0
+37. orig_pos + 1 - max(dest_pos, val) <= 0
+38. max(orig_pos, val) - dest_pos - 1 <= 0
+39. max(orig_pos, val, 0) - dest_pos - 1 <= 0
+40. min(orig_pos, val, 0) - dest_pos - 1 <= 0
+41. val + 1 - max(dest_pos, orig_pos, 0) <= 0
+42. dest_pos - 1 - max(orig_pos, val, 0) <= 0
+43. orig_pos + 1 - max(dest_pos, val, 0) <= 0
+44. val === 0 (mod 1850736640)
+45. -val === 0 (mod 1850736640)
+46. dest_pos + orig_pos === 1 (mod 2)
+47. -dest_pos - orig_pos === 1 (mod 2)

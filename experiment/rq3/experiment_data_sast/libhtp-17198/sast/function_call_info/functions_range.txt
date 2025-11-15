@@ -1,0 +1,78 @@
+=====================
+htp/lzma/LzmaDec.c
+=====================
+{
+    "MY_FAST_CALL LZMA_DECODE_REAL": [
+        219,
+        587
+    ],
+    "IF_BIT_0": [
+        426,
+        434
+    ],
+    "MY_FAST_CALL LzmaDec_WriteRem": [
+        590,
+        616
+    ],
+    "MY_FAST_CALL LzmaDec_DecodeReal2": [
+        626,
+        652
+    ],
+    "LzmaDec_TryDummy": [
+        662,
+        801
+    ],
+    "IF_BIT_0_CHECK": [
+        787,
+        793
+    ],
+    "LzmaDec_InitDicAndState": [
+        855,
+        868
+    ],
+    "LzmaDec_Init": [
+        870,
+        874
+    ],
+    "LzmaDec_DecodeToDic": [
+        877,
+        1021
+    ],
+    "LzmaDec_DecodeToBuf": [
+        1024,
+        1078
+    ],
+    "LzmaDec_FreeProbs": [
+        1080,
+        1084
+    ],
+    "LzmaDec_FreeDict": [
+        1086,
+        1090
+    ],
+    "LzmaDec_Free": [
+        1092,
+        1096
+    ],
+    "LzmaProps_Decode": [
+        1098,
+        1123
+    ],
+    "LzmaDec_AllocateProbs2": [
+        1125,
+        1138
+    ],
+    "LzmaDec_AllocateProbs": [
+        1140,
+        1147
+    ],
+    "LzmaDec_Allocate": [
+        1149,
+        1183
+    ],
+    "LzmaDecode": [
+        1185,
+        1208
+    ]
+}
+

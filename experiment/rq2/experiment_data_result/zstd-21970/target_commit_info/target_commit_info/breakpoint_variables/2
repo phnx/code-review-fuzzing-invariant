@@ -1,0 +1,4 @@
+neededOutBuffSize
+zds->fParams.windowSize
+zds->fParams.frameContentSize
+neededInBuffSize

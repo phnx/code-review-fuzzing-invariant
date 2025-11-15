@@ -1,0 +1,166 @@
+=====================
+src/pix4.c
+=====================
+{
+    "*\npixGetGrayHistogram": [
+        114,
+        185
+    ],
+    "*\npixGetGrayHistogramMasked": [
+        210,
+        269
+    ],
+    "*\npixGetGrayHistogramInRect": [
+        290,
+        340
+    ],
+    "*\npixGetGrayHistogramTiled": [
+        358,
+        395
+    ],
+    "pixGetColorHistogram": [
+        415,
+        492
+    ],
+    "pixGetColorHistogramMasked": [
+        517,
+        615
+    ],
+    "*\npixGetCmapHistogram": [
+        632,
+        675
+    ],
+    "*\npixGetCmapHistogramMasked": [
+        697,
+        757
+    ],
+    "*\npixGetCmapHistogramInRect": [
+        777,
+        827
+    ],
+    "pixCountRGBColorsByHash": [
+        843,
+        862
+    ],
+    "pixCountRGBColors": [
+        879,
+        899
+    ],
+    "*\npixGetColorAmapHistogram": [
+        915,
+        951
+    ],
+    "amapGetCountForColor": [
+        966,
+        981
+    ],
+    "pixGetRankValue": [
+        1001,
+        1041
+    ],
+    "pixGetRankValueMaskedRGB": [
+        1071,
+        1128
+    ],
+    "pixGetRankValueMasked": [
+        1163,
+        1201
+    ],
+    "pixGetPixelAverage": [
+        1234,
+        1331
+    ],
+    "pixGetPixelStats": [
+        1352,
+        1392
+    ],
+    "pixGetAverageMaskedRGB": [
+        1419,
+        1485
+    ],
+    "pixGetAverageMasked": [
+        1521,
+        1624
+    ],
+    "pixGetAverageTiledRGB": [
+        1645,
+        1701
+    ],
+    "*\npixGetAverageTiled": [
+        1722,
+        1797
+    ],
+    "pixRowStats": [
+        1825,
+        1956
+    ],
+    "pixColumnStats": [
+        1985,
+        2114
+    ],
+    "pixGetRangeValues": [
+        2132,
+        2187
+    ],
+    "pixGetExtremeValue": [
+        2210,
+        2325
+    ],
+    "pixGetMaxValueInRect": [
+        2347,
+        2412
+    ],
+    "pixGetMaxColorIndex": [
+        2422,
+        2472
+    ],
+    "pixGetBinnedComponentRange": [
+        2496,
+        2556
+    ],
+    "pixGetRankColorArray": [
+        2597,
+        2727
+    ],
+    "pixGetBinnedColor": [
+        2759,
+        2887
+    ],
+    "*\npixDisplayColorArray": [
+        2909,
+        2952
+    ],
+    "*\npixRankBinByStrip": [
+        2983,
+        3052
+    ],
+    "*\npixaGetAlignedStats": [
+        3080,
+        3116
+    ],
+    "pixaExtractColumnFromEachPix": [
+        3127,
+        3167
+    ],
+    "pixGetRowStats": [
+        3202,
+        3294
+    ],
+    "pixGetColumnStats": [
+        3324,
+        3414
+    ],
+    "pixSetPixelColumn": [
+        3425,
+        3449
+    ],
+    "pixThresholdForFgBg": [
+        3465,
+        3502
+    ],
+    "pixSplitDistributionFgBg": [
+        3524,
+        3589
+    ]
+}
+

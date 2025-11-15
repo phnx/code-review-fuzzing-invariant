@@ -1,0 +1,22 @@
+settings:INFO:2025-04-10 05:46:18.065844: /program/dig/src/dig.py /script/motivating_example/sample_set/reverse_string/fuzzing_test/modified_trace/e5e45c98f1f5d83c4438054ab435bbaa4f155e30/0.trace -log 3 --nofilter --nosimplify --seed 27
+alg:INFO:analyzing '/script/motivating_example/sample_set/reverse_string/fuzzing_test/modified_trace/e5e45c98f1f5d83c4438054ab435bbaa4f155e30/0.trace'
+alg:INFO:got 51 traces over 1 locs
+infer.eqt:WARNING:NO EQTS RESULTS, reducing deg to 6
+infer.eqt:WARNING:NO EQTS RESULTS, reducing deg to 5
+infer.eqt:WARNING:NO EQTS RESULTS, reducing deg to 4
+infer.eqt:WARNING:NO EQTS RESULTS, reducing deg to 3
+infer.eqt:WARNING:NO EQTS RESULTS, reducing deg to 2
+infer.eqt:WARNING:NO EQTS RESULTS, reducing deg to 1
+infer.eqt:WARNING:NO EQTS RESULTS, reducing deg to 0
+alg:INFO:check 13 invs using 51 traces (0.10s)
+dummy (10 invs):
+1. -start <= -1
+2. -end + start <= 1
+3. min(end, 0) - start - 1 <= 0
+4. start - 1 - max(end, 0) <= 0
+5. min(temp, 0) - start - 2 <= 0
+6. start - 1 - max(end, temp) <= 0
+7. start - 1 - max(end, temp, 0) <= 0
+8. min(end, temp, 0) - start - 2 <= 0
+9. end - start === 1 (mod 2)
+10. -end + start === 1 (mod 2)

@@ -1,0 +1,32 @@
+settings:INFO:2025-04-10 06:52:08.571709: /program/dig/src/dig.py /script/motivating_example/sample_set/permutation/fuzzing_test/original_1_trace/e2f33c4b3a57dfe9ab2eab26e9e771ec34cc8214/0.trace -log 3 --nofilter --nosimplify --seed 27
+alg:INFO:analyzing '/script/motivating_example/sample_set/permutation/fuzzing_test/original_1_trace/e2f33c4b3a57dfe9ab2eab26e9e771ec34cc8214/0.trace'
+alg:INFO:got 45 traces over 1 locs
+infer.eqt:WARNING:NO EQTS RESULTS, reducing deg to 6
+infer.eqt:WARNING:NO EQTS RESULTS, reducing deg to 5
+infer.eqt:WARNING:NO EQTS RESULTS, reducing deg to 4
+infer.eqt:WARNING:NO EQTS RESULTS, reducing deg to 3
+infer.eqt:WARNING:NO EQTS RESULTS, reducing deg to 2
+infer.eqt:WARNING:NO EQTS RESULTS, reducing deg to 1
+infer.eqt:WARNING:NO EQTS RESULTS, reducing deg to 0
+alg:INFO:check 20 invs using 45 traces (0.05s)
+dummy (20 invs):
+1. i <= 5
+2. -i <= 0
+3. index <= 5
+4. -index <= 0
+5. i - index <= 5
+6. i + index <= 10
+7. -i + index <= 0
+8. -i - index <= 0
+9. -curr_val + i <= -20
+10. -curr_val + index <= -20
+11. min(i, 0) - index <= 0
+12. index - max(i, 0) <= 0
+13. min(index, 0) - i <= 0
+14. max(index, 0) - i <= 0
+15. min(curr_val, 0) - i <= 0
+16. min(curr_val, index) - i <= 0
+17. index - min(curr_val, i) <= 0
+18. min(curr_val, 0) - index <= 0
+19. min(curr_val, index, 0) - i <= 0
+20. min(curr_val, i, 0) - index <= 0

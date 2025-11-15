@@ -1,0 +1,96 @@
+(lldb) target create "original_1_fuzz"
+Current executable set to '/script/motivating_example/sample_set/gcd/original_1_fuzz' (x86_64).
+(lldb) command source -s 0 '/script/motivating_example/sample_set/gcd/fuzzing_test/original_1_debug/script/1ca1a4785bbf836d215ca2c73d307f252c517dd8/batch.lldb'
+Executing commands in '/script/motivating_example/sample_set/gcd/fuzzing_test/original_1_debug/script/1ca1a4785bbf836d215ca2c73d307f252c517dd8/batch.lldb'.
+(lldb) settings set interpreter.stop-command-source-on-error 0
+(lldb) settings set auto-confirm 1
+(lldb) breakpoint set --file /script/motivating_example/sample_set/gcd/original_1.c --line 10
+Breakpoint 1: where = original_1_fuzz`gcd + 124 at original_1.c:10:9, address = 0x000000000006742c
+(lldb) breakpoint command add 1
+(lldb) run /script/motivating_example/sample_set/gcd/fuzzing_test/modified_inputs/1ca1a4785bbf836d215ca2c73d307f252c517dd8
+INFO: Running with entropic power schedule (0xFF, 100).
+INFO: Seed: 3370127295
+INFO: Loaded 1 modules   (10 inline 8-bit counters): 10 [0x5555555defb0, 0x5555555defba), 
+INFO: Loaded 1 PC tables (10 PCs): 10 [0x5555555defc0,0x5555555df060), 
+/script/motivating_example/sample_set/gcd/original_1_fuzz: Running 1 inputs 1 time(s) each.
+Running: /script/motivating_example/sample_set/gcd/fuzzing_test/modified_inputs/1ca1a4785bbf836d215ca2c73d307f252c517dd8
+(lldb)  frame info
+frame #0: 0x00005555555bb42c original_1_fuzz`gcd(a=2105376255, b=-42107393) at original_1.c:10:9
+(lldb)  frame variable a -f dec 
+(int) a = 2105376255
+(lldb)  frame variable b -f dec 
+(int) b = -42107393
+(lldb)  continue
+Process 80970 resuming
+Command #5 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb42c original_1_fuzz`gcd(a=-42107393, b=6605) at original_1.c:10:9
+(lldb)  frame variable a -f dec 
+(int) a = -42107393
+(lldb)  frame variable b -f dec 
+(int) b = 6605
+(lldb)  continue
+Process 80970 resuming
+Command #5 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb42c original_1_fuzz`gcd(a=6605, b=-518) at original_1.c:10:9
+(lldb)  frame variable a -f dec 
+(int) a = 6605
+(lldb)  frame variable b -f dec 
+(int) b = -518
+(lldb)  continue
+Process 80970 resuming
+Command #5 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb42c original_1_fuzz`gcd(a=-518, b=389) at original_1.c:10:9
+(lldb)  frame variable a -f dec 
+(int) a = -518
+(lldb)  frame variable b -f dec 
+(int) b = 389
+(lldb)  continue
+Process 80970 resuming
+Command #5 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb42c original_1_fuzz`gcd(a=389, b=-129) at original_1.c:10:9
+(lldb)  frame variable a -f dec 
+(int) a = 389
+(lldb)  frame variable b -f dec 
+(int) b = -129
+(lldb)  continue
+Process 80970 resuming
+Command #5 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb42c original_1_fuzz`gcd(a=-129, b=2) at original_1.c:10:9
+(lldb)  frame variable a -f dec 
+(int) a = -129
+(lldb)  frame variable b -f dec 
+(int) b = 2
+(lldb)  continue
+Process 80970 resuming
+Command #5 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb42c original_1_fuzz`gcd(a=2, b=-1) at original_1.c:10:9
+(lldb)  frame variable a -f dec 
+(int) a = 2
+(lldb)  frame variable b -f dec 
+(int) b = -1
+(lldb)  continue
+Process 80970 resuming
+Command #5 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb42c original_1_fuzz`gcd(a=-1, b=0) at original_1.c:10:9
+(lldb)  frame variable a -f dec 
+(int) a = -1
+(lldb)  frame variable b -f dec 
+(int) b = 0
+(lldb)  continue
+Process 80970 resuming
+Command #5 'continue' continued the target.
+Executed /script/motivating_example/sample_set/gcd/fuzzing_test/modified_inputs/1ca1a4785bbf836d215ca2c73d307f252c517dd8 in 21 ms
+***
+*** NOTE: fuzzing was not performed, you have only
+***       executed the target code on a fixed set of inputs.
+***
+Process 80970 exited with status = 0 (0x00000000)
+Process 80970 launched: '/script/motivating_example/sample_set/gcd/original_1_fuzz' (x86_64)
+(lldb) quit

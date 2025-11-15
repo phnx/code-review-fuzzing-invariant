@@ -1,0 +1,1 @@
+"src/pix4.c","pixGetBinnedColor( PIX * pixs , PIX * pixg , l_int32 factor , l_int32 nbins , NUMA * nalut , l_uint32 ** pcarray , PIXA * pixadb)","2787-2788-2789-2791-2792-2793-2794-2795-2796-2797-2798-2799-2800-2801-2802-2823-2825-2826-2827-2828-2829-2830-2831-2833","112","909","7","20"

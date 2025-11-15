@@ -1,0 +1,3 @@
+cur->type
+cur->children
+cur->children->parent

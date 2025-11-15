@@ -1,0 +1,326 @@
+=====================
+lib/decompress/zstd_decompress.c
+=====================
+{
+    "ZSTD_sizeof_DCtx ": [
+        78,
+        84
+    ],
+    "ZSTD_estimateDCtxSize": [
+        86,
+        86
+    ],
+    "ZSTD_startingInputLength": [
+        89,
+        95
+    ],
+    "ZSTD_initDCtx_internal": [
+        97,
+        117
+    ],
+    "* ZSTD_initStaticDCtx": [
+        119,
+        130
+    ],
+    "* ZSTD_createDCtx_advanced": [
+        132,
+        142
+    ],
+    "* ZSTD_createDCtx": [
+        144,
+        148
+    ],
+    "ZSTD_clearDict": [
+        150,
+        156
+    ],
+    "ZSTD_freeDCtx": [
+        158,
+        173
+    ],
+    "ZSTD_copyDCtx": [
+        176,
+        180
+    ],
+    "ZSTD_isFrame": [
+        192,
+        203
+    ],
+    "ZSTD_frameHeaderSize_internal": [
+        210,
+        223
+    ],
+    "ZSTD_frameHeaderSize": [
+        229,
+        232
+    ],
+    "ZSTD_getFrameHeader_advanced": [
+        241,
+        315
+    ],
+    "ZSTD_getFrameHeader": [
+        323,
+        326
+    ],
+    "ZSTD_getFrameContentSize": [
+        334,
+        350
+    ],
+    "readSkippableFrameSize": [
+        352,
+        367
+    ],
+    "ZSTD_findDecompressedSize": [
+        374,
+        413
+    ],
+    "ZSTD_getDecompressedSize": [
+        423,
+        428
+    ],
+    "ZSTD_decodeFrameHeader": [
+        434,
+        448
+    ],
+    "ZSTD_errorFrameSizeInfo": [
+        450,
+        456
+    ],
+    "ZSTD_findFrameSizeInfo": [
+        458,
+        522
+    ],
+    "ZSTD_findFrameCompressedSize": [
+        529,
+        533
+    ],
+    "ZSTD_decompressBound": [
+        541,
+        557
+    ],
+    "ZSTD_insertBlock": [
+        566,
+        572
+    ],
+    "ZSTD_copyRawBlock": [
+        575,
+        586
+    ],
+    "ZSTD_setRleBlock": [
+        588,
+        599
+    ],
+    "ZSTD_decompressFrame": [
+        606,
+        689
+    ],
+    "ZSTD_decompressMultiFrame": [
+        691,
+        782
+    ],
+    "ZSTD_decompress_usingDict": [
+        784,
+        790
+    ],
+    "* ZSTD_getDDict": [
+        793,
+        808
+    ],
+    "ZSTD_decompressDCtx": [
+        810,
+        813
+    ],
+    "ZSTD_decompress": [
+        816,
+        830
+    ],
+    "ZSTD_nextSrcSizeToDecompress": [
+        837,
+        837
+    ],
+    "ZSTD_nextSrcSizeToDecompressWithInputSize": [
+        849,
+        855
+    ],
+    "ZSTD_nextInputType": [
+        857,
+        877
+    ],
+    "ZSTD_isSkipFrame": [
+        879,
+        879
+    ],
+    "ZSTD_decompressContinue": [
+        885,
+        1033
+    ],
+    "ZSTD_refDictContent": [
+        1036,
+        1043
+    ],
+    "ZSTD_loadDEntropy": [
+        1048,
+        1128
+    ],
+    "ZSTD_decompress_insertDictionary": [
+        1130,
+        1149
+    ],
+    "ZSTD_decompressBegin": [
+        1151,
+        1172
+    ],
+    "ZSTD_decompressBegin_usingDict": [
+        1174,
+        1182
+    ],
+    "ZSTD_decompressBegin_usingDDict": [
+        1187,
+        1204
+    ],
+    "ZSTD_getDictID_fromDict": [
+        1210,
+        1215
+    ],
+    "ZSTD_getDictID_fromFrame": [
+        1230,
+        1236
+    ],
+    "ZSTD_decompress_usingDDict": [
+        1242,
+        1251
+    ],
+    "* ZSTD_createDStream": [
+        1258,
+        1262
+    ],
+    "* ZSTD_initStaticDStream": [
+        1264,
+        1267
+    ],
+    "* ZSTD_createDStream_advanced": [
+        1269,
+        1272
+    ],
+    "ZSTD_freeDStream": [
+        1274,
+        1277
+    ],
+    "ZSTD_DStreamInSize": [
+        1282,
+        1282
+    ],
+    "ZSTD_DStreamOutSize": [
+        1283,
+        1283
+    ],
+    "ZSTD_DCtx_loadDictionary_advanced": [
+        1285,
+        1299
+    ],
+    "ZSTD_DCtx_loadDictionary_byReference": [
+        1301,
+        1304
+    ],
+    "ZSTD_DCtx_loadDictionary": [
+        1306,
+        1309
+    ],
+    "ZSTD_DCtx_refPrefix_advanced": [
+        1311,
+        1316
+    ],
+    "ZSTD_DCtx_refPrefix": [
+        1318,
+        1321
+    ],
+    "ZSTD_initDStream_usingDict": [
+        1327,
+        1333
+    ],
+    "ZSTD_initDStream": [
+        1336,
+        1340
+    ],
+    "ZSTD_initDStream_usingDDict": [
+        1345,
+        1350
+    ],
+    "ZSTD_resetDStream": [
+        1355,
+        1359
+    ],
+    "ZSTD_DCtx_refDDict": [
+        1362,
+        1371
+    ],
+    "ZSTD_DCtx_setMaxWindowSize": [
+        1376,
+        1386
+    ],
+    "ZSTD_DCtx_setFormat": [
+        1388,
+        1391
+    ],
+    "ZSTD_dParam_getBounds": [
+        1393,
+        1414
+    ],
+    "ZSTD_dParam_withinBounds": [
+        1419,
+        1426
+    ],
+    "ZSTD_DCtx_setParameter": [
+        1432,
+        1452
+    ],
+    "ZSTD_DCtx_reset": [
+        1454,
+        1469
+    ],
+    "ZSTD_sizeof_DStream": [
+        1472,
+        1475
+    ],
+    "ZSTD_decodingBufferSize_min": [
+        1477,
+        1486
+    ],
+    "ZSTD_estimateDStreamSize": [
+        1488,
+        1494
+    ],
+    "ZSTD_estimateDStreamSize_fromFrame": [
+        1496,
+        1506
+    ],
+    "ZSTD_DCtx_isOverflow": [
+        1511,
+        1514
+    ],
+    "ZSTD_DCtx_updateOversizedDuration": [
+        1516,
+        1522
+    ],
+    "ZSTD_DCtx_isOversizedTooLong": [
+        1524,
+        1527
+    ],
+    "ZSTD_checkOutBuffer": [
+        1530,
+        1545
+    ],
+    "ZSTD_decompressContinueStream": [
+        1552,
+        1579
+    ],
+    "ZSTD_decompressStream": [
+        1581,
+        1864
+    ],
+    "ZSTD_decompressStream_simpleArgs ": [
+        1866,
+        1878
+    ]
+}
+

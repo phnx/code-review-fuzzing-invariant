@@ -1,0 +1,2 @@
+location_hash,location_file,location_start_line,location_start_column,location_end_line,location_end_column,warning_in_target_file,warning_in_target_function,warning_in_target_code_block,warning_rule_id,warning_rule_name,warning_message,warning_weakness,warning_severity
+ec49397957321aef62f2cfd48c9c351dc72b9d3ba202c051e8d980c40b9a2ab6,Packet++/src/SSLHandshake.cpp,1080,2,-1,82,True,False,False,FF1004,buffer/memcpy,buffer/memcpy:Does not check for buffer overflows when copying to destination (CWE-120).,CWE-120,LOW

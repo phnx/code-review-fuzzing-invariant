@@ -1,0 +1,345 @@
+=====================
+src/lib/jp2/codestream/PacketIter.cpp
+=====================
+{
+    "update_pi_dxy_for_comp": [
+        "std::min<uint32_t>",
+        "std::min<uint32_t>"
+    ],
+    "update_pi_dxy": [
+        "update_pi_dxy_for_comp"
+    ],
+    "pi_next_lrcp": [
+        "GRK_ERROR",
+        "pi->update_include"
+    ],
+    "pi_next_rlcp": [
+        "GRK_ERROR",
+        "pi->update_include"
+    ],
+    "pi_next_l": [
+        "GRK_ERROR",
+        "ceildiv<uint64_t>",
+        "ceildiv<uint64_t>",
+        "ceildiv<uint64_t>",
+        "ceildiv<uint64_t>",
+        "uint_floordivpow2",
+        "ceildiv<uint64_t>",
+        "uint_floordivpow2",
+        "uint_floordivpow2",
+        "ceildiv<uint64_t>",
+        "uint_floordivpow2"
+    ],
+    "pi_next_rpcl": [
+        "update_pi_dxy",
+        "pi_next_l",
+        "pi->update_include"
+    ],
+    "pi_next_pcrl": [
+        "GRK_ERROR",
+        "update_pi_dxy",
+        "std::min<uint32_t>",
+        "pi_next_l",
+        "pi->update_include"
+    ],
+    "pi_next_cprl": [
+        "GRK_ERROR",
+        "update_pi_dxy_for_comp",
+        "std::min<uint32_t>",
+        "pi_next_l",
+        "pi->update_include"
+    ],
+    "grk_get_encoding_parameters": [
+        "assert",
+        "assert",
+        "assert",
+        "std::max<uint32_t>",
+        "std::min<uint32_t>",
+        "std::max<uint32_t>",
+        "std::min<uint32_t>",
+        "ceildiv<uint32_t>",
+        "ceildiv<uint32_t>",
+        "ceildiv<uint32_t>",
+        "ceildiv<uint32_t>",
+        "std::min<uint32_t>",
+        "std::min<uint32_t>",
+        "ceildivpow2<uint32_t>",
+        "ceildivpow2<uint32_t>",
+        "ceildivpow2<uint32_t>",
+        "ceildivpow2<uint32_t>",
+        "uint_floordivpow2",
+        "uint_floordivpow2",
+        "ceildivpow2<uint32_t>",
+        "ceildivpow2<uint32_t>"
+    ],
+    "grk_get_all_encoding_parameters": [
+        "assert",
+        "assert",
+        "assert",
+        "std::max<uint32_t>",
+        "std::min<uint32_t>",
+        "uint_adds",
+        "std::max<uint32_t>",
+        "std::min<uint32_t>",
+        "uint_adds",
+        "ceildiv<uint32_t>",
+        "ceildiv<uint32_t>",
+        "ceildiv<uint32_t>",
+        "ceildiv<uint32_t>",
+        "std::min<uint32_t>",
+        "std::min<uint32_t>",
+        "ceildivpow2<uint32_t>",
+        "ceildivpow2<uint32_t>",
+        "ceildivpow2<uint32_t>",
+        "ceildivpow2<uint32_t>",
+        "uint_floordivpow2",
+        "uint_floordivpow2",
+        "ceildivpow2<uint32_t>",
+        "ceildivpow2<uint32_t>"
+    ],
+    "* pi_create": [
+        "assert",
+        "assert",
+        "assert",
+        "grk_calloc",
+        "pi_destroy",
+        "grk_calloc",
+        "pi_destroy"
+    ],
+    "pi_update_encode_poc_and_final": [
+        "assert",
+        "assert"
+    ],
+    "pi_update_encode_no_poc": [
+        "assert",
+        "assert"
+    ],
+    "pi_update_decode_poc": [
+        "assert",
+        "assert",
+        "std::min<uint16_t>"
+    ],
+    "pi_update_decode_no_poc": [
+        "assert",
+        "assert"
+    ],
+    "pi_check_next_level": [
+        "pi_check_next_level",
+        "pi_check_next_level",
+        "pi_check_next_level",
+        "pi_check_next_level",
+        "pi_check_next_level"
+    ],
+    "* pi_create_decompress": [
+        "assert",
+        "assert",
+        "assert",
+        "grk_malloc",
+        "grk_malloc",
+        "grk_free",
+        "pi_create",
+        "grk_free",
+        "grk_free",
+        "grk_get_all_encoding_parameters",
+        "grk_free",
+        "grk_free",
+        "pi_update_decode_poc",
+        "pi_update_decode_no_poc"
+    ],
+    "* pi_create_compress": [
+        "assert",
+        "assert",
+        "assert",
+        "grk_malloc",
+        "grk_malloc",
+        "grk_free",
+        "pi_create",
+        "grk_free",
+        "grk_free",
+        "grk_get_all_encoding_parameters",
+        "grk_free",
+        "grk_free",
+        "GRK_IS_CINEMA",
+        "pi_update_encode_poc_and_final",
+        "pi_update_encode_no_poc"
+    ],
+    "pi_enable_tile_part_generation": [
+        "j2k_convert_progression_order",
+        "GRK_IS_CINEMA",
+        "GRK_IS_IMF",
+        "GRK_IS_CINEMA",
+        "GRK_IS_IMF",
+        "pi_check_next_level",
+        "pi_check_next_level",
+        "pi_check_next_level",
+        "pi_check_next_level",
+        "pi_check_next_level"
+    ],
+    "pi_destroy": [
+        "p_pi->destroy_include"
+    ],
+    "pi_update_encoding_parameters": [
+        "assert",
+        "assert",
+        "assert",
+        "grk_get_encoding_parameters",
+        "pi_update_encode_poc_and_final",
+        "pi_update_encode_no_poc"
+    ],
+    "pi_next": [
+        "pi_next_lrcp",
+        "pi_next_rlcp",
+        "pi_next_rpcl",
+        "pi_next_pcrl",
+        "pi_next_cprl"
+    ],
+    "PacketIter::PacketIter": [
+        "memset"
+    ],
+    "PacketIter::~PacketIter": [
+        "grk_free",
+        "grk_free"
+    ],
+    "* PacketIter::get_include": [
+        "assert",
+        "include.size",
+        "include.size",
+        "memset",
+        "include.push_back"
+    ],
+    "PacketIter::update_include": [
+        "assert",
+        "get_include"
+    ],
+    "PacketIter::destroy_include": [
+        "include.clear"
+    ]
+}
+
+=====================
+src/lib/jp2/t2/T2Decompress.cpp
+=====================
+{
+    "T2Decompress::T2Decompress": [],
+    "T2Decompress::decompress_packets": [
+        "pi_create_decompress",
+        "packetLengths->getInit",
+        "pi_destroy",
+        "GRK_ERROR",
+        "pi_next",
+        "src_buf->getRemainingLength",
+        "GRK_WARN",
+        "packetLengths->getNext",
+        "band->createPrecinct",
+        "tilec->isWholeTileDecoding",
+        "band->getPrecinct",
+        "tilec->subbandIntersectsAOI",
+        "decompress_packet",
+        "pi_destroy",
+        "std::max<uint8_t>",
+        "src_buf->incr_cur_chunk_offset",
+        "skip_packet",
+        "pi_destroy",
+        "GRK_WARN",
+        "GRK_INFO",
+        "GRK_INFO",
+        "GRK_WARN",
+        "pi_destroy",
+        "GRK_ERROR"
+    ],
+    "T2Decompress::decompress_packet": [
+        "read_packet_header",
+        "read_packet_data"
+    ],
+    "T2Decompress::init_seg": [
+        "seg->clear"
+    ],
+    "T2Decompress::read_packet_header": [
+        "src_buf->get_global_ptr",
+        "src_buf->getRemainingLength",
+        "band->isEmpty",
+        "band->getPrecinct",
+        "GRK_ERROR",
+        "prc->init",
+        "prc->getInclTree",
+        "prc->getInclTree",
+        "prc->getInclTree",
+        "prc->getImsbTree",
+        "prc->getImsbTree",
+        "prc->getImsbTree",
+        "prc->getNumCblks",
+        "prc->getDecompressedBlockPtr",
+        "TruncatedPacketHeaderException",
+        "GRK_WARN",
+        "GRK_ERROR",
+        "cp->ppm_marker->m_tile_packet_headers.size",
+        "GRK_ERROR",
+        "TruncatedPacketHeaderException",
+        "bio->read",
+        "band->isEmpty",
+        "band->getPrecinct",
+        "prc->getNumCblks",
+        "prc->getDecompressedBlockPtr",
+        "prc->getInclTree",
+        "prc->getInclTree",
+        "bio.get",
+        "GRK_WARN",
+        "GRK_WARN",
+        "msg.c_str",
+        "bio->read",
+        "prc->getImsbTree",
+        "prc->getImsbTree",
+        "bio.get",
+        "prc->getImsbTree",
+        "prc->getImsbTree",
+        "bio.get",
+        "assert",
+        "GRK_WARN",
+        "GRK_WARN",
+        "bio->getnumpasses",
+        "bio->getcommacode",
+        "init_seg",
+        "init_seg",
+        "GRK_WARN",
+        "assert",
+        "std::min<int32_t>",
+        "floorlog2<uint32_t>",
+        "GRK_ERROR",
+        "bio->read",
+        "cblk->packet_length_info.push_back",
+        "PacketLengthInfo",
+        "floorlog2<uint32_t>",
+        "init_seg",
+        "bio->inalign",
+        "bio->numbytes",
+        "TruncatedPacketHeaderException",
+        "GRK_WARN",
+        "src_buf->incr_cur_chunk_offset",
+        "TruncatedPacketHeaderException"
+    ],
+    "T2Decompress::read_packet_data": [
+        "band->getPrecinct",
+        "prc->getNumCblks",
+        "prc->getDecompressedBlockPtr",
+        "src_buf->getRemainingLength",
+        "cblk->cleanup_seg_buffers",
+        "GRK_ERROR",
+        "cblk->seg_buffers.push_back",
+        "src_buf->get_global_ptr",
+        "src_buf->incr_cur_chunk_offset"
+    ],
+    "T2Decompress::skip_packet": [
+        "src_buf->get_cur_chunk_len",
+        "read_packet_header",
+        "skip_packet_data",
+        "src_buf->incr_cur_chunk_offset"
+    ],
+    "T2Decompress::skip_packet_data": [
+        "band->isEmpty",
+        "band->getPrecinct",
+        "prc->getNumCblks",
+        "prc->getDecompressedBlockPtr",
+        "GRK_WARN"
+    ]
+}
+

@@ -1,0 +1,222 @@
+location_hash,location_file,location_start_line,location_start_column,location_end_line,location_end_column,warning_rule_id,warning_rule_name,warning_message,warning_weakness,warning_severity
+f69e6254f97e696:1,Dist/header/SSLCommon.h,467,7,-1,31,cpp/irregular-enum-init,Irregular enum initialization,"In an enumerator list, the = construct should not be used to explicitly initialize members other than the first, unless all items are explicitly initialized.",,LOW
+f69e6254f97e696:1,Packet++/header/SSLCommon.h,467,7,-1,31,cpp/irregular-enum-init,Irregular enum initialization,"In an enumerator list, the = construct should not be used to explicitly initialize members other than the first, unless all items are explicitly initialized.",,LOW
+f3cbae69b22dca7d:1,Dist/header/IPv4Layer.h,111,7,-1,22,cpp/irregular-enum-init,Irregular enum initialization,"In an enumerator list, the = construct should not be used to explicitly initialize members other than the first, unless all items are explicitly initialized.",,LOW
+f3cbae69b22dca7d:1,Packet++/header/IPv4Layer.h,111,7,-1,22,cpp/irregular-enum-init,Irregular enum initialization,"In an enumerator list, the = construct should not be used to explicitly initialize members other than the first, unless all items are explicitly initialized.",,LOW
+38ada89d8d0e157a:1,Dist/header/SSLCommon.h,404,7,-1,23,cpp/irregular-enum-init,Irregular enum initialization,"In an enumerator list, the = construct should not be used to explicitly initialize members other than the first, unless all items are explicitly initialized.",,LOW
+38ada89d8d0e157a:1,Packet++/header/SSLCommon.h,404,7,-1,23,cpp/irregular-enum-init,Irregular enum initialization,"In an enumerator list, the = construct should not be used to explicitly initialize members other than the first, unless all items are explicitly initialized.",,LOW
+3c982e90e5944e5b:1,Dist/header/IPv4Layer.h,61,7,-1,22,cpp/irregular-enum-init,Irregular enum initialization,"In an enumerator list, the = construct should not be used to explicitly initialize members other than the first, unless all items are explicitly initialized.",,LOW
+3c982e90e5944e5b:1,Packet++/header/IPv4Layer.h,61,7,-1,22,cpp/irregular-enum-init,Irregular enum initialization,"In an enumerator list, the = construct should not be used to explicitly initialize members other than the first, unless all items are explicitly initialized.",,LOW
+661e33c053b6d229:1,Common++/header/SystemUtils.h,271,15,-1,19,cpp/array-in-interface,No raw arrays in interfaces,Raw arrays should not be used in interfaces. A container class should be used instead.,,LOW
+661e33c053b6d229:1,Dist/header/SystemUtils.h,271,15,-1,19,cpp/array-in-interface,No raw arrays in interfaces,Raw arrays should not be used in interfaces. A container class should be used instead.,,LOW
+c11ef436b1975358:1,Pcap++/src/RawSocketDevice.cpp,516,2,-1,34,cpp/resource-not-released-in-destructor,Resource not released in destructor,Resource m_Socket is acquired by class RawSocketDevice but not released anywhere in this class.,CWE-404,MEDIUM
+4f67477050ba3062:1,Packet++/src/RawPacket.cpp,32,2,-1,12,cpp/virtual-call-in-constructor,Virtual call from constructor or destructor,"Call to virtual function [setRawData](1) which is overridden in [MBufRawPacket](2). If you intend to statically call this virtual function, it should be qualified with RawPacket::.",,MEDIUM
+1d5606fbf9269b9:1,Packet++/src/RawPacket.cpp,26,2,-1,12,cpp/virtual-call-in-constructor,Virtual call from constructor or destructor,"Call to virtual function [setRawData](1) which is overridden in [MBufRawPacket](2). If you intend to statically call this virtual function, it should be qualified with RawPacket::.",,MEDIUM
+802a4d7a166d2b5c:1,Dist/header/TablePrinter.h,-1,-1,-1,-1,cpp/missing-header-guard,Missing header guard,This header file should contain a header guard to prevent multiple inclusion.,,LOW
+caab8757f08ea2f7:1,Tests/Pcap++Test/Common/GlobalTestArgs.h,-1,-1,-1,-1,cpp/missing-header-guard,Missing header guard,This header file should contain a header guard to prevent multiple inclusion.,,LOW
+cebc99024338d57d:1,3rdParty/LightPcapNg/LightPcapNg/src/light_platform.c,114,2,126,3,cpp/trivial-switch,No trivial switch statements,"This switch statement should either handle more cases, or be rewritten as an if statement.",,LOW
+14eb212f86ca0924:1,3rdParty/LightPcapNg/LightPcapNg/src/light_platform.c,48,2,56,3,cpp/trivial-switch,No trivial switch statements,"This switch statement should either handle more cases, or be rewritten as an if statement.",,LOW
+3323bcb346c6a24c:1,Common++/src/SystemUtils.cpp,287,2,308,3,cpp/trivial-switch,No trivial switch statements,"This switch statement should either handle more cases, or be rewritten as an if statement.",,LOW
+ac41f9f0227ebec9:1,Examples/IPDefragUtil/main.cpp,364,6,374,7,cpp/trivial-switch,No trivial switch statements,"This switch statement should either handle more cases, or be rewritten as an if statement.",,LOW
+ac41f9f0227ebec9:1,Examples/IPFragUtil/main.cpp,471,6,481,7,cpp/trivial-switch,No trivial switch statements,"This switch statement should either handle more cases, or be rewritten as an if statement.",,LOW
+d84ac5f8793cca09:1,Packet++/src/HttpLayer.cpp,874,3,893,4,cpp/trivial-switch,No trivial switch statements,"This switch statement should either handle more cases, or be rewritten as an if statement.",,LOW
+19280ddf121b4155:1,Packet++/src/HttpLayer.cpp,927,4,933,5,cpp/trivial-switch,No trivial switch statements,"This switch statement should either handle more cases, or be rewritten as an if statement.",,LOW
+d84ac5f8793cca09:3,Packet++/src/HttpLayer.cpp,945,3,977,4,cpp/trivial-switch,No trivial switch statements,"This switch statement should either handle more cases, or be rewritten as an if statement.",,LOW
+7190bbb0cc6a60f4:1,Packet++/src/HttpLayer.cpp,871,2,1212,3,cpp/long-switch,Long switch case,"Switch has at least one case that is too long: [50 (47 lines)](1).
+Switch has at least one case that is too long: [51 (36 lines)](2).
+Switch has at least one case that is too long: [52 (144 lines)](3).
+Switch has at least one case that is too long: [53 (83 lines)](4).",,LOW
+761d64112a4e8af1:1,Packet++/src/HttpLayer.cpp,243,2,333,3,cpp/long-switch,Long switch case,Switch has at least one case that is too long: [80 (32 lines)](1).,,LOW
+b8d4df118ef8ee4f:1,Packet++/src/SipLayer.cpp,837,2,1177,3,cpp/long-switch,Long switch case,"Switch has at least one case that is too long: [49 (37 lines)](1).
+Switch has at least one case that is too long: [51 (34 lines)](2).
+Switch has at least one case that is too long: [52 (170 lines)](3).
+Switch has at least one case that is too long: [53 (46 lines)](4).",,LOW
+b9567304ee794cfd:1,3rdParty/LightPcapNg/LightPcapNg/src/light_pcapng_ext.c,354,6,-1,33,cpp/guarded-free,Guarded Free,unnecessary NULL check before call to [free](1),,LOW
+5a855fdce964b2d:1,3rdParty/LightPcapNg/LightPcapNg/src/light_pcapng_ext.c,357,6,-1,32,cpp/guarded-free,Guarded Free,unnecessary NULL check before call to [free](1),,LOW
+bb77f92937a9dbe2:1,3rdParty/LightPcapNg/LightPcapNg/src/light_pcapng_ext.c,360,6,-1,33,cpp/guarded-free,Guarded Free,unnecessary NULL check before call to [free](1),,LOW
+17fdf32a400d9f96:1,3rdParty/LightPcapNg/LightPcapNg/src/light_pcapng_ext.c,363,6,-1,27,cpp/guarded-free,Guarded Free,unnecessary NULL check before call to [free](1),,LOW
+df7f01cde56bf518:1,Tests/Pcap++Test/Tests/TcpReassemblyTests.cpp,200,3,-1,8,cpp/rethrow-no-exception,Accidental rethrow,"As there is no current exception, this rethrow expression will terminate the program.",,MEDIUM
+6088fd14eececcab:1,Tests/Pcap++Test/Tests/TcpReassemblyTests.cpp,204,3,-1,8,cpp/rethrow-no-exception,Accidental rethrow,"As there is no current exception, this rethrow expression will terminate the program.",,MEDIUM
+ddd66a427743af98:1,Examples/HttpAnalyzer/HttpStatsCollector.h,164,20,-1,28,cpp/declaration-hides-variable,Declaration hides variable,Variable tcpLayer hides another variable of the same name (on [line 153](1)).,,LOW
+ddd66a427743af98:2,Examples/HttpAnalyzer/HttpStatsCollector.h,172,20,-1,28,cpp/declaration-hides-variable,Declaration hides variable,Variable tcpLayer hides another variable of the same name (on [line 153](1)).,,LOW
+8f3f6d82ae1850d9:1,Pcap++/src/PcapLiveDevice.cpp,425,7,-1,10,cpp/declaration-hides-variable,Declaration hides variable,Variable err hides another variable of the same name (on [line 412](1)).,,LOW
+aaa5b2674bc33909:4,Packet++/src/HttpLayer.cpp,983,3,1122,4,cpp/complex-block,Block with too many statements,Block with too many statements (5 complex statements in the block).,,LOW
+aaa5b2674bc33909:2,Packet++/src/SipLayer.cpp,935,3,1100,4,cpp/complex-block,Block with too many statements,Block with too many statements (6 complex statements in the block).,,LOW
+380a0cda9e03c474:1,Packet++/src/SipLayer.cpp,838,2,1177,3,cpp/complex-block,Block with too many statements,Block with too many statements (4 complex statements in the block).,,LOW
+f1f0b31b3bdb4440:1,Tests/Packet++Test/Tests/PacketTests.cpp,314,-1,503,2,cpp/complex-block,Block with too many statements,Block with too many statements (4 complex statements in the block).,,LOW
+a2df1efefb4d10ff:1,Packet++/header/ProtocolType.h,218,21,-1,24,cpp/unused-static-variable,Unused static variable,Static variable GTP is never read.,CWE-563,LOW
+2aebdcc6dc1a1d63:1,Packet++/header/ProtocolType.h,193,21,-1,24,cpp/unused-static-variable,Unused static variable,Static variable SIP is never read.,CWE-563,LOW
+de500ad60e684013:1,Packet++/header/ProtocolType.h,98,21,-1,26,cpp/unused-static-variable,Unused static variable,Static variable PPPoE is never read.,CWE-563,LOW
+9053e126de4a5f09:1,Packet++/header/ProtocolType.h,68,21,-1,25,cpp/unused-static-variable,Unused static variable,Static variable HTTP is never read.,CWE-563,LOW
+c514216128fc901f:1,Packet++/header/ProtocolType.h,43,21,-1,23,cpp/unused-static-variable,Unused static variable,Static variable IP is never read.,CWE-563,LOW
+3b77ba7a1ba1978:1,Packet++/src/SSLHandshake.cpp,676,47,-1,81,cpp/unused-static-function,Unused static function,Static function createCipherSuiteStringToObjectMap is unreachable,CWE-561,LOW
+9d1ad46717a66b7d:1,Packet++/src/SSLHandshake.cpp,344,44,-1,74,cpp/unused-static-function,Unused static function,Static function createCipherSuiteIdToObjectMap is unreachable,CWE-561,LOW
+6e2887395c00c1b:1,Packet++/src/IPv6Extensions.cpp,21,16,-1,40,cpp/rule-of-two,Inconsistent definition of copy constructor and assignment ('Rule of Two'),No matching copy constructor in class IPv6Extension. It is good practice to match a copy assignment operator with a copy constructor.,,MEDIUM
+c3dabbc2dce220c4:1,3rdParty/LightPcapNg/LightPcapNg/include/light_internal.h,44,2,-1,18,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+6770334cf4672efd:1,3rdParty/LightPcapNg/LightPcapNg/src/light_platform.c,121,3,123,12,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+6ff5a5511e1eec2a:1,3rdParty/LightPcapNg/LightPcapNg/src/light_manipulate.c,408,4,-1,39,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+a64a251a8d61daa6:1,3rdParty/LightPcapNg/LightPcapNg/src/light_manipulate.c,287,3,288,109,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+484e5cf4a2142208:1,3rdParty/LightPcapNg/LightPcapNg/src/light_manipulate.c,274,3,-1,53,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+5989abbc2ba5d04d:1,Dist/header/PointerVector.h,109,3,-1,53,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+f1a385e1896985a:1,Examples/IcmpFileTransfer/IcmpFileTransfer-catcher.cpp,187,2,-1,80,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+5989abbc2ba5d04d:1,Common++/header/PointerVector.h,109,3,-1,53,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+fd4a807d635e11e6:1,Packet++/src/TextBasedProtocol.cpp,462,-1,-1,49,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+b88c3229e17f6693:1,Packet++/src/TextBasedProtocol.cpp,443,2,-1,48,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+4aa58252c2c71666:1,Packet++/src/TextBasedProtocol.cpp,306,-1,313,5,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+f230a4f501d46b62:1,Pcap++/src/DpdkDevice.cpp,874,2,-1,55,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+83c997541e7f17fb:1,Pcap++/src/DpdkDevice.cpp,830,2,-1,57,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+6a331ff437f81be1:1,Pcap++/src/DpdkDevice.cpp,732,2,-1,24,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+de69140ee0a165bc:1,Pcap++/src/KniDevice.cpp,593,2,-1,59,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+7769b543ded78770:1,Pcap++/src/KniDevice.cpp,550,2,-1,61,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+b25f4817aaacc3be:1,Packet++/src/TcpReassembly.cpp,693,6,-1,104,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+836647879fab3656:1,Packet++/src/TcpReassembly.cpp,452,3,-1,70,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+9af2caa2ba3b60a8:1,Pcap++/src/PfRingDevice.cpp,583,4,589,7,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+eb5238777ae7e6d9:1,Pcap++/src/WinPcapLiveDevice.cpp,94,4,-1,42,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+2cae56f9b5558543:1,Pcap++/src/RawSocketDevice.cpp,126,2,-1,105,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+c05aae6e4e2b6efc:1,Tests/Pcap++Test/Tests/DpdkTests.cpp,276,2,282,43,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+f18bbe88edec144f:1,Tests/Pcap++Test/Tests/PacketParsingTests.cpp,252,-1,254,23,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+cfd80494b64553c3:1,Tests/Pcap++Test/Tests/TcpReassemblyTests.cpp,168,2,179,5,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+9be1f7723f36f658:1,Tests/Pcap++Test/Tests/IPFragmentationTests.cpp,862,2,-1,16,cpp/new-array-delete-mismatch,'new[]' array freed with 'delete',"This memory may have been allocated with [new\[\]](1), not 'new'.",,MEDIUM
+ddffc4561d6647:1,Tests/Pcap++Test/Tests/IPFragmentationTests.cpp,863,2,-1,16,cpp/new-array-delete-mismatch,'new[]' array freed with 'delete',"This memory may have been allocated with [new\[\]](1), not 'new'.",,MEDIUM
+1866bbfcbe8d2b5d:1,Tests/Pcap++Test/Tests/IPFragmentationTests.cpp,864,2,-1,16,cpp/new-array-delete-mismatch,'new[]' array freed with 'delete',"This memory may have been allocated with [new\[\]](1), not 'new'.",,MEDIUM
+77a124d017e310e2:1,Tests/Pcap++Test/Tests/IPFragmentationTests.cpp,865,2,-1,17,cpp/new-array-delete-mismatch,'new[]' array freed with 'delete',"This memory may have been allocated with [new\[\]](1), not 'new'.",,MEDIUM
+f4623e535ddf9041:1,Tests/Pcap++Test/Tests/IPFragmentationTests.cpp,866,2,-1,17,cpp/new-array-delete-mismatch,'new[]' array freed with 'delete',"This memory may have been allocated with [new\[\]](1), not 'new'.",,MEDIUM
+69c759e8e61f867d:1,3rdParty/LightPcapNg/LightPcapNg/src/light_option.c,52,20,-1,41,cpp/non-member-const-no-effect,Constant return type,The 'const' modifier has no effect on a return type and can be removed.,,MEDIUM
+555a1fbb7dd53d4a:1,3rdParty/LightPcapNg/LightPcapNg/src/light_pcapng.c,306,43,-1,59,cpp/constant-comparison,Comparison result is always the same,Comparison is always false because bytesRead <= 4.,,MEDIUM
+a93671fb411d1577:1,3rdParty/LightPcapNg/LightPcapNg/src/light_pcapng.c,321,43,-1,59,cpp/constant-comparison,Comparison result is always the same,Comparison is always false because bytesRead <= 4.,,MEDIUM
+e9f743e217de9a92:1,3rdParty/LightPcapNg/LightPcapNg/src/light_pcapng.c,346,87,-1,103,cpp/constant-comparison,Comparison result is always the same,Comparison is always false because bytesRead <= 4.,,MEDIUM
+71d14792677b0c4:1,Examples/HttpAnalyzer/main.cpp,569,6,-1,15,cpp/constant-comparison,Comparison result is always the same,Comparison is always false because nPort >= 0.,,MEDIUM
+71d14792677b0c4:1,Examples/HttpAnalyzer/main.cpp,569,19,-1,32,cpp/constant-comparison,Comparison result is always the same,Comparison is always false because nPort <= 65535.,,MEDIUM
+1bee908d6fc8f949:1,Tests/Pcap++Test/Tests/IPFragmentationTests.cpp,351,12,-1,17,cpp/constant-comparison,Comparison result is always the same,Comparison is always true because i >= 2.,,MEDIUM
+db1da3bf01b105ad:1,Packet++/src/SSLHandshake.cpp,21,90,-1,104,cpp/weak-cryptographic-algorithm,Use of a broken or risky cryptographic algorithm,"This file makes use of a broken or weak cryptographic algorithm (specified by [access of enum constant SSL_SYM_3DES_EDE_CBC](1)).
+This file makes use of a broken or weak cryptographic algorithm (specified by [access of enum constant SSL_SYM_RC4_128](2)).
+This file makes use of a broken or weak cryptographic algorithm (specified by [access of enum constant SSL_SYM_3DES_EDE_CBC](3)).
+This file makes use of a broken or weak cryptographic algorithm (specified by [access of enum constant SSL_SYM_3DES_EDE_CBC](4)).
+This file makes use of a broken or weak cryptographic algorithm (specified by [access of enum constant SSL_SYM_3DES_EDE_CBC](5)).
+This file makes use of a broken or weak cryptographic algorithm (specified by [access of enum constant SSL_SYM_3DES_EDE_CBC](6)).
+This file makes use of a broken or weak cryptographic algorithm (specified by [access of enum constant SSL_SYM_RC4_128](7)).
+This file makes use of a broken or weak cryptographic algorithm (specified by [access of enum constant SSL_SYM_3DES_EDE_CBC](8)).
+This file makes use of a broken or weak cryptographic algorithm (specified by [access of enum constant SSL_SYM_RC4_128](9)).
+This file makes use of a broken or weak cryptographic algorithm (specified by [access of enum constant SSL_SYM_3DES_EDE_CBC](10)).
+This file makes use of a broken or weak cryptographic algorithm (specified by [access of enum constant SSL_SYM_RC4_128](11)).
+This file makes use of a broken or weak cryptographic algorithm (specified by [access of enum constant SSL_SYM_3DES_EDE_CBC](12)).
+This file makes use of a broken or weak cryptographic algorithm (specified by [access of enum constant SSL_SYM_RC4_128](13)).
+This file makes use of a broken or weak cryptographic algorithm (specified by [access of enum constant SSL_SYM_3DES_EDE_CBC](14)).
+This file makes use of a broken or weak cryptographic algorithm (specified by [access of enum constant SSL_SYM_RC4_128](15)).
+This file makes use of a broken or weak cryptographic algorithm (specified by [access of enum constant SSL_SYM_3DES_EDE_CBC](16)).
+This file makes use of a broken or weak cryptographic algorithm (specified by [access of enum constant SSL_SYM_RC4_128](17)).
+This file makes use of a broken or weak cryptographic algorithm (specified by [access of enum constant SSL_SYM_3DES_EDE_CBC](18)).
+This file makes use of a broken or weak cryptographic algorithm (specified by [access of enum constant SSL_SYM_RC4_128](19)).
+This file makes use of a broken or weak cryptographic algorithm (specified by [access of enum constant SSL_SYM_3DES_EDE_CBC](20)).
+This file makes use of a broken or weak cryptographic algorithm (specified by [access of enum constant SSL_SYM_RC4_128](21)).
+This file makes use of a broken or weak cryptographic algorithm (specified by [access of enum constant SSL_SYM_RC4_40](22)).
+This file makes use of a broken or weak cryptographic algorithm (specified by [access of enum constant SSL_SYM_RC2_CBC_40](23)).
+This file makes use of a broken or weak cryptographic algorithm (specified by [access of enum constant SSL_SYM_DES_CBC_40](24)).
+This file makes use of a broken or weak cryptographic algorithm (specified by [access of enum constant SSL_SYM_RC4_40](25)).
+This file makes use of a broken or weak cryptographic algorithm (specified by [access of enum constant SSL_SYM_RC2_CBC_40](26)).
+This file makes use of a broken or weak cryptographic algorithm (specified by [access of enum constant SSL_SYM_DES_CBC_40](27)).
+This file makes use of a broken or weak cryptographic algorithm (specified by [access of enum constant SSL_SYM_RC4_128](28)).
+This file makes use of a broken or weak cryptographic algorithm (specified by [access of enum constant SSL_SYM_3DES_EDE_CBC](29)).
+This file makes use of a broken or weak cryptographic algorithm (specified by [access of enum constant SSL_SYM_DES_CBC](30)).
+This file makes use of a broken or weak cryptographic algorithm (specified by [access of enum constant SSL_SYM_RC4_128](31)).
+This file makes use of a broken or weak cryptographic algorithm (specified by [access of enum constant SSL_SYM_3DES_EDE_CBC](32)).
+This file makes use of a broken or weak cryptographic algorithm (specified by [access of enum constant SSL_SYM_DES_CBC](33)).
+This file makes use of a broken or weak cryptographic algorithm (specified by [access of enum constant SSL_SYM_3DES_EDE_CBC](34)).
+This file makes use of a broken or weak cryptographic algorithm (specified by [access of enum constant SSL_SYM_DES_CBC](35)).
+This file makes use of a broken or weak cryptographic algorithm (specified by [access of enum constant SSL_SYM_RC4_128](36)).
+This file makes use of a broken or weak cryptographic algorithm (specified by [access of enum constant SSL_SYM_RC4_40](37)).
+This file makes use of a broken or weak cryptographic algorithm (specified by [access of enum constant SSL_SYM_3DES_EDE_CBC](38)).
+This file makes use of a broken or weak cryptographic algorithm (specified by [access of enum constant SSL_SYM_DES_CBC](39)).
+This file makes use of a broken or weak cryptographic algorithm (specified by [access of enum constant SSL_SYM_3DES_EDE_CBC](40)).
+This file makes use of a broken or weak cryptographic algorithm (specified by [access of enum constant SSL_SYM_DES_CBC](41)).
+This file makes use of a broken or weak cryptographic algorithm (specified by [access of enum constant SSL_SYM_3DES_EDE_CBC](42)).
+This file makes use of a broken or weak cryptographic algorithm (specified by [access of enum constant SSL_SYM_DES_CBC](43)).
+This file makes use of a broken or weak cryptographic algorithm (specified by [access of enum constant SSL_SYM_3DES_EDE_CBC](44)).
+This file makes use of a broken or weak cryptographic algorithm (specified by [access of enum constant SSL_SYM_DES_CBC](45)).
+This file makes use of a broken or weak cryptographic algorithm (specified by [access of enum constant SSL_SYM_3DES_EDE_CBC](46)).
+This file makes use of a broken or weak cryptographic algorithm (specified by [access of enum constant SSL_SYM_DES_CBC](47)).
+This file makes use of a broken or weak cryptographic algorithm (specified by [access of enum constant SSL_SYM_RC2_CBC_40](48)).
+This file makes use of a broken or weak cryptographic algorithm (specified by [access of enum constant SSL_SYM_RC4_128](49)).
+This file makes use of a broken or weak cryptographic algorithm (specified by [access of enum constant SSL_SYM_RC4_128](50)).
+This file makes use of a broken or weak cryptographic algorithm (specified by [access of enum constant SSL_SYM_RC4_40](51)).",CWE-327,HIGH
+85d8139c6c6a1089:1,Packet++/src/EthLayer.cpp,78,2,94,3,cpp/integer-used-for-enum,Use of integer where enum is preferred,Enumeration types should be used instead of integers to select from a limited series of choices.,,MEDIUM
+912a3e4581cc34dc:1,Packet++/src/GreLayer.cpp,585,3,595,4,cpp/integer-used-for-enum,Use of integer where enum is preferred,Enumeration types should be used instead of integers to select from a limited series of choices.,,MEDIUM
+654b37d29f4f518a:1,Packet++/src/GreLayer.cpp,101,3,121,4,cpp/integer-used-for-enum,Use of integer where enum is preferred,Enumeration types should be used instead of integers to select from a limited series of choices.,,MEDIUM
+78457a002e19f39a:1,Packet++/src/IPv4Layer.cpp,324,3,346,4,cpp/integer-used-for-enum,Use of integer where enum is preferred,Enumeration types should be used instead of integers to select from a limited series of choices.,,MEDIUM
+9e5d40b1cb6238e5:1,Packet++/src/IPv6Layer.cpp,265,3,281,4,cpp/integer-used-for-enum,Use of integer where enum is preferred,Enumeration types should be used instead of integers to select from a limited series of choices.,,MEDIUM
+d0e151479721e5bf:1,Packet++/src/IgmpLayer.cpp,118,2,128,3,cpp/integer-used-for-enum,Use of integer where enum is preferred,Enumeration types should be used instead of integers to select from a limited series of choices.,,MEDIUM
+3ceea336c573ff8f:1,Packet++/src/SllLayer.cpp,106,2,122,3,cpp/integer-used-for-enum,Use of integer where enum is preferred,Enumeration types should be used instead of integers to select from a limited series of choices.,,MEDIUM
+397446fe60574738:1,Pcap++/src/PcapFilter.cpp,355,2,391,3,cpp/integer-used-for-enum,Use of integer where enum is preferred,Enumeration types should be used instead of integers to select from a limited series of choices.,,MEDIUM
+78e1b79fb495a1c6:1,Packet++/src/RawPacket.cpp,204,6,-1,32,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 102 lines.,,MEDIUM
+3eed67bbf2f517b5:1,Packet++/src/HttpLayer.cpp,859,43,-1,81,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 357 lines.,,MEDIUM
+acb63f7ced0b5dbd:1,Packet++/src/PPPoELayer.cpp,97,33,-1,62,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 138 lines.,,MEDIUM
+3b77ba7a1ba1978:1,Packet++/src/SSLHandshake.cpp,676,47,-1,81,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 331 lines.,,MEDIUM
+9d1ad46717a66b7d:1,Packet++/src/SSLHandshake.cpp,344,44,-1,74,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 331 lines.,,MEDIUM
+2b0e1c6e7c6ad8c4:1,Packet++/src/SipLayer.cpp,828,41,-1,78,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 353 lines.,,MEDIUM
+ee2fe6e79b772188:1,Packet++/src/SipLayer.cpp,172,28,-1,60,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 114 lines.,,MEDIUM
+88cb689b6f893846:1,Tests/Packet++Test/Tests/DhcpTests.cpp,12,15,-1,30,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 118 lines.,,MEDIUM
+3af6e97925673729:1,Tests/Packet++Test/Tests/DnsTests.cpp,518,15,-1,41,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 101 lines.,,MEDIUM
+6c3012a7920efa1f:1,Tests/Packet++Test/Tests/DnsTests.cpp,293,15,-1,43,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 187 lines.,,MEDIUM
+9254f8d634cf7542:1,Tests/Packet++Test/Tests/DnsTests.cpp,15,15,-1,34,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 197 lines.,,MEDIUM
+3082495d7590f1d5:1,Tests/Packet++Test/Tests/GreTests.cpp,214,15,-1,26,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 179 lines.,,MEDIUM
+46805a298a00ee2d:1,Tests/Packet++Test/Tests/IPv4Tests.cpp,314,15,-1,34,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 180 lines.,,MEDIUM
+32140ab8337c7a13:1,Tests/Packet++Test/Tests/IPv4Tests.cpp,157,15,-1,37,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 154 lines.,,MEDIUM
+59c0bc42df766f07:1,Tests/Packet++Test/Tests/SipSdpTests.cpp,239,15,-1,42,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 105 lines.,,MEDIUM
+536e3d14c047c957:1,Tests/Packet++Test/Tests/SipSdpTests.cpp,15,15,-1,41,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 106 lines.,,MEDIUM
+6f080403d5e6bc92:1,Tests/Packet++Test/Tests/SSLTests.cpp,9,15,-1,40,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 140 lines.,,MEDIUM
+dbc01bd6ef6613dd:1,Tests/Packet++Test/main.cpp,34,5,-1,9,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 182 lines.,,MEDIUM
+14aec98beeb3b542:1,Tests/Pcap++Test/main.cpp,55,5,-1,9,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 219 lines.,,MEDIUM
+d903cc1442cccee9:1,Common++/header/Logger.h,142,51,-1,76,cpp/stack-address-escape,Local variable address stored in non-local memory,A stack address which arrived via a [parameter](1) may be assigned to a non-local variable.,,MEDIUM
+b200648c08aacf52:1,Common++/src/SystemUtils.cpp,324,2,-1,41,cpp/stack-address-escape,Local variable address stored in non-local memory,A stack address which arrived via a [parameter](1) may be assigned to a non-local variable.,,MEDIUM
+c2e8ebc208fc0dd4:1,Packet++/src/DnsResource.cpp,256,2,-1,23,cpp/stack-address-escape,Local variable address stored in non-local memory,A stack address which arrived via a [parameter](1) may be assigned to a non-local variable.,,MEDIUM
+2d35f9aed4303aae:1,Packet++/src/HttpLayer.cpp,1263,2,-1,31,cpp/stack-address-escape,Local variable address stored in non-local memory,A stack address which arrived via a [parameter](1) may be assigned to a non-local variable.,,MEDIUM
+438ac86e5b27a9b5:1,Packet++/src/HttpLayer.cpp,212,2,-1,29,cpp/stack-address-escape,Local variable address stored in non-local memory,A stack address which arrived via a [parameter](1) may be assigned to a non-local variable.,,MEDIUM
+d364c5b15760eccf:1,Packet++/src/SipLayer.cpp,1227,2,-1,29,cpp/stack-address-escape,Local variable address stored in non-local memory,A stack address which arrived via a [parameter](1) may be assigned to a non-local variable.,,MEDIUM
+f3d76e3fec5391c9:1,Packet++/src/SipLayer.cpp,149,2,-1,27,cpp/stack-address-escape,Local variable address stored in non-local memory,A stack address which arrived via a [parameter](1) may be assigned to a non-local variable.,,MEDIUM
+e793ba7bda653748:1,Packet++/src/TextBasedProtocol.cpp,689,2,-1,38,cpp/stack-address-escape,Local variable address stored in non-local memory,A stack address which arrived via a [parameter](1) may be assigned to a non-local variable.,,MEDIUM
+e15a8b5c3857c6a3:1,Pcap++/src/PcapLiveDevice.cpp,489,2,-1,56,cpp/stack-address-escape,Local variable address stored in non-local memory,A stack address which arrived via a [parameter](1) may be assigned to a non-local variable.,,MEDIUM
+a4c50f7a920c4599:1,Pcap++/src/PcapLiveDevice.cpp,452,2,-1,44,cpp/stack-address-escape,Local variable address stored in non-local memory,A stack address which arrived via a [parameter](1) may be assigned to a non-local variable.,,MEDIUM
+660bff67bd0afa60:1,Pcap++/src/PcapLiveDevice.cpp,411,2,-1,59,cpp/stack-address-escape,Local variable address stored in non-local memory,A stack address which arrived via a [parameter](1) may be assigned to a non-local variable.,,MEDIUM
+981471793be417cc:1,Pcap++/src/PcapLiveDevice.cpp,424,3,-1,56,cpp/stack-address-escape,Local variable address stored in non-local memory,A stack address which arrived via a [parameter](1) may be assigned to a non-local variable.,,MEDIUM
+d903cc1442cccee9:1,Dist/header/Logger.h,142,51,-1,76,cpp/stack-address-escape,Local variable address stored in non-local memory,A stack address which arrived via a [parameter](1) may be assigned to a non-local variable.,,MEDIUM
+85c70a25b8d5ee21:1,Tests/Pcap++Test/main.cpp,192,2,-1,42,cpp/stack-address-escape,Local variable address stored in non-local memory,A stack address ([source](1)) may be assigned to a non-local variable.,,MEDIUM
+55bc3ff6534f2d09:1,Examples/IPDefragUtil/main.cpp,192,34,-1,47,cpp/inconsistent-null-check,Inconsistent nullness check,"The result of this call to processPacket is not checked for null, but 90% of calls to processPacket check for null.",CWE-476,HIGH
+46ca282fdca3c73e:1,Packet++/src/DnsLayer.cpp,199,31,-1,46,cpp/inconsistent-null-check,Inconsistent nullness check,"The result of this call to getNextResource is not checked for null, but 87% of calls to getNextResource check for null.",CWE-476,HIGH
+31f126e516c5c1cf:1,Packet++/src/BgpLayer.cpp,142,30,-1,46,cpp/inconsistent-null-check,Inconsistent nullness check,"The result of this call to getOpenMsgHeader is not checked for null, but 75% of calls to getOpenMsgHeader check for null.",CWE-476,HIGH
+eb3d38a7d4d6c1aa:1,Packet++/src/GtpLayer.cpp,575,25,-1,34,cpp/inconsistent-null-check,Inconsistent nullness check,"The result of this call to getHeader is not checked for null, but 88% of calls to getHeader check for null.
+The result of this call to getHeader is not checked for null, but 90% of calls to getHeader check for null.",CWE-476,HIGH
+3af43ec6686bc5f2:1,Packet++/src/GtpLayer.cpp,179,22,-1,31,cpp/inconsistent-null-check,Inconsistent nullness check,"The result of this call to getHeader is not checked for null, but 88% of calls to getHeader check for null.
+The result of this call to getHeader is not checked for null, but 90% of calls to getHeader check for null.",CWE-476,HIGH
+68967250a9e6ae31:1,Packet++/src/GtpLayer.cpp,188,34,-1,48,cpp/inconsistent-null-check,Inconsistent nullness check,"The result of this call to getHeaderExtra is not checked for null, but 85% of calls to getHeaderExtra check for null.",CWE-476,HIGH
+486bfa5c3524bc70:1,Packet++/src/IPv6Layer.cpp,134,21,-1,34,cpp/inconsistent-null-check,Inconsistent nullness check,"The result of this call to getNextHeader is not checked for null, but 80% of calls to getNextHeader check for null.
+The result of this call to getNextHeader is not checked for null, but 90% of calls to getNextHeader check for null.",CWE-476,HIGH
+40aa000ca291f699:1,Tests/Packet++Test/Tests/IPv6Tests.cpp,50,43,-1,55,cpp/inconsistent-null-check,Inconsistent nullness check,"The result of this call to getNextLayer is not checked for null, but 96% of calls to getNextLayer check for null.",CWE-476,HIGH
+a8d7ae0552596bee:1,3rdParty/LightPcapNg/LightPcapNg/src/light_platform.c,117,15,-1,20,cpp/world-writable-file-creation,File created without restricting permissions,"A file may be created here with mode 0666, which would make it world-writable.",CWE-732,MEDIUM
+54ee39905d6ce66b:1,3rdParty/LightPcapNg/LightPcapNg/src/light_platform.c,86,14,-1,19,cpp/world-writable-file-creation,File created without restricting permissions,"A file may be created here with mode 0666, which would make it world-writable.",CWE-732,MEDIUM
+fe56c17c7e5e5d39:1,3rdParty/LightPcapNg/LightPcapNg/src/light_platform.c,89,14,-1,19,cpp/world-writable-file-creation,File created without restricting permissions,"A file may be created here with mode 0666, which would make it world-writable.",CWE-732,MEDIUM
+cbe671dd0fc1a94b:1,3rdParty/MemPlumber/MemPlumber/memplumber.cpp,71,24,-1,29,cpp/world-writable-file-creation,File created without restricting permissions,"A file may be created here with mode 0666, which would make it world-writable.",CWE-732,MEDIUM
+5b83ef9948e6bdf3:1,3rdParty/MemPlumber/MemPlumber/memplumber.cpp,74,24,-1,29,cpp/world-writable-file-creation,File created without restricting permissions,"A file may be created here with mode 0666, which would make it world-writable.",CWE-732,MEDIUM
+c5b475142627e4a0:1,3rdParty/MemPlumber/MemPlumber/memplumber.cpp,76,28,-1,33,cpp/world-writable-file-creation,File created without restricting permissions,"A file may be created here with mode 0666, which would make it world-writable.",CWE-732,MEDIUM
+3ff2c52ea0b6dd9:1,Pcap++/src/PcapFileDevice.cpp,41,2,-1,8,cpp/unbounded-write,Unbounded write,"This 'call to strcpy' with input from [a command-line argument](1) may overflow the destination.
+This 'call to strcpy' with input from [a command-line argument](2) may overflow the destination.
+This 'call to strcpy' with input from [a command-line argument](3) may overflow the destination.","CWE-120,CWE-787,CWE-805",HIGH
+8b139da77d74033e:2,Common++/src/IpAddress.cpp,262,15,-1,55,cpp/type-confusion,Type confusion,Conversion from [new_ptr_list_t](1) to [in6_addr](2) is invalid.,CWE-843,MEDIUM
+8b139da77d74033e:1,Common++/src/IpAddress.cpp,185,14,-1,54,cpp/type-confusion,Type confusion,Conversion from [new_ptr_list_t](1) to [in6_addr](2) is invalid.,CWE-843,MEDIUM
+7e1c3dddd0e1050e:1,Common++/src/IpAddress.cpp,218,14,-1,54,cpp/type-confusion,Type confusion,Conversion from [new_ptr_list_t](1) to [in6_addr](2) is invalid.,CWE-843,MEDIUM
+bdd37778b869f493:1,Common++/src/IpAddress.cpp,204,14,-1,54,cpp/type-confusion,Type confusion,Conversion from [new_ptr_list_t](1) to [in6_addr](2) is invalid.,CWE-843,MEDIUM
+e6dd332258d8a844:1,Packet++/header/TLVData.h,75,14,-1,40,cpp/type-confusion,Type confusion,Conversion from [new_ptr_list_t](1) to [TLVRawData](2) is invalid.,CWE-843,MEDIUM
+656402436640eb7e:1,Packet++/src/IgmpLayer.cpp,445,40,-1,79,cpp/type-confusion,Type confusion,"Conversion from [new_ptr_list_t](1) to [igmpv3_group_record](2) is invalid.
+Conversion from [new_ptr_list_t](1) to [igmpv3_group_record](2) is invalid.
+Conversion from [new_ptr_list_t](1) to [igmpv3_group_record](3) is invalid.",CWE-843,MEDIUM
+3ccaaa047dba185c:1,Pcap++/src/PcapFileDevice.cpp,247,41,-1,51,cpp/path-injection,Uncontrolled data used in path expression,"This argument to a file access function is derived from [user input (a command-line argument)](1) and then passed to light_pcapng_open_read(file_path), which calls light_open(file_name), which calls fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](2) and then passed to light_pcapng_open_read(file_path), which calls light_open(file_name), which calls fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](3) and then passed to light_pcapng_open_read(file_path), which calls light_open(file_name), which calls fopen(__filename).","CWE-022,CWE-023,CWE-036,CWE-073",MEDIUM
+82bcbaca7790ee0e:1,Pcap++/src/PcapFileDevice.cpp,90,27,-1,37,cpp/path-injection,Uncontrolled data used in path expression,"This argument to a file access function is derived from [user input (a command-line argument)](1) and then passed to std::basic_ifstream<char, char_traits<char>>::basic_ifstream(__s).
+This argument to a file access function is derived from [user input (a command-line argument)](1) and then passed to std::basic_ifstream<char, char_traits<char>>::basic_ifstream(__s), which calls std::basic_ifstream<char, char_traits<char>>::open(__s), which calls std::basic_filebuf<char, char_traits<char>>::open(__s).
+This argument to a file access function is derived from [user input (a command-line argument)](1) and then passed to std::basic_ifstream<char, char_traits<char>>::basic_ifstream(__s), which calls std::basic_ifstream<char, char_traits<char>>::open(__s).","CWE-022,CWE-023,CWE-036,CWE-073",MEDIUM
+6ea92928be3f9599:1,3rdParty/LightPcapNg/LightPcapNg/src/light_pcapng.c,333,27,-1,33,cpp/uncontrolled-allocation-size,Uncontrolled allocation size,This allocation size is derived from [user input (string read by fread)](1) and could allocate arbitrary amounts of memory.,"CWE-190,CWE-789",HIGH
+58aaf1268c3e026:1,3rdParty/LightPcapNg/LightPcapNg/src/light_pcapng.c,57,22,-1,28,cpp/uncontrolled-allocation-size,Uncontrolled allocation size,This allocation size is derived from [user input (string read by fread)](1) and could allocate arbitrary amounts of memory.,"CWE-190,CWE-789",HIGH
+c79ade9738d298da:1,3rdParty/LightPcapNg/LightPcapNg/src/light_pcapng_ext.c,69,30,-1,36,cpp/uncontrolled-allocation-size,Uncontrolled allocation size,This allocation size is derived from [user input (string read by fread)](1) and could allocate arbitrary amounts of memory.,"CWE-190,CWE-789",HIGH
+77c0d52b548e4538:1,3rdParty/LightPcapNg/LightPcapNg/src/light_pcapng_ext.c,83,24,-1,30,cpp/uncontrolled-allocation-size,Uncontrolled allocation size,This allocation size is derived from [user input (string read by fread)](1) and could allocate arbitrary amounts of memory.,"CWE-190,CWE-789",HIGH
+ea5628392433316:1,3rdParty/LightPcapNg/LightPcapNg/src/light_pcapng_ext.c,97,30,-1,36,cpp/uncontrolled-allocation-size,Uncontrolled allocation size,This allocation size is derived from [user input (string read by fread)](1) and could allocate arbitrary amounts of memory.,"CWE-190,CWE-789",HIGH
+7ba40b81fc858a9a:1,3rdParty/LightPcapNg/LightPcapNg/src/light_pcapng_ext.c,111,29,-1,35,cpp/uncontrolled-allocation-size,Uncontrolled allocation size,This allocation size is derived from [user input (string read by fread)](1) and could allocate arbitrary amounts of memory.,"CWE-190,CWE-789",HIGH

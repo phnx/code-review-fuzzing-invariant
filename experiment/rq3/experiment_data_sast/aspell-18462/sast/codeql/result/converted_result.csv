@@ -1,0 +1,276 @@
+location_hash,location_file,location_start_line,location_start_column,location_end_line,location_end_column,warning_rule_id,warning_rule_name,warning_message,warning_weakness,warning_severity
+f462e72cb7413f9a:1,modules/filter/markdown.cpp,603,3,-1,4,cpp/missing-return,Missing return statement,Function parse_attribute should return a value of type State but does not return a value here,,HIGH
+256e725206edbb62:1,common/errors.hpp,-1,-1,-1,-1,cpp/missing-header-guard,Missing header guard,This header file should contain a header guard to prevent multiple inclusion.,,LOW
+e8db63a0a7c2f0ba:1,modules/speller/default/primes.hpp,-1,-1,-1,-1,cpp/missing-header-guard,Missing header guard,This header file should contain a header guard to prevent multiple inclusion.,,LOW
+db51d941dca572e6:1,prog/checker_string.hpp,-1,-1,-1,-1,cpp/missing-header-guard,Missing header guard,This header file should contain a header guard to prevent multiple inclusion.,,LOW
+33661da77d5a8a82:1,prog/aspell.cpp,814,4,819,5,cpp/trivial-switch,No trivial switch statements,"This switch statement should either handle more cases, or be rewritten as an if statement.",,LOW
+41b369ea128b6428:1,common/config.cpp,632,6,-1,7,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+461fecee979ca58f:1,common/config.cpp,633,47,-1,48,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+7f388fee723772b7:1,modules/filter/url.cpp,54,9,-1,12,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+a030c162a6acff7d:1,prog/prezip.c,185,17,-1,18,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+174fe517a297e2a7:1,modules/filter/nroff.cpp,110,5,287,8,cpp/long-switch,Long switch case,Switch has at least one case that is too long: [escape (42 lines)](1).,,LOW
+e26895f68faf60f0:1,modules/filter/sgml.cpp,173,5,391,6,cpp/long-switch,Long switch case,Switch has at least one case that is too long: [S_tag (48 lines)](1).,,LOW
+3ea2f05a805ff5b9:1,prog/aspell.cpp,760,5,934,6,cpp/long-switch,Long switch case,Switch has at least one case that is too long: [36 (47 lines)](1).,,LOW
+fa88fb20890304dd:1,common/error.cpp,48,9,-1,13,cpp/guarded-free,Guarded Free,unnecessary NULL check before call to [free](1),,LOW
+fabab998d5e729b5:1,common/error.cpp,35,9,-1,13,cpp/guarded-free,Guarded Free,unnecessary NULL check before call to [free](1),,LOW
+aeff9543ff3eb1cc:1,common/string.hpp,251,20,-1,26,cpp/guarded-free,Guarded Free,unnecessary NULL check before call to [free](1),,LOW
+e1a1adc5df45f6c3:1,common/string.cpp,31,11,-1,17,cpp/guarded-free,Guarded Free,unnecessary NULL check before call to [free](1),,LOW
+388a6ce79e3a590a:1,lib/new_filter.cpp,345,24,-1,28,cpp/guarded-free,Guarded Free,unnecessary NULL check before call to [free](1),,LOW
+40747bd7041a1cf0:1,modules/speller/default/phonet.cpp,72,29,-1,33,cpp/guarded-free,Guarded Free,unnecessary NULL check before call to [free](1),,LOW
+3db797a0e7c95ae1:1,modules/speller/default/typo_editdist.hpp,49,34,-1,38,cpp/guarded-free,Guarded Free,unnecessary NULL check before call to [free](1),,LOW
+89c727b39afb6efb:1,prog/aspell.cpp,2773,12,-1,15,cpp/guarded-free,Guarded Free,unnecessary NULL check before call to [free](1),,LOW
+3b3ecbe704a27d5e:1,prog/aspell.cpp,2124,10,-1,13,cpp/guarded-free,Guarded Free,unnecessary NULL check before call to [free](1),,LOW
+b2597207d30e45c2:1,prog/aspell.cpp,2062,12,-1,15,cpp/guarded-free,Guarded Free,unnecessary NULL check before call to [free](1),,LOW
+7c326464fe51e26e:2,common/objstack.hpp,151,14,-1,15,cpp/declaration-hides-parameter,Declaration hides parameter,Local variable 's' hides a [parameter of the same name](1).,,LOW
+691c54319942cc23:1,lib/find_speller.cpp,442,27,-1,28,cpp/declaration-hides-parameter,Declaration hides parameter,Local variable 'c' hides a [parameter of the same name](1).,,LOW
+d590655a575a9e80:1,modules/speller/default/vector_hash-t.hpp,161,14,-1,15,cpp/declaration-hides-parameter,Declaration hides parameter,Local variable 'p' hides a [parameter of the same name](1).,,LOW
+9fc6bc82ab9c47d9:1,modules/speller/default/vector_hash-t.hpp,178,19,-1,20,cpp/declaration-hides-parameter,Declaration hides parameter,Local variable 'i' hides a [parameter of the same name](1).,,LOW
+274f85c6d10d7aad:1,common/convert.cpp,467,14,-1,15,cpp/declaration-hides-variable,Declaration hides variable,Variable p hides another variable of the same name (on [line 449](1)).,,LOW
+f74ab841f61768a5:2,common/config.cpp,201,40,-1,41,cpp/declaration-hides-variable,Declaration hides variable,Variable i hides another variable of the same name (on [line 189](1)).,,LOW
+8bc3ba8b11e839fa:1,lib/find_speller.cpp,441,18,-1,19,cpp/declaration-hides-variable,Declaration hides variable,Variable p hides another variable of the same name (on [line 316](1)).,,LOW
+45d5026af01b2584:1,modules/speller/default/affix.cpp,298,14,-1,17,cpp/declaration-hides-variable,Declaration hides variable,Variable buf hides another variable of the same name (on [line 275](1)).,,LOW
+345b778cd410f8:1,modules/speller/default/affix.cpp,910,20,-1,23,cpp/declaration-hides-variable,Declaration hides variable,Variable cur hides another variable of the same name (on [line 879](1)).,,LOW
+c8bc30329b4d15ea:1,modules/speller/default/data.cpp,410,27,-1,28,cpp/declaration-hides-variable,Declaration hides variable,Variable d hides another variable of the same name (on [line 357](1)).,,LOW
+e22516c65030021:1,modules/speller/default/phonet.cpp,213,12,-1,13,cpp/declaration-hides-variable,Declaration hides variable,Variable c hides another variable of the same name (on [line 205](1)).,,LOW
+4342680e2728943:1,modules/speller/default/readonly_ws.cpp,956,24,-1,25,cpp/declaration-hides-variable,Declaration hides variable,Variable w hides another variable of the same name (on [line 927](1)).,,LOW
+c0346b3679532326:1,modules/speller/default/readonly_ws.cpp,1071,16,-1,20,cpp/declaration-hides-variable,Declaration hides variable,Variable prev hides another variable of the same name (on [line 1019](1)).,,LOW
+eb668e31ce60ab8:1,modules/speller/default/readonly_ws.cpp,1135,16,-1,20,cpp/declaration-hides-variable,Declaration hides variable,Variable jump hides another variable of the same name (on [line 1129](1)).,,LOW
+987b040d36ac973d:1,prog/compress.c,110,11,-1,12,cpp/declaration-hides-variable,Declaration hides variable,Variable c hides another variable of the same name (on [line 69](1)).,,LOW
+b7845a6af38b26f:1,prog/aspell.cpp,2978,79,-1,82,cpp/declaration-hides-variable,Declaration hides variable,Variable els hides another variable of the same name (on [line 2902](1)).,,LOW
+f69335e98538681e:1,prog/aspell.cpp,2373,12,-1,17,cpp/declaration-hides-variable,Declaration hides variable,Variable flags hides another variable of the same name (on [line 2361](1)).,,LOW
+6cc5db31cb095fdf:1,prog/aspell.cpp,2435,16,-1,21,cpp/declaration-hides-variable,Declaration hides variable,Variable flags hides another variable of the same name (on [line 2361](1)).,,LOW
+d326a4e50c2660f3:1,prog/aspell.cpp,2514,16,-1,21,cpp/declaration-hides-variable,Declaration hides variable,Variable flags hides another variable of the same name (on [line 2361](1)).,,LOW
+bc18b74250e4d61b:1,prog/aspell.cpp,2708,25,-1,32,cpp/declaration-hides-variable,Declaration hides variable,Variable working hides another variable of the same name (on [line 2562](1)).,,LOW
+4ec9ddc6d2ae57e6:1,prog/aspell.cpp,2709,14,-1,19,cpp/declaration-hides-variable,Declaration hides variable,Variable flags hides another variable of the same name (on [line 2361](1)).,,LOW
+a9c81bf7be03e179:1,prog/aspell.cpp,1146,22,-1,25,cpp/declaration-hides-variable,Declaration hides variable,Variable ret hides another variable of the same name (on [line 1003](1)).,,LOW
+e47fdb06c7cfa5bf:1,prog/aspell.cpp,835,55,-1,58,cpp/declaration-hides-variable,Declaration hides variable,Variable ret hides another variable of the same name (on [line 717](1)).,,LOW
+6b48ec1669d86b4a:1,prog/aspell.cpp,377,12,-1,13,cpp/declaration-hides-variable,Declaration hides variable,Variable i hides another variable of the same name (on [line 267](1)).,,LOW
+6ec8fc2cc108241a:1,prog/check_funs.cpp,338,9,-1,14,cpp/local-variable-hides-global-variable,Local variable hides global variable,Local variable max_x hides a [global variable](1) with the same name.,,LOW
+ecdfb6c7637b731a:1,prog/check_funs.cpp,339,9,-1,14,cpp/local-variable-hides-global-variable,Local variable hides global variable,Local variable end_x hides a [global variable](1) with the same name.,,LOW
+e26895f68faf60f0:1,modules/filter/sgml.cpp,173,23,391,6,cpp/complex-block,Block with too many statements,Block with too many statements (5 complex statements in the block).,,LOW
+b5256fdbbb057f56:1,common/config.hpp,64,21,-1,27,cpp/unused-static-variable,Unused static variable,Static variable INSERT is never read.,CWE-563,LOW
+977c2edf3263bd9:1,common/config.hpp,63,21,-1,28,cpp/unused-static-variable,Unused static variable,Static variable REPLACE is never read.,CWE-563,LOW
+1d7c420fb120bedc:1,common/errors.hpp,188,34,-1,52,cpp/unused-static-variable,Unused static variable,Static variable invalid_expression is never read.,CWE-563,LOW
+2c7e8719585e49c2:1,common/errors.hpp,187,32,-1,48,cpp/unused-static-variable,Unused static variable,Static variable expression_error is never read.,CWE-563,LOW
+f819801da59ba46:1,common/errors.hpp,182,32,-1,55,cpp/unused-static-variable,Unused static variable,Static variable filter_mode_magic_error is never read.,CWE-563,LOW
+6d185c6cde655cfb:1,common/errors.hpp,179,32,-1,56,cpp/unused-static-variable,Unused static variable,Static variable filter_mode_expand_error is never read.,CWE-563,LOW
+5d86c3fc3c68bd0b:1,common/errors.hpp,176,34,-1,50,cpp/unused-static-variable,Unused static variable,Static variable bad_mode_version is never read.,CWE-563,LOW
+302aecb58341095d:1,common/errors.hpp,175,34,-1,56,cpp/unused-static-variable,Unused static variable,Static variable confusing_mode_version is never read.,CWE-563,LOW
+d96ddbe5128a87f8:1,common/errors.hpp,171,34,-1,53,cpp/unused-static-variable,Unused static variable,Static variable no_filter_to_option is never read.,CWE-563,LOW
+70e54af18dd275bd:1,common/errors.hpp,170,34,-1,50,cpp/unused-static-variable,Unused static variable,Static variable mode_option_name is never read.,CWE-563,LOW
+5e77700cbaa9bff:1,common/errors.hpp,169,32,-1,54,cpp/unused-static-variable,Unused static variable,Static variable filter_mode_file_error is never read.,CWE-563,LOW
+43939f459d1a20df:1,common/errors.hpp,168,34,-1,54,cpp/unused-static-variable,Unused static variable,Static variable cant_describe_filter is never read.,CWE-563,LOW
+aece2140045135a4:1,common/errors.hpp,159,32,-1,44,cpp/unused-static-variable,Unused static variable,Static variable filter_error is never read.,CWE-563,LOW
+50e74ab04bf173bc:1,common/errors.hpp,157,32,-1,53,cpp/unused-static-variable,Unused static variable,Static variable version_control_error is never read.,CWE-563,LOW
+c4c1e12d991cec58:1,common/errors.hpp,156,36,-1,53,cpp/unused-static-variable,Unused static variable,Static variable conflicting_flags is never read.,CWE-563,LOW
+1bd13e93d9065f6d:1,common/errors.hpp,155,36,-1,48,cpp/unused-static-variable,Unused static variable,Static variable invalid_flag is never read.,CWE-563,LOW
+51dd405d7ad1427a:1,common/errors.hpp,154,34,-1,55,cpp/unused-static-variable,Unused static variable,Static variable word_list_flags_error is never read.,CWE-563,LOW
+ba2aa6134196720d:1,common/errors.hpp,153,34,-1,49,cpp/unused-static-variable,Unused static variable,Static variable unknown_unichar is never read.,CWE-563,LOW
+58c601c7fd94df31:1,common/errors.hpp,147,34,-1,46,cpp/unused-static-variable,Unused static variable,Static variable process_died is never read.,CWE-563,LOW
+9404cbe152a70a34:1,common/errors.hpp,146,34,-1,50,cpp/unused-static-variable,Unused static variable,Static variable cant_create_pipe is never read.,CWE-563,LOW
+ae65d45a3805200e:1,common/errors.hpp,145,32,-1,42,cpp/unused-static-variable,Unused static variable,Static variable pipe_error is never read.,CWE-563,LOW
+ae72917516b9c0c9:1,common/errors.hpp,144,34,-1,58,cpp/unused-static-variable,Unused static variable,Static variable conversion_not_supported is never read.,CWE-563,LOW
+7c45b19aaea71dd3:1,common/errors.hpp,143,34,-1,56,cpp/unused-static-variable,Unused static variable,Static variable encoding_not_supported is never read.,CWE-563,LOW
+fff0c4243aaaee15:1,common/errors.hpp,141,32,-1,46,cpp/unused-static-variable,Unused static variable,Static variable encoding_error is never read.,CWE-563,LOW
+3af49eb533d75b7f:1,common/errors.hpp,136,32,-1,43,cpp/unused-static-variable,Unused static variable,Static variable affix_error is never read.,CWE-563,LOW
+fafbdec25b122805:1,common/errors.hpp,133,34,-1,56,cpp/unused-static-variable,Unused static variable,Static variable language_not_supported is never read.,CWE-563,LOW
+116384ec48380b41:1,common/errors.hpp,132,34,-1,52,cpp/unused-static-variable,Unused static variable,Static variable unknown_soundslike is never read.,CWE-563,LOW
+88eec529727b0303:1,common/errors.hpp,121,34,-1,43,cpp/unused-static-variable,Unused static variable,Static variable duplicate is never read.,CWE-563,LOW
+c5ee1920a0052ac9:1,common/errors.hpp,119,34,-1,41,cpp/unused-static-variable,Unused static variable,Static variable bad_key is never read.,CWE-563,LOW
+3d0122a3ff6f4720:1,common/errors.hpp,118,34,-1,51,cpp/unused-static-variable,Unused static variable,Static variable cant_change_value is never read.,CWE-563,LOW
+928270ff05cd0b7d:1,common/errors.hpp,116,32,-1,44,cpp/unused-static-variable,Unused static variable,Static variable config_error is never read.,CWE-563,LOW
+4da1c5e058cd0ec9:1,common/errors.hpp,115,34,-1,47,cpp/unused-static-variable,Unused static variable,Static variable cant_read_dir is never read.,CWE-563,LOW
+f72dbd8842d1dad6:1,common/errors.hpp,114,32,-1,41,cpp/unused-static-variable,Unused static variable,Static variable dir_error is never read.,CWE-563,LOW
+31582ea479a4a908:1,common/errors.hpp,112,34,-1,46,cpp/unused-static-variable,Unused static variable,Static variable invalid_name is never read.,CWE-563,LOW
+d82a880b7d9d9e4b:1,common/errors.hpp,109,34,-1,54,cpp/unused-static-variable,Unused static variable,Static variable cant_open_file_error is never read.,CWE-563,LOW
+d7cfd7ec8770f101:1,common/errors.hpp,108,32,-1,42,cpp/unused-static-variable,Unused static variable,Static variable file_error is never read.,CWE-563,LOW
+bfe85484e03a6ff7:1,common/errors.hpp,106,34,-1,43,cpp/unused-static-variable,Unused static variable,Static variable cant_copy is never read.,CWE-563,LOW
+238fa90b83c19cad:1,gen/static_filters.src.cpp,34,16,-1,35,cpp/unused-static-variable,Unused static variable,Static variable filter_modules_size is never read.,CWE-563,LOW
+79e4e98885f6af0:1,modules/speller/default/wordinfo.hpp,28,25,-1,37,cpp/unused-static-variable,Unused static variable,Static variable CASE_PATTERN is never read.,CWE-563,LOW
+c3ca59987b8f025a:1,modules/speller/default/readonly_ws.cpp,127,18,-1,34,cpp/unused-static-variable,Unused static variable,Static variable FREQUENCY_INFO_O is never read.,CWE-563,LOW
+21f75e7608b64eb2:1,modules/speller/default/readonly_ws.cpp,167,28,-1,40,cpp/unused-static-function,Unused static function,Static function get_category is unreachable,CWE-561,LOW
+6faacbfaf5e731f9:1,modules/speller/default/suggest.cpp,147,15,-1,26,cpp/unused-static-function,Unused static function,Static function operator== is unreachable,CWE-561,LOW
+b0283f7194b98b3f:1,modules/speller/default/suggest.cpp,142,15,-1,26,cpp/unused-static-function,Unused static function,Static function operator<= is unreachable,CWE-561,LOW
+9ca3cc33c6e8addb:1,modules/filter/markdown.cpp,839,12,-1,15,cpp/unused-local-variable,Unused local variable,Variable pos is not used.,CWE-563,LOW
+fbaa270ed2c19fc2:1,modules/speller/default/readonly_ws.cpp,316,12,-1,18,cpp/unused-local-variable,Unused local variable,Variable offset is not used.,CWE-563,LOW
+e2e4701c29abbf95:1,modules/speller/default/readonly_ws.cpp,317,11,-1,15,cpp/unused-local-variable,Unused local variable,Variable size is not used.,CWE-563,LOW
+4bd295aa460cb772:1,modules/speller/default/readonly_ws.cpp,323,20,-1,21,cpp/unused-local-variable,Unused local variable,Variable p is not used.,CWE-563,LOW
+245a7c679c4f3cb2:1,common/file_util.cpp,209,16,-1,33,cpp/use-of-goto,Use of goto,Multiple forward and backward goto statements may make function next hard to understand.,,MEDIUM
+c24b5958893ae7a9:1,modules/filter/sgml.cpp,160,8,-1,32,cpp/use-of-goto,Use of goto,Multiple forward and backward goto statements may make function process_char hard to understand.,,MEDIUM
+d5ee65452a82aa0c:1,prog/aspell.cpp,963,6,-1,11,cpp/use-of-goto,Use of goto,Multiple forward and backward goto statements may make function check hard to understand.,,MEDIUM
+2ae15088dcc08846:1,common/posib_err.hpp,189,15,-1,24,cpp/rule-of-two,Inconsistent definition of copy constructor and assignment ('Rule of Two'),No matching copy constructor in class PosibErr<Ret>. It is good practice to match a copy assignment operator with a copy constructor.,,MEDIUM
+f6d8d952711d74bc:1,common/config.hpp,203,52,-1,60,cpp/fixme-comment,FIXME comment,FIXME comment,CWE-546,LOW
+9735bac2b0942d87:1,common/ostream.hpp,16,3,-1,65,cpp/fixme-comment,FIXME comment,FIXME comment: Add Print Method compatible with printf and friends.,CWE-546,LOW
+c2cf2167ac8a3295:1,common/file_util.hpp,25,3,-1,28,cpp/fixme-comment,FIXME comment,FIXME comment: Possible remove,CWE-546,LOW
+794c7f66c551b590:1,common/file_data_util.cpp,11,3,-1,72,cpp/fixme-comment,FIXME comment,"FIXME comment: The case when there is no ""/"" in the master-path should not",CWE-546,LOW
+b1b5e597d4d6ebad:1,common/string.hpp,367,5,-1,32,cpp/fixme-comment,FIXME comment,FIXME comment: Eventually remove,CWE-546,LOW
+ca0b75289f4e6d27:1,common/string.hpp,324,5,-1,70,cpp/fixme-comment,FIXME comment,FIXME comment: Make this more efficient by rewriting the implementation,CWE-546,LOW
+471e474021075e8a:1,common/filter.cpp,25,5,-1,37,cpp/fixme-comment,FIXME comment,FIXME comment: This causes a seg fault,CWE-546,LOW
+ccc0d1e13b0cdca8:1,common/config.cpp,1470,51,-1,70,cpp/fixme-comment,FIXME comment,FIXME comment: Implement,CWE-546,LOW
+9cb9ab6cb361d66:1,common/config.cpp,935,7,-1,71,cpp/fixme-comment,FIXME comment,FIXME comment: This is the correct thing to do but it causes problems,CWE-546,LOW
+c437f37ed9c8ab45:1,common/config.cpp,544,5,-1,38,cpp/fixme-comment,FIXME comment,FIXME comment: THIS IS NOT THREAD SAFE,CWE-546,LOW
+c466c27388d41c75:1,common/config.cpp,494,9,-1,41,cpp/fixme-comment,FIXME comment,FIXME comment: This isn't quite right,CWE-546,LOW
+c0a5d9728db6aac2:1,common/convert.cpp,648,5,-1,46,cpp/fixme-comment,FIXME comment,FIXME comment: Why must it be null terminated?,CWE-546,LOW
+f95d4ed1192d01e6:1,common/convert.cpp,499,58,-1,66,cpp/fixme-comment,FIXME comment,FIXME comment,CWE-546,LOW
+1589fe8465f11dfd:1,common/itemize.cpp,16,-1,-1,74,cpp/fixme-comment,FIXME comment,"FIXME comment: it should be possible to escape ',' '+' '-' '!' so that they can",CWE-546,LOW
+9fd877a99c69d5f9:1,common/info.cpp,612,36,-1,50,cpp/fixme-comment,FIXME comment,FIXME comment: WHY?,CWE-546,LOW
+8015f29053efb834:1,common/info.cpp,419,7,-1,71,cpp/fixme-comment,FIXME comment,FIXME comment: Check for null and return an error on an unknown module,CWE-546,LOW
+5fc0ba9663809ec7:1,common/info.cpp,416,24,-1,45,cpp/fixme-comment,FIXME comment,FIXME comment: return error,CWE-546,LOW
+3f63884cb6329b6e:1,common/info.cpp,332,25,-1,47,cpp/fixme-comment,FIXME comment,FIXME comment: Return error,CWE-546,LOW
+9c513773d913c3f2:1,lib/find_speller.cpp,387,18,-1,57,cpp/fixme-comment,FIXME comment,FIXME comment: create an error condition here,CWE-546,LOW
+613b1c131c2c767e:1,lib/find_speller.cpp,344,7,-1,25,cpp/fixme-comment,FIXME comment,FIXME comment: Write Me,CWE-546,LOW
+ece51945f86ec6d5:1,lib/new_filter.cpp,475,7,-1,61,cpp/fixme-comment,FIXME comment,FIXME comment: Check to make sure there is a name and desc.,CWE-546,LOW
+cb7d302c78db7d77:1,lib/new_filter.cpp,416,11,-1,19,cpp/fixme-comment,FIXME comment,FIXME comment,CWE-546,LOW
+a6cc00f4f2e3e68a:1,lib/new_filter.cpp,378,9,-1,86,cpp/fixme-comment,FIXME comment,FIXME comment: why not force user to ommit type specifier or explicitly say bool ???,CWE-546,LOW
+e55beaa1e41cc252:1,modules/filter/context.cpp,242,3,-1,80,cpp/fixme-comment,FIXME comment,"FIXME comment: here we go, a more efficient context hiding blinding might be used :)",CWE-546,LOW
+5081eb2c4211bcf8:1,modules/filter/context.cpp,212,-1,-1,74,cpp/fixme-comment,FIXME comment,FIXME comment: Warning about comparison of signed and unsigned in following line,CWE-546,LOW
+32a12e0024f14064:1,modules/filter/context.cpp,187,-1,-1,74,cpp/fixme-comment,FIXME comment,FIXME comment: Warning about comparison of signed and unsigned in following line,CWE-546,LOW
+32a12e0024f140cf:1,modules/filter/context.cpp,169,-1,-1,74,cpp/fixme-comment,FIXME comment,FIXME comment: Warning about comparison of signed and unsigned in following line,CWE-546,LOW
+def2a7740210eea7:1,modules/filter/context.cpp,99,-1,-1,36,cpp/fixme-comment,FIXME comment,FIXME comment: replace someday by make_err,CWE-546,LOW
+a38bb46f9991c55c:1,lib/new_fmode.cpp,505,7,-1,62,cpp/fixme-comment,FIXME comment,FIXME comment: is filter-path proper for filter mode files ???,CWE-546,LOW
+a123642c5cb15cbe:1,lib/new_fmode.cpp,470,9,-1,42,cpp/fixme-comment,FIXME comment,FIXME comment: Add check for empty key,CWE-546,LOW
+c2b9508618056e0:1,modules/filter/tex.cpp,715,-1,-1,65,cpp/fixme-comment,FIXME comment,FIXME comment: better solution for illegal hyphenation at begin of line,CWE-546,LOW
+c04ab9abd126f7a8:1,modules/speller/default/language.cpp,325,21,-1,36,cpp/fixme-comment,FIXME comment,FIXME comment: Ditto,CWE-546,LOW
+93d61aa23a5dbd7f:1,modules/speller/default/language.cpp,322,21,-1,36,cpp/fixme-comment,FIXME comment,FIXME comment: Ditto,CWE-546,LOW
+25a869cf222f9cee:1,modules/speller/default/language.cpp,315,21,-1,68,cpp/fixme-comment,FIXME comment,"FIXME comment: This should probably be an error, but",CWE-546,LOW
+c6733ed03231f930:1,modules/speller/default/language.cpp,310,33,-1,41,cpp/fixme-comment,FIXME comment,FIXME comment,CWE-546,LOW
+4e4f2db2c35074ec:1,modules/speller/default/language.cpp,308,22,-1,30,cpp/fixme-comment,FIXME comment,FIXME comment,CWE-546,LOW
+4a76e825943c86a8:1,modules/speller/default/language.cpp,298,37,-1,67,cpp/fixme-comment,FIXME comment,FIXME comment: make this more robust,CWE-546,LOW
+d2d4aef8237ffa39:1,modules/speller/default/data.cpp,167,7,-1,63,cpp/fixme-comment,FIXME comment,FIXME comment: It's not this simple when affixes are involved,CWE-546,LOW
+7d0b486afc366ccc:1,modules/speller/default/phonetic.cpp,197,16,-1,24,cpp/fixme-comment,FIXME comment,FIXME comment,CWE-546,LOW
+7746c0191d94b603:1,modules/speller/default/vector_hash.hpp,20,27,-1,35,cpp/fixme-comment,FIXME comment,FIXME comment,CWE-546,LOW
+ef5d45044e806fa6:1,modules/speller/default/speller_impl.cpp,456,18,-1,29,cpp/fixme-comment,FIXME comment,FIXME comment,CWE-546,LOW
+8ab71cfaabaa08b6:1,modules/speller/default/speller_impl.cpp,381,7,-1,15,cpp/fixme-comment,FIXME comment,FIXME comment,CWE-546,LOW
+5cbdd94bd4e685d6:1,modules/speller/default/speller_impl.cpp,234,15,-1,22,cpp/fixme-comment,FIXME comment,FIXME comment,CWE-546,LOW
+adc067b1a9992362:1,modules/speller/default/speller_impl.cpp,230,15,-1,22,cpp/fixme-comment,FIXME comment,FIXME comment,CWE-546,LOW
+82f0158e60d7ff16:1,modules/speller/default/speller_impl.cpp,200,7,-1,29,cpp/fixme-comment,FIXME comment,"FIXME comment: clear ci, gi?",CWE-546,LOW
+758952669d6f2d18:1,modules/speller/default/speller_impl.cpp,138,17,-1,45,cpp/fixme-comment,FIXME comment,FIXME comment: is this necessary?,CWE-546,LOW
+df31b9b98fb0e3c:1,modules/speller/default/readonly_ws.cpp,345,39,-1,67,cpp/fixme-comment,FIXME comment,FIXME comment: This needs to be 3,CWE-546,LOW
+df31b9b98b19b78:1,modules/speller/default/readonly_ws.cpp,309,39,-1,67,cpp/fixme-comment,FIXME comment,FIXME comment: This needs to be 3,CWE-546,LOW
+efea2ca9a3d89cf:1,modules/speller/default/readonly_ws.cpp,288,39,-1,67,cpp/fixme-comment,FIXME comment,FIXME comment: This needs to be 3,CWE-546,LOW
+aa7169d9a518ee0e:1,modules/speller/default/readonly_ws.cpp,150,3,-1,72,cpp/fixme-comment,FIXME comment,FIXME comment: This isn't right when frequency info is stored in the table,CWE-546,LOW
+c3400b80152f1b15:1,modules/speller/default/writable.cpp,774,33,-1,83,cpp/fixme-comment,FIXME comment,FIXME comment: I don't think this is completely correct,CWE-546,LOW
+27ba54db50fd044f:1,modules/speller/default/writable.cpp,753,33,-1,68,cpp/fixme-comment,FIXME comment,FIXME comment: This is not exactly right,CWE-546,LOW
+a793eda4019d4477:1,modules/speller/default/writable.cpp,672,3,-1,39,cpp/fixme-comment,FIXME comment,FIXME comment: Deal with multiple entries,CWE-546,LOW
+a8d4f65056775125:1,modules/speller/default/writable.cpp,440,3,-1,39,cpp/fixme-comment,FIXME comment,FIXME comment: Deal with multiple entries,CWE-546,LOW
+e526c46e8aa18f70:1,prog/checker_string.cpp,109,5,-1,74,cpp/fixme-comment,FIXME comment,FIXME comment: This is a hack to avoid trying to check a word with a space,CWE-546,LOW
+d50c3693e6eebfc7:1,prog/check_funs.cpp,323,5,-1,68,cpp/fixme-comment,FIXME comment,FIXME comment: This won't work correctly when combing characters are,CWE-546,LOW
+6e9f1da7c015aa9e:1,prog/check_funs.cpp,306,3,-1,47,cpp/fixme-comment,FIXME comment,FIXME comment: correctly test for _POSIX_VDISABLE;,CWE-546,LOW
+1c0f3008d0dcd418:1,prog/aspell.cpp,2827,51,-1,83,cpp/fixme-comment,FIXME comment,FIXME comment: consider word wrapping,CWE-546,LOW
+c8927851ed7e1192:1,prog/aspell.cpp,1754,36,-1,57,cpp/fixme-comment,FIXME comment,FIXME comment: More verbose,CWE-546,LOW
+81a2abd2668631f3:1,prog/aspell.cpp,1671,5,-1,39,cpp/fixme-comment,FIXME comment,FIXME comment: This is currently broken,CWE-546,LOW
+8b274e350a98d4be:1,prog/aspell.cpp,1642,5,-1,13,cpp/fixme-comment,FIXME comment,FIXME comment,CWE-546,LOW
+47fd30eb5e9279f:1,prog/aspell.cpp,1608,5,-1,39,cpp/fixme-comment,FIXME comment,FIXME comment: This is currently broken,CWE-546,LOW
+ffa91c08ea149e27:1,prog/aspell.cpp,1586,5,-1,13,cpp/fixme-comment,FIXME comment,FIXME comment,CWE-546,LOW
+38c5c92fabfcb507:1,common/generic_copy_ptr.hpp,18,3,22,59,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+af021414af49834:1,common/cache-t.hpp,97,3,-1,34,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+79672182ee012869:1,common/cache-t.hpp,92,5,-1,26,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+47daf28c8c67eb3e:1,common/cache-t.hpp,85,3,-1,39,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+ea3db88780a7af5d:1,common/cache-t.hpp,73,3,-1,34,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+79672182ee012860:1,common/cache-t.hpp,68,5,-1,26,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+27b7e7953cc1d2b9:1,common/cache-t.hpp,61,3,-1,65,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+ca0c0736326e3953:1,common/cache-t.hpp,7,-1,-1,26,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+4cb43e7d5d44362f:1,common/cache.cpp,43,3,-1,21,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+c86367ba0527a96f:1,common/cache.cpp,38,3,-1,25,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+4a2d4ef471ce642f:1,common/cache.cpp,13,3,-1,22,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+9cb9ab6cb361d66:1,common/config.cpp,935,7,941,10,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+4e62f6d11fffff94:1,common/config.cpp,7,-1,8,70,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+dac40d00833e9f7f:1,common/file_util.cpp,9,-1,-1,26,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+cef576cb7b4589e1:1,common/convert.cpp,100,28,-1,60,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+c631bdc9503ff7cb:1,common/posib_err.cpp,11,-1,-1,26,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+93aafdd423119632:1,common/string_list.cpp,100,5,-1,30,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+8d5a56b7ba9b2b6a:1,common/string_list.cpp,83,5,-1,42,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+e7fe835490483e2b:1,common/string_list.cpp,68,5,-1,42,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+4712bc56ac5647be:1,common/string_list.cpp,8,-1,-1,26,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+5097f447632608ed:1,lib/find_speller.cpp,306,7,-1,29,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+d82f1735503b8dcb:1,lib/new_filter.cpp,459,7,-1,31,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+7684a0d66a7d899b:1,lib/new_filter.cpp,344,11,-1,31,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+c67b4f8b84c081c0:1,lib/new_filter.cpp,133,7,-1,59,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+e45b2a758ad5a5a3:1,modules/filter/context.cpp,135,5,-1,63,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+9f0f57061a039820:1,modules/filter/context.cpp,89,9,-1,77,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+26ed7188ead84f8d:1,modules/filter/markdown.cpp,681,7,-1,54,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+a633958a79b2ce6a:1,modules/filter/markdown.cpp,11,-1,-1,23,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+8cc4188bd5dff6ed:1,modules/filter/nroff.cpp,286,26,-1,44,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+5897cfc155db9e4:1,modules/filter/nroff.cpp,267,26,-1,44,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+196bfbd7188d7906:1,modules/filter/nroff.cpp,167,15,-1,26,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+4efae8366a5fb544:1,modules/filter/sgml.cpp,534,-1,537,5,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+5b48d12f51b07a8d:1,modules/filter/sgml.cpp,521,-1,524,5,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+32cc0d77a38c08a4:1,modules/filter/sgml.cpp,490,-1,510,7,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+465f524bf18dfc79:1,modules/filter/sgml.cpp,483,-1,488,7,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+9d06268fa3182916:1,modules/filter/sgml.cpp,472,-1,481,8,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+ac72938b9a7872d8:1,modules/filter/sgml.cpp,246,23,-1,50,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+9c87981dff9335c9:1,modules/filter/tex.cpp,712,-1,-1,42,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+31845e051ce1f049:1,modules/filter/tex.cpp,92,5,-1,42,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+5c3f59ffbc167925:1,modules/filter/tex.cpp,18,-1,21,20,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+590d7358fe857e8f:1,modules/speller/default/affix.hpp,74,5,75,34,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+6c2dc8feb8049e55:1,modules/speller/default/affix.cpp,1301,3,-1,31,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+4ddbee95392e3dbf:1,modules/speller/default/affix.cpp,461,3,-1,52,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+c17dd285aaf1d48a:1,modules/speller/default/affix.cpp,312,5,-1,52,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+8aa732cfddc261fd:1,modules/speller/default/affix.cpp,170,-1,190,6,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+32d3cf7135f4004a:1,modules/speller/default/affix.cpp,91,3,92,33,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+ad75b7448ff36deb:1,modules/speller/default/affix.cpp,48,-1,-1,26,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+b1d584add83ec11a:1,modules/speller/default/speller_impl.hpp,189,5,-1,73,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+8a580ad480a1acd9:1,modules/speller/default/speller_impl.hpp,165,5,-1,36,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+76e1d527df11ebd6:1,modules/speller/default/data.cpp,202,3,204,5,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+5c9ec65a81f62562:1,modules/speller/default/phonet.cpp,430,4,-1,31,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+2fd6284c25d2cb63:1,modules/speller/default/block_vector.hpp,35,5,-1,66,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+ca7493f635ec75ee:1,modules/speller/default/block_vector.hpp,17,-1,-1,22,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+91b4d33910c22a1c:1,modules/speller/default/vector_hash.hpp,65,5,-1,56,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+f3d1405982f95e75:1,modules/speller/default/vector_hash.hpp,60,5,63,83,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+d277466278a24158:1,modules/speller/default/vector_hash.hpp,58,5,-1,77,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+d4ce9ca9754f61ff:1,modules/speller/default/vector_hash.hpp,40,3,43,22,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+973ac6b673f4de63:1,modules/speller/default/vector_hash.hpp,16,-1,17,21,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+c83ab814389acd54:1,modules/speller/default/speller_impl.cpp,23,-1,-1,26,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+f8230a298a920162:1,modules/speller/default/readonly_ws.cpp,1212,5,1213,45,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+6c97c45fc6fec9ff:1,modules/speller/default/readonly_ws.cpp,582,5,583,53,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+54cc4a3f7bc12cff:1,modules/speller/default/readonly_ws.cpp,509,5,-1,24,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+fdd2e24e69e8a4cf:1,modules/speller/default/readonly_ws.cpp,322,7,-1,59,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+3baa98c501bec3cf:1,modules/speller/default/readonly_ws.cpp,36,-1,-1,21,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+1e5f412d4a049e30:1,common/basic_list.hpp,62,7,-1,49,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+a7b66c8ceccff91:1,common/basic_list.hpp,59,7,60,30,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+2cf3890f5776949:1,common/basic_list.hpp,35,5,-1,40,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+34676b148efdef44:1,common/basic_list.hpp,7,-1,-1,22,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+77f0674bcd70ab45:1,common/basic_list.hpp,5,-1,-1,23,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+da2c627b2f5da1a8:1,modules/speller/default/suggest.cpp,1329,7,-1,57,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+391c8a7fa9e36ac5:1,modules/speller/default/suggest.cpp,1187,5,-1,78,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+46f697c2690883c:1,modules/speller/default/suggest.cpp,1081,7,-1,64,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+8ea3d347860bf2fc:1,modules/speller/default/suggest.cpp,970,9,-1,84,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+17123e1387228b91:1,modules/speller/default/suggest.cpp,935,11,-1,86,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+d884f227ebc834df:1,modules/speller/default/suggest.cpp,805,9,-1,40,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+b2595fbb897913ca:1,modules/speller/default/suggest.cpp,793,9,794,53,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+cf4025a6d2f04172:1,modules/speller/default/suggest.cpp,788,7,-1,58,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+ccc5c65eeb971935:1,modules/speller/default/suggest.cpp,573,5,-1,24,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+9a73768f7aad5624:1,modules/speller/default/suggest.cpp,558,5,-1,34,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+cb0f553949b265ce:1,modules/speller/default/suggest.cpp,107,5,-1,26,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+6e668c1d1dc7658e:1,modules/speller/default/suggest.cpp,68,-1,69,24,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+e252ea16ef063985:1,prog/check_funs.cpp,762,7,-1,21,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+6e9f1da7c015aa9e:1,prog/check_funs.cpp,306,3,-1,47,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+79be01fec7a58026:1,prog/check_funs.cpp,127,-1,-1,33,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+d03c49204e1b53a2:1,prog/check_funs.cpp,85,-1,-1,25,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+dcc11a33839f474:1,prog/aspell.cpp,2749,5,2752,8,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+fa7ed46a0a150631:1,prog/aspell.cpp,2585,5,2587,8,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+75d883bd9d73ba79:1,prog/aspell.cpp,2231,-1,2244,5,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+e13c4bc9bc6b0142:1,prog/aspell.cpp,1197,5,-1,19,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+7c70f8b7a5f2786b:1,prog/aspell.cpp,1067,5,1069,7,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+e123c50391496e8d:1,prog/aspell.cpp,370,-1,373,10,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+fa9607102e6c7a4a:1,modules/speller/default/suggest.cpp,1007,26,-1,31,cpp/large-parameter,Large object passed by value,This parameter of type [WordEntry](1) is 72 bytes - consider passing a const pointer/reference instead.,,LOW
+1befc3506da64189:1,prog/compress.c,57,38,-1,46,cpp/constant-comparison,Comparison result is always the same,Comparison is always true because c >= 33.,,MEDIUM
+28cbd42b4b65d840:1,common/posib_err.cpp,54,14,-1,21,cpp/unsigned-comparison-zero,Unsigned comparison to zero,Pointless comparison of unsigned value to zero.,,MEDIUM
+75e52132a99d77bf:1,lib/new_fmode.cpp,566,20,-1,35,cpp/unsigned-comparison-zero,Unsigned comparison to zero,Pointless comparison of unsigned value to zero.,,MEDIUM
+d5ae818117ce5c31:1,modules/speller/default/data.cpp,428,7,443,8,cpp/integer-used-for-enum,Use of integer where enum is preferred,Enumeration types should be used instead of integers to select from a limited series of choices.,,MEDIUM
+7c01655572882f15:1,common/convert.cpp,658,32,-1,41,cpp/offset-use-before-range-check,Array offset used before range check,This use of offset 'i' should follow the [range check](1).,"CWE-120,CWE-125",MEDIUM
+355deba44bfe080b:1,lib/new_fmode.cpp,542,30,-1,53,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 202 lines.,,MEDIUM
+a83123758479175c:1,modules/filter/texinfo.cpp,89,8,-1,30,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 137 lines.,,MEDIUM
+11c03c42d102599d:1,prog/aspell.cpp,698,6,-1,10,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 242 lines.,,MEDIUM
+c0174533db769ecd:1,modules/filter/url.cpp,43,19,-1,52,cpp/nested-loops-with-same-variable,Nested loops with same variable,Nested for statement uses loop variable [cur](1) of enclosing [for statement](2).,,MEDIUM
+cb4dc3f43d049831:1,common/document_checker.cpp,35,5,-1,25,cpp/stack-address-escape,Local variable address stored in non-local memory,A stack address which arrived via a [parameter](1) may be assigned to a non-local variable.,,MEDIUM
+8ee7a52b3ef854be:1,common/cache.cpp,33,3,-1,18,cpp/stack-address-escape,Local variable address stored in non-local memory,A stack address which arrived via a [parameter](1) may be assigned to a non-local variable.,,MEDIUM
+565472d65d6aec12:1,modules/speller/default/primes.hpp,44,53,-1,61,cpp/stack-address-escape,Local variable address stored in non-local memory,A stack address which arrived via a [parameter](1) may be assigned to a non-local variable.,,MEDIUM
+bbff199fe55b1d9a:1,common/config.cpp,595,21,-1,27,cpp/inconsistent-null-check,Inconsistent nullness check,"The result of this call to lookup is not checked for null, but 83% of calls to lookup check for null.",CWE-476,HIGH
+2639b49ca44484ec:1,common/error.cpp,28,7,-1,13,cpp/unbounded-write,Unbounded write,"This 'call to strcpy' with input from [an environment variable](1) may overflow the destination.
+This 'call to strcpy' with input from [an environment variable](2) may overflow the destination.
+This 'call to strcpy' with input from [an environment variable](3) may overflow the destination.","CWE-120,CWE-787,CWE-805",HIGH
+69d287e94d21f285:1,common/fstream.cpp,22,19,-1,20,cpp/path-injection,Uncontrolled data used in path expression,"This argument to a file access function is derived from [user input (an environment variable)](1) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (an environment variable)](2) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (an environment variable)](3) and then passed to fopen(__filename).","CWE-022,CWE-023,CWE-036,CWE-073",MEDIUM
+e6d6aff1e9faa5c2:1,lib/new_fmode.cpp,404,21,-1,45,cpp/incorrect-allocation-error-handling,Incorrect allocation-error handling,This allocation cannot return null. [This check](1) is unnecessary.,"CWE-570,CWE-252,CWE-755",MEDIUM

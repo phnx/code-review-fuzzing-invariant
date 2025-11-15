@@ -1,0 +1,68 @@
+settings:INFO:2025-04-10 06:12:16.943141: /program/dig/src/dig.py /script/motivating_example/sample_set/bubble_sort/fuzzing_test/original_1_trace/82dce660ce79f1b6df982ec6f2fbcccd3694755d/0.trace -log 3 --nofilter --nosimplify --seed 27
+alg:INFO:analyzing '/script/motivating_example/sample_set/bubble_sort/fuzzing_test/original_1_trace/82dce660ce79f1b6df982ec6f2fbcccd3694755d/0.trace'
+alg:INFO:got 1 traces over 1 locs
+alg:INFO:check 69 invs using 1 traces (0.09s)
+dummy (63 invs):
+1. j == 0
+2. i == 0
+3. temp - 1 == 0
+4. j <= 0
+5. i <= 0
+6. -i <= 0
+7. -j <= 0
+8. temp <= 1
+9. i + j <= 0
+10. i - j <= 0
+11. -i + j <= 0
+12. -i - j <= 0
+13. -temp <= -1
+14. j + temp <= 1
+15. i + temp <= 1
+16. -i + temp <= 1
+17. j - temp <= -1
+18. i - temp <= -1
+19. -j + temp <= 1
+20. -j - temp <= -1
+21. -i - temp <= -1
+22. max(i, 0) - j <= 0
+23. max(j, 0) - i <= 0
+24. j - min(i, 0) <= 0
+25. i - max(j, 0) <= 0
+26. min(i, 0) - j <= 0
+27. i - min(j, 0) <= 0
+28. min(j, 0) - i <= 0
+29. j - max(i, 0) <= 0
+30. min(temp, 0) - j <= 0
+31. i - min(temp, 0) <= 0
+32. min(i, temp) - j <= 0
+33. i - min(j, temp) <= 0
+34. j - min(temp, 0) <= 0
+35. j - min(i, temp) <= 0
+36. min(temp, 0) - i <= 0
+37. min(j, temp) - i <= 0
+38. min(i, temp, 0) - j <= 0
+39. i - min(j, temp, 0) <= 0
+40. min(j, temp, 0) - i <= 0
+41. j - min(i, temp, 0) <= 0
+42. temp - 1 - max(i, j) <= 0
+43. min(i, 0) - temp - 1 <= 0
+44. min(j, 0) - temp - 1 <= 0
+45. max(i, j) - temp - 1 <= 0
+46. temp - 1 - max(i, 0) <= 0
+47. temp - 1 - min(i, j) <= 0
+48. temp - 1 - min(j, 0) <= 0
+49. j + 1 - max(temp, 0) <= 0
+50. max(i, 0) - temp - 1 <= 0
+51. temp - 1 - max(j, 0) <= 0
+52. max(j, 0) - temp - 1 <= 0
+53. i + 1 - max(temp, 0) <= 0
+54. i + 1 - max(j, temp) <= 0
+55. min(i, j) - temp - 1 <= 0
+56. temp - 1 - min(i, 0) <= 0
+57. j + 1 - max(i, temp) <= 0
+58. max(i, j, 0) - temp - 1 <= 0
+59. j + 1 - max(i, temp, 0) <= 0
+60. temp - 1 - max(i, j, 0) <= 0
+61. min(i, j, 0) - temp - 1 <= 0
+62. temp - 1 - min(i, j, 0) <= 0
+63. i + 1 - max(j, temp, 0) <= 0

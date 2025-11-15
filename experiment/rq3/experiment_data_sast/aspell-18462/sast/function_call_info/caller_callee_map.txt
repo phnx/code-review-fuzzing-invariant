@@ -1,0 +1,389 @@
+=====================
+common/config.cpp
+=====================
+{
+    "Config::Config": [
+        "copy"
+    ],
+    "Config::~Config": [
+        "del"
+    ],
+    "& Config::operator= ": [
+        "del",
+        "copy"
+    ],
+    "* Config::clone": [],
+    "Config::assign": [],
+    "Config::copy": [
+        "assert",
+        "filter_modules_ptrs.begin",
+        "filter_modules_ptrs.end",
+        "",
+        "other.notifier_list.begin",
+        "other.notifier_list.end",
+        "",
+        "notifier_list.push_back"
+    ],
+    "Config::del": [
+        "notifier_list.begin",
+        "notifier_list.end",
+        "notifier_list.clear",
+        "filter_modules.clear",
+        "filter_modules_ptrs.begin",
+        "filter_modules_ptrs.end",
+        "",
+        "filter_modules_ptrs.clear"
+    ],
+    "Config::set_filter_modules": [
+        "assert",
+        "filter_modules_ptrs.empty",
+        "filter_modules.clear",
+        "filter_modules.assign"
+    ],
+    "Config::set_extra": [],
+    "* Config::notifiers": [],
+    "Config::add_notifier": [
+        "notifier_list.begin",
+        "notifier_list.end",
+        "notifier_list.push_back"
+    ],
+    "Config::remove_notifier": [
+        "notifier_list.begin",
+        "notifier_list.end",
+        "notifier_list.erase"
+    ],
+    "Config::replace_notifier": [
+        "notifier_list.begin",
+        "notifier_list.end"
+    ],
+    "* Config::lookup": [],
+    "Config::have": [
+        "keyinfo",
+        "pe.has_err",
+        "pe.ignore_err",
+        "lookup"
+    ],
+    "Config::retrieve": [
+        "make_err",
+        "lookup",
+        "get_default"
+    ],
+    "Config::retrieve_any": [
+        "lookup",
+        "get_default",
+        "RET_ON_ERR",
+        "retrieve_list",
+        "sl.elements_obj",
+        "els.next",
+        "val.pop_back"
+    ],
+    "Config::retrieve_bool": [
+        "make_err",
+        "lookup",
+        "get_default"
+    ],
+    "Config::retrieve_int": [
+        "assert",
+        "make_err",
+        "lookup",
+        "get_default",
+        "atoi",
+        "value.str"
+    ],
+    "Config::lookup_list": [
+        "get_default",
+        "separate_list",
+        "m.clear",
+        "m.add",
+        "m.clear",
+        "m.add",
+        "m.remove"
+    ],
+    "Config::retrieve_list": [
+        "make_err",
+        "lookup_list"
+    ],
+    "* find": [
+        "strcmp"
+    ],
+    "Config::keyinfo": [
+        "acommon::find",
+        "Ret",
+        "acommon::find",
+        "Ret",
+        "strncmp",
+        "key.str",
+        "strchr",
+        "acommon::find",
+        "filter_modules.pbegin",
+        "filter_modules.pend",
+        "filter_modules.pend",
+        "load_filter_hook",
+        "const_cast<Config *>",
+        "pe.ignore_err",
+        "acommon::find",
+        "filter_modules.pbegin",
+        "filter_modules.pend",
+        "filter_modules.pend",
+        "acommon::find",
+        "Ret",
+        "strncmp",
+        "acommon::find",
+        "Ret",
+        "Ret",
+        "Ret"
+    ],
+    "proc_locale_str": [
+        "asc_islower",
+        "asc_islower",
+        "final_str.assign",
+        "asc_isupper",
+        "asc_isupper",
+        "final_str.append"
+    ],
+    "get_lang_env": [
+        "proc_locale_str",
+        "getenv",
+        "proc_locale_str",
+        "getenv",
+        "proc_locale_str",
+        "getenv"
+    ],
+    "get_lang": [
+        "get_lang_env"
+    ],
+    "get_encoding": [],
+    "Config::get_default": [
+        "get_default"
+    ],
+    "* Config::base_name": [
+        "strchr",
+        "TEST",
+        "TEST",
+        "TEST",
+        "TEST",
+        "TEST",
+        "TEST",
+        "TEST",
+        "TEST",
+        "TEST"
+    ],
+    "separate_list": [
+        "value.size",
+        "memcpy",
+        "strlen",
+        "unescape",
+        "out.add"
+    ],
+    "combine_list": [
+        "res.clear",
+        "in.elements_obj",
+        "els.next",
+        "res.append",
+        "res.append",
+        "res.append",
+        "res.empty",
+        "res.back",
+        "res.pop_back"
+    ],
+    "ListAddHelper::add": [
+        "config->set"
+    ],
+    "Config::replace_internal": [],
+    "Config::replace": [
+        "set"
+    ],
+    "Config::remove": [
+        "set"
+    ],
+    "Config::set": [
+        "base_name",
+        "entry->key.str",
+        "num_parms",
+        "entry->value.empty",
+        "make_err",
+        "make_err",
+        "make_err",
+        "make_err",
+        "abort",
+        "unescape",
+        "entry->value.mstr",
+        "entry.release",
+        "RET_ON_ERR",
+        "commit",
+        "RET_ON_ERR",
+        "set",
+        "separate_list",
+        "entry->value.str"
+    ],
+    "Config::merge": [
+        "RET_ON_ERR",
+        "commit"
+    ],
+    "Config::lang_config_merge": [
+        "to_utf8.setup",
+        "other.keyinfo",
+        "keyinfo",
+        "to_utf8"
+    ],
+    "Config::commit": [
+        "keyinfo",
+        "pe.has_err",
+        "",
+        "list_action",
+        "make_err",
+        "assert",
+        "get_default",
+        "value.empty",
+        "make_err",
+        "_",
+        "NOTIFY_ALL",
+        "item_updated",
+        "NOTIFY_ALL",
+        "item_updated",
+        "sscanf",
+        "value.str",
+        "NOTIFY_ALL",
+        "item_updated",
+        "make_err",
+        "_",
+        "NOTIFY_ALL",
+        "list_updated",
+        "entry->file.empty",
+        "pe.with_file"
+    ],
+    "PossibleElementsEmul": [],
+    "* clone": [],
+    "assign": [],
+    "active_filter_module_changed": [],
+    "* active_filter_module_name": [],
+    "* active_filter_module_desc": [],
+    "* next": [
+        "cd->filter_modules.pbegin",
+        "cd->filter_modules.pend",
+        "cd->filter_modules.pend",
+        "cd->filter_modules.pend"
+    ],
+    "at_end": [
+        "cd->filter_modules.pend"
+    ],
+    "*\n  Config::possible_elements": [],
+    "ListDefaultDump::ListDefaultDump": [
+        "_",
+        "strlen"
+    ],
+    "ListDefaultDump::add": [
+        "out.write",
+        "out.put",
+        "out.put",
+        "escape",
+        "out.printl"
+    ],
+    "ListDump": [],
+    "ListDump::add": [
+        "escape",
+        "out.printf"
+    ],
+    "ListDump::remove": [
+        "escape",
+        "out.printf"
+    ],
+    "ListDump::clear": [
+        "out.printf"
+    ],
+    "Config::write_to_stream": [
+        "possible_elements",
+        "els->next",
+        "els->active_filter_module_changed",
+        "out.printf",
+        "_",
+        "els->active_filter_module_name",
+        "_",
+        "els->active_filter_module_desc",
+        "obuf.clear",
+        "obuf.printf",
+        "_",
+        "_",
+        "buf.resize",
+        "strlen",
+        "escape",
+        "buf.data",
+        "obuf.printf",
+        "buf.data",
+        "get_default",
+        "buf.resize",
+        "def.size",
+        "escape",
+        "buf.data",
+        "def.str",
+        "obuf.printf",
+        "buf.data",
+        "lookup",
+        "buf.resize",
+        "entry->value.size",
+        "escape",
+        "buf.data",
+        "entry->value.str",
+        "obuf.printf",
+        "buf.data",
+        "obuf.size",
+        "lookup_list",
+        "obuf.size",
+        "out.write"
+    ],
+    "Config::read_in": [
+        "getdata_pair",
+        "to_lower",
+        "RET_ON_ERR",
+        "set"
+    ],
+    "Config::read_in_file": [
+        "RET_ON_ERR",
+        "in.open",
+        "read_in"
+    ],
+    "Config::read_in_string": [
+        "read_in"
+    ],
+    "Config::read_in_settings": [
+        "set_committed_state",
+        "assert",
+        "empty",
+        "del",
+        "copy",
+        "merge",
+        "getenv",
+        "RET_ON_ERR",
+        "read_in_string",
+        "_",
+        "read_in_file",
+        "retrieve",
+        "pe.has_err",
+        "pe.has_err",
+        "read_in_file",
+        "retrieve",
+        "pe.has_err",
+        "pe.has_err",
+        "RET_ON_ERR",
+        "commit_all"
+    ],
+    "Config::commit_all": [
+        "RET_ON_ERR",
+        "to_utf8.setup",
+        "RET_ON_ERR_SET",
+        "commit",
+        "phs->empty",
+        "phs->back",
+        "phs->push_back"
+    ],
+    "Config::set_committed_state": [
+        "RET_ON_ERR",
+        "commit_all",
+        "assert",
+        "empty"
+    ],
+    "* new_basic_config": [
+        "aspell_gettext_init"
+    ]
+}
+

@@ -1,0 +1,5 @@
+location_hash,location_file,location_start_line,location_start_column,location_end_line,location_end_column,warning_in_target_file,warning_in_target_function,warning_in_target_code_block,warning_rule_id,warning_rule_name,warning_message,warning_weakness,warning_severity
+ca77e8b8a227b5d0:1,src/pix4.c,2840,-1,-1,66,True,False,False,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+d1a455dc3e9a35b:1,src/pix4.c,2823,20,-1,31,True,False,False,cpp/offset-use-before-range-check,Array offset used before range check,This use of offset 'bin' should follow the [range check](1).,"CWE-120,CWE-125",MEDIUM
+f6c9292664d900b1:1,src/pix4.c,1986,-1,-1,15,True,False,False,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 129 lines.,,MEDIUM
+b035fb012afad484:1,src/pix4.c,1826,-1,-1,12,True,False,False,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 131 lines.,,MEDIUM

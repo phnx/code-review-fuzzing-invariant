@@ -1,0 +1,22 @@
+=====================
+src/lib/protocols/snmp_proto.c
+=====================
+{
+    "ndpi_int_snmp_add_connection": [
+        34,
+        39
+    ],
+    "ndpi_search_snmp_again": [
+        43,
+        53
+    ],
+    "ndpi_search_snmp": [
+        57,
+        146
+    ],
+    "init_snmp_dissector": [
+        148,
+        158
+    ]
+}
+

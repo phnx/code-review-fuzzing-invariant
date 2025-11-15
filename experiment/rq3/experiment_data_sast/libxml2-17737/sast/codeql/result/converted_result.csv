@@ -1,0 +1,650 @@
+location_hash,location_file,location_start_line,location_start_column,location_end_line,location_end_column,warning_rule_id,warning_rule_name,warning_message,warning_weakness,warning_severity
+46ff534f9d4fe6ac:1,include/libxml/xmlerror.h,99,14,-1,15,cpp/irregular-enum-init,Irregular enum initialization,"In an enumerator list, the = construct should not be used to explicitly initialize members other than the first, unless all items are explicitly initialized.",,LOW
+a2bde98f41d7eb0f:1,include/libxml/tree.h,322,14,-1,15,cpp/irregular-enum-init,Irregular enum initialization,"In an enumerator list, the = construct should not be used to explicitly initialize members other than the first, unless all items are explicitly initialized.",,LOW
+d0652d2303cdce5b:1,include/libxml/parser.h,112,14,-1,15,cpp/irregular-enum-init,Irregular enum initialization,"In an enumerator list, the = construct should not be used to explicitly initialize members other than the first, unless all items are explicitly initialized.",,LOW
+765268cc4f3174f4:1,include/libxml/schemasInternals.h,82,14,-1,15,cpp/irregular-enum-init,Irregular enum initialization,"In an enumerator list, the = construct should not be used to explicitly initialize members other than the first, unless all items are explicitly initialized.",,LOW
+d656e6ce35b257e6:1,include/libxml/schemasInternals.h,125,14,-1,15,cpp/irregular-enum-init,Irregular enum initialization,"In an enumerator list, the = construct should not be used to explicitly initialize members other than the first, unless all items are explicitly initialized.",,LOW
+95c5c7301ec7be90:1,include/libxml/xmlschemas.h,28,14,-1,15,cpp/irregular-enum-init,Irregular enum initialization,"In an enumerator list, the = construct should not be used to explicitly initialize members other than the first, unless all items are explicitly initialized.",,LOW
+d59f3adfd7831807:1,catalog.c,103,14,-1,15,cpp/irregular-enum-init,Irregular enum initialization,"In an enumerator list, the = construct should not be used to explicitly initialize members other than the first, unless all items are explicitly initialized.",,LOW
+6edb7c8e90106992:1,relaxng.c,99,14,-1,15,cpp/irregular-enum-init,Irregular enum initialization,"In an enumerator list, the = construct should not be used to explicitly initialize members other than the first, unless all items are explicitly initialized.",,LOW
+d29ca36dcbff84d8:1,relaxng.c,121,14,-1,15,cpp/irregular-enum-init,Irregular enum initialization,"In an enumerator list, the = construct should not be used to explicitly initialize members other than the first, unless all items are explicitly initialized.",,LOW
+7df8e5226a8f9501:1,xmlregexp.c,85,14,-1,15,cpp/irregular-enum-init,Irregular enum initialization,"In an enumerator list, the = construct should not be used to explicitly initialize members other than the first, unless all items are explicitly initialized.",,LOW
+8978c9ea5e8ffe5e:1,elfgcchack.h,-1,-1,-1,-1,cpp/missing-header-guard,Missing header guard,This header file should contain a header guard to prevent multiple inclusion.,,LOW
+25450f4032034ebb:1,tree.c,3978,5,3988,6,cpp/trivial-switch,No trivial switch statements,"This switch statement should either handle more cases, or be rewritten as an if statement.",,LOW
+787a690eb3496c1:1,xmlschemas.c,24617,6,24632,7,cpp/trivial-switch,No trivial switch statements,"This switch statement should either handle more cases, or be rewritten as an if statement.",,LOW
+260ff58ab99901ff:1,xmlschemas.c,21065,2,21077,3,cpp/trivial-switch,No trivial switch statements,"This switch statement should either handle more cases, or be rewritten as an if statement.",,LOW
+d8589aedc96759e:1,xmlschemas.c,21088,2,21098,3,cpp/trivial-switch,No trivial switch statements,"This switch statement should either handle more cases, or be rewritten as an if statement.",,LOW
+89a7343dff31cc35:1,xmlschemas.c,21108,2,21118,3,cpp/trivial-switch,No trivial switch statements,"This switch statement should either handle more cases, or be rewritten as an if statement.",,LOW
+a42617616a01fe9d:1,xmlschemas.c,21128,2,21137,3,cpp/trivial-switch,No trivial switch statements,"This switch statement should either handle more cases, or be rewritten as an if statement.",,LOW
+62d05be58bb52a9f:1,xmlschemas.c,21149,2,21156,3,cpp/trivial-switch,No trivial switch statements,"This switch statement should either handle more cases, or be rewritten as an if statement.",,LOW
+c2f530b160fe13a5:1,xmlschemas.c,21165,2,21175,3,cpp/trivial-switch,No trivial switch statements,"This switch statement should either handle more cases, or be rewritten as an if statement.",,LOW
+6b158278af97346a:1,xmlschemas.c,21185,2,21196,3,cpp/trivial-switch,No trivial switch statements,"This switch statement should either handle more cases, or be rewritten as an if statement.",,LOW
+956df4b5926cbab:1,xmlschemas.c,21214,2,21223,3,cpp/trivial-switch,No trivial switch statements,"This switch statement should either handle more cases, or be rewritten as an if statement.",,LOW
+9bdf546551d80ae5:1,xmlschemas.c,21240,2,21269,3,cpp/trivial-switch,No trivial switch statements,"This switch statement should either handle more cases, or be rewritten as an if statement.",,LOW
+9c208f6c10722695:1,xmlschemas.c,21281,2,21288,3,cpp/trivial-switch,No trivial switch statements,"This switch statement should either handle more cases, or be rewritten as an if statement.",,LOW
+561fa6b2da659f32:1,xmlschemas.c,17743,3,17761,4,cpp/trivial-switch,No trivial switch statements,"This switch statement should either handle more cases, or be rewritten as an if statement.",,LOW
+b5f750bb811ec953:1,xmlschemas.c,1183,5,1191,6,cpp/trivial-switch,No trivial switch statements,"This switch statement should either handle more cases, or be rewritten as an if statement.",,LOW
+1d54cec402d79653:1,xmlwriter.c,2713,5,2722,6,cpp/trivial-switch,No trivial switch statements,"This switch statement should either handle more cases, or be rewritten as an if statement.",,LOW
+577636718023a935:1,xmlwriter.c,1938,5,1950,6,cpp/trivial-switch,No trivial switch statements,"This switch statement should either handle more cases, or be rewritten as an if statement.",,LOW
+f74bee6c07aada0b:1,xmlwriter.c,834,5,843,6,cpp/trivial-switch,No trivial switch statements,"This switch statement should either handle more cases, or be rewritten as an if statement.",,LOW
+a0a19f9822c06d9b:1,HTMLparser.c,5294,17,-1,21,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+48b07d0b89e155bb:1,HTMLparser.c,5303,17,-1,21,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+5bfb763267f21cd2:1,HTMLparser.c,5172,17,-1,21,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+bce081571c55b9a8:1,HTMLparser.c,5197,17,-1,21,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+7e744b8eadd77fb2:1,hash.c,1127,4,-1,9,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+1abc88882ad0c03d:1,parser.c,11928,9,-1,13,cpp/loop-variable-changed,For loop variable changed in body,"Loop counters should not be modified in the body of the [loop](1).
+Loop counters should not be modified in the body of the [loop](2).",,LOW
+d78d2b95b38f165b:1,parser.c,11923,45,-1,49,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+97cd767989cec1e1:1,parser.c,11958,8,-1,12,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+6055d185974bd098:1,pattern.c,621,7,-1,8,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+9e0fa58830b513b6:1,xmlcatalog.c,375,3,-1,4,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+a594a7bbc8783a55:1,xmlcatalog.c,377,3,-1,4,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+80e6fb3d865f5712:1,xmlcatalog.c,381,6,-1,7,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+3a0feeff8b84ee66:1,xmlcatalog.c,394,3,-1,4,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+5dcbf29f7a70d91a:1,xmlcatalog.c,396,3,-1,4,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+67c3d071b2236305:1,xmlcatalog.c,400,6,-1,7,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+1ce98910359a8185:1,xmlcatalog.c,529,3,-1,4,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+4b9e6528951d888:1,xmlcatalog.c,544,4,-1,5,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+3619dd388b35b3f5:1,xmlcatalog.c,553,7,-1,8,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+724492f57695f130:1,xmllint.c,3173,6,-1,7,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+cfe92a7b1c4068a8:1,xmllint.c,3219,6,-1,7,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+ff5af1f9dcd6bdef:1,xmllint.c,3225,6,-1,7,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+4a03149d0843080d:1,xmllint.c,3343,6,-1,7,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+f5137fbe40abd051:1,xmllint.c,3358,7,-1,8,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+4c6485310aaeac40:1,xmllint.c,3376,7,-1,8,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+b6425d1a231eb835:1,xmllint.c,3399,6,-1,7,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+402c6b1935872b3d:1,xmllint.c,3421,6,-1,7,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+b97f00b03ed57034:1,xmllint.c,3427,6,-1,7,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+6e1c143c7e1e677f:1,xmllint.c,3434,6,-1,7,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+6fe1f3fa06ae6308:1,xmllint.c,3450,6,-1,7,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+5bccb59efb96c914:1,xmllint.c,3455,6,-1,7,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+3cbbfc0119acba16:1,xmllint.c,3627,6,-1,7,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+82c87b43da3a6703:1,xmllint.c,3632,13,-1,14,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+1b2ee1038821d80b:1,xmllint.c,3638,6,-1,7,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+cc8bf4658b0ab165:1,xmllint.c,3643,13,-1,14,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+c0372636bb9afa6:1,xmllint.c,3648,6,-1,7,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+fa7a41b5bf179570:1,xmllint.c,3654,6,-1,7,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+d02c70df0deae3d6:1,xmllint.c,3659,6,-1,7,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+f102cea172e1b198:1,xmllint.c,3664,6,-1,7,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+d9cf03f3d6aca409:1,xmllint.c,3669,6,-1,7,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+eea89681e15dcfd:1,xmllint.c,3674,6,-1,7,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+7bcab5d52d5f0488:1,xmllint.c,3680,6,-1,7,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+cf8ed7b4fde1f279:1,xmllint.c,3687,6,-1,7,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+40f8e7bc874807d5:1,xmllint.c,1538,6,-1,7,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+966ec5a02a93c078:1,xmllint.c,1242,37,-1,38,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+a9c2932f9f2234b0:1,xmlregexp.c,3994,14,-1,21,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+b5953a060ba320c7:1,xmlregexp.c,4000,14,-1,21,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+dfb97ddc7cd0253c:1,xmlregexp.c,4064,9,-1,16,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+7b98b5c322b05437:1,xmlregexp.c,3354,14,-1,21,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+34bf407dcc73167b:1,xmlregexp.c,3357,14,-1,21,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+8fa35ba069514195:1,xmlregexp.c,3451,9,-1,16,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+cffd9b0f46528e6f:1,xmlregexp.c,520,9,-1,10,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+cffd9b0f46528e6f:1,xmlregexp.c,520,27,-1,28,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+7167e5e0dd0b3102:1,xmlregexp.c,533,8,-1,9,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+7167e5e0dd0b3102:1,xmlregexp.c,533,26,-1,27,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+2abb8581e8de6c51:1,xmlregexp.c,610,9,-1,10,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+2abb8581e8de6c51:1,xmlregexp.c,610,27,-1,28,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+db6e0f26efbfbf31:1,xmlschemas.c,19226,6,-1,7,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+296d526b288938e:1,xmlschemas.c,19297,3,-1,4,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+a223da1730f50432:1,xmlschemas.c,19306,7,-1,8,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+cda3a686175b161d:1,xpath.c,11772,22,-1,23,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+cda3a686175b161d:1,xpath.c,11772,46,-1,47,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+9319c3ae457d64db:1,xpath.c,11650,26,-1,27,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+9319c3ae457d64db:1,xpath.c,11650,48,-1,49,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+97c0821f0b42421b:1,HTMLparser.c,5416,9,6065,3,cpp/long-switch,Long switch case,"Switch has at least one case that is too long: [XML_PARSER_START (46 lines)](1).
+Switch has at least one case that is too long: [XML_PARSER_MISC (72 lines)](2).
+Switch has at least one case that is too long: [XML_PARSER_PROLOG (41 lines)](3).
+Switch has at least one case that is too long: [XML_PARSER_EPILOG (51 lines)](4).
+Switch has at least one case that is too long: [XML_PARSER_START_TAG (129 lines)](5).
+Switch has at least one case that is too long: [XML_PARSER_CONTENT (169 lines)](6).",,LOW
+18a600d3640730a7:1,c14n.c,1540,5,1705,6,cpp/long-switch,Long switch case,"Switch has at least one case that is too long: [XML_PI_NODE (45 lines)](1).
+Switch has at least one case that is too long: [XML_COMMENT_NODE (44 lines)](2).",,LOW
+fabc3a21960fcd23:1,c14n.c,1163,5,1341,6,cpp/long-switch,Long switch case,"Switch has at least one case that is too long: [XML_C14N_1_0 (52 lines)](1).
+Switch has at least one case that is too long: [XML_C14N_1_1 (104 lines)](2).",,LOW
+84d667f322f9fd53:1,catalog.c,2400,6,2471,7,cpp/long-switch,Long switch case,Switch has at least one case that is too long: [SGML_CATA_DELEGATE (31 lines)](1).,,LOW
+83956e601565b7c5:5,encoding.c,2630,5,2707,6,cpp/long-switch,Long switch case,Switch has at least one case that is too long: [- ... (51 lines)](1).,,LOW
+83956e601565b7c5:4,encoding.c,2466,5,2542,6,cpp/long-switch,Long switch case,Switch has at least one case that is too long: [- ... (50 lines)](1).,,LOW
+2b5ca65cb3ee880e:1,nanoftp.c,1080,2,1173,3,cpp/long-switch,Long switch case,Switch has at least one case that is too long: [2 (53 lines)](1).,,LOW
+97c0821f0b42421b:1,parser.c,11231,9,12092,3,cpp/long-switch,Long switch case,"Switch has at least one case that is too long: [XML_PARSER_START (113 lines)](1).
+Switch has at least one case that is too long: [XML_PARSER_START_TAG (111 lines)](2).
+Switch has at least one case that is too long: [XML_PARSER_CONTENT (97 lines)](3).
+Switch has at least one case that is too long: [XML_PARSER_END_TAG (31 lines)](4).
+Switch has at least one case that is too long: [XML_PARSER_CDATA_SECTION (75 lines)](5).
+Switch has at least one case that is too long: [XML_PARSER_MISC (105 lines)](6).
+Switch has at least one case that is too long: [XML_PARSER_PROLOG (55 lines)](7).
+Switch has at least one case that is too long: [XML_PARSER_EPILOG (56 lines)](8).
+Switch has at least one case that is too long: [XML_PARSER_DTD (131 lines)](9).",,LOW
+bc0706ad0794ba30:1,pattern.c,1618,9,1723,3,cpp/long-switch,Long switch case,Switch has at least one case that is too long: [XML_OP_ELEM (49 lines)](1).,,LOW
+d1a6289b08dabf28:1,pattern.c,511,2,684,3,cpp/long-switch,Long switch case,Switch has at least one case that is too long: [XML_OP_ANCESTOR (48 lines)](1).,,LOW
+17ef9a05b6f48bc7:1,relaxng.c,9909,5,10619,6,cpp/long-switch,Long switch case,"Switch has at least one case that is too long: [XML_RELAXNG_ELEMENT (238 lines)](1).
+Switch has at least one case that is too long: [XML_RELAXNG_OPTIONAL (39 lines)](2).
+Switch has at least one case that is too long: [XML_RELAXNG_ZEROORMORE (143 lines)](3).
+Switch has at least one case that is too long: [XML_RELAXNG_CHOICE (98 lines)](4).
+Switch has at least one case that is too long: [XML_RELAXNG_DATATYPE (41 lines)](5).
+Switch has at least one case that is too long: [XML_RELAXNG_VALUE (44 lines)](6).
+Switch has at least one case that is too long: [XML_RELAXNG_LIST (54 lines)](7).",,LOW
+5c1fccdac0d71566:1,relaxng.c,8751,5,9019,6,cpp/long-switch,Long switch case,"Switch has at least one case that is too long: [XML_RELAXNG_VALUE (44 lines)](1).
+Switch has at least one case that is too long: [XML_RELAXNG_LIST (73 lines)](2).",,LOW
+bfbe7b94274c2ea8:1,relaxng.c,3048,5,3251,6,cpp/long-switch,Long switch case,"Switch has at least one case that is too long: [XML_RELAXNG_START (35 lines)](1).
+Switch has at least one case that is too long: [XML_RELAXNG_ELEMENT (51 lines)](2).",,LOW
+e4a63fe9f48ba716:1,relaxng.c,2902,5,3006,6,cpp/long-switch,Long switch case,Switch has at least one case that is too long: [XML_RELAXNG_ELEMENT (49 lines)](1).,,LOW
+f020add714070ba4:2,tree.c,9552,2,9685,3,cpp/long-switch,Long switch case,Switch has at least one case that is too long: [XML_ELEMENT_NODE (79 lines)](1).,,LOW
+f020add714070ba4:1,tree.c,9091,2,9279,3,cpp/long-switch,Long switch case,"Switch has at least one case that is too long: [XML_ELEMENT_NODE (52 lines)](1).
+Switch has at least one case that is too long: [XML_ATTRIBUTE_NODE (91 lines)](2).",,LOW
+8c138fb1ce4d1794:1,tree.c,8779,2,8934,3,cpp/long-switch,Long switch case,"Switch has at least one case that is too long: [XML_ELEMENT_NODE (89 lines)](1).
+Switch has at least one case that is too long: [XML_ATTRIBUTE_NODE (61 lines)](2).",,LOW
+ad9b1b923156c571:1,tree.c,8267,2,8324,3,cpp/long-switch,Long switch case,Switch has at least one case that is too long: [XML_ATTRIBUTE_NODE (42 lines)](1).,,LOW
+e3ec954b034b6c4d:1,tree.c,5403,5,5525,6,cpp/long-switch,Long switch case,Switch has at least one case that is too long: [XML_ELEMENT_NODE (48 lines)](1).,,LOW
+bfe96b89cfc17c0e:1,valid.c,6066,5,6195,6,cpp/long-switch,Long switch case,"Switch has at least one case that is too long: [XML_ELEMENT_TYPE_MIXED (79 lines)](1).
+Switch has at least one case that is too long: [XML_ELEMENT_TYPE_ELEMENT (31 lines)](2).",,LOW
+9f99ae974c06221b:1,valid.c,3873,5,3957,6,cpp/long-switch,Long switch case,Switch has at least one case that is too long: [XML_ATTRIBUTE_ENTITIES (34 lines)](1).,,LOW
+7f805552d792c3a9:1,valid.c,668,5,799,6,cpp/long-switch,Long switch case,"Switch has at least one case that is too long: [XML_ELEMENT_CONTENT_ELEMENT (37 lines)](1).
+Switch has at least one case that is too long: [XML_ELEMENT_CONTENT_SEQ (36 lines)](2).
+Switch has at least one case that is too long: [XML_ELEMENT_CONTENT_OR (43 lines)](3).",,LOW
+f3cd92d707026ed:1,xinclude.c,1138,5,1243,6,cpp/long-switch,Long switch case,Switch has at least one case that is too long: [XPATH_NODESET (76 lines)](1).,,LOW
+dbad876adb945d01:1,xmlregexp.c,7399,5,7699,6,cpp/long-switch,Long switch case,"Switch has at least one case that is too long: [XML_EXP_ATOM (32 lines)](1).
+Switch has at least one case that is too long: [XML_EXP_SEQ (70 lines)](2).
+Switch has at least one case that is too long: [XML_EXP_COUNT (169 lines)](3).",,LOW
+b54754491b00681a:1,xmlregexp.c,7107,5,7208,6,cpp/long-switch,Long switch case,Switch has at least one case that is too long: [XML_EXP_COUNT (39 lines)](1).,,LOW
+871e06e5d07a5e57:1,xmlreader.c,3642,5,3686,6,cpp/long-switch,Long switch case,Switch has at least one case that is too long: [XML_ATTRIBUTE_NODE (33 lines)](1).,,LOW
+7931f0095dad4652:1,xmlregexp.c,1578,2,1685,3,cpp/long-switch,Long switch case,Switch has at least one case that is too long: [XML_REGEXP_QUANT_RANGE (79 lines)](1).,,LOW
+78c16baeaeabf57:1,xmlschemas.c,26604,5,26731,6,cpp/long-switch,Long switch case,Switch has at least one case that is too long: [XML_SCHEMA_CONTENT_ELEMENTS (80 lines)](1).,,LOW
+4a7dd799312c4209:1,xmlschemas.c,18687,5,18858,6,cpp/long-switch,Long switch case,"Switch has at least one case that is too long: [XML_SCHEMA_FACET_ENUMERATION (89 lines)](1).
+Switch has at least one case that is too long: [XML_SCHEMA_FACET_MINLENGTH (36 lines)](2).",,LOW
+3e4088e3403c2354:1,xmlschemastypes.c,5697,5,6087,6,cpp/long-switch,Long switch case,"Switch has at least one case that is too long: [XML_SCHEMAS_DECIMAL (70 lines)](1).
+Switch has at least one case that is too long: [XML_SCHEMAS_UBYTE (35 lines)](2).
+Switch has at least one case that is too long: [XML_SCHEMAS_DURATION (35 lines)](3).",,LOW
+8ef541aa557b255c:1,xmlschemastypes.c,5327,5,5524,6,cpp/long-switch,Long switch case,"Switch has at least one case that is too long: [XML_SCHEMA_FACET_MINLENGTH (71 lines)](1).
+Switch has at least one case that is too long: [XML_SCHEMA_FACET_FRACTIONDIGITS (33 lines)](2).",,LOW
+64cec495c988ca14:1,xmlschemastypes.c,4702,5,4924,6,cpp/long-switch,Long switch case,Switch has at least one case that is too long: [XML_SCHEMAS_ANYURI (69 lines)](1).,,LOW
+46ac05e96a32a185:1,xmlschemastypes.c,2180,5,3331,6,cpp/long-switch,Long switch case,"Switch has at least one case that is too long: [XML_SCHEMAS_STRING (43 lines)](1).
+Switch has at least one case that is too long: [XML_SCHEMAS_DECIMAL (123 lines)](2).
+Switch has at least one case that is too long: [XML_SCHEMAS_DOUBLE (139 lines)](3).
+Switch has at least one case that is too long: [XML_SCHEMAS_BOOLEAN (58 lines)](4).
+Switch has at least one case that is too long: [XML_SCHEMAS_QNAME (42 lines)](5).
+Switch has at least one case that is too long: [XML_SCHEMAS_ID (35 lines)](6).
+Switch has at least one case that is too long: [XML_SCHEMAS_ENTITY (31 lines)](7).
+Switch has at least one case that is too long: [XML_SCHEMAS_NOTATION (52 lines)](8).
+Switch has at least one case that is too long: [XML_SCHEMAS_ANYURI (33 lines)](9).
+Switch has at least one case that is too long: [XML_SCHEMAS_HEXBINARY (56 lines)](10).
+Switch has at least one case that is too long: [XML_SCHEMAS_BASE64BINARY (123 lines)](11).
+Switch has at least one case that is too long: [XML_SCHEMAS_NNINTEGER (55 lines)](12).
+Switch has at least one case that is too long: [XML_SCHEMAS_INT (69 lines)](13).
+Switch has at least one case that is too long: [XML_SCHEMAS_UBYTE (55 lines)](14).",,LOW
+7f3c143da02d9c30:1,xmlschemas.c,12793,5,13170,6,cpp/long-switch,Long switch case,"Switch has at least one case that is too long: [XML_SCHEMA_TYPE_ANY (88 lines)](1).
+Switch has at least one case that is too long: [XML_SCHEMA_TYPE_SEQUENCE (132 lines)](2).
+Switch has at least one case that is too long: [XML_SCHEMA_TYPE_CHOICE (60 lines)](3).
+Switch has at least one case that is too long: [XML_SCHEMA_TYPE_ALL (73 lines)](4).",,LOW
+adba33093d4558e3:1,xmlschemastypes.c,1421,5,1470,6,cpp/long-switch,Long switch case,Switch has at least one case that is too long: [45 (33 lines)](1).,,LOW
+44067103b4ab134:1,xpath.c,12913,5,13478,6,cpp/long-switch,Long switch case,"Switch has at least one case that is too long: [XPATH_OP_UNION (36 lines)](1).
+Switch has at least one case that is too long: [XPATH_OP_FUNCTION (74 lines)](2).
+Switch has at least one case that is too long: [XPATH_OP_FILTER (121 lines)](3).
+Switch has at least one case that is too long: [XPATH_OP_RANGETO (157 lines)](4).",,LOW
+e34a625a8beb51e:1,xpath.c,12696,5,12798,6,cpp/long-switch,Long switch case,Switch has at least one case that is too long: [XPATH_OP_UNION (55 lines)](1).,,LOW
+ad7248f87ac5e0ed:1,xpath.c,12556,5,12664,6,cpp/long-switch,Long switch case,Switch has at least one case that is too long: [XPATH_OP_UNION (56 lines)](1).,,LOW
+fc83e721dec93e1c:1,xpath.c,12215,6,12366,7,cpp/long-switch,Long switch case,"Switch has at least one case that is too long: [NODE_TEST_TYPE (38 lines)](1).
+Switch has at least one case that is too long: [NODE_TEST_ALL (31 lines)](2).
+Switch has at least one case that is too long: [NODE_TEST_NAME (63 lines)](3).",,LOW
+e875f753052e55da:1,xpointer.c,2089,5,2153,6,cpp/long-switch,Long switch case,Switch has at least one case that is too long: [XPATH_RANGE (32 lines)](1).,,LOW
+ff7310ca686db44f:1,xpointer.c,1965,5,2006,6,cpp/long-switch,Long switch case,Switch has at least one case that is too long: [XPATH_RANGE (34 lines)](1).,,LOW
+f3cd92d707026ed:1,xpointer.c,1598,5,1666,6,cpp/long-switch,Long switch case,Switch has at least one case that is too long: [XPATH_NODESET (43 lines)](1).,,LOW
+815d56cc0304eb98:1,xpath.c,6923,5,7095,6,cpp/long-switch,Long switch case,"Switch has at least one case that is too long: [XPATH_BOOLEAN (37 lines)](1).
+Switch has at least one case that is too long: [XPATH_NUMBER (56 lines)](2).
+Switch has at least one case that is too long: [XPATH_STRING (60 lines)](3).",,LOW
+2ec6b79a3b93f9dd:3,xpath.c,7026,6,7084,7,cpp/long-switch,Long switch case,Switch has at least one case that is too long: [XPATH_NUMBER (31 lines)](1).,,LOW
+b7d991491a8c4849:1,xpath.c,5360,5,5423,6,cpp/long-switch,Long switch case,Switch has at least one case that is too long: [XPATH_XSLT_TREE (32 lines)](1).,,LOW
+990453af7389e155:1,xpath.c,1511,5,1662,6,cpp/long-switch,Long switch case,Switch has at least one case that is too long: [XPATH_OP_COLLECT (66 lines)](1).,,LOW
+1d89e26ce7498b75:1,xpath.c,174,5,244,6,cpp/long-switch,Long switch case,Switch has at least one case that is too long: [XML_PI_NODE (36 lines)](1).,,LOW
+517266994ec01768:1,debugXML.c,3416,9,-1,24,cpp/guarded-free,Guarded Free,unnecessary NULL check before call to [free](1),,LOW
+e1b1a6634d29fbf6:1,debugXML.c,2701,16,2702,10,cpp/empty-block,Empty branch of conditional,Empty block without comment.,,LOW
+8c2d14620c8f658e:1,debugXML.c,2211,37,2212,6,cpp/empty-block,Empty branch of conditional,Empty block without comment.,,LOW
+7d94de2522f9b6dd:1,relaxng.c,10404,35,10405,22,cpp/empty-block,Empty branch of conditional,Empty block without comment.,,LOW
+502feade4011212:1,relaxng.c,3727,34,3728,18,cpp/empty-block,Empty branch of conditional,Empty block without comment.,,LOW
+dbaa21412a1ebc8e:1,xpath.c,13690,15,13691,3,cpp/empty-block,Empty branch of conditional,Empty block without comment.,,LOW
+a7e4acf29eee66cc:1,parser.c,3185,6,3200,45,cpp/complex-condition,Complex condition,Complex condition: too many logical operations in this expression.,,LOW
+53e138fa48c632d2:1,parser.c,3206,9,3226,4,cpp/complex-condition,Complex condition,Complex condition: too many logical operations in this expression.,,LOW
+173a77db68c19fb1:1,parser.c,3128,6,3147,42,cpp/complex-condition,Complex condition,Complex condition: too many logical operations in this expression.,,LOW
+173a77db68c2d5b5:1,parser.c,3097,6,3112,42,cpp/complex-condition,Complex condition,Complex condition: too many logical operations in this expression.,,LOW
+8455d8ff2ba201a5:1,relaxng.c,4020,13,4027,43,cpp/complex-condition,Complex condition,Complex condition: too many logical operations in this expression.,,LOW
+a72aa29ca0bd7c61:1,valid.c,3478,6,3496,40,cpp/complex-condition,Complex condition,Complex condition: too many logical operations in this expression.,,LOW
+e8b6b89559441df0:1,valid.c,3448,6,3462,40,cpp/complex-condition,Complex condition,Complex condition: too many logical operations in this expression.,,LOW
+78d219afcf9d3544:1,xmlregexp.c,2283,10,2293,40,cpp/complex-condition,Complex condition,Complex condition: too many logical operations in this expression.,,LOW
+cc8047c3afca126a:1,xmlregexp.c,2300,10,2312,35,cpp/complex-condition,Complex condition,Complex condition: too many logical operations in this expression.,,LOW
+a4c88e0d0b16b93e:1,xmlregexp.c,2319,10,2329,35,cpp/complex-condition,Complex condition,Complex condition: too many logical operations in this expression.,,LOW
+de3631965e912a60:1,xmlregexp.c,2336,10,2349,35,cpp/complex-condition,Complex condition,Complex condition: too many logical operations in this expression.,,LOW
+a1ae22d61c54dff2:1,xmlregexp.c,2356,10,2366,35,cpp/complex-condition,Complex condition,Complex condition: too many logical operations in this expression.,,LOW
+99f6163357eadd6a:1,xpath.c,14564,10,14581,19,cpp/complex-condition,Complex condition,Complex condition: too many logical operations in this expression.,,LOW
+bcfaceef43d7ff67:1,HTMLparser.c,2790,-1,-1,23,cpp/unused-static-function,Unused static function,Static function htmlParseSystemLiteral is unreachable,CWE-561,LOW
+e2d596072093e992:1,HTMLparser.c,2850,-1,-1,22,cpp/unused-static-function,Unused static function,Static function htmlParsePubidLiteral is unreachable,CWE-561,LOW
+b2f468635cac225:1,c14n.c,1529,-1,-1,19,cpp/unused-static-function,Unused static function,Static function xmlC14NProcessNode is unreachable,CWE-561,LOW
+7f10adaf6935a6cc:1,c14n.c,1421,-1,-1,26,cpp/unused-static-function,Unused static function,Static function xmlC14NProcessElementNode is unreachable ([xmlC14NProcessNode](1) must be removed at the same time),CWE-561,LOW
+48e6c4a7308f36da:1,c14n.c,1366,-1,-1,34,cpp/unused-static-function,Unused static function,"Static function xmlC14NCheckForRelativeNamespaces is unreachable ([xmlC14NProcessNode](1) must be removed at the same time)
+Static function xmlC14NCheckForRelativeNamespaces is unreachable ([xmlC14NProcessElementNode](2) must be removed at the same time)",CWE-561,LOW
+4c21f8356c606ef8:1,c14n.c,610,-1,-1,29,cpp/unused-static-function,Unused static function,"Static function xmlC14NProcessNamespacesAxis is unreachable ([xmlC14NProcessNode](1) must be removed at the same time)
+Static function xmlC14NProcessNamespacesAxis is unreachable ([xmlC14NProcessElementNode](2) must be removed at the same time)",CWE-561,LOW
+832822dc1b59151b:1,c14n.c,715,-1,-1,32,cpp/unused-static-function,Unused static function,"Static function xmlExcC14NProcessNamespacesAxis is unreachable ([xmlC14NProcessNode](1) must be removed at the same time)
+Static function xmlExcC14NProcessNamespacesAxis is unreachable ([xmlC14NProcessElementNode](2) must be removed at the same time)",CWE-561,LOW
+e36ec460f2bdc448:1,c14n.c,1138,-1,-1,24,cpp/unused-static-function,Unused static function,"Static function xmlC14NProcessAttrsAxis is unreachable ([xmlC14NProcessNode](1) must be removed at the same time)
+Static function xmlC14NProcessAttrsAxis is unreachable ([xmlC14NProcessElementNode](2) must be removed at the same time)",CWE-561,LOW
+7c4dca16d6131279:1,c14n.c,890,-1,-1,20,cpp/unused-static-function,Unused static function,"Static function xmlC14NAttrsCompare is unreachable ([xmlC14NProcessNode](1) must be removed at the same time)
+Static function xmlC14NAttrsCompare is unreachable ([xmlC14NProcessElementNode](2) must be removed at the same time)
+Static function xmlC14NAttrsCompare is unreachable ([xmlC14NProcessAttrsAxis](3) must be removed at the same time)",CWE-561,LOW
+dcdfb5d235795d87:1,c14n.c,990,-1,-1,28,cpp/unused-static-function,Unused static function,"Static function xmlC14NFindHiddenParentAttr is unreachable ([xmlC14NProcessNode](1) must be removed at the same time)
+Static function xmlC14NFindHiddenParentAttr is unreachable ([xmlC14NProcessElementNode](2) must be removed at the same time)
+Static function xmlC14NFindHiddenParentAttr is unreachable ([xmlC14NProcessAttrsAxis](3) must be removed at the same time)",CWE-561,LOW
+8b6255a4e19549d8:1,c14n.c,1013,-1,-1,21,cpp/unused-static-function,Unused static function,"Static function xmlC14NFixupBaseAttr is unreachable ([xmlC14NProcessNode](1) must be removed at the same time)
+Static function xmlC14NFixupBaseAttr is unreachable ([xmlC14NProcessElementNode](2) must be removed at the same time)
+Static function xmlC14NFixupBaseAttr is unreachable ([xmlC14NProcessAttrsAxis](3) must be removed at the same time)",CWE-561,LOW
+a6216cc6a11e55ba:1,c14n.c,944,-1,-1,18,cpp/unused-static-function,Unused static function,"Static function xmlC14NPrintAttrs is unreachable ([xmlC14NProcessNode](1) must be removed at the same time)
+Static function xmlC14NPrintAttrs is unreachable ([xmlC14NProcessElementNode](2) must be removed at the same time)
+Static function xmlC14NPrintAttrs is unreachable ([xmlC14NProcessAttrsAxis](3) must be removed at the same time)",CWE-561,LOW
+bb7ad26fe907d5a5:1,c14n.c,499,-1,-1,15,cpp/unused-static-function,Unused static function,"Static function xmlC14NIsXmlNs is unreachable ([xmlC14NProcessNode](1) must be removed at the same time)
+Static function xmlC14NIsXmlNs is unreachable ([xmlC14NProcessElementNode](2) must be removed at the same time)
+Static function xmlC14NIsXmlNs is unreachable ([xmlC14NProcessNamespacesAxis](3) must be removed at the same time)
+Static function xmlC14NIsXmlNs is unreachable ([xmlExcC14NProcessNamespacesAxis](4) must be removed at the same time)",CWE-561,LOW
+5740b2a0e581d22c:1,c14n.c,517,-1,-1,17,cpp/unused-static-function,Unused static function,"Static function xmlC14NNsCompare is unreachable ([xmlC14NProcessNode](1) must be removed at the same time)
+Static function xmlC14NNsCompare is unreachable ([xmlC14NProcessElementNode](2) must be removed at the same time)
+Static function xmlC14NNsCompare is unreachable ([xmlC14NProcessNamespacesAxis](3) must be removed at the same time)
+Static function xmlC14NNsCompare is unreachable ([xmlExcC14NProcessNamespacesAxis](4) must be removed at the same time)",CWE-561,LOW
+60e27da52b80286:1,c14n.c,542,-1,-1,23,cpp/unused-static-function,Unused static function,"Static function xmlC14NPrintNamespaces is unreachable ([xmlC14NProcessNode](1) must be removed at the same time)
+Static function xmlC14NPrintNamespaces is unreachable ([xmlC14NProcessElementNode](2) must be removed at the same time)
+Static function xmlC14NPrintNamespaces is unreachable ([xmlC14NProcessNamespacesAxis](3) must be removed at the same time)
+Static function xmlC14NPrintNamespaces is unreachable ([xmlExcC14NProcessNamespacesAxis](4) must be removed at the same time)",CWE-561,LOW
+3591fab1ecdca3d4:1,debugXML.c,93,-1,-1,16,cpp/unused-static-function,Unused static function,Static function xmlNsCheckScope is unreachable,CWE-561,LOW
+6b0fae9f4c07dd59:1,pattern.c,1017,-1,-1,22,cpp/unused-static-function,Unused static function,Static function xmlCompileStepPattern is unreachable,CWE-561,LOW
+37d849e270839860:1,pattern.c,924,-1,-1,24,cpp/unused-static-function,Unused static function,Static function xmlCompileAttributeTest is unreachable ([xmlCompileStepPattern](1) must be removed at the same time),CWE-561,LOW
+806ff0506f5c99ad:1,pattern.c,863,-1,-1,17,cpp/unused-static-function,Unused static function,"Static function xmlPatScanNCName is unreachable ([xmlCompileStepPattern](1) must be removed at the same time)
+Static function xmlPatScanNCName is unreachable ([xmlCompileAttributeTest](2) must be removed at the same time)",CWE-561,LOW
+a85d83638eae9f59:1,pattern.c,825,-1,-1,15,cpp/unused-static-function,Unused static function,"Static function xmlPatScanName is unreachable ([xmlCompileStepPattern](1) must be removed at the same time)
+Static function xmlPatScanName is unreachable ([xmlCompileAttributeTest](2) must be removed at the same time)",CWE-561,LOW
+dad5706aacc9a210:1,relaxng.c,7737,-1,-1,21,cpp/unused-static-function,Unused static function,Static function xmlRelaxNGDumpDefine is unreachable,CWE-561,LOW
+4d08919424310a6:1,relaxng.c,4105,-1,-1,33,cpp/unused-static-function,Unused static function,Static function xmlRelaxNGCheckChoiceDeterminism is unreachable,CWE-561,LOW
+12708a96f5c65ae6:1,relaxng.c,5284,-1,-1,25,cpp/unused-static-function,Unused static function,Static function xmlRelaxNGParseNameClass is unreachable ([xmlRelaxNGParseExceptNameClass](1) must be removed at the same time),CWE-561,LOW
+8e726fec8affc8c9:1,relaxng.c,5223,-1,-1,31,cpp/unused-static-function,Unused static function,Static function xmlRelaxNGParseExceptNameClass is unreachable ([xmlRelaxNGParseNameClass](1) must be removed at the same time),CWE-561,LOW
+7db73aa08b6805ea:1,relaxng.c,3794,-1,-1,29,cpp/unused-static-function,Unused static function,Static function xmlRelaxNGCompareNameClasses is unreachable,CWE-561,LOW
+e720a17915a0e8e1:1,relaxng.c,3040,-1,-1,18,cpp/unused-static-function,Unused static function,Static function xmlRelaxNGCompile is unreachable,CWE-561,LOW
+9670338b246095a4:1,relaxng.c,1776,-1,-1,25,cpp/unused-static-function,Unused static function,Static function xmlRelaxNGValidErrorPush is unreachable,CWE-561,LOW
+9473233ec62eca16:1,relaxng.c,2102,-1,-1,25,cpp/unused-static-function,Unused static function,Static function xmlRelaxNGGetErrorString is unreachable,CWE-561,LOW
+68647a648a1b296d:1,relaxng.c,1346,-1,-1,26,cpp/unused-static-function,Unused static function,Static function xmlRelaxNGEqualValidState is unreachable,CWE-561,LOW
+96bd1a93d8709700:1,relaxng.c,720,-1,-1,22,cpp/unused-static-function,Unused static function,Static function xmlRelaxNGFreeInclude is unreachable,CWE-561,LOW
+98645740e27a501d:1,threads.c,557,-1,-1,19,cpp/unused-static-function,Unused static function,Static function xmlFreeGlobalState is unreachable,CWE-561,LOW
+4bc3b987aec86f9e:1,uri.c,208,-1,-1,19,cpp/unused-static-function,Unused static function,Static function xmlParse3986Scheme is unreachable,CWE-561,LOW
+1cdb669df920473d:1,uri.c,281,-1,-1,18,cpp/unused-static-function,Unused static function,Static function xmlParse3986Query is unreachable,CWE-561,LOW
+8c87ec6d3a62288e:1,uri.c,244,-1,-1,21,cpp/unused-static-function,Unused static function,Static function xmlParse3986Fragment is unreachable,CWE-561,LOW
+fb1cdcf59371aa07:1,uri.c,581,-1,-1,24,cpp/unused-static-function,Unused static function,Static function xmlParse3986PathAbEmpty is unreachable,CWE-561,LOW
+b44313699f40e700:1,uri.c,621,-1,-1,25,cpp/unused-static-function,Unused static function,Static function xmlParse3986PathAbsolute is unreachable,CWE-561,LOW
+fc0a699112ee2be8:1,uri.c,709,-1,-1,25,cpp/unused-static-function,Unused static function,Static function xmlParse3986PathNoScheme is unreachable,CWE-561,LOW
+90fd0bff33720a99:1,uri.c,667,-1,-1,25,cpp/unused-static-function,Unused static function,Static function xmlParse3986PathRootless is unreachable,CWE-561,LOW
+b31555360723b9c0:1,uri.c,359,-1,-1,21,cpp/unused-static-function,Unused static function,Static function xmlParse3986Userinfo is unreachable,CWE-561,LOW
+d7d501dea389bd83:1,uri.c,434,-1,-1,17,cpp/unused-static-function,Unused static function,Static function xmlParse3986Host is unreachable,CWE-561,LOW
+9673299ab9a68bf3:1,valid.c,6474,-1,-1,15,cpp/unused-static-function,Unused static function,Static function xmlValidateRef is unreachable,CWE-561,LOW
+387d488f5d2aa63b:1,xinclude.c,315,-1,-1,19,cpp/unused-static-function,Unused static function,Static function xmlXIncludeURLPush is unreachable,CWE-561,LOW
+c318095f2791eb5b:1,xinclude.c,2296,-1,-1,20,cpp/unused-static-function,Unused static function,Static function xmlXIncludeTestNode is unreachable,CWE-561,LOW
+77be9364dfeebd31:1,xinclude.c,2039,-1,-1,20,cpp/unused-static-function,Unused static function,Static function xmlXIncludeLoadNode is unreachable,CWE-561,LOW
+ce7f133d00a074e4:1,xinclude.c,2196,-1,-1,23,cpp/unused-static-function,Unused static function,Static function xmlXIncludeIncludeNode is unreachable,CWE-561,LOW
+5cccaf69055c89b8:1,xinclude.c,1128,-1,-1,24,cpp/unused-static-function,Unused static function,"Static function xmlXIncludeCopyXPointer is unreachable ([xmlXIncludeLoadNode](1) must be removed at the same time)
+Static function xmlXIncludeCopyXPointer is unreachable ([xmlXIncludeIncludeNode](2) must be removed at the same time)
+Static function xmlXIncludeCopyXPointer is unreachable ([xmlXIncludeLoadDoc](3) must be removed at the same time)",CWE-561,LOW
+3aed180dc86215f:1,xinclude.c,172,-1,-1,19,cpp/unused-static-function,Unused static function,"Static function xmlXIncludeGetProp is unreachable ([xmlXIncludeLoadNode](1) must be removed at the same time)
+Static function xmlXIncludeGetProp is unreachable ([xmlXIncludeAddNode](2) must be removed at the same time)",CWE-561,LOW
+a43ce0c2782d7b74:1,xinclude.c,1408,-1,-1,19,cpp/unused-static-function,Unused static function,Static function xmlXIncludeLoadDoc is unreachable ([xmlXIncludeLoadNode](1) must be removed at the same time),CWE-561,LOW
+99107afa4fe5d374:1,xinclude.c,1801,-1,-1,19,cpp/unused-static-function,Unused static function,Static function xmlXIncludeLoadTxt is unreachable ([xmlXIncludeLoadNode](1) must be removed at the same time),CWE-561,LOW
+89b7c8b3e155443a:1,xinclude.c,1972,-1,-1,24,cpp/unused-static-function,Unused static function,Static function xmlXIncludeLoadFallback is unreachable ([xmlXIncludeLoadNode](1) must be removed at the same time),CWE-561,LOW
+a917bed92e0cc9d1:1,xinclude.c,493,-1,-1,19,cpp/unused-static-function,Unused static function,Static function xmlXIncludeAddNode is unreachable,CWE-561,LOW
+1974345d72ae19e1:1,xinclude.c,762,-1,-1,18,cpp/unused-static-function,Unused static function,"Static function xmlXIncludeAddTxt is unreachable ([xmlXIncludeLoadNode](1) must be removed at the same time)
+Static function xmlXIncludeAddTxt is unreachable ([xmlXIncludeLoadTxt](2) must be removed at the same time)",CWE-561,LOW
+611c11141b6f8ad6:1,xinclude.c,421,-1,-1,21,cpp/unused-static-function,Unused static function,"Static function xmlXIncludeParseFile is unreachable ([xmlXIncludeLoadNode](1) must be removed at the same time)
+Static function xmlXIncludeParseFile is unreachable ([xmlXIncludeLoadDoc](2) must be removed at the same time)",CWE-561,LOW
+b5e3f8996e2669c4:1,xinclude.c,1347,-1,-1,25,cpp/unused-static-function,Unused static function,"Static function xmlXIncludeMergeEntities is unreachable ([xmlXIncludeLoadNode](1) must be removed at the same time)
+Static function xmlXIncludeMergeEntities is unreachable ([xmlXIncludeLoadDoc](2) must be removed at the same time)",CWE-561,LOW
+f0df632d1400feac:1,xinclude.c,668,-1,-1,22,cpp/unused-static-function,Unused static function,"Static function xmlXIncludeRecurseDoc is unreachable ([xmlXIncludeLoadNode](1) must be removed at the same time)
+Static function xmlXIncludeRecurseDoc is unreachable ([xmlXIncludeLoadDoc](2) must be removed at the same time)",CWE-561,LOW
+80dafa7848e72850:1,xinclude.c,1268,-1,-1,23,cpp/unused-static-function,Unused static function,"Static function xmlXIncludeMergeEntity is unreachable ([xmlXIncludeLoadNode](1) must be removed at the same time)
+Static function xmlXIncludeMergeEntity is unreachable ([xmlXIncludeLoadDoc](2) must be removed at the same time)
+Static function xmlXIncludeMergeEntity is unreachable ([xmlXIncludeMergeEntities](3) must be removed at the same time)",CWE-561,LOW
+5758cf721aad86a8:1,xinclude.c,822,-1,-1,20,cpp/unused-static-function,Unused static function,"Static function xmlXIncludeCopyNode is unreachable ([xmlXIncludeLoadNode](1) must be removed at the same time)
+Static function xmlXIncludeCopyNode is unreachable ([xmlXIncludeIncludeNode](2) must be removed at the same time)
+Static function xmlXIncludeCopyNode is unreachable ([xmlXIncludeCopyXPointer](3) must be removed at the same time)
+Static function xmlXIncludeCopyNode is unreachable ([xmlXIncludeLoadDoc](4) must be removed at the same time)",CWE-561,LOW
+4a005e5da973f34f:1,xinclude.c,914,-1,-1,21,cpp/unused-static-function,Unused static function,"Static function xmlXIncludeCopyRange is unreachable ([xmlXIncludeLoadNode](1) must be removed at the same time)
+Static function xmlXIncludeCopyRange is unreachable ([xmlXIncludeIncludeNode](2) must be removed at the same time)
+Static function xmlXIncludeCopyRange is unreachable ([xmlXIncludeCopyXPointer](3) must be removed at the same time)
+Static function xmlXIncludeCopyRange is unreachable ([xmlXIncludeLoadDoc](4) must be removed at the same time)",CWE-561,LOW
+e4a411f6d325bb99:1,xinclude.c,225,-1,-1,18,cpp/unused-static-function,Unused static function,Static function xmlXIncludeNewRef is unreachable ([xmlXIncludeAddNode](1) must be removed at the same time),CWE-561,LOW
+ce928b70be5e318e:1,xmlreader.c,231,-1,-1,10,cpp/unused-static-function,Unused static function,Static function xmlFreeID is unreachable,CWE-561,LOW
+ea1a4b7276b09a75:1,xmlregexp.c,5269,-1,-1,15,cpp/unused-static-function,Unused static function,Static function xmlFAParseAtom is unreachable,CWE-561,LOW
+640c036b2cde2511:1,xmlregexp.c,4613,-1,-1,12,cpp/unused-static-function,Unused static function,Static function xmlFAIsChar is unreachable ([xmlFAParseAtom](1) must be removed at the same time),CWE-561,LOW
+6c17465a253ec784:1,xmlregexp.c,5005,-1,-1,20,cpp/unused-static-function,Unused static function,Static function xmlFAParseCharRange is unreachable,CWE-561,LOW
+abf45b7abd705ced:1,xmlsave.c,631,-1,-1,16,cpp/unused-static-function,Unused static function,Static function xmlNsDumpOutput is unreachable,CWE-561,LOW
+61c5691c7b0f81a6:1,xmlregexp.c,4643,-1,-1,19,cpp/unused-static-function,Unused static function,Static function xmlFAParseCharProp is unreachable,CWE-561,LOW
+d29635a98349c7c0:1,xmlregexp.c,2806,-1,-1,26,cpp/unused-static-function,Unused static function,"Static function xmlRegCheckCharacterRange is unreachable ([xmlFACompareAtoms](1) must be removed at the same time)
+Static function xmlRegCheckCharacterRange is unreachable ([xmlFACompareRanges](2) must be removed at the same time)",CWE-561,LOW
+7fd774e69fc30d90:1,xmlregexp.c,2458,-1,-1,16,cpp/unused-static-function,Unused static function,Static function xmlFAEqualAtoms is unreachable,CWE-561,LOW
+f7bf2092f2968ea3:1,xmlregexp.c,2503,-1,-1,18,cpp/unused-static-function,Unused static function,Static function xmlFACompareAtoms is unreachable,CWE-561,LOW
+70566b7c6280b46f:1,xmlregexp.c,2083,-1,-1,19,cpp/unused-static-function,Unused static function,Static function xmlFACompareRanges is unreachable ([xmlFACompareAtoms](1) must be removed at the same time),CWE-561,LOW
+fa3924c2ac06a79b:1,xmlregexp.c,758,-1,-1,16,cpp/unused-static-function,Unused static function,Static function xmlRegCopyRange is unreachable,CWE-561,LOW
+81485d5b15c80d78:1,xmlschemas.c,2396,-1,-1,19,cpp/unused-static-function,Unused static function,Static function xmlSchemaKeyrefErr is unreachable,CWE-561,LOW
+4e18e1a2c3fd6531:1,xmlschemas.c,4979,-1,-1,16,cpp/unused-static-function,Unused static function,Static function xmlSchemaGetIDC is unreachable,CWE-561,LOW
+b782d619b520ef9d:1,xmlschemas.c,5005,-1,-1,27,cpp/unused-static-function,Unused static function,Static function xmlSchemaGetNamedComponent is unreachable,CWE-561,LOW
+76f0043815103315:1,xmlschemas.c,19625,-1,-1,31,cpp/unused-static-function,Unused static function,Static function xmlSchemaCheckElemPropsCorrect is unreachable,CWE-561,LOW
+78b6621b5e9b1a80:1,xmlschemas.c,4898,-1,-1,27,cpp/unused-static-function,Unused static function,Static function xmlSchemaGetAttributeGroup is unreachable,CWE-561,LOW
+b3b88c44eef64d8c:1,xmlschemas.c,18877,-1,-1,26,cpp/unused-static-function,Unused static function,Static function xmlSchemaCheckFacetValues is unreachable,CWE-561,LOW
+efa6616d40c3027f:1,xmlschemas.c,15796,-1,-1,28,cpp/unused-static-function,Unused static function,Static function xmlSchemaCreateVCtxtOnPCtxt is unreachable ([xmlSchemaCheckFacetValues](1) must be removed at the same time),CWE-561,LOW
+bc73270bce88426f:1,xmlschemas.c,15295,-1,-1,29,cpp/unused-static-function,Unused static function,Static function xmlSchemaCheckCOSSTRestricts is unreachable,CWE-561,LOW
+f5dd980bb452f869:1,xmlschemas.c,17259,-1,-1,33,cpp/unused-static-function,Unused static function,Static function xmlSchemaDeriveAndValidateFacets is unreachable,CWE-561,LOW
+f68042fee301e881:1,xmlschemas.c,17215,-1,-1,24,cpp/unused-static-function,Unused static function,Static function xmlSchemaDeriveFacetErr is unreachable ([xmlSchemaDeriveAndValidateFacets](1) must be removed at the same time),CWE-561,LOW
+fd1447fddb588f78:1,xmlschemas.c,2999,-1,-1,22,cpp/unused-static-function,Unused static function,Static function xmlSchemaPAttrUseErr4 is unreachable,CWE-561,LOW
+3f0c91402400db5c:1,xmlschemas.c,10990,-1,-1,32,cpp/unused-static-function,Unused static function,Static function xmlSchemaParseIncludeOrRedefine is unreachable,CWE-561,LOW
+7fb6ed667e80d8dd:1,xmlschemas.c,10894,-1,-1,37,cpp/unused-static-function,Unused static function,Static function xmlSchemaParseIncludeOrRedefineAttrs is unreachable ([xmlSchemaParseIncludeOrRedefine](1) must be removed at the same time),CWE-561,LOW
+1a4dfb7840f5b94e:1,xmlschemas.c,5728,-1,-1,23,cpp/unused-static-function,Unused static function,Static function xmlSchemaSubstGroupAdd is unreachable,CWE-561,LOW
+f9d46d16637b1ce:1,xmlschemas.c,4938,-1,-1,18,cpp/unused-static-function,Unused static function,Static function xmlSchemaGetGroup is unreachable ([xmlSchemaGetNamedComponent](1) must be removed at the same time),CWE-561,LOW
+3d51e1ed2c621ce6:1,xpath.c,11228,-1,-1,17,cpp/unused-static-function,Unused static function,Static function xmlXPathCompStep is unreachable,CWE-561,LOW
+e1c1158b17a1dd65:1,xpath.c,11148,-1,-1,19,cpp/unused-static-function,Unused static function,Static function xmlXPathIsAxisName is unreachable ([xmlXPathCompStep](1) must be removed at the same time),CWE-561,LOW
+43c3a8d253aa3448:1,xpath.c,11013,-1,-1,21,cpp/unused-static-function,Unused static function,Static function xmlXPathCompNodeTest is unreachable ([xmlXPathCompStep](1) must be removed at the same time),CWE-561,LOW
+5cf8c0506bee405e:1,xpath.c,10952,-1,-1,22,cpp/unused-static-function,Unused static function,Static function xmlXPathCompPredicate is unreachable ([xmlXPathCompStep](1) must be removed at the same time),CWE-561,LOW
+2a24d98ddceccf89:1,xpath.c,10152,-1,-1,21,cpp/unused-static-function,Unused static function,"Static function xmlXPathParseLiteral is unreachable ([xmlXPathCompStep](1) must be removed at the same time)
+Static function xmlXPathParseLiteral is unreachable ([xmlXPathCompNodeTest](2) must be removed at the same time)",CWE-561,LOW
+793847ca571ba875:1,xpath.c,10510,-1,-1,21,cpp/unused-static-function,Unused static function,Static function xmlXPathCompPathExpr is unreachable,CWE-561,LOW
+3c643640d6dbb324:1,xpath.c,10461,-1,-1,17,cpp/unused-static-function,Unused static function,Static function xmlXPathScanName is unreachable ([xmlXPathCompPathExpr](1) must be removed at the same time),CWE-561,LOW
+9b38a99c01ddf636:1,xpath.c,10391,-1,-1,24,cpp/unused-static-function,Unused static function,Static function xmlXPathCompPrimaryExpr is unreachable,CWE-561,LOW
+c54f3f817d020f63:1,xpath.c,10249,-1,-1,30,cpp/unused-static-function,Unused static function,Static function xmlXPathCompVariableReference is unreachable ([xmlXPathCompPrimaryExpr](1) must be removed at the same time),CWE-561,LOW
+6db4e3b3a7c350a4:1,xpath.c,10058,-1,-1,19,cpp/unused-static-function,Unused static function,Static function xmlXPathCompNumber is unreachable ([xmlXPathCompPrimaryExpr](1) must be removed at the same time),CWE-561,LOW
+5bd0e5cc2fa1ccab:1,xpath.c,10196,-1,-1,20,cpp/unused-static-function,Unused static function,Static function xmlXPathCompLiteral is unreachable ([xmlXPathCompPrimaryExpr](1) must be removed at the same time),CWE-561,LOW
+760dabd876c39758:1,xpath.c,10312,-1,-1,25,cpp/unused-static-function,Unused static function,Static function xmlXPathCompFunctionCall is unreachable ([xmlXPathCompPrimaryExpr](1) must be removed at the same time),CWE-561,LOW
+50e5fa75f6ec136d:1,xpath.c,9799,-1,-1,19,cpp/unused-static-function,Unused static function,"Static function xmlXPathParseQName is unreachable ([xmlXPathCompPrimaryExpr](1) must be removed at the same time)
+Static function xmlXPathParseQName is unreachable ([xmlXPathCompVariableReference](2) must be removed at the same time)
+Static function xmlXPathParseQName is unreachable ([xmlXPathCompFunctionCall](3) must be removed at the same time)",CWE-561,LOW
+c5b5aeab4b8f9ff1:1,xpointer.c,227,-1,-1,17,cpp/unused-static-function,Unused static function,Static function xmlXPtrCmpPoints is unreachable,CWE-561,LOW
+fde5e5553e0b0a67:1,xpath.c,1289,-1,-1,26,cpp/unused-static-function,Unused static function,Static function xmlXPathDebugDumpNodeList is unreachable,CWE-561,LOW
+db490ae61167f7b3:1,tree.c,9386,-1,-1,20,cpp/use-of-goto,Use of goto,"Multiple forward and backward goto statements may make function xmlDOMWrapCloneNode hard to understand.
+Multiple forward and backward goto statements may make function xmlDOMWrapCloneNode__internal_alias hard to understand.",,MEDIUM
+b287d1b4d777e8dd:1,tree.c,8755,-1,-1,30,cpp/use-of-goto,Use of goto,"Multiple forward and backward goto statements may make function xmlDOMWrapReconcileNamespaces hard to understand.
+Multiple forward and backward goto statements may make function xmlDOMWrapReconcileNamespaces__internal_alias hard to understand.",,MEDIUM
+2dae0fb372809c1e:1,xmlsave.c,1702,7,-1,59,cpp/fixme-comment,FIXME comment,"FIXME comment: Should we do something about ""--"" also?",CWE-546,LOW
+72cbfd76ce7e51c4:1,xmlschemastypes.c,5208,3,5210,5,cpp/fixme-comment,FIXME comment,FIXME comment: What exactly to do with anyURI?,CWE-546,LOW
+cba1dc54c67a8a47:1,xmlschemastypes.c,3634,9,-1,55,cpp/fixme-comment,FIXME comment,FIXME comment: Needs to be calculated separately,CWE-546,LOW
+cf6b7d918a04016e:1,xmlschemastypes.c,3631,9,3632,28,cpp/fixme-comment,FIXME comment,FIXME comment: This doesn't take leap year exceptions every 100/400 years \[...\],CWE-546,LOW
+6394eab710ee01a2:1,xmlschemas.c,13272,2,13275,4,cpp/fixme-comment,FIXME comment,FIXME comment: TODO: Do we need a new field in _xmlSchemaElement for \[...\],CWE-546,LOW
+b669342677691a69:1,xmlschemas.c,2685,6,2687,8,cpp/fixme-comment,FIXME comment,"FIXME comment: , TODO: What is the max expected string length of the \[...\]",CWE-546,LOW
+c820f62de0b175b7:1,xzlib.c,565,13,568,16,cpp/fixme-comment,FIXME comment,FIXME comment: Remapping a couple of error codes and falling through \[...\],CWE-546,LOW
+1b78734a19ef1510:1,xpath.c,8607,9,8611,12,cpp/fixme-comment,FIXME comment,FIXME comment: -- in an out-of-memory condition this will behave badly. \[...\],CWE-546,LOW
+4ffc0e3044187a50:1,include/libxml/tree.h,65,-1,-1,36,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+cae947e4b2a37723:1,include/libxml/schemasInternals.h,595,-1,-1,53,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+479fb52467293e1b:1,HTMLparser.c,6345,5,-1,32,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+e7352b633dad8395:1,HTMLparser.c,4106,3,-1,64,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+b5c9978a4b0a8888:1,HTMLparser.c,322,-1,-1,74,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+7949ea389bca94b7:1,HTMLparser.c,55,-1,-1,25,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+c1f896d4f3e97ba:1,HTMLparser.c,54,-1,-1,20,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+e4066ab13e90020f:2,SAX2.c,2664,5,-1,58,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+e4066ab13e90020f:1,SAX2.c,969,5,-1,58,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+359a7c94fa7198a6:1,SAX2.c,500,2,-1,41,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+b103c69029939710:1,SAX2.c,243,5,-1,58,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+9aafe6e2af98b7f8:1,SAX2.c,37,-1,-1,30,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+30e5a3a9a7cf95e8:1,SAX2.c,36,-1,-1,25,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+aa747b43abb0f4fb:1,debugXML.c,2121,2,-1,35,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+558b380ef825a0b2:1,dict.c,63,-1,-1,34,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+6c48c8e1284b1aee:1,dict.c,62,-1,-1,25,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+9337b914ae30737e:1,entities.c,656,3,664,6,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+f968de507a598fef:1,include/libxml/xmlmemory.h,89,-1,96,4,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+50a7fd3357dfa942:1,include/libxml/xmlmemory.h,27,-1,-1,36,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+25a8495b3bd3af05:1,include/libxml/xmlmemory.h,26,-1,-1,33,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+904b40252d35d3a:1,buf.h,54,-1,-1,48,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+84002cc84d0e8632:1,buf.h,53,-1,-1,56,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+1a3fb9a9d0d0888e:1,buf.h,48,-1,-1,45,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+d66d7c6ef3a7365e:1,buf.h,33,-1,-1,54,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+cf4aa73402123539:1,error.c,526,-1,-1,48,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+b71d0f02222f3894:1,globals.c,305,-1,-1,72,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+282954f941dd13e1:1,globals.c,26,-1,-1,28,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+e8e47990f33789f1:1,hash.c,49,-1,-1,25,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+2fd17ceef59a40fc:1,nanoftp.c,70,-1,-1,27,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+196d8afa94f27d85:1,parserInternals.c,241,-1,-1,25,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+5512af15ec6df2f3:1,parserInternals.c,240,-1,-1,26,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+dd898d55bece301e:1,parserInternals.c,239,-1,-1,26,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+f3d86c75c783ddc7:1,pattern.c,802,2,-1,44,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+8e351077b65c8f21:1,pattern.c,40,-1,-1,30,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+f7842e5a2ed730c8:1,parser.c,15080,9,-1,50,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+b55d922afeadfd0a:1,parser.c,7763,2,-1,49,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+ac1d7625353e89c1:1,parser.c,282,-1,-1,65,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+4dd63060f3355668:1,relaxng.c,7245,33,-1,72,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+ca15c3c533481178:1,threads.c,883,-1,-1,56,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+5a909fd61a4c0b41:1,threads.c,880,-1,-1,50,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+878f2df14eb4c1a:1,threads.c,46,-1,-1,28,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+88dda3de4d19773c:1,tree.c,9849,6,9851,8,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+d5b43c83ea9e5f87:1,tree.c,9401,5,-1,28,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+f6f015075534b300:1,tree.c,4094,6,-1,42,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+cfd5bc32e90d53d4:1,tree.c,196,2,-1,51,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+f60a7d8cc40c1805:1,tree.c,175,2,-1,51,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+770c0f62a4da2081:1,tree.c,147,-1,-1,25,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+45ed038669c5f0c3:1,tree.c,146,-1,-1,27,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+12cf2d67105d5d01:1,tree.c,124,-1,-1,30,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+abed5ab37827ea13:1,tree.c,121,-1,-1,32,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+9a1768863bbd956c:1,tree.c,119,-1,-1,27,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+5f0d4d3e9c3a2ca0:1,uri.c,1536,9,-1,58,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+783978188b8e201e:1,valid.c,5927,-1,-1,37,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+5f44ac0151e19ade:1,valid.c,5849,-1,-1,42,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+70546073918910be:1,valid.c,5761,-1,-1,38,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+ba4a0852e218ad73:1,valid.c,5093,7,-1,28,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+992c2f5b6658f605:1,valid.c,4560,5,-1,34,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+2436bc3e11b5728f:1,valid.c,4347,5,4351,9,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+34d37402ef6a4ee3:1,valid.c,32,-1,-1,32,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+5236f7cd0632a432:1,valid.c,31,-1,-1,31,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+1cbef5aa95b2e98d:1,xinclude.c,2132,2,-1,47,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+9398446830f03b0c:1,xinclude.c,1534,5,1546,8,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+ae7c79fdc23680ea:1,xinclude.c,673,5,679,8,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+95051d7f13e421f8:1,xinclude.c,34,-1,-1,29,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+4ba796f10d442b36:1,xmlIO.c,82,-1,-1,26,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+206d4a5fb5867fc6:1,xmlIO.c,81,-1,-1,38,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+92e7c210373b8b6e:1,xmlIO.c,80,-1,-1,30,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+4aaa549094e0f105:1,xmlmemory.c,32,-1,-1,27,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+b506d986c57f65ac:1,xmllint.c,2267,3,-1,33,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+7475fd5bb11b8db9:1,xmllint.c,2243,2,2245,5,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+86c1388e5697852:1,xmllint.c,997,5,-1,58,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+4e08901f3db37ed9:1,xmllint.c,863,11,-1,32,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+e5e6f6a652582abf:1,xmllint.c,862,11,-1,28,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+e89df5a984f1f05d:1,xmlreader.c,75,-1,-1,27,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+49bc5cd5f12bcbad:1,xmlreader.c,74,-1,-1,30,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+61a50575d79f1795:1,xmlregexp.c,6481,-1,-1,45,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+7386215ef3aceab6:1,xmlregexp.c,6438,-1,-1,26,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+1c21cc82fb33377:1,xmlregexp.c,6320,5,-1,40,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+cc6b8b772e0f8da6:4,xmlregexp.c,6154,5,-1,56,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+cc6b8b772e0f8da6:3,xmlregexp.c,6095,5,-1,56,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+cc6b8b772e0f8da6:2,xmlregexp.c,6009,5,-1,56,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+cc6b8b772e0f8da6:1,xmlregexp.c,5943,5,-1,56,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+5f7bc1e9a1deec55:1,xmlregexp.c,2967,6,-1,43,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+c9c386435ef29474:1,xmlregexp.c,2769,4,-1,21,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+5d7ab8c9bc942859:1,xmlregexp.c,2692,3,-1,20,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+7f8f7a9a85fa7560:1,xmlregexp.c,2634,3,-1,20,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+a4ce79997cfe9983:1,xmlregexp.c,43,-1,-1,31,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+be145594845a0241:1,xmlregexp.c,42,-1,-1,25,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+72a08c06f7e1086a:1,xmlregexp.c,41,-1,-1,32,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+fbf960fdf1d0bce7:1,xmlregexp.c,40,-1,-1,33,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+3da801e0dcff8a79:1,xmlregexp.c,22,-1,-1,24,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+87183f558af78d31:1,xmlschemastypes.c,3947,5,-1,35,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+fb80b73074cdaf85:2,xmlschemas.c,24624,7,-1,57,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+fb80b73074cdaf85:1,xmlschemas.c,24607,7,-1,57,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+d298bc7b86d5a32b:1,xmlschemas.c,24522,5,-1,43,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+85ab1a6b50bfc671:1,xmlschemas.c,22957,6,-1,44,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+24d4c607b53a302d:1,xmlschemas.c,21284,3,-1,21,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+ee4fde203df07126:1,xmlschemas.c,19989,3,20000,5,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+b897819d12419109:1,xmlschemas.c,18073,3,18077,5,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+b4078b4bd6f558c9:1,xmlschemas.c,17739,2,-1,21,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+a8bbf54a981c425d:1,xmlschemas.c,17738,2,-1,16,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+54dee602c981abb9:1,xmlschemas.c,17273,14,-1,38,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+e2752145b6a752f:1,xmlschemas.c,17170,5,-1,37,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+a3d472d8bc22275b:1,xmlschemas.c,17076,5,17078,7,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+c4b9c56de6bfbd26:1,xmlschemas.c,14309,7,-1,30,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+c18e07038d19a527:1,xmlschemas.c,14278,5,-1,28,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+736be2f19e706db3:1,xmlschemas.c,14233,4,-1,27,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+13df411472f2663b:1,xmlschemas.c,14203,4,-1,27,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+3ac79632e0934a1f:1,xmlschemas.c,14159,22,-1,36,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+fc268fcf03786faa:1,xmlschemas.c,11163,3,-1,30,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+608f02760f2782ec:1,xmlschemas.c,11159,3,-1,30,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+be8e7eef9703e2e6:1,xmlschemas.c,11157,3,-1,30,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+314369c17036084b:1,xmlschemas.c,9691,5,9698,7,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+3ddaeaf145ef4305:1,xmlschemas.c,8553,5,-1,46,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+caa02d8edfa5972:1,xmlschemas.c,4909,5,4914,7,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+81111810911e6b12:1,xmlschemas.c,1370,-1,1382,3,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+2e3160786a26d484:1,xmlschemas.c,1162,6,-1,44,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+f4beb514dd291340:1,xmlschemas.c,1159,6,-1,41,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+e59d88a4bb583764:1,xmlschemas.c,1156,6,-1,44,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+c30b4dfbb129b1f0:1,xmlschemas.c,993,5,-1,33,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+22472e7bdc7d4b5d:1,xmlschemas.c,608,5,-1,39,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+3691d1e85b5039c:1,xmlschemas.c,607,5,-1,34,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+c8bcbccb46bafc8:1,xmlschemas.c,583,5,-1,42,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+75fd6d36d5fcf4d4:1,xmlschemas.c,112,-1,-1,40,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+be8d68a31c60326:1,xmlschemas.c,107,-1,-1,42,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+5b4399229904f1:1,xmlschemas.c,105,-1,-1,34,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+ae9bc36a56dbb296:1,xmlschemas.c,101,-1,-1,44,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+db76c5b581d4e3ca:1,xmlschemas.c,93,-1,-1,41,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+10e80761871bfc08:1,xmlschemas.c,91,-1,-1,35,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+94c366ba0b3763cc:1,xmlschemas.c,89,-1,-1,24,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+c1edc46a48d62c9e:1,xmlschemas.c,87,-1,-1,31,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+7f248fcafb4ca2cf:1,xmlschemas.c,85,-1,-1,37,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+9e0b3a94688d153e:1,xmlschemas.c,83,-1,-1,27,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+60818d056844456c:1,xmlschemas.c,81,-1,-1,30,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+17bdfe67dad344da:1,xmlschemas.c,79,-1,-1,22,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+2a245d0125aa207c:1,xpointer.c,48,-1,-1,27,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+144bcadf2ab801a3:1,xpath.c,13502,5,-1,29,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+bda78edf919e0350:1,xpath.c,11268,3,-1,73,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+16a7e369e88738d4:1,xpath.c,1206,-1,-1,34,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+f74f64a55c09f1a:1,xpath.c,108,-1,-1,33,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+3f6682129e159bc1:1,xmlschemastypes.c,4649,9,-1,27,cpp/equality-on-floats,Equality test on floating-point values,Equality checks on floating point values can yield unexpected results.,,LOW
+dfcbd05336d70f67:1,xmlschemastypes.c,4650,6,-1,24,cpp/equality-on-floats,Equality test on floating-point values,Equality checks on floating point values can yield unexpected results.,,LOW
+656ae05e1f10400:1,xmlschemastypes.c,4654,9,-1,27,cpp/equality-on-floats,Equality test on floating-point values,Equality checks on floating point values can yield unexpected results.,,LOW
+cfca2ce2d55aa797:1,xmlschemastypes.c,4656,9,-1,27,cpp/equality-on-floats,Equality test on floating-point values,Equality checks on floating point values can yield unexpected results.,,LOW
+e402c30b6222eb7f:1,xmlschemastypes.c,4657,6,-1,24,cpp/equality-on-floats,Equality test on floating-point values,Equality checks on floating point values can yield unexpected results.,,LOW
+21c21acce649d24a:1,xmlschemastypes.c,4661,9,-1,27,cpp/equality-on-floats,Equality test on floating-point values,Equality checks on floating point values can yield unexpected results.,,LOW
+dff462ca0be52067:1,xmlschemastypes.c,4673,9,-1,17,cpp/equality-on-floats,Equality test on floating-point values,Equality checks on floating point values can yield unexpected results.,,LOW
+eab64278c3529977:1,xpath.c,13970,13,-1,62,cpp/equality-on-floats,Equality test on floating-point values,Equality checks on floating point values can yield unexpected results.,,LOW
+fc13b17976f96600:1,xpath.c,13927,13,-1,53,cpp/equality-on-floats,Equality test on floating-point values,Equality checks on floating point values can yield unexpected results.,,LOW
+f2ae283cd8d8539a:1,xpath.c,11902,17,-1,45,cpp/equality-on-floats,Equality test on floating-point values,Equality checks on floating point values can yield unexpected results.,,LOW
+57e15205ab8c68ff:1,xpath.c,6779,22,-1,26,cpp/equality-on-floats,Equality test on floating-point values,Equality checks on floating point values can yield unexpected results.,,LOW
+57386a2cd460bff4:1,xpath.c,6782,28,-1,32,cpp/equality-on-floats,Equality test on floating-point values,Equality checks on floating point values can yield unexpected results.,,LOW
+b395de658dec686:1,nanoftp.c,1254,9,-1,18,cpp/constant-comparison,Comparison result is always the same,Comparison is always true because port >= 1.,,MEDIUM
+92273817608241ce:1,parser.c,3914,6,-1,12,cpp/constant-comparison,Comparison result is always the same,Comparison is always false because c >= 9.,,MEDIUM
+1a48dd3cc7c11203:1,valid.c,5880,11,-1,18,cpp/constant-comparison,Comparison result is always the same,Comparison is always true because len >= 1.,,MEDIUM
+69d24a3db3ccaaeb:4,xmlregexp.c,6137,25,-1,32,cpp/constant-comparison,Comparison result is always the same,Comparison is always false because max >= 1.,,MEDIUM
+69d24a3db3ccaaeb:3,xmlregexp.c,6058,25,-1,32,cpp/constant-comparison,Comparison result is always the same,Comparison is always false because max >= 1.,,MEDIUM
+5d0c950d79677992:1,xmlsave.c,2209,9,-1,22,cpp/constant-comparison,Comparison result is always the same,Comparison is always false because ret <= 2147483647.,,MEDIUM
+6e6f8384036cc6a5:1,xmlschemas.c,24329,9,-1,19,cpp/constant-comparison,Comparison result is always the same,Comparison is always true because error >= 0.,,MEDIUM
+ffaf4dba4aedb0a:1,xmlschemas.c,24379,9,-1,19,cpp/constant-comparison,Comparison result is always the same,Comparison is always true because error >= 0.,,MEDIUM
+3c22a0883979204a:1,xmlregexp.c,543,34,544,47,cpp/integer-multiplication-cast-to-long,Multiplication result converted to larger type,Multiplication result may overflow 'int' before it is converted to 'unsigned long'.,"CWE-190,CWE-192,CWE-197,CWE-681",MEDIUM
+a8db321b658cf59c:1,xmlregexp.c,554,25,-1,55,cpp/integer-multiplication-cast-to-long,Multiplication result converted to larger type,Multiplication result may overflow 'int' before it is converted to 'unsigned long'.,"CWE-190,CWE-192,CWE-197,CWE-681",MEDIUM
+2fe545d8a60a05ee:1,xmlregexp.c,580,39,-1,57,cpp/integer-multiplication-cast-to-long,Multiplication result converted to larger type,Multiplication result may overflow 'int' before it is converted to 'unsigned long'.,"CWE-190,CWE-192,CWE-197,CWE-681",MEDIUM
+d0aa37bd9cb6da84:1,xmlregexp.c,584,11,-1,29,cpp/integer-multiplication-cast-to-long,Multiplication result converted to larger type,Multiplication result may overflow 'int' before it is converted to 'unsigned long'.,"CWE-190,CWE-192,CWE-197,CWE-681",MEDIUM
+5f3e84fb43be8527:1,debugXML.c,2208,5,2212,6,cpp/empty-if,Futile conditional,If-statement with an empty then-branch and no else-branch.,,LOW
+7d94de2522f9b6dd:1,relaxng.c,10404,21,10405,22,cpp/empty-if,Futile conditional,If-statement with an empty then-branch and no else-branch.,,LOW
+502feade4011212:1,relaxng.c,3727,17,3728,18,cpp/empty-if,Futile conditional,If-statement with an empty then-branch and no else-branch.,,LOW
+b807e90ea836a17:1,tree.c,9930,2,9932,3,cpp/empty-if,Futile conditional,If-statement with an empty then-branch and no else-branch.,,LOW
+619762047941d1dc:1,xlink.c,133,12,143,6,cpp/empty-if,Futile conditional,If-statement with an empty then-branch and no else-branch.,,LOW
+6668a97da67a6b2b:4,xpath.c,12720,13,12724,14,cpp/empty-if,Futile conditional,If-statement with an empty then-branch and no else-branch.,,LOW
+503f6b6ae5e659fa:1,parser.c,14761,9,-1,26,cpp/useless-expression,Expression has no effect,This expression has no effect (because [xmlInitializeDict](1) has no external side effects).,CWE-561,MEDIUM
+cc6efcc53d472d32:1,schematron.c,1094,20,-1,44,cpp/external-entity-expansion,XML external entity expansion,This [XML parser](1) is not configured to prevent an XML external entity (XXE) attack.,CWE-611,MEDIUM
+cc70aa594ad12065:1,schematron.c,1105,22,-1,46,cpp/external-entity-expansion,XML external entity expansion,This [XML parser](1) is not configured to prevent an XML external entity (XXE) attack.,CWE-611,MEDIUM
+9ac100e8af09ae48:1,xmlschemas.c,10589,9,-1,30,cpp/external-entity-expansion,XML external entity expansion,This [XML parser](1) is not configured to prevent an XML external entity (XXE) attack.,CWE-611,MEDIUM
+4b3650f86ed7aa8c:1,xmlschemas.c,10593,15,-1,36,cpp/external-entity-expansion,XML external entity expansion,This [XML parser](1) is not configured to prevent an XML external entity (XXE) attack.,CWE-611,MEDIUM
+c8f4d3683489d50e:5,nanoftp.c,1050,13,-1,17,cpp/cleartext-transmission,Cleartext transmission of sensitive information,"This operation transmits '*buf', which may contain unencrypted sensitive data from [proxyPasswd](1).
+This operation transmits '*buf', which may contain unencrypted sensitive data from [passwd](2).
+This operation transmits '*buf', which may contain unencrypted sensitive data from [passwd](2).
+This operation transmits '*buf', which may contain unencrypted sensitive data from [passwd](2).
+This operation transmits '*buf', which may contain unencrypted sensitive data from [passwd](2).
+This operation transmits '*buf', which may contain unencrypted sensitive data from [proxyPasswd](1).","CWE-319,CWE-359",MEDIUM
+c8f4d3683489d50e:8,nanoftp.c,1145,9,-1,13,cpp/cleartext-transmission,Cleartext transmission of sensitive information,"This operation transmits '*buf', which may contain unencrypted sensitive data from [passwd](1).
+This operation transmits '*buf', which may contain unencrypted sensitive data from [passwd](1).","CWE-319,CWE-359",MEDIUM
+c8f4d3683489d50e:2,nanoftp.c,800,11,-1,15,cpp/cleartext-transmission,Cleartext transmission of sensitive information,"This operation transmits '*buf', which may contain unencrypted sensitive data from [passwd](1).","CWE-319,CWE-359",MEDIUM
+77e6953c730a5d40:1,catalog.c,984,15,-1,19,cpp/toctou-race-condition,Time-of-check time-of-use filesystem race condition,"The [filename](1) being operated upon was previously [checked](2), but the underlying file may have been changed since then.",CWE-367,MEDIUM
+d9eb0f64325d67f:2,xmllint.c,2220,12,-1,16,cpp/toctou-race-condition,Time-of-check time-of-use filesystem race condition,"The [filename](1) being operated upon was previously [checked](2), but the underlying file may have been changed since then.",CWE-367,MEDIUM
+d9eb0f64325d67f:3,xmllint.c,2340,16,-1,20,cpp/toctou-race-condition,Time-of-check time-of-use filesystem race condition,"The [filename](1) being operated upon was previously [checked](2), but the underlying file may have been changed since then.",CWE-367,MEDIUM
+d9eb0f64325d67f:1,xmllint.c,1820,12,-1,16,cpp/toctou-race-condition,Time-of-check time-of-use filesystem race condition,"The [filename](1) being operated upon was previously [checked](2), but the underlying file may have been changed since then.",CWE-367,MEDIUM
+c8f4d3683489d50e:4,nanoftp.c,1027,49,-1,52,cpp/system-data-exposure,Exposure of system data to an unauthorized control sphere,"This operation exposes system data from [*call to getenv](1).
+This operation exposes system data from [*call to getenv](1).
+This operation exposes system data from [*call to getenv](1).
+This operation exposes system data from [*call to getenv](1).",CWE-497,MEDIUM
+c8f4d3683489d50e:5,nanoftp.c,1050,50,-1,53,cpp/system-data-exposure,Exposure of system data to an unauthorized control sphere,"This operation exposes system data from [*call to getenv](1).
+This operation exposes system data from [*call to getenv](1).
+This operation exposes system data from [*call to getenv](1).
+This operation exposes system data from [*call to getenv](1).",CWE-497,MEDIUM
+b771ac41360e8e9c:1,xmlIO.c,246,-1,-1,11,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 169 lines.,,MEDIUM
+8763a600de27d122:1,parser.c,5926,-1,-1,26,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 107 lines.,,MEDIUM
+ba4dfd4cd983c57d:1,xpath.c,1391,-1,-1,24,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 104 lines.,,MEDIUM
+7d5be6c6fc853389:1,xmlwriter.c,4111,-1,-1,30,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 110 lines.,,MEDIUM
+38e6a1210587a88c:1,xmlwriter.c,3979,-1,-1,44,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 119 lines.,,MEDIUM
+851b2e07c95b507d:1,xmlwriter.c,519,-1,-1,27,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 109 lines.,,MEDIUM
+92eeb42d88789457:1,xmlwriter.c,2829,-1,-1,22,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 127 lines.,,MEDIUM
+aeb12c5d53c29ad7:1,legacy.c,281,-1,-1,14,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 106 lines.,,MEDIUM
+cd6b00266978e248:1,xmlschemastypes.c,748,-1,-1,24,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 102 lines.,,MEDIUM
+3db3293f72e72ddd:1,uri.c,1060,-1,-1,11,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 265 lines.,,MEDIUM
+9c2b9cbf5d97547:1,nanoftp.c,1374,-1,-1,24,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 162 lines.,,MEDIUM
+b784bd88d527dbce:1,debugXML.c,1662,-1,-1,13,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 124 lines.,,MEDIUM
+9acecbf9990568d7:1,parser.c,855,-1,-1,14,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 206 lines.,,MEDIUM
+97211be4c243a78f:1,HTMLparser.c,5131,-1,-1,24,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 112 lines.,,MEDIUM
+860f414ec685f10c:1,debugXML.c,879,-1,-1,19,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 173 lines.,,MEDIUM
+8cf7e8e10f4528c1:1,debugXML.c,275,-1,-1,24,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 145 lines.,,MEDIUM
+971b978b62869db7:1,error.c,245,-1,-1,15,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 184 lines.,,MEDIUM
+3aea7d433df4af7f:1,nanoftp.c,1598,-1,-1,20,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 113 lines.,,MEDIUM
+725c0a13d9b1e991:1,parser.c,15052,-1,-1,26,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 129 lines.,,MEDIUM
+d60d1e2a4be5972d:1,parser.c,359,-1,-1,12,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 206 lines.,,MEDIUM
+3931980fdb3fb242:1,parser.c,4701,-1,-1,23,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 122 lines.,,MEDIUM
+3857cf5d1f9d4b6d:1,relaxng.c,9660,-1,-1,23,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 101 lines.,,MEDIUM
+e24f6ec18bf3a993:1,relaxng.c,8744,-1,-1,24,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 278 lines.,,MEDIUM
+dad5706aacc9a210:1,relaxng.c,7737,-1,-1,21,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 107 lines.,,MEDIUM
+993d56990a8b3281:1,relaxng.c,5429,-1,-1,23,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 101 lines.,,MEDIUM
+32fd002feeba35b7:1,relaxng.c,4840,-1,-1,23,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 288 lines.,,MEDIUM
+12708a96f5c65ae6:1,relaxng.c,5284,-1,-1,25,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 134 lines.,,MEDIUM
+9473233ec62eca16:1,relaxng.c,2102,-1,-1,25,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 135 lines.,,MEDIUM
+5cd470813036f5d5:1,schematron.c,849,-1,-1,23,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 101 lines.,,MEDIUM
+5cccaf69055c89b8:1,xinclude.c,1128,-1,-1,24,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 118 lines.,,MEDIUM
+865cfce834d1a5ec:1,xmlregexp.c,7103,-1,-1,22,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 108 lines.,,MEDIUM
+729bc2b90cc3c6e4:1,xmlregexp.c,4860,-1,-1,23,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 133 lines.,,MEDIUM
+ac06712a9e3b7546:1,xmlregexp.c,4230,-1,-1,20,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 144 lines.,,MEDIUM
+a57c2e73c021f4bf:1,xmlregexp.c,2981,-1,-1,21,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 101 lines.,,MEDIUM
+8bfe3031672ab03a:1,xmlregexp.c,946,-1,-1,20,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 110 lines.,,MEDIUM
+c76ba3aa22136eeb:1,xmlsave.c,895,-1,-1,26,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 194 lines.,,MEDIUM
+4c9b6fb33ecf34bd:1,xmlschemas.c,1578,-1,-1,29,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 205 lines.,,MEDIUM
+b09edfc7a0b2c348:1,xpath.c,1497,-1,-1,24,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 173 lines.,,MEDIUM
+4be2e4896b43d809:1,encoding.c,744,9,-1,27,cpp/incomplete-parity-check,Bad check for oddness,Possibly invalid test for oddness. This will fail for negative numbers.,,MEDIUM
+9afc2f9f1cac3244:1,encoding.c,506,9,-1,27,cpp/incomplete-parity-check,Bad check for oddness,Possibly invalid test for oddness. This will fail for negative numbers.,,MEDIUM
+f8d011d3d330492:1,valid.c,5203,7,-1,13,cpp/unsafe-strcat,Potentially unsafe use of strcat,Always check the size of the source buffer when using strcat.,"CWE-676,CWE-120,CWE-251",MEDIUM
+6a072909eb002092:1,valid.c,5211,10,-1,16,cpp/unsafe-strcat,Potentially unsafe use of strcat,Always check the size of the source buffer when using strcat.,"CWE-676,CWE-120,CWE-251",MEDIUM
+ca023a842f03d103:1,valid.c,1279,3,-1,9,cpp/unsafe-strcat,Potentially unsafe use of strcat,Always check the size of the source buffer when using strcat.,"CWE-676,CWE-120,CWE-251",MEDIUM
+dc9dc901751413c2:1,valid.c,1283,3,-1,9,cpp/unsafe-strcat,Potentially unsafe use of strcat,Always check the size of the source buffer when using strcat.,"CWE-676,CWE-120,CWE-251",MEDIUM
+1e1473c2e44a19bc:1,hash.c,608,9,-1,39,cpp/stack-address-escape,Local variable address stored in non-local memory,A stack address which arrived via a [parameter](1) may be assigned to a non-local variable.,,MEDIUM
+f525e036041a459c:1,pattern.c,320,5,-1,33,cpp/stack-address-escape,Local variable address stored in non-local memory,A stack address which arrived via a [parameter](1) may be assigned to a non-local variable.,,MEDIUM
+52ec5d9eea8e45e7:1,xmlIO.c,2936,9,-1,36,cpp/stack-address-escape,Local variable address stored in non-local memory,A stack address which arrived via a [parameter](1) may be assigned to a non-local variable.,,MEDIUM
+58eb2b6c43d3d9c1:1,xpath.c,6189,16,-1,31,cpp/stack-address-escape,Local variable address stored in non-local memory,A stack address which arrived via a [parameter](1) may be assigned to a non-local variable.,,MEDIUM
+8c474dbc7574af0b:1,schematron.c,1387,14,-1,64,cpp/incorrect-not-operator-usage,Incorrect 'not' operator usage,Usage of a logical not (!) expression as a bitwise operator.,CWE-480,MEDIUM
+df5b834cd8c16526:1,debugXML.c,2548,21,-1,26,cpp/world-writable-file-creation,File created without restricting permissions,"A file may be created here with mode 0666, which would make it world-writable.",CWE-732,MEDIUM
+a78e035ab9301cb2:1,xmlIO.c,917,10,-1,15,cpp/world-writable-file-creation,File created without restricting permissions,"A file may be created here with mode 0666, which would make it world-writable.",CWE-732,MEDIUM
+5c0a1a73d01f7dd0:1,xmlcatalog.c,497,10,-1,15,cpp/world-writable-file-creation,File created without restricting permissions,"A file may be created here with mode 0666, which would make it world-writable.",CWE-732,MEDIUM
+25adc7cd01a5326f:1,xmlcatalog.c,512,14,-1,19,cpp/world-writable-file-creation,File created without restricting permissions,"A file may be created here with mode 0666, which would make it world-writable.",CWE-732,MEDIUM
+57e3486a5bfbf0af:1,xmlcatalog.c,599,12,-1,17,cpp/world-writable-file-creation,File created without restricting permissions,"A file may be created here with mode 0666, which would make it world-writable.",CWE-732,MEDIUM
+af9c12f2f52bcb52:1,xmlmemory.c,771,7,-1,12,cpp/world-writable-file-creation,File created without restricting permissions,"A file may be created here with mode 0666, which would make it world-writable.",CWE-732,MEDIUM
+80de9e662d3f4a67:1,xmlmemory.c,698,7,-1,12,cpp/world-writable-file-creation,File created without restricting permissions,"A file may be created here with mode 0666, which would make it world-writable.",CWE-732,MEDIUM
+5c91bc8a4b4dd6ad:1,xmllint.c,2537,10,-1,15,cpp/world-writable-file-creation,File created without restricting permissions,"A file may be created here with mode 0666, which would make it world-writable.",CWE-732,MEDIUM
+6be451bf97a3c118:1,xmllint.c,2659,10,-1,15,cpp/world-writable-file-creation,File created without restricting permissions,"A file may be created here with mode 0666, which would make it world-writable.",CWE-732,MEDIUM
+b160502a0c7d442d:1,xmllint.c,2711,9,-1,14,cpp/world-writable-file-creation,File created without restricting permissions,"A file may be created here with mode 0666, which would make it world-writable.",CWE-732,MEDIUM
+84e8ebd31db4ffc6:1,xmlmemory.c,546,5,-1,11,cpp/unbounded-write,Unbounded write,"This 'call to strcpy' with input from [an environment variable](1) may overflow the destination.
+This 'call to strcpy' with input from [an environment variable](2) may overflow the destination.
+This 'call to strcpy' with input from [an environment variable](1) may overflow the destination.
+This 'call to strcpy' with input from [an environment variable](2) may overflow the destination.
+This 'call to strcpy' with input from [an environment variable](3) may overflow the destination.
+This 'call to strcpy' with input from [a command-line argument](4) may overflow the destination.
+This 'call to strcpy' with input from [a command-line argument](5) may overflow the destination.","CWE-120,CWE-787,CWE-805",HIGH
+9e1784b015f8fd4e:1,xmlIO.c,4084,13,4085,72,cpp/user-controlled-bypass,Authentication bypass by spoofing,"Untrusted input [a command-line argument](1) might be vulnerable to a spoofing attack.
+Untrusted input [a command-line argument](1) might be vulnerable to a spoofing attack.
+Untrusted input [a command-line argument](1) might be vulnerable to a spoofing attack.
+Untrusted input [a command-line argument](1) might be vulnerable to a spoofing attack.
+Untrusted input [a command-line argument](1) might be vulnerable to a spoofing attack.",CWE-290,MEDIUM
+75c1411ff687cbdf:1,catalog.c,3266,33,-1,37,cpp/path-injection,Uncontrolled data used in path expression,"This argument to a file access function is derived from [user input (an environment variable)](1) and then passed to xmlLoadCatalog(filename), which calls xmlExpandCatalog(filename), which calls xmlLoadFileContent(filename), which calls open(__file).","CWE-022,CWE-023,CWE-036,CWE-073",MEDIUM
+7016096bace8cfc:1,catalog.c,2514,42,-1,50,cpp/path-injection,Uncontrolled data used in path expression,"This argument to a file access function is derived from [user input (buffer read by read)](1) and then passed to xmlExpandCatalog(filename), which calls xmlLoadFileContent(filename), which calls open(__file).
+This argument to a file access function is derived from [user input (buffer read by read)](1) and then passed to xmlExpandCatalog(filename), which calls xmlLoadFileContent(filename), which calls open(__file).","CWE-022,CWE-023,CWE-036,CWE-073",MEDIUM
+c6f09c121f8232fc:1,xmlcatalog.c,419,27,-1,34,cpp/path-injection,Uncontrolled data used in path expression,"This argument to a file access function is derived from [user input (a command-line argument)](1) and then passed to xmlLoadCatalog(filename), which calls xmlExpandCatalog(filename), which calls xmlLoadFileContent(filename), which calls open(__file).","CWE-022,CWE-023,CWE-036,CWE-073",MEDIUM
+b97b470763e8cbd1:1,xmlcatalog.c,448,35,-1,46,cpp/path-injection,Uncontrolled data used in path expression,"This argument to a file access function is derived from [user input (a command-line argument)](1) and then passed to xmlLoadSGMLSuperCatalog(filename), which calls xmlLoadFileContent(filename), which calls open(__file).","CWE-022,CWE-023,CWE-036,CWE-073",MEDIUM
+5c0a1a73d01f7dd0:1,xmlcatalog.c,497,16,-1,27,cpp/path-injection,Uncontrolled data used in path expression,This argument to a file access function is derived from [user input (a command-line argument)](1) and then passed to fopen(__filename).,"CWE-022,CWE-023,CWE-036,CWE-073",MEDIUM
+57e3486a5bfbf0af:1,xmlcatalog.c,599,18,-1,26,cpp/path-injection,Uncontrolled data used in path expression,This argument to a file access function is derived from [user input (a command-line argument)](1) and then passed to fopen(__filename).,"CWE-022,CWE-023,CWE-036,CWE-073",MEDIUM
+742f8951caea6928:1,xmllint.c,3701,15,-1,22,cpp/path-injection,Uncontrolled data used in path expression,"This argument to a file access function is derived from [user input (a command-line argument)](1) and then passed to streamFile(filename), which calls open(__file).","CWE-022,CWE-023,CWE-036,CWE-073",MEDIUM
+5bfb28aa1fc9072f:1,xmllint.c,3709,26,-1,33,cpp/path-injection,Uncontrolled data used in path expression,"This argument to a file access function is derived from [user input (a command-line argument)](1) and then passed to parseAndPrintFile(filename), which calls open(__file).
+This argument to a file access function is derived from [user input (a command-line argument)](1) and then passed to parseAndPrintFile(filename), which calls fopen(__filename).","CWE-022,CWE-023,CWE-036,CWE-073",MEDIUM
+cdb7c0dd58c6e3c8:1,xmllint.c,3722,18,-1,25,cpp/path-injection,Uncontrolled data used in path expression,"This argument to a file access function is derived from [user input (a command-line argument)](1) and then passed to streamFile(filename), which calls open(__file).","CWE-022,CWE-023,CWE-036,CWE-073",MEDIUM
+b6c66709cb0fdcc5:1,xmllint.c,3728,25,-1,32,cpp/path-injection,Uncontrolled data used in path expression,"This argument to a file access function is derived from [user input (a command-line argument)](1) and then passed to parseAndPrintFile(filename), which calls open(__file).
+This argument to a file access function is derived from [user input (a command-line argument)](1) and then passed to parseAndPrintFile(filename), which calls fopen(__filename).","CWE-022,CWE-023,CWE-036,CWE-073",MEDIUM

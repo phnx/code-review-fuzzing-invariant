@@ -1,0 +1,5 @@
+location_hash,location_file,location_start_line,location_start_column,location_end_line,location_end_column,warning_in_target_file,warning_in_target_function,warning_in_target_code_block,warning_rule_id,warning_rule_name,warning_message,warning_weakness,warning_severity
+871e06e5d07a5e57:1,xmlreader.c,3642,5,3686,6,True,False,False,cpp/long-switch,Long switch case,Switch has at least one case that is too long: [XML_ATTRIBUTE_NODE (33 lines)](1).,,LOW
+ce928b70be5e318e:1,xmlreader.c,231,-1,-1,10,True,False,False,cpp/unused-static-function,Unused static function,Static function xmlFreeID is unreachable,CWE-561,LOW
+e89df5a984f1f05d:1,xmlreader.c,75,-1,-1,27,True,False,False,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+49bc5cd5f12bcbad:1,xmlreader.c,74,-1,-1,30,True,False,False,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW

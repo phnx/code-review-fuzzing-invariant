@@ -1,0 +1,32 @@
+settings:INFO:2025-04-10 05:49:41.896473: /program/dig/src/dig.py /script/motivating_example/sample_set/concatenate_array/fuzzing_test/modified_trace/d57b3ffe3cea3a4d9084b59fbcc04b432b26bd59/1.trace -log 3 --nofilter --nosimplify --seed 27
+alg:INFO:analyzing '/script/motivating_example/sample_set/concatenate_array/fuzzing_test/modified_trace/d57b3ffe3cea3a4d9084b59fbcc04b432b26bd59/1.trace'
+alg:INFO:got 4 traces over 1 locs
+alg:INFO:check 27 invs using 4 traces (0.08s)
+dummy (27 invs):
+1. dest_pos - orig_pos == 0
+2. dest_pos <= 4
+3. orig_pos <= 4
+4. -dest_pos <= -1
+5. -orig_pos <= -1
+6. dest_pos - orig_pos <= 0
+7. dest_pos + orig_pos <= 8
+8. -dest_pos + orig_pos <= 0
+9. -dest_pos - orig_pos <= -2
+10. min(val, 0) - orig_pos - 1 <= 0
+11. min(val, 0) - dest_pos - 1 <= 0
+12. max(orig_pos, 0) - dest_pos <= 0
+13. max(dest_pos, 0) - orig_pos <= 0
+14. dest_pos - max(orig_pos, 0) <= 0
+15. orig_pos - max(dest_pos, 0) <= 0
+16. min(dest_pos, val) - orig_pos <= 0
+17. min(orig_pos, val) - dest_pos <= 0
+18. orig_pos - max(dest_pos, val) <= 0
+19. dest_pos - max(orig_pos, val) <= 0
+20. min(dest_pos, 0) - orig_pos - 1 <= 0
+21. min(orig_pos, 0) - dest_pos - 1 <= 0
+22. orig_pos - max(dest_pos, val, 0) <= 0
+23. dest_pos - max(orig_pos, val, 0) <= 0
+24. min(dest_pos, val, 0) - orig_pos - 1 <= 0
+25. min(orig_pos, val, 0) - dest_pos - 1 <= 0
+26. dest_pos + orig_pos === 0 (mod 2)
+27. -dest_pos - orig_pos === 0 (mod 2)

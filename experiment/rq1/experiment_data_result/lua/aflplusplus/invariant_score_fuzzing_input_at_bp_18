@@ -1,0 +1,7 @@
+id:000015,time:0,execs:0,orig:files.lua
+id:000022,time:0,execs:0,orig:main.lua
+id:003642,src:000015,time:6190114,execs:748113,op:havoc,rep:1
+id:003779,sync:worker03,src:003701
+id:003780,sync:worker03,src:003702
+id:003781,sync:worker03,src:003703
+id:003790,sync:worker03,src:003712

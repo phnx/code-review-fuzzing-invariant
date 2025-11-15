@@ -1,0 +1,36 @@
+settings:INFO:2025-04-10 06:16:21.896762: /program/dig/src/dig.py /script/motivating_example/sample_set/bubble_sort/fuzzing_test/original_1_trace/46d0f995a28437e1b9c51dd8ccd94ed133d37a64/0.trace -log 3 --nofilter --nosimplify --seed 27
+alg:INFO:analyzing '/script/motivating_example/sample_set/bubble_sort/fuzzing_test/original_1_trace/46d0f995a28437e1b9c51dd8ccd94ed133d37a64/0.trace'
+alg:INFO:got 1 traces over 1 locs
+alg:INFO:check 31 invs using 1 traces (0.06s)
+dummy (31 invs):
+1. j == 0
+2. i == 0
+3. temp - 30 == 0
+4. j <= 0
+5. i <= 0
+6. -j <= 0
+7. -i <= 0
+8. i - j <= 0
+9. i + j <= 0
+10. -i + j <= 0
+11. -i - j <= 0
+12. max(j, 0) - i <= 0
+13. j - min(i, 0) <= 0
+14. i - min(j, 0) <= 0
+15. i - max(j, 0) <= 0
+16. min(i, 0) - j <= 0
+17. j - max(i, 0) <= 0
+18. min(j, 0) - i <= 0
+19. max(i, 0) - j <= 0
+20. min(temp, 0) - j <= 0
+21. i - min(j, temp) <= 0
+22. min(temp, 0) - i <= 0
+23. j - min(i, temp) <= 0
+24. min(i, temp) - j <= 0
+25. j - min(temp, 0) <= 0
+26. i - min(temp, 0) <= 0
+27. min(j, temp) - i <= 0
+28. i - min(j, temp, 0) <= 0
+29. min(j, temp, 0) - i <= 0
+30. min(i, temp, 0) - j <= 0
+31. j - min(i, temp, 0) <= 0

@@ -1,0 +1,5 @@
+location_hash,location_file,location_start_line,location_start_column,location_end_line,location_end_column,warning_in_target_file,warning_in_target_function,warning_in_target_code_block,warning_rule_id,warning_rule_name,warning_message,warning_weakness,warning_severity
+9ec0e4a76af58aeb3c674c48f0ec0ccc,usrsctplib/netinet/sctp_asconf.c,1569,7,1569,7,True,False,False,unix.Malloc,unix.Malloc,Use of memory after it is freed,CWE-664,MEDIUM
+0399d442259d8fd2772cfc103d75ac07,usrsctplib/netinet/sctp_asconf.c,2752,4,2752,4,True,False,False,core.NonNullParamChecker,core.NonNullParamChecker,Null pointer passed to 2nd parameter expecting 'nonnull',CWE-703,HIGH
+9ec0e4a76af58aeb3c674c48f0ec0ccc,usrsctplib/netinet/sctp_asconf.c,1569,7,1569,7,True,False,False,unix.Malloc,unix.Malloc,Use of memory after it is freed,CWE-664,MEDIUM
+0399d442259d8fd2772cfc103d75ac07,usrsctplib/netinet/sctp_asconf.c,2752,4,2752,4,True,False,False,core.NonNullParamChecker,core.NonNullParamChecker,Null pointer passed to 2nd parameter expecting 'nonnull',CWE-703,HIGH

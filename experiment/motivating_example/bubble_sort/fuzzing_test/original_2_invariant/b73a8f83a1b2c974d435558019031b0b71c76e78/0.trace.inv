@@ -1,0 +1,37 @@
+settings:INFO:2025-04-10 06:36:13.145748: /program/dig/src/dig.py /script/motivating_example/sample_set/bubble_sort/fuzzing_test/original_2_trace/b73a8f83a1b2c974d435558019031b0b71c76e78/0.trace -log 3 --nofilter --nosimplify --seed 27
+alg:INFO:analyzing '/script/motivating_example/sample_set/bubble_sort/fuzzing_test/original_2_trace/b73a8f83a1b2c974d435558019031b0b71c76e78/0.trace'
+alg:INFO:got 12 traces over 1 locs
+infer.eqt:WARNING:NO EQTS RESULTS, reducing deg to 6
+infer.eqt:WARNING:NO EQTS RESULTS, reducing deg to 5
+infer.eqt:WARNING:NO EQTS RESULTS, reducing deg to 4
+infer.eqt:WARNING:NO EQTS RESULTS, reducing deg to 3
+infer.eqt:WARNING:NO EQTS RESULTS, reducing deg to 2
+infer.eqt:WARNING:NO EQTS RESULTS, reducing deg to 1
+infer.eqt:WARNING:NO EQTS RESULTS, reducing deg to 0
+alg:INFO:check 25 invs using 12 traces (0.11s)
+dummy (25 invs):
+1. j <= 5
+2. i <= 4
+3. -j <= 0
+4. -i <= 0
+5. i - j <= 3
+6. i + j <= 5
+7. -i + j <= 5
+8. -i - j <= 0
+9. -temp <= -4
+10. i - temp <= 0
+11. j - temp <= -3
+12. -j - temp <= -5
+13. -i - temp <= -8
+14. min(i, 0) - j <= 0
+15. min(j, 0) - i <= 0
+16. i - max(j, temp) <= 0
+17. i - max(temp, 0) <= 0
+18. min(temp, 0) - j <= 0
+19. min(temp, 0) - i <= 0
+20. max(i, j) - temp <= 0
+21. max(i, 0) - temp <= 0
+22. max(i, j, 0) - temp <= 0
+23. min(j, temp, 0) - i <= 0
+24. i - max(j, temp, 0) <= 0
+25. min(i, temp, 0) - j <= 0

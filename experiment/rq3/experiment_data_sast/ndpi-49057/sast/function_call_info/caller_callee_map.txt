@@ -1,0 +1,30 @@
+=====================
+src/lib/protocols/snmp_proto.c
+=====================
+{
+    "ndpi_int_snmp_add_connection": [
+        "NDPI_LOG_INFO",
+        "ndpi_set_detected_protocol"
+    ],
+    "ndpi_search_snmp_again": [
+        "ndpi_search_snmp",
+        "printf"
+    ],
+    "ndpi_search_snmp": [
+        "htons",
+        "htons",
+        "NDPI_EXCLUDE_PROTO",
+        "ndpi_asn1_ber_decode_length",
+        "ndpi_int_snmp_add_connection",
+        "ndpi_asn1_ber_decode_length",
+        "ndpi_asn1_ber_decode_length",
+        "printf",
+        "snprintf",
+        "ndpi_set_risk",
+        "NDPI_EXCLUDE_PROTO"
+    ],
+    "init_snmp_dissector": [
+        "ndpi_set_bitmask_protocol_detection"
+    ]
+}
+

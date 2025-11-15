@@ -1,0 +1,24 @@
+settings:INFO:2025-04-10 06:52:08.571350: /program/dig/src/dig.py /script/motivating_example/sample_set/permutation/fuzzing_test/original_1_trace/1fb84e156bf232de635dabd7f76c2f6e36d1e460/0.trace -log 3 --nofilter --nosimplify --seed 27
+alg:INFO:analyzing '/script/motivating_example/sample_set/permutation/fuzzing_test/original_1_trace/1fb84e156bf232de635dabd7f76c2f6e36d1e460/0.trace'
+alg:INFO:got 24 traces over 1 locs
+alg:INFO:check 19 invs using 24 traces (0.06s)
+dummy (19 invs):
+1. i**2*index**5 - 15*i**2*index**2 + 14*i**2*index - 175*i*index**3 + 525*i*index**2 - 350*i*index - 160*index**4 + 1260*index**3 - 2660*index**2 + 1560*index == 0
+2. i <= 4
+3. -i <= 0
+4. index <= 4
+5. -index <= 0
+6. i + index <= 8
+7. i - index <= 4
+8. -i + index <= 0
+9. -i - index <= 0
+10. max(index, 0) - i <= 0
+11. index - max(i, 0) <= 0
+12. min(i, 0) - index <= 0
+13. min(index, 0) - i <= 0
+14. min(curr_val, 0) - i <= 0
+15. index - min(curr_val, i) <= 0
+16. min(curr_val, 0) - index <= 0
+17. min(curr_val, index) - i <= 0
+18. min(curr_val, index, 0) - i <= 0
+19. min(curr_val, i, 0) - index <= 0

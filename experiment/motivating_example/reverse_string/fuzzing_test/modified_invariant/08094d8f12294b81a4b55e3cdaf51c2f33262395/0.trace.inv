@@ -1,0 +1,18 @@
+settings:INFO:2025-04-10 05:46:06.484798: /program/dig/src/dig.py /script/motivating_example/sample_set/reverse_string/fuzzing_test/modified_trace/08094d8f12294b81a4b55e3cdaf51c2f33262395/0.trace -log 3 --nofilter --nosimplify --seed 27
+alg:INFO:analyzing '/script/motivating_example/sample_set/reverse_string/fuzzing_test/modified_trace/08094d8f12294b81a4b55e3cdaf51c2f33262395/0.trace'
+alg:INFO:got 128 traces over 1 locs
+alg:INFO:check 16 invs using 128 traces (0.27s)
+dummy (13 invs):
+1. end + start - 255 == 0
+2. -start <= -1
+3. -end + start <= 1
+4. min(end, 0) - start - 1 <= 0
+5. start - 1 - max(end, 0) <= 0
+6. min(temp, 0) - start - 2 <= 0
+7. start - 1 - max(end, temp) <= 0
+8. min(end, temp, 0) - start - 2 <= 0
+9. start - 1 - max(end, temp, 0) <= 0
+10. temp === 1 (mod 2)
+11. -temp === 1 (mod 2)
+12. end - start === 1 (mod 2)
+13. -end + start === 1 (mod 2)

@@ -1,0 +1,10 @@
+settings:INFO:2025-04-10 05:44:26.753374: /program/dig/src/dig.py /script/motivating_example/sample_set/gcd/fuzzing_test/original_2_trace/b6824652dbe1f13a11cdf2b47e91697d4e30625a/0.trace -log 3 --nofilter --nosimplify --seed 27
+alg:INFO:analyzing '/script/motivating_example/sample_set/gcd/fuzzing_test/original_2_trace/b6824652dbe1f13a11cdf2b47e91697d4e30625a/0.trace'
+alg:INFO:got 12 traces over 1 locs
+infer.eqt:WARNING:NO EQTS RESULTS, reducing deg to 6
+infer.eqt:WARNING:NO EQTS RESULTS, reducing deg to 5
+infer.eqt:WARNING:NO EQTS RESULTS, reducing deg to 4
+infer.eqt:WARNING:NO EQTS RESULTS, reducing deg to 3
+infer.eqt:WARNING:NO EQTS RESULTS, reducing deg to 2
+infer.eqt:WARNING:NO EQTS RESULTS, reducing deg to 1
+infer.eqt:WARNING:NO EQTS RESULTS, reducing deg to 0

@@ -1,0 +1,2 @@
+"src/tags_int.cpp","Exiv2::Internal::print0x9204( std :: ostream & os , const Value & value , const ExifData *)","2807-2808-2809-2810-2811-2812-2813","18","171","3","6"
+"src/types.cpp","Exiv2::floatToRationalCast( float f)","629-630-631-632-634-635","19","177","1","7"

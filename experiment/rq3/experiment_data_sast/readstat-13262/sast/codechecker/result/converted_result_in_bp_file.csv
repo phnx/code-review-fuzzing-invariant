@@ -1,0 +1,2 @@
+location_hash,location_file,location_start_line,location_start_column,location_end_line,location_end_column,warning_in_target_file,warning_in_target_function,warning_in_target_code_block,warning_rule_id,warning_rule_name,warning_message,warning_weakness,warning_severity
+ab193cd7c06ae466710e3237d27ff7b7,src/sas/readstat_sas7bdat_read.c,404,13,404,13,True,False,False,core.uninitialized.Assign,core.uninitialized.Assign,Assigned value is garbage or undefined,CWE-664,HIGH

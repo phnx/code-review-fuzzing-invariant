@@ -1,0 +1,152 @@
+=====================
+src/lib/jp2/codestream/PacketIter.cpp
+=====================
+{
+    "update_pi_dxy_for_comp": [
+        183,
+        205
+    ],
+    "update_pi_dxy": [
+        206,
+        212
+    ],
+    "pi_next_lrcp": [
+        214,
+        256
+    ],
+    "pi_next_rlcp": [
+        258,
+        296
+    ],
+    "pi_next_l": [
+        302,
+        367
+    ],
+    "pi_next_rpcl": [
+        369,
+        398
+    ],
+    "pi_next_pcrl": [
+        400,
+        443
+    ],
+    "pi_next_cprl": [
+        445,
+        486
+    ],
+    "grk_get_encoding_parameters": [
+        488,
+        563
+    ],
+    "grk_get_all_encoding_parameters": [
+        565,
+        644
+    ],
+    "* pi_create": [
+        646,
+        679
+    ],
+    "pi_update_encode_poc_and_final": [
+        681,
+        708
+    ],
+    "pi_update_encode_no_poc": [
+        710,
+        739
+    ],
+    "pi_update_decode_poc": [
+        741,
+        764
+    ],
+    "pi_update_decode_no_poc": [
+        766,
+        787
+    ],
+    "pi_check_next_level": [
+        789,
+        841
+    ],
+    "* pi_create_decompress": [
+        848,
+        970
+    ],
+    "* pi_create_compress": [
+        972,
+        1105
+    ],
+    "pi_enable_tile_part_generation": [
+        1107,
+        1374
+    ],
+    "pi_destroy": [
+        1376,
+        1381
+    ],
+    "pi_update_encoding_parameters": [
+        1383,
+        1403
+    ],
+    "pi_next": [
+        1405,
+        1422
+    ],
+    "PacketIter::PacketIter": [
+        1424,
+        1429
+    ],
+    "PacketIter::~PacketIter": [
+        1431,
+        1441
+    ],
+    "* PacketIter::get_include": [
+        1443,
+        1453
+    ],
+    "PacketIter::update_include": [
+        1455,
+        1470
+    ],
+    "PacketIter::destroy_include": [
+        1472,
+        1476
+    ]
+}
+
+=====================
+src/lib/jp2/t2/T2Decompress.cpp
+=====================
+{
+    "T2Decompress::T2Decompress": [
+        29,
+        31
+    ],
+    "T2Decompress::decompress_packets": [
+        33,
+        171
+    ],
+    "T2Decompress::decompress_packet": [
+        174,
+        196
+    ],
+    "T2Decompress::init_seg": [
+        198,
+        230
+    ],
+    "T2Decompress::read_packet_header": [
+        233,
+        522
+    ],
+    "T2Decompress::read_packet_data": [
+        524,
+        597
+    ],
+    "T2Decompress::skip_packet": [
+        598,
+        624
+    ],
+    "T2Decompress::skip_packet_data": [
+        626,
+        685
+    ]
+}
+

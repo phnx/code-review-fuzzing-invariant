@@ -1,0 +1,22 @@
+settings:INFO:2025-04-10 05:41:00.110896: /program/dig/src/dig.py /script/motivating_example/sample_set/gcd/fuzzing_test/modified_trace/7c1abea098c1be4e8c8773a80da7e036810c2e5d/0.trace -log 3 --nofilter --nosimplify --seed 27
+alg:INFO:analyzing '/script/motivating_example/sample_set/gcd/fuzzing_test/modified_trace/7c1abea098c1be4e8c8773a80da7e036810c2e5d/0.trace'
+alg:INFO:got 2 traces over 1 locs
+alg:INFO:check 17 invs using 2 traces (0.05s)
+dummy (17 invs):
+1. a == 0
+2. a <= 0
+3. -a <= 0
+4. -b <= 0
+5. a - b <= 0
+6. -a - b <= 0
+7. a - min(b, 0) <= 0
+8. a - max(b, 0) <= 0
+9. max(a, 0) - b <= 0
+10. min(a, 0) - b <= 0
+11. min(b, 0) - a <= 0
+12. b === 0 (mod 704643072)
+13. -b === 0 (mod 704643072)
+14. a - b === 0 (mod 704643072)
+15. a + b === 0 (mod 704643072)
+16. -a - b === 0 (mod 704643072)
+17. -a + b === 0 (mod 704643072)

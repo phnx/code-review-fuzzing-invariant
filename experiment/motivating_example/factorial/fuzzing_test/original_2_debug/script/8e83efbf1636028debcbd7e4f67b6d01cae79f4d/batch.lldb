@@ -1,0 +1,16 @@
+
+settings set interpreter.stop-command-source-on-error 0
+settings set auto-confirm 1
+breakpoint set --file /script/motivating_example/sample_set/factorial/original_2.c --line 11
+breakpoint command add 1
+frame info
+frame variable i -f dec 
+frame variable result -f dec 
+
+continue
+DONE
+
+
+
+run /script/motivating_example/sample_set/factorial/fuzzing_test/modified_inputs/8e83efbf1636028debcbd7e4f67b6d01cae79f4d
+quit

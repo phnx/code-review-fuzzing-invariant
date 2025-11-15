@@ -1,0 +1,4 @@
+location_hash,location_file,location_start_line,location_start_column,location_end_line,location_end_column,warning_in_target_file,warning_in_target_function,warning_in_target_code_block,warning_rule_id,warning_rule_name,warning_message,warning_weakness,warning_severity
+2e0aee5761ed4134:1,lib/http_chunks.c,133,5,326,6,True,True,True,cpp/long-switch,Long switch case,"Switch has at least one case that is too long: [CHUNK_HEX (36 lines)](1).
+Switch has at least one case that is too long: [CHUNK_TRAILER (61 lines)](2).",,LOW
+5285ab3885b51a5d:1,lib/transfer.c,326,9,-1,63,True,False,False,cpp/fixme-comment,FIXME comment,FIXME comment: convert to a human readable error message,CWE-546,LOW

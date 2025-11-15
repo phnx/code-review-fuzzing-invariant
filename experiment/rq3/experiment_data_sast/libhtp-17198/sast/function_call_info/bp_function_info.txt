@@ -1,0 +1,18 @@
+=====================
+htp/lzma/LzmaDec.c
+=====================
+{
+    "0": {
+        "bp_line": 1053,
+        "func_name": "LzmaDec_DecodeToBuf",
+        "func_start": 1024,
+        "func_end": 1078
+    },
+    "1": {
+        "bp_line": 1170,
+        "func_name": "LzmaDec_Allocate",
+        "func_start": 1149,
+        "func_end": 1183
+    }
+}
+

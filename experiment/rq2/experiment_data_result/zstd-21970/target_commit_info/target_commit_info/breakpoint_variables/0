@@ -1,0 +1,4 @@
+cSize
+zds->fParams.frameContentSize
+zds->fParams.windowSize
+zds->fParams.frameType

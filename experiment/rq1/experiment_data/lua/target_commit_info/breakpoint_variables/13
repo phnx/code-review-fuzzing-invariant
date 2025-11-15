@@ -1,0 +1,10 @@
+vmcase
+ci->u.l.savedpc
+nres
+cl->p
+L
+ci->u
+base
+cl
+ci->func
+ci->previous

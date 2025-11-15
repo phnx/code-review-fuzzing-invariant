@@ -1,0 +1,3 @@
+"htp/lzma/LzmaDec.c","LzmaDec_DecodeToBuf( CLzmaDec * p , Byte * dest , SizeT * destLen , const Byte * src , SizeT * srcLen , ELzmaFinishMode finishMode , ELzmaStatus * status)","1029-1030-1031-1032-1033-1034-1035-1036","54","307","7","11"
+"htp/lzma/LzmaDec.c","LzmaDec_AllocateProbs( CLzmaDec * p , const Byte * props , unsigned propsSize , ISzAllocPtr alloc)","1143-1144-1145-1146","8","57","4","1"
+"htp/lzma/LzmaDec.c","LzmaDec_Allocate( CLzmaDec * p , const Byte * props , unsigned propsSize , ISzAllocPtr alloc)","1149","33","245","4","8"

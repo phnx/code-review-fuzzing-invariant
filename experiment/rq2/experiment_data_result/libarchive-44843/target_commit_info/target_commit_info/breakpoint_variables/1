@@ -1,0 +1,4 @@
+rar->lzss
+end
+rar->is_ppmd_block
+rar->filters.filterstart

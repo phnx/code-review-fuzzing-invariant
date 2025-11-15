@@ -1,0 +1,3 @@
+location_hash,location_file,location_start_line,location_start_column,location_end_line,location_end_column,warning_in_target_file,warning_in_target_function,warning_in_target_code_block,warning_rule_id,warning_rule_name,warning_message,warning_weakness,warning_severity
+f90f77755fc76612b82339e87b26fccb,common/config.cpp,328,5,328,5,True,False,False,core.uninitialized.Assign,core.uninitialized.Assign,Assigned value is garbage or undefined,CWE-664,HIGH
+fa279f7b1c3e4fee08d7303aec2d9c10,common/config.cpp,1322,7,1322,7,True,False,False,core.uninitialized.Assign,core.uninitialized.Assign,Assigned value is garbage or undefined,CWE-664,HIGH

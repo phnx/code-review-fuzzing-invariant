@@ -1,0 +1,33 @@
+settings:INFO:2025-04-10 05:47:54.392797: /program/dig/src/dig.py /script/motivating_example/sample_set/reverse_string/fuzzing_test/original_2_trace/bdc5408bd217025e511fffb5a9f178d8e07b0a4c/0.trace -log 3 --nofilter --nosimplify --seed 27
+alg:INFO:analyzing '/script/motivating_example/sample_set/reverse_string/fuzzing_test/original_2_trace/bdc5408bd217025e511fffb5a9f178d8e07b0a4c/0.trace'
+alg:INFO:got 1 traces over 1 locs
+alg:INFO:check 30 invs using 1 traces (0.04s)
+dummy (28 invs):
+1. end == 0
+2. start - 1 == 0
+3. end <= 0
+4. -end <= 0
+5. start <= 1
+6. -start <= -1
+7. end + start <= 1
+8. -end + start <= 1
+9. end - start <= -1
+10. -end - start <= -1
+11. end - min(temp, 0) <= 0
+12. min(temp, 0) - end <= 0
+13. end - min(start, 0) <= 0
+14. min(start, 0) - end <= 0
+15. start - 1 - min(end, 0) <= 0
+16. start - 1 - max(end, 0) <= 0
+17. min(end, 0) - start - 1 <= 0
+18. max(end, 0) - start - 1 <= 0
+19. end + 1 - max(start, 0) <= 0
+20. min(temp, 0) - start - 1 <= 0
+21. start - 1 - min(temp, 0) <= 0
+22. end - min(start, temp, 0) <= 0
+23. min(start, temp, 0) - end <= 0
+24. end + 1 - min(start, temp) <= 0
+25. start - 1 - min(end, temp) <= 0
+26. min(end, temp) - start - 1 <= 0
+27. min(end, temp, 0) - start - 1 <= 0
+28. start - 1 - min(end, temp, 0) <= 0

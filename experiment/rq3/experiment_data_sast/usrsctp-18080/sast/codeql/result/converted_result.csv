@@ -1,0 +1,390 @@
+location_hash,location_file,location_start_line,location_start_column,location_end_line,location_end_column,warning_rule_id,warning_rule_name,warning_message,warning_weakness,warning_severity
+62e13c9a3b22dc97:1,usrsctplib/netinet/sctp_pcb.h,-1,-1,-1,-1,cpp/missing-header-guard,Missing header guard,This header file should contain a header guard to prevent multiple inclusion.,,LOW
+b02774dfc1be7970:1,usrsctplib/netinet/sctp_auth.h,-1,-1,-1,-1,cpp/missing-header-guard,Missing header guard,This header file should contain a header guard to prevent multiple inclusion.,,LOW
+62e13c9a3b22dc97:1,usrsctplib/netinet/sctp_header.h,-1,-1,-1,-1,cpp/missing-header-guard,Missing header guard,This header file should contain a header guard to prevent multiple inclusion.,,LOW
+51442fc95a429158:1,usrsctplib/netinet/sctp_os.h,-1,-1,-1,-1,cpp/missing-header-guard,Missing header guard,This header file should contain a header guard to prevent multiple inclusion.,,LOW
+62e13c9a3b22dc97:1,usrsctplib/netinet/sctp_bsd_addr.h,-1,-1,-1,-1,cpp/missing-header-guard,Missing header guard,This header file should contain a header guard to prevent multiple inclusion.,,LOW
+62e13c9a3b22dc97:1,usrsctplib/netinet/sctputil.h,-1,-1,-1,-1,cpp/missing-header-guard,Missing header guard,This header file should contain a header guard to prevent multiple inclusion.,,LOW
+62e13c9a3b22dc97:1,usrsctplib/netinet/sctp_indata.h,-1,-1,-1,-1,cpp/missing-header-guard,Missing header guard,This header file should contain a header guard to prevent multiple inclusion.,,LOW
+51284c2f43699cde:1,usrsctplib/netinet/sctp_sysctl.h,-1,-1,-1,-1,cpp/missing-header-guard,Missing header guard,This header file should contain a header guard to prevent multiple inclusion.,,LOW
+62e13c9a3b22dc97:1,usrsctplib/netinet/sctp_asconf.h,-1,-1,-1,-1,cpp/missing-header-guard,Missing header guard,This header file should contain a header guard to prevent multiple inclusion.,,LOW
+62e13c9a3b22dc97:1,usrsctplib/netinet/sctp_timer.h,-1,-1,-1,-1,cpp/missing-header-guard,Missing header guard,This header file should contain a header guard to prevent multiple inclusion.,,LOW
+62e13c9a3b22dc97:1,usrsctplib/netinet/sctp_uio.h,-1,-1,-1,-1,cpp/missing-header-guard,Missing header guard,This header file should contain a header guard to prevent multiple inclusion.,,LOW
+62e13c9a3b22dc97:1,usrsctplib/netinet/sctp_output.h,-1,-1,-1,-1,cpp/missing-header-guard,Missing header guard,This header file should contain a header guard to prevent multiple inclusion.,,LOW
+b02774dfc1be7970:1,usrsctplib/netinet/sctp_var.h,-1,-1,-1,-1,cpp/missing-header-guard,Missing header guard,This header file should contain a header guard to prevent multiple inclusion.,,LOW
+62e13c9a3b22dc97:1,usrsctplib/netinet/sctp_input.h,-1,-1,-1,-1,cpp/missing-header-guard,Missing header guard,This header file should contain a header guard to prevent multiple inclusion.,,LOW
+b02774dfc1be7970:1,usrsctplib/netinet/sctp.h,-1,-1,-1,-1,cpp/missing-header-guard,Missing header guard,This header file should contain a header guard to prevent multiple inclusion.,,LOW
+62e13c9a3b22dc97:1,usrsctplib/netinet/sctp_callout.h,-1,-1,-1,-1,cpp/missing-header-guard,Missing header guard,This header file should contain a header guard to prevent multiple inclusion.,,LOW
+62e13c9a3b22dc97:1,usrsctplib/netinet/sctp_crc32.h,-1,-1,-1,-1,cpp/missing-header-guard,Missing header guard,This header file should contain a header guard to prevent multiple inclusion.,,LOW
+62e13c9a3b22dc97:1,usrsctplib/netinet6/sctp6_var.h,-1,-1,-1,-1,cpp/missing-header-guard,Missing header guard,This header file should contain a header guard to prevent multiple inclusion.,,LOW
+62e13c9a3b22dc97:1,usrsctplib/netinet/sctp_sha1.h,-1,-1,-1,-1,cpp/missing-header-guard,Missing header guard,This header file should contain a header guard to prevent multiple inclusion.,,LOW
+62e13c9a3b22dc97:1,usrsctplib/netinet/sctp_peeloff.h,-1,-1,-1,-1,cpp/missing-header-guard,Missing header guard,This header file should contain a header guard to prevent multiple inclusion.,,LOW
+5e809e3a43a91a6a:1,usrsctplib/netinet/sctp_auth.c,847,2,857,3,cpp/trivial-switch,No trivial switch statements,"This switch statement should either handle more cases, or be rewritten as an if statement.",,LOW
+6eb177f8666fcd69:1,usrsctplib/netinet/sctp_asconf.c,1613,2,1627,3,cpp/trivial-switch,No trivial switch statements,"This switch statement should either handle more cases, or be rewritten as an if statement.",,LOW
+978ed341b8c1d5ca:1,usrsctplib/netinet/sctp_input.c,3476,5,-1,8,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+c0d0e94f259e8010:1,usrsctplib/netinet/sctp_indata.c,852,4,-1,7,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+47c46f09cc681feb:1,usrsctplib/netinet/sctp_input.c,5004,3,5676,4,cpp/long-switch,Long switch case,"Switch has at least one case that is too long: [1 (36 lines)](1).
+Switch has at least one case that is too long: [2 (57 lines)](2).
+Switch has at least one case that is too long: [16 (113 lines)](3).
+Switch has at least one case that is too long: [10 (129 lines)](4).
+Switch has at least one case that is too long: [194 (45 lines)](5).
+Switch has at least one case that is too long: [15 (37 lines)](6).",,LOW
+2cc7050db9f992d4:1,usrsctplib/netinet/sctp_input.c,3461,2,3691,3,cpp/long-switch,Long switch case,Switch has at least one case that is too long: [0 (137 lines)](1).,,LOW
+3d23a5af93b1da32:1,usrsctplib/netinet/sctp_input.c,1690,3,1781,4,cpp/long-switch,Long switch case,Switch has at least one case that is too long: [4 (82 lines)](1).,,LOW
+aaf837b0f90f28fa:1,usrsctplib/netinet/sctp_input.c,1493,2,1559,3,cpp/long-switch,Long switch case,Switch has at least one case that is too long: [2 (49 lines)](1).,,LOW
+3174a62d91c063d0:1,usrsctplib/netinet/sctp_input.c,1269,3,1396,4,cpp/long-switch,Long switch case,Switch has at least one case that is too long: [3 (43 lines)](1).,,LOW
+698d3d3d493b66a6:1,usrsctplib/netinet/sctp_output.c,11758,2,11835,3,cpp/long-switch,Long switch case,Switch has at least one case that is too long: [2 (44 lines)](1).,,LOW
+4244b19f4a61cc86:1,usrsctplib/netinet/sctp_output.c,11881,2,12033,3,cpp/long-switch,Long switch case,"Switch has at least one case that is too long: [2 (76 lines)](1).
+Switch has at least one case that is too long: [10 (37 lines)](2).",,LOW
+c5bb98f9de67dd60:1,usrsctplib/netinet/sctp_asconf.c,2967,3,3025,4,cpp/long-switch,Long switch case,Switch has at least one case that is too long: [6 (32 lines)](1).,,LOW
+865e60d1ac234e8:1,usrsctplib/netinet/sctp_asconf.c,2480,4,2550,5,cpp/long-switch,Long switch case,Switch has at least one case that is too long: [10 (35 lines)](1).,,LOW
+1bfd503b36efa8cd:1,usrsctplib/netinet/sctp_asconf.c,2149,3,2231,4,cpp/long-switch,Long switch case,"Switch has at least one case that is too long: [10 (35 lines)](1).
+Switch has at least one case that is too long: [2 (35 lines)](2).",,LOW
+75dc64250500aceb:1,usrsctplib/netinet/sctp_output.c,6097,3,6210,4,cpp/long-switch,Long switch case,Switch has at least one case that is too long: [10 (54 lines)](1).,,LOW
+abce8110fbdc7b71:1,usrsctplib/netinet/sctputil.c,7542,5,7636,6,cpp/long-switch,Long switch case,Switch has at least one case that is too long: [10 (55 lines)](1).,,LOW
+8bfe0de32b5f6426:1,usrsctplib/netinet/sctp_output.c,6238,3,6319,4,cpp/long-switch,Long switch case,Switch has at least one case that is too long: [2 (33 lines)](1).,,LOW
+852f60dad543a769:1,usrsctplib/netinet/sctp_usrreq.c,8517,2,8611,3,cpp/long-switch,Long switch case,Switch has at least one case that is too long: [10 (43 lines)](1).,,LOW
+eade38127a14ccf4:1,usrsctplib/netinet/sctp_output.c,5415,3,5651,4,cpp/long-switch,Long switch case,Switch has at least one case that is too long: [11 (44 lines)](1).,,LOW
+926efc25babc7c3d:1,usrsctplib/netinet/sctp_pcb.c,4411,2,4516,3,cpp/long-switch,Long switch case,Switch has at least one case that is too long: [10 (53 lines)](1).,,LOW
+4ad300fcc1410258:1,usrsctplib/netinet/sctp_usrreq.c,4487,2,7734,3,cpp/long-switch,Long switch case,"Switch has at least one case that is too long: [13 (66 lines)](1).
+Switch has at least one case that is too long: [4614 (35 lines)](2).
+Switch has at least one case that is too long: [4608 (38 lines)](3).
+Switch has at least one case that is too long: [4610 (51 lines)](4).
+Switch has at least one case that is too long: [4611 (50 lines)](5).
+Switch has at least one case that is too long: [4612 (35 lines)](6).
+Switch has at least one case that is too long: [26 (31 lines)](7).
+Switch has at least one case that is too long: [12289 (31 lines)](8).
+Switch has at least one case that is too long: [12293 (51 lines)](9).
+Switch has at least one case that is too long: [12290 (53 lines)](10).
+Switch has at least one case that is too long: [15 (52 lines)](11).
+Switch has at least one case that is too long: [19 (123 lines)](12).
+Switch has at least one case that is too long: [20 (52 lines)](13).
+Switch has at least one case that is too long: [21 (42 lines)](14).
+Switch has at least one case that is too long: [22 (38 lines)](15).
+Switch has at least one case that is too long: [29 (38 lines)](16).
+Switch has at least one case that is too long: [2304 (36 lines)](17).
+Switch has at least one case that is too long: [2305 (116 lines)](18).
+Switch has at least one case that is too long: [2307 (74 lines)](19).
+Switch has at least one case that is too long: [2306 (52 lines)](20).
+Switch has at least one case that is too long: [32777 (49 lines)](21).
+Switch has at least one case that is too long: [25 (41 lines)](22).
+Switch has at least one case that is too long: [14 (38 lines)](23).
+Switch has at least one case that is too long: [12 (147 lines)](24).
+Switch has at least one case that is too long: [11 (38 lines)](25).
+Switch has at least one case that is too long: [10 (409 lines)](26).
+Switch has at least one case that is too long: [1 (62 lines)](27).
+Switch has at least one case that is too long: [2 (38 lines)](28).
+Switch has at least one case that is too long: [7 (73 lines)](29).
+Switch has at least one case that is too long: [8193 (50 lines)](30).
+Switch has at least one case that is too long: [6 (113 lines)](31).
+Switch has at least one case that is too long: [32769 (49 lines)](32).
+Switch has at least one case that is too long: [32770 (63 lines)](33).
+Switch has at least one case that is too long: [30 (120 lines)](34).
+Switch has at least one case that is too long: [33 (54 lines)](35).
+Switch has at least one case that is too long: [34 (45 lines)](36).
+Switch has at least one case that is too long: [35 (181 lines)](37).
+Switch has at least one case that is too long: [36 (111 lines)](38).
+Switch has at least one case that is too long: [39 (35 lines)](39).
+Switch has at least one case that is too long: [40 (43 lines)](40).
+Switch has at least one case that is too long: [50 (35 lines)](41).",,LOW
+f222361bce150e33:1,usrsctplib/netinet/sctp_output.c,4185,2,5056,3,cpp/long-switch,Long switch case,"Switch has at least one case that is too long: [2 (332 lines)](1).
+Switch has at least one case that is too long: [10 (480 lines)](2).
+Switch has at least one case that is too long: [123 (48 lines)](3).",,LOW
+ff299f07a82cf5af:1,usrsctplib/netinet/sctp_pcb.c,3310,3,3433,4,cpp/long-switch,Long switch case,"Switch has at least one case that is too long: [2 (34 lines)](1).
+Switch has at least one case that is too long: [10 (64 lines)](2).",,LOW
+728f277ca989c95:1,usrsctplib/netinet/sctp_output.c,3708,4,3836,5,cpp/long-switch,Long switch case,"Switch has at least one case that is too long: [1 (58 lines)](1).
+Switch has at least one case that is too long: [10 (39 lines)](2).",,LOW
+dee27f81a78d49ba:1,usrsctplib/netinet/sctputil.c,4628,2,4689,3,cpp/long-switch,Long switch case,Switch has at least one case that is too long: [10 (33 lines)](1).,,LOW
+cd73079dce2550f4:1,usrsctplib/netinet/sctp_output.c,1908,2,1973,3,cpp/long-switch,Long switch case,Switch has at least one case that is too long: [10 (34 lines)](1).,,LOW
+afd46f5f0d334c7f:1,usrsctplib/netinet6/sctp6_usrreq.c,887,3,935,4,cpp/long-switch,Long switch case,Switch has at least one case that is too long: [10 (31 lines)](1).,,LOW
+11e4be60ac2b1eb1:1,usrsctplib/netinet/sctputil.c,2114,2,2352,3,cpp/long-switch,Long switch case,Switch has at least one case that is too long: [5 (39 lines)](1).,,LOW
+ef26085ba943a919:1,usrsctplib/netinet/sctputil.c,1778,2,2052,3,cpp/long-switch,Long switch case,Switch has at least one case that is too long: [1 (35 lines)](1).,,LOW
+abce8110fbdc7b71:1,usrsctplib/netinet/sctp_pcb.c,984,5,1071,6,cpp/long-switch,Long switch case,Switch has at least one case that is too long: [10 (44 lines)](1).,,LOW
+e63c53abce732534:1,usrsctplib/netinet/sctp_usrreq.c,2167,2,4454,3,cpp/long-switch,Long switch case,"Switch has at least one case that is too long: [23 (50 lines)](1).
+Switch has at least one case that is too long: [261 (37 lines)](2).
+Switch has at least one case that is too long: [25 (41 lines)](3).
+Switch has at least one case that is too long: [14 (35 lines)](4).
+Switch has at least one case that is too long: [12 (42 lines)](5).
+Switch has at least one case that is too long: [32774 (50 lines)](6).
+Switch has at least one case that is too long: [32771 (79 lines)](7).
+Switch has at least one case that is too long: [10 (215 lines)](8).
+Switch has at least one case that is too long: [257 (89 lines)](9).
+Switch has at least one case that is too long: [256 (90 lines)](10).
+Switch has at least one case that is too long: [2 (34 lines)](11).
+Switch has at least one case that is too long: [7 (47 lines)](12).
+Switch has at least one case that is too long: [20 (34 lines)](13).
+Switch has at least one case that is too long: [259 (49 lines)](14).
+Switch has at least one case that is too long: [258 (43 lines)](15).
+Switch has at least one case that is too long: [30 (82 lines)](16).
+Switch has at least one case that is too long: [33 (34 lines)](17).
+Switch has at least one case that is too long: [35 (122 lines)](18).
+Switch has at least one case that is too long: [36 (114 lines)](19).
+Switch has at least one case that is too long: [263 (42 lines)](20).
+Switch has at least one case that is too long: [264 (31 lines)](21).",,LOW
+316d9e21c8b5e563:1,usrsctplib/user_socket.c,2794,3,2854,4,cpp/long-switch,Long switch case,Switch has at least one case that is too long: [10 (36 lines)](1).,,LOW
+9242b0300b5f6607:1,usrsctplib/user_socket.c,2376,2,2456,3,cpp/long-switch,Long switch case,Switch has at least one case that is too long: [1 (62 lines)](1).,,LOW
+a12ba3f71b93dd0a:1,usrsctplib/user_socket.c,2282,2,2349,3,cpp/long-switch,Long switch case,Switch has at least one case that is too long: [1 (55 lines)](1).,,LOW
+abce8110fbdc7b71:1,usrsctplib/netinet/sctp_usrreq.c,1608,5,1742,6,cpp/long-switch,Long switch case,"Switch has at least one case that is too long: [2 (48 lines)](1).
+Switch has at least one case that is too long: [10 (66 lines)](2).",,LOW
+4642f6b8aa3fdb36:1,usrsctplib/netinet/sctp_pcb.c,5467,-1,6045,2,cpp/complex-block,Block with too many statements,Block with too many statements (6 complex statements in the block).,,LOW
+b7921b280d9111e8:1,usrsctplib/netinet/sctp_ss_functions.c,707,7,712,56,cpp/complex-condition,Complex condition,Complex condition: too many logical operations in this expression.,,LOW
+2c19aecfe20f7485:1,usrsctplib/user_environment.c,50,5,-1,7,cpp/short-global-name,Short global name,"Poor global variable name 'hz'. Prefer longer, descriptive names for globals (eg. kMyGlobalConstant, not foo).",,LOW
+1b01ebb6a853e1d2:1,usrsctplib/netinet/sctp_indata.c,1690,-1,-1,26,cpp/use-of-goto,Use of goto,Multiple forward and backward goto statements may make function sctp_process_a_data_chunk hard to understand.,,MEDIUM
+6a179fb26e774a8c:2,usrsctplib/netinet/sctp_output.c,8343,-1,-1,22,cpp/use-of-goto,Use of goto,Multiple forward and backward goto statements may make function sctp_med_chunk_output hard to understand.,,MEDIUM
+a9c9d3ae6e50a446:1,usrsctplib/netinet/sctp_output.c,7692,-1,-1,22,cpp/use-of-goto,Use of goto,Multiple forward and backward goto statements may make function sctp_move_to_outqueue hard to understand.,,MEDIUM
+28ea15fbcebfd764:1,usrsctplib/netinet/sctputil.c,5653,-1,-1,15,cpp/use-of-goto,Use of goto,Multiple forward and backward goto statements may make function sctp_sorecvmsg hard to understand.,,MEDIUM
+9d37dd492b1d055b:1,usrsctplib/netinet/sctputil.c,1373,-1,-1,19,cpp/use-of-goto,Use of goto,Multiple forward and backward goto statements may make function sctp_iterator_work hard to understand.,,MEDIUM
+b28a1484e2fda006:1,usrsctplib/netinet/sctp_os_userspace.h,953,-1,-1,34,cpp/fixme-comment,FIXME comment,FIXME comment: need real definitions,CWE-546,LOW
+67027989ad6a11d:1,usrsctplib/netinet/sctp_os_userspace.h,874,36,-1,66,cpp/fixme-comment,FIXME comment,FIXME comment: temporary solution,CWE-546,LOW
+70ec1391077fae86:1,usrsctplib/netinet/sctp_uio.h,929,19,-1,42,cpp/fixme-comment,FIXME comment,FIXME comment: LP64 issue,CWE-546,LOW
+94d5d7aa597d6001:1,usrsctplib/netinet/sctp_uio.h,922,15,-1,38,cpp/fixme-comment,FIXME comment,FIXME comment: LP64 issue,CWE-546,LOW
+e7485688e85f9445:1,usrsctplib/netinet/sctp_uio.h,921,13,-1,36,cpp/fixme-comment,FIXME comment,FIXME comment: LP64 issue,CWE-546,LOW
+1188afe5d6d4f1f3:1,usrsctplib/netinet/sctp_uio.h,902,14,-1,37,cpp/fixme-comment,FIXME comment,FIXME comment: LP64 issue,CWE-546,LOW
+1649f8bd09b8d0e4:1,usrsctplib/netinet/sctp_uio.h,894,15,-1,38,cpp/fixme-comment,FIXME comment,FIXME comment: LP64 issue,CWE-546,LOW
+40a8302ad4ef6c51:1,usrsctplib/netinet/sctp_uio.h,889,14,-1,37,cpp/fixme-comment,FIXME comment,FIXME comment: LP64 issue,CWE-546,LOW
+87dfbcf756cb3391:1,usrsctplib/netinet/sctp_uio.h,877,13,-1,36,cpp/fixme-comment,FIXME comment,FIXME comment: LP64 issue,CWE-546,LOW
+86efeb3aa3c93538:1,usrsctplib/netinet/sctp_uio.h,876,15,-1,38,cpp/fixme-comment,FIXME comment,FIXME comment: LP64 issue,CWE-546,LOW
+3106f8229d80b5f2:1,usrsctplib/netinet/sctp_uio.h,835,15,-1,38,cpp/fixme-comment,FIXME comment,FIXME comment: LP64 issue,CWE-546,LOW
+88d7b44f4704b8a7:1,usrsctplib/netinet/sctp_uio.h,826,14,-1,37,cpp/fixme-comment,FIXME comment,FIXME comment: LP64 issue,CWE-546,LOW
+9fa4b09b0308376c:1,usrsctplib/netinet/sctp_uio.h,776,42,-1,65,cpp/fixme-comment,FIXME comment,FIXME comment: LP64 issue,CWE-546,LOW
+c0e540a338b16628:1,usrsctplib/netinet/sctp_usrreq.c,9054,2,9058,5,cpp/fixme-comment,FIXME comment,FIXME comment: change to current amount free. This will be the full buffer \[...\],CWE-546,LOW
+b27542cb0fc5a918:1,usrsctplib/netinet/sctp_usrreq.c,5816,5,-1,64,cpp/fixme-comment,FIXME comment,FIXME comment: MT: I think this is not in tune with the API ID,CWE-546,LOW
+fc7759e1fc2d22ea:1,usrsctplib/netinet/sctp_usrreq.c,5703,3,-1,33,cpp/fixme-comment,FIXME comment,FIXME comment: MT: check correct?,CWE-546,LOW
+dcd31849d31a6dab:1,usrsctplib/netinet/sctp_usrreq.c,2825,3,-1,46,cpp/fixme-comment,FIXME comment,FIXME comment: MT: change to sctp_assoc_value?,CWE-546,LOW
+6aaab90cfb60517c:1,usrsctplib/netinet/sctp_pcb.h,867,-1,-1,29,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+fb376a17a521afa5:3,usrsctplib/netinet/sctp_cc_functions.c,2263,3,2268,5,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+fb376a17a521afa5:2,usrsctplib/netinet/sctp_cc_functions.c,1875,3,1880,5,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+fb376a17a521afa5:1,usrsctplib/netinet/sctp_cc_functions.c,842,3,847,5,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+bb632fc520997c76:1,usrsctplib/netinet/sctp_auth.c,831,2,-1,44,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+fe4956d67e321e57:1,usrsctplib/netinet/sctp_auth.c,61,2,-1,32,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+778aec79d03240bb:1,usrsctplib/user_socketvar.h,322,-1,-1,69,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+2a8a20296f3a3511:1,usrsctplib/user_socketvar.h,312,-1,-1,92,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+6703eeeb98e8b8eb:1,usrsctplib/user_socketvar.h,307,-1,-1,69,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+4c8fef31e1ff9823:1,usrsctplib/user_socketvar.h,175,3,-1,24,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+9111b320107fe82b:1,usrsctplib/user_socketvar.h,174,3,-1,26,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+db709e785c89b30c:1,usrsctplib/user_socketvar.h,173,3,-1,30,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+6ecd58b9077db5bc:1,usrsctplib/user_socketvar.h,44,-1,-1,27,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+b1f69d98ffd7d937:1,usrsctplib/user_socketvar.h,43,-1,-1,46,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+3f53b1a9a5dba0ef:1,usrsctplib/user_socketvar.h,42,-1,-1,46,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+883732a63a40e984:1,usrsctplib/user_socketvar.h,41,-1,-1,31,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+438b262b66d85996:1,usrsctplib/user_environment.h,80,-1,-1,30,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+9c72f51398207702:1,usrsctplib/user_environment.h,79,-1,-1,27,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+c82d08fbc141de74:1,usrsctplib/user_environment.h,78,-1,-1,25,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+b1e996139c41eeee:1,usrsctplib/user_environment.h,77,-1,-1,25,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+e106b82febe9a13c:1,usrsctplib/user_environment.h,76,-1,-1,25,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+34a22ad0b5e8c0bc:1,usrsctplib/user_environment.h,75,-1,-1,26,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+bc171b519cde973f:1,usrsctplib/user_environment.h,74,-1,-1,25,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+25cfd7cbae3213ef:1,usrsctplib/netinet/sctp_os_userspace.h,712,-1,-1,32,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+2fc610837eac2058:1,usrsctplib/netinet/sctp_os_userspace.h,674,-1,-1,164,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+56faff1db3c6205c:1,usrsctplib/netinet/sctp_os_userspace.h,547,-1,-1,50,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+51353ec6d3cd3a77:1,usrsctplib/netinet/sctp_os_userspace.h,497,-1,-1,54,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+3cebe9070f7e9acf:1,usrsctplib/netinet/sctp_os_userspace.h,485,-1,-1,29,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+a8cbdcb675f3c80f:1,usrsctplib/netinet/sctp_os_userspace.h,480,-1,-1,81,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+9bf154a81799636d:1,usrsctplib/netinet/sctp_os_userspace.h,472,-1,-1,31,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+d2afd03b39e64881:1,usrsctplib/netinet/sctp_os_userspace.h,470,-1,-1,30,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+e2437b34fb8d8de:1,usrsctplib/netinet/sctp_os_userspace.h,466,-1,-1,31,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+e245981fad7f31ca:1,usrsctplib/netinet/sctp_os_userspace.h,462,-1,-1,28,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+692da575a40972b2:1,usrsctplib/netinet/sctp_os_userspace.h,461,-1,-1,27,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+a209200a0e02a978:1,usrsctplib/netinet/sctp_os_userspace.h,457,-1,-1,30,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+5b8c5c878c4b5653:1,usrsctplib/netinet/sctp_os_userspace.h,456,-1,-1,28,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+2e8b38e6b52997d7:1,usrsctplib/netinet/sctp_os_userspace.h,452,-1,-1,31,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+91da483e67133aeb:1,usrsctplib/netinet/sctp_os_userspace.h,451,-1,-1,30,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+2109d4104c851368:1,usrsctplib/netinet/sctp_os_userspace.h,450,-1,-1,30,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+69b9908bd3e3cd20:1,usrsctplib/netinet/sctp_os_userspace.h,443,-1,-1,29,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+d14674099ada412:1,usrsctplib/netinet/sctp_os_userspace.h,442,-1,-1,27,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+5b97f98c603b883:1,usrsctplib/netinet/sctp_os_userspace.h,441,-1,-1,55,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+721425ec94994332:1,usrsctplib/netinet/sctp_os_userspace.h,317,-1,318,24,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+f0bedcff18aea425:1,usrsctplib/user_mbuf.h,48,-1,-1,25,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+1c1f12b7d3c96382:1,usrsctplib/user_inpcb.h,373,-1,-1,22,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+eb7adee6531bf5dd:1,usrsctplib/user_inpcb.h,332,-1,-1,21,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+c1f2004296bc8f9e:1,usrsctplib/netinet/sctp_indata.c,3636,4,-1,63,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+998da1470ae8e081:1,usrsctplib/netinet/sctp_output.c,10760,-1,-1,71,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+342d8ec8c7ce87ff:1,usrsctplib/netinet/sctp_output.c,10390,4,-1,59,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+e23c1786b4a8465b:1,usrsctplib/netinet/sctp_output.c,10106,3,-1,65,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+1f4e0430634c4a7:1,usrsctplib/netinet/sctp_output.c,8563,3,-1,64,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+a8eabd9b857271c4:1,usrsctplib/netinet/sctp_output.c,6782,2,-1,9,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+8f5df3990d94f006:1,usrsctplib/netinet/sctp_output.c,6781,2,-1,58,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+969bc429400bd623:1,usrsctplib/netinet/sctp_output.c,6777,2,6779,5,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+84e653de92504e53:1,usrsctplib/user_environment.c,40,-1,-1,41,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+667a09ba148cd117:1,usrsctplib/netinet/sctputil.c,7032,2,7044,5,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+be358b09c51fdb62:1,usrsctplib/netinet/sctputil.c,7028,2,7030,5,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+c0a35388a5b3255f:1,usrsctplib/netinet/sctp_pcb.c,2875,3,-1,30,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+3783dd675e0107f7:1,usrsctplib/netinet/sctp_pcb.c,876,3,-1,57,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+6018b7c7698fd0ba:1,usrsctplib/user_mbuf.c,1522,2,-1,30,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+645b663d370a2cde:1,usrsctplib/user_mbuf.c,1073,3,-1,44,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+513c129b9b074124:1,usrsctplib/user_mbuf.c,834,2,-1,36,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+27850fdae32905e4:1,usrsctplib/user_mbuf.c,700,3,-1,81,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+4156fe3c7de53ffc:1,usrsctplib/user_mbuf.c,678,2,-1,72,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+55b75e3c0fbceb2a:1,usrsctplib/user_mbuf.c,316,4,-1,38,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+3286f94d1b0c0885:1,usrsctplib/user_mbuf.c,274,3,-1,63,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+3f8bee643857a353:1,usrsctplib/user_mbuf.c,268,2,270,8,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+228d8dc1cc5fae95:1,usrsctplib/user_mbuf.c,261,2,-1,62,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+fb564627043317af:1,usrsctplib/user_mbuf.c,226,3,-1,73,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+b19bb02cd3804150:1,usrsctplib/user_mbuf.c,221,2,-1,72,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+ddc43027b738be0a:1,usrsctplib/user_mbuf.c,202,3,-1,37,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+83682298c8764206:1,usrsctplib/user_mbuf.c,169,2,-1,72,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+92a76e1dfb54506e:1,usrsctplib/user_mbuf.c,129,2,-1,73,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+21d8d639859bcf26:1,usrsctplib/user_mbuf.c,40,-1,-1,52,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+2831af08c4da1588:1,usrsctplib/user_recv_thread.c,968,5,-1,74,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+68b23c18e0cb7355:1,usrsctplib/user_recv_thread.c,792,3,-1,70,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+35bada5e8deecda9:1,usrsctplib/user_socket.c,969,5,970,34,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+4af094daaabd5626:1,usrsctplib/user_socket.c,636,15,-1,29,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+814148d2122c8770:1,usrsctplib/user_socket.c,633,25,-1,49,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+81f0e7f259a26218:1,usrsctplib/user_socket.c,378,9,-1,37,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+dace7649e1425d70:1,usrsctplib/user_socket.c,298,18,-1,50,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+78486ee96dbb572c:1,usrsctplib/netinet/sctp_timer.c,963,31,-1,40,cpp/use-after-free,Potential use after free,Memory may have been previously freed by [call to free](1).,CWE-416,MEDIUM
+346cac9722b4651a:1,usrsctplib/netinet/sctp_output.c,4076,33,-1,42,cpp/use-after-free,Potential use after free,Memory may have been previously freed by [call to free](1).,CWE-416,MEDIUM
+4506efc6bf8f561f:1,usrsctplib/netinet/sctp_output.c,12396,6,-1,13,cpp/constant-comparison,Comparison result is always the same,Comparison is always false because spc >= 0.,,MEDIUM
+89364b141f10ff20:1,usrsctplib/netinet/sctp_output.c,12570,15,-1,33,cpp/comparison-with-wider-type,Comparison of narrow type with wide type in loop condition,Comparison between [i](1) of type uint16_t and [number_entries](2) of wider type int.,"CWE-190,CWE-197,CWE-835",MEDIUM
+529f530a6f04fd3f:1,usrsctplib/netinet/sctputil.c,3814,-1,-1,16,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 204 lines.,,MEDIUM
+609a48d411805f2a:2,usrsctplib/netinet/sctp_output.c,11647,-1,-1,19,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 401 lines.,,MEDIUM
+d03aff6edf9f34:1,usrsctplib/netinet/sctp_sysctl.c,64,-1,-1,18,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 113 lines.,,MEDIUM
+b48cda1be856f9c5:1,usrsctplib/user_socket.c,2467,-1,-1,17,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 113 lines.,,MEDIUM
+605a3cb921cc4cd1:1,usrsctplib/user_socket.c,1112,-1,-1,14,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 148 lines.,,MEDIUM
+b4d55ab8a973257:1,usrsctplib/user_socket.c,837,-1,-1,14,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 116 lines.,,MEDIUM
+75066c8457fa6cdd:1,usrsctplib/netinet/sctp_auth.c,1788,2,-1,37,cpp/stack-address-escape,Local variable address stored in non-local memory,A stack address which arrived via a [parameter](1) may be assigned to a non-local variable.,,MEDIUM
+56cade3fe10ac1db:1,usrsctplib/netinet/sctp_output.c,14203,4,-1,27,cpp/stack-address-escape,Local variable address stored in non-local memory,A stack address ([source](1)) may be assigned to a non-local variable.,,MEDIUM
+1c889f2ff25be6b0:1,usrsctplib/netinet/sctp_output.c,14574,5,-1,28,cpp/stack-address-escape,Local variable address stored in non-local memory,A stack address ([source](1)) may be assigned to a non-local variable.,,MEDIUM
+3cadc115dc43663c:1,usrsctplib/netinet/sctp_usrreq.c,8538,11,-1,33,cpp/type-confusion,Type confusion,Conversion from [sockaddr_in](1) to [sockaddr](2) is invalid.,CWE-843,MEDIUM
+744a3431808f8605:1,usrsctplib/netinet/sctp_usrreq.c,8582,11,-1,34,cpp/type-confusion,Type confusion,Conversion from [sockaddr_in6](1) to [sockaddr](2) is invalid.,CWE-843,MEDIUM
+d6a32a7c1708873b:1,usrsctplib/netinet/sctp_usrreq.c,8604,11,-1,35,cpp/type-confusion,Type confusion,Conversion from [sockaddr_conn](1) to [sockaddr](2) is invalid.,CWE-843,MEDIUM
+7f8cbf87d3275251:1,usrsctplib/netinet/sctp_pcb.c,4985,19,-1,50,cpp/type-confusion,Type confusion,Conversion from [sockaddr](1) to [sockaddr_in](2) is invalid.,CWE-843,MEDIUM
+44fe896a15462c83:1,usrsctplib/netinet/sctp_pcb.c,4991,19,-1,51,cpp/type-confusion,Type confusion,Conversion from [sockaddr](1) to [sockaddr_in6](2) is invalid.,CWE-843,MEDIUM
+ceab58e2971fdc31:1,usrsctplib/netinet/sctp_pcb.c,4997,19,-1,52,cpp/type-confusion,Type confusion,Conversion from [sockaddr](1) to [sockaddr_conn](2) is invalid.,CWE-843,MEDIUM
+d40016acf0aa3a20:1,usrsctplib/netinet/sctp_pcb.c,5013,9,-1,40,cpp/type-confusion,Type confusion,Conversion from [sockaddr](1) to [sockaddr_in](2) is invalid.,CWE-843,MEDIUM
+6ec1636101605097:1,usrsctplib/netinet/sctp_pcb.c,5033,10,-1,42,cpp/type-confusion,Type confusion,Conversion from [sockaddr](1) to [sockaddr_in6](2) is invalid.,CWE-843,MEDIUM
+616f3862d909a3e:1,usrsctplib/netinet/sctp_pcb.c,5052,11,-1,44,cpp/type-confusion,Type confusion,Conversion from [sockaddr](1) to [sockaddr_conn](2) is invalid.,CWE-843,MEDIUM
+f19e057e040ef3cf:1,usrsctplib/netinet/sctp_pcb.c,4417,9,-1,38,cpp/type-confusion,Type confusion,Conversion from [sockaddr](1) to [sockaddr_in](2) is invalid.,CWE-843,MEDIUM
+117a0acb4023ea12:1,usrsctplib/netinet/sctp_pcb.c,4448,10,-1,40,cpp/type-confusion,Type confusion,Conversion from [sockaddr](1) to [sockaddr_in6](2) is invalid.,CWE-843,MEDIUM
+a7aac4de7eff8c24:1,usrsctplib/netinet/sctp_pcb.c,4502,11,-1,42,cpp/type-confusion,Type confusion,Conversion from [sockaddr](1) to [sockaddr_conn](2) is invalid.,CWE-843,MEDIUM
+da5a854c27ea035f:1,usrsctplib/netinet/sctp_pcb.c,3293,11,-1,37,cpp/type-confusion,Type confusion,Conversion from [sockaddr](1) to [sockaddr_in](2) is invalid.,CWE-843,MEDIUM
+94b9c5c838deaca4:1,usrsctplib/netinet/sctp_pcb.c,3328,10,-1,36,cpp/type-confusion,Type confusion,Conversion from [sockaddr](1) to [sockaddr_in](2) is invalid.,CWE-843,MEDIUM
+89257fdf4d61d47f:1,usrsctplib/netinet/sctp_pcb.c,3352,11,-1,38,cpp/type-confusion,Type confusion,Conversion from [sockaddr](1) to [sockaddr_in6](2) is invalid.,CWE-843,MEDIUM
+f77e099ae4aae5b4:1,usrsctplib/netinet/sctp_pcb.c,3422,12,-1,40,cpp/type-confusion,Type confusion,Conversion from [sockaddr](1) to [sockaddr_conn](2) is invalid.,CWE-843,MEDIUM
+1bccb33cdfebd62e:1,usrsctplib/netinet/sctputil.c,5530,9,-1,35,cpp/type-confusion,Type confusion,Conversion from [sockaddr](1) to [sockaddr_in](2) is invalid.,CWE-843,MEDIUM
+e946ef207e0ca4ce:1,usrsctplib/netinet/sctputil.c,5542,29,-1,56,cpp/type-confusion,Type confusion,Conversion from [sockaddr](1) to [sockaddr_in6](2) is invalid.,CWE-843,MEDIUM
+95fe60d068596452:1,usrsctplib/netinet/sctputil.c,5554,9,-1,37,cpp/type-confusion,Type confusion,Conversion from [sockaddr](1) to [sockaddr_conn](2) is invalid.,CWE-843,MEDIUM
+81a0b576bc9697b8:1,usrsctplib/netinet/sctputil.c,5450,9,-1,35,cpp/type-confusion,Type confusion,Conversion from [sockaddr](1) to [sockaddr_in](2) is invalid.,CWE-843,MEDIUM
+28cfc6382409287b:1,usrsctplib/netinet/sctputil.c,5460,10,-1,37,cpp/type-confusion,Type confusion,Conversion from [sockaddr](1) to [sockaddr_in6](2) is invalid.,CWE-843,MEDIUM
+79f2457590b8e1af:1,usrsctplib/netinet/sctputil.c,5482,11,-1,39,cpp/type-confusion,Type confusion,Conversion from [sockaddr](1) to [sockaddr_conn](2) is invalid.,CWE-843,MEDIUM
+65749ce3faac6e22:1,usrsctplib/netinet/sctp_usrreq.c,4746,3,-1,37,cpp/type-confusion,Type confusion,Conversion from [sctp_getaddresses](1) to [sctp_cc_option](2) is invalid.,CWE-843,MEDIUM
+bc7e7c9b73dd0b9:1,usrsctplib/netinet/sctp_usrreq.c,4828,3,-1,33,cpp/type-confusion,Type confusion,Conversion from [sctp_getaddresses](1) to [sctp_stream_value](2) is invalid.,CWE-843,MEDIUM
+4e52419e8caea6fc:1,usrsctplib/netinet/sctp_usrreq.c,5038,3,-1,35,cpp/type-confusion,Type confusion,Conversion from [sctp_getaddresses](1) to [sctp_sack_info](2) is invalid.,CWE-843,MEDIUM
+de526ca3784eb38e:1,usrsctplib/netinet/sctputil.c,4634,10,-1,35,cpp/type-confusion,Type confusion,Conversion from [sockaddr](1) to [sockaddr_in6](2) is invalid.,CWE-843,MEDIUM
+4183625f43932b6a:1,usrsctplib/netinet/sctputil.c,4669,9,-1,33,cpp/type-confusion,Type confusion,Conversion from [sockaddr](1) to [sockaddr_in](2) is invalid.,CWE-843,MEDIUM
+83839b3f71cfd843:1,usrsctplib/netinet/sctputil.c,4681,11,-1,37,cpp/type-confusion,Type confusion,Conversion from [sockaddr](1) to [sockaddr_conn](2) is invalid.,CWE-843,MEDIUM
+8713133b6936eb1e:1,usrsctplib/netinet/sctputil.c,4586,12,-1,38,cpp/type-confusion,Type confusion,Conversion from [sockaddr](1) to [sockaddr_in6](2) is invalid.,CWE-843,MEDIUM
+c06ab8c979e200d2:1,usrsctplib/netinet/sctputil.c,4598,11,-1,36,cpp/type-confusion,Type confusion,Conversion from [sockaddr](1) to [sockaddr_in](2) is invalid.,CWE-843,MEDIUM
+8bf7459b18a1bbb1:1,usrsctplib/netinet/sctputil.c,4608,13,-1,40,cpp/type-confusion,Type confusion,Conversion from [sockaddr](1) to [sockaddr_conn](2) is invalid.,CWE-843,MEDIUM
+3d0d9196131e760:1,usrsctplib/netinet/sctp_pcb.c,2275,9,-1,34,cpp/type-confusion,Type confusion,Conversion from [sockaddr](1) to [sockaddr_in](2) is invalid.,CWE-843,MEDIUM
+8516592a1210ee7a:1,usrsctplib/netinet/sctp_pcb.c,2281,10,-1,36,cpp/type-confusion,Type confusion,Conversion from [sockaddr](1) to [sockaddr_in6](2) is invalid.,CWE-843,MEDIUM
+b7c489f011778a64:1,usrsctplib/netinet/sctp_pcb.c,2287,11,-1,38,cpp/type-confusion,Type confusion,Conversion from [sockaddr](1) to [sockaddr_conn](2) is invalid.,CWE-843,MEDIUM
+a52b680b602dd22:1,usrsctplib/netinet/sctp_usrreq.c,5111,3,-1,34,cpp/type-confusion,Type confusion,Conversion from [sctp_getaddresses](1) to [sctp_authkey](2) is invalid.,CWE-843,MEDIUM
+f3dd6b14973e42e7:1,usrsctplib/netinet/sctp_usrreq.c,5234,3,-1,36,cpp/type-confusion,Type confusion,Conversion from [sctp_getaddresses](1) to [sctp_hmacalgo](2) is invalid.,CWE-843,MEDIUM
+818b845d1fa1df39:1,usrsctplib/netinet/sctp_usrreq.c,5444,3,-1,37,cpp/type-confusion,Type confusion,Conversion from [sctp_getaddresses](1) to [sctp_reset_streams](2) is invalid.,CWE-843,MEDIUM
+75722df2d2aea2f0:1,usrsctplib/netinet/sctp_usrreq.c,5562,3,-1,37,cpp/type-confusion,Type confusion,Conversion from [sctp_getaddresses](1) to [sctp_add_streams](2) is invalid.,CWE-843,MEDIUM
+dae0cdba19a9b7c5:1,usrsctplib/netinet/sctp_usrreq.c,5704,3,-1,33,cpp/type-confusion,Type confusion,Conversion from [sctp_getaddresses](1) to [sockaddr](2) is invalid.,CWE-843,MEDIUM
+43b08c9432746abc:1,usrsctplib/netinet/sctp_pcb.c,1925,9,-1,34,cpp/type-confusion,Type confusion,Conversion from [sockaddr](1) to [sockaddr_in](2) is invalid.,CWE-843,MEDIUM
+3109835832355aa9:1,usrsctplib/netinet/sctp_pcb.c,1930,10,-1,36,cpp/type-confusion,Type confusion,Conversion from [sockaddr](1) to [sockaddr_in6](2) is invalid.,CWE-843,MEDIUM
+a689c5606d7cd7e2:1,usrsctplib/netinet/sctp_pcb.c,1935,11,-1,38,cpp/type-confusion,Type confusion,Conversion from [sockaddr](1) to [sockaddr_conn](2) is invalid.,CWE-843,MEDIUM
+ca05239427b22e4a:1,usrsctplib/netinet/sctp_usrreq.c,5834,3,-1,37,cpp/type-confusion,Type confusion,Conversion from [sctp_getaddresses](1) to [sctp_event_subscribe](2) is invalid.,CWE-843,MEDIUM
+d8c64abcc5d15eae:1,usrsctplib/netinet/sctp_usrreq.c,6005,3,-1,37,cpp/type-confusion,Type confusion,Conversion from [sctp_getaddresses](1) to [sctp_sndrcvinfo](2) is invalid.,CWE-843,MEDIUM
+dd6b3bfb2297d5b4:1,usrsctplib/netinet/sctp_pcb.c,1481,13,-1,41,cpp/type-confusion,Type confusion,"Conversion from [sctp_getaddresses](1) to [sockaddr_in](2) is invalid.
+Conversion from [sockaddr](3) to [sockaddr_in](2) is invalid.",CWE-843,MEDIUM
+f57c1a7ded77cb63:1,usrsctplib/netinet/sctp_pcb.c,1486,13,-1,42,cpp/type-confusion,Type confusion,"Conversion from [sctp_getaddresses](1) to [sockaddr_in6](2) is invalid.
+Conversion from [sockaddr](3) to [sockaddr_in6](2) is invalid.",CWE-843,MEDIUM
+6126969c683f12f6:1,usrsctplib/netinet/sctp_pcb.c,1491,13,-1,43,cpp/type-confusion,Type confusion,"Conversion from [sctp_getaddresses](1) to [sockaddr_conn](2) is invalid.
+Conversion from [sockaddr](3) to [sockaddr_conn](2) is invalid.",CWE-843,MEDIUM
+8f862e3854167882:1,usrsctplib/netinet/sctp_usrreq.c,6049,3,-1,37,cpp/type-confusion,Type confusion,Conversion from [sctp_getaddresses](1) to [sctp_paddrparams](2) is invalid.,CWE-843,MEDIUM
+253b87857b13062c:1,usrsctplib/netinet6/sctp6_usrreq.c,1231,9,-1,36,cpp/type-confusion,Type confusion,Conversion from [sockaddr](1) to [sockaddr_in6](2) is invalid.,CWE-843,MEDIUM
+7d69e68841cfe275:1,usrsctplib/netinet/sctp_pcb.c,1600,13,-1,41,cpp/type-confusion,Type confusion,"Conversion from [sctp_getaddresses](1) to [sockaddr_in](2) is invalid.
+Conversion from [sockaddr](3) to [sockaddr_in](2) is invalid.",CWE-843,MEDIUM
+d59fba4ba37101ee:1,usrsctplib/netinet/sctp_pcb.c,1629,14,-1,43,cpp/type-confusion,Type confusion,"Conversion from [sctp_getaddresses](1) to [sockaddr_in6](2) is invalid.
+Conversion from [sockaddr](3) to [sockaddr_in6](2) is invalid.",CWE-843,MEDIUM
+558db88940e8c164:1,usrsctplib/netinet/sctp_pcb.c,1657,15,-1,45,cpp/type-confusion,Type confusion,"Conversion from [sctp_getaddresses](1) to [sockaddr_conn](2) is invalid.
+Conversion from [sockaddr](3) to [sockaddr_conn](2) is invalid.",CWE-843,MEDIUM
+bad0f88270e9dd4d:1,usrsctplib/netinet6/sctp6_usrreq.c,905,13,-1,40,cpp/type-confusion,Type confusion,Conversion from [sockaddr](1) to [sockaddr_in6](2) is invalid.,CWE-843,MEDIUM
+69be3e8d7f0758ac:1,usrsctplib/netinet/sctp_usrreq.c,6455,3,-1,35,cpp/type-confusion,Type confusion,Conversion from [sctp_getaddresses](1) to [sctp_rtoinfo](2) is invalid.,CWE-843,MEDIUM
+ead583f1e7972efc:1,usrsctplib/netinet6/sctp6_usrreq.c,947,12,-1,39,cpp/type-confusion,Type confusion,Conversion from [sockaddr](1) to [sockaddr_in6](2) is invalid.,CWE-843,MEDIUM
+869b5dd912f38588:1,usrsctplib/netinet/sctp_usrreq.c,6517,3,-1,36,cpp/type-confusion,Type confusion,Conversion from [sctp_getaddresses](1) to [sctp_assocparams](2) is invalid.,CWE-843,MEDIUM
+73048494b28d0fea:1,usrsctplib/netinet/sctp_usrreq.c,6556,3,-1,36,cpp/type-confusion,Type confusion,Conversion from [sctp_getaddresses](1) to [sctp_initmsg](2) is invalid.,CWE-843,MEDIUM
+27514e64df7723b4:1,usrsctplib/netinet/sctp_usrreq.c,6581,3,-1,34,cpp/type-confusion,Type confusion,Conversion from [sctp_getaddresses](1) to [sctp_setprim](2) is invalid.,CWE-843,MEDIUM
+6e9ed231460cd437:1,usrsctplib/netinet/sctp_usrreq.c,6705,3,-1,35,cpp/type-confusion,Type confusion,Conversion from [sctp_getaddresses](1) to [sctp_setpeerprim](2) is invalid.,CWE-843,MEDIUM
+91cc5804d8bbb0eb:1,usrsctplib/netinet/sctp_usrreq.c,6930,3,-1,36,cpp/type-confusion,Type confusion,Conversion from [sctp_getaddresses](1) to [sctp_event](2) is invalid.,CWE-843,MEDIUM
+bf1d0f633396a8ac:1,usrsctplib/netinet/sctp_usrreq.c,7079,3,-1,35,cpp/type-confusion,Type confusion,Conversion from [sctp_getaddresses](1) to [sctp_sndinfo](2) is invalid.,CWE-843,MEDIUM
+7d69e68841cfe275:2,usrsctplib/netinet/sctp_pcb.c,1726,13,-1,41,cpp/type-confusion,Type confusion,"Conversion from [sctp_getaddresses](1) to [sockaddr_in](2) is invalid.
+Conversion from [sockaddr](3) to [sockaddr_in](2) is invalid.",CWE-843,MEDIUM
+d59fba4ba37101ee:2,usrsctplib/netinet/sctp_pcb.c,1755,14,-1,43,cpp/type-confusion,Type confusion,"Conversion from [sctp_getaddresses](1) to [sockaddr_in6](2) is invalid.
+Conversion from [sockaddr](3) to [sockaddr_in6](2) is invalid.",CWE-843,MEDIUM
+558db88940e8c164:2,usrsctplib/netinet/sctp_pcb.c,1783,15,-1,45,cpp/type-confusion,Type confusion,"Conversion from [sctp_getaddresses](1) to [sockaddr_conn](2) is invalid.
+Conversion from [sockaddr](3) to [sockaddr_conn](2) is invalid.",CWE-843,MEDIUM
+44ad44fed434d8be:1,usrsctplib/netinet/sctp_usrreq.c,7133,3,-1,35,cpp/type-confusion,Type confusion,Conversion from [sctp_getaddresses](1) to [sctp_default_prinfo](2) is invalid.,CWE-843,MEDIUM
+c529f89431e524fb:1,usrsctplib/netinet/sctp_pcb.c,1177,13,-1,39,cpp/type-confusion,Type confusion,"Conversion from [sctp_getaddresses](1) to [sockaddr_in](2) is invalid.
+Conversion from [sockaddr](3) to [sockaddr_in](2) is invalid.",CWE-843,MEDIUM
+9804d490bdc5c362:1,usrsctplib/netinet/sctp_pcb.c,1187,13,-1,40,cpp/type-confusion,Type confusion,"Conversion from [sctp_getaddresses](1) to [sockaddr_in6](2) is invalid.
+Conversion from [sockaddr](3) to [sockaddr_in6](2) is invalid.",CWE-843,MEDIUM
+6535746a22414773:1,usrsctplib/netinet/sctp_pcb.c,1197,13,-1,41,cpp/type-confusion,Type confusion,"Conversion from [sctp_getaddresses](1) to [sockaddr_conn](2) is invalid.
+Conversion from [sockaddr](3) to [sockaddr_conn](2) is invalid.",CWE-843,MEDIUM
+df111dd919dca6d0:1,usrsctplib/netinet/sctp_usrreq.c,7185,3,-1,36,cpp/type-confusion,Type confusion,Conversion from [sctp_getaddresses](1) to [sctp_paddrthlds](2) is invalid.,CWE-843,MEDIUM
+c2eeb0d4b0b94a31:1,usrsctplib/netinet/sctp_pcb.c,1390,12,-1,38,cpp/type-confusion,Type confusion,"Conversion from [sctp_getaddresses](1) to [sockaddr_in](2) is invalid.
+Conversion from [sockaddr](3) to [sockaddr_in](2) is invalid.",CWE-843,MEDIUM
+5f5958eb675df21f:1,usrsctplib/netinet/sctp_pcb.c,1411,13,-1,40,cpp/type-confusion,Type confusion,"Conversion from [sctp_getaddresses](1) to [sockaddr_in6](2) is invalid.
+Conversion from [sockaddr](3) to [sockaddr_in6](2) is invalid.",CWE-843,MEDIUM
+81fe58e7efd81343:1,usrsctplib/netinet/sctp_pcb.c,1432,14,-1,42,cpp/type-confusion,Type confusion,"Conversion from [sctp_getaddresses](1) to [sockaddr_conn](2) is invalid.
+Conversion from [sockaddr](3) to [sockaddr_conn](2) is invalid.",CWE-843,MEDIUM
+64119039a047df2e:1,usrsctplib/netinet/sctp_usrreq.c,7366,3,-1,37,cpp/type-confusion,Type confusion,Conversion from [sctp_getaddresses](1) to [sctp_udpencaps](2) is invalid.,CWE-843,MEDIUM
+f8a6f27ce747514:1,usrsctplib/netinet/sctp_usrreq.c,2367,3,-1,37,cpp/type-confusion,Type confusion,"Conversion from [sctp_getaddresses](1) to [sctp_cc_option](2) is invalid.
+Conversion from [sctp_getaddresses](1) to [sctp_cc_option](2) is invalid.",CWE-843,MEDIUM
+a4988e6fd3ef8f0b:1,usrsctplib/netinet/sctp_usrreq.c,2412,3,-1,33,cpp/type-confusion,Type confusion,"Conversion from [sctp_getaddresses](1) to [sctp_stream_value](2) is invalid.
+Conversion from [sctp_getaddresses](1) to [sctp_stream_value](2) is invalid.",CWE-843,MEDIUM
+179627c89d85d22c:1,usrsctplib/netinet/sctp_usrreq.c,2490,3,-1,34,cpp/type-confusion,Type confusion,"Conversion from [sctp_getaddresses](1) to [sctp_assoc_ids](2) is invalid.
+Conversion from [sctp_getaddresses](1) to [sctp_assoc_ids](2) is invalid.",CWE-843,MEDIUM
+3d2b263188ae5b32:1,usrsctplib/netinet/sctp_usrreq.c,2599,3,-1,34,cpp/type-confusion,Type confusion,"Conversion from [sctp_getaddresses](1) to [sctp_get_nonce_values](2) is invalid.
+Conversion from [sctp_getaddresses](1) to [sctp_get_nonce_values](2) is invalid.",CWE-843,MEDIUM
+535dc85dd4f2eac7:1,usrsctplib/netinet/sctp_usrreq.c,2617,3,-1,35,cpp/type-confusion,Type confusion,"Conversion from [sctp_getaddresses](1) to [sctp_sack_info](2) is invalid.
+Conversion from [sctp_getaddresses](1) to [sctp_sack_info](2) is invalid.",CWE-843,MEDIUM
+d868bea230f1d9e6:1,usrsctplib/netinet/sctp_usrreq.c,2645,3,-1,33,cpp/type-confusion,Type confusion,"Conversion from [sctp_getaddresses](1) to [sctp_sockstat](2) is invalid.
+Conversion from [sctp_getaddresses](1) to [sctp_sockstat](2) is invalid.",CWE-843,MEDIUM
+1bdc5645bc7f9da2:1,usrsctplib/netinet/sctp_usrreq.c,2745,3,-1,37,cpp/type-confusion,Type confusion,"Conversion from [sctp_getaddresses](1) to [sctp_event_subscribe](2) is invalid.
+Conversion from [sctp_getaddresses](1) to [sctp_event_subscribe](2) is invalid.",CWE-843,MEDIUM
+46285a75b75e5d41:1,usrsctplib/netinet/sctp_usrreq.c,2976,3,-1,37,cpp/type-confusion,Type confusion,"Conversion from [sctp_getaddresses](1) to [sctp_paddrparams](2) is invalid.
+Conversion from [sctp_getaddresses](1) to [sctp_paddrparams](2) is invalid.",CWE-843,MEDIUM
+6f5af0f47f163e2:1,usrsctplib/netinet/sctp_usrreq.c,3192,3,-1,37,cpp/type-confusion,Type confusion,"Conversion from [sctp_getaddresses](1) to [sctp_paddrinfo](2) is invalid.
+Conversion from [sctp_getaddresses](1) to [sctp_paddrinfo](2) is invalid.",CWE-843,MEDIUM
+7c713b439d887184:1,usrsctplib/netinet/sctp_usrreq.c,3277,3,-1,35,cpp/type-confusion,Type confusion,"Conversion from [sctp_getaddresses](1) to [sctp_pcbinfo](2) is invalid.
+Conversion from [sctp_getaddresses](1) to [sctp_pcbinfo](2) is invalid.",CWE-843,MEDIUM
+437114f3738de7e1:1,usrsctplib/netinet/sctp_usrreq.c,3287,3,-1,36,cpp/type-confusion,Type confusion,"Conversion from [sctp_getaddresses](1) to [sctp_status](2) is invalid.
+Conversion from [sctp_getaddresses](1) to [sctp_status](2) is invalid.",CWE-843,MEDIUM
+d502e4d2d316673:1,usrsctplib/netinet/sctp_usrreq.c,3377,3,-1,35,cpp/type-confusion,Type confusion,"Conversion from [sctp_getaddresses](1) to [sctp_rtoinfo](2) is invalid.
+Conversion from [sctp_getaddresses](1) to [sctp_rtoinfo](2) is invalid.",CWE-843,MEDIUM
+b0ce4c444128674a:1,usrsctplib/netinet/sctp_usrreq.c,3408,3,-1,36,cpp/type-confusion,Type confusion,"Conversion from [sctp_getaddresses](1) to [sctp_timeouts](2) is invalid.
+Conversion from [sctp_getaddresses](1) to [sctp_timeouts](2) is invalid.",CWE-843,MEDIUM
+ec0a686beba0f557:1,usrsctplib/netinet/sctp_usrreq.c,3431,3,-1,36,cpp/type-confusion,Type confusion,"Conversion from [sctp_getaddresses](1) to [sctp_assocparams](2) is invalid.
+Conversion from [sctp_getaddresses](1) to [sctp_assocparams](2) is invalid.",CWE-843,MEDIUM
+3e355c5e9a0ac3f7:1,usrsctplib/netinet/sctp_usrreq.c,3466,3,-1,37,cpp/type-confusion,Type confusion,"Conversion from [sctp_getaddresses](1) to [sctp_sndrcvinfo](2) is invalid.
+Conversion from [sctp_getaddresses](1) to [sctp_sndrcvinfo](2) is invalid.",CWE-843,MEDIUM
+a7bdf2e6e4b75e12:1,usrsctplib/netinet/sctp_usrreq.c,3493,3,-1,36,cpp/type-confusion,Type confusion,"Conversion from [sctp_getaddresses](1) to [sctp_initmsg](2) is invalid.
+Conversion from [sctp_getaddresses](1) to [sctp_initmsg](2) is invalid.",CWE-843,MEDIUM
+975f85a8a38c1b51:1,usrsctplib/netinet/sctp_usrreq.c,3508,3,-1,34,cpp/type-confusion,Type confusion,"Conversion from [sctp_getaddresses](1) to [sctp_setprim](2) is invalid.
+Conversion from [sctp_getaddresses](1) to [sctp_setprim](2) is invalid.",CWE-843,MEDIUM
+fa83db1ff0e6c9fe:1,usrsctplib/netinet/sctp_usrreq.c,3558,3,-1,36,cpp/type-confusion,Type confusion,"Conversion from [sctp_getaddresses](1) to [sctp_hmacalgo](2) is invalid.
+Conversion from [sctp_getaddresses](1) to [sctp_hmacalgo](2) is invalid.",CWE-843,MEDIUM
+ab1257199e249d9d:1,usrsctplib/netinet/sctp_usrreq.c,3621,3,-1,34,cpp/type-confusion,Type confusion,"Conversion from [sctp_getaddresses](1) to [sctp_authchunks](2) is invalid.
+Conversion from [sctp_getaddresses](1) to [sctp_authchunks](2) is invalid.",CWE-843,MEDIUM
+ab1257199e249d9d:2,usrsctplib/netinet/sctp_usrreq.c,3671,3,-1,34,cpp/type-confusion,Type confusion,"Conversion from [sctp_getaddresses](1) to [sctp_authchunks](2) is invalid.
+Conversion from [sctp_getaddresses](1) to [sctp_authchunks](2) is invalid.",CWE-843,MEDIUM
+d414cb239ea0119a:1,usrsctplib/netinet/sctp_usrreq.c,3714,3,-1,36,cpp/type-confusion,Type confusion,"Conversion from [sctp_getaddresses](1) to [sctp_event](2) is invalid.
+Conversion from [sctp_getaddresses](1) to [sctp_event](2) is invalid.",CWE-843,MEDIUM
+b37494ef2e38e5f:1,usrsctplib/netinet/sctp_usrreq.c,3834,3,-1,35,cpp/type-confusion,Type confusion,"Conversion from [sctp_getaddresses](1) to [sctp_sndinfo](2) is invalid.
+Conversion from [sctp_getaddresses](1) to [sctp_sndinfo](2) is invalid.",CWE-843,MEDIUM
+e1d43fd4a0284e92:1,usrsctplib/netinet/sctp_usrreq.c,3869,3,-1,35,cpp/type-confusion,Type confusion,"Conversion from [sctp_getaddresses](1) to [sctp_default_prinfo](2) is invalid.
+Conversion from [sctp_getaddresses](1) to [sctp_default_prinfo](2) is invalid.",CWE-843,MEDIUM
+8809f780175b21e7:1,usrsctplib/netinet/sctp_usrreq.c,3903,3,-1,36,cpp/type-confusion,Type confusion,"Conversion from [sctp_getaddresses](1) to [sctp_paddrthlds](2) is invalid.
+Conversion from [sctp_getaddresses](1) to [sctp_paddrthlds](2) is invalid.",CWE-843,MEDIUM
+e0127d061c3939f:1,usrsctplib/netinet/sctp_usrreq.c,4026,3,-1,37,cpp/type-confusion,Type confusion,"Conversion from [sctp_getaddresses](1) to [sctp_udpencaps](2) is invalid.
+Conversion from [sctp_getaddresses](1) to [sctp_udpencaps](2) is invalid.",CWE-843,MEDIUM
+2d03bc9ac6e6fd57:1,usrsctplib/netinet/sctp_usrreq.c,4354,3,-1,38,cpp/type-confusion,Type confusion,"Conversion from [sctp_getaddresses](1) to [sctp_prstatus](2) is invalid.
+Conversion from [sctp_getaddresses](1) to [sctp_prstatus](2) is invalid.",CWE-843,MEDIUM
+2d03bc9ac6e6fd57:2,usrsctplib/netinet/sctp_usrreq.c,4396,3,-1,38,cpp/type-confusion,Type confusion,"Conversion from [sctp_getaddresses](1) to [sctp_prstatus](2) is invalid.
+Conversion from [sctp_getaddresses](1) to [sctp_prstatus](2) is invalid.",CWE-843,MEDIUM
+a4d8498104b393bb:1,usrsctplib/netinet/sctp_asconf.c,1593,32,-1,34,cpp/suspicious-pointer-scaling,Suspicious pointer scaling,"This pointer might have type [sctp_asconf_paramhdr](1) (size 8), but this pointer arithmetic is done with type sctp_error_cause * (size 4).",CWE-468,MEDIUM

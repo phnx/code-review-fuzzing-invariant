@@ -1,0 +1,199 @@
+location_hash,location_file,location_start_line,location_start_column,location_end_line,location_end_column,warning_rule_id,warning_rule_name,warning_message,warning_weakness,warning_severity
+4f0bc9054055acbc:1,src/readstat.h,67,14,-1,30,cpp/irregular-enum-init,Irregular enum initialization,"In an enumerator list, the = construct should not be used to explicitly initialize members other than the first, unless all items are explicitly initialized.",,LOW
+dc1562e0a6e5a5c4:1,src/readstat.h,41,14,-1,32,cpp/irregular-enum-init,Irregular enum initialization,"In an enumerator list, the = construct should not be used to explicitly initialize members other than the first, unless all items are explicitly initialized.",,LOW
+d49d7fd93bd96b21:1,src/readstat.h,48,14,-1,34,cpp/irregular-enum-init,Irregular enum initialization,"In an enumerator list, the = construct should not be used to explicitly initialize members other than the first, unless all items are explicitly initialized.",,LOW
+9dab5eaad59129f2:1,src/CKHashTable.h,-1,-1,-1,-1,cpp/missing-header-guard,Missing header guard,This header file should contain a header guard to prevent multiple inclusion.,,LOW
+be17a95b914daa6f:1,src/bin/read_csv/read_module.h,-1,-1,-1,-1,cpp/missing-header-guard,Missing header guard,This header file should contain a header guard to prevent multiple inclusion.,,LOW
+8f9b64dea8d849e2:1,src/bin/read_csv/csv_metadata.h,-1,-1,-1,-1,cpp/missing-header-guard,Missing header guard,This header file should contain a header guard to prevent multiple inclusion.,,LOW
+8663ab6dcf4c4ac:1,src/bin/write/module.h,-1,-1,-1,-1,cpp/missing-header-guard,Missing header guard,This header file should contain a header guard to prevent multiple inclusion.,,LOW
+627d9d6a949f95d1:1,src/txt/readstat_schema.h,-1,-1,-1,-1,cpp/missing-header-guard,Missing header guard,This header file should contain a header guard to prevent multiple inclusion.,,LOW
+3853656bc904a3c2:1,src/readstat_iconv.h,-1,-1,-1,-1,cpp/missing-header-guard,Missing header guard,This header file should contain a header guard to prevent multiple inclusion.,,LOW
+1851bdfbc1f42b51:1,src/stata/readstat_dta.h,-1,-1,-1,-1,cpp/missing-header-guard,Missing header guard,This header file should contain a header guard to prevent multiple inclusion.,,LOW
+78787ef61c2fe4c2:1,src/bin/util/quote_and_escape.h,-1,-1,-1,-1,cpp/missing-header-guard,Missing header guard,This header file should contain a header guard to prevent multiple inclusion.,,LOW
+40f98a58075c1f1b:1,src/bin/write/module_util.h,-1,-1,-1,-1,cpp/missing-header-guard,Missing header guard,This header file should contain a header guard to prevent multiple inclusion.,,LOW
+56a5dad14aa98901:1,src/readstat_bits.h,-1,-1,-1,-1,cpp/missing-header-guard,Missing header guard,This header file should contain a header guard to prevent multiple inclusion.,,LOW
+ed9c942063b8f0df:1,src/readstat_convert.h,-1,-1,-1,-1,cpp/missing-header-guard,Missing header guard,This header file should contain a header guard to prevent multiple inclusion.,,LOW
+84313b77b3c02e48:1,src/readstat_io_unistd.h,-1,-1,-1,-1,cpp/missing-header-guard,Missing header guard,This header file should contain a header guard to prevent multiple inclusion.,,LOW
+8c6ec05c88393958:1,src/sas/ieee.h,-1,-1,-1,-1,cpp/missing-header-guard,Missing header guard,This header file should contain a header guard to prevent multiple inclusion.,,LOW
+aec0b36f7af5736b:1,src/readstat_writer.h,-1,-1,-1,-1,cpp/missing-header-guard,Missing header guard,This header file should contain a header guard to prevent multiple inclusion.,,LOW
+422cf4bd5e42eef5:1,src/sas/readstat_sas.h,-1,-1,-1,-1,cpp/missing-header-guard,Missing header guard,This header file should contain a header guard to prevent multiple inclusion.,,LOW
+724d9a21f5259a32:1,src/readstat_malloc.h,-1,-1,-1,-1,cpp/missing-header-guard,Missing header guard,This header file should contain a header guard to prevent multiple inclusion.,,LOW
+2cb658f43da49100:1,src/sas/readstat_sas_rle.h,-1,-1,-1,-1,cpp/missing-header-guard,Missing header guard,This header file should contain a header guard to prevent multiple inclusion.,,LOW
+69ef80e5e09c1bd5:1,src/sas/readstat_xport.h,-1,-1,-1,-1,cpp/missing-header-guard,Missing header guard,This header file should contain a header guard to prevent multiple inclusion.,,LOW
+c389bfd7df30d90e:1,src/spss/readstat_spss.h,-1,-1,-1,-1,cpp/missing-header-guard,Missing header guard,This header file should contain a header guard to prevent multiple inclusion.,,LOW
+f61a9f367bce89e6:1,src/spss/readstat_por.h,-1,-1,-1,-1,cpp/missing-header-guard,Missing header guard,This header file should contain a header guard to prevent multiple inclusion.,,LOW
+188914a65163b485:1,src/spss/readstat_por_parse.h,-1,-1,-1,-1,cpp/missing-header-guard,Missing header guard,This header file should contain a header guard to prevent multiple inclusion.,,LOW
+eec9b360c56aa411:1,src/spss/readstat_sav.h,-1,-1,-1,-1,cpp/missing-header-guard,Missing header guard,This header file should contain a header guard to prevent multiple inclusion.,,LOW
+7633297457dfcb99:1,src/spss/readstat_sav_compress.h,-1,-1,-1,-1,cpp/missing-header-guard,Missing header guard,This header file should contain a header guard to prevent multiple inclusion.,,LOW
+957a2915ec25473b:1,src/spss/readstat_sav_parse.h,-1,-1,-1,-1,cpp/missing-header-guard,Missing header guard,This header file should contain a header guard to prevent multiple inclusion.,,LOW
+3295f0711c810c43:1,src/spss/readstat_sav_parse_timestamp.h,-1,-1,-1,-1,cpp/missing-header-guard,Missing header guard,This header file should contain a header guard to prevent multiple inclusion.,,LOW
+eafcd26c4d81a118:1,src/spss/readstat_spss_parse.h,-1,-1,-1,-1,cpp/missing-header-guard,Missing header guard,This header file should contain a header guard to prevent multiple inclusion.,,LOW
+5584c842688fda0b:1,src/spss/readstat_zsav_compress.h,-1,-1,-1,-1,cpp/missing-header-guard,Missing header guard,This header file should contain a header guard to prevent multiple inclusion.,,LOW
+a4711bb932e31ed1:1,src/spss/readstat_zsav_write.h,-1,-1,-1,-1,cpp/missing-header-guard,Missing header guard,This header file should contain a header guard to prevent multiple inclusion.,,LOW
+856b496e10c1d47f:1,src/stata/readstat_dta_parse_timestamp.h,-1,-1,-1,-1,cpp/missing-header-guard,Missing header guard,This header file should contain a header guard to prevent multiple inclusion.,,LOW
+d0a6beb3c1b4a991:1,src/txt/commands_util.h,-1,-1,-1,-1,cpp/missing-header-guard,Missing header guard,This header file should contain a header guard to prevent multiple inclusion.,,LOW
+7f3a546f33399956:1,src/txt/readstat_copy.h,-1,-1,-1,-1,cpp/missing-header-guard,Missing header guard,This header file should contain a header guard to prevent multiple inclusion.,,LOW
+93e455969cafcd23:1,src/spss/readstat_sav_parse_timestamp.c,496,3,508,4,cpp/trivial-switch,No trivial switch statements,"This switch statement should either handle more cases, or be rewritten as an if statement.",,LOW
+ca7607d17ddd19a5:1,src/spss/readstat_sav_parse_timestamp.c,189,3,195,4,cpp/trivial-switch,No trivial switch statements,"This switch statement should either handle more cases, or be rewritten as an if statement.",,LOW
+7675cd0a19bf65fd:1,src/stata/readstat_dta_parse_timestamp.c,300,3,306,4,cpp/trivial-switch,No trivial switch statements,"This switch statement should either handle more cases, or be rewritten as an if statement.",,LOW
+8f77c615928fcb96:1,src/txt/readstat_sas_commands_read.c,3163,3,3169,4,cpp/trivial-switch,No trivial switch statements,"This switch statement should either handle more cases, or be rewritten as an if statement.",,LOW
+5e07ad0b822a9f4b:1,src/bin/read_csv/jsmn.c,103,13,-1,16,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+3cc37e7ae90b1e49:1,src/bin/read_csv/jsmn.c,116,12,-1,15,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+fb401c55c986825f:1,src/bin/read_csv/jsmn.c,124,14,-1,17,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+43d7f2184a3fde3c:1,src/bin/read_csv/jsmn.c,130,16,-1,19,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+d69393347234143d:1,src/bin/read_csv/jsmn.c,133,15,-1,18,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+b7390138123a0fb7:1,src/bin/read_csv/jsmn.c,135,14,-1,17,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+ccc641466dde27a8:1,src/bin/read_csv/jsmn.c,139,14,-1,17,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+12619429bc3f7438:1,src/bin/read_csv/jsmn.c,53,12,-1,15,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+268a4e6a357c360f:1,src/bin/read_csv/jsmn.c,163,3,287,4,cpp/long-switch,Long switch case,"Switch has at least one case that is too long: [93 (45 lines)](1).
+Switch has at least one case that is too long: [44 (32 lines)](2).",,LOW
+c11521e260d07f51:1,src/spss/readstat_sav_read.c,1221,9,1299,10,cpp/long-switch,Long switch case,Switch has at least one case that is too long: [7 (55 lines)](1).,,LOW
+ab37ad44d43dda13:1,src/spss/readstat_sav_read.c,1132,9,1187,10,cpp/long-switch,Long switch case,Switch has at least one case that is too long: [7 (31 lines)](1).,,LOW
+3c79ece747fbe420:1,src/readstat_malloc.c,27,13,-1,16,cpp/guarded-free,Guarded Free,unnecessary NULL check before call to [free](1),,LOW
+250d9b38e9c3456b:1,src/sas/readstat_sas7bcat_read.c,496,9,-1,13,cpp/guarded-free,Guarded Free,unnecessary NULL check before call to [free](1),,LOW
+c7a5094c205f3dd4:1,src/sas/readstat_sas7bcat_read.c,498,9,-1,15,cpp/guarded-free,Guarded Free,unnecessary NULL check before call to [free](1),,LOW
+f293d5d5cdcac8d5:1,src/sas/readstat_sas7bcat_read.c,502,9,-1,14,cpp/guarded-free,Guarded Free,unnecessary NULL check before call to [free](1),,LOW
+d86e122967973180:1,src/readstat_writer.c,223,9,-1,14,cpp/guarded-free,Guarded Free,unnecessary NULL check before call to [free](1),,LOW
+760b6610b9dc9e8c:1,src/readstat_writer.c,157,21,-1,24,cpp/guarded-free,Guarded Free,unnecessary NULL check before call to [free](1),,LOW
+9019b450bb7ef2f1:1,src/readstat_writer.c,68,26,-1,31,cpp/guarded-free,Guarded Free,unnecessary NULL check before call to [free](1),,LOW
+b8c09980656900f7:1,src/readstat_writer.c,70,26,-1,36,cpp/guarded-free,Guarded Free,unnecessary NULL check before call to [free](1),,LOW
+6522bab374a76044:1,src/sas/readstat_sas7bcat_read.c,132,9,-1,21,cpp/guarded-free,Guarded Free,unnecessary NULL check before call to [free](1),,LOW
+39c6a8d8befd720a:1,src/sas/readstat_sas7bcat_read.c,39,14,-1,28,cpp/guarded-free,Guarded Free,unnecessary NULL check before call to [free](1),,LOW
+f293d5d5cdcac8d5:1,src/sas/readstat_sas7bdat_read.c,1118,9,-1,14,cpp/guarded-free,Guarded Free,unnecessary NULL check before call to [free](1),,LOW
+696c531a5c9e3324:1,src/sas/readstat_sas7bdat_write.c,400,20,-1,24,cpp/guarded-free,Guarded Free,unnecessary NULL check before call to [free](1),,LOW
+355ad4f9c05be417:1,src/sas/readstat_xport_read.c,645,9,-1,12,cpp/guarded-free,Guarded Free,unnecessary NULL check before call to [free](1),,LOW
+ade1c5d95e16d5aa:1,src/sas/readstat_xport_read.c,647,9,-1,18,cpp/guarded-free,Guarded Free,unnecessary NULL check before call to [free](1),,LOW
+90f50b24e3c3f1c6:1,src/spss/readstat_por.c,77,14,-1,27,cpp/guarded-free,Guarded Free,unnecessary NULL check before call to [free](1),,LOW
+f077743340c3eeac:1,src/spss/readstat_por.c,82,33,-1,38,cpp/guarded-free,Guarded Free,unnecessary NULL check before call to [free](1),,LOW
+75dbd6d2d67c99e5:1,src/sas/readstat_sas7bdat_read.c,99,14,-1,22,cpp/guarded-free,Guarded Free,unnecessary NULL check before call to [free](1),,LOW
+d2183cd310d7dc19:1,src/sas/readstat_sas7bdat_read.c,102,14,-1,28,cpp/guarded-free,Guarded Free,unnecessary NULL check before call to [free](1),,LOW
+60229bfa48abfe5e:1,src/sas/readstat_sas7bdat_read.c,105,14,-1,18,cpp/guarded-free,Guarded Free,unnecessary NULL check before call to [free](1),,LOW
+21deb9ce3a93c6d0:1,src/sas/readstat_sas7bdat_read.c,108,14,-1,17,cpp/guarded-free,Guarded Free,unnecessary NULL check before call to [free](1),,LOW
+f8978e5ec1698369:1,src/bin/extract_metadata.c,286,34,-1,44,cpp/guarded-free,Guarded Free,unnecessary NULL check before call to [free](1),,LOW
+75aff562b359d42c:1,src/bin/extract_metadata.c,289,34,-1,39,cpp/guarded-free,Guarded Free,unnecessary NULL check before call to [free](1),,LOW
+b34307c47fe2435f:1,src/spss/readstat_sav.c,65,27,-1,32,cpp/guarded-free,Guarded Free,unnecessary NULL check before call to [free](1),,LOW
+f1846055352a7e69:1,src/spss/readstat_sav.c,80,14,-1,24,cpp/guarded-free,Guarded Free,unnecessary NULL check before call to [free](1),,LOW
+ab2e4037878c2afb:1,src/spss/readstat_sav.c,82,14,-1,25,cpp/guarded-free,Guarded Free,unnecessary NULL check before call to [free](1),,LOW
+68febf43987c4423:1,src/spss/readstat_sav.c,86,14,-1,37,cpp/guarded-free,Guarded Free,unnecessary NULL check before call to [free](1),,LOW
+b8d654a53a136c81:1,src/spss/readstat_sav_parse.c,1147,9,-1,14,cpp/guarded-free,Guarded Free,unnecessary NULL check before call to [free](1),,LOW
+ec62eb0e2c75a30e:1,src/spss/readstat_sav_parse.c,1149,9,-1,22,cpp/guarded-free,Guarded Free,unnecessary NULL check before call to [free](1),,LOW
+6128fb65247457b7:1,src/spss/readstat_sav_parse.c,1151,9,-1,18,cpp/guarded-free,Guarded Free,unnecessary NULL check before call to [free](1),,LOW
+841a314bf867e3eb:1,src/spss/readstat_sav_parse.c,843,9,-1,14,cpp/guarded-free,Guarded Free,unnecessary NULL check before call to [free](1),,LOW
+bf2cc0433e8223bb:1,src/spss/readstat_sav_parse.c,845,9,-1,22,cpp/guarded-free,Guarded Free,unnecessary NULL check before call to [free](1),,LOW
+d0c3847452ad31d:1,src/spss/readstat_por_write.c,193,14,-1,26,cpp/guarded-free,Guarded Free,unnecessary NULL check before call to [free](1),,LOW
+8192903a332b26e8:1,src/spss/readstat_por_write.c,73,9,-1,19,cpp/guarded-free,Guarded Free,unnecessary NULL check before call to [free](1),,LOW
+f201d2add9353bb9:1,src/spss/readstat_sav_read.c,1304,9,-1,17,cpp/guarded-free,Guarded Free,unnecessary NULL check before call to [free](1),,LOW
+389dd4d9a4938d4d:1,src/spss/readstat_sav_write.c,910,9,-1,21,cpp/guarded-free,Guarded Free,unnecessary NULL check before call to [free](1),,LOW
+e752eaa0909d1c1e:1,src/spss/readstat_zsav_read.c,178,9,-1,25,cpp/guarded-free,Guarded Free,unnecessary NULL check before call to [free](1),,LOW
+1a4ff1f99ca7f80d:1,src/spss/readstat_zsav_read.c,180,9,-1,25,cpp/guarded-free,Guarded Free,unnecessary NULL check before call to [free](1),,LOW
+715369867b00aed6:1,src/spss/readstat_zsav_read.c,182,9,-1,25,cpp/guarded-free,Guarded Free,unnecessary NULL check before call to [free](1),,LOW
+c6b9997075c8e0ad:1,src/spss/readstat_zsav_read.c,184,9,-1,27,cpp/guarded-free,Guarded Free,unnecessary NULL check before call to [free](1),,LOW
+37eced8a40028cae:1,src/spss/readstat_sav_read.c,1106,9,-1,21,cpp/guarded-free,Guarded Free,unnecessary NULL check before call to [free](1),,LOW
+d0ed2dd0020343d0:1,src/spss/readstat_sav_read.c,1108,9,-1,21,cpp/guarded-free,Guarded Free,unnecessary NULL check before call to [free](1),,LOW
+6e2ce491263eddc7:1,src/stata/readstat_dta.c,215,14,-1,21,cpp/guarded-free,Guarded Free,unnecessary NULL check before call to [free](1),,LOW
+7d1c3105cf87f0f1:1,src/stata/readstat_dta.c,217,14,-1,21,cpp/guarded-free,Guarded Free,unnecessary NULL check before call to [free](1),,LOW
+f65cfad806c15fb0:1,src/stata/readstat_dta.c,219,14,-1,21,cpp/guarded-free,Guarded Free,unnecessary NULL check before call to [free](1),,LOW
+a55924d9a9333dc0:1,src/stata/readstat_dta.c,221,14,-1,21,cpp/guarded-free,Guarded Free,unnecessary NULL check before call to [free](1),,LOW
+cb466877f536c287:1,src/stata/readstat_dta.c,223,14,-1,21,cpp/guarded-free,Guarded Free,unnecessary NULL check before call to [free](1),,LOW
+c4ba85d45fdf92ac:1,src/stata/readstat_dta.c,225,14,-1,29,cpp/guarded-free,Guarded Free,unnecessary NULL check before call to [free](1),,LOW
+ea6d2762226fc101:1,src/stata/readstat_dta.c,229,14,-1,24,cpp/guarded-free,Guarded Free,unnecessary NULL check before call to [free](1),,LOW
+a40eb08cf41c638f:1,src/spss/readstat_sav_read.c,856,9,-1,25,cpp/guarded-free,Guarded Free,unnecessary NULL check before call to [free](1),,LOW
+f885596e7c15d36b:1,src/spss/readstat_sav_read.c,794,9,-1,15,cpp/guarded-free,Guarded Free,unnecessary NULL check before call to [free](1),,LOW
+b053f8c3aae0f739:1,src/spss/readstat_sav_read.c,574,9,-1,13,cpp/guarded-free,Guarded Free,unnecessary NULL check before call to [free](1),,LOW
+3cc5f84997d608b2:1,src/spss/readstat_sav_read.c,579,25,-1,30,cpp/guarded-free,Guarded Free,unnecessary NULL check before call to [free](1),,LOW
+2542348a6cd693c3:1,src/spss/readstat_sav_read.c,369,13,-1,17,cpp/guarded-free,Guarded Free,unnecessary NULL check before call to [free](1),,LOW
+568fd65bd190b240:1,src/spss/readstat_sav_read.c,234,9,-1,18,cpp/guarded-free,Guarded Free,unnecessary NULL check before call to [free](1),,LOW
+78adce784433899c:1,src/stata/readstat_dta_read.c,1111,9,-1,21,cpp/guarded-free,Guarded Free,unnecessary NULL check before call to [free](1),,LOW
+d5a61efcb5628e64:1,src/stata/readstat_dta_read.c,1113,9,-1,20,cpp/guarded-free,Guarded Free,unnecessary NULL check before call to [free](1),,LOW
+52a79f7330dc3f02:1,src/stata/readstat_dta_write.c,804,9,-1,12,cpp/guarded-free,Guarded Free,unnecessary NULL check before call to [free](1),,LOW
+67e83e1e88e77f2a:1,src/stata/readstat_dta_write.c,806,9,-1,12,cpp/guarded-free,Guarded Free,unnecessary NULL check before call to [free](1),,LOW
+669b773fe5bf82cb:1,src/stata/readstat_dta_write.c,808,9,-1,12,cpp/guarded-free,Guarded Free,unnecessary NULL check before call to [free](1),,LOW
+feb3b2657ecb249:1,src/stata/readstat_dta_write.c,810,9,-1,16,cpp/guarded-free,Guarded Free,unnecessary NULL check before call to [free](1),,LOW
+dac06962f12956ac:1,src/stata/readstat_dta_write.c,671,9,-1,21,cpp/guarded-free,Guarded Free,unnecessary NULL check before call to [free](1),,LOW
+d63d71469eeaebb6:1,src/stata/readstat_dta_read.c,913,9,-1,26,cpp/guarded-free,Guarded Free,unnecessary NULL check before call to [free](1),,LOW
+f16a161c9d954fcf:1,src/stata/readstat_dta_read.c,915,9,-1,25,cpp/guarded-free,Guarded Free,unnecessary NULL check before call to [free](1),,LOW
+1535aabbc647e61e:1,src/stata/readstat_dta_read.c,680,9,-1,12,cpp/guarded-free,Guarded Free,unnecessary NULL check before call to [free](1),,LOW
+743d904a0f1a6ded:1,src/stata/readstat_dta_write.c,94,9,-1,19,cpp/guarded-free,Guarded Free,unnecessary NULL check before call to [free](1),,LOW
+258d04987a075798:1,src/txt/readstat_txt_read.c,239,9,-1,20,cpp/guarded-free,Guarded Free,unnecessary NULL check before call to [free](1),,LOW
+83a97ee1478bcf97:1,src/txt/readstat_txt_read.c,241,9,-1,18,cpp/guarded-free,Guarded Free,unnecessary NULL check before call to [free](1),,LOW
+dfbf040851ff1836:1,src/txt/readstat_txt_read.c,103,9,-1,21,cpp/guarded-free,Guarded Free,unnecessary NULL check before call to [free](1),,LOW
+b8d5d0f0ea439d1:1,src/stata/readstat_dta_read.c,287,9,-1,15,cpp/guarded-free,Guarded Free,unnecessary NULL check before call to [free](1),,LOW
+af3671d5d128cb58:1,src/stata/readstat_dta_read.c,172,9,-1,15,cpp/guarded-free,Guarded Free,unnecessary NULL check before call to [free](1),,LOW
+8b881cc95ca9fe67:1,src/bin/read_csv/mod_dta.c,288,53,289,10,cpp/empty-block,Empty branch of conditional,Empty block without comment.,,LOW
+42bde36627322dd1:1,src/bin/read_csv/mod_dta.c,154,55,155,10,cpp/empty-block,Empty branch of conditional,Empty block without comment.,,LOW
+42bde36627322dd1:1,src/bin/read_csv/mod_sav.c,60,55,61,10,cpp/empty-block,Empty branch of conditional,Empty block without comment.,,LOW
+68b972fac10de248:1,src/sas/readstat_xport_write.c,103,17,-1,22,cpp/declaration-hides-variable,Declaration hides variable,Variable width hides another variable of the same name (on [line 86](1)).,,LOW
+2513c07cf6e19896:1,src/sas/ieee.c,253,-1,-1,44,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+35fafac4b04d1ed:1,src/txt/readstat_stata_dictionary_read.c,489,-1,-1,24,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+9b304621d4512348:1,src/bin/readstat.c,381,58,-1,64,cpp/use-after-free,Potential use after free,Memory may have been previously freed by [call to free](1).,CWE-416,MEDIUM
+6c0bf0ace5223029:1,src/sas/readstat_sas7bdat_read.c,571,28,-1,36,cpp/use-after-free,Potential use after free,Memory may have been previously freed by [call to free](1).,CWE-416,MEDIUM
+6c0bf0ace5223029:1,src/sas/readstat_sas7bdat_read.c,571,44,-1,52,cpp/use-after-free,Potential use after free,Memory may have been previously freed by [call to free](1).,CWE-416,MEDIUM
+6c0bf0ace5223029:1,src/sas/readstat_sas7bdat_read.c,571,62,-1,70,cpp/use-after-free,Potential use after free,Memory may have been previously freed by [call to free](1).,CWE-416,MEDIUM
+620bd238c547bcf9:1,src/spss/readstat_por.c,162,31,-1,37,cpp/incorrectly-checked-scanf,Incorrect return-value check for a 'scanf'-like function,"The result of scanf is only checked against 0, but it can also return EOF.",CWE-253,MEDIUM
+9bc6e8ed4d3873ce:1,src/bin/read_csv/json_metadata.c,165,7,-1,14,cpp/equality-on-floats,Equality test on floating-point values,Equality checks on floating point values can yield unexpected results.,,LOW
+cc5bc3c5cdf2616:1,src/bin/read_csv/mod_dta.c,128,17,-1,25,cpp/equality-on-floats,Equality test on floating-point values,Equality checks on floating point values can yield unexpected results.,,LOW
+5c21a9821a04a2a5:1,src/bin/write/json/write_missing_values.c,118,17,-1,25,cpp/equality-on-floats,Equality test on floating-point values,Equality checks on floating point values can yield unexpected results.,,LOW
+89af4289fd826dee:1,src/bin/write/json/write_missing_values.c,82,21,-1,29,cpp/equality-on-floats,Equality test on floating-point values,Equality checks on floating point values can yield unexpected results.,,LOW
+1a19eae6611c01aa:1,src/bin/write/json/write_missing_values.c,88,21,-1,29,cpp/equality-on-floats,Equality test on floating-point values,Equality checks on floating point values can yield unexpected results.,,LOW
+3cebfd8614c85be0:1,src/bin/write/json/write_missing_values.c,31,17,-1,25,cpp/equality-on-floats,Equality test on floating-point values,Equality checks on floating point values can yield unexpected results.,,LOW
+32a49c47eb5ea925:1,src/bin/write/json/write_missing_values.c,39,24,-1,32,cpp/equality-on-floats,Equality test on floating-point values,Equality checks on floating point values can yield unexpected results.,,LOW
+45f6c5802b8b2ff7:1,src/bin/write/mod_readstat.c,194,17,-1,25,cpp/equality-on-floats,Equality test on floating-point values,Equality checks on floating point values can yield unexpected results.,,LOW
+7d5a0b2be9d9af1a:1,src/spss/readstat_por_write.c,411,20,-1,28,cpp/equality-on-floats,Equality test on floating-point values,Equality checks on floating point values can yield unexpected results.,,LOW
+a55e41910f9fe22d:1,src/spss/readstat_por_write.c,430,13,-1,21,cpp/equality-on-floats,Equality test on floating-point values,Equality checks on floating point values can yield unexpected results.,,LOW
+bc8293a3db4c2e7f:1,src/spss/readstat_por_parse.c,108,7,-1,14,cpp/constant-comparison,Comparison result is always the same,Comparison is always false because cs >= 1.,,MEDIUM
+acacd7b079700559:1,src/spss/readstat_sav_parse.c,1022,7,-1,14,cpp/constant-comparison,Comparison result is always the same,Comparison is always false because cs >= 1.,,MEDIUM
+a0d88336031021dd:1,src/spss/readstat_sav_parse.c,674,7,-1,14,cpp/constant-comparison,Comparison result is always the same,Comparison is always false because cs >= 1.,,MEDIUM
+eb9ea0fd0241c384:1,src/spss/readstat_sav_parse_timestamp.c,356,7,-1,14,cpp/constant-comparison,Comparison result is always the same,Comparison is always false because cs >= 1.,,MEDIUM
+3774e5078748a652:1,src/spss/readstat_sav_parse_timestamp.c,93,7,-1,14,cpp/constant-comparison,Comparison result is always the same,Comparison is always false because cs >= 1.,,MEDIUM
+c48e7648e8f00916:1,src/spss/readstat_spss_parse.c,290,7,-1,14,cpp/constant-comparison,Comparison result is always the same,Comparison is always false because cs >= 1.,,MEDIUM
+dba9d64087defb3a:1,src/stata/readstat_dta_parse_timestamp.c,151,7,-1,14,cpp/constant-comparison,Comparison result is always the same,Comparison is always false because cs >= 1.,,MEDIUM
+67fcc42b99417960:1,src/txt/readstat_sas_commands_read.c,2893,7,-1,14,cpp/constant-comparison,Comparison result is always the same,Comparison is always false because cs >= 1084.,,MEDIUM
+4d1b82fca1eaab3e:1,src/txt/readstat_spss_commands_read.c,1695,7,-1,14,cpp/constant-comparison,Comparison result is always the same,Comparison is always false because cs >= 611.,,MEDIUM
+dd0dfe3c1efae8c9:1,src/txt/readstat_stata_dictionary_read.c,522,7,-1,14,cpp/constant-comparison,Comparison result is always the same,Comparison is always false because cs >= 1.,,MEDIUM
+4ed6cdcbbf8be6ef:1,src/sas/readstat_sas7bdat_read.c,757,56,-1,76,cpp/integer-multiplication-cast-to-long,Multiplication result converted to larger type,Multiplication result may overflow 'int' before it is converted to 'unsigned long'.,"CWE-190,CWE-192,CWE-197,CWE-681",MEDIUM
+525377caf948669:1,src/sas/readstat_sas7bdat_read.c,665,33,-1,53,cpp/integer-multiplication-cast-to-long,Multiplication result converted to larger type,Multiplication result may overflow 'int' before it is converted to 'unsigned long'.,"CWE-190,CWE-192,CWE-197,CWE-681",MEDIUM
+cb8c773b2c50b44:1,src/sas/readstat_sas7bdat_read.c,686,98,-1,118,cpp/integer-multiplication-cast-to-long,Multiplication result converted to larger type,Multiplication result may overflow 'int' before it is converted to 'unsigned long'.,"CWE-190,CWE-192,CWE-197,CWE-681",MEDIUM
+3f8a7abcf41b3536:1,src/readstat_error.c,4,13,-1,35,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 117 lines.,,MEDIUM
+261337d3f00e7e1:1,src/stata/readstat_dta.c,29,18,-1,30,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 184 lines.,,MEDIUM
+dfe3398844fb0268:1,src/txt/readstat_stata_dictionary_read.c,457,20,-1,51,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 329 lines.,,MEDIUM
+f3fc123be31a7025:1,src/txt/readstat_sas_commands_read.c,2827,20,-1,47,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 384 lines.,,MEDIUM
+c1f58d1082c9fecd:1,src/txt/readstat_spss_commands_read.c,1623,20,-1,48,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 405 lines.,,MEDIUM
+f52829161f96fd8a:1,src/stata/readstat_dta_read.c,1119,18,-1,36,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 146 lines.,,MEDIUM
+499cfa22af5ad78f:1,src/spss/readstat_sav_read.c,1399,18,-1,36,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 110 lines.,,MEDIUM
+ea5b59e1ce736810:1,src/sas/readstat_sas7bdat_read.c,987,18,-1,41,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 136 lines.,,MEDIUM
+6619db71de285376:1,src/sas/readstat_sas7bcat_read.c,357,18,-1,41,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 150 lines.,,MEDIUM
+e8dec8a9175f7fd:1,src/sas/readstat_sas.c,106,18,-1,33,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 168 lines.,,MEDIUM
+a8841e8f4a1aaec1:1,src/sas/readstat_xport_write.c,77,25,-1,46,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 175 lines.,,MEDIUM
+46722f43c87c9f8d:1,src/spss/readstat_por_parse.c,74,9,-1,34,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 203 lines.,,MEDIUM
+6a1e63579b0e5a0b:1,src/spss/readstat_sav_parse.c,966,18,-1,51,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 193 lines.,,MEDIUM
+7f62cd93dba61b64:1,src/spss/readstat_sav_parse.c,621,18,-1,54,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 232 lines.,,MEDIUM
+a0348049e0cc74ba:1,src/spss/readstat_sav_parse_timestamp.c,331,18,-1,32,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 200 lines.,,MEDIUM
+578b9a531f8633b7:1,src/spss/readstat_sav_parse_timestamp.c,68,18,-1,32,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 150 lines.,,MEDIUM
+6b2ea452236d7f61:1,src/spss/readstat_zsav_read.c,31,18,-1,43,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 158 lines.,,MEDIUM
+bbc379216f9c2d91:1,src/spss/readstat_spss_parse.c,266,18,-1,35,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 450 lines.,,MEDIUM
+ebc330413b684d59:1,src/spss/readstat_sav_read.c,1195,25,-1,48,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 113 lines.,,MEDIUM
+b4c5752e5d6e0a44:1,src/spss/readstat_sav_read.c,453,25,-1,52,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 134 lines.,,MEDIUM
+364cf928b30cadf8:2,src/spss/readstat_sav_read.c,964,25,-1,59,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 148 lines.,,MEDIUM
+506176e26ce32455:1,src/stata/readstat_dta_parse_timestamp.c,127,18,-1,37,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 202 lines.,,MEDIUM
+10cb9d3be4b23a99:1,src/stata/readstat_dta_write.c,690,25,-1,46,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 125 lines.,,MEDIUM
+b80feb556c9308bd:1,src/stata/readstat_dta_read.c,807,25,-1,53,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 113 lines.,,MEDIUM
+7a508fcc61880c64:1,src/stata/readstat_dta_read.c,178,25,-1,50,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 114 lines.,,MEDIUM
+2ea4e5086e18e413:1,src/stata/readstat_dta_read.c,967,25,-1,48,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 151 lines.,,MEDIUM
+3613212f8f6b3a3f:1,src/bin/util/readstat_dta_days.c,18,5,-1,10,cpp/missing-check-scanf,Missing return-value check for a 'scanf'-like function,"This variable is read, but may not have been written. It should be guarded by a check that the [call to sscanf](1) returns at least 2.","CWE-252,CWE-253",MEDIUM
+3613212f8f6b3a3f:1,src/bin/util/readstat_sav_date.c,20,5,-1,10,cpp/missing-check-scanf,Missing return-value check for a 'scanf'-like function,"This variable is read, but may not have been written. It should be guarded by a check that the [call to sscanf](1) returns at least 2.","CWE-252,CWE-253",MEDIUM
+a5a6a9a17843742:1,src/sas/readstat_sas.c,255,9,-1,14,cpp/missing-check-scanf,Missing return-value check for a 'scanf'-like function,"This variable is read, but may not have been written. It should be guarded by a check that the [call to sscanf](1) returns at least 1.","CWE-252,CWE-253",MEDIUM
+a5a6a9a17843742:1,src/sas/readstat_sas.c,255,23,-1,28,cpp/missing-check-scanf,Missing return-value check for a 'scanf'-like function,"This variable is read, but may not have been written. It should be guarded by a check that the [call to sscanf](1) returns at least 2.","CWE-252,CWE-253",MEDIUM
+a5a6a9a17843742:1,src/sas/readstat_sas.c,255,37,-1,45,cpp/missing-check-scanf,Missing return-value check for a 'scanf'-like function,"This variable is read, but may not have been written. It should be guarded by a check that the [call to sscanf](1) returns at least 3.","CWE-252,CWE-253",MEDIUM
+8cea408082087e45:1,src/stata/readstat_dta_read.c,71,39,-1,52,cpp/missing-check-scanf,Missing return-value check for a 'scanf'-like function,"This variable is read, but may not have been written. It should be guarded by a check that the [call to sscanf](1) returns at least 1.","CWE-252,CWE-253",MEDIUM
+eea3cb8881e7499b:1,src/sas/readstat_xport_read.c,217,12,-1,19,cpp/leap-year/unchecked-after-arithmetic-year-modification,Year field changed using an arithmetic operation without checking for leap year,"Field [tm_year](1) on variable [ts](2) has been modified, but no appropriate check for LeapYear was found.",,MEDIUM
+5b6a0ee9afe6e1e0:1,src/spss/readstat_sav_read.c,1435,5,-1,29,cpp/stack-address-escape,Local variable address stored in non-local memory,A stack address which arrived via a [parameter](1) may be assigned to a non-local variable.,,MEDIUM
+6da2c3f964af483a:1,src/stata/readstat_dta_read.c,1177,5,-1,29,cpp/stack-address-escape,Local variable address stored in non-local memory,A stack address which arrived via a [parameter](1) may be assigned to a non-local variable.,,MEDIUM
+6a855d473ec8752f:1,src/bin/readstat.c,421,60,-1,69,cpp/potentially-dangerous-function,Use of potentially dangerous function,Call to 'localtime' is potentially dangerous.,CWE-676,MEDIUM
+ec63fcea5b0f6b1b:1,src/sas/readstat_xport_write.c,369,21,-1,30,cpp/potentially-dangerous-function,Use of potentially dangerous function,Call to 'localtime' is potentially dangerous.,CWE-676,MEDIUM
+e3418f5b389a7113:1,src/spss/readstat_por_write.c,233,28,-1,37,cpp/potentially-dangerous-function,Use of potentially dangerous function,Call to 'localtime' is potentially dangerous.,CWE-676,MEDIUM
+6b226ec053c436da:1,src/spss/readstat_sav_write.c,117,25,-1,34,cpp/potentially-dangerous-function,Use of potentially dangerous function,Call to 'localtime' is potentially dangerous.,CWE-676,MEDIUM
+f359325064e0233c:1,src/stata/readstat_dta_write.c,106,25,-1,34,cpp/potentially-dangerous-function,Use of potentially dangerous function,Call to 'localtime' is potentially dangerous.,CWE-676,MEDIUM
+6f6064e6310d63dd:1,src/bin/write/mod_csv.c,47,29,-1,34,cpp/world-writable-file-creation,File created without restricting permissions,"A file may be created here with mode 0666, which would make it world-writable.",CWE-732,MEDIUM
+ad9defd5421141c6:1,src/bin/extract_metadata.c,225,20,-1,25,cpp/world-writable-file-creation,File created without restricting permissions,"A file may be created here with mode 0666, which would make it world-writable.",CWE-732,MEDIUM
+541f584f7268c133:1,src/bin/extract_metadata.c,312,31,-1,38,cpp/path-injection,Uncontrolled data used in path expression,"This argument to a file access function is derived from [user input (a command-line argument)](1) and then passed to pass(output), which calls fopen(__filename).","CWE-022,CWE-023,CWE-036,CWE-073",MEDIUM
+e43b0dfc17fa4c3e:1,src/bin/extract_metadata.c,314,35,-1,42,cpp/path-injection,Uncontrolled data used in path expression,"This argument to a file access function is derived from [user input (a command-line argument)](1) and then passed to pass(output), which calls fopen(__filename).","CWE-022,CWE-023,CWE-036,CWE-073",MEDIUM

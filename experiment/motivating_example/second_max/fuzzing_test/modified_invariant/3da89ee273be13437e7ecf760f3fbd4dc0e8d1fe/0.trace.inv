@@ -1,0 +1,162 @@
+settings:INFO:2025-04-10 10:15:52.789287: /program/dig/src/dig.py /script/motivating_example/sample_set/second_max/fuzzing_test/modified_trace/3da89ee273be13437e7ecf760f3fbd4dc0e8d1fe/0.trace -log 3 --nofilter --nosimplify --seed 27
+alg:INFO:analyzing '/script/motivating_example/sample_set/second_max/fuzzing_test/modified_trace/3da89ee273be13437e7ecf760f3fbd4dc0e8d1fe/0.trace'
+alg:INFO:got 2 traces over 1 locs
+alg:INFO:check 175 invs using 2 traces (0.08s)
+dummy (157 invs):
+1. max_ - 1 == 0
+2. count - 2 == 0
+3. a*sec_ - sec_ == 0
+4. a <= 1
+5. -a <= 0
+6. max_ <= 1
+7. sec_ <= 0
+8. count <= 2
+9. -max_ <= -1
+10. -count <= -2
+11. a + sec_ <= 0
+12. a - max_ <= 0
+13. a + max_ <= 2
+14. -a + sec_ <= 0
+15. -a + max_ <= 1
+16. a + count <= 3
+17. a - count <= -1
+18. -a + count <= 2
+19. -a - max_ <= -1
+20. max_ + sec_ <= 1
+21. -a - count <= -2
+22. count + sec_ <= 2
+23. count - max_ <= 1
+24. count + max_ <= 3
+25. -max_ + sec_ <= -1
+26. -count + max_ <= -1
+27. -count - max_ <= -3
+28. -count + sec_ <= -2
+29. max(sec_, 0) - a <= 0
+30. max(a, 0) - max_ <= 0
+31. min(max_, 0) - a <= 0
+32. min(sec_, 0) - a <= 0
+33. sec_ - min(a, 0) <= 0
+34. a - max(max_, 0) <= 0
+35. sec_ - max(a, 0) <= 0
+36. min(count, 0) - a <= 0
+37. sec_ - min(max_, 0) <= 0
+38. max(a, sec_) - max_ <= 0
+39. sec_ - min(a, max_) <= 0
+40. a - max(max_, sec_) <= 0
+41. min(max_, sec_) - a <= 0
+42. a - min(count, max_) <= 0
+43. a - 1 - min(max_, 0) <= 0
+44. sec_ - min(count, 0) <= 0
+45. sec_ - min(a, count) <= 0
+46. max_ - 1 - min(a, 0) <= 0
+47. min(a, count) - max_ <= 0
+48. a - 1 - max(sec_, 0) <= 0
+49. max_ - 1 - max(a, 0) <= 0
+50. min(a, 0) - max_ - 1 <= 0
+51. min(count, sec_) - a <= 0
+52. max(a, 0) - count - 1 <= 0
+53. a - 1 - min(count, 0) <= 0
+54. a + 1 - max(count, 0) <= 0
+55. count - 2 - min(a, 0) <= 0
+56. min(a, 0) - count - 2 <= 0
+57. count - 2 - max(a, 0) <= 0
+58. min(max_, sec_, 0) - a <= 0
+59. sec_ - min(a, max_, 0) <= 0
+60. max(a, sec_, 0) - max_ <= 0
+61. a - max(max_, sec_, 0) <= 0
+62. min(count, sec_, 0) - a <= 0
+63. max(sec_, 0) - max_ - 1 <= 0
+64. max_ - 1 - max(a, sec_) <= 0
+65. min(a, sec_) - max_ - 1 <= 0
+66. sec_ + 1 - max(max_, 0) <= 0
+67. sec_ - min(a, count, 0) <= 0
+68. sec_ + 1 - max(a, max_) <= 0
+69. min(sec_, 0) - max_ - 1 <= 0
+70. max_ - 1 - max(sec_, 0) <= 0
+71. min(count, max_, 0) - a <= 0
+72. min(sec_, 0) - count - 2 <= 0
+73. max(a, max_) - count - 1 <= 0
+74. max_ - 1 - min(a, count) <= 0
+75. sec_ + 2 - max(a, count) <= 0
+76. a + 1 - max(count, max_) <= 0
+77. count - 2 - min(max_, 0) <= 0
+78. min(a, sec_) - count - 2 <= 0
+79. count - 2 - min(a, max_) <= 0
+80. a + 1 - max(count, sec_) <= 0
+81. max_ + 1 - max(count, 0) <= 0
+82. min(max_, 0) - count - 2 <= 0
+83. sec_ + 2 - max(count, 0) <= 0
+84. max_ + 1 - max(a, count) <= 0
+85. max(max_, 0) - count - 1 <= 0
+86. count - 1 - max(max_, 0) <= 0
+87. max(a, sec_) - count - 1 <= 0
+88. min(a, max_) - count - 1 <= 0
+89. max(sec_, 0) - count - 2 <= 0
+90. count - 1 - max(a, max_) <= 0
+91. min(count, 0) - max_ - 1 <= 0
+92. max_ - 1 - min(count, 0) <= 0
+93. count - 2 - max(a, sec_) <= 0
+94. count - 2 - max(sec_, 0) <= 0
+95. max_ - 1 - max(a, sec_, 0) <= 0
+96. sec_ - min(a, count, max_) <= 0
+97. sec_ + 1 - max(a, max_, 0) <= 0
+98. min(a, sec_, 0) - max_ - 1 <= 0
+99. sec_ - min(count, max_, 0) <= 0
+100. min(count, max_, sec_) - a <= 0
+101. count - 2 - min(a, max_, 0) <= 0
+102. max_ - 1 - min(a, count, 0) <= 0
+103. min(max_, sec_) - count - 2 <= 0
+104. min(a, max_, 0) - count - 2 <= 0
+105. min(a, count, 0) - max_ - 1 <= 0
+106. sec_ + 2 - max(count, max_) <= 0
+107. count - 1 - max(a, max_, 0) <= 0
+108. a + 1 - max(count, max_, 0) <= 0
+109. max(a, sec_, 0) - count - 1 <= 0
+110. max(max_, sec_) - count - 1 <= 0
+111. sec_ + 2 - max(a, count, 0) <= 0
+112. max_ + 1 - max(count, sec_) <= 0
+113. max(a, max_, 0) - count - 1 <= 0
+114. a + 1 - max(count, sec_, 0) <= 0
+115. sec_ + 1 - min(count, max_) <= 0
+116. max_ + 1 - max(a, count, 0) <= 0
+117. min(count, sec_) - max_ - 1 <= 0
+118. a - 1 - min(count, max_, 0) <= 0
+119. min(a, sec_, 0) - count - 2 <= 0
+120. count - 1 - max(max_, sec_) <= 0
+121. count - 2 - max(a, sec_, 0) <= 0
+122. sec_ - min(a, count, max_, 0) <= 0
+123. min(count, max_, sec_, 0) - a <= 0
+124. max(a, max_, sec_) - count - 1 <= 0
+125. count - 1 - max(max_, sec_, 0) <= 0
+126. min(a, count, sec_) - max_ - 1 <= 0
+127. sec_ + 2 - max(count, max_, 0) <= 0
+128. max_ + 1 - max(count, sec_, 0) <= 0
+129. max_ + 1 - max(a, count, sec_) <= 0
+130. min(max_, sec_, 0) - count - 2 <= 0
+131. sec_ + 2 - max(a, count, max_) <= 0
+132. a + 1 - max(count, max_, sec_) <= 0
+133. min(a, max_, sec_) - count - 2 <= 0
+134. count - 1 - max(a, max_, sec_) <= 0
+135. max(max_, sec_, 0) - count - 1 <= 0
+136. min(count, sec_, 0) - max_ - 1 <= 0
+137. sec_ + 2 - max(a, count, max_, 0) <= 0
+138. a + 1 - max(count, max_, sec_, 0) <= 0
+139. count - 1 - max(a, max_, sec_, 0) <= 0
+140. max_ + 1 - max(a, count, sec_, 0) <= 0
+141. max(a, max_, sec_, 0) - count - 1 <= 0
+142. min(a, count, sec_, 0) - max_ - 1 <= 0
+143. min(a, max_, sec_, 0) - count - 2 <= 0
+144. sec_ === 0 (mod 2147483648)
+145. -sec_ === 0 (mod 2147483648)
+146. a + sec_ === 0 (mod 2147483647)
+147. a - sec_ === 0 (mod 2147483649)
+148. -a + sec_ === 0 (mod 2147483649)
+149. -a - sec_ === 0 (mod 2147483647)
+150. max_ + sec_ === 1 (mod 2147483648)
+151. max_ - sec_ === 1 (mod 2147483648)
+152. count + sec_ === 2 (mod 2147483648)
+153. count - sec_ === 2 (mod 2147483648)
+154. -max_ + sec_ === 2147483647 (mod 2147483648)
+155. -max_ - sec_ === 2147483647 (mod 2147483648)
+156. -count + sec_ === 2147483646 (mod 2147483648)
+157. -count - sec_ === 2147483646 (mod 2147483648)

@@ -1,0 +1,84 @@
+location_hash,location_file,location_start_line,location_start_column,location_end_line,location_end_column,warning_rule_id,warning_rule_name,warning_message,warning_weakness,warning_severity
+eb009c8e3219f93c:1,src/der.h,-1,-1,-1,-1,cpp/missing-header-guard,Missing header guard,This header file should contain a header guard to prevent multiple inclusion.,,LOW
+24e320d40cb829b5:1,src/apprentice.c,2605,3,2610,4,cpp/trivial-switch,No trivial switch statements,"This switch statement should either handle more cases, or be rewritten as an if statement.",,LOW
+9c3618403b087a6b:1,src/apprentice.c,1728,3,1738,4,cpp/trivial-switch,No trivial switch statements,"This switch statement should either handle more cases, or be rewritten as an if statement.",,LOW
+3fcc8a678aba3976:1,src/compress.c,361,3,370,4,cpp/trivial-switch,No trivial switch statements,"This switch statement should either handle more cases, or be rewritten as an if statement.",,LOW
+bc3849fe7da0637d:1,src/readelf.c,1417,3,1430,4,cpp/trivial-switch,No trivial switch statements,"This switch statement should either handle more cases, or be rewritten as an if statement.",,LOW
+5c20230047668ae1:1,src/readelf.c,1025,2,1042,3,cpp/trivial-switch,No trivial switch statements,"This switch statement should either handle more cases, or be rewritten as an if statement.",,LOW
+8c20d2075225044f:1,src/softmagic.c,547,3,559,4,cpp/trivial-switch,No trivial switch statements,"This switch statement should either handle more cases, or be rewritten as an if statement.",,LOW
+ea7a77a4f94249c7:1,src/cdf.c,1102,4,-1,5,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+f50f14d7b847cbce:1,src/encoding.c,410,5,-1,6,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+72bd11f32f87ed09:1,src/apprentice.c,1313,13,-1,14,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+28e74e6b89f8daa3:1,src/funcs.c,96,10,-1,11,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+d9b8f4aa95e935ae:1,src/funcs.c,100,4,-1,5,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+725c679b171bb644:1,src/funcs.c,111,4,-1,5,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+c091988ea2a396ec:1,src/apprentice.c,1046,8,-1,16,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+709faa8bf8bc8eda:1,src/apprentice.c,1058,5,-1,13,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+57777063d67de4c7:1,src/apprentice.c,776,12,-1,13,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+8d0cb5195006dae4:1,src/apprentice.c,777,5,-1,6,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+a9b49959acd63cec:1,src/apprentice.c,789,5,-1,6,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+56bb2d3f9b20c050:1,src/apprentice.c,790,4,-1,5,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+4364d0be47b29201:1,src/apprentice.c,794,5,-1,6,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+91c7bf9e75a333d7:1,src/apprentice.c,796,5,-1,6,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+beff1c17f8737593:1,src/readelf.c,904,7,-1,8,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+82a40e510e76b000:1,src/softmagic.c,1370,6,-1,7,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+1bc50a4031637bf7:1,src/softmagic.c,1372,6,-1,7,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+883faaccab2b919c:1,src/softmagic.c,234,5,-1,13,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+6e9a02b3caca39fb:1,src/softmagic.c,320,17,-1,25,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+750a748ff5f14570:1,src/cdf.c,1043,3,1114,4,cpp/long-switch,Long switch case,Switch has at least one case that is too long: [31 (37 lines)](1).,,LOW
+2d2ef4e1b30dd171:1,src/apprentice.c,2443,2,2615,3,cpp/long-switch,Long switch case,Switch has at least one case that is too long: [1 (122 lines)](1).,,LOW
+27500d5d9b4c9d01:1,src/fsmagic.c,191,2,422,3,cpp/long-switch,Long switch case,"Switch has at least one case that is too long: [8192 (34 lines)](1).
+Switch has at least one case that is too long: [24576 (35 lines)](2).
+Switch has at least one case that is too long: [40960 (88 lines)](3).",,LOW
+26ad327d8ff73fc3:1,src/compress.c,290,3,337,4,cpp/long-switch,Long switch case,Switch has at least one case that is too long: [2 (36 lines)](1).,,LOW
+bc490fa23ae73503:1,src/apprentice.c,1206,3,1254,4,cpp/long-switch,Long switch case,Switch has at least one case that is too long: [33 (31 lines)](1).,,LOW
+3deb2baf523710f7:1,src/softmagic.c,2018,2,2270,3,cpp/long-switch,Long switch case,"Switch has at least one case that is too long: [20 (40 lines)](1).
+Switch has at least one case that is too long: [17 (61 lines)](2).",,LOW
+5f9c5047ca8450ce:1,src/readcdf.c,165,3,254,4,cpp/long-switch,Long switch case,Switch has at least one case that is too long: [31 (31 lines)](1).,,LOW
+bb37fee36a898b5:1,src/readelf.c,1434,3,1567,4,cpp/long-switch,Long switch case,"Switch has at least one case that is too long: [7 (40 lines)](1).
+Switch has at least one case that is too long: [1879048181 (88 lines)](2).",,LOW
+c92523e7aec803a2:1,src/softmagic.c,1770,2,1918,3,cpp/long-switch,Long switch case,"Switch has at least one case that is too long: [41 (40 lines)](1).
+Switch has at least one case that is too long: [46 (39 lines)](2).",,LOW
+3f07c3e1c821b23f:1,src/softmagic.c,1323,3,1417,4,cpp/long-switch,Long switch case,Switch has at least one case that is too long: [17 (50 lines)](1).,,LOW
+10904c8fd8604f1c:1,src/softmagic.c,625,4,836,3,cpp/long-switch,Long switch case,Switch has at least one case that is too long: [19 (43 lines)](1).,,LOW
+dca0f64f964c530c:1,src/fsmagic.c,196,22,197,4,cpp/empty-block,Empty branch of conditional,Empty block without comment.,,LOW
+873ffc688e165cdc:1,src/fsmagic.c,214,22,215,4,cpp/empty-block,Empty branch of conditional,Empty block without comment.,,LOW
+873f9429619d1a83:1,src/fsmagic.c,249,22,250,4,cpp/empty-block,Empty branch of conditional,Empty block without comment.,,LOW
+e1b6774dc7dceb80:1,src/fsmagic.c,278,22,279,4,cpp/empty-block,Empty branch of conditional,Empty block without comment.,,LOW
+9e0ddb9ba8e256d6:1,src/fsmagic.c,304,23,305,5,cpp/empty-block,Empty branch of conditional,Empty block without comment.,,LOW
+5e8ce80311f482ae:1,src/fsmagic.c,374,23,375,5,cpp/empty-block,Empty branch of conditional,Empty block without comment.,,LOW
+d6b797a527f3f2f0:1,src/fsmagic.c,387,22,388,4,cpp/empty-block,Empty branch of conditional,Empty block without comment.,,LOW
+395e741aad87f6b2:1,src/fsmagic.c,410,23,411,5,cpp/empty-block,Empty branch of conditional,Empty block without comment.,,LOW
+26199216c577da30:1,src/compress.c,896,-1,-1,73,cpp/fixme-comment,FIXME comment,"FIXME comment: if one of the fdp\[i\]\[j\] is 0 or 1, this can bomb spectacularly",CWE-546,LOW
+927aa34583eb8a24:1,src/file.h,455,2,456,61,cpp/fixme-comment,FIXME comment,FIXME comment: Make the string dynamically allocated so that e.g. \[...\],CWE-546,LOW
+9d4941a779a02ef0:1,src/compress.c,626,2,-1,39,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+3fea3f944f4d143b:1,src/is_json.c,244,13,-1,20,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+eeabc060255ae88b:1,src/softmagic.c,2071,14,-1,22,cpp/equality-on-floats,Equality test on floating-point values,Equality checks on floating point values can yield unexpected results.,,LOW
+77e3d79651dd39c8:1,src/softmagic.c,2075,14,-1,22,cpp/equality-on-floats,Equality test on floating-point values,Equality checks on floating point values can yield unexpected results.,,LOW
+bf45a0b1bdc55457:1,src/softmagic.c,2104,14,-1,22,cpp/equality-on-floats,Equality test on floating-point values,Equality checks on floating point values can yield unexpected results.,,LOW
+e651738fe082d11c:1,src/softmagic.c,2108,14,-1,22,cpp/equality-on-floats,Equality test on floating-point values,Equality checks on floating point values can yield unexpected results.,,LOW
+6912cd2d42157f1f:1,src/softmagic.c,1854,24,-1,44,cpp/non-constant-format,Non-constant format string,The format string argument to [file_printf](1) has a source which cannot be verified to originate from a string literal.,CWE-134,LOW
+fc3a13a1cfe37db2:1,src/encoding.c,75,-1,-1,14,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 105 lines.,,MEDIUM
+1cf05f02c093ea65:1,src/cdf.c,971,-1,-1,23,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 154 lines.,,MEDIUM
+b3fe133463e9ebea:1,src/apprentice.c,2684,-1,-1,9,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 114 lines.,,MEDIUM
+ce33fce1d9eaa383:1,src/fmtcheck.c,63,-1,-1,31,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 102 lines.,,MEDIUM
+c95933b60c8d80d6:1,src/print.c,50,-1,-1,11,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 171 lines.,,MEDIUM
+a44cfef669bfde83:1,src/readcdf.c,541,-1,-1,12,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 141 lines.,,MEDIUM
+3d06dd6662ab34a:1,src/softmagic.c,2009,-1,-1,11,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 358 lines.,,MEDIUM
+a3942d56a86641d9:1,src/readcdf.c,148,-1,-1,23,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 116 lines.,,MEDIUM
+8e566e114e659634:1,src/softmagic.c,1559,-1,-1,5,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 364 lines.,,MEDIUM
+fe05efab20c74d46:1,src/readelf.c,1006,-1,-1,13,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 105 lines.,,MEDIUM
+1213348f201d1eae:1,src/softmagic.c,841,-1,-1,8,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 144 lines.,,MEDIUM
+ac819ea46abcc6d5:1,src/softmagic.c,579,-1,-1,7,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 260 lines.,,MEDIUM
+e21af3a8e48e8014:1,src/cdf_time.c,121,15,-1,50,cpp/leap-year/adding-365-days-per-year,Arithmetic operation assumes 365 days per year,"An arithmetic operation [... + ...](1) that uses a constant value of 365 ends up modifying this date/time, without considering leap year scenarios.",,MEDIUM
+12842ee01c6706cf:1,src/cdf_time.c,125,15,-1,25,cpp/leap-year/adding-365-days-per-year,Arithmetic operation assumes 365 days per year,"An arithmetic operation [... += ...](1) that uses a constant value of 365 ends up modifying this date/time, without considering leap year scenarios.",,MEDIUM
+bc123bbe2a06b3a5:1,src/cdf.c,1074,16,-1,53,cpp/nested-loops-with-same-variable,Nested loops with same variable,Nested for statement uses loop variable [i](1) of enclosing [for statement](2).,,MEDIUM
+f2ce3128c123fee4:1,src/file.c,553,24,-1,46,cpp/path-injection,Uncontrolled data used in path expression,"This argument to a file access function is derived from [user input (a command-line argument)](1) and then passed to magic_file(inname), which calls file_or_fd(inname), which calls open(__file).","CWE-022,CWE-023,CWE-036,CWE-073",MEDIUM
+d96751166af6b8d6:1,src/cdf.c,120,9,-1,15,cpp/uncontrolled-allocation-size,Uncontrolled allocation size,"This allocation size is derived from [user input (buffer read by pread)](1) and could allocate arbitrary amounts of memory.
+This allocation size is derived from [user input (buffer read by pread)](1) and could allocate arbitrary amounts of memory.
+This allocation size is derived from [user input (buffer read by read)](2) and could allocate arbitrary amounts of memory.
+This allocation size is derived from [user input (buffer read by read)](2) and could allocate arbitrary amounts of memory.
+This allocation size is derived from [user input (buffer read by read)](3) and could allocate arbitrary amounts of memory.","CWE-190,CWE-789",HIGH
+e20df61f29caa41e:1,src/cdf.c,100,9,-1,15,cpp/uncontrolled-allocation-size,Uncontrolled allocation size,"This allocation size is derived from [user input (buffer read by pread)](1) and could allocate arbitrary amounts of memory.
+This allocation size is derived from [user input (buffer read by read)](2) and could allocate arbitrary amounts of memory.
+This allocation size is derived from [user input (buffer read by read)](3) and could allocate arbitrary amounts of memory.","CWE-190,CWE-789",HIGH

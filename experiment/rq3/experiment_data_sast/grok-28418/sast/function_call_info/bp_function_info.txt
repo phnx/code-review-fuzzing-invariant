@@ -1,0 +1,66 @@
+=====================
+src/lib/jp2/codestream/PacketIter.cpp
+=====================
+{
+    "0": {
+        "bp_line": 246,
+        "func_name": "pi_next_lrcp",
+        "func_start": 214,
+        "func_end": 256
+    },
+    "1": {
+        "bp_line": 287,
+        "func_name": "pi_next_rlcp",
+        "func_start": 258,
+        "func_end": 296
+    },
+    "2": {
+        "bp_line": 388,
+        "func_name": "pi_next_rpcl",
+        "func_start": 369,
+        "func_end": 398
+    },
+    "3": {
+        "bp_line": 433,
+        "func_name": "pi_next_pcrl",
+        "func_start": 400,
+        "func_end": 443
+    },
+    "4": {
+        "bp_line": 476,
+        "func_name": "pi_next_cprl",
+        "func_start": 445,
+        "func_end": 486
+    },
+    "5": {
+        "bp_line": 899,
+        "func_name": "* pi_create_decompress",
+        "func_start": 848,
+        "func_end": 970
+    },
+    "6": {
+        "bp_line": 1022,
+        "func_name": "* pi_create_compress",
+        "func_start": 972,
+        "func_end": 1105
+    },
+    "7": {
+        "bp_line": 1379,
+        "func_name": "pi_destroy",
+        "func_start": 1376,
+        "func_end": 1381
+    }
+}
+
+=====================
+src/lib/jp2/t2/T2Decompress.cpp
+=====================
+{
+    "8": {
+        "bp_line": 65,
+        "func_name": "T2Decompress::decompress_packets",
+        "func_start": 33,
+        "func_end": 171
+    }
+}
+

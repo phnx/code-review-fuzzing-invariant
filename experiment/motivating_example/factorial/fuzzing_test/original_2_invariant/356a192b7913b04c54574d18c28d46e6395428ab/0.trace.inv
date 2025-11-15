@@ -1,0 +1,14 @@
+settings:INFO:2025-04-10 06:42:37.563287: /program/dig/src/dig.py /script/motivating_example/sample_set/factorial/fuzzing_test/original_2_trace/356a192b7913b04c54574d18c28d46e6395428ab/0.trace -log 3 --nofilter --nosimplify --seed 27
+alg:INFO:analyzing '/script/motivating_example/sample_set/factorial/fuzzing_test/original_2_trace/356a192b7913b04c54574d18c28d46e6395428ab/0.trace'
+alg:INFO:got 49 traces over 1 locs
+infer.eqt:WARNING:NO EQTS RESULTS, reducing deg to 6
+infer.eqt:WARNING:NO EQTS RESULTS, reducing deg to 5
+infer.eqt:WARNING:NO EQTS RESULTS, reducing deg to 4
+infer.eqt:WARNING:NO EQTS RESULTS, reducing deg to 3
+infer.eqt:WARNING:NO EQTS RESULTS, reducing deg to 2
+infer.eqt:WARNING:NO EQTS RESULTS, reducing deg to 1
+infer.eqt:WARNING:NO EQTS RESULTS, reducing deg to 0
+alg:INFO:check 2 invs using 49 traces (0.07s)
+dummy (2 invs):
+1. -i <= -1
+2. min(result, 0) - i - 1 <= 0

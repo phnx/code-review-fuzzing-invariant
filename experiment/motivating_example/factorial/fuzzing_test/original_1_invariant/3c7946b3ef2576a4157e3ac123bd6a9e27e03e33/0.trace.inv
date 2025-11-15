@@ -1,0 +1,25 @@
+settings:INFO:2025-04-10 06:42:14.058505: /program/dig/src/dig.py /script/motivating_example/sample_set/factorial/fuzzing_test/original_1_trace/3c7946b3ef2576a4157e3ac123bd6a9e27e03e33/0.trace -log 3 --nofilter --nosimplify --seed 27
+alg:INFO:analyzing '/script/motivating_example/sample_set/factorial/fuzzing_test/original_1_trace/3c7946b3ef2576a4157e3ac123bd6a9e27e03e33/0.trace'
+alg:INFO:got 2 traces over 1 locs
+alg:INFO:check 20 invs using 2 traces (0.02s)
+dummy (20 invs):
+1. i - result == 0
+2. result**2 - 3*result + 2 == 0
+3. i <= 2
+4. -i <= -1
+5. result <= 2
+6. -result <= -1
+7. i + result <= 4
+8. i - result <= 0
+9. -i + result <= 0
+10. -i - result <= -2
+11. max(result, 0) - i <= 0
+12. result - max(i, 0) <= 0
+13. max(i, 0) - result <= 0
+14. i - max(result, 0) <= 0
+15. result - 2 - min(i, 0) <= 0
+16. min(result, 0) - i - 1 <= 0
+17. min(i, 0) - result - 1 <= 0
+18. i - 2 - min(result, 0) <= 0
+19. i + result === 0 (mod 2)
+20. -i - result === 0 (mod 2)

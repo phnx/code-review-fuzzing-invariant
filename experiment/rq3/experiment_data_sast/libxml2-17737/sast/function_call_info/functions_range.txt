@@ -1,0 +1,530 @@
+=====================
+xmlreader.c
+=====================
+{
+    "xmlFreeID": [
+        230,
+        244
+    ],
+    "xmlTextReaderRemoveID": [
+        255,
+        279
+    ],
+    "xmlTextReaderFreeProp": [
+        288,
+        320
+    ],
+    "xmlTextReaderFreePropList": [
+        329,
+        338
+    ],
+    "xmlTextReaderFreeNodeList": [
+        348,
+        433
+    ],
+    "xmlTextReaderFreeNode": [
+        443,
+        509
+    ],
+    "xmlTextReaderFreeIDTableEntry": [
+        511,
+        514
+    ],
+    "xmlTextReaderFreeIDTable": [
+        522,
+        525
+    ],
+    "xmlTextReaderFreeDoc": [
+        534,
+        575
+    ],
+    "xmlTextReaderDebug": [
+        583,
+        607
+    ],
+    "xmlTextReaderEntPush": [
+        619,
+        645
+    ],
+    "xmlTextReaderEntPop": [
+        655,
+        670
+    ],
+    "xmlTextReaderStartElement": [
+        680,
+        698
+    ],
+    "xmlTextReaderEndElement": [
+        707,
+        718
+    ],
+    "xmlTextReaderStartElementNs": [
+        735,
+        763
+    ],
+    "xmlTextReaderEndElementNs": [
+        774,
+        789
+    ],
+    "xmlTextReaderCharacters": [
+        800,
+        812
+    ],
+    "xmlTextReaderCDataBlock": [
+        822,
+        834
+    ],
+    "xmlTextReaderPushData": [
+        845,
+        955
+    ],
+    "xmlTextReaderValidatePush": [
+        964,
+        1015
+    ],
+    "xmlTextReaderValidateCData": [
+        1025,
+        1046
+    ],
+    "xmlTextReaderValidatePop": [
+        1054,
+        1095
+    ],
+    "xmlTextReaderValidateEntity": [
+        1105,
+        1191
+    ],
+    "xmlTextReaderGetSuccessor": [
+        1203,
+        1213
+    ],
+    "xmlTextReaderDoExpand": [
+        1226,
+        1248
+    ],
+    "*\nxmlTextReaderCollectSiblings": [
+        1260,
+        1295
+    ],
+    "xmlTextReaderRead": [
+        1307,
+        1635
+    ],
+    "xmlTextReaderReadState": [
+        1645,
+        1650
+    ],
+    "xmlTextReaderExpand": [
+        1662,
+        1673
+    ],
+    "xmlTextReaderNext": [
+        1685,
+        1707
+    ],
+    "*\nxmlTextReaderReadInnerXml": [
+        1720,
+        1755
+    ],
+    "*\nxmlTextReaderReadOuterXml": [
+        1769,
+        1801
+    ],
+    "*\nxmlTextReaderReadString": [
+        1814,
+        1840
+    ],
+    "xmlTextReaderReadBase64": [
+        1857,
+        1871
+    ],
+    "xmlTextReaderReadBinHex": [
+        1887,
+        1901
+    ],
+    "xmlTextReaderNextTree": [
+        1909,
+        1968
+    ],
+    "xmlTextReaderReadTree": [
+        1980,
+        2041
+    ],
+    "xmlTextReaderNextSibling": [
+        2054,
+        2076
+    ],
+    "xmlNewTextReader": [
+        2092,
+        2196
+    ],
+    "xmlNewTextReaderFilename": [
+        2206,
+        2228
+    ],
+    "xmlFreeTextReader": [
+        2236,
+        2311
+    ],
+    "xmlTextReaderClose": [
+        2327,
+        2347
+    ],
+    "*\nxmlTextReaderGetAttributeNo": [
+        2360,
+        2397
+    ],
+    "*\nxmlTextReaderGetAttribute": [
+        2409,
+        2467
+    ],
+    "*\nxmlTextReaderGetAttributeNs": [
+        2481,
+        2514
+    ],
+    "xmlTextReaderGetRemainder": [
+        2531,
+        2566
+    ],
+    "*\nxmlTextReaderLookupNamespace": [
+        2579,
+        2592
+    ],
+    "xmlTextReaderMoveToAttributeNo": [
+        2605,
+        2642
+    ],
+    "xmlTextReaderMoveToAttribute": [
+        2654,
+        2745
+    ],
+    "xmlTextReaderMoveToAttributeNs": [
+        2758,
+        2806
+    ],
+    "xmlTextReaderMoveToFirstAttribute": [
+        2817,
+        2835
+    ],
+    "xmlTextReaderMoveToNextAttribute": [
+        2846,
+        2874
+    ],
+    "xmlTextReaderMoveToElement": [
+        2885,
+        2898
+    ],
+    "xmlTextReaderReadAttributeValue": [
+        2910,
+        2942
+    ],
+    "*\nxmlTextReaderConstEncoding": [
+        2953,
+        2969
+    ],
+    "xmlTextReaderAttributeCount": [
+        2985,
+        3019
+    ],
+    "xmlTextReaderNodeType": [
+        3031,
+        3093
+    ],
+    "xmlTextReaderIsEmptyElement": [
+        3103,
+        3122
+    ],
+    "*\nxmlTextReaderLocalName": [
+        3133,
+        3153
+    ],
+    "*\nxmlTextReaderConstLocalName": [
+        3164,
+        3184
+    ],
+    "*\nxmlTextReaderName": [
+        3195,
+        3260
+    ],
+    "*\nxmlTextReaderConstName": [
+        3271,
+        3328
+    ],
+    "*\nxmlTextReaderPrefix": [
+        3339,
+        3360
+    ],
+    "*\nxmlTextReaderConstPrefix": [
+        3371,
+        3392
+    ],
+    "*\nxmlTextReaderNamespaceUri": [
+        3403,
+        3420
+    ],
+    "*\nxmlTextReaderConstNamespaceUri": [
+        3431,
+        3448
+    ],
+    "*\nxmlTextReaderBaseUri": [
+        3459,
+        3464
+    ],
+    "*\nxmlTextReaderConstBaseUri": [
+        3475,
+        3488
+    ],
+    "xmlTextReaderDepth": [
+        3498,
+        3512
+    ],
+    "xmlTextReaderHasAttributes": [
+        3522,
+        3539
+    ],
+    "xmlTextReaderHasValue": [
+        3549,
+        3573
+    ],
+    "*\nxmlTextReaderValue": [
+        3584,
+        3619
+    ],
+    "*\nxmlTextReaderConstValue": [
+        3630,
+        3688
+    ],
+    "xmlTextReaderIsDefault": [
+        3699,
+        3704
+    ],
+    "xmlTextReaderQuoteChar": [
+        3714,
+        3720
+    ],
+    "*\nxmlTextReaderXmlLang": [
+        3731,
+        3738
+    ],
+    "*\nxmlTextReaderConstXmlLang": [
+        3748,
+        3763
+    ],
+    "*\nxmlTextReaderConstString": [
+        3776,
+        3781
+    ],
+    "xmlTextReaderNormalization": [
+        3795,
+        3800
+    ],
+    "xmlTextReaderSetParserProp": [
+        3820,
+        3866
+    ],
+    "xmlTextReaderGetParserProp": [
+        3877,
+        3901
+    ],
+    "xmlTextReaderGetParserLineNumber": [
+        3912,
+        3920
+    ],
+    "xmlTextReaderGetParserColumnNumber": [
+        3930,
+        3938
+    ],
+    "xmlTextReaderCurrentNode": [
+        3950,
+        3958
+    ],
+    "xmlTextReaderPreserve": [
+        3970,
+        3997
+    ],
+    "xmlTextReaderPreservePattern": [
+        4012,
+        4049
+    ],
+    "xmlTextReaderCurrentDoc": [
+        4064,
+        4075
+    ],
+    "xmlTextReaderValidityErrorRelay": [
+        4092,
+        4113
+    ],
+    "xmlTextReaderValidityWarningRelay": [
+        4115,
+        4136
+    ],
+    "xmlTextReaderValidityStructuredRelay": [
+        4141,
+        4151
+    ],
+    "xmlTextReaderRelaxNGSetSchema": [
+        4166,
+        4213
+    ],
+    "xmlTextReaderLocator": [
+        4226,
+        4267
+    ],
+    "xmlTextReaderSetSchema": [
+        4283,
+        4354
+    ],
+    "xmlTextReaderRelaxNGValidateInternal": [
+        4370,
+        4457
+    ],
+    "xmlTextReaderSchemaValidateInternal": [
+        4473,
+        4577
+    ],
+    "xmlTextReaderSchemaValidateCtxt": [
+        4592,
+        4598
+    ],
+    "xmlTextReaderSchemaValidate": [
+        4612,
+        4616
+    ],
+    "xmlTextReaderRelaxNGValidateCtxt": [
+        4631,
+        4637
+    ],
+    "xmlTextReaderRelaxNGValidate": [
+        4651,
+        4655
+    ],
+    "xmlTextReaderIsNamespaceDecl": [
+        4670,
+        4686
+    ],
+    "*\nxmlTextReaderConstXmlVersion": [
+        4697,
+        4713
+    ],
+    "xmlTextReaderStandalone": [
+        4725,
+        4738
+    ],
+    "*\nxmlTextReaderBuildMessage": [
+        4747,
+        4781
+    ],
+    "xmlTextReaderLocatorLineNumber": [
+        4791,
+        4817
+    ],
+    "*\nxmlTextReaderLocatorBaseURI": [
+        4828,
+        4854
+    ],
+    "xmlTextReaderGenericError": [
+        4856,
+        4870
+    ],
+    "xmlTextReaderStructuredError": [
+        4872,
+        4882
+    ],
+    "xmlTextReaderError": [
+        4884,
+        4895
+    ],
+    "xmlTextReaderWarning": [
+        4897,
+        4907
+    ],
+    "xmlTextReaderValidityError": [
+        4909,
+        4927
+    ],
+    "xmlTextReaderValidityWarning": [
+        4929,
+        4947
+    ],
+    "xmlTextReaderSetErrorHandler": [
+        4959,
+        5014
+    ],
+    "xmlTextReaderSetStructuredErrorHandler": [
+        5026,
+        5080
+    ],
+    "xmlTextReaderIsValid": [
+        5090,
+        5104
+    ],
+    "xmlTextReaderGetErrorHandler": [
+        5114,
+        5122
+    ],
+    "xmlTextReaderSetup": [
+        5142,
+        5334
+    ],
+    "xmlTextReaderByteConsumed": [
+        5349,
+        5354
+    ],
+    "xmlReaderWalker": [
+        5365,
+        5392
+    ],
+    "xmlReaderForDoc": [
+        5406,
+        5418
+    ],
+    "xmlReaderForFile": [
+        5431,
+        5441
+    ],
+    "xmlReaderForMemory": [
+        5456,
+        5476
+    ],
+    "xmlReaderForFd": [
+        5492,
+        5513
+    ],
+    "xmlReaderForIO": [
+        5529,
+        5555
+    ],
+    "xmlReaderNewWalker": [
+        5567,
+        5599
+    ],
+    "xmlReaderNewDoc": [
+        5615,
+        5630
+    ],
+    "xmlReaderNewFile": [
+        5645,
+        5662
+    ],
+    "xmlReaderNewMemory": [
+        5679,
+        5696
+    ],
+    "xmlReaderNewFd": [
+        5714,
+        5730
+    ],
+    "xmlReaderNewIO": [
+        5749,
+        5769
+    ],
+    "xmlBase64Decode": [
+        5791,
+        5900
+    ],
+    "main": [
+        5906,
+        5976
+    ]
+}
+

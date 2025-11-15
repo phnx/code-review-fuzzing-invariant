@@ -1,0 +1,3 @@
+p->dicPos
+p->prop.dicSize
+p->dicBufSize

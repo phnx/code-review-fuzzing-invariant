@@ -1,0 +1,4 @@
+"libarchive/archive_read_support_format_rar.c","read_data_compressed( struct archive_read * a , const void ** buff , size_t * size , int64_t * offset , size_t looper)","1988-1990-1991-1992-1993-2179-2180-2182-2183-2185-2186-2187-2188-2189","203","1269","5","40"
+"libarchive/archive_read_support_format_rar.c","make_table_recurse( struct archive_read * a , struct huffman_code * code , int node , struct huffman_table_entry * table , int depth , int maxdepth)","2825-2826","44","277","6","7"
+"libarchive/archive_read_support_format_rar.c","expand( struct archive_read * a , int64_t * end)","2830-2831-2832-2873-2874-2876-2877-2879-2880-2881-2882-2884-2885-2887-2888-2906-2907-2908-2909-2910-2911-2912-2917-2918-2919-2920-2921-2922-2923","209","1607","2","42"
+"libarchive/archive_read_support_format_rar.c","run_filters( struct archive_read * a)","3326-3327-3328-3329-3330-3332-3333-3334-3335","59","423","1","14"

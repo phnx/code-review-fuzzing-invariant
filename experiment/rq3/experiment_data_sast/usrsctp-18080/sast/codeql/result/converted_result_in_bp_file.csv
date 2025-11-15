@@ -1,0 +1,7 @@
+location_hash,location_file,location_start_line,location_start_column,location_end_line,location_end_column,warning_in_target_file,warning_in_target_function,warning_in_target_code_block,warning_rule_id,warning_rule_name,warning_message,warning_weakness,warning_severity
+6eb177f8666fcd69:1,usrsctplib/netinet/sctp_asconf.c,1613,2,1627,3,True,False,False,cpp/trivial-switch,No trivial switch statements,"This switch statement should either handle more cases, or be rewritten as an if statement.",,LOW
+c5bb98f9de67dd60:1,usrsctplib/netinet/sctp_asconf.c,2967,3,3025,4,True,False,False,cpp/long-switch,Long switch case,Switch has at least one case that is too long: [6 (32 lines)](1).,,LOW
+865e60d1ac234e8:1,usrsctplib/netinet/sctp_asconf.c,2480,4,2550,5,True,False,False,cpp/long-switch,Long switch case,Switch has at least one case that is too long: [10 (35 lines)](1).,,LOW
+1bfd503b36efa8cd:1,usrsctplib/netinet/sctp_asconf.c,2149,3,2231,4,True,False,False,cpp/long-switch,Long switch case,"Switch has at least one case that is too long: [10 (35 lines)](1).
+Switch has at least one case that is too long: [2 (35 lines)](2).",,LOW
+a4d8498104b393bb:1,usrsctplib/netinet/sctp_asconf.c,1593,32,-1,34,True,False,False,cpp/suspicious-pointer-scaling,Suspicious pointer scaling,"This pointer might have type [sctp_asconf_paramhdr](1) (size 8), but this pointer arithmetic is done with type sctp_error_cause * (size 4).",CWE-468,MEDIUM

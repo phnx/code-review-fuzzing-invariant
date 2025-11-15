@@ -1,0 +1,70 @@
+settings:INFO:2025-04-10 10:21:02.651797: /program/dig/src/dig.py /script/motivating_example/sample_set/second_max/fuzzing_test/original_1_trace/c940d2e5265bd6987c09746a2e065156493c0493/0.trace -log 3 --nofilter --nosimplify --seed 27
+alg:INFO:analyzing '/script/motivating_example/sample_set/second_max/fuzzing_test/original_1_trace/c940d2e5265bd6987c09746a2e065156493c0493/0.trace'
+alg:INFO:got 2 traces over 1 locs
+alg:INFO:check 65 invs using 2 traces (0.05s)
+dummy (65 invs):
+1. count - 2 == 0
+2. count <= 2
+3. -count <= -2
+4. a - max_ <= 0
+5. -a + sec_ <= 0
+6. sec_ - min(a, 0) <= 0
+7. max(a, 0) - max_ <= 0
+8. min(sec_, 0) - a <= 0
+9. a - max(max_, 0) <= 0
+10. a - max(max_, sec_) <= 0
+11. sec_ - min(a, max_) <= 0
+12. min(max_, sec_) - a <= 0
+13. max(a, sec_) - max_ <= 0
+14. max(a, count) - max_ <= 0
+15. min(count, sec_) - a <= 0
+16. a - max(count, max_) <= 0
+17. sec_ - min(a, count) <= 0
+18. count - 2 - max(a, 0) <= 0
+19. min(a, 0) - count - 2 <= 0
+20. min(max_, sec_, 0) - a <= 0
+21. sec_ - min(a, max_, 0) <= 0
+22. max(a, sec_, 0) - max_ <= 0
+23. a - max(max_, sec_, 0) <= 0
+24. max(a, count, 0) - max_ <= 0
+25. min(count, sec_, 0) - a <= 0
+26. sec_ - min(a, count, 0) <= 0
+27. a - max(count, max_, 0) <= 0
+28. count - 2 - min(max_, 0) <= 0
+29. max(sec_, 0) - count - 2 <= 0
+30. min(max_, 0) - count - 2 <= 0
+31. count - 2 - max(sec_, 0) <= 0
+32. min(count, max_, sec_) - a <= 0
+33. a - max(count, max_, sec_) <= 0
+34. sec_ - min(a, count, max_) <= 0
+35. max(a, count, sec_) - max_ <= 0
+36. count - 2 - max(a, sec_, 0) <= 0
+37. min(a, max_, 0) - count - 2 <= 0
+38. max(a, count, sec_, 0) - max_ <= 0
+39. a - max(count, max_, sec_, 0) <= 0
+40. min(count, max_, sec_, 0) - a <= 0
+41. sec_ - min(a, count, max_, 0) <= 0
+42. -a === 238 (mod 940245015)
+43. a - max_ === 0 (mod 940245015)
+44. -sec_ === 238 (mod 2147483410)
+45. a - sec_ === 0 (mod 3087728425)
+46. -a + max_ === 0 (mod 940245015)
+47. a === 940244777 (mod 940245015)
+48. -a + sec_ === 0 (mod 3087728425)
+49. -a - max_ === 476 (mod 940245015)
+50. -a - count === 236 (mod 940245015)
+51. -a + count === 240 (mod 940245015)
+52. -a - sec_ === 476 (mod 1207238395)
+53. sec_ === 2147483172 (mod 2147483410)
+54. count - sec_ === 240 (mod 2147483410)
+55. -count - sec_ === 236 (mod 2147483410)
+56. a + max_ === 940244539 (mod 940245015)
+57. a + count === 940244779 (mod 940245015)
+58. a - count === 940244775 (mod 940245015)
+59. a + sec_ === 1207237919 (mod 1207238395)
+60. max_ + sec_ === 940244539 (mod 2147483410)
+61. max_ - sec_ === 940245015 (mod 2147483410)
+62. -max_ + sec_ === 1207238395 (mod 2147483410)
+63. count + sec_ === 2147483174 (mod 2147483410)
+64. -max_ - sec_ === 1207238871 (mod 2147483410)
+65. -count + sec_ === 2147483170 (mod 2147483410)

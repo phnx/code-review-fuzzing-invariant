@@ -1,0 +1,220 @@
+=====================
+src/sas/readstat_sas7bdat_read.c
+=====================
+{
+    "sas7bdat_ctx_free": [
+        "free",
+        "free",
+        "free",
+        "free",
+        "free",
+        "free",
+        "free",
+        "free",
+        "free",
+        "iconv_close",
+        "free"
+    ],
+    "sas7bdat_update_progress": [
+        "io->update"
+    ],
+    "sas7bdat_parse_column_text_subheader": [
+        "sas_read2",
+        "sas_subheader_remainder",
+        "readstat_realloc",
+        "readstat_realloc",
+        "readstat_malloc",
+        "memcpy",
+        "strncmp"
+    ],
+    "sas7bdat_realloc_col_info": [
+        "readstat_realloc"
+    ],
+    "sas7bdat_parse_column_size_subheader": [
+        "sas_read8",
+        "sas_read4",
+        "sas7bdat_realloc_col_info"
+    ],
+    "sas7bdat_parse_row_size_subheader": [
+        "sas_read8",
+        "sas_read8",
+        "sas_read8",
+        "sas_read4",
+        "sas_read4",
+        "sas_read4",
+        "readstat_realloc"
+    ],
+    "sas7bdat_parse_text_ref": [
+        "sas_read2",
+        "sas_read2",
+        "sas_read2"
+    ],
+    "sas7bdat_copy_text_ref": [
+        "readstat_convert"
+    ],
+    "sas7bdat_parse_column_name_subheader": [
+        "sas_read2",
+        "sas_subheader_remainder",
+        "sas7bdat_realloc_col_info",
+        "sas7bdat_parse_text_ref"
+    ],
+    "sas7bdat_parse_column_attributes_subheader": [
+        "sas_read2",
+        "sas_subheader_remainder",
+        "sas7bdat_realloc_col_info",
+        "sas_read8",
+        "sas_read4",
+        "sas_read4"
+    ],
+    "sas7bdat_parse_column_format_subheader": [
+        "sas7bdat_realloc_col_info",
+        "sas7bdat_parse_text_ref",
+        "sas7bdat_parse_text_ref"
+    ],
+    "sas7bdat_handle_data_value": [
+        "memset",
+        "readstat_convert",
+        "snprintf",
+        "ctx->handle.error",
+        "memcpy",
+        "isnan",
+        "sas_assign_tag",
+        "ctx->handle.value"
+    ],
+    "sas7bdat_parse_single_row": [
+        "readstat_realloc",
+        "sas7bdat_handle_data_value"
+    ],
+    "sas7bdat_parse_rows": [
+        "sas7bdat_parse_single_row"
+    ],
+    "sas7bdat_parse_subheader_rle": [
+        "sas_rle_decompress",
+        "snprintf",
+        "ctx->handle.error",
+        "sas7bdat_parse_single_row"
+    ],
+    "sas7bdat_parse_subheader": [
+        "sas7bdat_parse_row_size_subheader",
+        "sas7bdat_parse_column_size_subheader",
+        "sas7bdat_parse_column_text_subheader",
+        "sas7bdat_parse_column_name_subheader",
+        "sas7bdat_parse_column_attributes_subheader",
+        "sas7bdat_parse_column_format_subheader"
+    ],
+    "*sas7bdat_init_variable": [
+        "readstat_calloc",
+        "sas7bdat_copy_text_ref",
+        "sas7bdat_copy_text_ref",
+        "sas7bdat_copy_text_ref",
+        "free",
+        "snprintf",
+        "ctx->handle.error"
+    ],
+    "sas7bdat_submit_columns": [
+        "ctx->handle.metadata",
+        "readstat_calloc",
+        "sas7bdat_init_variable",
+        "ctx->handle.variable"
+    ],
+    "sas7bdat_submit_columns_if_needed": [
+        "sas7bdat_submit_columns"
+    ],
+    "sas7bdat_signature_is_recognized": [],
+    "sas7bdat_parse_page_pass1": [
+        "sas_read2",
+        "sas_read8",
+        "sas_read8",
+        "sas_read4",
+        "sas_read4",
+        "sas_read4",
+        "sas_read4",
+        "sas7bdat_parse_subheader"
+    ],
+    "sas7bdat_parse_page_pass2": [
+        "sas_read2",
+        "sas_read2",
+        "sas_read2",
+        "sas_read8",
+        "sas_read8",
+        "sas_read4",
+        "sas_read4",
+        "sas_read4",
+        "sas_read4",
+        "sas7bdat_signature_is_recognized",
+        "sas7bdat_submit_columns_if_needed",
+        "sas7bdat_parse_single_row",
+        "sas7bdat_parse_subheader",
+        "sas7bdat_submit_columns_if_needed",
+        "sas7bdat_parse_subheader_rle",
+        "sas7bdat_submit_columns_if_needed",
+        "sas7bdat_parse_rows"
+    ],
+    "sas7bdat_parse_meta_pages_pass1": [
+        "io->seek",
+        "snprintf",
+        "ctx->handle.error",
+        "io->read",
+        "sas_read2",
+        "io->read",
+        "sas7bdat_parse_page_pass1",
+        "io->seek",
+        "snprintf",
+        "ctx->handle.error"
+    ],
+    "sas7bdat_parse_amd_pages_pass1": [
+        "io->seek",
+        "snprintf",
+        "ctx->handle.error",
+        "io->read",
+        "sas_read2",
+        "io->read",
+        "sas7bdat_parse_page_pass1",
+        "io->seek",
+        "snprintf",
+        "ctx->handle.error"
+    ],
+    "sas7bdat_parse_all_pages_pass2": [
+        "sas7bdat_update_progress",
+        "io->read",
+        "sas7bdat_parse_page_pass2",
+        "io->seek",
+        "snprintf",
+        "ctx->handle.error"
+    ],
+    "readstat_parse_sas7bdat": [
+        "calloc",
+        "calloc",
+        "io->open",
+        "io->seek",
+        "snprintf",
+        "ctx->handle.error",
+        "io->seek",
+        "snprintf",
+        "ctx->handle.error",
+        "sas_read_header",
+        "machine_is_little_endian",
+        "readstat_malloc",
+        "strcmp",
+        "iconv_open",
+        "readstat_convert",
+        "sas7bdat_parse_meta_pages_pass1",
+        "sas7bdat_parse_amd_pages_pass1",
+        "io->seek",
+        "snprintf",
+        "ctx->handle.error",
+        "sas7bdat_parse_all_pages_pass2",
+        "sas7bdat_submit_columns_if_needed",
+        "snprintf",
+        "ctx->handle.error",
+        "sas7bdat_update_progress",
+        "io->close",
+        "snprintf",
+        "readstat_error_message",
+        "strerror",
+        "ctx->handle.error",
+        "sas7bdat_ctx_free",
+        "free"
+    ]
+}
+

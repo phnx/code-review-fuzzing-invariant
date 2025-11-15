@@ -1,0 +1,51 @@
+settings:INFO:2025-04-10 10:19:37.899802: /program/dig/src/dig.py /script/motivating_example/sample_set/second_max/fuzzing_test/original_1_trace/80a694438b6fd9d8318900f7f5e8f92434360e6f/0.trace -log 3 --nofilter --nosimplify --seed 27
+alg:INFO:analyzing '/script/motivating_example/sample_set/second_max/fuzzing_test/original_1_trace/80a694438b6fd9d8318900f7f5e8f92434360e6f/0.trace'
+alg:INFO:got 3 traces over 1 locs
+alg:INFO:check 46 invs using 3 traces (0.07s)
+dummy (46 invs):
+1. count - 3 == 0
+2. count <= 3
+3. -count <= -3
+4. a - max_ <= 0
+5. max(a, 0) - max_ <= 0
+6. a - max(max_, 0) <= 0
+7. a - max(max_, sec_) <= 0
+8. max(a, sec_) - max_ <= 0
+9. max(a, count) - max_ <= 0
+10. a - max(count, max_) <= 0
+11. max(a, sec_, 0) - max_ <= 0
+12. a - max(max_, sec_, 0) <= 0
+13. max(a, count, 0) - max_ <= 0
+14. a - max(count, max_, 0) <= 0
+15. max(a, count, sec_) - max_ <= 0
+16. a - max(count, max_, sec_) <= 0
+17. max(a, count, sec_, 0) - max_ <= 0
+18. a - max(count, max_, sec_, 0) <= 0
+19. a === 1 (mod 8)
+20. -a === 7 (mod 8)
+21. a + max_ === 2 (mod 8)
+22. a + sec_ === 4 (mod 11)
+23. a + count === 4 (mod 8)
+24. -a - max_ === 6 (mod 8)
+25. a - count === 6 (mod 8)
+26. -a + count === 2 (mod 8)
+27. -a - sec_ === 7 (mod 11)
+28. -a - count === 4 (mod 8)
+29. a - max_ === 0 (mod 4142365480)
+30. -a + max_ === 0 (mod 4142365480)
+31. sec_ === 690553353 (mod 2838037001)
+32. max_ === 690553353 (mod 1381136672)
+33. -max_ === 690583319 (mod 1381136672)
+34. -sec_ === 2147483648 (mod 2838037001)
+35. -max_ + sec_ === 75763657 (mod 1456900329)
+36. max_ - sec_ === 1381136672 (mod 1456900329)
+37. max_ + sec_ === 2762243378 (mod 4219173673)
+38. count - max_ === 690583322 (mod 1381136672)
+39. count + max_ === 690553356 (mod 1381136672)
+40. count + sec_ === 690553356 (mod 2838037001)
+41. -count + max_ === 690553350 (mod 1381136672)
+42. -max_ - sec_ === 1456930295 (mod 4219173673)
+43. -count - max_ === 690583316 (mod 1381136672)
+44. count - sec_ === 2147483651 (mod 2838037001)
+45. -count + sec_ === 690553350 (mod 2838037001)
+46. -count - sec_ === 2147483645 (mod 2838037001)

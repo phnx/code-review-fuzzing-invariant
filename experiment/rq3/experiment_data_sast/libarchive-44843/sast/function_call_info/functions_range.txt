@@ -1,0 +1,250 @@
+=====================
+libarchive/archive_read_support_format_rar.c
+=====================
+{
+    "rar_br_fillup": [
+        499,
+        592
+    ],
+    "rar_br_preparation": [
+        594,
+        611
+    ],
+    "rar_fls": [
+        614,
+        623
+    ],
+    "lzss_position": [
+        626,
+        630
+    ],
+    "lzss_mask": [
+        632,
+        636
+    ],
+    "lzss_size": [
+        638,
+        642
+    ],
+    "lzss_offset_for_position": [
+        644,
+        648
+    ],
+    "*\nlzss_pointer_for_position": [
+        650,
+        654
+    ],
+    "lzss_current_offset": [
+        656,
+        660
+    ],
+    "*\nlzss_current_pointer": [
+        662,
+        666
+    ],
+    "lzss_emit_literal": [
+        668,
+        673
+    ],
+    "lzss_emit_match": [
+        675,
+        706
+    ],
+    "ppmd_read": [
+        708,
+        725
+    ],
+    "archive_read_support_format_rar": [
+        727,
+        766
+    ],
+    "archive_read_support_format_rar_capabilities": [
+        768,
+        774
+    ],
+    "archive_read_format_rar_has_encrypted_entries": [
+        776,
+        786
+    ],
+    "archive_read_format_rar_bid": [
+        789,
+        828
+    ],
+    "skip_sfx": [
+        830,
+        874
+    ],
+    "archive_read_format_rar_options": [
+        876,
+        904
+    ],
+    "archive_read_format_rar_read_header": [
+        906,
+        1087
+    ],
+    "archive_read_format_rar_read_data": [
+        1089,
+        1141
+    ],
+    "archive_read_format_rar_read_data_skip": [
+        1143,
+        1178
+    ],
+    "archive_read_format_rar_seek_data": [
+        1180,
+        1332
+    ],
+    "archive_read_format_rar_cleanup": [
+        1334,
+        1351
+    ],
+    "read_header": [
+        1353,
+        1803
+    ],
+    "get_time": [
+        1805,
+        1817
+    ],
+    "read_exttime": [
+        1819,
+        1906
+    ],
+    "read_symlink_stored": [
+        1908,
+        1938
+    ],
+    "read_data_stored": [
+        1940,
+        1981
+    ],
+    "read_data_compressed": [
+        1983,
+        2221
+    ],
+    "parse_codes": [
+        2223,
+        2499
+    ],
+    "free_codes": [
+        2501,
+        2517
+    ],
+    "read_next_symbol": [
+        2520,
+        2590
+    ],
+    "create_code": [
+        2592,
+        2625
+    ],
+    "add_value": [
+        2627,
+        2734
+    ],
+    "new_node": [
+        2736,
+        2754
+    ],
+    "make_table": [
+        2756,
+        2769
+    ],
+    "make_table_recurse": [
+        2771,
+        2827
+    ],
+    "expand": [
+        2829,
+        3056
+    ],
+    "copy_from_lzss_window": [
+        3058,
+        3079
+    ],
+    "copy_from_lzss_window_to_unp": [
+        3081,
+        3129
+    ],
+    "*\nrar_read_ahead": [
+        3131,
+        3162
+    ],
+    "parse_filter": [
+        3164,
+        3300
+    ],
+    "*\ncreate_filter": [
+        3302,
+        3323
+    ],
+    "run_filters": [
+        3325,
+        3393
+    ],
+    "*\ncompile_program": [
+        3395,
+        3433
+    ],
+    "delete_filter": [
+        3435,
+        3445
+    ],
+    "clear_filters": [
+        3447,
+        3453
+    ],
+    "delete_program_code": [
+        3455,
+        3466
+    ],
+    "membr_next_rarvm_number": [
+        3468,
+        3486
+    ],
+    "membr_bits": [
+        3488,
+        3494
+    ],
+    "membr_fill": [
+        3496,
+        3510
+    ],
+    "read_filter": [
+        3512,
+        3560
+    ],
+    "execute_filter_delta": [
+        3562,
+        3586
+    ],
+    "execute_filter_e8": [
+        3588,
+        3616
+    ],
+    "execute_filter_rgb": [
+        3618,
+        3660
+    ],
+    "execute_filter_audio": [
+        3662,
+        3722
+    ],
+    "execute_filter": [
+        3725,
+        3741
+    ],
+    "rar_decode_byte": [
+        3743,
+        3753
+    ],
+    "vm_write_32": [
+        3755,
+        3759
+    ],
+    "vm_read_32": [
+        3761,
+        3765
+    ]
+}
+

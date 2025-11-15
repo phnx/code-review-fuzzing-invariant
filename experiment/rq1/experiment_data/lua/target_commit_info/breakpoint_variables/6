@@ -1,0 +1,10 @@
+cl
+trap
+ci
+cl->p
+vmcase
+cl->p->k
+base
+ci->u.l.savedpc
+ci->func
+k

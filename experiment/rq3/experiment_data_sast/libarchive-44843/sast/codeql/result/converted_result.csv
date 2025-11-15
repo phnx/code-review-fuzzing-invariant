@@ -1,0 +1,192 @@
+location_hash,location_file,location_start_line,location_start_column,location_end_line,location_end_column,warning_rule_id,warning_rule_name,warning_message,warning_weakness,warning_severity
+d76f7ad51241b853:1,libarchive/archive_read_support_filter_bzip2.c,348,3,356,4,cpp/trivial-switch,No trivial switch statements,"This switch statement should either handle more cases, or be rewritten as an if statement.",,LOW
+218c41df334a0ab6:1,libarchive/archive_read_support_filter_bzip2.c,308,4,316,5,cpp/trivial-switch,No trivial switch statements,"This switch statement should either handle more cases, or be rewritten as an if statement.",,LOW
+52c6de74ff46090f:1,libarchive/archive_read_support_filter_gzip.c,519,3,527,4,cpp/trivial-switch,No trivial switch statements,"This switch statement should either handle more cases, or be rewritten as an if statement.",,LOW
+1acd4c4aa6c41885:1,libarchive/archive_read_support_filter_gzip.c,401,2,409,3,cpp/trivial-switch,No trivial switch statements,"This switch statement should either handle more cases, or be rewritten as an if statement.",,LOW
+25253d60ddb6ee31:1,libarchive/archive_read_support_format_7zip.c,1429,4,1437,5,cpp/trivial-switch,No trivial switch statements,"This switch statement should either handle more cases, or be rewritten as an if statement.",,LOW
+68d20fbb358949f5:1,libarchive/archive_read_support_format_cab.c,1596,2,1605,3,cpp/trivial-switch,No trivial switch statements,"This switch statement should either handle more cases, or be rewritten as an if statement.",,LOW
+cfea47a77fe4b8ef:1,libarchive/archive_read_support_format_lha.c,1357,5,1366,6,cpp/trivial-switch,No trivial switch statements,"This switch statement should either handle more cases, or be rewritten as an if statement.",,LOW
+fdeb8a2dd50ee8b9:1,libarchive/archive_read_support_format_rar5.c,2061,2,2077,3,cpp/trivial-switch,No trivial switch statements,"This switch statement should either handle more cases, or be rewritten as an if statement.",,LOW
+a32f74b4f8aac2be:1,libarchive/archive_string_sprintf.c,146,4,161,5,cpp/trivial-switch,No trivial switch statements,"This switch statement should either handle more cases, or be rewritten as an if statement.",,LOW
+dc3aa2f2aee21e48:1,libarchive/archive_read_support_format_zip.c,3395,2,3439,3,cpp/trivial-switch,No trivial switch statements,"This switch statement should either handle more cases, or be rewritten as an if statement.",,LOW
+5c8b962c72ca8547:1,libarchive/archive_read_support_format_zip.c,2203,4,2212,5,cpp/trivial-switch,No trivial switch statements,"This switch statement should either handle more cases, or be rewritten as an if statement.",,LOW
+e332010eb0e78276:1,libarchive/archive_write_add_filter_bzip2.c,272,2,279,3,cpp/trivial-switch,No trivial switch statements,"This switch statement should either handle more cases, or be rewritten as an if statement.",,LOW
+e67b9227cbf4f439:1,libarchive/archive_write_add_filter_gzip.c,329,2,336,3,cpp/trivial-switch,No trivial switch statements,"This switch statement should either handle more cases, or be rewritten as an if statement.",,LOW
+5fe39eab87e30dd5:1,libarchive/archive_write_add_filter_xz.c,288,2,299,3,cpp/trivial-switch,No trivial switch statements,"This switch statement should either handle more cases, or be rewritten as an if statement.",,LOW
+a369e519a571fd9:1,libarchive/archive_read_support_format_xar.c,1641,4,1649,5,cpp/trivial-switch,No trivial switch statements,"This switch statement should either handle more cases, or be rewritten as an if statement.",,LOW
+72767d342115c378:1,libarchive_fe/passphrase.c,323,3,329,4,cpp/trivial-switch,No trivial switch statements,"This switch statement should either handle more cases, or be rewritten as an if statement.",,LOW
+3ca15d11963b650e:1,cpio/cpio.c,504,5,-1,6,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+cb6596990aba33f6:1,libarchive/archive_pathmatch.c,454,5,-1,6,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+9cf2aedcc88c9858:1,libarchive/archive_pathmatch.c,412,5,-1,6,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+b48b9e5117e9ff67:1,libarchive/archive_read_support_format_ar.c,563,5,-1,6,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+6eb9609aca76f032:1,libarchive/archive_read_support_format_mtree.c,2137,8,-1,9,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+2f15626eac9c78e:1,libarchive/archive_read_support_format_rar.c,3608,7,-1,8,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+f32b3969455582be:1,libarchive/archive_string_sprintf.c,116,3,-1,4,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+3060af705120a85b:1,libarchive/archive_string_sprintf.c,124,4,-1,5,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+5bafa627b35d099f:1,libarchive/archive_string_sprintf.c,188,4,-1,5,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+14a902d42694f713:1,tar/subst.c,260,7,-1,8,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+3c8731550c9af0f:1,tar/bsdtar.c,1063,5,-1,6,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+2bc292063a5000ee:1,libarchive/archive_entry_link_resolver.c,200,2,256,3,cpp/long-switch,Long switch case,Switch has at least one case that is too long: [3 (32 lines)](1).,,LOW
+730c9a6f6856fdcd:1,libarchive/archive_read.c,1642,2,1729,3,cpp/long-switch,Long switch case,"Switch has at least one case that is too long: [0 (36 lines)](1).
+Switch has at least one case that is too long: [2 (42 lines)](2).",,LOW
+9c78952c97a53912:1,libarchive/archive_read_support_filter_rpm.c,185,3,261,4,cpp/long-switch,Long switch case,Switch has at least one case that is too long: [ST_HEADER (33 lines)](1).,,LOW
+5b150be6637bf82e:1,libarchive/archive_read_support_filter_uu.c,523,3,659,4,cpp/long-switch,Long switch case,"Switch has at least one case that is too long: [1 (54 lines)](1).
+Switch has at least one case that is too long: [3 (44 lines)](2).",,LOW
+c785ebabf616530f:1,libarchive/archive_read_support_format_7zip.c,2883,2,2955,3,cpp/long-switch,Long switch case,"Switch has at least one case that is too long: [23 (34 lines)](1).
+Switch has at least one case that is too long: [1 (31 lines)](2).",,LOW
+ee27832716925521:1,libarchive/archive_read_support_format_cab.c,2767,3,2995,4,cpp/long-switch,Long switch case,"Switch has at least one case that is too long: [18 (60 lines)](1).
+Switch has at least one case that is too long: [19 (54 lines)](2).
+Switch has at least one case that is too long: [20 (56 lines)](3).
+Switch has at least one case that is too long: [22 (47 lines)](4).",,LOW
+b646740aec2ed6e4:1,libarchive/archive_read_support_format_7zip.c,2422,3,2574,4,cpp/long-switch,Long switch case,Switch has at least one case that is too long: [17 (59 lines)](1).,,LOW
+d3ca4496ea4015c5:1,libarchive/archive_read_support_format_cab.c,2423,3,2734,4,cpp/long-switch,Long switch case,"Switch has at least one case that is too long: [7 (53 lines)](1).
+Switch has at least one case that is too long: [8 (34 lines)](2).",,LOW
+b250504d61f2d0d1:1,libarchive/archive_read_support_format_7zip.c,1380,2,1548,3,cpp/long-switch,Long switch case,"Switch has at least one case that is too long: [262658 (32 lines)](1).
+Switch has at least one case that is too long: [197633 (68 lines)](2).",,LOW
+503837e6c4e56907:1,libarchive/archive_read_support_format_lha.c,2367,3,2528,4,cpp/long-switch,Long switch case,"Switch has at least one case that is too long: [9 (60 lines)](1).
+Switch has at least one case that is too long: [12 (56 lines)](2).",,LOW
+b78ecf01ad41b58b:1,libarchive/archive_read_support_format_lha.c,2124,3,2344,4,cpp/long-switch,Long switch case,"Switch has at least one case that is too long: [0 (41 lines)](1).
+Switch has at least one case that is too long: [7 (50 lines)](2).",,LOW
+be3125d19cd5a362:1,libarchive/archive_read_support_format_7zip.c,1034,2,1299,3,cpp/long-switch,Long switch case,"Switch has at least one case that is too long: [33 (129 lines)](1).
+Switch has at least one case that is too long: [262658 (40 lines)](2).
+Switch has at least one case that is too long: [197633 (42 lines)](3).",,LOW
+4dc98e679b192c04:1,libarchive/archive_read_support_format_iso9660.c,2117,3,2257,4,cpp/long-switch,Long switch case,Switch has at least one case that is too long: [80 (44 lines)](1).,,LOW
+7a6ceb82d0d57ae8:1,libarchive/archive_read_support_format_lha.c,1206,3,1435,4,cpp/long-switch,Long switch case,"Switch has at least one case that is too long: [69 (43 lines)](1).
+Switch has at least one case that is too long: [70 (31 lines)](2).",,LOW
+524fdda0bb9eda61:1,libarchive/archive_read_support_format_mtree.c,1626,2,1860,3,cpp/long-switch,Long switch case,Switch has at least one case that is too long: [116 (93 lines)](1).,,LOW
+c980f9349132ec2c:1,libarchive/archive_read_support_format_tar.c,1889,2,2133,3,cpp/long-switch,Long switch case,"Switch has at least one case that is too long: [71 (75 lines)](1).
+Switch has at least one case that is too long: [83 (53 lines)](2).",,LOW
+9668b15ca206632d:1,libarchive/archive_read_support_format_tar.c,1221,2,1362,3,cpp/long-switch,Long switch case,Switch has at least one case that is too long: [49 (64 lines)](1).,,LOW
+c265a277a5c4cd4:1,libarchive/archive_read_support_format_rar.c,961,5,1085,6,cpp/long-switch,Long switch case,"Switch has at least one case that is too long: [115 (44 lines)](1).
+Switch has at least one case that is too long: [123 (50 lines)](2).",,LOW
+a864f5d385aa67b5:1,libarchive/archive_read_support_format_zip.c,4063,3,4118,4,cpp/long-switch,Long switch case,Switch has at least one case that is too long: [8 (39 lines)](1).,,LOW
+9d56a0c9bf17d073:1,libarchive/archive_read_support_format_zip.c,546,3,917,4,cpp/long-switch,Long switch case,"Switch has at least one case that is too long: [1 (68 lines)](1).
+Switch has at least one case that is too long: [21589 (44 lines)](2).
+Switch has at least one case that is too long: [27768 (116 lines)](3).
+Switch has at least one case that is too long: [28789 (52 lines)](4).
+Switch has at least one case that is too long: [30837 (35 lines)](5).",,LOW
+1516b614819d4ef1:1,libarchive/archive_read_support_format_xar.c,1975,2,2237,3,cpp/long-switch,Long switch case,Switch has at least one case that is too long: [TOC_FILE (73 lines)](1).,,LOW
+53c99c88320cfa81:1,libarchive/archive_read_support_format_xar.c,1613,2,1712,3,cpp/long-switch,Long switch case,"Switch has at least one case that is too long: [BZIP2 (31 lines)](1).
+Switch has at least one case that is too long: [XZ (31 lines)](2).",,LOW
+1e95defcb123d6ff:1,libarchive/archive_read_support_format_xar.c,1457,2,1583,3,cpp/long-switch,Long switch case,"Switch has at least one case that is too long: [BZIP2 (43 lines)](1).
+Switch has at least one case that is too long: [LZMA (44 lines)](2).",,LOW
+2621cbd452308bcb:1,libarchive/archive_write_set_format_pax.c,642,3,721,4,cpp/long-switch,Long switch case,Switch has at least one case that is too long: [16384 (67 lines)](1).,,LOW
+d35f6c7ba2c1ab98:1,libarchive/archive_write_set_format_zip.c,1045,2,1133,3,cpp/long-switch,Long switch case,"Switch has at least one case that is too long: [COMPRESSION_STORE (41 lines)](1).
+Switch has at least one case that is too long: [COMPRESSION_DEFLATE (39 lines)](2).",,LOW
+6712362a2f811b26:1,libarchive/archive_write_set_format_iso9660.c,1257,2,1508,3,cpp/long-switch,Long switch case,"Switch has at least one case that is too long: [98 (86 lines)](1).
+Switch has at least one case that is too long: [99 (54 lines)](2).",,LOW
+1bae09ef0f37d7d4:1,libarchive/archive_read_support_format_iso9660.c,1446,8,-1,38,cpp/guarded-free,Guarded Free,unnecessary NULL check before call to [free](1),,LOW
+3d636276b8628909:1,libarchive/archive_read_support_format_iso9660.c,1462,8,-1,43,cpp/guarded-free,Guarded Free,unnecessary NULL check before call to [free](1),,LOW
+d4a9bd270ff1d77f:1,libarchive/archive_read_support_format_rar5.c,3365,14,-1,22,cpp/guarded-free,Guarded Free,unnecessary NULL check before call to [free](1),,LOW
+5ad833d927048008:1,libarchive/archive_read_support_format_mtree.c,1285,8,1307,52,cpp/complex-condition,Complex condition,Complex condition: too many logical operations in this expression.,,LOW
+60d735922d419aed:1,libarchive/archive_read_support_format_zip.c,3239,7,3244,38,cpp/complex-condition,Complex condition,Complex condition: too many logical operations in this expression.,,LOW
+fdcd41bc61373d6e:1,libarchive/archive_write_set_format_iso9660.c,3079,9,3084,42,cpp/complex-condition,Complex condition,Complex condition: too many logical operations in this expression.,,LOW
+63c0909cdfaf8044:1,libarchive/archive_write_set_format_iso9660.c,3105,9,3109,42,cpp/complex-condition,Complex condition,Complex condition: too many logical operations in this expression.,,LOW
+425b51a957bb3575:1,libarchive/archive_read_support_format_iso9660.c,687,2,-1,60,cpp/fixme-comment,FIXME comment,FIXME comment: do more validations according to joliet spec.,CWE-546,LOW
+5b36f03d85a9cc98:1,libarchive/archive_read_support_format_iso9660.c,189,-1,-1,60,cpp/fixme-comment,FIXME comment,FIXME comment: validate correctness of last SVD entry offset.,CWE-546,LOW
+d8220571de193e13:1,libarchive/archive_write_disk_posix.c,2959,5,2962,8,cpp/fixme-comment,FIXME comment,FIXME comment: not sure how important this is to \[...\],CWE-546,LOW
+c7e66162a7872f77:1,libarchive/archive.h,1077,-1,-1,76,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+9994471af52e3f42:1,libarchive/archive.h,1074,-1,-1,76,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+7c29a52eeacc2315:1,libarchive/archive.h,1071,-1,-1,77,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+7eea5372410dad7d:1,libarchive/archive.h,1068,-1,-1,78,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+14a549cbe5c70126:1,libarchive/archive.h,812,-1,-1,68,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+4dbef857a2b11a9a:1,libarchive/archive.h,212,-1,-1,33,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+baf4985ff347898e:1,libarchive/archive.h,210,-1,-1,45,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+301a840602af777d:1,libarchive/archive.h,208,-1,-1,40,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+5836afd2950bcfa8:2,libarchive/archive_blake2s_ref.c,133,3,-1,54,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+5836afd2950bcfa8:1,libarchive/archive_blake2s_ref.c,110,3,-1,54,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+7d048f0d778378fa:1,libarchive/archive_ppmd7.c,426,17,-1,41,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+10dc0d84641a11fb:1,libarchive/archive_ppmd7.c,337,45,-1,87,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+61fae16df8f26408:1,libarchive/archive_ppmd7.c,333,70,-1,92,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+7d048f0d778378fa:1,libarchive/archive_ppmd8.c,677,17,-1,41,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+10dc0d84641a11fb:1,libarchive/archive_ppmd8.c,366,45,-1,87,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+61fae16df8f26408:1,libarchive/archive_ppmd8.c,361,70,-1,92,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+8eebfb418379020d:1,libarchive/archive_read_disk_posix.c,2376,4,-1,22,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+c56da707a8cb80b:1,libarchive/archive_read_disk_posix.c,2375,4,-1,45,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+ca855035da162736:1,libarchive/archive_read_support_format_cpio.c,33,-1,-1,26,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+615fb1916a3b13d1:1,libarchive/archive_blake2.h,103,5,-1,32,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+72ad535ad16f2b12:1,libarchive/archive_read_support_format_iso9660.c,34,-1,-1,26,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+ca855035da162736:1,libarchive/archive_read_support_format_mtree.c,41,-1,-1,26,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+cb881f544151be84:1,libarchive/archive_read_support_format_rar5.c,58,-1,-1,18,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+32dbf653efe41e69:1,libarchive/archive_read_support_format_rar5.c,57,-1,-1,35,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+8b78df2340b3a8f0:1,libarchive/archive_read_support_format_rar5.c,56,-1,-1,36,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+bc997e69243b0664:1,libarchive/archive_read_support_format_tar.c,2106,3,-1,63,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+3169f8846b1824d7:1,libarchive/archive_read_support_format_rar.c,3400,3,-1,30,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+f0710b54dffd5484:1,libarchive/archive_read_support_format_rar.c,2718,2,-1,9,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+8451e7da94d9022b:1,libarchive/archive_read_support_format_rar.c,2670,5,2704,7,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+6e000276712c7913:1,libarchive/archive_read_support_format_rar.c,2632,3,-1,45,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+702145f3f8a567e4:1,libarchive/archive_read_support_format_rar.c,1461,5,-1,32,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+67ffdc0e1ec61fb7:1,libarchive/archive_read_support_format_tar.c,473,-1,481,3,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+92bf64e69ae91c3c:1,libarchive/archive_read_support_format_zip.c,3837,3,-1,51,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+7aa51e72b94d75cb:1,libarchive/archive_read_support_format_zip.c,3835,3,-1,24,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+cb0b254447b19abc:1,libarchive/archive_read_support_format_zip.c,2847,2,-1,60,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+b17ffd3a3d9568d1:1,libarchive/archive_string.c,647,3,-1,19,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+2d2ea83453371bd:1,libarchive/archive_string.c,624,-1,634,3,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+9709b24b30bdc92c:1,libarchive/archive_string.c,597,2,-1,29,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+1f765bba5352afd8:1,libarchive/archive_write_add_filter_lzop.c,29,-1,30,26,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+3bfd8e04458fdf9a:1,libarchive/archive_write_disk_posix.c,2963,5,2968,7,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+8e89ed2712d29c39:1,libarchive/archive_write_set_format_gnutar.c,696,2,-1,44,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+a664972477d98ef4:1,libarchive/archive_read_support_format_xar.c,86,-1,-1,32,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+a40979d60d5f19f4:1,libarchive/archive_read_support_format_xar.c,85,-1,-1,22,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+af6cce01bf558d9:1,libarchive/archive_write_set_format_ustar.c,628,2,-1,43,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+982fd85e13566629:1,libarchive/xxhash.c,100,-1,-1,43,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+68b975bd624a38b2:1,libarchive/archive_write_set_format_xar.c,98,-1,-1,32,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+7c0b2cc47e0b98d6:1,tar/read.c,366,4,-1,44,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+1013d3f1ad066414:1,libarchive/archive_write_set_format_iso9660.c,66,-1,-1,20,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+d2abbfa7e1b5e6ab:1,tar/subst.c,287,6,-1,26,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+bc3769a582a32e2:1,tar/bsdtar.c,859,4,-1,45,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+695624c6c8ec975c:1,libarchive/archive_read_support_format_mtree.c,1556,6,-1,30,cpp/constant-comparison,Comparison result is always the same,Comparison is always false because len <= 64.,,MEDIUM
+cabc0c007ba06706:1,libarchive/archive_read_support_format_tar.c,410,6,-1,13,cpp/constant-comparison,Comparison result is always the same,Comparison is always true because bid >= 50.,,MEDIUM
+a5200eb93a01e992:1,libarchive/archive_read_support_format_iso9660.c,2206,9,2213,5,cpp/empty-if,Futile conditional,If-statement with an empty then-branch and no else-branch.,,LOW
+80443b5a73b7475e:1,libarchive/archive_read_support_format_tar.c,2269,3,2271,4,cpp/empty-if,Futile conditional,If-statement with an empty then-branch and no else-branch.,,LOW
+2efdc920c649ecd:1,libarchive/archive_read_support_format_tar.c,2063,10,2065,4,cpp/empty-if,Futile conditional,If-statement with an empty then-branch and no else-branch.,,LOW
+63a5f09f6afe2ae2:1,libarchive/archive_write_set_format_zip.c,954,3,956,4,cpp/empty-if,Futile conditional,If-statement with an empty then-branch and no else-branch.,,LOW
+96c647a0a7b9199:1,libarchive/archive_write_disk_posix.c,3366,7,-1,13,cpp/toctou-race-condition,Time-of-check time-of-use filesystem race condition,"The [filename](1) being operated upon was previously [checked](2), but the underlying file may have been changed since then.
+The [filename](1) being operated upon was previously [checked](3), but the underlying file may have been changed since then.
+The [filename](1) being operated upon was previously [checked](4), but the underlying file may have been changed since then.",CWE-367,MEDIUM
+546f2223be6c0bb9:1,libarchive/archive_disk_acl_linux.c,110,-1,-1,14,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 101 lines.,,MEDIUM
+6185cb97a18b9113:1,libarchive/archive_ppmd8.c,1158,5,-1,23,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 110 lines.,,MEDIUM
+a278e26918ce15fa:1,libarchive/archive_ppmd7.c,1044,13,-1,31,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 109 lines.,,MEDIUM
+34bcb44f9a35f0c6:1,libarchive/archive_ppmd8.c,799,13,-1,24,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 168 lines.,,MEDIUM
+5e2e48b813977c81:1,libarchive/archive_ppmd7.c,862,12,-1,30,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 109 lines.,,MEDIUM
+5964efa2b46b6e5:1,libarchive/archive_ppmd7.c,454,13,-1,24,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 148 lines.,,MEDIUM
+ffc9a81c162e5bc:1,libarchive/archive_read_disk_entry_from_file.c,534,-1,-1,13,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 112 lines.,,MEDIUM
+4b7e402c0afef35a:1,libarchive/archive_read_support_filter_rpm.c,159,-1,-1,16,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 117 lines.,,MEDIUM
+93acba9773ad2171:1,libarchive/archive_read_support_format_rar.c,3165,-1,-1,13,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 136 lines.,,MEDIUM
+5e7dd1618c9a46dc:1,libarchive/archive_read_support_format_rar.c,2830,-1,-1,7,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 227 lines.,,MEDIUM
+ed7059e8761bcac2:1,libarchive/archive_read_support_format_xar.c,1961,-1,-1,10,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 279 lines.,,MEDIUM
+5a2ba2a8fb579fc4:1,libarchive/archive_read_support_format_xar.c,2242,-1,-1,8,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 331 lines.,,MEDIUM
+77a92f71fd2acc5d:1,libarchive/archive_read_support_format_xar.c,2668,-1,-1,9,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 232 lines.,,MEDIUM
+7db78adbabdf2dfb:1,libarchive/archive_write_set_format_zip.c,1008,-1,-1,23,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 134 lines.,,MEDIUM
+a5b5dab983bb61ef:1,libarchive/archive_write_set_format_xar.c,1037,-1,-1,18,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 114 lines.,,MEDIUM
+8b03ccfff8c2dddc:1,libarchive/archive_write_set_format_iso9660.c,4053,-1,-1,24,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 126 lines.,,MEDIUM
+5f5e6007b840aa28:1,libarchive/archive_write_set_format_7zip.c,1928,9,-1,15,cpp/suspicious-allocation-size,Not enough memory allocated for array of pointer type,Allocated memory (168 bytes) is not a multiple of the size of 'lzma_stream' (136 bytes).,"CWE-131,CWE-122",MEDIUM
+5f5e6007b840aa28:1,libarchive/archive_write_set_format_xar.c,2927,9,-1,15,cpp/suspicious-allocation-size,Not enough memory allocated for array of pointer type,Allocated memory (168 bytes) is not a multiple of the size of 'lzma_stream' (136 bytes).,"CWE-131,CWE-122",MEDIUM
+7661437c05d3cb28:1,tar/bsdtar.c,900,4,-1,10,cpp/unsafe-strcat,Potentially unsafe use of strcat,Always check the size of the source buffer when using strcat.,"CWE-676,CWE-120,CWE-251",MEDIUM
+5cd6f0835e1cab3:1,tar/bsdtar.c,908,3,-1,9,cpp/unsafe-strcat,Potentially unsafe use of strcat,Always check the size of the source buffer when using strcat.,"CWE-676,CWE-120,CWE-251",MEDIUM
+c566fa39fe596271:1,libarchive/archive_read_add_passphrase.c,120,2,-1,42,cpp/stack-address-escape,Local variable address stored in non-local memory,A stack address which arrived via a [parameter](1) may be assigned to a non-local variable.,,MEDIUM
+445596b6b408f417:1,libarchive/archive_read_extract2.c,121,3,-1,50,cpp/stack-address-escape,Local variable address stored in non-local memory,A stack address which arrived via a [parameter](1) may be assigned to a non-local variable.,,MEDIUM
+dbca5f0599fae6dd:1,libarchive/archive_read_disk_posix.c,1254,2,-1,40,cpp/stack-address-escape,Local variable address stored in non-local memory,A stack address which arrived via a [parameter](1) may be assigned to a non-local variable.,,MEDIUM
+fefa60df1f44b290:1,libarchive/archive_read_disk_posix.c,1239,2,-1,36,cpp/stack-address-escape,Local variable address stored in non-local memory,A stack address which arrived via a [parameter](1) may be assigned to a non-local variable.,,MEDIUM
+a0022945d9cb5fbf:1,libarchive/archive_read_support_format_zip.c,1702,2,-1,55,cpp/stack-address-escape,Local variable address stored in non-local memory,A stack address ([source](1)) may be assigned to a non-local variable.,,MEDIUM
+61780dd1f5afb506:1,libarchive/archive_write_set_format_7zip.c,1945,2,-1,36,cpp/stack-address-escape,Local variable address stored in non-local memory,A stack address ([source](1)) may be assigned to a non-local variable.,,MEDIUM
+4ebe81a0037371f8:1,libarchive/archive_write_set_format_7zip.c,569,2,-1,51,cpp/stack-address-escape,Local variable address stored in non-local memory,A stack address which arrived via a [parameter](1) may be assigned to a non-local variable.,,MEDIUM
+e4116e67ccc037:1,libarchive/archive_write_set_passphrase.c,68,2,-1,41,cpp/stack-address-escape,Local variable address stored in non-local memory,A stack address which arrived via a [parameter](1) may be assigned to a non-local variable.,,MEDIUM
+29ba836d79020955:1,libarchive/archive_write_set_format_xar.c,2944,2,-1,36,cpp/stack-address-escape,Local variable address stored in non-local memory,A stack address ([source](1)) may be assigned to a non-local variable.,,MEDIUM
+604f9d00ca505fb8:1,libarchive/archive_ppmd8.c,645,35,-1,72,cpp/incorrect-not-operator-usage,Incorrect 'not' operator usage,Usage of a logical not (!) expression as a bitwise operator.,CWE-480,MEDIUM
+bc2d584e71100dbc:1,libarchive/archive_read_disk_posix.c,2100,7,-1,13,cpp/inconsistent-null-check,Inconsistent nullness check,"The result of this call to calloc is not checked for null, but 97% of calls to calloc check for null.",CWE-476,HIGH
+fbfbefa25520b117:1,libarchive/archive_read_support_format_mtree.c,998,32,-1,59,cpp/inconsistent-null-check,Inconsistent nullness check,"The result of this call to __archive_rb_tree_find_node is not checked for null, but 92% of calls to __archive_rb_tree_find_node check for null.",CWE-476,HIGH
+823fa1f319cd8736:1,libarchive/archive_write.c,203,6,-1,12,cpp/inconsistent-null-check,Inconsistent nullness check,"The result of this call to calloc is not checked for null, but 97% of calls to calloc check for null.",CWE-476,HIGH
+71581842a80d2c5b:1,tar/write.c,275,15,-1,19,cpp/world-writable-file-creation,File created without restricting permissions,"A file may be created here with mode 0666, which would make it world-writable.",CWE-732,MEDIUM
+37d9772ff7c3de61:1,cpio/cpio.c,759,3,-1,9,cpp/unbounded-write,Unbounded write,This 'call to strcpy' with input from [a command-line argument](1) may overflow the destination.,"CWE-120,CWE-787,CWE-805",HIGH
+2c23e367d348bf79:1,cpio/cpio.c,760,3,-1,9,cpp/unbounded-write,Unbounded write,This 'call to strcat' with input from [string read by fread](1) may overflow the destination.,"CWE-120,CWE-787,CWE-805",HIGH
+a713033fa095efde:1,libarchive/archive_read_open_filename.c,130,3,-1,9,cpp/unbounded-write,Unbounded write,"This 'call to strcpy' with input from [an environment variable](1) may overflow the destination.
+This 'call to strcpy' with input from [a command-line argument](2) may overflow the destination.","CWE-120,CWE-787,CWE-805",HIGH
+4240d83cf386c7b2:1,tar/util.c,316,4,-1,11,cpp/unbounded-write,Unbounded write,This 'call to sprintf' with input from [string read by fread](1) may overflow the destination.,"CWE-120,CWE-787,CWE-805",HIGH
+18420bbb26218cbe:1,cpio/cpio.c,853,14,-1,21,cpp/path-injection,Uncontrolled data used in path expression,This argument to a file access function is derived from [user input (string read by fread)](1) and then passed to open(__file).,"CWE-022,CWE-023,CWE-036,CWE-073",MEDIUM
+753a43a5dbff5d17:2,libarchive/archive_read_disk_entry_from_file.c,996,14,-1,18,cpp/path-injection,Uncontrolled data used in path expression,This argument to a file access function is derived from [user input (string read by fread)](1) and then passed to open(__file).,"CWE-022,CWE-023,CWE-036,CWE-073",MEDIUM
+753a43a5dbff5d17:1,libarchive/archive_read_disk_entry_from_file.c,877,15,-1,19,cpp/path-injection,Uncontrolled data used in path expression,This argument to a file access function is derived from [user input (string read by fread)](1) and then passed to open(__file).,"CWE-022,CWE-023,CWE-036,CWE-073",MEDIUM
+cf9d428a2515f576:1,libarchive/archive_read_disk_entry_from_file.c,235,15,-1,19,cpp/path-injection,Uncontrolled data used in path expression,This argument to a file access function is derived from [user input (string read by fread)](1) and then passed to open(__file).,"CWE-022,CWE-023,CWE-036,CWE-073",MEDIUM
+e9c6aa7f150b5ad7:1,libarchive/archive_util.c,437,22,-1,23,cpp/path-injection,Uncontrolled data used in path expression,This argument to a file access function is derived from [user input (an environment variable)](1) and then passed to open(__file).,"CWE-022,CWE-023,CWE-036,CWE-073",MEDIUM
+982d78c1c1aeb544:1,tar/write.c,367,28,-1,36,cpp/path-injection,Uncontrolled data used in path expression,This argument to a file access function is derived from [user input (an environment variable)](1) and then passed to open(__file).,"CWE-022,CWE-023,CWE-036,CWE-073",MEDIUM
+71581842a80d2c5b:1,tar/write.c,275,28,-1,36,cpp/path-injection,Uncontrolled data used in path expression,This argument to a file access function is derived from [user input (an environment variable)](1) and then passed to open(__file).,"CWE-022,CWE-023,CWE-036,CWE-073",MEDIUM

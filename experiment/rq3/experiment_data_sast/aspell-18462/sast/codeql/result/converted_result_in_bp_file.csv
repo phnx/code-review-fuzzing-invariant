@@ -1,0 +1,11 @@
+location_hash,location_file,location_start_line,location_start_column,location_end_line,location_end_column,warning_in_target_file,warning_in_target_function,warning_in_target_code_block,warning_rule_id,warning_rule_name,warning_message,warning_weakness,warning_severity
+41b369ea128b6428:1,common/config.cpp,632,6,-1,7,True,False,False,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+461fecee979ca58f:1,common/config.cpp,633,47,-1,48,True,False,False,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+f74ab841f61768a5:2,common/config.cpp,201,40,-1,41,True,False,False,cpp/declaration-hides-variable,Declaration hides variable,Variable i hides another variable of the same name (on [line 189](1)).,,LOW
+ccc0d1e13b0cdca8:1,common/config.cpp,1470,51,-1,70,True,False,False,cpp/fixme-comment,FIXME comment,FIXME comment: Implement,CWE-546,LOW
+9cb9ab6cb361d66:1,common/config.cpp,935,7,-1,71,True,False,False,cpp/fixme-comment,FIXME comment,FIXME comment: This is the correct thing to do but it causes problems,CWE-546,LOW
+c437f37ed9c8ab45:1,common/config.cpp,544,5,-1,38,True,False,False,cpp/fixme-comment,FIXME comment,FIXME comment: THIS IS NOT THREAD SAFE,CWE-546,LOW
+c466c27388d41c75:1,common/config.cpp,494,9,-1,41,True,False,False,cpp/fixme-comment,FIXME comment,FIXME comment: This isn't quite right,CWE-546,LOW
+9cb9ab6cb361d66:1,common/config.cpp,935,7,941,10,True,False,False,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+4e62f6d11fffff94:1,common/config.cpp,7,-1,8,70,True,False,False,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+bbff199fe55b1d9a:1,common/config.cpp,595,21,-1,27,True,False,False,cpp/inconsistent-null-check,Inconsistent nullness check,"The result of this call to lookup is not checked for null, but 83% of calls to lookup check for null.",CWE-476,HIGH

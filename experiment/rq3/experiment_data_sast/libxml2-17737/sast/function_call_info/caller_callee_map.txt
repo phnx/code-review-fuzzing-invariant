@@ -1,0 +1,790 @@
+=====================
+xmlreader.c
+=====================
+{
+    "xmlFreeID": [
+        "DICT_FREE",
+        "DICT_FREE",
+        "xmlFree"
+    ],
+    "xmlTextReaderRemoveID": [
+        "xmlNodeListGetString",
+        "xmlHashLookup",
+        "xmlFree"
+    ],
+    "xmlTextReaderFreeProp": [
+        "xmlDeregisterNodeDefaultValue",
+        "xmlIsID",
+        "xmlTextReaderRemoveID",
+        "xmlTextReaderFreeNodeList",
+        "DICT_FREE",
+        "xmlFree"
+    ],
+    "xmlTextReaderFreePropList": [
+        "xmlTextReaderFreeProp"
+    ],
+    "xmlTextReaderFreeNodeList": [
+        "xmlFreeNsList",
+        "xmlFreeDoc",
+        "xmlDeregisterNodeDefaultValue",
+        "xmlTextReaderFreePropList",
+        "DICT_FREE",
+        "xmlFreeNsList",
+        "DICT_FREE",
+        "xmlFree"
+    ],
+    "xmlTextReaderFreeNode": [
+        "xmlFreeDtd",
+        "xmlFreeNs",
+        "xmlTextReaderFreeProp",
+        "xmlTextReaderFreeNodeList",
+        "xmlDeregisterNodeDefaultValue",
+        "xmlTextReaderFreePropList",
+        "DICT_FREE",
+        "xmlFreeNsList",
+        "DICT_FREE",
+        "xmlFree"
+    ],
+    "xmlTextReaderFreeIDTableEntry": [
+        "xmlFreeID"
+    ],
+    "xmlTextReaderFreeIDTable": [
+        "xmlHashFree"
+    ],
+    "xmlTextReaderFreeDoc": [
+        "xmlDeregisterNodeDefaultValue",
+        "xmlTextReaderFreeIDTable",
+        "xmlFreeRefTable",
+        "xmlUnlinkNode",
+        "xmlFreeDtd",
+        "xmlUnlinkNode",
+        "xmlFreeDtd",
+        "xmlTextReaderFreeNodeList",
+        "xmlFree",
+        "xmlFree",
+        "xmlFree",
+        "xmlFreeNsList",
+        "xmlFree",
+        "xmlDictFree",
+        "xmlFree"
+    ],
+    "xmlTextReaderDebug": [
+        "fprintf",
+        "fprintf",
+        "fprintf",
+        "fprintf",
+        "fprintf",
+        "fprintf",
+        "xmlDebugDumpString",
+        "fprintf"
+    ],
+    "xmlTextReaderEntPush": [
+        "xmlMalloc",
+        "xmlGenericError",
+        "xmlRealloc",
+        "xmlGenericError"
+    ],
+    "xmlTextReaderEntPop": [],
+    "xmlTextReaderStartElement": [
+        "printf",
+        "reader->startElement"
+    ],
+    "xmlTextReaderEndElement": [
+        "printf",
+        "reader->endElement"
+    ],
+    "xmlTextReaderStartElementNs": [
+        "printf",
+        "reader->startElementNs"
+    ],
+    "xmlTextReaderEndElementNs": [
+        "printf",
+        "reader->endElementNs"
+    ],
+    "xmlTextReaderCharacters": [
+        "printf",
+        "reader->characters"
+    ],
+    "xmlTextReaderCDataBlock": [
+        "printf",
+        "reader->cdataBlock"
+    ],
+    "xmlTextReaderPushData": [
+        "xmlBufGetAllocationScheme",
+        "xmlBufUse",
+        "xmlParserInputBufferRead",
+        "xmlBufUse",
+        "xmlBufUse",
+        "xmlParseChunk",
+        "xmlBufContent",
+        "xmlBufUse",
+        "xmlParseChunk",
+        "xmlBufContent",
+        "xmlBufUse",
+        "xmlBufShrink",
+        "xmlBufUse",
+        "xmlParseChunk",
+        "xmlBufContent",
+        "xmlBufUse"
+    ],
+    "xmlTextReaderValidatePush": [
+        "xmlValidatePushElement",
+        "xmlStrdup",
+        "xmlStrcat",
+        "xmlStrcat",
+        "xmlValidatePushElement",
+        "xmlFree",
+        "xmlRelaxNGValidatePushElement",
+        "xmlTextReaderExpand",
+        "xmlRelaxNGValidateFullElement"
+    ],
+    "xmlTextReaderValidateCData": [
+        "xmlValidatePushCData",
+        "xmlRelaxNGValidatePushCData"
+    ],
+    "xmlTextReaderValidatePop": [
+        "xmlValidatePopElement",
+        "xmlStrdup",
+        "xmlStrcat",
+        "xmlStrcat",
+        "xmlValidatePopElement",
+        "xmlFree",
+        "xmlRelaxNGValidatePopElement"
+    ],
+    "xmlTextReaderValidateEntity": [
+        "ctxt->sax->getEntity",
+        "xmlTextReaderEntPush",
+        "xmlTextReaderValidatePush",
+        "xmlTextReaderValidateCData",
+        "xmlStrlen",
+        "xmlTextReaderValidatePop",
+        "xmlUnlinkNode",
+        "xmlTextReaderFreeNode",
+        "xmlTextReaderValidatePop",
+        "xmlTextReaderEntPop"
+    ],
+    "xmlTextReaderGetSuccessor": [],
+    "xmlTextReaderDoExpand": [
+        "xmlTextReaderGetSuccessor",
+        "xmlTextReaderPushData"
+    ],
+    "*\nxmlTextReaderCollectSiblings": [
+        "xmlBufferCreate",
+        "xmlBufferCat",
+        "xmlTextReaderCollectSiblings",
+        "xmlBufferCat",
+        "xmlFree",
+        "xmlBufferFree"
+    ],
+    "xmlTextReaderRead": [
+        "xmlTextReaderReadTree",
+        "fprintf",
+        "xmlTextReaderPushData",
+        "xmlTextReaderPushData",
+        "xmlTextReaderValidatePop",
+        "LIBXML_XINCLUDE_ENABLED",
+        "xmlUnlinkNode",
+        "xmlTextReaderFreeNode",
+        "xmlTextReaderValidatePop",
+        "LIBXML_DOCB_ENABLED",
+        "xmlParseChunk",
+        "LIBXML_XINCLUDE_ENABLED",
+        "xmlUnlinkNode",
+        "xmlTextReaderFreeNode",
+        "LIBXML_XINCLUDE_ENABLED",
+        "xmlUnlinkNode",
+        "xmlTextReaderFreeNode",
+        "xmlTextReaderExpand",
+        "xmlStrEqual",
+        "xmlStrEqual",
+        "xmlXIncludeNewContext",
+        "xmlXIncludeSetFlags",
+        "xmlTextReaderExpand",
+        "xmlXIncludeProcessNode",
+        "reader->ctxt->sax->getEntity",
+        "xmlTextReaderEntPush",
+        "xmlTextReaderValidateEntity",
+        "xmlTextReaderEntPop",
+        "xmlTextReaderValidatePush",
+        "xmlTextReaderValidateCData",
+        "xmlStrlen",
+        "xmlPatternMatch",
+        "xmlTextReaderPreserve",
+        "xmlSchemaIsValid"
+    ],
+    "xmlTextReaderReadState": [],
+    "xmlTextReaderExpand": [
+        "xmlTextReaderDoExpand"
+    ],
+    "xmlTextReaderNext": [
+        "xmlTextReaderNextTree",
+        "xmlTextReaderRead",
+        "xmlTextReaderRead",
+        "xmlTextReaderRead",
+        "xmlTextReaderRead",
+        "xmlTextReaderRead"
+    ],
+    "*\nxmlTextReaderReadInnerXml": [
+        "xmlTextReaderExpand",
+        "xmlBufferCreate",
+        "xmlDocCopyNode",
+        "xmlBufferCreate",
+        "xmlNodeDump",
+        "xmlFreeNode",
+        "xmlBufferFree",
+        "xmlBufferFree",
+        "xmlBufferCat",
+        "xmlFreeNode",
+        "xmlBufferFree",
+        "xmlBufferFree"
+    ],
+    "*\nxmlTextReaderReadOuterXml": [
+        "xmlTextReaderExpand",
+        "xmlCopyDtd",
+        "xmlDocCopyNode",
+        "xmlBufferCreate",
+        "xmlNodeDump",
+        "xmlFreeNode",
+        "xmlBufferFree",
+        "xmlFreeNode",
+        "xmlBufferFree"
+    ],
+    "*\nxmlTextReaderReadString": [
+        "xmlStrdup",
+        "xmlTextReaderDoExpand",
+        "xmlTextReaderCollectSiblings"
+    ],
+    "xmlTextReaderReadBase64": [],
+    "xmlTextReaderReadBinHex": [],
+    "xmlTextReaderNextTree": [
+        "xmlTextReaderRead",
+        "xmlTextReaderNextTree"
+    ],
+    "xmlTextReaderReadTree": [],
+    "xmlTextReaderNextSibling": [
+        "xmlTextReaderNextTree"
+    ],
+    "xmlNewTextReader": [
+        "xmlMalloc",
+        "xmlGenericError",
+        "memset",
+        "xmlBufCreateSize",
+        "xmlFree",
+        "xmlGenericError",
+        "xmlBufSetAllocationScheme",
+        "xmlMalloc",
+        "xmlBufFree",
+        "xmlFree",
+        "xmlGenericError",
+        "xmlSAXVersion",
+        "xmlBufUse",
+        "xmlParserInputBufferRead",
+        "xmlBufUse",
+        "xmlCreatePushParserCtxt",
+        "xmlBufContent",
+        "xmlCreatePushParserCtxt",
+        "xmlGenericError",
+        "xmlBufFree",
+        "xmlFree",
+        "xmlFree"
+    ],
+    "xmlNewTextReaderFilename": [
+        "xmlParserInputBufferCreateFilename",
+        "xmlNewTextReader",
+        "xmlFreeParserInputBuffer",
+        "xmlParserGetDirectory",
+        "xmlStrdup",
+        "xmlFree"
+    ],
+    "xmlFreeTextReader": [
+        "xmlRelaxNGFree",
+        "xmlRelaxNGFreeValidCtxt",
+        "xmlSchemaSAXUnplug",
+        "xmlSchemaFreeValidCtxt",
+        "xmlSchemaFree",
+        "xmlXIncludeFreeContext",
+        "xmlFreePattern",
+        "xmlFree",
+        "xmlFreeNode",
+        "xmlValidatePopElement",
+        "xmlFree",
+        "xmlTextReaderFreeDoc",
+        "xmlFreeParserCtxt",
+        "xmlFree",
+        "xmlFreeParserInputBuffer",
+        "xmlBufFree",
+        "xmlFree",
+        "xmlDictFree",
+        "xmlFree"
+    ],
+    "xmlTextReaderClose": [
+        "xmlStopParser",
+        "xmlTextReaderFreeDoc",
+        "xmlFreeParserInputBuffer"
+    ],
+    "*\nxmlTextReaderGetAttributeNo": [
+        "xmlStrdup",
+        "xmlNodeListGetString",
+        "xmlStrdup"
+    ],
+    "*\nxmlTextReaderGetAttribute": [
+        "xmlSplitQName2",
+        "xmlStrEqual",
+        "xmlStrdup",
+        "xmlGetNoNsProp",
+        "xmlStrEqual",
+        "xmlStrEqual",
+        "xmlStrdup",
+        "xmlSearchNs",
+        "xmlGetNsProp",
+        "xmlFree",
+        "xmlFree"
+    ],
+    "*\nxmlTextReaderGetAttributeNs": [
+        "xmlStrEqual",
+        "xmlStrEqual",
+        "xmlStrEqual",
+        "xmlStrdup",
+        "xmlGetNsProp"
+    ],
+    "xmlTextReaderGetRemainder": [
+        "xmlStopParser",
+        "xmlTextReaderFreeDoc"
+    ],
+    "*\nxmlTextReaderLookupNamespace": [
+        "xmlSearchNs",
+        "xmlStrdup"
+    ],
+    "xmlTextReaderMoveToAttributeNo": [],
+    "xmlTextReaderMoveToAttribute": [
+        "xmlSplitQName2",
+        "xmlStrEqual",
+        "xmlStrEqual",
+        "xmlStrEqual",
+        "xmlStrEqual",
+        "xmlStrEqual",
+        "xmlStrEqual",
+        "xmlFree",
+        "xmlFree",
+        "xmlFree",
+        "xmlFree"
+    ],
+    "xmlTextReaderMoveToAttributeNs": [
+        "xmlStrEqual",
+        "xmlStrEqual",
+        "xmlStrEqual",
+        "xmlStrEqual",
+        "xmlStrEqual"
+    ],
+    "xmlTextReaderMoveToFirstAttribute": [],
+    "xmlTextReaderMoveToNextAttribute": [
+        "xmlTextReaderMoveToFirstAttribute"
+    ],
+    "xmlTextReaderMoveToElement": [],
+    "xmlTextReaderReadAttributeValue": [
+        "xmlNewDocText",
+        "xmlFree",
+        "xmlStrdup"
+    ],
+    "*\nxmlTextReaderConstEncoding": [
+        "CONSTSTR"
+    ],
+    "xmlTextReaderAttributeCount": [],
+    "xmlTextReaderNodeType": [
+        "xmlIsBlankNode",
+        "xmlNodeGetSpacePreserve"
+    ],
+    "xmlTextReaderIsEmptyElement": [],
+    "*\nxmlTextReaderLocalName": [
+        "xmlStrdup",
+        "xmlStrdup",
+        "xmlTextReaderName",
+        "xmlStrdup"
+    ],
+    "*\nxmlTextReaderConstLocalName": [
+        "CONSTSTR",
+        "xmlTextReaderConstName"
+    ],
+    "*\nxmlTextReaderName": [
+        "xmlStrdup",
+        "xmlStrdup",
+        "xmlStrcat",
+        "xmlStrcat",
+        "xmlStrdup",
+        "xmlStrdup",
+        "xmlStrdup",
+        "xmlStrdup",
+        "xmlStrdup",
+        "xmlStrdup",
+        "xmlStrdup",
+        "xmlStrdup",
+        "xmlStrdup",
+        "xmlStrdup",
+        "xmlStrcat",
+        "xmlStrcat"
+    ],
+    "*\nxmlTextReaderConstName": [
+        "CONSTQSTR",
+        "CONSTSTR",
+        "CONSTSTR",
+        "CONSTSTR",
+        "CONSTSTR",
+        "CONSTSTR",
+        "CONSTSTR",
+        "CONSTSTR",
+        "CONSTSTR",
+        "CONSTSTR",
+        "CONSTSTR",
+        "CONSTQSTR"
+    ],
+    "*\nxmlTextReaderPrefix": [
+        "xmlStrdup",
+        "xmlStrdup"
+    ],
+    "*\nxmlTextReaderConstPrefix": [
+        "CONSTSTR",
+        "CONSTSTR"
+    ],
+    "*\nxmlTextReaderNamespaceUri": [
+        "xmlStrdup",
+        "xmlStrdup"
+    ],
+    "*\nxmlTextReaderConstNamespaceUri": [
+        "CONSTSTR",
+        "CONSTSTR"
+    ],
+    "*\nxmlTextReaderBaseUri": [
+        "xmlNodeGetBase"
+    ],
+    "*\nxmlTextReaderConstBaseUri": [
+        "xmlNodeGetBase",
+        "CONSTSTR",
+        "xmlFree"
+    ],
+    "xmlTextReaderDepth": [],
+    "xmlTextReaderHasAttributes": [],
+    "xmlTextReaderHasValue": [],
+    "*\nxmlTextReaderValue": [
+        "xmlStrdup",
+        "xmlNodeListGetString",
+        "xmlNodeListGetString",
+        "xmlStrdup"
+    ],
+    "*\nxmlTextReaderConstValue": [
+        "xmlBufCreateSize",
+        "xmlGenericError",
+        "xmlBufSetAllocationScheme",
+        "xmlBufEmpty",
+        "xmlBufGetNodeContent",
+        "xmlBufContent",
+        "xmlBufFree",
+        "xmlBufCreateSize",
+        "xmlBufSetAllocationScheme"
+    ],
+    "xmlTextReaderIsDefault": [],
+    "xmlTextReaderQuoteChar": [],
+    "*\nxmlTextReaderXmlLang": [
+        "xmlNodeGetLang"
+    ],
+    "*\nxmlTextReaderConstXmlLang": [
+        "xmlNodeGetLang",
+        "CONSTSTR",
+        "xmlFree"
+    ],
+    "*\nxmlTextReaderConstString": [
+        "CONSTSTR"
+    ],
+    "xmlTextReaderNormalization": [],
+    "xmlTextReaderSetParserProp": [],
+    "xmlTextReaderGetParserProp": [],
+    "xmlTextReaderGetParserLineNumber": [],
+    "xmlTextReaderGetParserColumnNumber": [],
+    "xmlTextReaderCurrentNode": [],
+    "xmlTextReaderPreserve": [],
+    "xmlTextReaderPreservePattern": [
+        "xmlPatterncompile",
+        "xmlMalloc",
+        "xmlGenericError",
+        "xmlRealloc",
+        "xmlGenericError"
+    ],
+    "xmlTextReaderCurrentDoc": [],
+    "xmlTextReaderValidityErrorRelay": [
+        "va_start",
+        "xmlTextReaderBuildMessage",
+        "xmlTextReaderValidityError",
+        "reader->errorFunc",
+        "xmlFree",
+        "va_end"
+    ],
+    "xmlTextReaderValidityWarningRelay": [
+        "va_start",
+        "xmlTextReaderBuildMessage",
+        "xmlTextReaderValidityWarning",
+        "reader->errorFunc",
+        "xmlFree",
+        "va_end"
+    ],
+    "xmlTextReaderValidityStructuredRelay": [
+        "reader->sErrorFunc",
+        "xmlTextReaderStructuredError"
+    ],
+    "xmlTextReaderRelaxNGSetSchema": [
+        "xmlRelaxNGFree",
+        "xmlRelaxNGFreeValidCtxt",
+        "xmlRelaxNGFree",
+        "xmlRelaxNGFreeValidCtxt",
+        "xmlRelaxNGNewValidCtxt",
+        "xmlRelaxNGSetValidErrors",
+        "xmlRelaxNGSetValidStructuredErrors"
+    ],
+    "xmlTextReaderLocator": [
+        "xmlGetLineNo"
+    ],
+    "xmlTextReaderSetSchema": [
+        "xmlSchemaSAXUnplug",
+        "xmlSchemaFreeValidCtxt",
+        "xmlSchemaFree",
+        "xmlSchemaSAXUnplug",
+        "xmlSchemaFreeValidCtxt",
+        "xmlSchemaFree",
+        "xmlSchemaNewValidCtxt",
+        "xmlSchemaFree",
+        "xmlSchemaSAXPlug",
+        "xmlSchemaFree",
+        "xmlSchemaFreeValidCtxt",
+        "xmlSchemaValidateSetLocator",
+        "xmlSchemaSetValidErrors",
+        "xmlSchemaSetValidStructuredErrors"
+    ],
+    "xmlTextReaderRelaxNGValidateInternal": [
+        "xmlRelaxNGFreeValidCtxt",
+        "xmlRelaxNGFree",
+        "xmlRelaxNGNewParserCtxt",
+        "xmlRelaxNGSetParserErrors",
+        "xmlRelaxNGSetValidStructuredErrors",
+        "xmlRelaxNGParse",
+        "xmlRelaxNGFreeParserCtxt",
+        "xmlRelaxNGNewValidCtxt",
+        "xmlRelaxNGFree",
+        "xmlRelaxNGSetValidErrors",
+        "xmlRelaxNGSetValidStructuredErrors"
+    ],
+    "xmlTextReaderSchemaValidateInternal": [
+        "xmlSchemaSAXUnplug",
+        "xmlSchemaFreeValidCtxt",
+        "xmlSchemaFree",
+        "xmlSchemaNewParserCtxt",
+        "xmlSchemaSetParserErrors",
+        "xmlSchemaParse",
+        "xmlSchemaFreeParserCtxt",
+        "xmlSchemaNewValidCtxt",
+        "xmlSchemaFree",
+        "xmlSchemaSAXPlug",
+        "xmlSchemaFree",
+        "xmlSchemaFreeValidCtxt",
+        "xmlSchemaSAXPlug",
+        "xmlSchemaValidateSetLocator",
+        "xmlSchemaSetValidErrors",
+        "xmlSchemaSetValidStructuredErrors"
+    ],
+    "xmlTextReaderSchemaValidateCtxt": [
+        "xmlTextReaderSchemaValidateInternal"
+    ],
+    "xmlTextReaderSchemaValidate": [
+        "xmlTextReaderSchemaValidateInternal"
+    ],
+    "xmlTextReaderRelaxNGValidateCtxt": [
+        "xmlTextReaderRelaxNGValidateInternal"
+    ],
+    "xmlTextReaderRelaxNGValidate": [
+        "xmlTextReaderRelaxNGValidateInternal"
+    ],
+    "xmlTextReaderIsNamespaceDecl": [],
+    "*\nxmlTextReaderConstXmlVersion": [
+        "CONSTSTR"
+    ],
+    "xmlTextReaderStandalone": [],
+    "*\nxmlTextReaderBuildMessage": [
+        "VA_COPY",
+        "vsnprintf",
+        "va_end",
+        "xmlGenericError",
+        "xmlFree",
+        "xmlRealloc",
+        "xmlGenericError",
+        "xmlFree"
+    ],
+    "xmlTextReaderLocatorLineNumber": [
+        "xmlGetLineNo"
+    ],
+    "*\nxmlTextReaderLocatorBaseURI": [
+        "xmlNodeGetBase",
+        "xmlStrdup"
+    ],
+    "xmlTextReaderGenericError": [
+        "reader->errorFunc",
+        "xmlFree"
+    ],
+    "xmlTextReaderStructuredError": [
+        "reader->sErrorFunc"
+    ],
+    "xmlTextReaderError": [
+        "va_start",
+        "xmlTextReaderGenericError",
+        "xmlTextReaderBuildMessage",
+        "va_end"
+    ],
+    "xmlTextReaderWarning": [
+        "va_start",
+        "xmlTextReaderGenericError",
+        "xmlTextReaderBuildMessage",
+        "va_end"
+    ],
+    "xmlTextReaderValidityError": [
+        "xmlStrlen",
+        "va_start",
+        "xmlTextReaderGenericError",
+        "xmlTextReaderBuildMessage",
+        "va_end"
+    ],
+    "xmlTextReaderValidityWarning": [
+        "xmlStrlen",
+        "va_start",
+        "xmlTextReaderGenericError",
+        "xmlTextReaderBuildMessage",
+        "va_end"
+    ],
+    "xmlTextReaderSetErrorHandler": [
+        "xmlRelaxNGSetValidErrors",
+        "xmlRelaxNGSetValidStructuredErrors",
+        "xmlSchemaSetValidErrors",
+        "xmlSchemaSetValidStructuredErrors",
+        "xmlRelaxNGSetValidErrors",
+        "xmlRelaxNGSetValidStructuredErrors",
+        "xmlSchemaSetValidErrors",
+        "xmlSchemaSetValidStructuredErrors"
+    ],
+    "xmlTextReaderSetStructuredErrorHandler": [
+        "xmlRelaxNGSetValidErrors",
+        "xmlRelaxNGSetValidStructuredErrors",
+        "xmlSchemaSetValidErrors",
+        "xmlSchemaSetValidStructuredErrors",
+        "xmlRelaxNGSetValidErrors",
+        "xmlRelaxNGSetValidStructuredErrors",
+        "xmlSchemaSetValidErrors",
+        "xmlSchemaSetValidStructuredErrors"
+    ],
+    "xmlTextReaderIsValid": [],
+    "xmlTextReaderGetErrorHandler": [],
+    "xmlTextReaderSetup": [
+        "xmlFreeParserInputBuffer",
+        "xmlFreeParserInputBuffer",
+        "xmlBufCreateSize",
+        "xmlGenericError",
+        "xmlBufSetAllocationScheme",
+        "xmlMalloc",
+        "xmlGenericError",
+        "xmlSAXVersion",
+        "xmlBufUse",
+        "xmlParserInputBufferRead",
+        "xmlBufUse",
+        "xmlCreatePushParserCtxt",
+        "xmlBufContent",
+        "xmlCreatePushParserCtxt",
+        "xmlCtxtReset",
+        "xmlAllocParserInputBuffer",
+        "xmlNewInputStream",
+        "xmlFreeParserInputBuffer",
+        "xmlCanonicPath",
+        "xmlBufResetInput",
+        "inputPush",
+        "xmlGenericError",
+        "xmlDictFree",
+        "xmlDictCreate",
+        "xmlXIncludeFreeContext",
+        "xmlDictLookup",
+        "xmlFreePattern",
+        "xmlCtxtUseOptions",
+        "xmlFindCharEncodingHandler",
+        "xmlSwitchToEncoding",
+        "xmlStrdup"
+    ],
+    "xmlTextReaderByteConsumed": [
+        "xmlByteConsumed"
+    ],
+    "xmlReaderWalker": [
+        "xmlMalloc",
+        "xmlGenericError",
+        "memset",
+        "xmlDictCreate"
+    ],
+    "xmlReaderForDoc": [
+        "xmlStrlen",
+        "xmlReaderForMemory"
+    ],
+    "xmlReaderForFile": [
+        "xmlNewTextReaderFilename",
+        "xmlTextReaderSetup"
+    ],
+    "xmlReaderForMemory": [
+        "xmlParserInputBufferCreateStatic",
+        "xmlNewTextReader",
+        "xmlFreeParserInputBuffer",
+        "xmlTextReaderSetup"
+    ],
+    "xmlReaderForFd": [
+        "xmlParserInputBufferCreateFd",
+        "xmlNewTextReader",
+        "xmlFreeParserInputBuffer",
+        "xmlTextReaderSetup"
+    ],
+    "xmlReaderForIO": [
+        "xmlParserInputBufferCreateIO",
+        "ioclose",
+        "xmlNewTextReader",
+        "xmlFreeParserInputBuffer",
+        "xmlTextReaderSetup"
+    ],
+    "xmlReaderNewWalker": [
+        "xmlFreeParserInputBuffer",
+        "xmlCtxtReset",
+        "xmlDictCreate"
+    ],
+    "xmlReaderNewDoc": [
+        "xmlStrlen",
+        "xmlReaderNewMemory"
+    ],
+    "xmlReaderNewFile": [
+        "xmlParserInputBufferCreateFilename",
+        "xmlTextReaderSetup"
+    ],
+    "xmlReaderNewMemory": [
+        "xmlParserInputBufferCreateStatic",
+        "xmlTextReaderSetup"
+    ],
+    "xmlReaderNewFd": [
+        "xmlParserInputBufferCreateFd",
+        "xmlTextReaderSetup"
+    ],
+    "xmlReaderNewIO": [
+        "xmlParserInputBufferCreateIO",
+        "ioclose",
+        "xmlTextReaderSetup"
+    ],
+    "xmlBase64Decode": [],
+    "main": [
+        "strlen",
+        "xmlBase64Decode",
+        "printf",
+        "printf",
+        "xmlBase64Decode",
+        "printf",
+        "printf",
+        "printf",
+        "xmlBase64Decode",
+        "printf",
+        "printf"
+    ]
+}
+

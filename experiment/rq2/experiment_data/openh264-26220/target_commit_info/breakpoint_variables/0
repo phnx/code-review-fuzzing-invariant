@@ -1,0 +1,3 @@
+pDecContext->iErrorCode
+pDecContext->eSliceType
+pDstInfo->iBufferStatus

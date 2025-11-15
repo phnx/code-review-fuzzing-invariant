@@ -1,0 +1,61 @@
+settings:INFO:2025-04-10 10:23:20.416327: /program/dig/src/dig.py /script/motivating_example/sample_set/second_max/fuzzing_test/original_2_trace/6f4faee1cdd2e87cdd7cde9764ef091684e1274b/0.trace -log 3 --nofilter --nosimplify --seed 27
+alg:INFO:analyzing '/script/motivating_example/sample_set/second_max/fuzzing_test/original_2_trace/6f4faee1cdd2e87cdd7cde9764ef091684e1274b/0.trace'
+alg:INFO:got 3 traces over 1 locs
+alg:INFO:check 56 invs using 3 traces (0.07s)
+dummy (56 invs):
+1. a - max_ == 0
+2. count - 3 == 0
+3. count <= 3
+4. sec_ <= -1
+5. -count <= -3
+6. a - max_ <= 0
+7. -a + max_ <= 0
+8. count + sec_ <= 2
+9. -count + sec_ <= -4
+10. a - max(max_, 0) <= 0
+11. min(max_, 0) - a <= 0
+12. min(a, 0) - max_ <= 0
+13. max_ - max(a, 0) <= 0
+14. max_ - max(a, sec_) <= 0
+15. a - max(max_, sec_) <= 0
+16. max(a, sec_) - max_ <= 0
+17. max(max_, sec_) - a <= 0
+18. max_ - max(a, count) <= 0
+19. min(count, max_) - a <= 0
+20. sec_ + 1 - min(a, 0) <= 0
+21. min(a, count) - max_ <= 0
+22. a - max(count, max_) <= 0
+23. max_ - max(a, sec_, 0) <= 0
+24. a - max(max_, sec_, 0) <= 0
+25. max_ - max(a, count, 0) <= 0
+26. min(count, max_, 0) - a <= 0
+27. a - max(count, max_, 0) <= 0
+28. sec_ + 1 - min(max_, 0) <= 0
+29. min(a, count, 0) - max_ <= 0
+30. sec_ + 1 - min(count, 0) <= 0
+31. a - max(count, max_, sec_) <= 0
+32. sec_ + 1 - min(a, max_, 0) <= 0
+33. max_ - max(a, count, sec_) <= 0
+34. sec_ + 1 - min(a, count, 0) <= 0
+35. max_ - max(a, count, sec_, 0) <= 0
+36. a - max(count, max_, sec_, 0) <= 0
+37. sec_ + 1 - min(count, max_, 0) <= 0
+38. sec_ + 1 - min(a, count, max_, 0) <= 0
+39. a === 1 (mod 2)
+40. -a === 1 (mod 2)
+41. max_ === 1 (mod 2)
+42. -max_ === 1 (mod 2)
+43. a - sec_ === 2 (mod 3)
+44. a + max_ === 2 (mod 4)
+45. -a + sec_ === 1 (mod 3)
+46. -a - max_ === 2 (mod 4)
+47. a - count === 0 (mod 2)
+48. a + count === 0 (mod 2)
+49. -a - count === 0 (mod 2)
+50. -a + count === 0 (mod 2)
+51. max_ - sec_ === 2 (mod 3)
+52. -max_ + sec_ === 1 (mod 3)
+53. count - max_ === 0 (mod 2)
+54. count + max_ === 0 (mod 2)
+55. -count - max_ === 0 (mod 2)
+56. -count + max_ === 0 (mod 2)

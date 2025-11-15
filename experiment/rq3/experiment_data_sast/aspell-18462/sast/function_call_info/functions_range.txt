@@ -1,0 +1,254 @@
+=====================
+common/config.cpp
+=====================
+{
+    "Config::Config": [
+        103,
+        106
+    ],
+    "Config::~Config": [
+        99,
+        101
+    ],
+    "& Config::operator= ": [
+        108,
+        113
+    ],
+    "* Config::clone": [
+        115,
+        117
+    ],
+    "Config::assign": [
+        119,
+        121
+    ],
+    "Config::copy": [
+        123,
+        173
+    ],
+    "Config::del": [
+        175,
+        207
+    ],
+    "Config::set_filter_modules": [
+        209,
+        215
+    ],
+    "Config::set_extra": [
+        217,
+        222
+    ],
+    "* Config::notifiers": [
+        233,
+        236
+    ],
+    "Config::add_notifier": [
+        238,
+        256
+    ],
+    "Config::remove_notifier": [
+        258,
+        277
+    ],
+    "Config::replace_notifier": [
+        279,
+        299
+    ],
+    "* Config::lookup": [
+        305,
+        317
+    ],
+    "Config::have": [
+        319,
+        324
+    ],
+    "Config::retrieve": [
+        326,
+        334
+    ],
+    "Config::retrieve_any": [
+        336,
+        356
+    ],
+    "Config::retrieve_bool": [
+        358,
+        369
+    ],
+    "Config::retrieve_int": [
+        371,
+        384
+    ],
+    "Config::lookup_list": [
+        386,
+        436
+    ],
+    "Config::retrieve_list": [
+        438,
+        447
+    ],
+    "* find": [
+        461,
+        471
+    ],
+    "Config::keyinfo": [
+        473,
+        515
+    ],
+    "proc_locale_str": [
+        517,
+        530
+    ],
+    "get_lang_env": [
+        532,
+        538
+    ],
+    "get_lang": [
+        558,
+        561
+    ],
+    "get_encoding": [
+        576,
+        579
+    ],
+    "Config::get_default": [
+        677,
+        681
+    ],
+    "* Config::base_name": [
+        693,
+        709
+    ],
+    "separate_list": [
+        713,
+        750
+    ],
+    "combine_list": [
+        752,
+        767
+    ],
+    "ListAddHelper::add": [
+        776,
+        783
+    ],
+    "Config::replace_internal": [
+        785,
+        794
+    ],
+    "Config::replace": [
+        796,
+        802
+    ],
+    "Config::remove": [
+        804,
+        810
+    ],
+    "Config::set": [
+        812,
+        875
+    ],
+    "Config::merge": [
+        877,
+        889
+    ],
+    "Config::lang_config_merge": [
+        891,
+        912
+    ],
+    "Config::commit": [
+        925,
+        1016
+    ],
+    "PossibleElementsEmul": [
+        1034,
+        1036
+    ],
+    "* clone": [
+        1038,
+        1040
+    ],
+    "assign": [
+        1042,
+        1044
+    ],
+    "active_filter_module_changed": [
+        1046,
+        1048
+    ],
+    "* active_filter_module_name": [
+        1050,
+        1054
+    ],
+    "* active_filter_module_desc": [
+        1056,
+        1060
+    ],
+    "* next": [
+        1062,
+        1098
+    ],
+    "at_end": [
+        1100,
+        1102
+    ],
+    "*\n  Config::possible_elements": [
+        1105,
+        1109
+    ],
+    "ListDefaultDump::ListDefaultDump": [
+        1121,
+        1126
+    ],
+    "ListDefaultDump::add": [
+        1128,
+        1142
+    ],
+    "ListDump": [
+        1149,
+        1150
+    ],
+    "ListDump::add": [
+        1156,
+        1161
+    ],
+    "ListDump::remove": [
+        1162,
+        1167
+    ],
+    "ListDump::clear": [
+        1168,
+        1171
+    ],
+    "Config::write_to_stream": [
+        1173,
+        1235
+    ],
+    "Config::read_in": [
+        1237,
+        1251
+    ],
+    "Config::read_in_file": [
+        1253,
+        1257
+    ],
+    "Config::read_in_string": [
+        1259,
+        1262
+    ],
+    "Config::read_in_settings": [
+        1265,
+        1307
+    ],
+    "Config::commit_all": [
+        1309,
+        1328
+    ],
+    "Config::set_committed_state": [
+        1330,
+        1338
+    ],
+    "* new_basic_config": [
+        1514,
+        1519
+    ]
+}
+

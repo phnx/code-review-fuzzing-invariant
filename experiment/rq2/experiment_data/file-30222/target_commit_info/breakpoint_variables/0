@@ -1,0 +1,4 @@
+ms->o.buf
+ms->o.blen
+ms->offset
+ms->eoffset

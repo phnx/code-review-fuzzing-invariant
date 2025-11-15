@@ -1,0 +1,37 @@
+settings:INFO:2025-04-10 06:56:40.229502: /program/dig/src/dig.py /script/motivating_example/sample_set/permutation/fuzzing_test/original_2_trace/8563345b080a1f4c1cce2e67f8581547f8c2839d/0.trace -log 3 --nofilter --nosimplify --seed 27
+alg:INFO:analyzing '/script/motivating_example/sample_set/permutation/fuzzing_test/original_2_trace/8563345b080a1f4c1cce2e67f8581547f8c2839d/0.trace'
+alg:INFO:got 4 traces over 1 locs
+alg:INFO:check 36 invs using 4 traces (0.04s)
+dummy (32 invs):
+1. i**2 - i == 0
+2. index**2 - index == 0
+3. i <= 1
+4. -i <= 0
+5. index <= 1
+6. -index <= 0
+7. i + index <= 2
+8. i - index <= 1
+9. -i - index <= 0
+10. -i + index <= 1
+11. min(index, 0) - i <= 0
+12. min(i, 0) - index <= 0
+13. min(curr_val, 0) - i <= 0
+14. index - 1 - max(i, 0) <= 0
+15. i - 1 - min(index, 0) <= 0
+16. index - 1 - min(i, 0) <= 0
+17. i - 1 - max(index, 0) <= 0
+18. i - 1 - min(curr_val, 0) <= 0
+19. min(curr_val, 0) - index <= 0
+20. min(curr_val, index, 0) - i <= 0
+21. min(curr_val, i, 0) - index <= 0
+22. index - 1 - min(curr_val, 0) <= 0
+23. index - 1 - min(curr_val, i) <= 0
+24. i - 1 - min(curr_val, index) <= 0
+25. i - 1 - min(curr_val, index, 0) <= 0
+26. index - 1 - min(curr_val, i, 0) <= 0
+27. curr_val === 3 (mod 5)
+28. -curr_val === 2 (mod 5)
+29. curr_val + i === 0 (mod 4)
+30. curr_val - i === 0 (mod 6)
+31. -curr_val - i === 0 (mod 4)
+32. -curr_val + i === 0 (mod 6)

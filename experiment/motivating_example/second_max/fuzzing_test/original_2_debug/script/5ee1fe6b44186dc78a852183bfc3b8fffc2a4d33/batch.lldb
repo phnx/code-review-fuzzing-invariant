@@ -1,0 +1,18 @@
+
+settings set interpreter.stop-command-source-on-error 0
+settings set auto-confirm 1
+breakpoint set --file /script/motivating_example/sample_set/second_max/original_2.c --line 19
+breakpoint command add 1
+frame info
+frame variable count -f dec 
+frame variable max -f dec 
+frame variable sec -f dec 
+frame variable a -f dec 
+
+continue
+DONE
+
+
+
+run /script/motivating_example/sample_set/second_max/fuzzing_test/modified_inputs/5ee1fe6b44186dc78a852183bfc3b8fffc2a4d33
+quit

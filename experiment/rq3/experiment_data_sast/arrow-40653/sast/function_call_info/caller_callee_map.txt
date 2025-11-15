@@ -1,0 +1,806 @@
+=====================
+cpp/src/arrow/ipc/reader.cc
+=====================
+{
+    "InvalidMessageType": [
+        "Status::IOError",
+        "FormatMessageType",
+        "FormatMessageType"
+    ],
+    "IpcReadContext": [],
+    "ArrayLoader": [],
+    "ReadBuffer": [
+        "Status::OK",
+        "Status::Invalid",
+        "Status::Invalid",
+        "BitUtil::IsMultipleOf8",
+        "Status::Invalid",
+        "file_->ReadAt",
+        "file_->ReadAt"
+    ],
+    "LoadType": [
+        "VisitTypeInline"
+    ],
+    "Load": [
+        "Status::Invalid",
+        "field_->type",
+        "LoadType",
+        "field_->type"
+    ],
+    "SkipField": [
+        "Load"
+    ],
+    "GetBuffer": [
+        "metadata_->buffers",
+        "CHECK_FLATBUFFERS_NOT_NULL",
+        "static_cast<int>",
+        "buffers->size",
+        "Status::IOError",
+        "buffers->Get",
+        "buffer->length",
+        "AllocateBuffer",
+        "AllocateBuffer",
+        "ReadBuffer",
+        "buffer->offset",
+        "buffer->length"
+    ],
+    "GetFieldMetadata": [
+        "metadata_->nodes",
+        "CHECK_FLATBUFFERS_NOT_NULL",
+        "static_cast<int>",
+        "nodes->size",
+        "Status::Invalid",
+        "nodes->Get",
+        "node->length",
+        "node->null_count",
+        "Status::OK"
+    ],
+    "LoadCommon": [
+        "RETURN_NOT_OK",
+        "GetFieldMetadata",
+        "internal::HasValidityBitmap",
+        "RETURN_NOT_OK",
+        "GetBuffer",
+        "Status::OK"
+    ],
+    "LoadPrimitive": [
+        "out_->buffers.resize",
+        "RETURN_NOT_OK",
+        "LoadCommon",
+        "RETURN_NOT_OK",
+        "GetBuffer",
+        "out_->buffers[1].reset",
+        "Status::OK"
+    ],
+    "LoadBinary": [
+        "out_->buffers.resize",
+        "RETURN_NOT_OK",
+        "LoadCommon",
+        "RETURN_NOT_OK",
+        "GetBuffer",
+        "GetBuffer"
+    ],
+    "LoadList": [
+        "out_->buffers.resize",
+        "RETURN_NOT_OK",
+        "LoadCommon",
+        "type.id",
+        "RETURN_NOT_OK",
+        "GetBuffer",
+        "type.num_fields",
+        "Status::Invalid",
+        "LoadChildren",
+        "type.fields"
+    ],
+    "LoadChildren": [
+        "parent->child_data.resize",
+        "child_fields.size",
+        "static_cast<int>",
+        "child_fields.size",
+        "std::make_shared<ArrayData>",
+        "RETURN_NOT_OK",
+        "Load",
+        "child_fields[i].get",
+        "parent->child_data[i].get",
+        "Status::OK"
+    ],
+    "Visit": [
+        "LoadType",
+        "type.storage_type"
+    ],
+    "DecompressBuffer": [
+        "buf->size",
+        "buf->size",
+        "Status::Invalid",
+        "buf->data",
+        "buf->size",
+        "BitUtil::FromLittleEndian",
+        "util::SafeLoadAs<int64_t>",
+        "uncompressed->mutable_data",
+        "Status::Invalid",
+        "std::move"
+    ],
+    "DecompressBuffers": [
+        "BufferAccumulator{}.Get",
+        "ARROW_ASSIGN_OR_RAISE",
+        "util::Codec::Create",
+        "::arrow::internal::OptionalParallelFor",
+        "static_cast<int>",
+        "buffers.size",
+        "ARROW_ASSIGN_OR_RAISE",
+        "DecompressBuffer",
+        "codec.get",
+        "Status::OK"
+    ],
+    "AppendFrom": [
+        "buffers_.push_back",
+        "AppendFrom"
+    ],
+    "Get": [
+        "AppendFrom",
+        "std::move"
+    ],
+    "LoadRecordBatchSubset": [
+        "schema->num_fields",
+        "schema->num_fields",
+        "schema->field",
+        "std::make_shared<ArrayData>",
+        "RETURN_NOT_OK",
+        "loader.Load",
+        "column.get",
+        "metadata->length",
+        "Status::IOError",
+        "std::move",
+        "filtered_columns.push_back",
+        "filtered_fields.push_back",
+        "schema->field",
+        "RETURN_NOT_OK",
+        "loader.SkipField",
+        "RETURN_NOT_OK",
+        "ResolveDictionaries",
+        "::arrow::schema",
+        "std::move",
+        "schema->metadata",
+        "columns.clear",
+        "std::move",
+        "RETURN_NOT_OK",
+        "DecompressBuffers",
+        "static_cast<int>",
+        "filtered_columns.size",
+        "ARROW_ASSIGN_OR_RAISE",
+        "arrow::internal::SwapEndianArrayData",
+        "RecordBatch::Make",
+        "std::move",
+        "metadata->length",
+        "std::move"
+    ],
+    "LoadRecordBatch": [
+        "inclusion_mask.size",
+        "LoadRecordBatchSubset",
+        "LoadRecordBatchSubset"
+    ],
+    "GetCompression": [
+        "batch->compression",
+        "compression->method",
+        "Status::Invalid",
+        "compression->codec",
+        "compression->codec",
+        "Status::Invalid",
+        "Status::OK",
+        "Status::OK"
+    ],
+    "GetCompressionExperimental": [
+        "message->custom_metadata",
+        "RETURN_NOT_OK",
+        "internal::GetKeyValueMetadata",
+        "message->custom_metadata",
+        "metadata->FindKey",
+        "arrow::internal::AsciiToLower",
+        "metadata->value",
+        "ARROW_ASSIGN_OR_RAISE",
+        "util::Codec::GetCompressionType",
+        "internal::CheckCompressionSupported",
+        "Status::OK"
+    ],
+    "ReadContiguousPayload": [
+        "ARROW_ASSIGN_OR_RAISE",
+        "ReadMessage",
+        "Status::Invalid",
+        "Status::OK"
+    ],
+    "ReadRecordBatch": [
+        "DCHECK_GE",
+        "DCHECK_LT",
+        "num_record_batches",
+        "RETURN_NOT_OK",
+        "ReadDictionaries",
+        "CHECK_HAS_BODY"
+    ],
+    "ReadRecordBatchInternal": [
+        "RETURN_NOT_OK",
+        "internal::VerifyMessage",
+        "metadata.data",
+        "metadata.size",
+        "message->header_as_RecordBatch",
+        "Status::IOError",
+        "RETURN_NOT_OK",
+        "GetCompression",
+        "message->version",
+        "RETURN_NOT_OK",
+        "GetCompressionExperimental",
+        "internal::GetMetadataVersion",
+        "message->version",
+        "LoadRecordBatch"
+    ],
+    "GetInclusionMaskAndOutSchema": [
+        "inclusion_mask->clear",
+        "included_indices.empty",
+        "Status::OK",
+        "inclusion_mask->resize",
+        "full_schema->num_fields",
+        "std::sort",
+        "included_indices_sorted.begin",
+        "included_indices_sorted.end",
+        "full_schema->num_fields",
+        "Status::Invalid",
+        "inclusion_mask->at",
+        "inclusion_mask->at",
+        "included_fields.push_back",
+        "full_schema->field",
+        "schema",
+        "std::move",
+        "full_schema->endianness",
+        "full_schema->metadata",
+        "Status::OK"
+    ],
+    "UnpackSchemaMessage": [
+        "CHECK_MESSAGE_TYPE",
+        "message.type",
+        "CHECK_HAS_NO_BODY",
+        "UnpackSchemaMessage",
+        "message.header"
+    ],
+    "ReadDictionary": [
+        "RETURN_NOT_OK",
+        "::arrow::ipc::ReadDictionary",
+        "Status::OK"
+    ],
+    "Open": [
+        "RETURN_NOT_OK",
+        "ReadFooter",
+        "RETURN_NOT_OK",
+        "UnpackSchemaMessage",
+        "footer_->schema",
+        "Status::OK"
+    ],
+    "ReadNext": [
+        "RETURN_NOT_OK",
+        "ReadInitialDictionaries",
+        "Status::OK",
+        "ARROW_ASSIGN_OR_RAISE",
+        "ReadNextMessage",
+        "message->type",
+        "RETURN_NOT_OK",
+        "ReadDictionary",
+        "ARROW_ASSIGN_OR_RAISE",
+        "ReadNextMessage",
+        "Status::OK",
+        "CHECK_HAS_BODY",
+        "ReadRecordBatchInternal",
+        "ReadRecordBatchInternal",
+        "message->metadata",
+        "reader.get"
+    ],
+    "schema": [],
+    "stats": [],
+    "ReadNextMessage": [
+        "std::move"
+    ],
+    "ARROW_ASSIGN_OR_RAISE": [
+        "message->type"
+    ],
+    "ReadInitialDictionaries": [
+        "dictionary_memo_.fields",
+        "dictionary_memo_.fields",
+        "ARROW_ASSIGN_OR_RAISE",
+        "ReadNextMessage",
+        "Status::Invalid",
+        "message->type",
+        "Status::Invalid",
+        "RETURN_NOT_OK",
+        "ReadDictionary",
+        "Status::OK"
+    ],
+    "RecordBatchStreamReader::Open": [
+        "Open",
+        "MessageReader::Open"
+    ],
+    "FileBlockFromFlatbuffer": [
+        "block->offset",
+        "block->metaDataLength",
+        "block->bodyLength"
+    ],
+    "ReadMessageFromBlock": [
+        "std::move"
+    ],
+    "ReadMessageFromBlockAsync": [
+        "BitUtil::IsMultipleOf8",
+        "BitUtil::IsMultipleOf8",
+        "BitUtil::IsMultipleOf8",
+        "Status::Invalid",
+        "ReadMessageAsync"
+    ],
+    "ReadOneDictionary": [
+        "CHECK_HAS_BODY",
+        "RETURN_NOT_OK",
+        "ReadDictionary",
+        "message->metadata",
+        "reader.get",
+        "Status::Invalid",
+        "Status::OK"
+    ],
+    "IpcFileRecordBatchGenerator": [
+        "std::move",
+        "std::move"
+    ],
+    "RecordBatchFileReaderImpl": [],
+    "num_record_batches": [
+        "static_cast<int>",
+        "internal::FlatBuffersVectorSize",
+        "footer_->recordBatches"
+    ],
+    "version": [
+        "internal::GetMetadataVersion",
+        "footer_->version"
+    ],
+    "CountRows": [
+        "num_record_batches",
+        "outer_message->metadata",
+        "RETURN_NOT_OK",
+        "internal::VerifyMessage",
+        "metadata->data",
+        "metadata->size",
+        "message->header_as_RecordBatch",
+        "Status::IOError",
+        "batch->length"
+    ],
+    "OpenAsync": [
+        "::arrow::internal::GetCpuThreadPool",
+        "std::dynamic_pointer_cast<RecordBatchFileReaderImpl>",
+        "shared_from_this",
+        "ReadFooterAsync",
+        "ReadFooterAsync",
+        "RETURN_NOT_OK",
+        "UnpackSchemaMessage",
+        "self->footer_->schema",
+        "Status::OK"
+    ],
+    "metadata": [],
+    "GetRecordBatchGenerator": [
+        "std::dynamic_pointer_cast<RecordBatchFileReaderImpl>",
+        "shared_from_this",
+        "Status::Invalid",
+        "std::make_shared<io::internal::ReadRangeCache>",
+        "this->num_dictionaries",
+        "this->num_record_batches",
+        "FileBlockFromFlatbuffer",
+        "footer_->dictionaries",
+        "footer_->dictionaries",
+        "FileBlockFromFlatbuffer",
+        "footer_->recordBatches",
+        "footer_->recordBatches",
+        "RETURN_NOT_OK",
+        "cached_source->Cache",
+        "std::move",
+        "IpcFileRecordBatchGenerator",
+        "std::move",
+        "std::move"
+    ],
+    "GetRecordBatchBlock": [
+        "FileBlockFromFlatbuffer",
+        "footer_->recordBatches",
+        "footer_->recordBatches"
+    ],
+    "GetDictionaryBlock": [
+        "FileBlockFromFlatbuffer",
+        "footer_->dictionaries",
+        "footer_->dictionaries"
+    ],
+    "ReadDictionaries": [
+        "num_dictionaries",
+        "RETURN_NOT_OK",
+        "ReadOneDictionary",
+        "message.get",
+        "Status::OK"
+    ],
+    "ReadFooter": [
+        "ReadFooterAsync",
+        "fut.status"
+    ],
+    "ReadFooterAsync": [
+        "static_cast<int>",
+        "strlen",
+        "Status::Invalid",
+        "static_cast<int>",
+        "std::dynamic_pointer_cast<RecordBatchFileReaderImpl>",
+        "shared_from_this",
+        "file_->ReadAsync",
+        "executor->Transfer",
+        "std::move",
+        "read_magic\n        .Then",
+        "read_magic\n        .Then",
+        "buffer->size",
+        "Status::Invalid",
+        "memcmp",
+        "buffer->data",
+        "Status::Invalid",
+        "BitUtil::FromLittleEndian",
+        "reinterpret_cast<const int32_t*>",
+        "buffer->data",
+        "Status::Invalid",
+        "self->file_->ReadAsync",
+        "executor->Transfer",
+        "std::move",
+        "self->footer_buffer_->data",
+        "self->footer_buffer_->size",
+        "internal::VerifyFlatbuffers<flatbuf::Footer>",
+        "Status::IOError",
+        "flatbuf::GetFooter",
+        "self->footer_->custom_metadata",
+        "RETURN_NOT_OK",
+        "internal::GetKeyValueMetadata",
+        "std::move",
+        "Status::OK"
+    ],
+    "num_dictionaries": [
+        "static_cast<int>",
+        "internal::FlatBuffersVectorSize",
+        "footer_->dictionaries"
+    ],
+    "RecordBatchFileReader::Open": [
+        "std::make_shared<RecordBatchFileReaderImpl>",
+        "RETURN_NOT_OK",
+        "result->Open"
+    ],
+    "RecordBatchFileReader::OpenAsync": [
+        "std::make_shared<RecordBatchFileReaderImpl>",
+        "result->OpenAsync",
+        "result->OpenAsync"
+    ],
+    "IpcFileRecordBatchGenerator::operator": [
+        "read_dictionaries_.is_valid",
+        "state->num_dictionaries",
+        "state->num_dictionaries",
+        "FileBlockFromFlatbuffer",
+        "state->footer_->dictionaries",
+        "state->footer_->dictionaries",
+        "ReadBlock",
+        "All",
+        "std::move",
+        "executor_->Transfer",
+        "read_messages.Then",
+        "ReadDictionaries",
+        "state.get",
+        "std::move",
+        "state_->num_record_batches",
+        "Future<Item>::MakeFinished",
+        "IterationTraits<Item>::End",
+        "FileBlockFromFlatbuffer",
+        "state->footer_->recordBatches",
+        "state->footer_->recordBatches",
+        "ReadBlock",
+        "read_dictionaries_.Then",
+        "read_messages.Then",
+        "DeferNotOk",
+        "executor->Submit",
+        "ReadRecordBatch",
+        "state.get",
+        "message.get",
+        "read_messages.Then",
+        "ReadRecordBatch",
+        "state.get",
+        "message.get"
+    ],
+    "IpcFileRecordBatchGenerator::ReadBlock": [
+        "cached_source->WaitFor",
+        "cached_source->WaitFor",
+        "ReadMessage",
+        "ReadMessageFromBlockAsync"
+    ],
+    "IpcFileRecordBatchGenerator::ReadDictionaries": [
+        "RETURN_NOT_OK",
+        "ReadOneDictionary",
+        "message.get",
+        "Status::OK"
+    ],
+    "IpcFileRecordBatchGenerator::ReadRecordBatch": [
+        "CHECK_HAS_BODY",
+        "ReadRecordBatchInternal",
+        "message->metadata",
+        "reader.get"
+    ],
+    "Listener::OnEOS": [
+        "Status::OK"
+    ],
+    "Listener::OnSchemaDecoded": [
+        "Status::OK"
+    ],
+    "Listener::OnRecordBatchDecoded": [
+        "Status::NotImplemented"
+    ],
+    "StreamDecoderImpl": [
+        "std::move",
+        "std::move",
+        "std::shared_ptr<StreamDecoderImpl>"
+    ],
+    "OnMessageDecoded": [
+        "ARROW_RETURN_NOT_OK",
+        "OnSchemaMessageDecoded",
+        "std::move",
+        "ARROW_RETURN_NOT_OK",
+        "OnInitialDictionaryMessageDecoded",
+        "std::move",
+        "ARROW_RETURN_NOT_OK",
+        "OnRecordBatchMessageDecoded",
+        "std::move",
+        "Status::OK"
+    ],
+    "OnEOS": [
+        "listener_->OnEOS"
+    ],
+    "Consume": [
+        "message_decoder_.Consume",
+        "std::move"
+    ],
+    "next_required_size": [
+        "message_decoder_.next_required_size"
+    ],
+    "OnSchemaMessageDecoded": [
+        "RETURN_NOT_OK",
+        "UnpackSchemaMessage",
+        "dictionary_memo_.fields",
+        "dictionary_memo_.fields",
+        "RETURN_NOT_OK",
+        "listener_->OnSchemaDecoded",
+        "Status::OK"
+    ],
+    "OnInitialDictionaryMessageDecoded": [
+        "message->type",
+        "Status::Invalid",
+        "dictionary_memo_.fields",
+        "dictionary_memo_.fields",
+        "RETURN_NOT_OK",
+        "ReadDictionary",
+        "ARROW_RETURN_NOT_OK",
+        "listener_->OnSchemaDecoded",
+        "Status::OK"
+    ],
+    "OnRecordBatchMessageDecoded": [
+        "message->type",
+        "ReadDictionary",
+        "CHECK_HAS_BODY",
+        "listener_->OnRecordBatchDecoded",
+        "std::move"
+    ],
+    "StreamDecoder::StreamDecoder": [
+        "impl_.reset",
+        "std::move"
+    ],
+    "StreamDecoder::~StreamDecoder": [],
+    "StreamDecoder::Consume": [
+        "impl_->Consume",
+        "std::move"
+    ],
+    "StreamDecoder::schema": [
+        "impl_->schema"
+    ],
+    "StreamDecoder::next_required_size": [
+        "impl_->next_required_size"
+    ],
+    "StreamDecoder::stats": [
+        "impl_->stats"
+    ],
+    "ReadSchema": [
+        "RETURN_NOT_OK",
+        "internal::GetSchema",
+        "message.header"
+    ],
+    "ReadTensor": [
+        "CHECK_HAS_BODY",
+        "RETURN_NOT_OK",
+        "internal::GetTensorMetadata",
+        "message.metadata",
+        "Tensor::Make",
+        "message.body"
+    ],
+    "ReadSparseCOOIndex": [
+        "sparse_tensor->sparseIndex_as_SparseTensorIndexCOO",
+        "static_cast<int64_t>",
+        "shape.size",
+        "RETURN_NOT_OK",
+        "internal::GetSparseCOOIndexMetadata",
+        "GetByteWidth",
+        "sparse_index->indicesBuffer",
+        "sparse_index->indicesStrides",
+        "indices_strides->size",
+        "indices_strides->size",
+        "Status::Invalid",
+        "indices_strides->Get",
+        "indices_strides->Get",
+        "SparseCOOIndex::Make",
+        "std::make_shared<Tensor>",
+        "sparse_index->isCanonical"
+    ],
+    "ReadSparseCSXIndex": [
+        "shape.size",
+        "Status::Invalid",
+        "sparse_tensor->sparseIndex_as_SparseMatrixIndexCSX",
+        "RETURN_NOT_OK",
+        "internal::GetSparseCSXIndexMetadata",
+        "GetByteWidth",
+        "sparse_index->indptrBuffer",
+        "sparse_index->indicesBuffer",
+        "GetByteWidth",
+        "indices_buffer->length",
+        "Status::Invalid",
+        "sparse_index->compressedAxis",
+        "indptr_buffer->length",
+        "Status::Invalid",
+        "std::make_shared<SparseCSRIndex>",
+        "std::make_shared<Tensor>",
+        "std::make_shared<Tensor>",
+        "indptr_buffer->length",
+        "Status::Invalid",
+        "std::make_shared<SparseCSCIndex>",
+        "std::make_shared<Tensor>",
+        "std::make_shared<Tensor>",
+        "Status::Invalid"
+    ],
+    "ReadSparseCSFIndex": [
+        "sparse_tensor->sparseIndex_as_SparseTensorIndexCSF",
+        "static_cast<int64_t>",
+        "shape.size",
+        "sparse_index->indptrBuffers",
+        "sparse_index->indicesBuffers",
+        "RETURN_NOT_OK",
+        "internal::GetSparseCSFIndexMetadata",
+        "static_cast<int>",
+        "indptr_buffers->size",
+        "ARROW_ASSIGN_OR_RAISE",
+        "file->ReadAt",
+        "indptr_buffers->Get",
+        "indptr_buffers->Get",
+        "indptr_buffers->Get",
+        "indptr_buffers->Get",
+        "static_cast<int>",
+        "indices_buffers->size",
+        "ARROW_ASSIGN_OR_RAISE",
+        "file->ReadAt",
+        "indices_buffers->Get",
+        "indices_buffers->Get",
+        "indices_buffers->Get",
+        "indices_buffers->Get",
+        "SparseCSFIndex::Make"
+    ],
+    "MakeSparseTensorWithSparseCOOIndex": [
+        "SparseCOOTensor::Make"
+    ],
+    "MakeSparseTensorWithSparseCSRIndex": [
+        "SparseCSRMatrix::Make"
+    ],
+    "MakeSparseTensorWithSparseCSCIndex": [
+        "SparseCSCMatrix::Make"
+    ],
+    "MakeSparseTensorWithSparseCSFIndex": [
+        "SparseCSFTensor::Make"
+    ],
+    "ReadSparseTensorMetadata": [
+        "RETURN_NOT_OK",
+        "internal::GetSparseTensorMetadata",
+        "RETURN_NOT_OK",
+        "internal::VerifyMessage",
+        "metadata.data",
+        "metadata.size",
+        "message->header_as_SparseTensor",
+        "Status::IOError",
+        "sparse_tensor->data",
+        "BitUtil::IsMultipleOf8",
+        "buffer->offset",
+        "Status::Invalid",
+        "buffer->offset",
+        "Status::OK"
+    ],
+    "GetSparseTensorBodyBufferCount": [
+        "Status::Invalid"
+    ],
+    "CheckSparseTensorBodyBufferCount": [
+        "ARROW_ASSIGN_OR_RAISE",
+        "GetSparseTensorBodyBufferCount",
+        "payload.body_buffers.size",
+        "Status::Invalid",
+        "Status::OK"
+    ],
+    "ReadSparseTensorBodyBufferCount": [
+        "RETURN_NOT_OK",
+        "internal::GetSparseTensorMetadata",
+        "GetSparseTensorBodyBufferCount",
+        "static_cast<size_t>",
+        "shape.size"
+    ],
+    "ReadSparseTensorPayload": [
+        "RETURN_NOT_OK",
+        "ReadSparseTensorMetadata",
+        "RETURN_NOT_OK",
+        "CheckSparseTensorBodyBufferCount",
+        "static_cast<size_t>",
+        "shape.size",
+        "RETURN_NOT_OK",
+        "internal::GetSparseCOOIndexMetadata",
+        "sparse_tensor->sparseIndex_as_SparseTensorIndexCOO",
+        "ARROW_ASSIGN_OR_RAISE",
+        "SparseCOOIndex::Make",
+        "MakeSparseTensorWithSparseCOOIndex",
+        "RETURN_NOT_OK",
+        "internal::GetSparseCSXIndexMetadata",
+        "sparse_tensor->sparseIndex_as_SparseMatrixIndexCSX",
+        "ARROW_CHECK_EQ",
+        "ARROW_ASSIGN_OR_RAISE",
+        "SparseCSRIndex::Make",
+        "MakeSparseTensorWithSparseCSRIndex",
+        "RETURN_NOT_OK",
+        "internal::GetSparseCSXIndexMetadata",
+        "sparse_tensor->sparseIndex_as_SparseMatrixIndexCSX",
+        "ARROW_CHECK_EQ",
+        "ARROW_ASSIGN_OR_RAISE",
+        "SparseCSCIndex::Make",
+        "MakeSparseTensorWithSparseCSCIndex",
+        "RETURN_NOT_OK",
+        "internal::GetSparseCSFIndexMetadata",
+        "sparse_tensor->sparseIndex_as_SparseTensorIndexCSF",
+        "ARROW_CHECK_EQ",
+        "shape.size",
+        "ARROW_ASSIGN_OR_RAISE",
+        "SparseCSFIndex::Make",
+        "MakeSparseTensorWithSparseCSFIndex",
+        "Status::Invalid"
+    ],
+    "ReadSparseTensor": [
+        "RETURN_NOT_OK",
+        "ReadContiguousPayload",
+        "CHECK_MESSAGE_TYPE",
+        "message->type",
+        "CHECK_HAS_BODY",
+        "ReadSparseTensor",
+        "message->metadata",
+        "reader.get"
+    ],
+    "ValidateFuzzBatch": [
+        "batch.ValidateFull",
+        "st.ok",
+        "batch.ToString"
+    ],
+    "FuzzIpcStream": [
+        "std::make_shared<Buffer>",
+        "ARROW_ASSIGN_OR_RAISE",
+        "RecordBatchStreamReader::Open",
+        "RETURN_NOT_OK",
+        "batch_reader->ReadNext",
+        "ValidateFuzzBatch"
+    ],
+    "FuzzIpcFile": [
+        "std::make_shared<Buffer>",
+        "ARROW_ASSIGN_OR_RAISE",
+        "RecordBatchFileReader::Open",
+        "batch_reader->num_record_batches",
+        "ValidateFuzzBatch"
+    ],
+    "FuzzIpcTensorStream": [
+        "std::make_shared<Buffer>",
+        "ARROW_ASSIGN_OR_RAISE",
+        "ReadTensor",
+        "RETURN_NOT_OK",
+        "tensor->Validate",
+        "Status::OK"
+    ]
+}
+

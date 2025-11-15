@@ -1,0 +1,10 @@
+ci->func
+rb
+pc
+ci->u.l.savedpc
+ci->u.l
+ci->u
+trap
+cl
+vmcase
+i

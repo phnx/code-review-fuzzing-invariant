@@ -1,0 +1,18 @@
+frame #0: 0x00005555555bb664 modified_fuzz`concatenate_array(arr1=0x0000555555f68760, size1=1, arr2=0x0000555555f68780, size2=1) at modified.c:23:9
+(lldb)  frame variable dest_pos -f dec 
+(size_t) dest_pos = 1
+(lldb)  frame variable orig_pos -f dec 
+(size_t) orig_pos = 1
+(lldb)  frame variable val -f dec 
+(int) val = 32767
+(lldb)  continue
+Process 109427 resuming
+Command #6 'continue' continued the target.
+Executed /script/motivating_example/sample_set/concatenate_array/fuzzing_test/modified_inputs/bc17bdeed51754beb66544649f695d4f6aeb3f41 in 12 ms
+***
+*** NOTE: fuzzing was not performed, you have only
+***       executed the target code on a fixed set of inputs.
+***
+Process 109427 exited with status = 0 (0x00000000)
+Process 109427 launched: '/script/motivating_example/sample_set/concatenate_array/modified_fuzz' (x86_64)
+(lldb) quit

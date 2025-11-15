@@ -1,0 +1,116 @@
+=====================
+lib/http_chunks.c
+=====================
+{
+    "Curl_isxdigit_ascii": [
+        80,
+        85
+    ],
+    "Curl_httpchunk_init": [
+        90,
+        96
+    ],
+    "Curl_httpchunk_read": [
+        109,
+        329
+    ],
+    "*Curl_chunked_strerror": [
+        331,
+        349
+    ]
+}
+
+=====================
+lib/transfer.c
+=====================
+{
+    "*Curl_checkheaders": [
+        92,
+        106
+    ],
+    "Curl_fillreadbuffer": [
+        113,
+        265
+    ],
+    "Curl_readrewind": [
+        273,
+        347
+    ],
+    "data_pending": [
+        349,
+        367
+    ],
+    "read_rewind": [
+        369,
+        396
+    ],
+    "Curl_meets_timecondition": [
+        402,
+        428
+    ],
+    "readwrite_data": [
+        438,
+        855
+    ],
+    "done_sending": [
+        857,
+        870
+    ],
+    "readwrite_upload": [
+        876,
+        1068
+    ],
+    "Curl_readwrite": [
+        1077,
+        1242
+    ],
+    "Curl_single_getsock": [
+        1251,
+        1295
+    ],
+    "Curl_init_CONNECT": [
+        1299,
+        1303
+    ],
+    "Curl_pretransfer": [
+        1310,
+        1402
+    ],
+    "Curl_posttransfer": [
+        1407,
+        1418
+    ],
+    "*find_host_sep": [
+        1425,
+        1447
+    ],
+    "strlen_url": [
+        1455,
+        1490
+    ],
+    "strcpy_url": [
+        1497,
+        1542
+    ],
+    "is_absolute_url": [
+        1547,
+        1553
+    ],
+    "*concat_url": [
+        1561,
+        1712
+    ],
+    "Curl_follow": [
+        1719,
+        1920
+    ],
+    "Curl_retry_request": [
+        1925,
+        1983
+    ],
+    "Curl_setup_transfer": [
+        1989,
+        2071
+    ]
+}
+

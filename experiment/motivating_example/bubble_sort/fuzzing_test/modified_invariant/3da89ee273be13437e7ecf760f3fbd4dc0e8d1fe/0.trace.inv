@@ -1,0 +1,68 @@
+settings:INFO:2025-04-10 05:54:02.205120: /program/dig/src/dig.py /script/motivating_example/sample_set/bubble_sort/fuzzing_test/modified_trace/3da89ee273be13437e7ecf760f3fbd4dc0e8d1fe/0.trace -log 3 --nofilter --nosimplify --seed 27
+alg:INFO:analyzing '/script/motivating_example/sample_set/bubble_sort/fuzzing_test/modified_trace/3da89ee273be13437e7ecf760f3fbd4dc0e8d1fe/0.trace'
+alg:INFO:got 1 traces over 1 locs
+alg:INFO:check 69 invs using 1 traces (0.05s)
+dummy (63 invs):
+1. i == 0
+2. j == 0
+3. temp - 1 == 0
+4. i <= 0
+5. j <= 0
+6. -j <= 0
+7. -i <= 0
+8. temp <= 1
+9. i - j <= 0
+10. i + j <= 0
+11. -i - j <= 0
+12. -temp <= -1
+13. -i + j <= 0
+14. j + temp <= 1
+15. i + temp <= 1
+16. -j + temp <= 1
+17. j - temp <= -1
+18. -i + temp <= 1
+19. i - temp <= -1
+20. -i - temp <= -1
+21. -j - temp <= -1
+22. min(i, 0) - j <= 0
+23. min(j, 0) - i <= 0
+24. i - min(j, 0) <= 0
+25. j - max(i, 0) <= 0
+26. max(i, 0) - j <= 0
+27. i - max(j, 0) <= 0
+28. max(j, 0) - i <= 0
+29. j - min(i, 0) <= 0
+30. min(temp, 0) - j <= 0
+31. min(i, temp) - j <= 0
+32. i - min(temp, 0) <= 0
+33. i - min(j, temp) <= 0
+34. min(j, temp) - i <= 0
+35. j - min(temp, 0) <= 0
+36. min(temp, 0) - i <= 0
+37. j - min(i, temp) <= 0
+38. i - min(j, temp, 0) <= 0
+39. j - min(i, temp, 0) <= 0
+40. min(j, temp, 0) - i <= 0
+41. min(i, temp, 0) - j <= 0
+42. i + 1 - max(temp, 0) <= 0
+43. temp - 1 - max(i, j) <= 0
+44. max(j, 0) - temp - 1 <= 0
+45. min(i, 0) - temp - 1 <= 0
+46. min(i, j) - temp - 1 <= 0
+47. temp - 1 - min(j, 0) <= 0
+48. j + 1 - max(i, temp) <= 0
+49. temp - 1 - max(i, 0) <= 0
+50. temp - 1 - min(i, j) <= 0
+51. min(j, 0) - temp - 1 <= 0
+52. i + 1 - max(j, temp) <= 0
+53. max(i, 0) - temp - 1 <= 0
+54. j + 1 - max(temp, 0) <= 0
+55. temp - 1 - max(j, 0) <= 0
+56. temp - 1 - min(i, 0) <= 0
+57. max(i, j) - temp - 1 <= 0
+58. max(i, j, 0) - temp - 1 <= 0
+59. j + 1 - max(i, temp, 0) <= 0
+60. i + 1 - max(j, temp, 0) <= 0
+61. temp - 1 - max(i, j, 0) <= 0
+62. min(i, j, 0) - temp - 1 <= 0
+63. temp - 1 - min(i, j, 0) <= 0

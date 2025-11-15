@@ -1,0 +1,3 @@
+location_hash,location_file,location_start_line,location_start_column,location_end_line,location_end_column,warning_in_target_file,warning_in_target_function,warning_in_target_code_block,warning_rule_id,warning_rule_name,warning_message,warning_weakness,warning_severity
+cf45da135e6dc8e642a162696fc3ce055c35853f0de5fe1865ac3d98f58a5aa7,htp/lzma/LzmaDec.c,953,13,-1,45,True,False,False,FF1004,buffer/memcpy,buffer/memcpy:Does not check for buffer overflows when copying to destination (CWE-120).,CWE-120,LOW
+df32cecb7ecdbc811d2bc92aeee0f7903473851f3939c9900e943aa74cc0f246,htp/lzma/LzmaDec.c,1069,5,-1,47,True,False,False,FF1004,buffer/memcpy,buffer/memcpy:Does not check for buffer overflows when copying to destination (CWE-120).,CWE-120,LOW

@@ -1,0 +1,500 @@
+=====================
+src/tags_int.cpp
+=====================
+{
+    "& printVersion": [
+        31,
+        38
+    ],
+    "* ifdTagList": [
+        1664,
+        1666
+    ],
+    "* exifTagList": [
+        2037,
+        2039
+    ],
+    "* gpsTagList": [
+        2225,
+        2227
+    ],
+    "* mpfTagList": [
+        2274,
+        2276
+    ],
+    "* iopTagList": [
+        2300,
+        2302
+    ],
+    "* mnTagList": [
+        2316,
+        2318
+    ],
+    "isMakerIfd": [
+        2320,
+        2327
+    ],
+    "isExifIfd": [
+        2329,
+        2358
+    ],
+    "taglist": [
+        2360,
+        2367
+    ],
+    "* tagList": [
+        3054,
+        3060
+    ],
+    "* tagInfo": [
+        2388,
+        2401
+    ],
+    "groupId": [
+        2403,
+        2409
+    ],
+    "* ifdName": [
+        2411,
+        2416
+    ],
+    "* groupName": [
+        2418,
+        2423
+    ],
+    "& printValue": [
+        2425,
+        2427
+    ],
+    "& printBitmask": [
+        2429,
+        2452
+    ],
+    "fnumber": [
+        2454,
+        2460
+    ],
+    "exposureTime": [
+        2462,
+        2479
+    ],
+    "tagNumber": [
+        2481,
+        2491
+    ],
+    "& printInt64": [
+        2493,
+        2498
+    ],
+    "& printFloat": [
+        2500,
+        2508
+    ],
+    "& printDegrees": [
+        2510,
+        2542
+    ],
+    "& printUcs2": [
+        2544,
+        2571
+    ],
+    "& printExifUnit": [
+        2573,
+        2575
+    ],
+    "& print0x0000": [
+        2577,
+        2589
+    ],
+    "& print0x0005": [
+        2591,
+        2593
+    ],
+    "& print0x0006": [
+        2595,
+        2608
+    ],
+    "& print0x0007": [
+        2610,
+        2643
+    ],
+    "& print0x0009": [
+        2645,
+        2647
+    ],
+    "& print0x000a": [
+        2649,
+        2651
+    ],
+    "& print0x000c": [
+        2653,
+        2655
+    ],
+    "& print0x0019": [
+        2657,
+        2659
+    ],
+    "& print0x001e": [
+        2661,
+        2663
+    ],
+    "& print0x0112": [
+        2665,
+        2667
+    ],
+    "& print0x0213": [
+        2671,
+        2673
+    ],
+    "& print0x8298": [
+        2675,
+        2693
+    ],
+    "& print0x829a": [
+        2695,
+        2714
+    ],
+    "& print0x829d": [
+        2716,
+        2729
+    ],
+    "& print0x8822": [
+        2737,
+        2739
+    ],
+    "& print0x8827": [
+        2741,
+        2743
+    ],
+    "& print0x9101": [
+        2745,
+        2775
+    ],
+    "& print0x9201": [
+        2777,
+        2788
+    ],
+    "& print0x9202": [
+        2790,
+        2801
+    ],
+    "& print0x9204": [
+        2803,
+        2821
+    ],
+    "& print0x9206": [
+        2823,
+        2840
+    ],
+    "& print0x9207": [
+        2849,
+        2851
+    ],
+    "& print0x9208": [
+        2853,
+        2855
+    ],
+    "& print0x920a": [
+        2857,
+        2870
+    ],
+    "& print0xa001": [
+        2878,
+        2880
+    ],
+    "& print0xa217": [
+        2891,
+        2893
+    ],
+    "& print0xa300": [
+        2901,
+        2903
+    ],
+    "& print0xa301": [
+        2908,
+        2910
+    ],
+    "& print0xa401": [
+        2915,
+        2917
+    ],
+    "& print0xa402": [
+        2922,
+        2924
+    ],
+    "& print0xa403": [
+        2929,
+        2931
+    ],
+    "& print0xa404": [
+        2933,
+        2946
+    ],
+    "& print0xa405": [
+        2948,
+        2956
+    ],
+    "& print0xa406": [
+        2967,
+        2969
+    ],
+    "& print0xa407": [
+        2978,
+        2980
+    ],
+    "& print0xa409": [
+        2985,
+        2987
+    ],
+    "& print0xa40c": [
+        2998,
+        3000
+    ],
+    "& printGPSDirRef": [
+        3002,
+        3004
+    ],
+    "& printNormalSoftHard": [
+        3009,
+        3011
+    ],
+    "& printExifVersion": [
+        3013,
+        3025
+    ],
+    "& printXmpVersion": [
+        3027,
+        3033
+    ],
+    "& printXmpDate": [
+        3035,
+        3048
+    ],
+    "* groupList": [
+        3050,
+        3052
+    ]
+}
+
+=====================
+src/types.cpp
+=====================
+{
+    "operator==": [
+        34,
+        36
+    ],
+    "* TypeInfo::typeName": [
+        72,
+        77
+    ],
+    "TypeInfo::typeId": [
+        79,
+        84
+    ],
+    "TypeInfo::typeSize": [
+        86,
+        91
+    ],
+    "DataBuf::DataBuf": [
+        96,
+        98
+    ],
+    "DataBuf::alloc": [
+        100,
+        102
+    ],
+    "DataBuf::resize": [
+        104,
+        106
+    ],
+    "DataBuf::reset": [
+        108,
+        110
+    ],
+    "Exiv2::DataBuf::read_uint8": [
+        112,
+        117
+    ],
+    "Exiv2::DataBuf::write_uint8": [
+        119,
+        124
+    ],
+    "Exiv2::DataBuf::read_uint16": [
+        126,
+        131
+    ],
+    "Exiv2::DataBuf::write_uint16": [
+        133,
+        138
+    ],
+    "Exiv2::DataBuf::read_uint32": [
+        140,
+        145
+    ],
+    "Exiv2::DataBuf::write_uint32": [
+        147,
+        152
+    ],
+    "Exiv2::DataBuf::read_uint64": [
+        154,
+        159
+    ],
+    "Exiv2::DataBuf::write_uint64": [
+        161,
+        166
+    ],
+    "Exiv2::DataBuf::cmpBytes": [
+        168,
+        173
+    ],
+    "* Exiv2::DataBuf::data": [
+        175,
+        177
+    ],
+    "* Exiv2::DataBuf::c_data": [
+        179,
+        187
+    ],
+    "* Exiv2::DataBuf::c_str": [
+        189,
+        191
+    ],
+    "checkDataBufBounds": [
+        196,
+        200
+    ],
+    "makeSlice": [
+        207,
+        210
+    ],
+    "& operator<<": [
+        242,
+        244
+    ],
+    "& fromStreamToRational": [
+        217,
+        236
+    ],
+    "& operator>>": [
+        246,
+        248
+    ],
+    "getUShort": [
+        250,
+        252
+    ],
+    "getULong": [
+        254,
+        259
+    ],
+    "getULongLong": [
+        261,
+        272
+    ],
+    "getURational": [
+        274,
+        278
+    ],
+    "getShort": [
+        280,
+        285
+    ],
+    "getLong": [
+        287,
+        292
+    ],
+    "getRational": [
+        294,
+        298
+    ],
+    "getFloat": [
+        300,
+        310
+    ],
+    "getDouble": [
+        312,
+        333
+    ],
+    "us2Data": [
+        335,
+        344
+    ],
+    "ul2Data": [
+        346,
+        359
+    ],
+    "ull2Data": [
+        361,
+        374
+    ],
+    "ur2Data": [
+        376,
+        380
+    ],
+    "s2Data": [
+        382,
+        391
+    ],
+    "l2Data": [
+        393,
+        406
+    ],
+    "r2Data": [
+        408,
+        412
+    ],
+    "f2Data": [
+        414,
+        424
+    ],
+    "d2Data": [
+        426,
+        456
+    ],
+    "hexdump": [
+        458,
+        477
+    ],
+    "isHex": [
+        479,
+        490
+    ],
+    "exifTime": [
+        492,
+        506
+    ],
+    "* exvGettext": [
+        508,
+        514
+    ],
+    "stringTo<bool>": [
+        517,
+        533
+    ],
+    "parseInt64": [
+        535,
+        559
+    ],
+    "parseUint32": [
+        561,
+        568
+    ],
+    "parseFloat": [
+        570,
+        590
+    ],
+    "parseRational": [
+        592,
+        611
+    ],
+    "floatToRationalCast": [
+        613,
+        636
+    ],
+    "* _exvGettext": [
+        642,
+        657
+    ]
+}
+

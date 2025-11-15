@@ -1,0 +1,54 @@
+settings:INFO:2025-04-10 10:16:58.130107: /program/dig/src/dig.py /script/motivating_example/sample_set/second_max/fuzzing_test/modified_trace/96f634e0806f0dd7c926d6c018dfcbf900f39e30/0.trace -log 3 --nofilter --nosimplify --seed 27
+alg:INFO:analyzing '/script/motivating_example/sample_set/second_max/fuzzing_test/modified_trace/96f634e0806f0dd7c926d6c018dfcbf900f39e30/0.trace'
+alg:INFO:got 3 traces over 1 locs
+alg:INFO:check 49 invs using 3 traces (0.06s)
+dummy (49 invs):
+1. count - 3 == 0
+2. a - max_ + 4294934510*sec_ + 9223301629455892480 == 0
+3. count <= 3
+4. -count <= -3
+5. a - max_ <= 0
+6. -a + sec_ <= 0
+7. a - max(max_, 0) <= 0
+8. sec_ - min(a, 0) <= 0
+9. min(sec_, 0) - a <= 0
+10. min(a, 0) - max_ <= 0
+11. sec_ - min(a, max_) <= 0
+12. a - max(max_, sec_) <= 0
+13. max(a, sec_) - max_ <= 0
+14. min(max_, sec_) - a <= 0
+15. sec_ - min(a, count) <= 0
+16. min(a, count) - max_ <= 0
+17. min(count, sec_) - a <= 0
+18. a - max(count, max_) <= 0
+19. a - max(max_, sec_, 0) <= 0
+20. sec_ - min(a, max_, 0) <= 0
+21. min(max_, sec_, 0) - a <= 0
+22. min(a, count, 0) - max_ <= 0
+23. min(count, sec_, 0) - a <= 0
+24. a - max(count, max_, 0) <= 0
+25. sec_ - min(a, count, 0) <= 0
+26. sec_ - min(a, count, max_) <= 0
+27. min(count, max_, sec_) - a <= 0
+28. a - max(count, max_, sec_) <= 0
+29. min(count, max_, sec_, 0) - a <= 0
+30. a - max(count, max_, sec_, 0) <= 0
+31. sec_ - min(a, count, max_, 0) <= 0
+32. a === 1 (mod 2)
+33. -a === 1 (mod 2)
+34. a + max_ === 0 (mod 2)
+35. a - sec_ === 0 (mod 7)
+36. a + count === 0 (mod 2)
+37. -a - max_ === 0 (mod 2)
+38. -a + sec_ === 0 (mod 7)
+39. a - count === 0 (mod 2)
+40. -a - count === 0 (mod 2)
+41. -a + count === 0 (mod 2)
+42. a - max_ === 0 (mod 4294934510)
+43. -a + max_ === 0 (mod 4294934510)
+44. -max_ === 32769 (mod 2147483632)
+45. max_ === 2147450863 (mod 2147483632)
+46. count - max_ === 32772 (mod 2147483632)
+47. -count - max_ === 32766 (mod 2147483632)
+48. count + max_ === 2147450866 (mod 2147483632)
+49. -count + max_ === 2147450860 (mod 2147483632)

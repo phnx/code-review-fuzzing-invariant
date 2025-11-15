@@ -1,0 +1,105 @@
+(lldb) target create "modified_fuzz"
+Current executable set to '/script/motivating_example/sample_set/gcd/modified_fuzz' (x86_64).
+(lldb) command source -s 0 '/script/motivating_example/sample_set/gcd/fuzzing_test/modified_debug/script/3dd4a6c74f683c8f21b39e5e7b8d5cdda31ab949/batch.lldb'
+Executing commands in '/script/motivating_example/sample_set/gcd/fuzzing_test/modified_debug/script/3dd4a6c74f683c8f21b39e5e7b8d5cdda31ab949/batch.lldb'.
+(lldb) settings set interpreter.stop-command-source-on-error 0
+(lldb) settings set auto-confirm 1
+(lldb) breakpoint set --file /script/motivating_example/sample_set/gcd/modified.c --line 9
+Breakpoint 1: where = modified_fuzz`gcd + 121 at modified.c:9:9, address = 0x0000000000067429
+(lldb) breakpoint command add 1
+(lldb) run /script/motivating_example/sample_set/gcd/fuzzing_test/modified_inputs/3dd4a6c74f683c8f21b39e5e7b8d5cdda31ab949
+INFO: Running with entropic power schedule (0xFF, 100).
+INFO: Seed: 2379439958
+INFO: Loaded 1 modules   (10 inline 8-bit counters): 10 [0x5555555defb0, 0x5555555defba), 
+INFO: Loaded 1 PC tables (10 PCs): 10 [0x5555555defc0,0x5555555df060), 
+/script/motivating_example/sample_set/gcd/modified_fuzz: Running 1 inputs 1 time(s) each.
+Running: /script/motivating_example/sample_set/gcd/fuzzing_test/modified_inputs/3dd4a6c74f683c8f21b39e5e7b8d5cdda31ab949
+(lldb)  frame info
+frame #0: 0x00005555555bb429 modified_fuzz`gcd(a=1048592, b=16501) at modified.c:9:9
+(lldb)  frame variable a -f dec 
+(int) a = 1048592
+(lldb)  frame variable b -f dec 
+(int) b = 16501
+(lldb)  continue
+Process 73121 resuming
+Command #5 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb429 modified_fuzz`gcd(a=1039563, b=9029) at modified.c:9:9
+(lldb)  frame variable a -f dec 
+(int) a = 1039563
+(lldb)  frame variable b -f dec 
+(int) b = 9029
+(lldb)  continue
+Process 73121 resuming
+Command #5 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb429 modified_fuzz`gcd(a=1038335, b=1228) at modified.c:9:9
+(lldb)  frame variable a -f dec 
+(int) a = 1038335
+(lldb)  frame variable b -f dec 
+(int) b = 1228
+(lldb)  continue
+Process 73121 resuming
+Command #5 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb429 modified_fuzz`gcd(a=1037660, b=675) at modified.c:9:9
+(lldb)  frame variable a -f dec 
+(int) a = 1037660
+(lldb)  frame variable b -f dec 
+(int) b = 675
+(lldb)  continue
+Process 73121 resuming
+Command #5 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb429 modified_fuzz`gcd(a=1037475, b=185) at modified.c:9:9
+(lldb)  frame variable a -f dec 
+(int) a = 1037475
+(lldb)  frame variable b -f dec 
+(int) b = 185
+(lldb)  continue
+Process 73121 resuming
+Command #5 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb429 modified_fuzz`gcd(a=1037295, b=180) at modified.c:9:9
+(lldb)  frame variable a -f dec 
+(int) a = 1037295
+(lldb)  frame variable b -f dec 
+(int) b = 180
+(lldb)  continue
+Process 73121 resuming
+Command #5 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb429 modified_fuzz`gcd(a=1037160, b=135) at modified.c:9:9
+(lldb)  frame variable a -f dec 
+(int) a = 1037160
+(lldb)  frame variable b -f dec 
+(int) b = 135
+(lldb)  continue
+Process 73121 resuming
+Command #5 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb429 modified_fuzz`gcd(a=1037070, b=90) at modified.c:9:9
+(lldb)  frame variable a -f dec 
+(int) a = 1037070
+(lldb)  frame variable b -f dec 
+(int) b = 90
+(lldb)  continue
+Process 73121 resuming
+Command #5 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb429 modified_fuzz`gcd(a=1037070, b=0) at modified.c:9:9
+(lldb)  frame variable a -f dec 
+(int) a = 1037070
+(lldb)  frame variable b -f dec 
+(int) b = 0
+(lldb)  continue
+Process 73121 resuming
+Command #5 'continue' continued the target.
+Executed /script/motivating_example/sample_set/gcd/fuzzing_test/modified_inputs/3dd4a6c74f683c8f21b39e5e7b8d5cdda31ab949 in 30 ms
+***
+*** NOTE: fuzzing was not performed, you have only
+***       executed the target code on a fixed set of inputs.
+***
+Process 73121 exited with status = 0 (0x00000000)
+Process 73121 launched: '/script/motivating_example/sample_set/gcd/modified_fuzz' (x86_64)
+(lldb) quit

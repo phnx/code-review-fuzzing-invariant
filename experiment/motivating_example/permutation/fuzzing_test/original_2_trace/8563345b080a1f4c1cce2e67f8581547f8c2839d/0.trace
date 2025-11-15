@@ -1,0 +1,5 @@
+dummy; I i; I index; I curr_val;
+dummy; 1; 1; 43;
+dummy; 0; 0; 48;
+dummy; 0; 1; 48;
+dummy; 1; 0; 43;

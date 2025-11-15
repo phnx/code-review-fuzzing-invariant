@@ -1,0 +1,2 @@
+location_hash,location_file,location_start_line,location_start_column,location_end_line,location_end_column,warning_in_target_file,warning_in_target_function,warning_in_target_code_block,warning_rule_id,warning_rule_name,warning_message,warning_weakness,warning_severity
+c77c1732a03004c4:1,src/lib/protocols/snmp_proto.c,27,-1,-1,25,True,False,False,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW

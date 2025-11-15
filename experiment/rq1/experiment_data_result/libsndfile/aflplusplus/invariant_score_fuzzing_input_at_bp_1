@@ -1,0 +1,10 @@
+id:000021,time:0,execs:0,orig:chanmap.aifc
+id:000376,src:000021,time:5272,execs:43898,op:inf,rep:1,+cov
+id:000379,src:000021,time:5275,execs:43958,op:quick,pos:13
+id:000382,src:000021,time:5276,execs:43992,op:quick,pos:26,+cov
+id:000383,src:000021,time:5277,execs:44002,op:quick,pos:29,+cov
+id:000387,src:000021,time:5279,execs:44043,op:quick,pos:42,+cov
+id:000390,src:000021,time:5289,execs:44082,op:quick,pos:60,+cov
+id:000393,src:000021,time:5324,execs:44542,op:flip32,pos:26,+cov
+id:000398,src:000021,time:5469,execs:46605,op:int32,pos:26,val:+0,+cov
+id:000403,src:000021,time:5694,execs:48584,op:havoc,rep:4,+cov

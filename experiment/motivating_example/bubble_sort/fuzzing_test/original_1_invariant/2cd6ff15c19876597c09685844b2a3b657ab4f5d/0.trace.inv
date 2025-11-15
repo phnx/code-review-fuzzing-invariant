@@ -1,0 +1,17 @@
+settings:INFO:2025-04-10 06:12:26.405783: /program/dig/src/dig.py /script/motivating_example/sample_set/bubble_sort/fuzzing_test/original_1_trace/2cd6ff15c19876597c09685844b2a3b657ab4f5d/0.trace -log 3 --nofilter --nosimplify --seed 27
+alg:INFO:analyzing '/script/motivating_example/sample_set/bubble_sort/fuzzing_test/original_1_trace/2cd6ff15c19876597c09685844b2a3b657ab4f5d/0.trace'
+alg:INFO:got 3219 traces over 1 locs
+infer.eqt:WARNING:NO EQTS RESULTS, reducing deg to 6
+infer.eqt:WARNING:NO EQTS RESULTS, reducing deg to 5
+infer.eqt:WARNING:NO EQTS RESULTS, reducing deg to 4
+alg:INFO:check 11 invs using 3219 traces (4.44s)
+dummy (9 invs):
+1. -j <= 0
+2. -i <= 0
+3. -i - j <= -4
+4. min(i, 0) - j <= 0
+5. min(j, 0) - i <= 0
+6. min(temp, 0) - i <= 0
+7. min(j, temp, 0) - i <= 0
+8. min(temp, 0) - j - 1 <= 0
+9. min(i, temp, 0) - j - 1 <= 0

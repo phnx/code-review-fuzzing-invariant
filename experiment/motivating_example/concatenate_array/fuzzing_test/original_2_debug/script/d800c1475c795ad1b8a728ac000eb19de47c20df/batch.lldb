@@ -1,0 +1,27 @@
+
+settings set interpreter.stop-command-source-on-error 0
+settings set auto-confirm 1
+breakpoint set --file /script/motivating_example/sample_set/concatenate_array/original_2.c --line 14
+breakpoint command add 1
+frame info
+frame variable dest_pos -f dec 
+frame variable orig_pos -f dec 
+frame variable val -f dec 
+
+continue
+DONE
+
+breakpoint set --file /script/motivating_example/sample_set/concatenate_array/original_2.c --line 23
+breakpoint command add 2
+frame info
+frame variable dest_pos -f dec 
+frame variable orig_pos -f dec 
+frame variable val -f dec 
+
+continue
+DONE
+
+
+
+run /script/motivating_example/sample_set/concatenate_array/fuzzing_test/modified_inputs/d800c1475c795ad1b8a728ac000eb19de47c20df
+quit

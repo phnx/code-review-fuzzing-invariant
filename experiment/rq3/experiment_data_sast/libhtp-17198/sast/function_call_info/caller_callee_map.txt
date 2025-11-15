@@ -1,0 +1,113 @@
+=====================
+htp/lzma/LzmaDec.c
+=====================
+{
+    "MY_FAST_CALL LZMA_DECODE_REAL": [
+        "CALC_POS_STATE",
+        "UPDATE_1",
+        "UPDATE_1",
+        "UPDATE_1",
+        "IF_BIT_0",
+        "UPDATE_0",
+        "UPDATE_1",
+        "IF_BIT_0",
+        "UPDATE_0",
+        "UPDATE_1",
+        "UPDATE_1",
+        "UPDATE_1",
+        "TREE_DECODE",
+        "UPDATE_1",
+        "UPDATE_1",
+        "TREE_DECODE",
+        "TREE_6_DECODE",
+        "REV_BIT_VAR",
+        "REV_BIT_CONST",
+        "REV_BIT_CONST",
+        "REV_BIT_CONST",
+        "REV_BIT_LAST"
+    ],
+    "IF_BIT_0": [
+        "UPDATE_0",
+        "TREE_GET_BIT",
+        "TREE_GET_BIT",
+        "TREE_GET_BIT"
+    ],
+    "MY_FAST_CALL LzmaDec_WriteRem": [],
+    "MY_FAST_CALL LzmaDec_DecodeReal2": [
+        "RINOK",
+        "LZMA_DECODE_REAL",
+        "LzmaDec_WriteRem"
+    ],
+    "LzmaDec_TryDummy": [
+        "CALC_POS_STATE",
+        "IF_BIT_0_CHECK",
+        "IF_BIT_0_CHECK",
+        "IF_BIT_0_CHECK",
+        "IF_BIT_0_CHECK",
+        "IF_BIT_0_CHECK"
+    ],
+    "IF_BIT_0_CHECK": [],
+    "LzmaDec_InitDicAndState": [],
+    "LzmaDec_Init": [
+        "LzmaDec_InitDicAndState"
+    ],
+    "LzmaDec_DecodeToDic": [
+        "LzmaProps_GetNumProbs",
+        "LzmaDec_WriteRem",
+        "LzmaDec_TryDummy",
+        "memcpy",
+        "LzmaDec_DecodeReal2",
+        "",
+        "LzmaDec_TryDummy",
+        "LzmaDec_DecodeReal2"
+    ],
+    "LzmaDec_DecodeToBuf": [
+        "realloc",
+        "LzmaDec_DecodeToDic",
+        "memcpy"
+    ],
+    "LzmaDec_FreeProbs": [
+        "ISzAlloc_Free"
+    ],
+    "LzmaDec_FreeDict": [
+        "ISzAlloc_Free"
+    ],
+    "LzmaDec_Free": [
+        "LzmaDec_FreeProbs",
+        "LzmaDec_FreeDict"
+    ],
+    "LzmaProps_Decode": [
+        "",
+        "",
+        ""
+    ],
+    "LzmaDec_AllocateProbs2": [
+        "LzmaProps_GetNumProbs",
+        "LzmaDec_FreeProbs",
+        "ISzAlloc_Alloc"
+    ],
+    "LzmaDec_AllocateProbs": [
+        "RINOK",
+        "LzmaProps_Decode",
+        "RINOK",
+        "LzmaDec_AllocateProbs2"
+    ],
+    "LzmaDec_Allocate": [
+        "RINOK",
+        "LzmaProps_Decode",
+        "RINOK",
+        "LzmaDec_AllocateProbs2",
+        "LzmaDec_FreeDict",
+        "ISzAlloc_Alloc",
+        "LzmaDec_FreeProbs"
+    ],
+    "LzmaDecode": [
+        "LzmaDec_Construct",
+        "RINOK",
+        "LzmaDec_AllocateProbs",
+        "LzmaDec_Init",
+        "LzmaDec_DecodeToDic",
+        "LzmaDec_FreeProbs"
+    ]
+}
+

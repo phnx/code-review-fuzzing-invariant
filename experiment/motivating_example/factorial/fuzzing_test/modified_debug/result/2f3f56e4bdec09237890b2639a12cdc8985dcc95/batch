@@ -1,0 +1,24 @@
+(lldb) target create "modified_fuzz"
+Current executable set to '/script/motivating_example/sample_set/factorial/modified_fuzz' (x86_64).
+(lldb) command source -s 0 '/script/motivating_example/sample_set/factorial/fuzzing_test/modified_debug/script/2f3f56e4bdec09237890b2639a12cdc8985dcc95/batch.lldb'
+Executing commands in '/script/motivating_example/sample_set/factorial/fuzzing_test/modified_debug/script/2f3f56e4bdec09237890b2639a12cdc8985dcc95/batch.lldb'.
+(lldb) settings set interpreter.stop-command-source-on-error 0
+(lldb) settings set auto-confirm 1
+(lldb) breakpoint set --file /script/motivating_example/sample_set/factorial/modified.c --line 11
+Breakpoint 1: where = modified_fuzz`factorial + 131 at modified.c:11:9, address = 0x0000000000067413
+(lldb) breakpoint command add 1
+(lldb) run /script/motivating_example/sample_set/factorial/fuzzing_test/modified_inputs/2f3f56e4bdec09237890b2639a12cdc8985dcc95
+INFO: Running with entropic power schedule (0xFF, 100).
+INFO: Seed: 837437396
+INFO: Loaded 1 modules   (8 inline 8-bit counters): 8 [0x5555555defb0, 0x5555555defb8), 
+INFO: Loaded 1 PC tables (8 PCs): 8 [0x5555555defb8,0x5555555df038), 
+/script/motivating_example/sample_set/factorial/modified_fuzz: Running 1 inputs 1 time(s) each.
+Running: /script/motivating_example/sample_set/factorial/fuzzing_test/modified_inputs/2f3f56e4bdec09237890b2639a12cdc8985dcc95
+Executed /script/motivating_example/sample_set/factorial/fuzzing_test/modified_inputs/2f3f56e4bdec09237890b2639a12cdc8985dcc95 in 0 ms
+***
+*** NOTE: fuzzing was not performed, you have only
+***       executed the target code on a fixed set of inputs.
+***
+Process 144300 exited with status = 0 (0x00000000)
+Process 144300 launched: '/script/motivating_example/sample_set/factorial/modified_fuzz' (x86_64)
+(lldb) quit

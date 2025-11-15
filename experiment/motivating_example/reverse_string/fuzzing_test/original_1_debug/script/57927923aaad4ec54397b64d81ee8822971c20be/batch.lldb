@@ -1,0 +1,17 @@
+
+settings set interpreter.stop-command-source-on-error 0
+settings set auto-confirm 1
+breakpoint set --file /script/motivating_example/sample_set/reverse_string/original_1.c --line 18
+breakpoint command add 1
+frame info
+frame variable start -f dec 
+frame variable end -f dec 
+frame variable temp -f dec 
+
+continue
+DONE
+
+
+
+run /script/motivating_example/sample_set/reverse_string/fuzzing_test/modified_inputs/57927923aaad4ec54397b64d81ee8822971c20be
+quit

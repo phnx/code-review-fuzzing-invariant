@@ -1,0 +1,6 @@
+"src/OT/Layout/GPOS/MarkBasePosFormat1.hh","OT::Layout::GPOS_impl::MarkBasePosFormat1_2::get_coverage() const","91","1","11","0","1"
+"src/OT/Layout/GPOS/MarkBasePosFormat1.hh","OT::Layout::GPOS_impl::MarkBasePosFormat1_2::accept( hb_buffer_t * buffer , unsigned idx)","93-94-95-97-98-100-101-102-103-104-105-106-107-108-109-110","13","120","2","7"
+"src/OT/Layout/GPOS/MarkBasePosFormat1.hh","OT::Layout::GPOS_impl::MarkBasePosFormat1_2::apply( hb_ot_apply_context_t * c) const","112-113-114-115-116-117-118-119-120-121-122-123-124-125-126-127-128-129-131-132-134-135-136-137-138-139-141-142-144","38","287","1","8"
+"src/OT/Layout/GPOS/MarkLigPosFormat1.hh","OT::Layout::GPOS_impl::MarkLigPosFormat1_2::apply( hb_ot_apply_context_t * c) const","100-102-103-104-105-106-107-108-109-110-111-113-114-116-117-118-119","49","400","1","10"
+"src/hb-ot-layout-gsubgpos.hh","OT::hb_ot_apply_context_t::init_iters()","750-751-753-754","5","23","0","1"
+"src/hb-ot-layout-gsubgpos.hh","OT::hb_ot_apply_context_t::set_lookup_mask( hb_mask_t mask)","756","1","24","1","1"

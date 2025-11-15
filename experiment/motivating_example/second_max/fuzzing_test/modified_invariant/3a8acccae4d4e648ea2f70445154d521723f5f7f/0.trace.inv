@@ -1,0 +1,22 @@
+settings:INFO:2025-04-10 10:15:57.302828: /program/dig/src/dig.py /script/motivating_example/sample_set/second_max/fuzzing_test/modified_trace/3a8acccae4d4e648ea2f70445154d521723f5f7f/0.trace -log 3 --nofilter --nosimplify --seed 27
+alg:INFO:analyzing '/script/motivating_example/sample_set/second_max/fuzzing_test/modified_trace/3a8acccae4d4e648ea2f70445154d521723f5f7f/0.trace'
+alg:INFO:got 90 traces over 1 locs
+infer.eqt:WARNING:NO EQTS RESULTS, reducing deg to 4
+infer.eqt:WARNING:NO EQTS RESULTS, reducing deg to 3
+infer.eqt:WARNING:NO EQTS RESULTS, reducing deg to 2
+infer.eqt:WARNING:NO EQTS RESULTS, reducing deg to 1
+infer.eqt:WARNING:NO EQTS RESULTS, reducing deg to 0
+alg:INFO:check 12 invs using 90 traces (0.12s)
+dummy (12 invs):
+1. a - max_ <= 0
+2. a - max(max_, 0) <= 0
+3. min(a, 0) - max_ <= 0
+4. a - max(max_, sec_) <= 0
+5. max(a, sec_) - max_ <= 0
+6. min(a, count) - max_ <= 0
+7. a - max(count, max_) <= 0
+8. a - max(max_, sec_, 0) <= 0
+9. a - max(count, max_, 0) <= 0
+10. min(a, count, 0) - max_ <= 0
+11. a - max(count, max_, sec_) <= 0
+12. a - max(count, max_, sec_, 0) <= 0

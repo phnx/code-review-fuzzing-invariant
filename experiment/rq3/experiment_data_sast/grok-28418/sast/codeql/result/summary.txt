@@ -1,0 +1,7 @@
+total warnings: 307
+total warnings in target files: 17
+total warnings in target functions: 0
+total warnings in target blocks: 0
+total target files: 2
+total target functions: 9
+total target blocks: 9

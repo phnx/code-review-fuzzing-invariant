@@ -1,0 +1,170 @@
+=====================
+usrsctplib/netinet/sctp_asconf.c
+=====================
+{
+    "*\nsctp_asconf_success_response": [
+        83,
+        104
+    ],
+    "*\nsctp_asconf_error_response": [
+        106,
+        155
+    ],
+    "*\nsctp_process_asconf_add_ip": [
+        157,
+        290
+    ],
+    "sctp_asconf_del_remote_addrs_except": [
+        292,
+        319
+    ],
+    "*\nsctp_process_asconf_delete_ip": [
+        321,
+        461
+    ],
+    "*\nsctp_process_asconf_set_primary": [
+        463,
+        619
+    ],
+    "sctp_handle_asconf": [
+        625,
+        861
+    ],
+    "sctp_asconf_addr_match": [
+        866,
+        901
+    ],
+    "sctp_addr_match": [
+        906,
+        953
+    ],
+    "sctp_asconf_cleanup": [
+        957,
+        968
+    ],
+    "sctp_asconf_nets_cleanup": [
+        974,
+        1010
+    ],
+    "sctp_assoc_immediate_retrans": [
+        1013,
+        1059
+    ],
+    "sctp_net_immediate_retrans": [
+        1065,
+        1090
+    ],
+    "sctp_path_check_and_react": [
+        1092,
+        1189
+    ],
+    "sctp_asconf_addr_mgmt_ack": [
+        1198,
+        1227
+    ],
+    "sctp_asconf_queue_mgmt": [
+        1238,
+        1354
+    ],
+    "sctp_asconf_queue_add": [
+        1363,
+        1448
+    ],
+    "sctp_asconf_queue_sa_delete": [
+        1459,
+        1558
+    ],
+    "*\nsctp_asconf_find_param": [
+        1563,
+        1577
+    ],
+    "sctp_asconf_process_error": [
+        1583,
+        1628
+    ],
+    "sctp_asconf_process_param_ack": [
+        1635,
+        1669
+    ],
+    "sctp_asconf_ack_clear": [
+        1674,
+        1680
+    ],
+    "sctp_handle_asconf_ack": [
+        1682,
+        1870
+    ],
+    "sctp_is_scopeid_in_nets": [
+        1873,
+        1903
+    ],
+    "sctp_addr_mgmt_assoc": [
+        1909,
+        2047
+    ],
+    "sctp_asconf_iterator_ep": [
+        2050,
+        2093
+    ],
+    "sctp_asconf_iterator_ep_end": [
+        2095,
+        2125
+    ],
+    "sctp_asconf_iterator_stcb": [
+        2127,
+        2299
+    ],
+    "sctp_asconf_iterator_end": [
+        2301,
+        2320
+    ],
+    "sctp_set_primary_ip_address_sa": [
+        2326,
+        2364
+    ],
+    "sctp_is_addr_pending": [
+        2366,
+        2456
+    ],
+    "*\nsctp_find_valid_localaddr": [
+        2458,
+        2557
+    ],
+    "*\nsctp_find_valid_localaddr_ep": [
+        2559,
+        2578
+    ],
+    "*\nsctp_compose_asconf": [
+        2584,
+        2771
+    ],
+    "sctp_process_initack_addresses": [
+        2781,
+        2912
+    ],
+    "sctp_addr_in_initack": [
+        2919,
+        3037
+    ],
+    "sctp_check_address_list_ep": [
+        3044,
+        3073
+    ],
+    "sctp_check_address_list_all": [
+        3079,
+        3168
+    ],
+    "sctp_check_address_list": [
+        3178,
+        3201
+    ],
+    "sctp_addr_mgmt_ep_sa": [
+        3206,
+        3305
+    ],
+    "sctp_asconf_send_nat_state_update": [
+        3307,
+        3538
+    ]
+}
+

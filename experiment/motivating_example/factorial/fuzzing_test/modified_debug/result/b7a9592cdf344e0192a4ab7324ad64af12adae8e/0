@@ -1,0 +1,78 @@
+(lldb) target create "modified_fuzz"
+Current executable set to '/script/motivating_example/sample_set/factorial/modified_fuzz' (x86_64).
+(lldb) command source -s 0 '/script/motivating_example/sample_set/factorial/fuzzing_test/modified_debug/script/b7a9592cdf344e0192a4ab7324ad64af12adae8e/batch.lldb'
+Executing commands in '/script/motivating_example/sample_set/factorial/fuzzing_test/modified_debug/script/b7a9592cdf344e0192a4ab7324ad64af12adae8e/batch.lldb'.
+(lldb) settings set interpreter.stop-command-source-on-error 0
+(lldb) settings set auto-confirm 1
+(lldb) breakpoint set --file /script/motivating_example/sample_set/factorial/modified.c --line 11
+Breakpoint 1: where = modified_fuzz`factorial + 131 at modified.c:11:9, address = 0x0000000000067413
+(lldb) breakpoint command add 1
+(lldb) run /script/motivating_example/sample_set/factorial/fuzzing_test/modified_inputs/b7a9592cdf344e0192a4ab7324ad64af12adae8e
+INFO: Running with entropic power schedule (0xFF, 100).
+INFO: Seed: 1587711345
+INFO: Loaded 1 modules   (8 inline 8-bit counters): 8 [0x5555555defb0, 0x5555555defb8), 
+INFO: Loaded 1 PC tables (8 PCs): 8 [0x5555555defb8,0x5555555df038), 
+/script/motivating_example/sample_set/factorial/modified_fuzz: Running 1 inputs 1 time(s) each.
+Running: /script/motivating_example/sample_set/factorial/fuzzing_test/modified_inputs/b7a9592cdf344e0192a4ab7324ad64af12adae8e
+(lldb)  frame info
+frame #0: 0x00005555555bb413 modified_fuzz`factorial(n=7) at modified.c:11:9
+(lldb)  frame variable i -f dec 
+(unsigned int) i = 2
+(lldb)  frame variable result -f dec 
+(unsigned long) result = 1
+(lldb)  continue
+Process 144765 resuming
+Command #5 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb413 modified_fuzz`factorial(n=7) at modified.c:11:9
+(lldb)  frame variable i -f dec 
+(unsigned int) i = 3
+(lldb)  frame variable result -f dec 
+(unsigned long) result = 2
+(lldb)  continue
+Process 144765 resuming
+Command #5 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb413 modified_fuzz`factorial(n=7) at modified.c:11:9
+(lldb)  frame variable i -f dec 
+(unsigned int) i = 4
+(lldb)  frame variable result -f dec 
+(unsigned long) result = 6
+(lldb)  continue
+Process 144765 resuming
+Command #5 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb413 modified_fuzz`factorial(n=7) at modified.c:11:9
+(lldb)  frame variable i -f dec 
+(unsigned int) i = 5
+(lldb)  frame variable result -f dec 
+(unsigned long) result = 24
+(lldb)  continue
+Process 144765 resuming
+Command #5 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb413 modified_fuzz`factorial(n=7) at modified.c:11:9
+(lldb)  frame variable i -f dec 
+(unsigned int) i = 6
+(lldb)  frame variable result -f dec 
+(unsigned long) result = 120
+(lldb)  continue
+Process 144765 resuming
+Command #5 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb413 modified_fuzz`factorial(n=7) at modified.c:11:9
+(lldb)  frame variable i -f dec 
+(unsigned int) i = 7
+(lldb)  frame variable result -f dec 
+(unsigned long) result = 720
+(lldb)  continue
+Process 144765 resuming
+Command #5 'continue' continued the target.
+Executed /script/motivating_example/sample_set/factorial/fuzzing_test/modified_inputs/b7a9592cdf344e0192a4ab7324ad64af12adae8e in 18 ms
+***
+*** NOTE: fuzzing was not performed, you have only
+***       executed the target code on a fixed set of inputs.
+***
+Process 144765 exited with status = 0 (0x00000000)
+Process 144765 launched: '/script/motivating_example/sample_set/factorial/modified_fuzz' (x86_64)
+(lldb) quit

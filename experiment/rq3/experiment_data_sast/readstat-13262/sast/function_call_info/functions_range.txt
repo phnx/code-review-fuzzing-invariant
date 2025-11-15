@@ -1,0 +1,110 @@
+=====================
+src/sas/readstat_sas7bdat_read.c
+=====================
+{
+    "sas7bdat_ctx_free": [
+        83,
+        115
+    ],
+    "sas7bdat_update_progress": [
+        117,
+        120
+    ],
+    "sas7bdat_parse_column_text_subheader": [
+        122,
+        157
+    ],
+    "sas7bdat_realloc_col_info": [
+        159,
+        168
+    ],
+    "sas7bdat_parse_column_size_subheader": [
+        171,
+        197
+    ],
+    "sas7bdat_parse_row_size_subheader": [
+        199,
+        232
+    ],
+    "sas7bdat_parse_text_ref": [
+        234,
+        242
+    ],
+    "sas7bdat_copy_text_ref": [
+        244,
+        260
+    ],
+    "sas7bdat_parse_column_name_subheader": [
+        262,
+        288
+    ],
+    "sas7bdat_parse_column_attributes_subheader": [
+        290,
+        344
+    ],
+    "sas7bdat_parse_column_format_subheader": [
+        346,
+        365
+    ],
+    "sas7bdat_handle_data_value": [
+        367,
+        422
+    ],
+    "sas7bdat_parse_single_row": [
+        424,
+        458
+    ],
+    "sas7bdat_parse_rows": [
+        460,
+        477
+    ],
+    "sas7bdat_parse_subheader_rle": [
+        479,
+        502
+    ],
+    "sas7bdat_parse_subheader": [
+        504,
+        536
+    ],
+    "*sas7bdat_init_variable": [
+        538,
+        580
+    ],
+    "sas7bdat_submit_columns": [
+        582,
+        633
+    ],
+    "sas7bdat_submit_columns_if_needed": [
+        635,
+        645
+    ],
+    "sas7bdat_signature_is_recognized": [
+        647,
+        653
+    ],
+    "sas7bdat_parse_page_pass1": [
+        656,
+        718
+    ],
+    "sas7bdat_parse_page_pass2": [
+        720,
+        826
+    ],
+    "sas7bdat_parse_meta_pages_pass1": [
+        828,
+        887
+    ],
+    "sas7bdat_parse_amd_pages_pass1": [
+        889,
+        953
+    ],
+    "sas7bdat_parse_all_pages_pass2": [
+        955,
+        985
+    ],
+    "readstat_parse_sas7bdat": [
+        987,
+        1122
+    ]
+}
+

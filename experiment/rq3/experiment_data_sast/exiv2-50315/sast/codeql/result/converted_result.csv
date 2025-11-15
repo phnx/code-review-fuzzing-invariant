@@ -1,0 +1,186 @@
+location_hash,location_file,location_start_line,location_start_column,location_end_line,location_end_column,warning_rule_id,warning_rule_name,warning_message,warning_weakness,warning_severity
+91c6d4d931c8d4e2:1,src/fff.h,55,14,-1,15,cpp/irregular-enum-init,Irregular enum initialization,"In an enumerator list, the = construct should not be used to explicitly initialize members other than the first, unless all items are explicitly initialized.",,LOW
+a7af9478426b66ba:1,src/exif.cpp,248,12,-1,32,cpp/assignment-does-not-return-this,Overloaded assignment does not return 'this',Assignment operator in class Exifdatum does not return a reference to *this.,,MEDIUM
+e44f8d1d65edcae4:1,src/exif.cpp,244,12,-1,32,cpp/assignment-does-not-return-this,Overloaded assignment does not return 'this',Assignment operator in class Exifdatum does not return a reference to *this.,,MEDIUM
+2e747bd08d9d12b6:1,src/exif.cpp,240,12,-1,32,cpp/assignment-does-not-return-this,Overloaded assignment does not return 'this',Assignment operator in class Exifdatum does not return a reference to *this.,,MEDIUM
+96f83b6c79182512:1,src/exif.cpp,236,12,-1,32,cpp/assignment-does-not-return-this,Overloaded assignment does not return 'this',Assignment operator in class Exifdatum does not return a reference to *this.,,MEDIUM
+358d39a653d9f67c:1,src/exif.cpp,232,12,-1,32,cpp/assignment-does-not-return-this,Overloaded assignment does not return 'this',Assignment operator in class Exifdatum does not return a reference to *this.,,MEDIUM
+8a95246ce638a566:1,src/exif.cpp,228,12,-1,32,cpp/assignment-does-not-return-this,Overloaded assignment does not return 'this',Assignment operator in class Exifdatum does not return a reference to *this.,,MEDIUM
+eda20b66a6860071:1,app/getopt.cpp,82,5,-1,19,cpp/array-in-interface,No raw arrays in interfaces,Raw arrays should not be used in interfaces. A container class should be used instead.,,LOW
+a14e29c309e6961e:1,app/exiv2.cpp,995,5,-1,19,cpp/array-in-interface,No raw arrays in interfaces,Raw arrays should not be used in interfaces. A container class should be used instead.,,LOW
+83d52304b8066a5:1,src/value.cpp,177,3,-1,7,cpp/virtual-call-in-constructor,Virtual call from constructor or destructor,"Call to virtual function [read](1) which is overridden in [CommentValue](2). If you intend to statically call this virtual function, it should be qualified with StringValueBase::.
+Call to virtual function [read](1) which is overridden in [AsciiValue](3). If you intend to statically call this virtual function, it should be qualified with StringValueBase::.",,MEDIUM
+f317e55bcb9f0946:1,xmpsdk/include/XMP.incl_cpp,52,5,-1,46,cpp/include-non-header,Include header files only,The #include pre-processor directive should only be used to include header files.,,LOW
+6af27195618aeb11:1,xmpsdk/include/XMP.incl_cpp,51,5,-1,49,cpp/include-non-header,Include header files only,The #include pre-processor directive should only be used to include header files.,,LOW
+ef60fb9a11dcca7e:1,xmpsdk/include/XMP.incl_cpp,50,5,-1,45,cpp/include-non-header,Include header files only,The #include pre-processor directive should only be used to include header files.,,LOW
+c3094292e1e2e8d1:1,src/xmp.cpp,23,-1,-1,24,cpp/include-non-header,Include header files only,The #include pre-processor directive should only be used to include header files.,,LOW
+3f71c280dcd2a0e2:1,xmpsdk/src/XMPMeta-GetSet.cpp,20,-1,-1,35,cpp/include-non-header,Include header files only,The #include pre-processor directive should only be used to include header files.,,LOW
+3f71c280dcd2a0e2:1,xmpsdk/src/XMPMeta-Parse.cpp,18,-1,-1,35,cpp/include-non-header,Include header files only,The #include pre-processor directive should only be used to include header files.,,LOW
+b75688b05212886:1,xmpsdk/src/XMPCore_Impl.cpp,14,-1,-1,35,cpp/include-non-header,Include header files only,The #include pre-processor directive should only be used to include header files.,,LOW
+5b82db82c18e6fe4:1,xmpsdk/src/XMPMeta-Serialize.cpp,17,-1,-1,35,cpp/include-non-header,Include header files only,The #include pre-processor directive should only be used to include header files.,,LOW
+17967b2579f398c0:1,xmpsdk/src/XMPMeta.cpp,21,-1,-1,35,cpp/include-non-header,Include header files only,The #include pre-processor directive should only be used to include header files.,,LOW
+816e72e1c0b4c236:1,src/enforce.hpp,-1,-1,-1,-1,cpp/missing-header-guard,Missing header guard,This header file should contain a header guard to prevent multiple inclusion.,,LOW
+60d3f42a9ca50ff7:1,xmpsdk/include/client-glue/WXMPIterator.hpp,-1,-1,-1,-1,cpp/missing-header-guard,Missing header guard,This header file should contain a header guard to prevent multiple inclusion.,,LOW
+a8d4821cc63feea1:1,xmpsdk/include/client-glue/WXMPMeta.hpp,-1,-1,-1,-1,cpp/missing-header-guard,Missing header guard,This header file should contain a header guard to prevent multiple inclusion.,,LOW
+dff0ff3cdb758edd:1,xmpsdk/include/client-glue/WXMP_Common.hpp,-1,-1,-1,-1,cpp/missing-header-guard,Missing header guard,This header file should contain a header guard to prevent multiple inclusion.,,LOW
+57eeaeb53c9e6baf:1,xmpsdk/include/client-glue/WXMPUtils.hpp,-1,-1,-1,-1,cpp/missing-header-guard,Missing header guard,This header file should contain a header guard to prevent multiple inclusion.,,LOW
+d01e5ab9ab9f82c5:1,app/exiv2.cpp,1450,7,-1,8,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+704b87ec064c66a0:1,app/exiv2.cpp,1469,15,-1,16,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+30a98bb1655a407d:1,app/exiv2.cpp,1484,13,-1,14,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+58834ef7179810ca:1,app/exiv2.cpp,1219,7,-1,8,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+6698d8e158f041e5:1,app/exiv2.cpp,1186,11,-1,12,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+e05a9b8d8db9ea0:1,xmpsdk/src/XMPMeta-Parse.cpp,1010,5,-1,12,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+266accce11041332:1,xmpsdk/src/XMPMeta-Parse.cpp,1058,5,-1,12,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+9ad1fcabff3a385c:1,xmpsdk/src/XMPCore_Impl.cpp,318,6,-1,13,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+22b81d4613b3d9e:1,src/bmffimage.cpp,234,3,476,4,cpp/long-switch,Long switch case,Switch has at least one case that is too long: [1768714083 (51 lines)](1).,,LOW
+4d8aa8281eabbd06:1,app/exiv2.cpp,1452,5,1503,6,cpp/long-switch,Long switch case,Switch has at least one case that is too long: [117 (34 lines)](1).,,LOW
+49307760ada68ba1:1,app/exiv2.cpp,674,3,742,4,cpp/long-switch,Long switch case,Switch has at least one case that is too long: [none (59 lines)](1).,,LOW
+d51a8f4b3f2705a1:1,app/exiv2.cpp,598,3,668,4,cpp/long-switch,Long switch case,Switch has at least one case that is too long: [none (61 lines)](1).,,LOW
+4a90d7250e21cccb:1,src/jp2image.cpp,744,5,866,6,cpp/long-switch,Long switch case,Switch has at least one case that is too long: [kJp2BoxTypeHeader (87 lines)](1).,,LOW
+64516eef7de87151:2,src/jp2image.cpp,435,7,570,8,cpp/long-switch,Long switch case,"Switch has at least one case that is too long: [kJp2BoxTypeHeader (63 lines)](1).
+Switch has at least one case that is too long: [kJp2BoxTypeUuid (52 lines)](2).",,LOW
+64516eef7de87151:1,src/jp2image.cpp,169,5,378,6,cpp/long-switch,Long switch case,"Switch has at least one case that is too long: [kJp2BoxTypeHeader (74 lines)](1).
+Switch has at least one case that is too long: [kJp2BoxTypeUuid (111 lines)](2).",,LOW
+add771b721fe31fd:1,src/psdimage.cpp,215,3,310,4,cpp/long-switch,Long switch case,Switch has at least one case that is too long: [kPhotoshopResourceID_ThumbnailResource2 (43 lines)](1).,,LOW
+a855650cf142eb50:1,src/image.cpp,442,21,-1,26,cpp/declaration-hides-variable,Declaration hides variable,Variable bytes hides another variable of the same name (on [line 430](1)).,,LOW
+40875c53e312dc94:1,xmpsdk/src/ParseRDF.cpp,604,15,-1,23,cpp/declaration-hides-variable,Declaration hides variable,Variable childNum hides another variable of the same name (on [line 506](1)).,,LOW
+40875c53e312dc94:1,xmpsdk/src/ParseRDF.cpp,604,29,-1,37,cpp/declaration-hides-variable,Declaration hides variable,Variable childLim hides another variable of the same name (on [line 506](1)).,,LOW
+75cad7798ee50884:1,xmpsdk/src/XMPMeta-Serialize.cpp,1117,20,-1,25,cpp/declaration-hides-variable,Declaration hides variable,Variable level hides another variable of the same name (on [line 1082](1)).,,LOW
+e49ac22af968a281:1,xmpsdk/src/XMPUtils-FileInfo.cpp,1267,21,-1,31,cpp/declaration-hides-variable,Declaration hides variable,Variable sourcePath hides another variable of the same name (on [line 1210](1)).,,LOW
+9c6f7f075738cedd:1,xmpsdk/src/XMPUtils-FileInfo.cpp,857,20,-1,28,cpp/declaration-hides-variable,Declaration hides variable,Variable currItem hides another variable of the same name (on [line 794](1)).,,LOW
+8e9df3feb88f6d00:1,src/tiffcomposite_int.hpp,47,16,-1,20,cpp/unused-static-variable,Unused static variable,Static variable none is never read.,CWE-563,LOW
+26144b6a66a23187:1,src/tiffcomposite_int.hpp,35,16,-1,28,cpp/unused-static-variable,Unused static variable,Static variable ttTiffDouble is never read.,CWE-563,LOW
+a5f0c582894c00cc:1,src/tiffcomposite_int.hpp,34,16,-1,27,cpp/unused-static-variable,Unused static variable,Static variable ttTiffFloat is never read.,CWE-563,LOW
+5f2672e72243649e:1,src/tiffcomposite_int.hpp,33,16,-1,32,cpp/unused-static-variable,Unused static variable,Static variable ttSignedRational is never read.,CWE-563,LOW
+811b640913804791:1,src/tiffcomposite_int.hpp,28,16,-1,34,cpp/unused-static-variable,Unused static variable,Static variable ttUnsignedRational is never read.,CWE-563,LOW
+1a5c0d7f0701000b:1,src/exif.cpp,743,9,-1,18,cpp/unused-static-function,Unused static function,Static function sumToLong is unreachable,CWE-561,LOW
+9d0a23093a435a34:1,src/tiffvisitor_int.cpp,337,23,-1,30,cpp/unused-static-function,Unused static function,Static function findTag is unreachable,CWE-561,LOW
+87c01cb78a028b71:1,src/webpimage.cpp,23,30,-1,41,cpp/unused-static-function,Unused static function,Static function binaryToHex is unreachable,CWE-561,LOW
+a390cefedbe1ae4c:1,src/crwimage_int.cpp,507,26,-1,27,cpp/unused-local-variable,Unused local variable,Variable rootDirectory is not used.,CWE-563,LOW
+a390cefedbe1ae4c:1,src/crwimage_int.cpp,507,41,-1,42,cpp/unused-local-variable,Unused local variable,Variable _ is not used.,CWE-563,LOW
+871ca33d4dde2c56:1,src/olympusmn_int.cpp,1522,12,-1,13,cpp/unused-local-variable,Unused local variable,Variable s is not used.,CWE-563,LOW
+b8a22aee6e4f8ec7:1,src/bmffimage.cpp,682,3,-1,54,cpp/fixme-comment,FIXME comment,FIXME comment: what others types can we abort early here?,CWE-546,LOW
+b71f6d5ba70db3a3:1,src/convert.cpp,1272,43,-1,56,cpp/fixme-comment,FIXME comment,FIXME comment: ?,CWE-546,LOW
+1169f8bb84587e41:1,src/convert.cpp,464,39,-1,74,cpp/fixme-comment,FIXME comment,FIXME comment: to IPTC Date and IPTC Time,CWE-546,LOW
+a049df56476dbffe:1,src/convert.cpp,462,39,-1,74,cpp/fixme-comment,FIXME comment,FIXME comment: to IPTC Date and IPTC Time,CWE-546,LOW
+9cc4908fd6405eb1:1,src/convert.cpp,445,33,-1,43,cpp/fixme-comment,FIXME comment,FIXME comment: ?,CWE-546,LOW
+c466ae7dce744311:1,src/convert.cpp,443,33,-1,43,cpp/fixme-comment,FIXME comment,FIXME comment: ?,CWE-546,LOW
+78c2088fd97edc74:1,src/convert.cpp,415,32,-1,42,cpp/fixme-comment,FIXME comment,FIXME comment: ?,CWE-546,LOW
+ead6fdfa6350fb97:1,src/convert.cpp,401,33,-1,43,cpp/fixme-comment,FIXME comment,FIXME comment: ?,CWE-546,LOW
+be349bd3f8035e45:1,src/convert.cpp,386,33,-1,43,cpp/fixme-comment,FIXME comment,FIXME comment: ?,CWE-546,LOW
+6077ee70a4bafe15:1,src/convert.cpp,384,33,-1,43,cpp/fixme-comment,FIXME comment,FIXME comment: ?,CWE-546,LOW
+e77ad1d511736d96:1,src/convert.cpp,382,33,-1,43,cpp/fixme-comment,FIXME comment,FIXME comment: ?,CWE-546,LOW
+c96a0cf65934b2a:1,src/convert.cpp,370,33,-1,43,cpp/fixme-comment,FIXME comment,FIXME comment: ?,CWE-546,LOW
+ec4b59e23d462c8d:1,src/convert.cpp,351,103,-1,113,cpp/fixme-comment,FIXME comment,FIXME comment: ?,CWE-546,LOW
+61e68335ab583121:1,src/preview.cpp,732,9,-1,78,cpp/fixme-comment,FIXME comment,"FIXME comment: the buffer is probably copied twice, it should be optimized",CWE-546,LOW
+4f2409ee30a928d7:1,include/exiv2/types.hpp,418,-1,461,3,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+3cc9e29ae3e68f14:1,app/exiv2app.hpp,67,-1,100,4,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+505dec0a79734f5a:1,src/bmffimage.cpp,591,4,-1,27,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+55d7e500ecd1c3ff:1,src/bmffimage.cpp,267,7,-1,49,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+45416ac1c008d1d:1,src/bmffimage.cpp,264,7,-1,49,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+2034dd368e762bfe:1,app/actions.cpp,1773,7,-1,47,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+cca1c238aa22a0cb:1,include/exiv2/version.hpp,26,-1,68,4,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+be1b661264b063b3:1,src/epsimage.cpp,1066,3,-1,38,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+ff24fb1a9379a1e5:1,src/futils.cpp,272,62,-1,71,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+7830c2bf4a6b17db:1,src/jp2image.cpp,492,15,494,58,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+134e4db9dc3133b1:1,src/fff.h,394,-1,-1,74,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+b984746bbca54369:1,src/jpgimage.cpp,478,15,-1,66,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+5bcbcdcf8ba353be:1,src/jpgimage.cpp,467,13,-1,67,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+8e67257e49a11e4d:1,src/jpgimage.cpp,447,11,-1,69,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+29ba862c2fb769f8:1,src/minoltamn_int.cpp,1401,-1,-1,74,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+a2604085a2c18121:1,src/nikonmn_int.cpp,2736,7,2737,9,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+c22fe1e114a1cae5:1,src/nikonmn_int.cpp,2726,7,2729,92,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+88fb479e4e10e6e1:1,src/nikonmn_int.cpp,2608,7,2611,93,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+93d468caed3becd8:1,src/nikonmn_int.cpp,2594,7,2599,95,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+684e1c9c1b001d2c:1,src/nikonmn_int.cpp,2579,7,2581,94,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+4c830ff0788ed905:1,src/nikonmn_int.cpp,2561,7,2562,96,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+f5c09dd14f2e57a3:1,src/nikonmn_int.cpp,2547,7,2548,93,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+c5401c37365c430a:1,src/nikonmn_int.cpp,2540,7,-1,104,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+5546c737db77d51d:1,src/nikonmn_int.cpp,2537,7,-1,110,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+f3a415cbe290f195:1,src/nikonmn_int.cpp,2415,7,-1,97,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+1e3512eb45aacff2:1,src/nikonmn_int.cpp,2320,7,2322,9,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+771d0fc9d683cfa3:1,src/nikonmn_int.cpp,2308,7,-1,86,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+2691cec24a748aee:1,src/nikonmn_int.cpp,2271,7,-1,81,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+d39e833ffcddf3d5:1,src/nikonmn_int.cpp,1540,41,-1,72,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+85f09c456af4b670:1,src/nikonmn_int.cpp,1537,40,-1,71,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+e1b7ad85b2488386:1,src/nikonmn_int.cpp,1511,5,-1,59,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+636b1cbdadfe2d83:1,src/pgfimage.cpp,264,3,269,5,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+6a51c0a00eee6b2c:1,src/pentaxmn_int.cpp,1261,3,-1,111,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+1af0dd21605e61a6:1,src/pentaxmn_int.cpp,1086,5,-1,88,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+49520820ec0a816f:1,src/psdimage.cpp,636,3,-1,38,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+f04e979659771608:1,src/types.cpp,646,5,-1,56,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+6b6214b708fda0e7:1,src/xmpsidecar.cpp,112,9,-1,89,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+e39c1ef62414f682:1,src/xmp.cpp,651,5,-1,77,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+6d55a3cdf0c7b0d3:1,xmpsdk/src/MD5.cpp,138,-1,-1,43,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+7bf485479d709234:1,xmpsdk/src/UnicodeConversions.cpp,1430,59,-1,120,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+737f06ab3ede7ec1:1,xmpsdk/src/UnicodeConversions.cpp,1375,44,-1,94,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+e3578df0af3335e3:1,xmpsdk/src/UnicodeConversions.cpp,1205,41,-1,91,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+e3465cba0bd63ef9:1,xmpsdk/src/UnicodeConversions.cpp,1147,40,-1,90,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+4bfb6148696c5bcf:1,xmpsdk/src/XMPCore_Impl.hpp,508,4,509,37,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+65557118f234ff00:1,xmpsdk/src/XMPCore_Impl.hpp,472,4,473,37,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+74a5a6d5748646fb:2,xmpsdk/src/XMPCore_Impl.hpp,461,4,462,37,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+74a5a6d57330c9d3:1,xmpsdk/src/XMPCore_Impl.hpp,450,4,451,37,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+74a5a6d5748646fb:1,xmpsdk/src/XMPCore_Impl.hpp,439,4,440,37,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+9bdfd071f202155c:1,xmpsdk/src/XMPIterator.cpp,694,-1,-1,115,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+1c97271a5c88572d:1,xmpsdk/src/XMPMeta-Serialize.cpp,1298,-1,-1,35,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+a8f6f71d1613904d:1,xmpsdk/src/XMPUtils-FileInfo.cpp,1174,-1,-1,95,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+aa8563309cc2529c:1,xmpsdk/src/XMPUtils-FileInfo.cpp,973,27,-1,53,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+5c980bfaba4b0788:1,xmpsdk/src/XMPUtils.cpp,1371,43,-1,122,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+98eeec11082c5154:1,xmpsdk/src/XMPUtils.cpp,1359,42,-1,115,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+be2e01a944d6f7fd:1,xmpsdk/src/XMPUtils.cpp,1351,42,-1,113,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+714c4100399ae8e5:1,xmpsdk/src/XMPUtils.cpp,1332,4,1334,112,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+3fd4aab0dc453113:1,xmpsdk/src/XMPUtils.cpp,467,3,-1,26,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+536ed11028f2b725:1,xmpsdk/src/XMPUtils-FileInfo.cpp,697,6,-1,16,cpp/use-after-free,Potential use after free,Memory may have been previously freed by [delete](1).,CWE-416,MEDIUM
+e640615d15d2a2f:1,src/canonmn_int.cpp,2717,7,-1,19,cpp/equality-on-floats,Equality test on floating-point values,Equality checks on floating point values can yield unexpected results.,,LOW
+8289978869bad0fe:1,src/image.cpp,357,15,-1,63,cpp/constant-comparison,Comparison result is always the same,Comparison is always true because allocate64 <= 34359738381.,,MEDIUM
+eb7a9be41ec53a85:1,src/minoltamn_int.cpp,1634,9,-1,18,cpp/constant-comparison,Comparison result is always the same,Comparison is always true because index >= 1.,,MEDIUM
+f2f2e0592e387b0f:1,src/types.cpp,473,12,-1,23,cpp/constant-comparison,Comparison result is always the same,Comparison is always false because width <= 57.,,MEDIUM
+9c3fccee94c157f9:1,src/tiffvisitor_int.cpp,1305,10,1306,80,cpp/constant-comparison,Comparison result is always the same,Comparison is always false because call to baseOffset <= 4294967295 and 18446744069414584320 <= ... - ....,,MEDIUM
+fe079e137665581:1,xmpsdk/src/UnicodeConversions.cpp,499,7,-1,19,cpp/constant-comparison,Comparison result is always the same,Comparison is always false because utf8Len >= 1.,,MEDIUM
+c634d18115b05284:1,src/basicio.cpp,907,3,910,4,cpp/empty-if,Futile conditional,If-statement with an empty then-branch and no else-branch.,,LOW
+2bef7b263fb232d3:1,src/jp2image.cpp,165,5,167,6,cpp/empty-if,Futile conditional,If-statement with an empty then-branch and no else-branch.,,LOW
+8e6712313998f918:1,src/http.cpp,163,33,-1,42,cpp/non-https-url,Failure to use HTTPS URLs,This URL may be constructed with the HTTP protocol.,"CWE-319,CWE-345",MEDIUM
+4ed9d08391e2cca2:1,src/basicio.cpp,399,51,-1,58,cpp/toctou-race-condition,Time-of-check time-of-use filesystem race condition,"The [filename](1) being operated upon was previously [checked](2), but the underlying file may have been changed since then.",CWE-367,MEDIUM
+e1133e546616e0da:1,src/tiffcomposite_int.cpp,994,3,1008,4,cpp/integer-used-for-enum,Use of integer where enum is preferred,Enumeration types should be used instead of integers to select from a limited series of choices.,,MEDIUM
+d972a06a9c19f17:1,src/basicio.cpp,1050,11,-1,31,cpp/offset-use-before-range-check,Array offset used before range check,This use of offset 'lowBlock' should follow the [range check](1).,"CWE-120,CWE-125",MEDIUM
+d4402b95e935ffcb:1,app/exiv2.cpp,226,6,-1,18,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 112 lines.,,MEDIUM
+3a30f1d1595725a3:1,app/exiv2.cpp,339,5,-1,19,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 116 lines.,,MEDIUM
+df7205b935e7fe2:1,app/actions.cpp,442,6,-1,27,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 118 lines.,,MEDIUM
+15fbeb7e79c6a3c:1,src/version.cpp,193,6,-1,28,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 315 lines.,,MEDIUM
+6186b7e0768a3a10:1,xmpsdk/src/XMPUtils.cpp,1228,9,-1,15,cpp/missing-check-scanf,Missing return-value check for a 'scanf'-like function,"This variable is read, but may not have been written. It should be guarded by a check that the [call to sscanf](1) returns at least 1.
+This variable is read, but may not have been written. It should be guarded by a check that the [call to sscanf](2) returns at least 1.","CWE-252,CWE-253",MEDIUM
+9af5812e98b5895:1,xmpsdk/src/XMPUtils.cpp,1199,9,-1,15,cpp/missing-check-scanf,Missing return-value check for a 'scanf'-like function,"This variable is read, but may not have been written. It should be guarded by a check that the [call to sscanf](1) returns at least 1.
+This variable is read, but may not have been written. It should be guarded by a check that the [call to sscanf](2) returns at least 1.","CWE-252,CWE-253",MEDIUM
+dc4fa2d788bd1a2b:1,xmpsdk/src/ParseRDF.cpp,1147,2,-1,23,cpp/stack-address-escape,Local variable address stored in non-local memory,"A stack address ([source](1)) may be assigned to a non-local variable.
+A stack address which arrived via a [parameter](2) may be assigned to a non-local variable.",,MEDIUM
+dc4fa2d788bd1a2b:1,xmpsdk/src/ParseRDF.cpp,1147,48,-1,70,cpp/stack-address-escape,Local variable address stored in non-local memory,"A stack address ([source](1)) may be assigned to a non-local variable.
+A stack address which arrived via a [parameter](2) may be assigned to a non-local variable.",,MEDIUM
+dc4a08d5f11e61b7:1,xmpsdk/src/ParseRDF.cpp,1128,2,-1,23,cpp/stack-address-escape,Local variable address stored in non-local memory,"A stack address ([source](1)) may be assigned to a non-local variable.
+A stack address which arrived via a [parameter](2) may be assigned to a non-local variable.",,MEDIUM
+dc4a08d5f11e61b7:1,xmpsdk/src/ParseRDF.cpp,1128,48,-1,70,cpp/stack-address-escape,Local variable address stored in non-local memory,"A stack address ([source](1)) may be assigned to a non-local variable.
+A stack address which arrived via a [parameter](2) may be assigned to a non-local variable.",,MEDIUM
+dc4e1e23989e63ed:1,xmpsdk/src/ParseRDF.cpp,1065,2,-1,23,cpp/stack-address-escape,Local variable address stored in non-local memory,"A stack address ([source](1)) may be assigned to a non-local variable.
+A stack address which arrived via a [parameter](2) may be assigned to a non-local variable.",,MEDIUM
+dc4e1e23989e63ed:1,xmpsdk/src/ParseRDF.cpp,1065,48,-1,70,cpp/stack-address-escape,Local variable address stored in non-local memory,"A stack address ([source](1)) may be assigned to a non-local variable.
+A stack address which arrived via a [parameter](2) may be assigned to a non-local variable.",,MEDIUM
+9f23ee00f4152c71:1,xmpsdk/src/ParseRDF.cpp,625,2,-1,21,cpp/stack-address-escape,Local variable address stored in non-local memory,"A stack address ([source](1)) may be assigned to a non-local variable.
+A stack address which arrived via a [parameter](2) may be assigned to a non-local variable.",,MEDIUM
+c1b0c84c3be2542e:1,xmpsdk/src/ExpatAdapter.cpp,487,2,-1,25,cpp/stack-address-escape,Local variable address stored in non-local memory,A stack address ([source](1)) may be assigned to a non-local variable.,,MEDIUM
+629096621115520:1,xmpsdk/src/ExpatAdapter.cpp,488,2,-1,19,cpp/stack-address-escape,Local variable address stored in non-local memory,A stack address ([source](1)) may be assigned to a non-local variable.,,MEDIUM
+4558fcaac8fdf853:1,xmpsdk/src/ExpatAdapter.cpp,489,2,-1,19,cpp/stack-address-escape,Local variable address stored in non-local memory,A stack address ([source](1)) may be assigned to a non-local variable.,,MEDIUM
+371da8fc60f03816:1,xmpsdk/src/ExpatAdapter.cpp,490,2,-1,33,cpp/stack-address-escape,Local variable address stored in non-local memory,A stack address ([source](1)) may be assigned to a non-local variable.,,MEDIUM
+fddde19f5d138c09:4,xmpsdk/src/ExpatAdapter.cpp,462,2,-1,22,cpp/stack-address-escape,Local variable address stored in non-local memory,A stack address ([source](1)) may be assigned to a non-local variable.,,MEDIUM
+fddde19f5d138c09:3,xmpsdk/src/ExpatAdapter.cpp,418,2,-1,22,cpp/stack-address-escape,Local variable address stored in non-local memory,A stack address ([source](1)) may be assigned to a non-local variable.,,MEDIUM
+fddde19f5d138c09:2,xmpsdk/src/ExpatAdapter.cpp,397,2,-1,22,cpp/stack-address-escape,Local variable address stored in non-local memory,A stack address ([source](1)) may be assigned to a non-local variable.,,MEDIUM
+b6edbc6722727dec:1,xmpsdk/src/ExpatAdapter.cpp,350,2,-1,18,cpp/stack-address-escape,Local variable address stored in non-local memory,A stack address ([source](1)) may be assigned to a non-local variable.,,MEDIUM
+fddde19f5d138c09:1,xmpsdk/src/ExpatAdapter.cpp,271,2,-1,22,cpp/stack-address-escape,Local variable address stored in non-local memory,A stack address ([source](1)) may be assigned to a non-local variable.,,MEDIUM
+4d6d11d62ccc2827:1,xmpsdk/src/ExpatAdapter.cpp,243,2,-1,22,cpp/stack-address-escape,Local variable address stored in non-local memory,A stack address ([source](1)) may be assigned to a non-local variable.,,MEDIUM
+f64e299672ce4a5b:1,xmpsdk/src/XMPUtils.cpp,1731,4,-1,35,cpp/stack-address-escape,Local variable address stored in non-local memory,A stack address ([source](1)) may be assigned to a non-local variable.,,MEDIUM
+64406b16787e56a5:1,xmpsdk/src/ParseRDF.cpp,383,27,-1,41,cpp/inconsistent-null-check,Inconsistent nullness check,"The result of this call to FindSchemaNode is not checked for null, but 70% of calls to FindSchemaNode check for null.",CWE-476,HIGH
+d00fdebe93292700:1,xmpsdk/src/XMPMeta-Parse.cpp,409,28,-1,42,cpp/inconsistent-null-check,Inconsistent nullness check,"The result of this call to FindSchemaNode is not checked for null, but 70% of calls to FindSchemaNode check for null.",CWE-476,HIGH
+6abc61cf981b0cb7:1,xmpsdk/src/XMPUtils.cpp,534,25,-1,39,cpp/inconsistent-null-check,Inconsistent nullness check,"The result of this call to FindSchemaNode is not checked for null, but 70% of calls to FindSchemaNode check for null.",CWE-476,HIGH
+da203b81c93e297e:1,app/actions.cpp,1651,13,-1,22,cpp/potentially-dangerous-function,Use of potentially dangerous function,Call to 'localtime' is potentially dangerous.,CWE-676,MEDIUM
+87f3fb71dd76ce24:1,src/crwimage_int.cpp,743,13,-1,27,cpp/potentially-dangerous-function,Use of potentially dangerous function,Call to 'localtime' is potentially dangerous.,CWE-676,MEDIUM
+448146d7da43a84a:1,app/exiv2.cpp,1090,3,-1,9,cpp/unbounded-write,Unbounded write,This 'call to strcpy' with input from [a command-line argument](1) may overflow the destination.,"CWE-120,CWE-787,CWE-805",HIGH
+7bf485479d709234:1,xmpsdk/src/UnicodeConversions.cpp,1430,31,-1,39,cpp/suspicious-pointer-scaling,Suspicious pointer scaling,"This pointer might have type [unsigned long](1) (size 8), but this pointer arithmetic is done with type UTF16Unit * (size 2).
+This pointer might have type [unsigned long](2) (size 8), but this pointer arithmetic is done with type UTF16Unit * (size 2).",CWE-468,MEDIUM

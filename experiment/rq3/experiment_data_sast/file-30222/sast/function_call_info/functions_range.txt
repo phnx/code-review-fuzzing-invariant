@@ -1,0 +1,138 @@
+=====================
+src/funcs.c
+=====================
+{
+    "*\nfile_copystr": [
+        54,
+        61
+    ],
+    "file_clearbuf": [
+        63,
+        69
+    ],
+    "file_checkfield": [
+        71,
+        88
+    ],
+    "file_checkfmt": [
+        90,
+        123
+    ],
+    "file_vprintf": [
+        128,
+        169
+    ],
+    "file_printf": [
+        171,
+        181
+    ],
+    "file_error_core": [
+        187,
+        206
+    ],
+    "file_error": [
+        209,
+        216
+    ],
+    "file_magerror": [
+        222,
+        229
+    ],
+    "file_oomem": [
+        231,
+        236
+    ],
+    "file_badseek": [
+        238,
+        242
+    ],
+    "file_badread": [
+        244,
+        248
+    ],
+    "file_separator": [
+        253,
+        257
+    ],
+    "trim_separator": [
+        259,
+        269
+    ],
+    "checkdone": [
+        271,
+        279
+    ],
+    "file_default": [
+        281,
+        302
+    ],
+    "file_buffer": [
+        311,
+        489
+    ],
+    "file_reset": [
+        492,
+        507
+    ],
+    "*\nfile_getbuffer": [
+        517,
+        590
+    ],
+    "file_check_mem": [
+        595,
+        616
+    ],
+    "file_printedlen": [
+        618,
+        622
+    ],
+    "file_replace": [
+        624,
+        648
+    ],
+    "file_regcomp": [
+        650,
+        668
+    ],
+    "file_regexec": [
+        670,
+        679
+    ],
+    "file_regfree": [
+        681,
+        693
+    ],
+    "file_regerror": [
+        695,
+        703
+    ],
+    "file_pushbuf_t *\nfile_push_buffer": [
+        705,
+        725
+    ],
+    "*\nfile_pop_buffer": [
+        727,
+        746
+    ],
+    "*\nfile_printable": [
+        751,
+        772
+    ],
+    "file_parse_guid": [
+        781,
+        790
+    ],
+    "file_print_guid": [
+        792,
+        803
+    ],
+    "file_pipe_closexec": [
+        805,
+        817
+    ],
+    "file_clear_closexec": [
+        819,
+        822
+    ]
+}
+

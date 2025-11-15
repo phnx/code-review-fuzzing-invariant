@@ -1,0 +1,150 @@
+(lldb) target create "modified_fuzz"
+Current executable set to '/script/motivating_example/sample_set/gcd/modified_fuzz' (x86_64).
+(lldb) command source -s 0 '/script/motivating_example/sample_set/gcd/fuzzing_test/modified_debug/script/61ce18693856845bbe3a79b3675d5c0ec6dae2ae/batch.lldb'
+Executing commands in '/script/motivating_example/sample_set/gcd/fuzzing_test/modified_debug/script/61ce18693856845bbe3a79b3675d5c0ec6dae2ae/batch.lldb'.
+(lldb) settings set interpreter.stop-command-source-on-error 0
+(lldb) settings set auto-confirm 1
+(lldb) breakpoint set --file /script/motivating_example/sample_set/gcd/modified.c --line 9
+Breakpoint 1: where = modified_fuzz`gcd + 121 at modified.c:9:9, address = 0x0000000000067429
+(lldb) breakpoint command add 1
+(lldb) run /script/motivating_example/sample_set/gcd/fuzzing_test/modified_inputs/61ce18693856845bbe3a79b3675d5c0ec6dae2ae
+INFO: Running with entropic power schedule (0xFF, 100).
+INFO: Seed: 2452080646
+INFO: Loaded 1 modules   (10 inline 8-bit counters): 10 [0x5555555defb0, 0x5555555defba), 
+INFO: Loaded 1 PC tables (10 PCs): 10 [0x5555555defc0,0x5555555df060), 
+/script/motivating_example/sample_set/gcd/modified_fuzz: Running 1 inputs 1 time(s) each.
+Running: /script/motivating_example/sample_set/gcd/fuzzing_test/modified_inputs/61ce18693856845bbe3a79b3675d5c0ec6dae2ae
+(lldb)  frame info
+frame #0: 0x00005555555bb429 modified_fuzz`gcd(a=-1862991675, b=-284491973) at modified.c:9:9
+(lldb)  frame variable a -f dec 
+(int) a = -1862991675
+(lldb)  frame variable b -f dec 
+(int) b = -284491973
+(lldb)  continue
+Process 73842 resuming
+Command #5 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb429 modified_fuzz`gcd(a=-1706951838, b=-156039837) at modified.c:9:9
+(lldb)  frame variable a -f dec 
+(int) a = -1706951838
+(lldb)  frame variable b -f dec 
+(int) b = -156039837
+(lldb)  continue
+Process 73842 resuming
+Command #5 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb429 modified_fuzz`gcd(a=-1560398370, b=-146553468) at modified.c:9:9
+(lldb)  frame variable a -f dec 
+(int) a = -1560398370
+(lldb)  frame variable b -f dec 
+(int) b = -146553468
+(lldb)  continue
+Process 73842 resuming
+Command #5 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb429 modified_fuzz`gcd(a=-1465534680, b=-94863690) at modified.c:9:9
+(lldb)  frame variable a -f dec 
+(int) a = -1465534680
+(lldb)  frame variable b -f dec 
+(int) b = -94863690
+(lldb)  continue
+Process 73842 resuming
+Command #5 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb429 modified_fuzz`gcd(a=-1422955350, b=-42579330) at modified.c:9:9
+(lldb)  frame variable a -f dec 
+(int) a = -1422955350
+(lldb)  frame variable b -f dec 
+(int) b = -42579330
+(lldb)  continue
+Process 73842 resuming
+Command #5 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb429 modified_fuzz`gcd(a=-1405117890, b=-17837460) at modified.c:9:9
+(lldb)  frame variable a -f dec 
+(int) a = -1405117890
+(lldb)  frame variable b -f dec 
+(int) b = -17837460
+(lldb)  continue
+Process 73842 resuming
+Command #5 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb429 modified_fuzz`gcd(a=-1391321880, b=-13796010) at modified.c:9:9
+(lldb)  frame variable a -f dec 
+(int) a = -1391321880
+(lldb)  frame variable b -f dec 
+(int) b = -13796010
+(lldb)  continue
+Process 73842 resuming
+Command #5 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb429 modified_fuzz`gcd(a=-1379601000, b=-11720880) at modified.c:9:9
+(lldb)  frame variable a -f dec 
+(int) a = -1379601000
+(lldb)  frame variable b -f dec 
+(int) b = -11720880
+(lldb)  continue
+Process 73842 resuming
+Command #5 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb429 modified_fuzz`gcd(a=-1371342960, b=-8258040) at modified.c:9:9
+(lldb)  frame variable a -f dec 
+(int) a = -1371342960
+(lldb)  frame variable b -f dec 
+(int) b = -8258040
+(lldb)  continue
+Process 73842 resuming
+Command #5 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb429 modified_fuzz`gcd(a=-1370834640, b=-508320) at modified.c:9:9
+(lldb)  frame variable a -f dec 
+(int) a = -1370834640
+(lldb)  frame variable b -f dec 
+(int) b = -508320
+(lldb)  continue
+Process 73842 resuming
+Command #5 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb429 modified_fuzz`gcd(a=-1370430720, b=-403920) at modified.c:9:9
+(lldb)  frame variable a -f dec 
+(int) a = -1370430720
+(lldb)  frame variable b -f dec 
+(int) b = -403920
+(lldb)  continue
+Process 73842 resuming
+Command #5 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb429 modified_fuzz`gcd(a=-1370096640, b=-334080) at modified.c:9:9
+(lldb)  frame variable a -f dec 
+(int) a = -1370096640
+(lldb)  frame variable b -f dec 
+(int) b = -334080
+(lldb)  continue
+Process 73842 resuming
+Command #5 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb429 modified_fuzz`gcd(a=-1370062080, b=-34560) at modified.c:9:9
+(lldb)  frame variable a -f dec 
+(int) a = -1370062080
+(lldb)  frame variable b -f dec 
+(int) b = -34560
+(lldb)  continue
+Process 73842 resuming
+Command #5 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb429 modified_fuzz`gcd(a=-1370062080, b=0) at modified.c:9:9
+(lldb)  frame variable a -f dec 
+(int) a = -1370062080
+(lldb)  frame variable b -f dec 
+(int) b = 0
+(lldb)  continue
+Process 73842 resuming
+Command #5 'continue' continued the target.
+Executed /script/motivating_example/sample_set/gcd/fuzzing_test/modified_inputs/61ce18693856845bbe3a79b3675d5c0ec6dae2ae in 32 ms
+***
+*** NOTE: fuzzing was not performed, you have only
+***       executed the target code on a fixed set of inputs.
+***
+Process 73842 exited with status = 0 (0x00000000)
+Process 73842 launched: '/script/motivating_example/sample_set/gcd/modified_fuzz' (x86_64)
+(lldb) quit

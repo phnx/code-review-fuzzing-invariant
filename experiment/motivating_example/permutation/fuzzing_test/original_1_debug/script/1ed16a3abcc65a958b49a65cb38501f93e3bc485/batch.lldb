@@ -1,0 +1,17 @@
+
+settings set interpreter.stop-command-source-on-error 0
+settings set auto-confirm 1
+breakpoint set --file /script/motivating_example/sample_set/permutation/original_1.c --line 29
+breakpoint command add 1
+frame info
+frame variable i -f dec 
+frame variable index -f dec 
+frame variable curr_val -f dec 
+
+continue
+DONE
+
+
+
+run /script/motivating_example/sample_set/permutation/fuzzing_test/modified_inputs/1ed16a3abcc65a958b49a65cb38501f93e3bc485
+quit

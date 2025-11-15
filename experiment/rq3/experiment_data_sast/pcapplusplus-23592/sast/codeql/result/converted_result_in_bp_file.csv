@@ -1,0 +1,56 @@
+location_hash,location_file,location_start_line,location_start_column,location_end_line,location_end_column,warning_in_target_file,warning_in_target_function,warning_in_target_code_block,warning_rule_id,warning_rule_name,warning_message,warning_weakness,warning_severity
+3b77ba7a1ba1978:1,Packet++/src/SSLHandshake.cpp,676,47,-1,81,True,False,False,cpp/unused-static-function,Unused static function,Static function createCipherSuiteStringToObjectMap is unreachable,CWE-561,LOW
+9d1ad46717a66b7d:1,Packet++/src/SSLHandshake.cpp,344,44,-1,74,True,False,False,cpp/unused-static-function,Unused static function,Static function createCipherSuiteIdToObjectMap is unreachable,CWE-561,LOW
+db1da3bf01b105ad:1,Packet++/src/SSLHandshake.cpp,21,90,-1,104,True,False,False,cpp/weak-cryptographic-algorithm,Use of a broken or risky cryptographic algorithm,"This file makes use of a broken or weak cryptographic algorithm (specified by [access of enum constant SSL_SYM_3DES_EDE_CBC](1)).
+This file makes use of a broken or weak cryptographic algorithm (specified by [access of enum constant SSL_SYM_RC4_128](2)).
+This file makes use of a broken or weak cryptographic algorithm (specified by [access of enum constant SSL_SYM_3DES_EDE_CBC](3)).
+This file makes use of a broken or weak cryptographic algorithm (specified by [access of enum constant SSL_SYM_3DES_EDE_CBC](4)).
+This file makes use of a broken or weak cryptographic algorithm (specified by [access of enum constant SSL_SYM_3DES_EDE_CBC](5)).
+This file makes use of a broken or weak cryptographic algorithm (specified by [access of enum constant SSL_SYM_3DES_EDE_CBC](6)).
+This file makes use of a broken or weak cryptographic algorithm (specified by [access of enum constant SSL_SYM_RC4_128](7)).
+This file makes use of a broken or weak cryptographic algorithm (specified by [access of enum constant SSL_SYM_3DES_EDE_CBC](8)).
+This file makes use of a broken or weak cryptographic algorithm (specified by [access of enum constant SSL_SYM_RC4_128](9)).
+This file makes use of a broken or weak cryptographic algorithm (specified by [access of enum constant SSL_SYM_3DES_EDE_CBC](10)).
+This file makes use of a broken or weak cryptographic algorithm (specified by [access of enum constant SSL_SYM_RC4_128](11)).
+This file makes use of a broken or weak cryptographic algorithm (specified by [access of enum constant SSL_SYM_3DES_EDE_CBC](12)).
+This file makes use of a broken or weak cryptographic algorithm (specified by [access of enum constant SSL_SYM_RC4_128](13)).
+This file makes use of a broken or weak cryptographic algorithm (specified by [access of enum constant SSL_SYM_3DES_EDE_CBC](14)).
+This file makes use of a broken or weak cryptographic algorithm (specified by [access of enum constant SSL_SYM_RC4_128](15)).
+This file makes use of a broken or weak cryptographic algorithm (specified by [access of enum constant SSL_SYM_3DES_EDE_CBC](16)).
+This file makes use of a broken or weak cryptographic algorithm (specified by [access of enum constant SSL_SYM_RC4_128](17)).
+This file makes use of a broken or weak cryptographic algorithm (specified by [access of enum constant SSL_SYM_3DES_EDE_CBC](18)).
+This file makes use of a broken or weak cryptographic algorithm (specified by [access of enum constant SSL_SYM_RC4_128](19)).
+This file makes use of a broken or weak cryptographic algorithm (specified by [access of enum constant SSL_SYM_3DES_EDE_CBC](20)).
+This file makes use of a broken or weak cryptographic algorithm (specified by [access of enum constant SSL_SYM_RC4_128](21)).
+This file makes use of a broken or weak cryptographic algorithm (specified by [access of enum constant SSL_SYM_RC4_40](22)).
+This file makes use of a broken or weak cryptographic algorithm (specified by [access of enum constant SSL_SYM_RC2_CBC_40](23)).
+This file makes use of a broken or weak cryptographic algorithm (specified by [access of enum constant SSL_SYM_DES_CBC_40](24)).
+This file makes use of a broken or weak cryptographic algorithm (specified by [access of enum constant SSL_SYM_RC4_40](25)).
+This file makes use of a broken or weak cryptographic algorithm (specified by [access of enum constant SSL_SYM_RC2_CBC_40](26)).
+This file makes use of a broken or weak cryptographic algorithm (specified by [access of enum constant SSL_SYM_DES_CBC_40](27)).
+This file makes use of a broken or weak cryptographic algorithm (specified by [access of enum constant SSL_SYM_RC4_128](28)).
+This file makes use of a broken or weak cryptographic algorithm (specified by [access of enum constant SSL_SYM_3DES_EDE_CBC](29)).
+This file makes use of a broken or weak cryptographic algorithm (specified by [access of enum constant SSL_SYM_DES_CBC](30)).
+This file makes use of a broken or weak cryptographic algorithm (specified by [access of enum constant SSL_SYM_RC4_128](31)).
+This file makes use of a broken or weak cryptographic algorithm (specified by [access of enum constant SSL_SYM_3DES_EDE_CBC](32)).
+This file makes use of a broken or weak cryptographic algorithm (specified by [access of enum constant SSL_SYM_DES_CBC](33)).
+This file makes use of a broken or weak cryptographic algorithm (specified by [access of enum constant SSL_SYM_3DES_EDE_CBC](34)).
+This file makes use of a broken or weak cryptographic algorithm (specified by [access of enum constant SSL_SYM_DES_CBC](35)).
+This file makes use of a broken or weak cryptographic algorithm (specified by [access of enum constant SSL_SYM_RC4_128](36)).
+This file makes use of a broken or weak cryptographic algorithm (specified by [access of enum constant SSL_SYM_RC4_40](37)).
+This file makes use of a broken or weak cryptographic algorithm (specified by [access of enum constant SSL_SYM_3DES_EDE_CBC](38)).
+This file makes use of a broken or weak cryptographic algorithm (specified by [access of enum constant SSL_SYM_DES_CBC](39)).
+This file makes use of a broken or weak cryptographic algorithm (specified by [access of enum constant SSL_SYM_3DES_EDE_CBC](40)).
+This file makes use of a broken or weak cryptographic algorithm (specified by [access of enum constant SSL_SYM_DES_CBC](41)).
+This file makes use of a broken or weak cryptographic algorithm (specified by [access of enum constant SSL_SYM_3DES_EDE_CBC](42)).
+This file makes use of a broken or weak cryptographic algorithm (specified by [access of enum constant SSL_SYM_DES_CBC](43)).
+This file makes use of a broken or weak cryptographic algorithm (specified by [access of enum constant SSL_SYM_3DES_EDE_CBC](44)).
+This file makes use of a broken or weak cryptographic algorithm (specified by [access of enum constant SSL_SYM_DES_CBC](45)).
+This file makes use of a broken or weak cryptographic algorithm (specified by [access of enum constant SSL_SYM_3DES_EDE_CBC](46)).
+This file makes use of a broken or weak cryptographic algorithm (specified by [access of enum constant SSL_SYM_DES_CBC](47)).
+This file makes use of a broken or weak cryptographic algorithm (specified by [access of enum constant SSL_SYM_RC2_CBC_40](48)).
+This file makes use of a broken or weak cryptographic algorithm (specified by [access of enum constant SSL_SYM_RC4_128](49)).
+This file makes use of a broken or weak cryptographic algorithm (specified by [access of enum constant SSL_SYM_RC4_128](50)).
+This file makes use of a broken or weak cryptographic algorithm (specified by [access of enum constant SSL_SYM_RC4_40](51)).",CWE-327,HIGH
+3b77ba7a1ba1978:1,Packet++/src/SSLHandshake.cpp,676,47,-1,81,True,False,False,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 331 lines.,,MEDIUM
+9d1ad46717a66b7d:1,Packet++/src/SSLHandshake.cpp,344,44,-1,74,True,False,False,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 331 lines.,,MEDIUM

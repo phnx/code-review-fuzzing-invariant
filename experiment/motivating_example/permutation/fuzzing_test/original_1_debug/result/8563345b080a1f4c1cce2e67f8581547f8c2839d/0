@@ -1,0 +1,70 @@
+(lldb) target create "original_1_fuzz"
+Current executable set to '/script/motivating_example/sample_set/permutation/original_1_fuzz' (x86_64).
+(lldb) command source -s 0 '/script/motivating_example/sample_set/permutation/fuzzing_test/original_1_debug/script/8563345b080a1f4c1cce2e67f8581547f8c2839d/batch.lldb'
+Executing commands in '/script/motivating_example/sample_set/permutation/fuzzing_test/original_1_debug/script/8563345b080a1f4c1cce2e67f8581547f8c2839d/batch.lldb'.
+(lldb) settings set interpreter.stop-command-source-on-error 0
+(lldb) settings set auto-confirm 1
+(lldb) breakpoint set --file /script/motivating_example/sample_set/permutation/original_1.c --line 29
+Breakpoint 1: where = original_1_fuzz`permutation + 392 at original_1.c:29:13, address = 0x00000000000676d8
+(lldb) breakpoint command add 1
+(lldb) run /script/motivating_example/sample_set/permutation/fuzzing_test/modified_inputs/8563345b080a1f4c1cce2e67f8581547f8c2839d
+INFO: Running with entropic power schedule (0xFF, 100).
+INFO: Seed: 3999612909
+INFO: Loaded 1 modules   (16 inline 8-bit counters): 16 [0x5555555defd0, 0x5555555defe0), 
+INFO: Loaded 1 PC tables (16 PCs): 16 [0x5555555defe0,0x5555555df0e0), 
+/script/motivating_example/sample_set/permutation/original_1_fuzz: Running 1 inputs 1 time(s) each.
+Running: /script/motivating_example/sample_set/permutation/fuzzing_test/modified_inputs/8563345b080a1f4c1cce2e67f8581547f8c2839d
+48 43 
+(lldb)  frame info
+frame #0: 0x00005555555bb6d8 original_1_fuzz`permutation(arr=0x0000555555f67f50, size=2, index=1) at original_1.c:29:13
+(lldb)  frame variable i -f dec 
+(size_t) i = 1
+(lldb)  frame variable index -f dec 
+(size_t) index = 1
+(lldb)  frame variable curr_val -f dec 
+(int) curr_val = 43
+(lldb)  continue
+Process 150951 resuming
+Command #6 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb6d8 original_1_fuzz`permutation(arr=0x0000555555f67f50, size=2, index=0) at original_1.c:29:13
+(lldb)  frame variable i -f dec 
+(size_t) i = 0
+(lldb)  frame variable index -f dec 
+(size_t) index = 0
+(lldb)  frame variable curr_val -f dec 
+(int) curr_val = 48
+(lldb)  continue
+Process 150951 resuming
+Command #6 'continue' continued the target.
+43 48 
+(lldb)  frame info
+frame #0: 0x00005555555bb6d8 original_1_fuzz`permutation(arr=0x0000555555f67f50, size=2, index=1) at original_1.c:29:13
+(lldb)  frame variable i -f dec 
+(size_t) i = 1
+(lldb)  frame variable index -f dec 
+(size_t) index = 1
+(lldb)  frame variable curr_val -f dec 
+(int) curr_val = 48
+(lldb)  continue
+Process 150951 resuming
+Command #6 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb6d8 original_1_fuzz`permutation(arr=0x0000555555f67f50, size=2, index=0) at original_1.c:29:13
+(lldb)  frame variable i -f dec 
+(size_t) i = 1
+(lldb)  frame variable index -f dec 
+(size_t) index = 0
+(lldb)  frame variable curr_val -f dec 
+(int) curr_val = 48
+(lldb)  continue
+Process 150951 resuming
+Command #6 'continue' continued the target.
+Executed /script/motivating_example/sample_set/permutation/fuzzing_test/modified_inputs/8563345b080a1f4c1cce2e67f8581547f8c2839d in 14 ms
+***
+*** NOTE: fuzzing was not performed, you have only
+***       executed the target code on a fixed set of inputs.
+***
+Process 150951 exited with status = 0 (0x00000000)
+Process 150951 launched: '/script/motivating_example/sample_set/permutation/original_1_fuzz' (x86_64)
+(lldb) quit

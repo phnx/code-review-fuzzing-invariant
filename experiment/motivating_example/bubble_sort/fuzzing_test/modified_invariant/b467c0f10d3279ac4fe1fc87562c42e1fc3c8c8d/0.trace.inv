@@ -1,0 +1,23 @@
+settings:INFO:2025-04-10 05:54:02.748457: /program/dig/src/dig.py /script/motivating_example/sample_set/bubble_sort/fuzzing_test/modified_trace/b467c0f10d3279ac4fe1fc87562c42e1fc3c8c8d/0.trace -log 3 --nofilter --nosimplify --seed 27
+alg:INFO:analyzing '/script/motivating_example/sample_set/bubble_sort/fuzzing_test/modified_trace/b467c0f10d3279ac4fe1fc87562c42e1fc3c8c8d/0.trace'
+alg:INFO:got 214 traces over 1 locs
+alg:INFO:check 18 invs using 214 traces (0.38s)
+dummy (18 invs):
+1. i == 0
+2. i <= 0
+3. -i <= 0
+4. -j <= -4
+5. i - j <= -4
+6. -i - j <= -4
+7. min(j, 0) - i <= 0
+8. i - min(j, 0) <= 0
+9. i - min(temp, 0) <= 0
+10. min(temp, 0) - i <= 0
+11. i - min(j, temp, 0) <= 0
+12. min(j, temp, 0) - i <= 0
+13. temp === 93952407 (mod 477591416)
+14. -temp === 383639009 (mod 477591416)
+15. i + temp === 93952407 (mod 477591416)
+16. -i + temp === 93952407 (mod 477591416)
+17. i - temp === 383639009 (mod 477591416)
+18. -i - temp === 383639009 (mod 477591416)

@@ -1,0 +1,9 @@
+dummy; I dest_pos; I orig_pos; I val;
+dummy; 1; 0; 0;
+dummy; 2; 1; 0;
+dummy; 3; 2; 0;
+dummy; 4; 3; 0;
+dummy; 5; 4; 0;
+dummy; 6; 5; 0;
+dummy; 7; 6; 0;
+dummy; 8; 7; -1850736640;

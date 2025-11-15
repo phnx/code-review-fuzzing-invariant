@@ -1,0 +1,12 @@
+=====================
+src/funcs.c
+=====================
+{
+    "0": {
+        "bp_line": 473,
+        "func_name": "file_buffer",
+        "func_start": 311,
+        "func_end": 489
+    }
+}
+

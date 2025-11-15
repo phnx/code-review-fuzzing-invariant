@@ -1,0 +1,74 @@
+settings:INFO:2025-04-10 06:37:08.190156: /program/dig/src/dig.py /script/motivating_example/sample_set/bubble_sort/fuzzing_test/original_2_trace/b553455ddc0907c93bca95b9c2127ed14b0a4549/0.trace -log 3 --nofilter --nosimplify --seed 27
+alg:INFO:analyzing '/script/motivating_example/sample_set/bubble_sort/fuzzing_test/original_2_trace/b553455ddc0907c93bca95b9c2127ed14b0a4549/0.trace'
+alg:INFO:got 1 traces over 1 locs
+alg:INFO:check 69 invs using 1 traces (0.09s)
+dummy (69 invs):
+1. j == 0
+2. i == 0
+3. temp == 0
+4. j <= 0
+5. i <= 0
+6. -i <= 0
+7. -j <= 0
+8. temp <= 0
+9. i - j <= 0
+10. i + j <= 0
+11. -temp <= 0
+12. -i + j <= 0
+13. -i - j <= 0
+14. j - temp <= 0
+15. i - temp <= 0
+16. i + temp <= 0
+17. j + temp <= 0
+18. -j - temp <= 0
+19. -i + temp <= 0
+20. -i - temp <= 0
+21. -j + temp <= 0
+22. i - min(j, 0) <= 0
+23. j - min(i, 0) <= 0
+24. min(j, 0) - i <= 0
+25. i - max(j, 0) <= 0
+26. min(i, 0) - j <= 0
+27. j - max(i, 0) <= 0
+28. max(j, 0) - i <= 0
+29. max(i, 0) - j <= 0
+30. max(i, j) - temp <= 0
+31. max(j, 0) - temp <= 0
+32. min(temp, 0) - i <= 0
+33. temp - min(i, j) <= 0
+34. max(j, temp) - i <= 0
+35. i - max(j, temp) <= 0
+36. min(i, j) - temp <= 0
+37. i - max(temp, 0) <= 0
+38. max(temp, 0) - j <= 0
+39. max(temp, 0) - i <= 0
+40. temp - max(i, 0) <= 0
+41. i - min(temp, 0) <= 0
+42. j - min(temp, 0) <= 0
+43. min(i, 0) - temp <= 0
+44. min(temp, 0) - j <= 0
+45. min(i, temp) - j <= 0
+46. temp - min(i, 0) <= 0
+47. j - max(temp, 0) <= 0
+48. j - max(i, temp) <= 0
+49. temp - min(j, 0) <= 0
+50. max(i, temp) - j <= 0
+51. min(j, 0) - temp <= 0
+52. max(i, 0) - temp <= 0
+53. temp - max(i, j) <= 0
+54. min(j, temp) - i <= 0
+55. j - min(i, temp) <= 0
+56. i - min(j, temp) <= 0
+57. temp - max(j, 0) <= 0
+58. temp - min(i, j, 0) <= 0
+59. i - min(j, temp, 0) <= 0
+60. max(i, j, 0) - temp <= 0
+61. min(j, temp, 0) - i <= 0
+62. temp - max(i, j, 0) <= 0
+63. i - max(j, temp, 0) <= 0
+64. max(j, temp, 0) - i <= 0
+65. max(i, temp, 0) - j <= 0
+66. j - max(i, temp, 0) <= 0
+67. min(i, temp, 0) - j <= 0
+68. j - min(i, temp, 0) <= 0
+69. min(i, j, 0) - temp <= 0

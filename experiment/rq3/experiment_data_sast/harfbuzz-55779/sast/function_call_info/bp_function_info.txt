@@ -1,0 +1,42 @@
+=====================
+src/OT/Layout/GPOS/MarkBasePosFormat1.hh
+=====================
+{
+    "0": {
+        "bp_line": 126,
+        "func_name": "apply ",
+        "func_start": 112,
+        "func_end": 160
+    },
+    "1": {
+        "bp_line": 153,
+        "func_name": "apply ",
+        "func_start": 112,
+        "func_end": 160
+    },
+    "2": {
+        "bp_line": 159,
+        "func_name": "apply ",
+        "func_start": 112,
+        "func_end": 160
+    }
+}
+
+=====================
+src/OT/Layout/GPOS/MarkLigPosFormat1.hh
+=====================
+{
+    "3": {
+        "bp_line": 118,
+        "func_name": "apply ",
+        "func_start": 95,
+        "func_end": 161
+    },
+    "4": {
+        "bp_line": 129,
+        "func_name": "apply ",
+        "func_start": 95,
+        "func_end": 161
+    }
+}
+

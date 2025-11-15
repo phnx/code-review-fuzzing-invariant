@@ -1,0 +1,1 @@
+"usrsctplib/netinet/sctp_asconf.c","sctp_handle_asconf( struct mbuf * m , unsigned int offset , struct sockaddr * src , struct sctp_asconf_chunk * cp , struct sctp_tcb * stcb , int first)","716-717-718-719-720-721-722-723","178","1081","6","31"

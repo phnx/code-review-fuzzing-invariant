@@ -1,0 +1,50 @@
+=====================
+crypto/x509/v3_alt.c
+=====================
+{
+    "GENERAL_NAME_print": [
+        161,
+        237
+    ],
+    "*v2i_issuer_alt": [
+        239,
+        271
+    ],
+    "copy_issuer": [
+        275,
+        314
+    ],
+    "*v2i_subject_alt": [
+        316,
+        353
+    ],
+    "copy_email": [
+        359,
+        411
+    ],
+    "*v2i_GENERAL_NAMES": [
+        413,
+        439
+    ],
+    "*v2i_GENERAL_NAME": [
+        441,
+        445
+    ],
+    "*a2i_GENERAL_NAME": [
+        447,
+        536
+    ],
+    "*v2i_GENERAL_NAME_ex": [
+        538,
+        576
+    ],
+    "do_othername": [
+        578,
+        603
+    ],
+    "do_dirname": [
+        605,
+        630
+    ]
+}
+

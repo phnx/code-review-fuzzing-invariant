@@ -1,0 +1,5 @@
+"crypto/bn/bn_gf2m.c","BN_GF2m_mod_inv_vartime( BIGNUM * r , const BIGNUM * a , const BIGNUM * p , BN_CTX * ctx)","670-671-673-674-675-676-677-678-679-680-681-682-683-684-685-687-689-690","144","960","4","42"
+"crypto/bn/bn_local.h","bn_expand( BIGNUM * a , int bits)","664-665-666-667-668-671-673-674-675-676-677-678-679-680","10","130","2","6"
+"ssl/statem/extensions_srvr.c","tls_parse_ctos_status_request( SSL * s , PACKET * pkt , unsigned int context , X509 * x , size_t chainidx)","329-330-332-333-334-335-344-345-346-347-348-349-350-351-352-353-354-355-356-357-358-359-360-361-362-363-365-366","83","588","5","23"
+"ssl/statem/statem_clnt.c","tls_construct_cke_dhe( SSL * s , WPACKET * pkt)","2914-2916-2917-2918-2919-2920-2921-2922-2923-2924-2925-2927-2928","47","273","2","10"
+"ssl/statem/statem_clnt.c","tls_construct_cke_ecdhe( SSL * s , WPACKET * pkt)","2980-2982-2983-2984-2985-2986-2987-2988-2989-2990-2991-2993-2994","35","201","2","8"

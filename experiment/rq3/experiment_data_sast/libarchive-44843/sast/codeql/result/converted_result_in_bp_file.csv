@@ -1,0 +1,11 @@
+location_hash,location_file,location_start_line,location_start_column,location_end_line,location_end_column,warning_in_target_file,warning_in_target_function,warning_in_target_code_block,warning_rule_id,warning_rule_name,warning_message,warning_weakness,warning_severity
+2f15626eac9c78e:1,libarchive/archive_read_support_format_rar.c,3608,7,-1,8,True,False,False,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+c265a277a5c4cd4:1,libarchive/archive_read_support_format_rar.c,961,5,1085,6,True,False,False,cpp/long-switch,Long switch case,"Switch has at least one case that is too long: [115 (44 lines)](1).
+Switch has at least one case that is too long: [123 (50 lines)](2).",,LOW
+3169f8846b1824d7:1,libarchive/archive_read_support_format_rar.c,3400,3,-1,30,True,False,False,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+f0710b54dffd5484:1,libarchive/archive_read_support_format_rar.c,2718,2,-1,9,True,False,False,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+8451e7da94d9022b:1,libarchive/archive_read_support_format_rar.c,2670,5,2704,7,True,False,False,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+6e000276712c7913:1,libarchive/archive_read_support_format_rar.c,2632,3,-1,45,True,False,False,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+702145f3f8a567e4:1,libarchive/archive_read_support_format_rar.c,1461,5,-1,32,True,False,False,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+93acba9773ad2171:1,libarchive/archive_read_support_format_rar.c,3165,-1,-1,13,True,False,False,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 136 lines.,,MEDIUM
+5e7dd1618c9a46dc:1,libarchive/archive_read_support_format_rar.c,2830,-1,-1,7,True,False,False,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 227 lines.,,MEDIUM

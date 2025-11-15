@@ -1,0 +1,203 @@
+location_hash,location_file,location_start_line,location_start_column,location_end_line,location_end_column,warning_rule_id,warning_rule_name,warning_message,warning_weakness,warning_severity
+8fd790b1a8025d2e:1,include/curl/curl.h,2470,14,-1,15,cpp/irregular-enum-init,Irregular enum initialization,"In an enumerator list, the = construct should not be used to explicitly initialize members other than the first, unless all items are explicitly initialized.",,LOW
+79827260f557bb71:1,lib/wildcard.h,30,14,-1,15,cpp/irregular-enum-init,Irregular enum initialization,"In an enumerator list, the = construct should not be used to explicitly initialize members other than the first, unless all items are explicitly initialized.",,LOW
+b955fdfd21527dd9:1,lib/http_chunks.h,68,14,-1,15,cpp/irregular-enum-init,Irregular enum initialization,"In an enumerator list, the = construct should not be used to explicitly initialize members other than the first, unless all items are explicitly initialized.",,LOW
+7128ee857ed07da1:1,lib/ssh.h,38,14,-1,15,cpp/irregular-enum-init,Irregular enum initialization,"In an enumerator list, the = construct should not be used to explicitly initialize members other than the first, unless all items are explicitly initialized.",,LOW
+95b2864f04c80fc0:1,lib/tftp.c,102,14,-1,15,cpp/irregular-enum-init,Irregular enum initialization,"In an enumerator list, the = construct should not be used to explicitly initialize members other than the first, unless all items are explicitly initialized.",,LOW
+1d030db64722f1a7:1,src/tool_cfgable.h,30,14,-1,15,cpp/irregular-enum-init,Irregular enum initialization,"In an enumerator list, the = construct should not be used to explicitly initialize members other than the first, unless all items are explicitly initialized.",,LOW
+e13b2f1c667d4507:1,lib/getinfo.c,402,3,408,4,cpp/trivial-switch,No trivial switch statements,"This switch statement should either handle more cases, or be rewritten as an if statement.",,LOW
+306199fc52e0c960:1,lib/ftp.c,1076,5,1085,6,cpp/trivial-switch,No trivial switch statements,"This switch statement should either handle more cases, or be rewritten as an if statement.",,LOW
+ba58e10801c5c57:1,lib/telnet.c,1013,3,1055,4,cpp/trivial-switch,No trivial switch statements,"This switch statement should either handle more cases, or be rewritten as an if statement.",,LOW
+402ff83cbbc5f04e:1,lib/telnet.c,764,5,815,6,cpp/trivial-switch,No trivial switch statements,"This switch statement should either handle more cases, or be rewritten as an if statement.",,LOW
+1585acd9ff2b6aac:1,src/tool_getparam.c,1642,7,1649,8,cpp/trivial-switch,No trivial switch statements,"This switch statement should either handle more cases, or be rewritten as an if statement.",,LOW
+78ab77929aac89c3:1,src/tool_getparam.c,1762,7,1768,8,cpp/trivial-switch,No trivial switch statements,"This switch statement should either handle more cases, or be rewritten as an if statement.",,LOW
+a36c4269390f48e1:1,src/tool_getparam.c,2051,7,2060,8,cpp/trivial-switch,No trivial switch statements,"This switch statement should either handle more cases, or be rewritten as an if statement.",,LOW
+a31cc8817decd23a:1,lib/cookie.c,786,11,-1,14,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+ddd7e0f481f6ad78:1,lib/curl_path.c,142,9,-1,10,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+617f5044430d67b0:1,lib/curl_path.c,151,9,-1,10,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+87de74d8284d8b00:1,lib/pingpong.c,391,13,-1,14,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+f5f6ed654dc41fe3:1,lib/url.c,2575,11,-1,20,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+41156fbc56608276:1,lib/url.c,2591,11,-1,20,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+3609fdbd5102f2ba:1,src/tool_getparam.c,2186,11,-1,12,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+42f134b59bd62d83:1,src/tool_paramhlp.c,323,16,-1,21,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+94fd1035363989f4:1,lib/vtls/openssl.c,2823,9,-1,10,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+97190bbf78c28207:1,lib/vtls/openssl.c,2826,9,-1,10,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+3ebaa05991eda4e8:1,lib/content_encoding.c,455,3,540,4,cpp/long-switch,Long switch case,"Switch has at least one case that is too long: [ZLIB_INIT (37 lines)](1).
+Switch has at least one case that is too long: [ZLIB_GZIP_HEADER (33 lines)](2).",,LOW
+a257bc22a2b93a92:1,lib/curl_fnmatch.c,263,5,344,6,cpp/long-switch,Long switch case,Switch has at least one case that is too long: [91 (40 lines)](1).,,LOW
+7adbf1e77f194420:1,lib/curl_fnmatch.c,173,5,247,6,cpp/long-switch,Long switch case,Switch has at least one case that is too long: [CURLFNM_SCHS_DEFAULT (45 lines)](1).,,LOW
+e7763a9a86a04b44:1,lib/curl_sasl.c,451,3,607,4,cpp/long-switch,Long switch case,Switch has at least one case that is too long: [SASL_NTLM_TYPE2MSG (49 lines)](1).,,LOW
+391ab0ac28d82007:1,lib/ftplistparser.c,394,5,1005,6,cpp/long-switch,Long switch case,"Switch has at least one case that is too long: [OS_TYPE_UNIX (470 lines)](1).
+Switch has at least one case that is too long: [OS_TYPE_WIN_NT (135 lines)](2).",,LOW
+c9d67461e0cd7adc:1,lib/ftplistparser.c,396,7,864,8,cpp/long-switch,Long switch case,"Switch has at least one case that is too long: [PL_UNIX_TOTALSIZE (44 lines)](1).
+Switch has at least one case that is too long: [PL_UNIX_FILETYPE (33 lines)](2).
+Switch has at least one case that is too long: [PL_UNIX_HLINKS (37 lines)](3).
+Switch has at least one case that is too long: [PL_UNIX_SIZE (40 lines)](4).
+Switch has at least one case that is too long: [PL_UNIX_TIME (84 lines)](5).
+Switch has at least one case that is too long: [PL_UNIX_FILENAME (42 lines)](6).
+Switch has at least one case that is too long: [PL_UNIX_SYMLINK (107 lines)](7).",,LOW
+9f91ae1dc973fbd3:1,lib/ftp.c,4116,3,4240,4,cpp/long-switch,Long switch case,"Switch has at least one case that is too long: [FTPFILE_SINGLECWD (33 lines)](1).
+Switch has at least one case that is too long: [FTPFILE_MULTICWD (64 lines)](2).",,LOW
+2f5125a09d90c4a6:1,lib/ftp.c,3796,3,3911,4,cpp/long-switch,Long switch case,Switch has at least one case that is too long: [CURLWC_DOWNLOADING (55 lines)](1).,,LOW
+1cd8312df77e39e1:1,lib/ftplistparser.c,867,7,1000,8,cpp/long-switch,Long switch case,"Switch has at least one case that is too long: [PL_WINNT_DIRORSIZE (39 lines)](1).
+Switch has at least one case that is too long: [PL_WINNT_FILENAME (45 lines)](2).",,LOW
+162d4a076de3047f:1,lib/ftp.c,2623,5,3045,6,cpp/long-switch,Long switch case,"Switch has at least one case that is too long: [FTP_WAIT220 (61 lines)](1).
+Switch has at least one case that is too long: [FTP_AUTH (36 lines)](2).
+Switch has at least one case that is too long: [FTP_PWD (93 lines)](3).
+Switch has at least one case that is too long: [FTP_SYST (46 lines)](4).
+Switch has at least one case that is too long: [FTP_CWD (32 lines)](5).",,LOW
+ce8edeac10eb93dc:1,lib/formdata.c,257,5,520,6,cpp/long-switch,Long switch case,"Switch has at least one case that is too long: [CURLFORM_FILE (45 lines)](1).
+Switch has at least one case that is too long: [CURLFORM_CONTENTTYPE (41 lines)](2).",,LOW
+f00f763dfb021534:1,lib/ftp.c,2052,3,2112,4,cpp/long-switch,Long switch case,Switch has at least one case that is too long: [213 (51 lines)](1).,,LOW
+2e0aee5761ed4134:1,lib/http_chunks.c,133,5,326,6,cpp/long-switch,Long switch case,"Switch has at least one case that is too long: [CHUNK_HEX (36 lines)](1).
+Switch has at least one case that is too long: [CHUNK_TRAILER (61 lines)](2).",,LOW
+8744792b68ecf8a6:1,lib/http.c,2502,3,2809,4,cpp/long-switch,Long switch case,"Switch has at least one case that is too long: [HTTPREQ_PUT (43 lines)](1).
+Switch has at least one case that is too long: [HTTPREQ_POST_MIME (90 lines)](2).
+Switch has at least one case that is too long: [HTTPREQ_POST (152 lines)](3).",,LOW
+b526507732f668f2:1,lib/mprintf.c,687,5,973,6,cpp/long-switch,Long switch case,"Switch has at least one case that is too long: [FORMAT_INT (114 lines)](1).
+Switch has at least one case that is too long: [FORMAT_STRING (45 lines)](2).
+Switch has at least one case that is too long: [FORMAT_PTR (31 lines)](3).
+Switch has at least one case that is too long: [FORMAT_DOUBLE (74 lines)](4).",,LOW
+465c3dce36f05976:1,lib/netrc.c,133,9,194,10,cpp/long-switch,Long switch case,Switch has at least one case that is too long: [HOSTVALID (36 lines)](1).,,LOW
+8b1939e3b7ee5fe2:1,lib/multi.c,1400,5,2062,6,cpp/long-switch,Long switch case,"Switch has at least one case that is too long: [CURLM_STATE_CONNECT (47 lines)](1).
+Switch has at least one case that is too long: [CURLM_STATE_WAITRESOLVE (71 lines)](2).
+Switch has at least one case that is too long: [CURLM_STATE_DO (106 lines)](3).
+Switch has at least one case that is too long: [CURLM_STATE_TOOFAST (36 lines)](4).
+Switch has at least one case that is too long: [CURLM_STATE_PERFORM (139 lines)](5).
+Switch has at least one case that is too long: [CURLM_STATE_DONE (44 lines)](6).",,LOW
+b9e6174d43a04736:1,lib/setopt.c,122,3,2569,4,cpp/long-switch,Long switch case,"Switch has at least one case that is too long: [CURLOPT_PROXY_SSLVERSION (31 lines)](1).
+Switch has at least one case that is too long: [CURLOPT_COPYPOSTFIELDS (46 lines)](2).
+Switch has at least one case that is too long: [CURLOPT_COOKIELIST (57 lines)](3).
+Switch has at least one case that is too long: [CURLOPT_HTTPAUTH (50 lines)](4).
+Switch has at least one case that is too long: [CURLOPT_PROXYAUTH (49 lines)](5).
+Switch has at least one case that is too long: [CURLOPT_SHARE (60 lines)](6).
+Switch has at least one case that is too long: [CURLOPT_SSL_SESSIONID_CACHE (58 lines)](7).
+Switch has at least one case that is too long: [CURLOPT_RTSP_REQUEST (60 lines)](8).",,LOW
+511ec943468fb0f0:1,lib/share.c,68,3,168,4,cpp/long-switch,Long switch case,"Switch has at least one case that is too long: [CURLSHOPT_SHARE (44 lines)](1).
+Switch has at least one case that is too long: [CURLSHOPT_UNSHARE (35 lines)](2).",,LOW
+63994f22bb39f85c:1,lib/telnet.c,1091,5,1216,6,cpp/long-switch,Long switch case,"Switch has at least one case that is too long: [CURL_TS_IAC (33 lines)](1).
+Switch has at least one case that is too long: [CURL_TS_SE (34 lines)](2).",,LOW
+ba58e10801c5c57:1,lib/telnet.c,1013,3,1055,4,cpp/long-switch,Long switch case,Switch has at least one case that is too long: [31 (40 lines)](1).,,LOW
+1f868198c2c4dd15:1,lib/tftp.c,718,3,844,4,cpp/long-switch,Long switch case,Switch has at least one case that is too long: [TFTP_EVENT_OACK (81 lines)](1).,,LOW
+936e9103daffa067:1,lib/tftp.c,594,3,698,4,cpp/long-switch,Long switch case,Switch has at least one case that is too long: [TFTP_EVENT_DATA (42 lines)](1).,,LOW
+6c717f1fc563abed:1,lib/tftp.c,462,3,572,4,cpp/long-switch,Long switch case,Switch has at least one case that is too long: [TFTP_EVENT_TIMEOUT (82 lines)](1).,,LOW
+7f03ce272ea2168c:1,src/tool_getparam.c,584,5,2123,6,cpp/long-switch,Long switch case,"Switch has at least one case that is too long: [42 (252 lines)](1).
+Switch has at least one case that is too long: [36 (289 lines)](2).
+Switch has at least one case that is too long: [100 (182 lines)](3).
+Switch has at least one case that is too long: [69 (201 lines)](4).
+Switch has at least one case that is too long: [72 (41 lines)](5).
+Switch has at least one case that is too long: [111 (39 lines)](6).
+Switch has at least one case that is too long: [114 (38 lines)](7).
+Switch has at least one case that is too long: [84 (33 lines)](8).
+Switch has at least one case that is too long: [122 (38 lines)](9).",,LOW
+a1c7a03dff35881c:1,src/tool_setopt.c,434,7,508,8,cpp/long-switch,Long switch case,Switch has at least one case that is too long: [MIMEKIND_DATA (36 lines)](1).,,LOW
+c18902f7f2145b3a:1,src/tool_urlglob.c,102,5,166,6,cpp/long-switch,Long switch case,Switch has at least one case that is too long: [44 (33 lines)](1).,,LOW
+30f36dee5084d31e:1,lib/vtls/openssl.c,2938,7,3034,8,cpp/long-switch,Long switch case,"Switch has at least one case that is too long: [116 (32 lines)](1).
+Switch has at least one case that is too long: [28 (32 lines)](2).",,LOW
+e89d859657711bfd:1,lib/vtls/openssl.c,577,5,754,6,cpp/long-switch,Long switch case,"Switch has at least one case that is too long: [42 (53 lines)](1).
+Switch has at least one case that is too long: [43 (88 lines)](2).",,LOW
+2a01e8e3fa0b53a1:1,lib/vtls/openssl.c,758,5,825,6,cpp/long-switch,Long switch case,Switch has at least one case that is too long: [42 (42 lines)](1).,,LOW
+f5c6e39f403e9a2b:1,lib/ftplistparser.c,917,24,919,12,cpp/empty-block,Empty branch of conditional,Empty block without comment.,,LOW
+97952d371e1c6ef0:1,lib/formdata.c,555,10,566,50,cpp/complex-condition,Complex condition,Complex condition: too many logical operations in this expression.,,LOW
+da49be41bfc27db6:1,lib/vtls/vtls.c,338,8,347,63,cpp/complex-condition,Complex condition,Complex condition: too many logical operations in this expression.,,LOW
+143da30d4f627387:1,lib/ftp.c,581,3,-1,47,cpp/fixme-comment,FIXME comment,FIXME comment: some errorchecking perhaps... **,CWE-546,LOW
+494bc6e4f35be707:1,lib/security.c,576,5,-1,40,cpp/fixme-comment,FIXME comment,FIXME comment: Is this really needed?,CWE-546,LOW
+922fc9c561b6951d:1,lib/security.c,509,5,-1,65,cpp/fixme-comment,FIXME comment,FIXME comment: This error is too generic but it is OK for now.,CWE-546,LOW
+2f0e0d4cfe217aa5:1,lib/security.c,413,-1,-1,60,cpp/fixme-comment,FIXME comment,FIXME comment: The error code returned here is never checked.,CWE-546,LOW
+65882f658bdaabfa:1,lib/security.c,407,3,-1,69,cpp/fixme-comment,FIXME comment,FIXME comment: Is |buffer| length always greater than |decoded_len|?,CWE-546,LOW
+fd707bc1e7708de8:1,lib/security.c,272,-1,-1,55,cpp/fixme-comment,FIXME comment,FIXME comment: We don't check for errors nor report any!,CWE-546,LOW
+72b1959111a60e72:1,lib/security.c,266,3,-1,34,cpp/fixme-comment,FIXME comment,FIXME comment: Check for overflow,CWE-546,LOW
+365da15155160762:2,lib/security.c,180,7,-1,44,cpp/fixme-comment,FIXME comment,FIXME comment: We are doing a busy wait,CWE-546,LOW
+365da15155160762:1,lib/security.c,152,7,-1,44,cpp/fixme-comment,FIXME comment,FIXME comment: We are doing a busy wait,CWE-546,LOW
+5285ab3885b51a5d:1,lib/transfer.c,326,9,-1,63,cpp/fixme-comment,FIXME comment,FIXME comment: convert to a human readable error message,CWE-546,LOW
+f854153feb12a8ce:1,lib/vtls/nss.c,1799,3,-1,77,cpp/fixme-comment,FIXME comment,FIXME comment: . NSS doesn't support multiple databases open at the same time.,CWE-546,LOW
+bcd362fb1586ba43:1,src/tool_cfgable.c,37,34,-1,74,cpp/fixme-comment,FIXME comment,FIXME comment: better to read from library,CWE-546,LOW
+f43e3472ccecbc5f:1,lib/curl_path.c,163,7,-1,33,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+824dbc5effd4ba00:1,lib/curl_path.c,147,9,-1,41,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+54bf23660f0e30f5:1,lib/easy.c,590,7,-1,73,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+b420c4cf93ef9d54:1,lib/easy.c,572,7,-1,75,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+2c03580b8861b853:1,lib/ftplistparser.c,692,13,696,15,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+4a012266ea883520:1,lib/ldap.c,438,-1,446,3,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+c61035bbf65b8ec:1,lib/openldap.c,71,-1,-1,34,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+86f5eb6bffc40636:1,lib/socks_sspi.c,594,3,602,5,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+8c8e16e2d5efe110:1,lib/ssh.c,23,-1,-1,33,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+e0d822775946a9d9:1,lib/telnet.c,86,-1,88,56,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+94af324feff6aec4:1,lib/vtls/gtls.c,64,-1,-1,23,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+782de294ee664107:1,lib/vtls/darwinssl.c,2988,3,-1,43,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+ffdd0bbcd35c15d4:1,lib/vtls/darwinssl.c,2922,3,-1,43,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+ec11a35391056995:2,lib/vtls/darwinssl.c,256,3,-1,37,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+ec11a35391056995:1,lib/vtls/darwinssl.c,196,3,-1,37,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+20dd82db9d52cb30:1,src/tool_cfgable.h,232,3,-1,33,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+a252d838cae64921:1,src/tool_cb_prg.c,44,-1,50,3,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+a7390ace29eee286:1,src/tool_getpass.c,71,3,-1,66,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+3a1bc383dc06f498:1,src/tool_getparam.c,1411,5,1419,7,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+35a47422d56756bd:1,src/tool_writeout.c,130,21,-1,47,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+3aa92d6c636bcecc:1,src/tool_operate.c,1102,13,-1,63,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+263b89a1996355af:1,lib/http.c,3432,16,-1,22,cpp/incorrectly-checked-scanf,Incorrect return-value check for a 'scanf'-like function,"The result of scanf is only checked against 0, but it can also return EOF.",CWE-253,MEDIUM
+ffbfedf6d9ba5b76:1,lib/parsedate.c,352,10,-1,16,cpp/incorrectly-checked-scanf,Incorrect return-value check for a 'scanf'-like function,"The result of scanf is only checked against 0, but it can also return EOF.",CWE-253,MEDIUM
+7dbf0ab64c6ce618:1,lib/telnet.c,974,14,-1,20,cpp/incorrectly-checked-scanf,Incorrect return-value check for a 'scanf'-like function,"The result of scanf is only checked against 0, but it can also return EOF.",CWE-253,MEDIUM
+493e7110090aa451:1,lib/dict.c,144,3,146,4,cpp/empty-if,Futile conditional,If-statement with an empty then-branch and no else-branch.,,LOW
+3d067e9db8d71369:1,lib/sendf.c,676,19,-1,54,cpp/cleartext-transmission,Cleartext transmission of sensitive information,"This operation receives into '*buf', which may put unencrypted sensitive data into [proxy_password](1).","CWE-319,CWE-359",MEDIUM
+7e11b84688522a92:1,lib/sendf.c,380,21,-1,45,cpp/cleartext-transmission,Cleartext transmission of sensitive information,"This operation transmits '*mem', which may contain unencrypted sensitive data from [proxy_password](1).","CWE-319,CWE-359",MEDIUM
+4713d4fe28d1385b:1,lib/curl_ntlm_core.c,175,3,-1,21,cpp/weak-cryptographic-algorithm,Use of a broken or risky cryptographic algorithm,"This file makes use of a broken or weak cryptographic algorithm (specified by [call to setup_des_key](1)).
+This file makes use of a broken or weak cryptographic algorithm (specified by [invocation of macro DES_ENCRYPT](2)).
+This file makes use of a broken or weak cryptographic algorithm (specified by [call to DES_ecb_encrypt](3)).
+This file makes use of a broken or weak cryptographic algorithm (specified by [call to setup_des_key](4)).
+This file makes use of a broken or weak cryptographic algorithm (specified by [invocation of macro DES_ENCRYPT](5)).
+This file makes use of a broken or weak cryptographic algorithm (specified by [call to DES_ecb_encrypt](6)).
+This file makes use of a broken or weak cryptographic algorithm (specified by [call to setup_des_key](7)).
+This file makes use of a broken or weak cryptographic algorithm (specified by [invocation of macro DES_ENCRYPT](8)).
+This file makes use of a broken or weak cryptographic algorithm (specified by [call to DES_ecb_encrypt](9)).
+This file makes use of a broken or weak cryptographic algorithm (specified by [call to setup_des_key](10)).
+This file makes use of a broken or weak cryptographic algorithm (specified by [invocation of macro DES_ENCRYPT](11)).
+This file makes use of a broken or weak cryptographic algorithm (specified by [call to DES_ecb_encrypt](12)).
+This file makes use of a broken or weak cryptographic algorithm (specified by [call to setup_des_key](13)).
+This file makes use of a broken or weak cryptographic algorithm (specified by [invocation of macro DES_ENCRYPT](14)).
+This file makes use of a broken or weak cryptographic algorithm (specified by [call to DES_ecb_encrypt](15)).
+This file makes use of a broken or weak cryptographic algorithm (specified by [call to DES_set_odd_parity](16)).
+This file makes use of a broken or weak cryptographic algorithm (specified by [call to DES_set_key](17)).",CWE-327,HIGH
+d5b2945283911b1e:1,src/tool_cfgable.c,48,13,-1,31,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 114 lines.,,MEDIUM
+bb8421438507d518:1,lib/vtls/openssl.c,2840,17,-1,31,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 212 lines.,,MEDIUM
+396241fd18e91900:1,lib/http.c,3419,33,-1,42,cpp/missing-check-scanf,Missing return-value check for a 'scanf'-like function,"This variable is read, but may not have been written. It should be guarded by a check that the [call to sscanf](1) returns at least 3.","CWE-252,CWE-253",MEDIUM
+8d5a0f65fbf9c22:1,lib/http.c,3420,37,-1,54,cpp/missing-check-scanf,Missing return-value check for a 'scanf'-like function,"This variable is read, but may not have been written. It should be guarded by a check that the [call to sscanf](1) returns at least 1.","CWE-252,CWE-253",MEDIUM
+d490d6a07a5e9fda:1,src/tool_urlglob.c,223,9,-1,14,cpp/missing-check-scanf,Missing return-value check for a 'scanf'-like function,"This variable is read, but may not have been written. It should be guarded by a check that the [call to sscanf](1) returns at least 1.","CWE-252,CWE-253",MEDIUM
+d490d6a07a5e9fda:1,src/tool_urlglob.c,223,18,-1,23,cpp/missing-check-scanf,Missing return-value check for a 'scanf'-like function,"This variable is read, but may not have been written. It should be guarded by a check that the [call to sscanf](1) returns at least 2.","CWE-252,CWE-253",MEDIUM
+4b3a423a2da082e7:1,lib/http_proxy.c,105,5,-1,41,cpp/stack-address-escape,Local variable address stored in non-local memory,A stack address ([source](1)) may be assigned to a non-local variable.,,MEDIUM
+63ca4bcf488cfc16:1,lib/mime.c,1515,5,-1,28,cpp/stack-address-escape,Local variable address stored in non-local memory,A stack address which arrived via a [parameter](1) may be assigned to a non-local variable.,,MEDIUM
+ad56954fb62bc1e4:1,src/tool_getparam.c,2172,15,-1,47,cpp/stack-address-escape,Local variable address stored in non-local memory,A stack address which arrived via a [parameter](1) may be assigned to a non-local variable.,,MEDIUM
+f40aa45f7b7f3e6c:1,src/tool_main.c,167,11,-1,41,cpp/stack-address-escape,Local variable address stored in non-local memory,A stack address which arrived via a [parameter](1) may be assigned to a non-local variable.,,MEDIUM
+4d013f76b3d2472e:1,src/tool_parsecfg.c,239,13,-1,45,cpp/stack-address-escape,Local variable address stored in non-local memory,A stack address which arrived via a [parameter](1) may be assigned to a non-local variable.,,MEDIUM
+6075e8bc51d6fa53:1,lib/splay.c,269,11,-1,21,cpp/inconsistent-null-check,Inconsistent nullness check,"The result of this call to Curl_splay is not checked for null, but 80% of calls to Curl_splay check for null.",CWE-476,HIGH
+2309730c8f36bfa5:1,src/tool_cb_dbg.c,68,11,-1,20,cpp/potentially-dangerous-function,Use of potentially dangerous function,Call to 'localtime' is potentially dangerous.,CWE-676,MEDIUM
+a38aa3446a5683c:1,lib/cookie.c,1451,11,-1,16,cpp/world-writable-file-creation,File created without restricting permissions,"A file may be created here with mode 0666, which would make it world-writable.",CWE-732,MEDIUM
+fd50d164301011fb:1,src/tool_cb_dbg.c,83,30,-1,35,cpp/world-writable-file-creation,File created without restricting permissions,"A file may be created here with mode 0666, which would make it world-writable.",CWE-732,MEDIUM
+b878f91f0b5a25ce:1,src/tool_cb_wrt.c,57,10,-1,15,cpp/world-writable-file-creation,File created without restricting permissions,"A file may be created here with mode 0666, which would make it world-writable.",CWE-732,MEDIUM
+2003f595e3840216:1,src/tool_easysrc.c,181,11,-1,16,cpp/world-writable-file-creation,File created without restricting permissions,"A file may be created here with mode 0666, which would make it world-writable.",CWE-732,MEDIUM
+10757fed677a5b45:1,src/tool_getparam.c,759,27,-1,32,cpp/world-writable-file-creation,File created without restricting permissions,"A file may be created here with mode 0666, which would make it world-writable.",CWE-732,MEDIUM
+2a9af19b09e38c11:1,src/tool_operate.c,332,23,-1,28,cpp/world-writable-file-creation,File created without restricting permissions,"A file may be created here with mode 0666, which would make it world-writable.",CWE-732,MEDIUM
+95e180ad1c80d948:1,lib/vtls/openssl.c,962,24,-1,29,cpp/world-writable-file-creation,File created without restricting permissions,"A file may be created here with mode 0666, which would make it world-writable.",CWE-732,MEDIUM
+ec162e2628e71bb4:1,src/tool_getparam.c,1320,15,-1,21,cpp/unbounded-write,Unbounded write,"This 'call to strcpy' with input from [string read by fgets](1) may overflow the destination.
+This 'call to strcpy' with input from [string read by fread](2) may overflow the destination.
+This 'call to strcpy' with input from [a command-line argument](3) may overflow the destination.","CWE-120,CWE-787,CWE-805",HIGH
+46df7f67d4833887:1,src/tool_parsecfg.c,351,7,-1,13,cpp/unbounded-write,Unbounded write,"This 'call to strcpy' with input from [string read by fgets](1) may overflow the destination.
+This 'call to strcpy' with input from [a command-line argument](2) may overflow the destination.","CWE-120,CWE-787,CWE-805",HIGH
+d6c96f293e1d73fe:1,src/tool_paramhlp.c,82,7,-1,13,cpp/unbounded-write,Unbounded write,"This 'call to strcpy' with input from [string read by fgets](1) may overflow the destination.
+This 'call to strcpy' with input from [string read by fgets](2) may overflow the destination.
+This 'call to strcpy' with input from [a command-line argument](3) may overflow the destination.","CWE-120,CWE-787,CWE-805",HIGH
+2003f595e3840216:1,src/tool_easysrc.c,181,17,-1,18,cpp/path-injection,Uncontrolled data used in path expression,"This argument to a file access function is derived from [user input (string read by fgets)](1) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](2) and then passed to fopen(__filename).","CWE-022,CWE-023,CWE-036,CWE-073",MEDIUM
+10757fed677a5b45:1,src/tool_getparam.c,759,33,-1,40,cpp/path-injection,Uncontrolled data used in path expression,"This argument to a file access function is derived from [user input (string read by fgets)](1) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](2) and then passed to fopen(__filename).","CWE-022,CWE-023,CWE-036,CWE-073",MEDIUM
+11c24476eac41004:1,src/tool_getparam.c,1275,26,-1,27,cpp/path-injection,Uncontrolled data used in path expression,"This argument to a file access function is derived from [user input (string read by fgets)](1) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](2) and then passed to fopen(__filename).","CWE-022,CWE-023,CWE-036,CWE-073",MEDIUM
+f5a0daaa1a5067fb:1,src/tool_getparam.c,1341,24,-1,31,cpp/path-injection,Uncontrolled data used in path expression,"This argument to a file access function is derived from [user input (string read by fgets)](1) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](2) and then passed to fopen(__filename).","CWE-022,CWE-023,CWE-036,CWE-073",MEDIUM
+e49ac18e17c194d5:1,src/tool_getparam.c,1689,44,-1,55,cpp/path-injection,Uncontrolled data used in path expression,"This argument to a file access function is derived from [user input (string read by fgets)](1) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](2) and then passed to fopen(__filename).","CWE-022,CWE-023,CWE-036,CWE-073",MEDIUM
+7edd50c97d722225:1,src/tool_formparse.c,281,20,-1,27,cpp/path-injection,Uncontrolled data used in path expression,"This argument to a file access function is derived from [user input (string read by fgets)](1) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](2) and then passed to fopen(__filename).","CWE-022,CWE-023,CWE-036,CWE-073",MEDIUM
+ce3502f7e503d4ad:1,src/tool_getparam.c,2037,24,-1,31,cpp/path-injection,Uncontrolled data used in path expression,"This argument to a file access function is derived from [user input (string read by fgets)](1) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](2) and then passed to fopen(__filename).","CWE-022,CWE-023,CWE-036,CWE-073",MEDIUM
+406472b347285089:1,src/tool_parsecfg.c,118,18,-1,26,cpp/path-injection,Uncontrolled data used in path expression,"This argument to a file access function is derived from [user input (string read by fgets)](1) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](2) and then passed to fopen(__filename).","CWE-022,CWE-023,CWE-036,CWE-073",MEDIUM
+4cf105188c54fa7b:1,lib/vtls/openssl.c,3141,26,-1,50,cpp/certificate-not-checked,Certificate not checked,This call to SSL_get_peer_certificate is not followed by a call to SSL_get_verify_result.,CWE-295,HIGH

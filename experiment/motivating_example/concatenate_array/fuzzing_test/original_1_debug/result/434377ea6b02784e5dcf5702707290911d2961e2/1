@@ -1,0 +1,40 @@
+frame #0: 0x00005555555bb664 original_1_fuzz`concatenate_array(arr1=0x0000555555f67f90, size1=1, arr2=0x0000555555f67fb0, size2=3) at original_1.c:23:9
+(lldb)  frame variable dest_pos -f dec 
+(size_t) dest_pos = 1
+(lldb)  frame variable orig_pos -f dec 
+(size_t) orig_pos = 0
+(lldb)  frame variable val -f dec 
+(int) val = 0
+(lldb)  continue
+Process 112708 resuming
+Command #6 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb664 original_1_fuzz`concatenate_array(arr1=0x0000555555f67f90, size1=1, arr2=0x0000555555f67fb0, size2=3) at original_1.c:23:9
+(lldb)  frame variable dest_pos -f dec 
+(size_t) dest_pos = 2
+(lldb)  frame variable orig_pos -f dec 
+(size_t) orig_pos = 1
+(lldb)  frame variable val -f dec 
+(int) val = 0
+(lldb)  continue
+Process 112708 resuming
+Command #6 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb664 original_1_fuzz`concatenate_array(arr1=0x0000555555f67f90, size1=1, arr2=0x0000555555f67fb0, size2=3) at original_1.c:23:9
+(lldb)  frame variable dest_pos -f dec 
+(size_t) dest_pos = 3
+(lldb)  frame variable orig_pos -f dec 
+(size_t) orig_pos = 2
+(lldb)  frame variable val -f dec 
+(int) val = 168296448
+(lldb)  continue
+Process 112708 resuming
+Command #6 'continue' continued the target.
+Executed /script/motivating_example/sample_set/concatenate_array/fuzzing_test/modified_inputs/434377ea6b02784e5dcf5702707290911d2961e2 in 16 ms
+***
+*** NOTE: fuzzing was not performed, you have only
+***       executed the target code on a fixed set of inputs.
+***
+Process 112708 exited with status = 0 (0x00000000)
+Process 112708 launched: '/script/motivating_example/sample_set/concatenate_array/original_1_fuzz' (x86_64)
+(lldb) quit

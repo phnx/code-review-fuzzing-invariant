@@ -1,0 +1,7 @@
+"Packet++/header/SSLLayer.h","pcpp::SSLLayer::isSSLPort( uint16_t port)","535-536-537-538-539-540","23","68","1","14"
+"Packet++/src/SSLHandshake.cpp","pcpp::SSLClientHelloMessage::SSLClientHelloMessage( uint8_t * data , size_t dataLen , SSLHandshakeLayer * container)","1175-1176-1177-1178-1179-1180-1181","30","234","3","6"
+"Packet++/src/SSLHandshake.cpp","pcpp::SSLServerHelloMessage::SSLServerHelloMessage( uint8_t * data , size_t dataLen , SSLHandshakeLayer * container)","1317-1318-1319-1320-1321-1322-1323","30","223","3","6"
+"Packet++/src/SSLHandshake.cpp","pcpp::SSLServerHelloMessage::getHandshakeVersion() const","1344-1345-1346-1347-1348","5","26","0","1"
+"Packet++/src/SSLHandshake.cpp","pcpp::SSLCertificateRequestMessage::SSLCertificateRequestMessage( uint8_t * data , size_t dataLen , SSLHandshakeLayer * container)","1597-1599-1600-1602-1603-1609-1610-1611-1612-1613-1615-1617","23","193","3","10"
+"Packet++/src/SSLLayer.cpp","pcpp::SSLLayer::IsSSLMessage( uint16_t srcPort , uint16_t dstPort , uint8_t * data , size_t dataLen , bool ignorePorts)","16-17-18-19-20-22","19","126","5","12"
+"Packet++/src/SSLLayer.cpp","pcpp::SSLLayer::parseNextLayer()","116-117-119-120-121","8","62","0","3"

@@ -1,0 +1,12 @@
+=====================
+codec/decoder/plus/src/welsDecoderExt.cpp
+=====================
+{
+    "0": {
+        "bp_line": 815,
+        "func_name": "CWelsDecoder::DecodeFrame2WithCtx ",
+        "func_start": 722,
+        "func_end": 901
+    }
+}
+

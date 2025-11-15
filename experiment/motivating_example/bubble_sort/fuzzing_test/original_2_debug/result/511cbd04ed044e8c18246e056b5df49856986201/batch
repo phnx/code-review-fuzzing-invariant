@@ -1,0 +1,57 @@
+(lldb) target create "original_2_fuzz"
+Current executable set to '/script/motivating_example/sample_set/bubble_sort/original_2_fuzz' (x86_64).
+(lldb) command source -s 0 '/script/motivating_example/sample_set/bubble_sort/fuzzing_test/original_2_debug/script/511cbd04ed044e8c18246e056b5df49856986201/batch.lldb'
+Executing commands in '/script/motivating_example/sample_set/bubble_sort/fuzzing_test/original_2_debug/script/511cbd04ed044e8c18246e056b5df49856986201/batch.lldb'.
+(lldb) settings set interpreter.stop-command-source-on-error 0
+(lldb) settings set auto-confirm 1
+(lldb) breakpoint set --file /script/motivating_example/sample_set/bubble_sort/original_2.c --line 18
+Breakpoint 1: where = original_2_fuzz`bubble_sort + 361 at original_2.c:18:17, address = 0x0000000000067519
+(lldb) breakpoint command add 1
+(lldb) run /script/motivating_example/sample_set/bubble_sort/fuzzing_test/modified_inputs/511cbd04ed044e8c18246e056b5df49856986201
+INFO: Running with entropic power schedule (0xFF, 100).
+INFO: Seed: 149330638
+INFO: Loaded 1 modules   (12 inline 8-bit counters): 12 [0x5555555defc0, 0x5555555defcc), 
+INFO: Loaded 1 PC tables (12 PCs): 12 [0x5555555defd0,0x5555555df090), 
+/script/motivating_example/sample_set/bubble_sort/original_2_fuzz: Running 1 inputs 1 time(s) each.
+Running: /script/motivating_example/sample_set/bubble_sort/fuzzing_test/modified_inputs/511cbd04ed044e8c18246e056b5df49856986201
+(lldb)  frame info
+frame #0: 0x00005555555bb519 original_2_fuzz`bubble_sort(arr=0x0000555555f67f60, size=6) at original_2.c:18:17
+(lldb)  frame variable i -f dec 
+(size_t) i = 0
+(lldb)  frame variable j -f dec 
+(size_t) j = 2
+(lldb)  frame variable temp -f dec 
+(int) temp = 589824
+(lldb)  continue
+Process 136341 resuming
+Command #6 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb519 original_2_fuzz`bubble_sort(arr=0x0000555555f67f60, size=6) at original_2.c:18:17
+(lldb)  frame variable i -f dec 
+(size_t) i = 0
+(lldb)  frame variable j -f dec 
+(size_t) j = 3
+(lldb)  frame variable temp -f dec 
+(int) temp = 589824
+(lldb)  continue
+Process 136341 resuming
+Command #6 'continue' continued the target.
+(lldb)  frame info
+frame #0: 0x00005555555bb519 original_2_fuzz`bubble_sort(arr=0x0000555555f67f60, size=6) at original_2.c:18:17
+(lldb)  frame variable i -f dec 
+(size_t) i = 0
+(lldb)  frame variable j -f dec 
+(size_t) j = 4
+(lldb)  frame variable temp -f dec 
+(int) temp = 589824
+(lldb)  continue
+Process 136341 resuming
+Command #6 'continue' continued the target.
+Executed /script/motivating_example/sample_set/bubble_sort/fuzzing_test/modified_inputs/511cbd04ed044e8c18246e056b5df49856986201 in 15 ms
+***
+*** NOTE: fuzzing was not performed, you have only
+***       executed the target code on a fixed set of inputs.
+***
+Process 136341 exited with status = 0 (0x00000000)
+Process 136341 launched: '/script/motivating_example/sample_set/bubble_sort/original_2_fuzz' (x86_64)
+(lldb) quit

@@ -1,0 +1,394 @@
+=====================
+cpp/src/arrow/ipc/reader.cc
+=====================
+{
+    "InvalidMessageType": [
+        82,
+        85
+    ],
+    "IpcReadContext": [
+        117,
+        124
+    ],
+    "ArrayLoader": [
+        143,
+        149
+    ],
+    "ReadBuffer": [
+        151,
+        167
+    ],
+    "LoadType": [
+        169,
+        169
+    ],
+    "Load": [
+        171,
+        180
+    ],
+    "SkipField": [
+        182,
+        188
+    ],
+    "GetBuffer": [
+        190,
+        204
+    ],
+    "GetFieldMetadata": [
+        206,
+        219
+    ],
+    "LoadCommon": [
+        221,
+        236
+    ],
+    "LoadPrimitive": [
+        239,
+        250
+    ],
+    "LoadBinary": [
+        253,
+        259
+    ],
+    "LoadList": [
+        262,
+        274
+    ],
+    "LoadChildren": [
+        276,
+        288
+    ],
+    "Visit": [
+        384,
+        384
+    ],
+    "DecompressBuffer": [
+        399,
+        430
+    ],
+    "DecompressBuffers": [
+        432,
+        466
+    ],
+    "AppendFrom": [
+        437,
+        444
+    ],
+    "Get": [
+        446,
+        449
+    ],
+    "LoadRecordBatchSubset": [
+        468,
+        526
+    ],
+    "LoadRecordBatch": [
+        528,
+        537
+    ],
+    "GetCompression": [
+        542,
+        561
+    ],
+    "GetCompressionExperimental": [
+        563,
+        579
+    ],
+    "ReadContiguousPayload": [
+        581,
+        588
+    ],
+    "ReadRecordBatch": [
+        1064,
+        1083
+    ],
+    "ReadRecordBatchInternal": [
+        611,
+        634
+    ],
+    "GetInclusionMaskAndOutSchema": [
+        638,
+        669
+    ],
+    "UnpackSchemaMessage": [
+        691,
+        701
+    ],
+    "ReadDictionary": [
+        1549,
+        1565
+    ],
+    "Open": [
+        1110,
+        1123
+    ],
+    "ReadNext": [
+        808,
+        841
+    ],
+    "schema": [
+        1494,
+        1494
+    ],
+    "stats": [
+        1498,
+        1498
+    ],
+    "ReadNextMessage": [
+        848,
+        864
+    ],
+    "ARROW_ASSIGN_OR_RAISE": [
+        849,
+        862
+    ],
+    "ReadInitialDictionaries": [
+        884,
+        920
+    ],
+    "RecordBatchStreamReader::Open": [
+        956,
+        959
+    ],
+    "FileBlockFromFlatbuffer": [
+        966,
+        968
+    ],
+    "ReadMessageFromBlock": [
+        1196,
+        1200
+    ],
+    "ReadMessageFromBlockAsync": [
+        986,
+        999
+    ],
+    "ReadOneDictionary": [
+        1001,
+        1012
+    ],
+    "IpcFileRecordBatchGenerator": [
+        1023,
+        1031
+    ],
+    "RecordBatchFileReaderImpl": [
+        1054,
+        1054
+    ],
+    "num_record_batches": [
+        1056,
+        1058
+    ],
+    "version": [
+        1060,
+        1062
+    ],
+    "CountRows": [
+        1085,
+        1102
+    ],
+    "OpenAsync": [
+        1131,
+        1146
+    ],
+    "metadata": [
+        1150,
+        1150
+    ],
+    "GetRecordBatchGenerator": [
+        1154,
+        1181
+    ],
+    "GetRecordBatchBlock": [
+        1188,
+        1190
+    ],
+    "GetDictionaryBlock": [
+        1192,
+        1194
+    ],
+    "ReadDictionaries": [
+        1202,
+        1211
+    ],
+    "ReadFooter": [
+        1213,
+        1216
+    ],
+    "ReadFooterAsync": [
+        1218,
+        1273
+    ],
+    "num_dictionaries": [
+        1275,
+        1277
+    ],
+    "RecordBatchFileReader::Open": [
+        1326,
+        1332
+    ],
+    "RecordBatchFileReader::OpenAsync": [
+        1354,
+        1359
+    ],
+    "IpcFileRecordBatchGenerator::operator": [
+        1361,
+        1399
+    ],
+    "IpcFileRecordBatchGenerator::ReadBlock": [
+        1401,
+        1416
+    ],
+    "IpcFileRecordBatchGenerator::ReadDictionaries": [
+        1418,
+        1426
+    ],
+    "IpcFileRecordBatchGenerator::ReadRecordBatch": [
+        1428,
+        1435
+    ],
+    "Listener::OnEOS": [
+        1437,
+        1437
+    ],
+    "Listener::OnSchemaDecoded": [
+        1439,
+        1439
+    ],
+    "Listener::OnRecordBatchDecoded": [
+        1441,
+        1443
+    ],
+    "StreamDecoderImpl": [
+        1455,
+        1461
+    ],
+    "OnMessageDecoded": [
+        1463,
+        1479
+    ],
+    "OnEOS": [
+        1481,
+        1484
+    ],
+    "Consume": [
+        1490,
+        1492
+    ],
+    "next_required_size": [
+        1496,
+        1496
+    ],
+    "OnSchemaMessageDecoded": [
+        1501,
+        1514
+    ],
+    "OnInitialDictionaryMessageDecoded": [
+        1516,
+        1529
+    ],
+    "OnRecordBatchMessageDecoded": [
+        1531,
+        1546
+    ],
+    "StreamDecoder::StreamDecoder": [
+        1579,
+        1581
+    ],
+    "StreamDecoder::~StreamDecoder": [
+        1583,
+        1583
+    ],
+    "StreamDecoder::Consume": [
+        1588,
+        1590
+    ],
+    "StreamDecoder::schema": [
+        1592,
+        1592
+    ],
+    "StreamDecoder::next_required_size": [
+        1594,
+        1594
+    ],
+    "StreamDecoder::stats": [
+        1596,
+        1596
+    ],
+    "ReadSchema": [
+        1609,
+        1614
+    ],
+    "ReadTensor": [
+        1622,
+        1631
+    ],
+    "ReadSparseCOOIndex": [
+        1635,
+        1665
+    ],
+    "ReadSparseCSXIndex": [
+        1667,
+        1719
+    ],
+    "ReadSparseCSFIndex": [
+        1721,
+        1748
+    ],
+    "MakeSparseTensorWithSparseCOOIndex": [
+        1750,
+        1756
+    ],
+    "MakeSparseTensorWithSparseCSRIndex": [
+        1758,
+        1764
+    ],
+    "MakeSparseTensorWithSparseCSCIndex": [
+        1766,
+        1772
+    ],
+    "MakeSparseTensorWithSparseCSFIndex": [
+        1774,
+        1780
+    ],
+    "ReadSparseTensorMetadata": [
+        1782,
+        1812
+    ],
+    "GetSparseTensorBodyBufferCount": [
+        1820,
+        1838
+    ],
+    "CheckSparseTensorBodyBufferCount": [
+        1840,
+        1851
+    ],
+    "ReadSparseTensorBodyBufferCount": [
+        1855,
+        1863
+    ],
+    "ReadSparseTensorPayload": [
+        1865,
+        1953
+    ],
+    "ReadSparseTensor": [
+        2013,
+        2020
+    ],
+    "ValidateFuzzBatch": [
+        2028,
+        2035
+    ],
+    "FuzzIpcStream": [
+        2039,
+        2057
+    ],
+    "FuzzIpcFile": [
+        2059,
+        2074
+    ],
+    "FuzzIpcTensorStream": [
+        2076,
+        2091
+    ]
+}
+

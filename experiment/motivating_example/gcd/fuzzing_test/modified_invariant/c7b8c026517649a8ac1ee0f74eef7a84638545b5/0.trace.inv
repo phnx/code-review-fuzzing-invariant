@@ -1,0 +1,22 @@
+settings:INFO:2025-04-10 05:40:46.022352: /program/dig/src/dig.py /script/motivating_example/sample_set/gcd/fuzzing_test/modified_trace/c7b8c026517649a8ac1ee0f74eef7a84638545b5/0.trace -log 3 --nofilter --nosimplify --seed 27
+alg:INFO:analyzing '/script/motivating_example/sample_set/gcd/fuzzing_test/modified_trace/c7b8c026517649a8ac1ee0f74eef7a84638545b5/0.trace'
+alg:INFO:got 9 traces over 1 locs
+infer.eqt:WARNING:NO EQTS RESULTS, reducing deg to 6
+infer.eqt:WARNING:NO EQTS RESULTS, reducing deg to 5
+infer.eqt:WARNING:NO EQTS RESULTS, reducing deg to 4
+infer.eqt:WARNING:NO EQTS RESULTS, reducing deg to 3
+infer.eqt:WARNING:NO EQTS RESULTS, reducing deg to 2
+infer.eqt:WARNING:NO EQTS RESULTS, reducing deg to 1
+infer.eqt:WARNING:NO EQTS RESULTS, reducing deg to 0
+alg:INFO:check 10 invs using 9 traces (0.05s)
+dummy (10 invs):
+1. -b <= 0
+2. min(a, 0) - b <= 0
+3. b === 0 (mod 1792)
+4. -b === 0 (mod 1792)
+5. a === 0 (mod 17920)
+6. -a === 0 (mod 17920)
+7. a - b === 0 (mod 1792)
+8. a + b === 0 (mod 1792)
+9. -a + b === 0 (mod 1792)
+10. -a - b === 0 (mod 1792)

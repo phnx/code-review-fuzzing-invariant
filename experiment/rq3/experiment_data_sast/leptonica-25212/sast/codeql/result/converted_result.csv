@@ -1,0 +1,632 @@
+location_hash,location_file,location_start_line,location_start_column,location_end_line,location_end_column,warning_rule_id,warning_rule_name,warning_message,warning_weakness,warning_severity
+125691e37e6a2a9d:1,src/numafunc2.c,2632,17,-1,18,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+dcf2084c55cd5e11:1,src/recogident.c,1709,21,-1,22,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+8f587c080f8570a:1,src/utils2.c,1131,13,-1,14,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+593affafbaa42c0c:1,src/blend.c,328,5,444,6,cpp/long-switch,Long switch case,"Switch has at least one case that is too long: [L_BLEND_WITH_INVERSE (38 lines)](1).
+Switch has at least one case that is too long: [L_BLEND_TO_WHITE (35 lines)](2).
+Switch has at least one case that is too long: [L_BLEND_TO_BLACK (35 lines)](3).",,LOW
+7373a725bbb85742:1,src/grayquant.c,534,5,634,6,cpp/long-switch,Long switch case,"Switch has at least one case that is too long: [4 (54 lines)](1).
+Switch has at least one case that is too long: [8 (39 lines)](2).",,LOW
+911ee548d53a4e3a:1,src/pnmio.c,177,5,497,6,cpp/long-switch,Long switch case,Switch has at least one case that is too long: [7 (212 lines)](1).,,LOW
+b8adec95387106b8:1,src/pnmio.c,288,13,388,14,cpp/long-switch,Long switch case,Switch has at least one case that is too long: [4 (33 lines)](1).,,LOW
+f86688321f8fdfa3:1,src/pnmio.c,395,13,494,14,cpp/long-switch,Long switch case,Switch has at least one case that is too long: [4 (33 lines)](1).,,LOW
+fd010c1427f2e2b:1,src/pixconv.c,420,13,553,14,cpp/long-switch,Long switch case,"Switch has at least one case that is too long: [2 (38 lines)](1).
+Switch has at least one case that is too long: [1 (33 lines)](2).",,LOW
+28b1ddd8adb14bf8:1,src/roplow.c,1491,5,2116,6,cpp/long-switch,Long switch case,"Switch has at least one case that is too long: [12 (49 lines)](1).
+Switch has at least one case that is too long: [... ^ ... (49 lines)](2).
+Switch has at least one case that is too long: [... | ... (51 lines)](3).
+Switch has at least one case that is too long: [... & ... (51 lines)](4).
+Switch has at least one case that is too long: [... ^ ... (51 lines)](5).
+Switch has at least one case that is too long: [... | ... (51 lines)](6).
+Switch has at least one case that is too long: [... & ... (51 lines)](7).
+Switch has at least one case that is too long: [... | ... (51 lines)](8).
+Switch has at least one case that is too long: [... & ... (51 lines)](9).
+Switch has at least one case that is too long: [... ^ ... (51 lines)](10).
+Switch has at least one case that is too long: [... ^ ... (52 lines)](11).
+Switch has at least one case that is too long: [... ^ ... (51 lines)](12).",,LOW
+4d3f58094836f497:1,src/roplow.c,920,5,1293,6,cpp/long-switch,Long switch case,Switch has at least one case that is too long: [... ^ ... (31 lines)](1).,,LOW
+733f0776a670e320:1,src/seedfill.c,2863,5,2970,6,cpp/long-switch,Long switch case,"Switch has at least one case that is too long: [4 (42 lines)](1).
+Switch has at least one case that is too long: [8 (58 lines)](2).",,LOW
+e4d555e3af1f1849:1,src/seedfill.c,2600,5,2740,6,cpp/long-switch,Long switch case,"Switch has at least one case that is too long: [4 (59 lines)](1).
+Switch has at least one case that is too long: [8 (75 lines)](2).",,LOW
+b3b109313f124a:3,src/seedfill.c,2293,5,2401,6,cpp/long-switch,Long switch case,"Switch has at least one case that is too long: [4 (43 lines)](1).
+Switch has at least one case that is too long: [8 (59 lines)](2).",,LOW
+b3b109313f124a:2,src/seedfill.c,2137,5,2245,6,cpp/long-switch,Long switch case,"Switch has at least one case that is too long: [4 (43 lines)](1).
+Switch has at least one case that is too long: [8 (59 lines)](2).",,LOW
+3066c1a07738636d:2,src/seedfill.c,1543,5,1933,6,cpp/long-switch,Long switch case,"Switch has at least one case that is too long: [4 (155 lines)](1).
+Switch has at least one case that is too long: [8 (229 lines)](2).",,LOW
+3066c1a07738636d:1,src/seedfill.c,1092,5,1472,6,cpp/long-switch,Long switch case,"Switch has at least one case that is too long: [4 (148 lines)](1).
+Switch has at least one case that is too long: [8 (226 lines)](2).",,LOW
+b3b109313f124a:1,src/seedfill.c,421,5,581,6,cpp/long-switch,Long switch case,"Switch has at least one case that is too long: [4 (73 lines)](1).
+Switch has at least one case that is too long: [8 (81 lines)](2).",,LOW
+d73fdf48ddc2d806:1,prog/jbrankhaus.c,147,11,-1,16,cpp/declaration-hides-variable,Declaration hides variable,Variable fname hides another variable of the same name (on [line 73](1)).,,LOW
+356eb807bcb5638d:1,src/compare.c,3100,22,-1,23,cpp/declaration-hides-variable,Declaration hides variable,Variable w hides another variable of the same name (on [line 3040](1)).,,LOW
+356eb807bcb5638d:1,src/compare.c,3100,25,-1,26,cpp/declaration-hides-variable,Declaration hides variable,Variable h hides another variable of the same name (on [line 3040](1)).,,LOW
+eb941c6f4f5aac3e:1,src/libversions.c,181,10,-1,13,cpp/declaration-hides-variable,Declaration hides variable,Variable buf hides another variable of the same name (on [line 104](1)).,,LOW
+59d732b5795f9424:1,src/pageseg.c,205,18,-1,19,cpp/declaration-hides-variable,Declaration hides variable,Variable w hides another variable of the same name (on [line 119](1)).,,LOW
+59d732b5795f9424:1,src/pageseg.c,205,21,-1,22,cpp/declaration-hides-variable,Declaration hides variable,Variable h hides another variable of the same name (on [line 119](1)).,,LOW
+57778e4c968d3ade:2,src/sel2.c,646,18,-1,19,cpp/declaration-hides-variable,Declaration hides variable,Variable w hides another variable of the same name (on [line 562](1)).,,LOW
+57778e4c968d3ade:1,src/sel2.c,514,18,-1,19,cpp/declaration-hides-variable,Declaration hides variable,Variable w hides another variable of the same name (on [line 437](1)).,,LOW
+b413fa9ed78bdd50:1,prog/pixalloc_reg.c,185,25,-1,32,cpp/local-variable-hides-global-variable,Local variable hides global variable,Parameter nlevels hides a [global variable](1) with the same name.,,LOW
+a607053d9a9ddc73:1,prog/pixalloc_reg.c,186,25,-1,32,cpp/local-variable-hides-global-variable,Local variable hides global variable,Parameter ncopies hides a [global variable](1) with the same name.,,LOW
+94563d23ea3339cc:1,prog/subpixel_reg.c,198,29,-1,36,cpp/local-variable-hides-global-variable,Local variable hides global variable,Parameter textstr hides a [global variable](1) with the same name.,,LOW
+b891291925b243ce:1,prog/writetext_reg.c,165,29,-1,36,cpp/local-variable-hides-global-variable,Local variable hides global variable,Parameter textstr hides a [global variable](1) with the same name.,,LOW
+ab8b1d37dedadb98:1,prog/affine_reg.c,74,-1,384,2,cpp/complex-block,Block with too many statements,Block with too many statements (4 complex statements in the block).,,LOW
+59488f4e365df5d:1,prog/dwamorph2_reg.c,48,-1,320,2,cpp/complex-block,Block with too many statements,Block with too many statements (4 complex statements in the block).,,LOW
+cd1c590ec35ebb83:1,prog/multitype_reg.c,63,-1,439,2,cpp/complex-block,Block with too many statements,Block with too many statements (10 complex statements in the block).,,LOW
+f69b16d2ae492d19:1,prog/pixa1_reg.c,43,-1,170,2,cpp/complex-block,Block with too many statements,Block with too many statements (4 complex statements in the block).,,LOW
+f99030044b4cf8bd:1,prog/warpertest.c,54,-1,256,2,cpp/complex-block,Block with too many statements,Block with too many statements (4 complex statements in the block).,,LOW
+d4d3eea79d0958d0:1,src/boxfunc4.c,326,17,329,79,cpp/complex-condition,Complex condition,Complex condition: too many logical operations in this expression.,,LOW
+60ec9da1641549ef:1,src/pix2.c,1231,9,1236,52,cpp/complex-condition,Complex condition,Complex condition: too many logical operations in this expression.,,LOW
+d4d3eea79d0958d0:1,src/pixafunc1.c,403,17,406,79,cpp/complex-condition,Complex condition,Complex condition: too many logical operations in this expression.,,LOW
+4df236351383eb5a:1,src/ptafunc1.c,953,17,956,74,cpp/complex-condition,Complex condition,Complex condition: too many logical operations in this expression.,,LOW
+f1b65e8cba45fb6f:1,prog/writetext_reg.c,60,16,-1,19,cpp/short-global-name,Short global name,"Poor global variable name 'loc'. Prefer longer, descriptive names for globals (eg. kMyGlobalConstant, not foo).",,LOW
+d929008e592f527a:1,prog/hardlight_reg.c,63,5,-1,30,cpp/unused-static-variable,Unused static variable,Static variable procName is never read.,CWE-563,LOW
+9bc4c2c94dd26baa:1,prog/rasteroptest.c,60,14,-1,22,cpp/unused-static-variable,Unused static variable,Static variable mainName is never read.,CWE-563,LOW
+4fd272a880760100:1,src/writefile.c,1161,5,-1,42,cpp/unused-static-variable,Unused static variable,Static variable procName is never read.,CWE-563,LOW
+3bb06ea7aa95823b:1,prog/blend2_reg.c,42,19,-1,28,cpp/unused-static-variable,Unused static variable,Static variable fname_bmp is never read.,CWE-563,LOW
+5b5fcab9b8b4b9db:1,prog/colorquant_reg.c,39,22,-1,27,cpp/unused-static-variable,Unused static variable,Static variable SPACE is never read.,CWE-563,LOW
+4238aa31403ee8bf:1,prog/otsutest1.c,42,22,-1,33,cpp/unused-static-variable,Unused static variable,Static variable gaussstdev2 is never read.,CWE-563,LOW
+82fe9cd8f0d89a43:1,src/readbarcode.h,235,23,-1,40,cpp/unused-static-variable,Unused static variable,Static variable C128_SYMBOL_WIDTH is never read.,CWE-563,LOW
+316c454ca6cb16e5:1,src/readbarcode.h,233,23,-1,32,cpp/unused-static-variable,Unused static variable,Static variable C128_STOP is never read.,CWE-563,LOW
+9b0d8b734ef917f4:1,src/readbarcode.h,232,23,-1,35,cpp/unused-static-variable,Unused static variable,Static variable C128_START_C is never read.,CWE-563,LOW
+6f0797a42a493216:1,src/readbarcode.h,231,23,-1,35,cpp/unused-static-variable,Unused static variable,Static variable C128_START_B is never read.,CWE-563,LOW
+2b873d119aad7435:1,src/readbarcode.h,230,23,-1,35,cpp/unused-static-variable,Unused static variable,Static variable C128_START_A is never read.,CWE-563,LOW
+58def62ec5ad3283:1,src/readbarcode.h,229,23,-1,34,cpp/unused-static-variable,Unused static variable,Static variable C128_FUNC_1 is never read.,CWE-563,LOW
+b552f91e5a09bde1:1,src/readbarcode.h,228,23,-1,34,cpp/unused-static-variable,Unused static variable,Static variable C128_GOTO_A is never read.,CWE-563,LOW
+537ea82d945e422c:1,src/readbarcode.h,227,23,-1,34,cpp/unused-static-variable,Unused static variable,Static variable C128_GOTO_B is never read.,CWE-563,LOW
+cab889843c11ff04:1,src/readbarcode.h,226,23,-1,34,cpp/unused-static-variable,Unused static variable,Static variable C128_GOTO_C is never read.,CWE-563,LOW
+d8812996a1ee40c3:1,src/readbarcode.h,225,23,-1,33,cpp/unused-static-variable,Unused static variable,Static variable C128_SHIFT is never read.,CWE-563,LOW
+ad3bb0d4a091efea:1,src/readbarcode.h,224,23,-1,34,cpp/unused-static-variable,Unused static variable,Static variable C128_FUNC_2 is never read.,CWE-563,LOW
+8e693827e1f93e38:1,src/readbarcode.h,223,23,-1,33,cpp/unused-static-variable,Unused static variable,Static variable C128_FUN_3 is never read.,CWE-563,LOW
+2287511904ea682f:1,src/readbarcode.h,198,20,-1,27,cpp/unused-static-variable,Unused static variable,Static variable Code128 is never read.,CWE-563,LOW
+53234af38007f431:1,src/readfile.c,96,20,-1,29,cpp/unused-static-variable,Unused static variable,Static variable FILE_JP2K is never read.,CWE-563,LOW
+3af7e2a9e05a64de:1,src/readfile.c,94,20,-1,28,cpp/unused-static-variable,Unused static variable,Static variable FILE_GIF is never read.,CWE-563,LOW
+122a0b0f4d2a597:1,prog/recog_bootnum1.c,281,7,-1,19,cpp/unused-static-function,Unused static function,Static function MakeBootnum2 is unreachable,CWE-561,LOW
+122939f629322cbd:1,prog/circle_reg.c,54,21,-1,30,cpp/unused-local-variable,Unused local variable,Variable prevcount is not used.,CWE-563,LOW
+122939f629322cbd:1,prog/circle_reg.c,54,39,-1,45,cpp/unused-local-variable,Unused local variable,Variable nfiles is not used.,CWE-563,LOW
+899e9e51d1856435:1,prog/grayfill_reg.c,48,48,-1,52,cpp/unused-local-variable,Unused local variable,Variable pixd is not used.,CWE-563,LOW
+d929008e592f527a:1,prog/hardlight_reg.c,63,5,-1,30,cpp/unused-local-variable,Unused local variable,Variable procName is not used.,CWE-563,LOW
+d40a58951795b985:1,prog/hash_reg.c,71,15,-1,22,cpp/unused-local-variable,Unused local variable,Variable ncolors is not used.,CWE-563,LOW
+f0c50db760861738:1,prog/jbrankhaus.c,73,22,-1,27,cpp/unused-local-variable,Unused local variable,Variable fname is not used.,CWE-563,LOW
+aaa70f9ca36210bd:1,prog/jbrankhaus.c,79,20,-1,24,cpp/unused-local-variable,Unused local variable,Variable pixt is not used.,CWE-563,LOW
+b8fdf0f704596ebc:1,prog/lowsat_reg.c,43,21,-1,22,cpp/unused-local-variable,Unused local variable,Variable w is not used.,CWE-563,LOW
+b8fdf0f704596ebc:1,prog/lowsat_reg.c,43,24,-1,25,cpp/unused-local-variable,Unused local variable,Variable h is not used.,CWE-563,LOW
+94bc1dd0ae8f80e8:1,prog/maze_reg.c,50,22,-1,26,cpp/unused-local-variable,Unused local variable,Variable pixs is not used.,CWE-563,LOW
+e78c68b6ee4f5b2a:1,prog/numa3_reg.c,48,18,-1,19,cpp/unused-local-variable,Unused local variable,Variable n is not used.,CWE-563,LOW
+a42dbb00233ee2fd:1,prog/printimage.c,89,14,-1,16,cpp/unused-local-variable,Unused local variable,Variable fp is not used.,CWE-563,LOW
+4b89997fd87e5026:1,prog/printsplitimage.c,78,14,-1,16,cpp/unused-local-variable,Unused local variable,Variable fp is not used.,CWE-563,LOW
+9bc4c2c94dd26baa:1,prog/rasteroptest.c,60,14,-1,22,cpp/unused-local-variable,Unused local variable,Variable mainName is not used.,CWE-563,LOW
+8eae17c172e15256:1,prog/rotateorthtest1.c,49,28,-1,32,cpp/unused-local-variable,Unused local variable,Variable pixt is not used.,CWE-563,LOW
+75d1aa25de34d3f5:1,prog/rotateorthtest1.c,50,14,-1,18,cpp/unused-local-variable,Unused local variable,Variable pops is not used.,CWE-563,LOW
+86836ec308974ad1:1,prog/scale_it.c,82,42,-1,48,cpp/unused-local-variable,Unused local variable,Variable format is not used.,CWE-563,LOW
+d3276db4d57e237:1,prog/seedfilltest.c,52,43,-1,48,cpp/unused-local-variable,Unused local variable,Variable pixt1 is not used.,CWE-563,LOW
+d3276db4d57e237:1,prog/seedfilltest.c,52,51,-1,56,cpp/unused-local-variable,Unused local variable,Variable pixt2 is not used.,CWE-563,LOW
+d3276db4d57e237:1,prog/seedfilltest.c,52,59,-1,64,cpp/unused-local-variable,Unused local variable,Variable pixt3 is not used.,CWE-563,LOW
+32ea90a02f110d8f:1,prog/sheartest.c,47,14,-1,15,cpp/unused-local-variable,Unused local variable,Variable i is not used.,CWE-563,LOW
+32ea90a02f110d8f:1,prog/sheartest.c,47,23,-1,28,cpp/unused-local-variable,Unused local variable,Variable liney is not used.,CWE-563,LOW
+32ea90a02f110d8f:1,prog/sheartest.c,47,30,-1,35,cpp/unused-local-variable,Unused local variable,Variable linex is not used.,CWE-563,LOW
+46c4d12e1d720ab5:1,prog/sheartest.c,49,37,-1,41,cpp/unused-local-variable,Unused local variable,Variable pixd is not used.,CWE-563,LOW
+bb3316fb86b251d5:1,prog/sorttest.c,44,14,-1,15,cpp/unused-local-variable,Unused local variable,Variable i is not used.,CWE-563,LOW
+be55c6c7720ba4b4:1,src/colorfill.c,306,24,-1,29,cpp/unused-local-variable,Unused local variable,Variable empty is not used.,CWE-563,LOW
+dc05d828184560aa:1,src/readbarcode.c,704,10,-1,15,cpp/unused-local-variable,Unused local variable,Variable width is not used.,CWE-563,LOW
+1dc8e9b61c13edc5:1,src/readbarcode.c,705,10,-1,13,cpp/unused-local-variable,Unused local variable,Variable nac is not used.,CWE-563,LOW
+4fd272a880760100:1,src/writefile.c,1161,5,-1,42,cpp/unused-local-variable,Unused local variable,Variable procName is not used.,CWE-563,LOW
+e6dc3bbe8baec699:1,prog/barcodetest.c,76,-1,85,3,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+5975af98e85531cc:3,prog/binmorph4_reg.c,476,-1,-1,38,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+dc3a4ca21e043215:3,prog/binmorph4_reg.c,475,-1,-1,38,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+5975af98e85531cc:2,prog/binmorph4_reg.c,403,-1,-1,37,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+dc3a4ca21e043215:2,prog/binmorph4_reg.c,402,-1,-1,37,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+5975af98e85531cc:1,prog/binmorph4_reg.c,329,-1,-1,37,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+dc3a4ca21e043215:1,prog/binmorph4_reg.c,328,-1,-1,37,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+2124766578511013:1,prog/binmorph4_reg.c,255,-1,-1,37,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+dc3a4ca191010677:1,prog/binmorph4_reg.c,254,-1,-1,37,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+36a5b194ad6b79bc:1,prog/ccbordtest.c,174,-1,-1,43,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+318da4a67f1cc59c:1,prog/ccbordtest.c,105,-1,-1,41,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+b11875b44411d4f6:1,prog/ccthin2_reg.c,169,-1,-1,57,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+5c9a796dee541829:1,prog/colorcontent_reg.c,44,-1,-1,27,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+34a899132dc1ce69:1,prog/colorquant_reg.c,60,-1,-1,35,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+acae44e71a9aaad7:1,prog/dewarptest1.c,122,-1,-1,41,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+d8c33dc95af6e2d8:1,prog/dewarptest1.c,120,-1,-1,43,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+578977bf9b1b35b1:1,prog/dewarptest1.c,60,-1,-1,40,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+2f6b004dbe335f14:1,prog/dewarptest1.c,58,-1,-1,41,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+78bcf51b775334a8:1,prog/dewarptest3.c,60,-1,-1,43,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+7d1397247199df4d:1,prog/dewarptest4.c,71,-1,-1,42,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+e556527e1d5a483:1,prog/dewarptest4.c,52,-1,-1,41,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+90b5b91fa9b65985:1,prog/find_colorregions.c,68,-1,-1,40,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+26ee5d096f1eb40e:1,prog/grayfill_reg.c,196,-1,197,49,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+30cad419d41094a7:1,prog/jbclass_reg.c,44,-1,-1,36,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+ade63a581e6d027d:1,prog/jbclass_reg.c,43,-1,-1,41,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+9aaa06d823f28bc3:1,prog/jbcorrelation.c,116,-1,-1,45,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+11c81d381b854096:1,prog/jbcorrelation.c,54,-1,-1,36,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+ae567293d5deed54:1,prog/jbcorrelation.c,53,-1,-1,41,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+9aaa06d823f28bc3:1,prog/jbrankhaus.c,117,-1,-1,45,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+3b6de71f7b8185b6:1,prog/jbrankhaus.c,57,-1,-1,36,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+fd5956e0842d14f4:1,prog/jbrankhaus.c,56,-1,-1,41,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+788641e4f5bf8b22:1,prog/kernel_reg.c,339,-1,-1,32,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+dafebc42cfb58772:1,prog/kernel_reg.c,328,-1,330,26,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+a84bc7e4a3a08dcf:1,prog/listtest.c,202,-1,-1,33,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+87068a55a9c9e8c5:1,prog/maketile.c,101,-1,-1,37,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+2fb1c83754607e0c:1,prog/morphtest1.c,76,-1,-1,62,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+b09a0d84531b4b00:1,prog/mtiff_reg.c,335,-1,-1,53,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+8805b0ff838b787f:1,prog/multitype_reg.c,363,-1,-1,66,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+574c3355a8fcb2df:1,prog/partitiontest.c,122,-1,-1,41,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+96a3323c77314dfc:1,prog/percolatetest.c,275,-1,-1,39,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+f492bedab0faf697:1,prog/pixaatest.c,69,-1,-1,60,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+12cb9c3a073271b:1,prog/recog_bootnum1.c,170,-1,-1,55,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+b2fa57a38eb4d8d6:1,prog/recog_bootnum1.c,132,-1,-1,55,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+8ee63988c0098b98:1,prog/recog_bootnum1.c,102,-1,-1,54,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+a9cf8f515a466a1c:1,prog/recogsort.c,98,-1,-1,47,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+65f08969653843c0:1,prog/recogsort.c,79,-1,-1,35,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+d13507cb6d01af28:1,prog/recogsort.c,78,-1,-1,35,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+5a5d5158da12ba26:1,prog/recogtest4.c,96,-1,-1,35,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+5a5d5158da12ba26:1,prog/recogtest5.c,81,-1,-1,36,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+6093b689064dc547:1,prog/recogtest6.c,84,-1,-1,35,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+94fbeabd4e3b6310:1,prog/rotatetest1.c,195,-1,-1,40,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+c4e215525b7cfd1:1,prog/rotatetest1.c,194,-1,-1,39,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+a70b46e0d1ff0bf1:1,prog/rotatetest1.c,142,-1,-1,66,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+b7897ec0340fa827:1,prog/rotatetest1.c,98,-1,-1,78,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+7f09e60811cc30f2:1,prog/seedfilltest.c,119,-1,-1,32,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+e677d45d0fb5715e:1,prog/seedfilltest.c,116,-1,117,61,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+b1ae092e29e1bfdc:1,prog/seedfilltest.c,80,-1,-1,34,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+395901c55faf4643:1,prog/showedges.c,67,-1,-1,54,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+e0d1428f5f211d04:1,prog/sheartest.c,95,9,108,56,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+baf374dda7057f6b:2,prog/splitcomp_reg.c,140,-1,-1,44,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+baf374dda7057f6b:1,prog/splitcomp_reg.c,111,-1,-1,48,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+8a62f4cfffe1bc05:1,prog/texturefill_reg.c,162,9,-1,40,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+e0cb3807cca0743:1,src/jbclass.h,76,36,-1,80,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+a4fce76d863c5696:1,src/recog.h,119,34,-1,80,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+6c23018a8a9239c4:1,src/recog.h,117,34,-1,80,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+d6404360d57091e4:1,src/ccthin.c,283,-1,-1,71,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+775f774c033957b:1,src/ccbord.c,2623,-1,-1,36,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+4957c087a50b4807:1,src/ccbord.c,2505,-1,-1,76,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+efaef3f92750a403:1,src/ccbord.c,2495,-1,-1,52,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+b4ab19137be866e:1,src/ccbord.c,2474,-1,-1,66,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+aa5ab1505a48c78b:1,src/ccbord.c,2462,-1,-1,41,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+7a137c5e8f531916:1,src/ccbord.c,1664,-1,-1,46,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+55be0450d62a8653:1,src/ccbord.c,1649,-1,-1,59,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+4d1c22c1a2426c73:1,src/ccbord.c,1610,-1,-1,50,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+863bfd903d5701b2:1,src/ccbord.c,1609,-1,-1,67,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+6c31348e511d1603:1,src/ccbord.c,1606,-1,-1,63,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+e7976abec0538ad:1,src/ccbord.c,703,-1,-1,40,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+e38364f702188eb9:1,src/ccbord.c,616,-1,-1,52,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+11667fd677d55ec:1,src/colorquant2.c,513,-1,-1,55,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+c7230f65b87c2495:1,src/colorquant1.c,2525,-1,-1,73,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+4f91511aa4505eab:1,src/colorquant1.c,2523,-1,-1,43,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+cf5469f002fe3005:1,src/colorquant1.c,2469,-1,-1,65,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+815a97174100f941:1,src/compare.c,2028,-1,-1,56,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+8c14de9cf7c28aca:1,src/dewarp2.c,1533,-1,-1,59,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+3c082b926e8805ce:1,src/dewarp4.c,488,49,-1,79,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+9edda31e88dbd67c:1,src/grayquant.c,1913,-1,-1,63,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+723078edf8303cc8:1,src/grayquant.c,1859,-1,-1,58,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+862743d204881f36:1,src/leptwin.c,228,13,-1,41,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+b9d55f3257a77a79:1,src/leptwin.c,227,13,-1,41,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+8edc574f57a9add:1,src/leptwin.c,226,13,-1,41,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+42a3ff029a4e1784:1,src/morphseq.c,1168,-1,-1,69,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+8c55c9dbb1f10bc:1,src/morphseq.c,983,-1,-1,45,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+e6643af77394e7fe:1,src/morphseq.c,965,-1,-1,69,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+a7544c1a5b2067bf:1,src/morphseq.c,845,-1,-1,64,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+6978c5a568579558:1,src/morphseq.c,825,-1,-1,64,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+36cb8c72c3d8685:1,src/morphseq.c,810,-1,-1,36,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+9c2540a1308559eb:1,src/morphseq.c,808,-1,-1,67,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+d561379cd11f188a:1,src/morphseq.c,805,-1,-1,45,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+3eed62e8b510def8:1,src/morphseq.c,781,-1,-1,69,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+e34d97b7a000e937:1,src/adaptmap.c,1794,-1,-1,38,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+9f5b3328af2eb548:1,src/adaptmap.c,1789,-1,-1,38,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+c57c6f914e2e1e83:1,src/adaptmap.c,1778,-1,-1,38,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+5183d0e259ee3060:1,src/numafunc2.c,2557,-1,-1,34,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+39d1ded52f28f96:1,src/numafunc2.c,1674,-1,-1,67,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+6934bef893b10abb:1,src/numafunc2.c,1602,-1,-1,72,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+9f12774b406525f4:1,src/numafunc2.c,1101,-1,-1,71,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+c8658a1e039cbca5:1,src/pageseg.c,123,20,-1,41,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+a2de4d836ec39955:1,src/partition.c,284,-1,-1,37,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+ca77e8b8a227b5d0:1,src/pix4.c,2840,-1,-1,66,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+f76511fbac9fb06:1,src/pnmio.c,285,9,-1,45,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+aa020357498349b4:1,src/pngio.c,1330,33,-1,80,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+af7268da20b339a6:1,src/ptafunc2.c,886,-1,-1,49,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+ff4c2d6b5db9937c:1,src/sarray2.c,625,-1,-1,49,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+8b2a85b26d9efc64:1,src/scale2.c,279,-1,-1,56,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+6fdbed2153e932c3:1,src/scale2.c,271,-1,-1,55,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+d511b24a14b553b:1,src/scale2.c,263,-1,-1,55,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+799f0cc6360d59d9:1,src/scale2.c,255,-1,-1,54,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+e5ecfe67cacf5e77:1,src/scale2.c,247,-1,-1,55,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+1c13f738953060c6:1,src/scale2.c,241,-1,-1,55,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+523af0095f916315:1,src/scale2.c,233,-1,-1,55,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+1937babd0d436889:1,src/sarray1.c,334,-1,-1,61,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+6c19d98d761a3039:1,src/sarray1.c,322,-1,-1,65,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+92fa55a3fa6a3a15:1,src/watershed.c,412,-1,-1,71,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+97f6d4d9a33a3196:1,src/tiffio.c,2434,-1,-1,65,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+c81328b7117a75c0:1,src/tiffio.c,2427,-1,-1,65,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+2c8e1611892cc910:1,src/tiffio.c,2310,27,-1,78,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+7153c3294f5ddf1a:1,src/tiffio.c,2308,27,-1,78,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+7533d90228500eb4:1,src/tiffio.c,2170,-1,-1,60,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+d6ecd7bf9143016a:1,src/tiffio.c,2153,-1,-1,45,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+6ea9efec9cb0485c:1,src/tiffio.c,1153,-1,-1,34,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+5fbc0af9c91194f0:1,src/recogbasic.c,905,9,-1,15,cpp/incorrectly-checked-scanf,Incorrect return-value check for a 'scanf'-like function,"The result of scanf is only checked against 0, but it can also return EOF.",CWE-253,MEDIUM
+832201e0533edfb2:1,src/recogbasic.c,922,9,-1,15,cpp/incorrectly-checked-scanf,Incorrect return-value check for a 'scanf'-like function,"The result of scanf is only checked against 0, but it can also return EOF.",CWE-253,MEDIUM
+838fcd02313b8664:1,prog/flipdetect_reg.c,89,9,-1,27,cpp/equality-on-floats,Equality test on floating-point values,Equality checks on floating point values can yield unexpected results.,,LOW
+838fcd02313b8664:1,prog/flipdetect_reg.c,89,31,-1,53,cpp/equality-on-floats,Equality test on floating-point values,Equality checks on floating point values can yield unexpected results.,,LOW
+af2c0cd1b09feca2:1,prog/flipdetect_reg.c,125,9,-1,23,cpp/equality-on-floats,Equality test on floating-point values,Equality checks on floating point values can yield unexpected results.,,LOW
+7577c508121cdc05:1,prog/flipdetect_reg.c,137,9,-1,23,cpp/equality-on-floats,Equality test on floating-point values,Equality checks on floating point values can yield unexpected results.,,LOW
+7663da0108335941:1,prog/quadtree_reg.c,119,17,-1,29,cpp/equality-on-floats,Equality test on floating-point values,Equality checks on floating point values can yield unexpected results.,,LOW
+e9e7f89b99a001c:1,prog/quadtree_reg.c,132,18,-1,33,cpp/equality-on-floats,Equality test on floating-point values,Equality checks on floating point values can yield unexpected results.,,LOW
+e9e7f89b99a001c:1,prog/quadtree_reg.c,132,39,-1,54,cpp/equality-on-floats,Equality test on floating-point values,Equality checks on floating point values can yield unexpected results.,,LOW
+3a8732595e803687:1,prog/quadtree_reg.c,133,18,-1,33,cpp/equality-on-floats,Equality test on floating-point values,Equality checks on floating point values can yield unexpected results.,,LOW
+3a8732595e803687:1,prog/quadtree_reg.c,133,39,-1,54,cpp/equality-on-floats,Equality test on floating-point values,Equality checks on floating point values can yield unexpected results.,,LOW
+7fe110544ec81278:1,src/affine.c,1549,9,-1,29,cpp/equality-on-floats,Equality test on floating-point values,Equality checks on floating point values can yield unexpected results.,,LOW
+76b8fa1e591a02c0:1,src/affine.c,1562,9,-1,31,cpp/equality-on-floats,Equality test on floating-point values,Equality checks on floating point values can yield unexpected results.,,LOW
+c2ce34bda5a2cc01:1,src/dnahash.c,598,13,-1,24,cpp/equality-on-floats,Equality test on floating-point values,Equality checks on floating point values can yield unexpected results.,,LOW
+c2110578a8d95585:1,src/graphics.c,2780,9,-1,25,cpp/equality-on-floats,Equality test on floating-point values,Equality checks on floating point values can yield unexpected results.,,LOW
+4c655899d64e611:1,src/numafunc1.c,3481,13,-1,27,cpp/equality-on-floats,Equality test on floating-point values,Equality checks on floating point values can yield unexpected results.,,LOW
+5ffe98e7793ebc15:1,src/numafunc1.c,2144,9,-1,17,cpp/equality-on-floats,Equality test on floating-point values,Equality checks on floating point values can yield unexpected results.,,LOW
+5ffe98e7793ebc15:1,src/numafunc1.c,2144,21,-1,29,cpp/equality-on-floats,Equality test on floating-point values,Equality checks on floating point values can yield unexpected results.,,LOW
+5ffe98e7793ebc15:1,src/numafunc1.c,2144,33,-1,41,cpp/equality-on-floats,Equality test on floating-point values,Equality checks on floating point values can yield unexpected results.,,LOW
+483bce18f4fa9c54:1,src/numafunc1.c,1990,13,-1,27,cpp/equality-on-floats,Equality test on floating-point values,Equality checks on floating point values can yield unexpected results.,,LOW
+cf2047510d492c51:1,src/numafunc1.c,1760,9,-1,23,cpp/equality-on-floats,Equality test on floating-point values,Equality checks on floating point values can yield unexpected results.,,LOW
+cfc9501357fab71f:1,src/numafunc2.c,1787,21,-1,35,cpp/equality-on-floats,Equality test on floating-point values,Equality checks on floating point values can yield unexpected results.,,LOW
+f0c5293e255d00aa:1,src/pix5.c,1617,9,-1,19,cpp/equality-on-floats,Equality test on floating-point values,Equality checks on floating point values can yield unexpected results.,,LOW
+f0c5293e255d00aa:1,src/pix5.c,1617,23,-1,33,cpp/equality-on-floats,Equality test on floating-point values,Equality checks on floating point values can yield unexpected results.,,LOW
+88c818b83c7fcbf3:1,src/ptafunc2.c,429,13,-1,21,cpp/equality-on-floats,Equality test on floating-point values,Equality checks on floating point values can yield unexpected results.,,LOW
+88c818b83c7fcbf3:1,src/ptafunc2.c,429,25,-1,33,cpp/equality-on-floats,Equality test on floating-point values,Equality checks on floating point values can yield unexpected results.,,LOW
+737ad484904f68de:1,src/ptafunc2.c,345,13,-1,20,cpp/equality-on-floats,Equality test on floating-point values,Equality checks on floating point values can yield unexpected results.,,LOW
+268a7dc4a21f03f8:1,prog/alltests_reg.c,251,22,-1,29,cpp/command-line-injection,Uncontrolled data used in OS command,"This argument to an OS command is derived from [user input (a command-line argument)](1), dangerously concatenated into [snprintf output argument](2), and then passed to system(__command).","CWE-078,CWE-088",HIGH
+4aeed09c019bc3b4:1,prog/htmlviewer.c,165,18,-1,21,cpp/command-line-injection,Uncontrolled data used in OS command,"This argument to an OS command is derived from [user input (a command-line argument)](1), dangerously concatenated into [snprintf output argument](2), and then passed to system(__command).","CWE-078,CWE-088",HIGH
+c500dc823f7e36c1:1,prog/printimage.c,145,26,-1,32,cpp/command-line-injection,Uncontrolled data used in OS command,"This argument to an OS command is derived from [user input (a command-line argument)](1), dangerously concatenated into [snprintf output argument](2), and then passed to system(__command).","CWE-078,CWE-088",HIGH
+61fb5c1a97b2b472:1,prog/printimage.c,149,26,-1,32,cpp/command-line-injection,Uncontrolled data used in OS command,"This argument to an OS command is derived from [user input (a command-line argument)](1), dangerously concatenated into [snprintf output argument](2), and then passed to system(__command).","CWE-078,CWE-088",HIGH
+299e1d16bd539064:1,prog/printtiff.c,92,22,-1,25,cpp/command-line-injection,Uncontrolled data used in OS command,"This argument to an OS command is derived from [user input (a command-line argument)](1), dangerously concatenated into [snprintf output argument](2), and then passed to system(__command).","CWE-078,CWE-088",HIGH
+31884f8fdd1979d3:1,prog/printsplitimage.c,141,29,-1,32,cpp/command-line-injection,Uncontrolled data used in OS command,"This argument to an OS command is derived from [user input (a command-line argument)](1), dangerously concatenated into [snprintf output argument](2), and then passed to system(__command).","CWE-078,CWE-088",HIGH
+6a2c1428202c6e9:1,prog/xtractprotos.c,199,22,-1,25,cpp/command-line-injection,Uncontrolled data used in OS command,"This argument to an OS command is derived from [user input (a command-line argument)](1), dangerously concatenated into [snprintf output argument](2), and then passed to system(__command).","CWE-078,CWE-088",HIGH
+d1a455dc3e9a35b:1,src/pix4.c,2823,20,-1,31,cpp/offset-use-before-range-check,Array offset used before range check,This use of offset 'bin' should follow the [range check](1).,"CWE-120,CWE-125",MEDIUM
+41590d3765f92f24:1,src/scale2.c,872,-1,-1,19,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 118 lines.,,MEDIUM
+3858e12aac00a003:1,src/boxfunc5.c,1674,-1,-1,14,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 108 lines.,,MEDIUM
+529929c2b07298f6:1,src/boxfunc5.c,1227,-1,-1,27,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 109 lines.,,MEDIUM
+7a8c8589da843af9:1,src/rotateorth.c,166,-1,-1,12,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 212 lines.,,MEDIUM
+fe17fd6309ced40c:1,src/graphics.c,2640,-1,-1,18,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 108 lines.,,MEDIUM
+9a329d0700da2191:1,prog/dwalinearlow.3.c,299,-1,-1,18,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 759 lines.,,MEDIUM
+37dc311a9114a8bc:1,prog/dwalinearlow.3.c,16865,-1,-1,13,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 121 lines.,,MEDIUM
+e9d30493fe3c1446:1,prog/dwalinearlow.3.c,16742,-1,-1,14,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 121 lines.,,MEDIUM
+8d1e886ef06abd1b:1,prog/dwalinearlow.3.c,16620,-1,-1,13,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 120 lines.,,MEDIUM
+a6f07c8f5ac1dd79:1,prog/dwalinearlow.3.c,16498,-1,-1,14,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 120 lines.,,MEDIUM
+e260dfc34fc0d17a:1,prog/dwalinearlow.3.c,16378,-1,-1,13,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 118 lines.,,MEDIUM
+640df48ab747a6ac:1,prog/dwalinearlow.3.c,16258,-1,-1,14,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 118 lines.,,MEDIUM
+37a33717af16e5d9:1,prog/dwalinearlow.3.c,16139,-1,-1,13,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 117 lines.,,MEDIUM
+212b6c8613cd6fdf:1,prog/dwalinearlow.3.c,16020,-1,-1,14,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 117 lines.,,MEDIUM
+8ae4c4521c81203d:1,prog/dwalinearlow.3.c,15903,-1,-1,13,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 115 lines.,,MEDIUM
+d0648c04326f7173:1,prog/dwalinearlow.3.c,15786,-1,-1,14,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 115 lines.,,MEDIUM
+e0271ba67bd7349c:1,prog/dwalinearlow.3.c,15670,-1,-1,13,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 114 lines.,,MEDIUM
+8d8203ff8ef53aa6:1,prog/dwalinearlow.3.c,15554,-1,-1,14,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 114 lines.,,MEDIUM
+356972fadb2d48fb:1,prog/dwalinearlow.3.c,15441,-1,-1,13,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 111 lines.,,MEDIUM
+4a9f7bfaeb7b03d9:1,prog/dwalinearlow.3.c,15328,-1,-1,14,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 111 lines.,,MEDIUM
+8aabca4f3a835d5a:1,prog/dwalinearlow.3.c,15216,-1,-1,13,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 110 lines.,,MEDIUM
+7bcf3f64800cd0c:1,prog/dwalinearlow.3.c,15104,-1,-1,14,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 110 lines.,,MEDIUM
+dfee21a399d971b9:1,prog/dwalinearlow.3.c,14994,-1,-1,13,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 108 lines.,,MEDIUM
+c4da6bf1a486963f:1,prog/dwalinearlow.3.c,14884,-1,-1,14,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 108 lines.,,MEDIUM
+353078f7f92f8618:1,prog/dwalinearlow.3.c,14775,-1,-1,13,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 107 lines.,,MEDIUM
+81f7e3ed010c5f72:1,prog/dwalinearlow.3.c,14666,-1,-1,14,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 107 lines.,,MEDIUM
+8a72d04c58859a77:1,prog/dwalinearlow.3.c,14559,-1,-1,13,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 105 lines.,,MEDIUM
+3f155be85d9228a5:1,prog/dwalinearlow.3.c,14452,-1,-1,14,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 105 lines.,,MEDIUM
+dfb527a0b7dbaed6:1,prog/dwalinearlow.3.c,14346,-1,-1,13,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 104 lines.,,MEDIUM
+fc32d3e3ba17f1d8:1,prog/dwalinearlow.3.c,14240,-1,-1,14,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 104 lines.,,MEDIUM
+8e49ab56215a8ebe:1,src/compare.c,991,-1,-1,14,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 129 lines.,,MEDIUM
+34f77ef51731c335:1,prog/dwalinearlow.3.c,14136,-1,-1,13,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 102 lines.,,MEDIUM
+b9504bdf169dbb0b:1,prog/dwalinearlow.3.c,14032,-1,-1,14,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 102 lines.,,MEDIUM
+8a39d6497687d794:1,prog/dwalinearlow.3.c,13929,-1,-1,13,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 101 lines.,,MEDIUM
+766dc3da7323843e:1,prog/dwalinearlow.3.c,13826,-1,-1,14,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 101 lines.,,MEDIUM
+d8a9c23c121b01ad:1,src/pix5.c,3010,-1,-1,18,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 104 lines.,,MEDIUM
+495f7ffdea688b6d:1,src/rotateorth.c,427,-1,-1,10,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 144 lines.,,MEDIUM
+bbad010ccfb621ad:1,src/pnmio.c,978,-1,-1,18,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 157 lines.,,MEDIUM
+f6c9292664d900b1:1,src/pix4.c,1986,-1,-1,15,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 129 lines.,,MEDIUM
+b035fb012afad484:1,src/pix4.c,1826,-1,-1,12,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 131 lines.,,MEDIUM
+eb3778189dfb2d9d:1,prog/rotatefastalt.c,198,-1,-1,22,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 154 lines.,,MEDIUM
+e08b9d86c5687884:1,src/bardecode.c,208,-1,-1,20,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 137 lines.,,MEDIUM
+57ef87e1db5bea57:1,src/fmorphgenlow.1.c,167,-1,-1,18,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 363 lines.,,MEDIUM
+791112746e1b05f4:1,src/dwacomblow.2.c,207,-1,-1,18,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 471 lines.,,MEDIUM
+4c5358d9eb7d6f54:1,src/boxfunc2.c,296,-1,-1,20,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 157 lines.,,MEDIUM
+6b40e53ff5c7b9be:1,src/fmorphgenlow.1.c,5256,-1,-1,12,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 102 lines.,,MEDIUM
+f90d1748e547d675:1,src/fmorphgenlow.1.c,5152,-1,-1,13,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 102 lines.,,MEDIUM
+bdd78471bd38ab79:1,src/fmorphgenlow.1.c,5049,-1,-1,12,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 101 lines.,,MEDIUM
+4e4f6e9d449dead4:1,src/fmorphgenlow.1.c,4946,-1,-1,13,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 101 lines.,,MEDIUM
+3842e9e72a476c3b:1,src/rotateam.c,863,-1,-1,21,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 270 lines.,,MEDIUM
+6244513be9755886:1,prog/recog_bootnum2.c,138,9,-1,11,cpp/missing-check-scanf,Missing return-value check for a 'scanf'-like function,"This variable is read, but may not have been written. It should be guarded by a check that the [call to sscanf](1) returns at least 1.","CWE-252,CWE-253",MEDIUM
+e06b41daef0c8a35:1,src/ccbord.c,2463,34,-1,37,cpp/missing-check-scanf,Missing return-value check for a 'scanf'-like function,"This variable is read, but may not have been written. It should be guarded by a check that the [call to sscanf](1) returns at least 1.","CWE-252,CWE-253",MEDIUM
+b0ee59e28b45ac26:1,src/dewarp1.c,1237,24,-1,31,cpp/missing-check-scanf,Missing return-value check for a 'scanf'-like function,"This variable is read, but may not have been written. It should be guarded by a check that the [call to fscanf](1) returns at least 1.","CWE-252,CWE-253",MEDIUM
+3973d1e8c5e997ec:1,src/dewarp1.c,1238,24,-1,31,cpp/missing-check-scanf,Missing return-value check for a 'scanf'-like function,"This variable is read, but may not have been written. It should be guarded by a check that the [call to fscanf](1) returns at least 2.","CWE-252,CWE-253",MEDIUM
+d627ae68f258d83b:1,src/dewarp1.c,1243,26,-1,35,cpp/missing-check-scanf,Missing return-value check for a 'scanf'-like function,"This variable is read, but may not have been written. It should be guarded by a check that the [call to fscanf](1) returns at least 1.","CWE-252,CWE-253",MEDIUM
+a2b70ef6b3177629:1,src/dewarp1.c,1244,27,-1,37,cpp/missing-check-scanf,Missing return-value check for a 'scanf'-like function,"This variable is read, but may not have been written. It should be guarded by a check that the [call to fscanf](1) returns at least 2.","CWE-252,CWE-253",MEDIUM
+b9f2c56b441aa4bc:1,src/dewarp1.c,1245,25,-1,33,cpp/missing-check-scanf,Missing return-value check for a 'scanf'-like function,"This variable is read, but may not have been written. It should be guarded by a check that the [call to fscanf](1) returns at least 1.","CWE-252,CWE-253",MEDIUM
+d32074c3b00ee15c:1,src/dewarp1.c,1246,26,-1,35,cpp/missing-check-scanf,Missing return-value check for a 'scanf'-like function,"This variable is read, but may not have been written. It should be guarded by a check that the [call to fscanf](1) returns at least 2.","CWE-252,CWE-253",MEDIUM
+254ec108ac7fa6b8:1,src/gplot.c,1278,35,-1,44,cpp/missing-check-scanf,Missing return-value check for a 'scanf'-like function,"This variable is read, but may not have been written. It should be guarded by a check that the [call to fscanf](1) returns at least 1.","CWE-252,CWE-253",MEDIUM
+9d1df88f564c2a02:1,src/jbclass.c,2059,37,-1,43,cpp/missing-check-scanf,Missing return-value check for a 'scanf'-like function,"This variable is read, but may not have been written. It should be guarded by a check that the [call to sscanf](1) returns at least 1.","CWE-252,CWE-253",MEDIUM
+aae41c42d808006:1,src/jbclass.c,2060,48,-1,49,cpp/missing-check-scanf,Missing return-value check for a 'scanf'-like function,"This variable is read, but may not have been written. It should be guarded by a check that the [call to sscanf](1) returns at least 1.","CWE-252,CWE-253",MEDIUM
+aae41c42d808006:1,src/jbclass.c,2060,51,-1,52,cpp/missing-check-scanf,Missing return-value check for a 'scanf'-like function,"This variable is read, but may not have been written. It should be guarded by a check that the [call to sscanf](1) returns at least 2.","CWE-252,CWE-253",MEDIUM
+683732a949169c56:1,src/jbclass.c,2061,42,-1,47,cpp/missing-check-scanf,Missing return-value check for a 'scanf'-like function,"This variable is read, but may not have been written. It should be guarded by a check that the [call to sscanf](1) returns at least 1.","CWE-252,CWE-253",MEDIUM
+912540f22fafff48:1,src/jbclass.c,2062,39,-1,45,cpp/missing-check-scanf,Missing return-value check for a 'scanf'-like function,"This variable is read, but may not have been written. It should be guarded by a check that the [call to sscanf](1) returns at least 1.","CWE-252,CWE-253",MEDIUM
+ecb307ecf9bedb7d:1,src/jbclass.c,2063,60,-1,65,cpp/missing-check-scanf,Missing return-value check for a 'scanf'-like function,"This variable is read, but may not have been written. It should be guarded by a check that the [call to sscanf](1) returns at least 1.","CWE-252,CWE-253",MEDIUM
+ecb307ecf9bedb7d:1,src/jbclass.c,2063,67,-1,72,cpp/missing-check-scanf,Missing return-value check for a 'scanf'-like function,"This variable is read, but may not have been written. It should be guarded by a check that the [call to sscanf](1) returns at least 2.","CWE-252,CWE-253",MEDIUM
+457cbbdfd45c03a4:1,src/jbclass.c,2077,31,-1,36,cpp/missing-check-scanf,Missing return-value check for a 'scanf'-like function,"This variable is read, but may not have been written. It should be guarded by a check that the [call to sscanf](1) returns at least 1.","CWE-252,CWE-253",MEDIUM
+8298bbdd7df40c98:1,src/jbclass.c,2078,32,-1,38,cpp/missing-check-scanf,Missing return-value check for a 'scanf'-like function,"This variable is read, but may not have been written. It should be guarded by a check that the [call to sscanf](1) returns at least 2.","CWE-252,CWE-253",MEDIUM
+1a7fbc432426a5bc:1,src/jbclass.c,2079,25,-1,26,cpp/missing-check-scanf,Missing return-value check for a 'scanf'-like function,"This variable is read, but may not have been written. It should be guarded by a check that the [call to sscanf](1) returns at least 3.","CWE-252,CWE-253",MEDIUM
+1a7fbc432426a5bc:1,src/jbclass.c,2079,28,-1,29,cpp/missing-check-scanf,Missing return-value check for a 'scanf'-like function,"This variable is read, but may not have been written. It should be guarded by a check that the [call to sscanf](1) returns at least 4.","CWE-252,CWE-253",MEDIUM
+dbb2306ab4fb0a44:1,src/morphseq.c,1198,56,-1,57,cpp/missing-check-scanf,Missing return-value check for a 'scanf'-like function,"This variable is read, but may not have been written. It should be guarded by a check that the [call to sscanf](1) returns at least 1.","CWE-252,CWE-253",MEDIUM
+dbb2306ab4fb0a44:1,src/morphseq.c,1198,59,-1,60,cpp/missing-check-scanf,Missing return-value check for a 'scanf'-like function,"This variable is read, but may not have been written. It should be guarded by a check that the [call to sscanf](1) returns at least 2.","CWE-252,CWE-253",MEDIUM
+8c8a9341272a24be:1,src/morphseq.c,1204,55,-1,56,cpp/missing-check-scanf,Missing return-value check for a 'scanf'-like function,"This variable is read, but may not have been written. It should be guarded by a check that the [call to sscanf](1) returns at least 1.","CWE-252,CWE-253",MEDIUM
+8c8a9341272a24be:1,src/morphseq.c,1204,58,-1,59,cpp/missing-check-scanf,Missing return-value check for a 'scanf'-like function,"This variable is read, but may not have been written. It should be guarded by a check that the [call to sscanf](1) returns at least 2.","CWE-252,CWE-253",MEDIUM
+5d376232cd9d8b93:1,src/morphseq.c,1210,54,-1,55,cpp/missing-check-scanf,Missing return-value check for a 'scanf'-like function,"This variable is read, but may not have been written. It should be guarded by a check that the [call to sscanf](1) returns at least 1.","CWE-252,CWE-253",MEDIUM
+5d376232cd9d8b93:1,src/morphseq.c,1210,57,-1,58,cpp/missing-check-scanf,Missing return-value check for a 'scanf'-like function,"This variable is read, but may not have been written. It should be guarded by a check that the [call to sscanf](1) returns at least 2.","CWE-252,CWE-253",MEDIUM
+cfc7f06a812bc369:1,src/morphseq.c,1216,55,-1,56,cpp/missing-check-scanf,Missing return-value check for a 'scanf'-like function,"This variable is read, but may not have been written. It should be guarded by a check that the [call to sscanf](1) returns at least 1.","CWE-252,CWE-253",MEDIUM
+cfc7f06a812bc369:1,src/morphseq.c,1216,58,-1,59,cpp/missing-check-scanf,Missing return-value check for a 'scanf'-like function,"This variable is read, but may not have been written. It should be guarded by a check that the [call to sscanf](1) returns at least 2.","CWE-252,CWE-253",MEDIUM
+6f0094367b768b9c:2,src/morphseq.c,977,17,-1,18,cpp/missing-check-scanf,Missing return-value check for a 'scanf'-like function,"This variable is read, but may not have been written. It should be guarded by a check that the [call to sscanf](1) returns at least 1.","CWE-252,CWE-253",MEDIUM
+6f0094367b768b9c:2,src/morphseq.c,977,42,-1,43,cpp/missing-check-scanf,Missing return-value check for a 'scanf'-like function,"This variable is read, but may not have been written. It should be guarded by a check that the [call to sscanf](1) returns at least 2.","CWE-252,CWE-253",MEDIUM
+a7565b9c91318960:1,src/morphseq.c,979,36,-1,37,cpp/missing-check-scanf,Missing return-value check for a 'scanf'-like function,"This variable is read, but may not have been written. It should be guarded by a check that the [call to sscanf](1) returns at least 2.","CWE-252,CWE-253",MEDIUM
+8dab06cc73b46552:1,src/morphseq.c,1013,40,-1,41,cpp/missing-check-scanf,Missing return-value check for a 'scanf'-like function,"This variable is read, but may not have been written. It should be guarded by a check that the [call to sscanf](1) returns at least 1.","CWE-252,CWE-253",MEDIUM
+8dab06cc73b46552:1,src/morphseq.c,1013,43,-1,44,cpp/missing-check-scanf,Missing return-value check for a 'scanf'-like function,"This variable is read, but may not have been written. It should be guarded by a check that the [call to sscanf](1) returns at least 2.","CWE-252,CWE-253",MEDIUM
+6c345d17b3f4d6a2:1,src/morphseq.c,1019,39,-1,40,cpp/missing-check-scanf,Missing return-value check for a 'scanf'-like function,"This variable is read, but may not have been written. It should be guarded by a check that the [call to sscanf](1) returns at least 1.","CWE-252,CWE-253",MEDIUM
+6c345d17b3f4d6a2:1,src/morphseq.c,1019,42,-1,43,cpp/missing-check-scanf,Missing return-value check for a 'scanf'-like function,"This variable is read, but may not have been written. It should be guarded by a check that the [call to sscanf](1) returns at least 2.","CWE-252,CWE-253",MEDIUM
+9580dbbe57ea953b:1,src/morphseq.c,1025,38,-1,39,cpp/missing-check-scanf,Missing return-value check for a 'scanf'-like function,"This variable is read, but may not have been written. It should be guarded by a check that the [call to sscanf](1) returns at least 1.","CWE-252,CWE-253",MEDIUM
+9580dbbe57ea953b:1,src/morphseq.c,1025,41,-1,42,cpp/missing-check-scanf,Missing return-value check for a 'scanf'-like function,"This variable is read, but may not have been written. It should be guarded by a check that the [call to sscanf](1) returns at least 2.","CWE-252,CWE-253",MEDIUM
+1782b802675e5df0:1,src/morphseq.c,1031,39,-1,40,cpp/missing-check-scanf,Missing return-value check for a 'scanf'-like function,"This variable is read, but may not have been written. It should be guarded by a check that the [call to sscanf](1) returns at least 1.","CWE-252,CWE-253",MEDIUM
+1782b802675e5df0:1,src/morphseq.c,1031,42,-1,43,cpp/missing-check-scanf,Missing return-value check for a 'scanf'-like function,"This variable is read, but may not have been written. It should be guarded by a check that the [call to sscanf](1) returns at least 2.","CWE-252,CWE-253",MEDIUM
+5c98390380dda220:1,src/morphseq.c,1038,40,-1,41,cpp/missing-check-scanf,Missing return-value check for a 'scanf'-like function,"This variable is read, but may not have been written. It should be guarded by a check that the [call to sscanf](1) returns at least 1.","CWE-252,CWE-253",MEDIUM
+5c98390380dda220:1,src/morphseq.c,1038,43,-1,44,cpp/missing-check-scanf,Missing return-value check for a 'scanf'-like function,"This variable is read, but may not have been written. It should be guarded by a check that the [call to sscanf](1) returns at least 2.","CWE-252,CWE-253",MEDIUM
+7acd6922aad6423:1,src/morphseq.c,1040,40,-1,41,cpp/missing-check-scanf,Missing return-value check for a 'scanf'-like function,"This variable is read, but may not have been written. It should be guarded by a check that the [call to sscanf](1) returns at least 1.","CWE-252,CWE-253",MEDIUM
+7acd6922aad6423:1,src/morphseq.c,1040,43,-1,44,cpp/missing-check-scanf,Missing return-value check for a 'scanf'-like function,"This variable is read, but may not have been written. It should be guarded by a check that the [call to sscanf](1) returns at least 2.","CWE-252,CWE-253",MEDIUM
+913b8ca3665bd6d8:1,src/morphseq.c,650,54,-1,55,cpp/missing-check-scanf,Missing return-value check for a 'scanf'-like function,"This variable is read, but may not have been written. It should be guarded by a check that the [call to sscanf](1) returns at least 1.","CWE-252,CWE-253",MEDIUM
+913b8ca3665bd6d8:1,src/morphseq.c,650,57,-1,58,cpp/missing-check-scanf,Missing return-value check for a 'scanf'-like function,"This variable is read, but may not have been written. It should be guarded by a check that the [call to sscanf](1) returns at least 2.","CWE-252,CWE-253",MEDIUM
+80db47f9522e6e17:1,src/morphseq.c,656,53,-1,54,cpp/missing-check-scanf,Missing return-value check for a 'scanf'-like function,"This variable is read, but may not have been written. It should be guarded by a check that the [call to sscanf](1) returns at least 1.","CWE-252,CWE-253",MEDIUM
+80db47f9522e6e17:1,src/morphseq.c,656,56,-1,57,cpp/missing-check-scanf,Missing return-value check for a 'scanf'-like function,"This variable is read, but may not have been written. It should be guarded by a check that the [call to sscanf](1) returns at least 2.","CWE-252,CWE-253",MEDIUM
+17e1731ebe00fe39:1,src/morphseq.c,662,45,-1,46,cpp/missing-check-scanf,Missing return-value check for a 'scanf'-like function,"This variable is read, but may not have been written. It should be guarded by a check that the [call to sscanf](1) returns at least 1.","CWE-252,CWE-253",MEDIUM
+17e1731ebe00fe39:1,src/morphseq.c,662,48,-1,49,cpp/missing-check-scanf,Missing return-value check for a 'scanf'-like function,"This variable is read, but may not have been written. It should be guarded by a check that the [call to sscanf](1) returns at least 2.","CWE-252,CWE-253",MEDIUM
+62e1fe65b0f1bc9:1,src/morphseq.c,667,46,-1,47,cpp/missing-check-scanf,Missing return-value check for a 'scanf'-like function,"This variable is read, but may not have been written. It should be guarded by a check that the [call to sscanf](1) returns at least 1.","CWE-252,CWE-253",MEDIUM
+62e1fe65b0f1bc9:1,src/morphseq.c,667,49,-1,50,cpp/missing-check-scanf,Missing return-value check for a 'scanf'-like function,"This variable is read, but may not have been written. It should be guarded by a check that the [call to sscanf](1) returns at least 2.","CWE-252,CWE-253",MEDIUM
+30a91bc216a7642c:4,src/morphseq.c,683,45,-1,49,cpp/missing-check-scanf,Missing return-value check for a 'scanf'-like function,"This variable is read, but may not have been written. It should be guarded by a check that the [call to sscanf](1) returns at least 1.","CWE-252,CWE-253",MEDIUM
+69ece64db49ad0f3:1,src/morphseq.c,501,50,-1,51,cpp/missing-check-scanf,Missing return-value check for a 'scanf'-like function,"This variable is read, but may not have been written. It should be guarded by a check that the [call to sscanf](1) returns at least 1.","CWE-252,CWE-253",MEDIUM
+69ece64db49ad0f3:1,src/morphseq.c,501,53,-1,54,cpp/missing-check-scanf,Missing return-value check for a 'scanf'-like function,"This variable is read, but may not have been written. It should be guarded by a check that the [call to sscanf](1) returns at least 2.","CWE-252,CWE-253",MEDIUM
+5c9181b421329839:1,src/morphseq.c,507,49,-1,50,cpp/missing-check-scanf,Missing return-value check for a 'scanf'-like function,"This variable is read, but may not have been written. It should be guarded by a check that the [call to sscanf](1) returns at least 1.","CWE-252,CWE-253",MEDIUM
+5c9181b421329839:1,src/morphseq.c,507,52,-1,53,cpp/missing-check-scanf,Missing return-value check for a 'scanf'-like function,"This variable is read, but may not have been written. It should be guarded by a check that the [call to sscanf](1) returns at least 2.","CWE-252,CWE-253",MEDIUM
+4753aae838be7be2:1,src/morphseq.c,513,41,-1,42,cpp/missing-check-scanf,Missing return-value check for a 'scanf'-like function,"This variable is read, but may not have been written. It should be guarded by a check that the [call to sscanf](1) returns at least 1.","CWE-252,CWE-253",MEDIUM
+4753aae838be7be2:1,src/morphseq.c,513,44,-1,45,cpp/missing-check-scanf,Missing return-value check for a 'scanf'-like function,"This variable is read, but may not have been written. It should be guarded by a check that the [call to sscanf](1) returns at least 2.","CWE-252,CWE-253",MEDIUM
+bb68a15b1e187f97:1,src/morphseq.c,518,42,-1,43,cpp/missing-check-scanf,Missing return-value check for a 'scanf'-like function,"This variable is read, but may not have been written. It should be guarded by a check that the [call to sscanf](1) returns at least 1.","CWE-252,CWE-253",MEDIUM
+bb68a15b1e187f97:1,src/morphseq.c,518,45,-1,46,cpp/missing-check-scanf,Missing return-value check for a 'scanf'-like function,"This variable is read, but may not have been written. It should be guarded by a check that the [call to sscanf](1) returns at least 2.","CWE-252,CWE-253",MEDIUM
+30a91bc216a7642c:3,src/morphseq.c,534,45,-1,49,cpp/missing-check-scanf,Missing return-value check for a 'scanf'-like function,"This variable is read, but may not have been written. It should be guarded by a check that the [call to sscanf](1) returns at least 1.","CWE-252,CWE-253",MEDIUM
+443fd1bfc2d37875:1,src/morphseq.c,352,51,-1,52,cpp/missing-check-scanf,Missing return-value check for a 'scanf'-like function,"This variable is read, but may not have been written. It should be guarded by a check that the [call to sscanf](1) returns at least 1.","CWE-252,CWE-253",MEDIUM
+443fd1bfc2d37875:1,src/morphseq.c,352,54,-1,55,cpp/missing-check-scanf,Missing return-value check for a 'scanf'-like function,"This variable is read, but may not have been written. It should be guarded by a check that the [call to sscanf](1) returns at least 2.","CWE-252,CWE-253",MEDIUM
+f2ac2972e6663c46:1,src/morphseq.c,358,50,-1,51,cpp/missing-check-scanf,Missing return-value check for a 'scanf'-like function,"This variable is read, but may not have been written. It should be guarded by a check that the [call to sscanf](1) returns at least 1.","CWE-252,CWE-253",MEDIUM
+f2ac2972e6663c46:1,src/morphseq.c,358,53,-1,54,cpp/missing-check-scanf,Missing return-value check for a 'scanf'-like function,"This variable is read, but may not have been written. It should be guarded by a check that the [call to sscanf](1) returns at least 2.","CWE-252,CWE-253",MEDIUM
+60aca612baf6967d:1,src/morphseq.c,364,42,-1,43,cpp/missing-check-scanf,Missing return-value check for a 'scanf'-like function,"This variable is read, but may not have been written. It should be guarded by a check that the [call to sscanf](1) returns at least 1.","CWE-252,CWE-253",MEDIUM
+60aca612baf6967d:1,src/morphseq.c,364,45,-1,46,cpp/missing-check-scanf,Missing return-value check for a 'scanf'-like function,"This variable is read, but may not have been written. It should be guarded by a check that the [call to sscanf](1) returns at least 2.","CWE-252,CWE-253",MEDIUM
+aeae6ce14aa3c9cf:1,src/morphseq.c,369,47,-1,48,cpp/missing-check-scanf,Missing return-value check for a 'scanf'-like function,"This variable is read, but may not have been written. It should be guarded by a check that the [call to sscanf](1) returns at least 1.","CWE-252,CWE-253",MEDIUM
+aeae6ce14aa3c9cf:1,src/morphseq.c,369,50,-1,51,cpp/missing-check-scanf,Missing return-value check for a 'scanf'-like function,"This variable is read, but may not have been written. It should be guarded by a check that the [call to sscanf](1) returns at least 2.","CWE-252,CWE-253",MEDIUM
+30a91bc216a7642c:2,src/morphseq.c,385,45,-1,49,cpp/missing-check-scanf,Missing return-value check for a 'scanf'-like function,"This variable is read, but may not have been written. It should be guarded by a check that the [call to sscanf](1) returns at least 1.","CWE-252,CWE-253",MEDIUM
+914e9fd764d29af:1,src/morphseq.c,184,47,-1,48,cpp/missing-check-scanf,Missing return-value check for a 'scanf'-like function,"This variable is read, but may not have been written. It should be guarded by a check that the [call to sscanf](1) returns at least 1.","CWE-252,CWE-253",MEDIUM
+914e9fd764d29af:1,src/morphseq.c,184,50,-1,51,cpp/missing-check-scanf,Missing return-value check for a 'scanf'-like function,"This variable is read, but may not have been written. It should be guarded by a check that the [call to sscanf](1) returns at least 2.","CWE-252,CWE-253",MEDIUM
+31622b445947c4ad:1,src/morphseq.c,190,46,-1,47,cpp/missing-check-scanf,Missing return-value check for a 'scanf'-like function,"This variable is read, but may not have been written. It should be guarded by a check that the [call to sscanf](1) returns at least 1.","CWE-252,CWE-253",MEDIUM
+31622b445947c4ad:1,src/morphseq.c,190,49,-1,50,cpp/missing-check-scanf,Missing return-value check for a 'scanf'-like function,"This variable is read, but may not have been written. It should be guarded by a check that the [call to sscanf](1) returns at least 2.","CWE-252,CWE-253",MEDIUM
+78f2ba7d5c2e45e:1,src/morphseq.c,196,38,-1,39,cpp/missing-check-scanf,Missing return-value check for a 'scanf'-like function,"This variable is read, but may not have been written. It should be guarded by a check that the [call to sscanf](1) returns at least 1.","CWE-252,CWE-253",MEDIUM
+78f2ba7d5c2e45e:1,src/morphseq.c,196,41,-1,42,cpp/missing-check-scanf,Missing return-value check for a 'scanf'-like function,"This variable is read, but may not have been written. It should be guarded by a check that the [call to sscanf](1) returns at least 2.","CWE-252,CWE-253",MEDIUM
+3a31fbd953c2d020:1,src/morphseq.c,201,43,-1,44,cpp/missing-check-scanf,Missing return-value check for a 'scanf'-like function,"This variable is read, but may not have been written. It should be guarded by a check that the [call to sscanf](1) returns at least 1.","CWE-252,CWE-253",MEDIUM
+3a31fbd953c2d020:1,src/morphseq.c,201,46,-1,47,cpp/missing-check-scanf,Missing return-value check for a 'scanf'-like function,"This variable is read, but may not have been written. It should be guarded by a check that the [call to sscanf](1) returns at least 2.","CWE-252,CWE-253",MEDIUM
+30a91bc216a7642c:1,src/morphseq.c,217,45,-1,49,cpp/missing-check-scanf,Missing return-value check for a 'scanf'-like function,"This variable is read, but may not have been written. It should be guarded by a check that the [call to sscanf](1) returns at least 1.","CWE-252,CWE-253",MEDIUM
+576c78dd07056f68:1,src/pdfio2.c,2427,19,-1,24,cpp/missing-check-scanf,Missing return-value check for a 'scanf'-like function,"This variable is read, but may not have been written. It should be guarded by a check that the [call to sscanf](1) returns at least 1.","CWE-252,CWE-253",MEDIUM
+724df72c610b3d2e:1,src/pdfio2.c,2304,28,-1,36,cpp/missing-check-scanf,Missing return-value check for a 'scanf'-like function,"This variable is read, but may not have been written. It should be guarded by a check that the [call to sscanf](1) returns at least 1.","CWE-252,CWE-253",MEDIUM
+ae1ec686bc3fe50d:1,prog/replacebytes.c,66,13,-1,17,cpp/lossy-function-result-cast,Lossy function result cast,Return value of type double is implicitly converted to int.,,MEDIUM
+657cf09f01d135f6:1,prog/replacebytes.c,67,14,-1,18,cpp/lossy-function-result-cast,Lossy function result cast,Return value of type double is implicitly converted to int.,,MEDIUM
+2ccd1d9978bb05fe:1,src/ccbord.c,2341,21,-1,31,cpp/incomplete-parity-check,Bad check for oddness,Possibly invalid test for oddness. This will fail for negative numbers.,,MEDIUM
+68c578492d074250:1,src/ccbord.c,2344,17,-1,27,cpp/incomplete-parity-check,Bad check for oddness,Possibly invalid test for oddness. This will fail for negative numbers.,,MEDIUM
+b335a90e694cb516:1,src/numafunc1.c,1543,9,-1,19,cpp/incomplete-parity-check,Bad check for oddness,Possibly invalid test for oddness. This will fail for negative numbers.,,MEDIUM
+92447099e3c5ccdc:1,src/sarray1.c,471,9,-1,38,cpp/stack-address-escape,Local variable address stored in non-local memory,A stack address which arrived via a [parameter](1) may be assigned to a non-local variable.,,MEDIUM
+492f8772db4c5a98:1,src/tiffio.c,2358,5,-1,33,cpp/stack-address-escape,Local variable address stored in non-local memory,A stack address which arrived via a [parameter](1) may be assigned to a non-local variable.,,MEDIUM
+3afc425a515463a6:1,src/tiffio.c,2359,5,-1,33,cpp/stack-address-escape,Local variable address stored in non-local memory,A stack address which arrived via a [parameter](1) may be assigned to a non-local variable.,,MEDIUM
+78450b6b006d2b76:1,prog/alphaops_reg.c,246,12,-1,26,cpp/inconsistent-null-check,Inconsistent nullness check,"The result of this call to pixGetColormap is not checked for null, but 83% of calls to pixGetColormap check for null.",CWE-476,HIGH
+75dc5e4d69eac9a5:1,prog/dewarptest4.c,96,12,-1,28,cpp/inconsistent-null-check,Inconsistent nullness check,"The result of this call to dewarpaGetDewarp is not checked for null, but 86% of calls to dewarpaGetDewarp check for null.",CWE-476,HIGH
+3ad730ba5aa67c59:1,prog/heap_reg.c,123,26,-1,37,cpp/inconsistent-null-check,Inconsistent nullness check,"The result of this call to lheapRemove is not checked for null, but 83% of calls to lheapRemove check for null.",CWE-476,HIGH
+590a23d60188bc4f:1,src/colorquant1.c,2450,25,-1,36,cpp/inconsistent-null-check,Inconsistent nullness check,"The result of this call to lheapRemove is not checked for null, but 83% of calls to lheapRemove check for null.",CWE-476,HIGH
+2170cff8f8264a7f:1,src/dewarp3.c,259,16,-1,32,cpp/inconsistent-null-check,Inconsistent nullness check,"The result of this call to dewarpaGetDewarp is not checked for null, but 86% of calls to dewarpaGetDewarp check for null.",CWE-476,HIGH
+9bf0dc395939c77d:1,src/recogdid.c,327,11,-1,22,cpp/inconsistent-null-check,Inconsistent nullness check,"The result of this call to recogGetDid is not checked for null, but 87% of calls to recogGetDid check for null.",CWE-476,HIGH
+2c812c401042cd30:1,src/gplot.c,632,19,-1,24,cpp/world-writable-file-creation,File created without restricting permissions,"A file may be created here with mode 0666, which would make it world-writable.",CWE-732,MEDIUM
+3a547ee28d75268:1,src/utils2.c,1876,16,-1,21,cpp/path-injection,Uncontrolled data used in path expression,"This argument to a file access function is derived from [user input (value read by fscanf)](1) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (value read by fscanf)](2) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](3) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](4) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](5) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](6) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](7) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](8) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](9) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](10) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](11) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](12) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](13) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](14) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](15) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](16) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](17) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](18) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](19) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](20) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](21) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](22) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](23) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](24) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](25) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](26) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](27) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](28) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](29) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](30) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](31) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](32) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](33) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](34) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](35) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](36) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](37) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](38) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](39) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](40) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](41) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](42) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](43) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](44) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](45) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](46) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](47) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](48) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](49) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](50) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](51) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](52) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](53) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](54) and then passed to fopen(__filename).","CWE-022,CWE-023,CWE-036,CWE-073",MEDIUM
+49bec4b6d47cf314:1,src/utils2.c,1833,16,-1,21,cpp/path-injection,Uncontrolled data used in path expression,"This argument to a file access function is derived from [user input (a command-line argument)](1) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](2) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](3) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](4) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](5) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](6) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](7) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](8) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](9) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](10) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](11) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](12) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](13) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](14) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](15) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](16) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](17) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](18) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](19) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](20) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](21) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](22) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](23) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](24) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](25) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](26) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](27) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](28) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](29) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](30) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](31) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](32) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](33) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](34) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](35) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](36) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](37) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](38) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](39) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](40) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](41) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](42) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](43) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](44) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](45) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](46) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](47) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](48) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](49) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](50) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](51) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](52) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](53) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](54) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](55) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](56) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](57) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](58) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](59) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](60) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](61) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](62) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](63) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](64) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](65) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](66) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](67) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](68) and then passed to fopen(__filename).","CWE-022,CWE-023,CWE-036,CWE-073",MEDIUM
+ddd49be5d013ccb:1,src/utils2.c,1839,16,-1,20,cpp/path-injection,Uncontrolled data used in path expression,"This argument to a file access function is derived from [user input (a command-line argument)](1) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](2) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](3) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](4) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](5) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](6) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](7) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](8) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](9) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](10) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](11) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](12) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](13) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](14) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](15) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](16) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](17) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](18) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](19) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](20) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](21) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](22) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](23) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](24) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](25) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](26) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](27) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](28) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](29) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](30) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](31) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](32) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](33) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](34) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](35) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](36) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](37) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](38) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](39) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](40) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](41) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](42) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](43) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](44) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](45) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](46) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](47) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](48) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](49) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](50) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](51) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](52) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](53) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](54) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](55) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](56) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](57) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](58) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](59) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](60) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](61) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](62) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](63) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](64) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](65) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](66) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](67) and then passed to fopen(__filename).
+This argument to a file access function is derived from [user input (a command-line argument)](68) and then passed to fopen(__filename).","CWE-022,CWE-023,CWE-036,CWE-073",MEDIUM
+268a7dc4a21f03f8:1,prog/alltests_reg.c,251,22,-1,29,cpp/uncontrolled-process-operation,Uncontrolled process operation,The value of this argument may come from [a command-line argument](1) and is being passed to system.,CWE-114,MEDIUM
+4aeed09c019bc3b4:1,prog/htmlviewer.c,165,18,-1,21,cpp/uncontrolled-process-operation,Uncontrolled process operation,The value of this argument may come from [a command-line argument](1) and is being passed to system.,CWE-114,MEDIUM
+c500dc823f7e36c1:1,prog/printimage.c,145,26,-1,32,cpp/uncontrolled-process-operation,Uncontrolled process operation,The value of this argument may come from [a command-line argument](1) and is being passed to system.,CWE-114,MEDIUM
+61fb5c1a97b2b472:1,prog/printimage.c,149,26,-1,32,cpp/uncontrolled-process-operation,Uncontrolled process operation,The value of this argument may come from [a command-line argument](1) and is being passed to system.,CWE-114,MEDIUM
+299e1d16bd539064:1,prog/printtiff.c,92,22,-1,25,cpp/uncontrolled-process-operation,Uncontrolled process operation,The value of this argument may come from [a command-line argument](1) and is being passed to system.,CWE-114,MEDIUM
+31884f8fdd1979d3:1,prog/printsplitimage.c,141,29,-1,32,cpp/uncontrolled-process-operation,Uncontrolled process operation,The value of this argument may come from [a command-line argument](1) and is being passed to system.,CWE-114,MEDIUM
+6a2c1428202c6e9:1,prog/xtractprotos.c,199,22,-1,25,cpp/uncontrolled-process-operation,Uncontrolled process operation,The value of this argument may come from [a command-line argument](1) and is being passed to system.,CWE-114,MEDIUM
+2cdb45b7161e593:1,src/colormap.c,137,24,-1,68,cpp/uncontrolled-allocation-size,Uncontrolled allocation size,This allocation size is derived from [user input (value read by fscanf)](1) and could allocate arbitrary amounts of memory.,"CWE-190,CWE-789",HIGH
+49618c89d9be8c44:1,src/fpix1.c,358,30,-1,48,cpp/uncontrolled-allocation-size,Uncontrolled allocation size,"This allocation size is derived from [user input (value read by fscanf)](1) and could allocate arbitrary amounts of memory.
+This allocation size is derived from [user input (value read by fscanf)](2) and could allocate arbitrary amounts of memory.","CWE-190,CWE-789",HIGH
+293d07bbc69ad590:1,src/pdfio2.c,2200,28,-1,64,cpp/uncontrolled-allocation-size,Uncontrolled allocation size,"This allocation size is derived from [user input (string read by fread)](1) and could allocate arbitrary amounts of memory.
+This allocation size is derived from [user input (string read by fread)](2) and could allocate arbitrary amounts of memory.","CWE-190,CWE-789",HIGH
+7639a17b3e97188a:1,src/pix1.c,776,29,-1,43,cpp/uncontrolled-allocation-size,Uncontrolled allocation size,This allocation size is derived from [user input (a command-line argument)](1) and could allocate arbitrary amounts of memory.,"CWE-190,CWE-789",HIGH
+1a2927eefc030583:1,src/pix1.c,351,29,-1,43,cpp/uncontrolled-allocation-size,Uncontrolled allocation size,"This allocation size is derived from [user input (a command-line argument)](1) and could allocate arbitrary amounts of memory.
+This allocation size is derived from [user input (a command-line argument)](2) and could allocate arbitrary amounts of memory.","CWE-190,CWE-789",HIGH
+a77d1e0ebd5550a2:1,src/tiffio.c,2177,28,-1,64,cpp/uncontrolled-allocation-size,Uncontrolled allocation size,"This allocation size is derived from [user input (string read by fread)](1) and could allocate arbitrary amounts of memory.
+This allocation size is derived from [user input (string read by fread)](2) and could allocate arbitrary amounts of memory.","CWE-190,CWE-789",HIGH

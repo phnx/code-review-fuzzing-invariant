@@ -1,0 +1,214 @@
+=====================
+src/funcs.c
+=====================
+{
+    "*\nfile_copystr": [
+        "strlcpy"
+    ],
+    "file_clearbuf": [
+        "free"
+    ],
+    "file_checkfield": [
+        "isdigit",
+        "snprintf"
+    ],
+    "file_checkfmt": [
+        "strchr",
+        "snprintf",
+        "file_checkfield",
+        "file_checkfield",
+        "isalpha",
+        "snprintf"
+    ],
+    "file_vprintf": [
+        "file_checkfmt",
+        "file_clearbuf",
+        "file_error",
+        "vasprintf",
+        "free",
+        "file_clearbuf",
+        "file_error",
+        "asprintf",
+        "free",
+        "free",
+        "file_clearbuf",
+        "file_error"
+    ],
+    "file_printf": [
+        "va_start",
+        "file_vprintf",
+        "va_end"
+    ],
+    "file_error_core": [
+        "__format__",
+        "file_clearbuf",
+        "file_printf",
+        "file_printf",
+        "file_vprintf",
+        "file_printf",
+        "strerror"
+    ],
+    "file_error": [
+        "va_start",
+        "file_error_core",
+        "va_end"
+    ],
+    "file_magerror": [
+        "va_start",
+        "file_error_core",
+        "va_end"
+    ],
+    "file_oomem": [
+        "file_error"
+    ],
+    "file_badseek": [
+        "file_error"
+    ],
+    "file_badread": [
+        "file_error"
+    ],
+    "file_separator": [
+        "file_printf"
+    ],
+    "trim_separator": [
+        "strlen",
+        "strcmp"
+    ],
+    "checkdone": [
+        "file_separator"
+    ],
+    "file_default": [
+        "file_printf",
+        "file_printf",
+        "file_printf"
+    ],
+    "file_buffer": [
+        "buffer_init",
+        "file_encoding",
+        "file_os2_apptype",
+        "fprintf",
+        "file_zmagic",
+        "fprintf",
+        "file_is_tar",
+        "fprintf",
+        "checkdone",
+        "file_is_json",
+        "fprintf",
+        "checkdone",
+        "file_is_csv",
+        "fprintf",
+        "checkdone",
+        "file_trycdf",
+        "fprintf",
+        "checkdone",
+        "file_push_buffer",
+        "file_tryelf",
+        "file_pop_buffer",
+        "free",
+        "fprintf",
+        "file_softmagic",
+        "fprintf",
+        "file_printf",
+        "checkdone",
+        "file_ascmagic",
+        "fprintf",
+        "file_default",
+        "file_printf",
+        "trim_separator",
+        "file_printf",
+        "file_printf",
+        "free",
+        "buffer_fini"
+    ],
+    "file_reset": [
+        "file_error",
+        "file_clearbuf",
+        "free"
+    ],
+    "*\nfile_getbuffer": [
+        "strlen",
+        "file_oomem",
+        "file_oomem",
+        "memset",
+        "mbrtowc",
+        "CAST",
+        "CAST",
+        "CAST",
+        "iswprint",
+        "memcpy",
+        "OCTALIFY",
+        "OCTALIFY"
+    ],
+    "file_check_mem": [
+        "CAST",
+        "malloc",
+        "realloc",
+        "file_oomem"
+    ],
+    "file_printedlen": [],
+    "file_replace": [
+        "file_regcomp",
+        "file_regerror",
+        "file_regexec",
+        "file_printf",
+        "file_regfree"
+    ],
+    "file_regcomp": [
+        "newlocale",
+        "assert",
+        "uselocale",
+        "assert",
+        "setlocale",
+        "assert",
+        "strdup",
+        "assert",
+        "setlocale",
+        "regcomp"
+    ],
+    "file_regexec": [
+        "assert",
+        "memset",
+        "regexec"
+    ],
+    "file_regfree": [
+        "regfree",
+        "uselocale",
+        "freelocale",
+        "setlocale",
+        "free"
+    ],
+    "file_regerror": [
+        "regerror",
+        "file_magerror"
+    ],
+    "file_pushbuf_t *\nfile_push_buffer": [
+        "pb",
+        "CAST",
+        "malloc"
+    ],
+    "*\nfile_pop_buffer": [
+        "free",
+        "free",
+        "free"
+    ],
+    "*\nfile_printable": [
+        "RCAST",
+        "isprint"
+    ],
+    "file_parse_guid": [
+        "sscanf"
+    ],
+    "file_print_guid": [
+        "snprintf"
+    ],
+    "file_pipe_closexec": [
+        "pipe2",
+        "pipe",
+        "fcntl",
+        "fcntl"
+    ],
+    "file_clear_closexec": [
+        "fcntl"
+    ]
+}
+

@@ -1,0 +1,441 @@
+location_hash,location_file,location_start_line,location_start_column,location_end_line,location_end_column,warning_rule_id,warning_rule_name,warning_message,warning_weakness,warning_severity
+9d27784d016b3a09:1,codec/decoder/core/inc/error_code.h,81,6,-1,7,cpp/irregular-enum-init,Irregular enum initialization,"In an enumerator list, the = construct should not be used to explicitly initialize members other than the first, unless all items are explicitly initialized.",,LOW
+3ffd1c12c306139a:1,codec/console/dec/src/d3d9_utils.cpp,559,5,-1,20,cpp/array-in-interface,No raw arrays in interfaces,Raw arrays should not be used in interfaces. A container class should be used instead.,,LOW
+3cc795c1bb370c62:1,codec/common/inc/WelsThreadPool.h,53,8,-1,23,cpp/undisciplined-multiple-inheritance,Undisciplined multiple inheritance,"Multiple inheritance should not be used with 1 interfaces, 0 private implementations, 0 protected implementations, and 1 public implementations.",,LOW
+1e27289a84eddbea:1,codec/encoder/core/inc/wels_task_management.h,68,8,-1,27,cpp/undisciplined-multiple-inheritance,Undisciplined multiple inheritance,"Multiple inheritance should not be used with 1 interfaces, 0 private implementations, 0 protected implementations, and 1 public implementations.",,LOW
+1156dc96c9e68857:1,codec/processing/src/scrolldetection/ScrollDetection.h,-1,-1,-1,-1,cpp/missing-header-guard,Missing header guard,This header file should contain a header guard to prevent multiple inclusion.,,LOW
+1156dc96c9e68857:1,codec/processing/src/scrolldetection/ScrollDetectionFuncs.h,-1,-1,-1,-1,cpp/missing-header-guard,Missing header guard,This header file should contain a header guard to prevent multiple inclusion.,,LOW
+9c1e2b0ab6917412:1,codec/decoder/core/src/au_parser.cpp,1373,5,1382,6,cpp/trivial-switch,No trivial switch statements,"This switch statement should either handle more cases, or be rewritten as an if statement.",,LOW
+bdac5ca7b4fb82ee:1,codec/encoder/core/src/wels_preprocess.cpp,92,3,102,4,cpp/trivial-switch,No trivial switch statements,"This switch statement should either handle more cases, or be rewritten as an if statement.",,LOW
+e89e8630140e91bb:1,codec/console/dec/src/h264dec.cpp,563,37,-1,38,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+2b1dc8b8764fb2ed:1,codec/console/dec/src/h264dec.cpp,570,43,-1,44,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+76b7ca25290d2362:1,codec/console/dec/src/h264dec.cpp,577,37,-1,38,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+51a0f062a928472c:1,codec/console/dec/src/h264dec.cpp,584,46,-1,47,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+b91162de5b4bffeb:1,codec/encoder/core/src/ref_list_mgr_svc.cpp,113,7,-1,8,cpp/loop-variable-changed,For loop variable changed in body,Loop counters should not be modified in the body of the [loop](1).,,LOW
+f650feb4c2b13960:1,codec/decoder/core/src/au_parser.cpp,196,3,431,4,cpp/long-switch,Long switch case,"Switch has at least one case that is too long: [NAL_UNIT_PREFIX (59 lines)](1).
+Switch has at least one case that is too long: [NAL_UNIT_CODED_SLICE_IDR (160 lines)](2).",,LOW
+73ca69284ada0605:1,codec/decoder/core/src/error_concealment.cpp,271,9,359,10,cpp/long-switch,Long switch case,Switch has at least one case that is too long: [128 (49 lines)](1).,,LOW
+a9df1ede4f497e9a:1,codec/decoder/core/src/parse_mb_syn_cavlc.cpp,1088,3,1324,4,cpp/long-switch,Long switch case,"Switch has at least one case that is too long: [8 (35 lines)](1).
+Switch has at least one case that is too long: [16 (39 lines)](2).
+Switch has at least one case that is too long: [32 (41 lines)](3).
+Switch has at least one case that is too long: [128 (113 lines)](4).",,LOW
+880c05757cf6767d:1,codec/decoder/core/src/parse_mb_syn_cabac.cpp,540,3,721,4,cpp/long-switch,Long switch case,Switch has at least one case that is too long: [128 (90 lines)](1).,,LOW
+a7d00b5b9ec1b00b:1,codec/decoder/core/src/rec_mb.cpp,493,3,662,4,cpp/long-switch,Long switch case,Switch has at least one case that is too long: [128 (104 lines)](1).,,LOW
+f3a028b55cc4c823:1,codec/encoder/core/src/svc_base_layer_md.cpp,1592,3,1821,4,cpp/long-switch,Long switch case,Switch has at least one case that is too long: [64 (137 lines)](1).,,LOW
+4ed99c5ab4e46595:1,codec/encoder/core/src/svc_base_layer_md.cpp,1688,7,1816,8,cpp/long-switch,Long switch case,"Switch has at least one case that is too long: [8 (31 lines)](1).
+Switch has at least one case that is too long: [2 (32 lines)](2).
+Switch has at least one case that is too long: [4 (32 lines)](3).",,LOW
+212a70d606b0b949:1,codec/encoder/core/src/encoder_ext.cpp,545,5,651,6,cpp/long-switch,Long switch case,Switch has at least one case that is too long: [SM_RASTER_SLICE (54 lines)](1).,,LOW
+44a9e30e31d36c0d:1,codec/encoder/plus/src/welsEncoderExt.cpp,698,3,1191,4,cpp/long-switch,Long switch case,"Switch has at least one case that is too long: [ENCODER_OPTION_SVC_ENCODE_PARAM_BASE (52 lines)](1).
+Switch has at least one case that is too long: [ENCODER_OPTION_SVC_ENCODE_PARAM_EXT (60 lines)](2).
+Switch has at least one case that is too long: [ENCODER_OPTION_BITRATE (45 lines)](3).
+Switch has at least one case that is too long: [ENCODER_OPTION_MAX_BITRATE (44 lines)](4).
+Switch has at least one case that is too long: [ENCODER_OPTION_SPS_PPS_ID_STRATEGY (43 lines)](5).",,LOW
+23636503553f73f3:1,codec/decoder/core/src/au_parser.cpp,1251,46,1252,6,cpp/empty-block,Empty branch of conditional,Empty block without comment.,,LOW
+d6b61f18c5852154:2,codec/decoder/core/src/decode_slice.cpp,2955,12,2956,6,cpp/empty-block,Empty branch of conditional,Empty block without comment.,,LOW
+d6b61f18c5852154:1,codec/decoder/core/src/decode_slice.cpp,2411,12,2412,6,cpp/empty-block,Empty branch of conditional,Empty block without comment.,,LOW
+3f7d701bb2bea5dd:1,codec/encoder/core/src/wels_preprocess.cpp,1438,47,1439,4,cpp/empty-block,Empty branch of conditional,Empty block without comment.,,LOW
+9bc90cfc2b3d2e36:1,codec/console/dec/src/h264dec.cpp,355,13,-1,29,cpp/declaration-hides-variable,Declaration hides variable,Variable iEndOfStreamFlag hides another variable of the same name (on [line 235](1)).,,LOW
+c1c113fc1901c064:3,codec/decoder/core/src/decode_slice.cpp,2722,15,-1,16,cpp/declaration-hides-variable,Declaration hides variable,Variable i hides another variable of the same name (on [line 2666](1)).,,LOW
+c1c113fc1901c064:2,codec/decoder/core/src/decode_slice.cpp,2178,15,-1,16,cpp/declaration-hides-variable,Declaration hides variable,Variable i hides another variable of the same name (on [line 2122](1)).,,LOW
+c1c113fc1901c064:1,codec/decoder/core/src/decode_slice.cpp,1837,13,-1,14,cpp/declaration-hides-variable,Declaration hides variable,Variable i hides another variable of the same name (on [line 1801](1)).,,LOW
+eae3e8e763ec40f4:2,codec/decoder/core/src/deblocking.cpp,279,18,-1,19,cpp/declaration-hides-variable,Declaration hides variable,Variable i hides another variable of the same name (on [line 265](1)).,,LOW
+944ceb11d13e73ac:1,codec/decoder/core/src/deblocking.cpp,301,14,-1,15,cpp/declaration-hides-variable,Declaration hides variable,Variable i hides another variable of the same name (on [line 265](1)).,,LOW
+e68696d4bd8a5cfd:1,codec/decoder/core/src/deblocking.cpp,307,14,-1,15,cpp/declaration-hides-variable,Declaration hides variable,Variable i hides another variable of the same name (on [line 265](1)).,,LOW
+bb7d113e069eca3e:1,codec/decoder/core/src/deblocking.cpp,313,14,-1,15,cpp/declaration-hides-variable,Declaration hides variable,Variable i hides another variable of the same name (on [line 265](1)).,,LOW
+9ffc096dae4717ce:1,codec/decoder/core/src/deblocking.cpp,319,14,-1,15,cpp/declaration-hides-variable,Declaration hides variable,Variable i hides another variable of the same name (on [line 265](1)).,,LOW
+d6710227caf2ff20:1,codec/decoder/core/src/parse_mb_syn_cavlc.cpp,1275,16,-1,27,cpp/declaration-hides-variable,Declaration hides variable,Variable uiSubMbType hides another variable of the same name (on [line 1210](1)).,,LOW
+a0f1dd33b2b332f:1,codec/decoder/core/src/parse_mb_syn_cavlc.cpp,1276,15,-1,18,cpp/declaration-hides-variable,Declaration hides variable,Variable iMv hides another variable of the same name (on [line 1076](1)).,,LOW
+c049d1c5bda269e:1,codec/decoder/core/src/parse_mb_syn_cabac.cpp,666,15,-1,23,cpp/declaration-hides-variable,Declaration hides variable,Variable iPartIdx hides another variable of the same name (on [line 532](1)).,,LOW
+74c324dcbac28ab6:1,codec/encoder/core/src/encoder_ext.cpp,4382,20,-1,27,cpp/declaration-hides-variable,Declaration hides variable,Variable iIndexD hides another variable of the same name (on [line 4159](1)).,,LOW
+16f18fe3726fdda1:1,codec/encoder/core/src/encoder_ext.cpp,2728,27,-1,34,cpp/declaration-hides-variable,Declaration hides variable,Variable pVaaExt hides another variable of the same name (on [line 2707](1)).,,LOW
+89f1c97c7bd71e27:1,codec/encoder/core/src/ref_list_mgr_svc.cpp,939,22,-1,23,cpp/declaration-hides-variable,Declaration hides variable,Variable i hides another variable of the same name (on [line 922](1)).,,LOW
+7b2397855c762e37:1,codec/encoder/core/src/ratectl.cpp,494,13,-1,29,cpp/declaration-hides-variable,Declaration hides variable,Variable iDeltaQpTemporal hides another variable of the same name (on [line 458](1)).,,LOW
+6c1eafb4677d9ad9:2,codec/encoder/core/src/wels_task_encoder.cpp,287,13,-1,20,cpp/declaration-hides-variable,Declaration hides variable,Variable iReturn hides another variable of the same name (on [line 243](1)).,,LOW
+60f536d4289fd87b:1,codec/encoder/core/src/wels_preprocess.cpp,1169,15,-1,18,cpp/declaration-hides-variable,Declaration hides variable,Variable ret hides another variable of the same name (on [line 1124](1)).,,LOW
+84a3a30615006d60:1,codec/encoder/core/src/wels_preprocess.cpp,447,17,-1,24,cpp/declaration-hides-variable,Declaration hides variable,Variable pSrcPic hides another variable of the same name (on [line 351](1)).,,LOW
+6fc0db4f7c670e4f:1,codec/encoder/core/src/wels_preprocess.cpp,454,15,-1,24,cpp/declaration-hides-variable,Declaration hides variable,Variable iSrcWidth hides another variable of the same name (on [line 356](1)).,,LOW
+5175818fcb95806d:1,codec/encoder/core/src/wels_preprocess.cpp,455,15,-1,25,cpp/declaration-hides-variable,Declaration hides variable,Variable iSrcHeight hides another variable of the same name (on [line 357](1)).,,LOW
+209c1c8c9ea702b8:1,codec/api/svc/codec_def.h,212,19,-1,35,cpp/unused-static-variable,Unused static variable,Static variable kiKeyNumMultiple is never read.,CWE-563,LOW
+1e8801648bbd0df5:1,codec/api/svc/codec_ver.h,8,26,-1,39,cpp/unused-static-variable,Unused static variable,Static variable g_strCodecVer is never read.,CWE-563,LOW
+59850839f93aefa2:1,codec/common/inc/typedefs.h,59,-1,-1,116,cpp/fixme-comment,FIXME comment,"FIXME comment: all singed type should be declared explicit,  for example,  int8_t should be declared as signed char.",CWE-546,LOW
+8bc26aa8a4af9cce:1,codec/common/inc/macros.h,116,39,-1,92,cpp/fixme-comment,FIXME comment,FIXME comment: low complexity instead of math library used,CWE-546,LOW
+f8eb720c0276c8a1:1,codec/common/inc/macros.h,112,30,-1,83,cpp/fixme-comment,FIXME comment,FIXME comment: low complexity instead of math library used,CWE-546,LOW
+b5c99038bbbb12b3:1,codec/decoder/core/src/au_parser.cpp,741,9,-1,105,cpp/fixme-comment,FIXME comment,"FIXME comment: Incoherent with JVT X201 standard (= 1), but conformance to JSVM (= 0) implementation.",CWE-546,LOW
+8f5ba899735c88c5:1,codec/decoder/core/src/decode_slice.cpp,280,64,-1,116,cpp/fixme-comment,FIXME comment,FIXME comment: think about merging this into decode_resdual,CWE-546,LOW
+c26c29de1d1de411:1,codec/decoder/core/src/decode_slice.cpp,250,22,-1,58,cpp/fixme-comment,FIXME comment,FIXME comment: check if this is a good idea,CWE-546,LOW
+4e6c10c2f5c4f88c:1,codec/decoder/core/src/decoder_core.cpp,1211,3,-1,32,cpp/fixme-comment,FIXME comment,FIXME comment: qscale / qp ... stuff,CWE-546,LOW
+ccb995c973b4add9:1,codec/decoder/core/src/parse_mb_syn_cavlc.cpp,1056,31,-1,54,cpp/fixme-comment,FIXME comment,FIXME comment: add 1 earlier ?,CWE-546,LOW
+3d3c7d533cf3a239:3,codec/decoder/core/src/parse_mb_syn_cavlc.cpp,1054,45,-1,75,cpp/fixme-comment,FIXME comment,FIXME comment: merge into  rundecode?,CWE-546,LOW
+f119a211a7ed8806:1,codec/decoder/core/src/parse_mb_syn_cavlc.cpp,966,33,-1,56,cpp/fixme-comment,FIXME comment,FIXME comment: add 1 earlier ?,CWE-546,LOW
+3d3c7d533cf3a239:2,codec/decoder/core/src/parse_mb_syn_cavlc.cpp,964,47,-1,77,cpp/fixme-comment,FIXME comment,FIXME comment: merge into  rundecode?,CWE-546,LOW
+183a5f7e73d36380:1,codec/decoder/core/src/parse_mb_syn_cavlc.cpp,958,33,-1,56,cpp/fixme-comment,FIXME comment,FIXME comment: add 1 earlier ?,CWE-546,LOW
+3d3c7d533cf3a239:1,codec/decoder/core/src/parse_mb_syn_cavlc.cpp,956,47,-1,76,cpp/fixme-comment,FIXME comment,FIXME comment: merge into rundecode?,CWE-546,LOW
+183a5f7e73d33183:1,codec/decoder/core/src/parse_mb_syn_cavlc.cpp,940,33,-1,56,cpp/fixme-comment,FIXME comment,FIXME comment: add 1 earlier ?,CWE-546,LOW
+c6623c58f5b9d416:1,codec/decoder/core/src/parse_mb_syn_cavlc.cpp,938,7,-1,36,cpp/fixme-comment,FIXME comment,FIXME comment: merge into rundecode?,CWE-546,LOW
+6e253e7a57566eea:1,codec/common/src/WelsThreadPool.cpp,332,3,-1,84,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+ebb0d6e4551bed82:1,codec/common/src/WelsThreadPool.cpp,285,3,-1,73,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+3f656834d6e8366f:1,codec/common/src/WelsThreadPool.cpp,270,3,-1,63,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+8bfc1ba8e81eaeb:1,codec/common/src/WelsThreadPool.cpp,265,3,-1,70,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+655749d4896d3b9a:1,codec/common/src/WelsThreadPool.cpp,259,7,-1,89,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+9b79ecfee09260dc:1,codec/common/src/WelsThreadPool.cpp,254,3,-1,87,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+4531b3c69d6fcb95:1,codec/common/src/WelsThreadPool.cpp,242,5,-1,87,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+77619af319e42864:1,codec/common/src/WelsThreadPool.cpp,237,7,-1,70,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+4fad5b4ff54b0ea2:1,codec/common/src/WelsThreadPool.cpp,234,5,-1,90,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+c7a52b8b9123a32c:1,codec/common/src/WelsThreadPool.cpp,230,3,-1,67,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+26d9808d09c720:1,codec/common/src/WelsThreadPool.cpp,193,5,-1,80,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+400a4aaefe7664b3:1,codec/common/src/WelsThreadPool.cpp,163,3,-1,52,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+bb9bda9b02fa1ef4:1,codec/common/src/WelsThreadPool.cpp,158,3,-1,84,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+b282fcd3f35f22e9:1,codec/common/src/WelsThreadPool.cpp,151,3,154,103,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+9227b5fe9ad5562d:1,codec/common/src/WelsThreadPool.cpp,149,5,-1,137,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+ae54eac16786f2eb:1,codec/common/src/WelsThreadPool.cpp,147,5,-1,135,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+a8b3b8d31077ccdd:1,codec/common/src/WelsThreadPool.cpp,141,3,-1,103,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+135ad81f290f9bb8:1,codec/common/src/WelsThreadPool.cpp,136,3,-1,101,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+94d725b6fb359a4d:1,codec/common/src/WelsThreadPool.cpp,123,5,-1,167,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+9778e97b6d52361a:1,codec/common/src/WelsThreadPool.cpp,114,3,-1,54,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+4ae408911140c168:1,codec/common/src/WelsThreadPool.cpp,108,3,-1,55,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+773a3a4e7c8aba7a:1,codec/common/src/WelsThreadPool.cpp,105,3,-1,91,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+2bac0f5e430e24d1:1,codec/common/src/WelsThreadPool.cpp,65,3,-1,127,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+65db89a443ca8f4a:1,codec/common/inc/ls_defines.h,92,-1,94,39,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+e50d53a09d510386:1,codec/common/inc/ls_defines.h,84,-1,88,9,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+63803a8e0afca75c:1,codec/common/inc/ls_defines.h,64,-1,65,29,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+9028dbdf8153a62b:1,codec/common/src/WelsThreadLib.cpp,340,3,-1,75,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+b43454f9d38e954f:1,codec/common/src/WelsThreadLib.cpp,332,3,-1,91,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+c0723450c4d964b7:1,codec/common/src/WelsThreadLib.cpp,328,-1,329,86,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+7870e5648cfa6a89:1,codec/common/src/WelsThreadLib.cpp,323,-1,325,60,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+cdf8ed35b189c705:1,codec/common/src/WelsThreadLib.cpp,317,3,-1,84,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+c3baf29fe8a12433:1,codec/common/src/WelsThreadLib.cpp,310,3,-1,92,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+38d2c4a10f201126:1,codec/common/src/WelsThreadLib.cpp,292,3,-1,55,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+6ed184d9c1b5d928:1,codec/common/src/intra_pred_common.cpp,64,33,-1,64,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+6f0bcbfa1f71dc02:1,codec/common/src/expand_pic.cpp,387,-1,-1,113,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+feaa84d72d1bc852:1,codec/console/dec/src/h264dec.cpp,69,-1,-1,27,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+b744ae428e495f57:1,codec/common/inc/macros.h,182,-1,-1,32,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+2c3b085c6eeac627:2,codec/common/src/mc.cpp,1630,3,-1,53,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+2c3b085c6eeac627:1,codec/common/src/mc.cpp,1341,3,-1,53,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+a9027c1252ae125f:1,codec/common/src/mc.cpp,58,-1,62,101,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+5737fc7a510647bd:1,codec/common/inc/wels_common_defs.h,256,3,-1,33,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+1dcc757c930bff0:1,codec/decoder/core/inc/parameter_sets.h,139,-1,142,22,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+32f175429568984e:1,codec/decoder/core/inc/parameter_sets.h,133,-1,137,42,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+4b8b8acbde7061db:1,codec/decoder/core/inc/parameter_sets.h,114,-1,115,39,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+73dbc069199dbc7e:1,codec/decoder/core/inc/slice.h,155,-1,-1,30,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+4a867dae544ab7b1:1,codec/common/inc/golomb_common.h,129,5,-1,50,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+3d6e761f63862734:1,codec/decoder/core/inc/dec_frame.h,107,3,-1,45,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+cb76baddb39c5413:1,codec/decoder/core/inc/dec_golomb.h,149,23,-1,44,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+7385a9940046e359:1,codec/decoder/core/inc/dec_golomb.h,144,35,-1,56,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+11216b5e99299bb3:1,codec/decoder/core/inc/dec_golomb.h,139,35,-1,56,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+618a9675938e4736:1,codec/decoder/core/inc/dec_golomb.h,134,34,-1,54,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+9d692c09a24d886a:1,codec/decoder/core/inc/dec_golomb.h,46,-1,-1,22,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+24da18f5d1cc0f55:1,codec/decoder/core/inc/decoder_context.h,560,-1,562,22,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+ce01080f90fd59a8:1,codec/decoder/core/inc/decoder_context.h,137,-1,-1,68,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+d5f2cc8c7135d4df:1,codec/decoder/core/inc/decoder_context.h,129,-1,131,22,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+cb889a5db0ca6d0b:1,codec/decoder/core/src/au_parser.cpp,981,-1,985,8,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+7f7965512f90d289:1,codec/decoder/core/inc/parse_mb_syn_cabac.h,88,-1,-1,17,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+f5ba3cbbfcf2fc73:1,codec/console/enc/src/welsenc.cpp,979,17,-1,85,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+b69f11cfe00ff1be:1,codec/console/enc/src/welsenc.cpp,617,5,-1,78,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+f5b923091d2d12b3:1,codec/console/enc/src/welsenc.cpp,361,-1,-1,83,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+46d2dd24ebce7e16:1,codec/console/enc/src/welsenc.cpp,307,9,-1,118,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+735e455f5748772c:1,codec/console/enc/src/welsenc.cpp,167,-1,-1,63,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+beb3b4fe1f97c101:1,codec/console/enc/src/welsenc.cpp,59,-1,-1,28,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+8f86025c7b00752a:1,codec/decoder/core/src/decoder.cpp,351,3,360,5,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+ecc988cb46b052df:1,codec/decoder/core/src/decoder.cpp,346,3,-1,55,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+ce24677cbf152d7:3,codec/decoder/core/src/decode_slice.cpp,2602,5,2604,8,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+1b36e303a8b6724f:1,codec/decoder/core/src/decode_slice.cpp,2580,5,2584,8,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+ce24677cbf152d7:2,codec/decoder/core/src/decode_slice.cpp,2488,5,2490,8,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+6f3a3d00abd88408:2,codec/decoder/core/src/decode_slice.cpp,1678,5,-1,78,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+6f3a3d00abd88408:1,codec/decoder/core/src/decode_slice.cpp,1571,5,-1,78,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+ce24677cbf152d7:1,codec/decoder/core/src/decode_slice.cpp,1378,5,1380,8,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+2e77e5b95ab43802:1,codec/decoder/core/src/decode_slice.cpp,702,12,-1,21,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+d9b2e7c52d0566c6:1,codec/decoder/core/src/decoder_core.cpp,1752,5,1753,8,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+868851d2da6ba4a8:1,codec/decoder/core/src/decoder_core.cpp,1748,5,1750,86,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+c1f531bfa94227fd:1,codec/decoder/core/src/decoder_core.cpp,581,3,-1,61,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+dc16130bd33297cc:1,codec/decoder/core/src/decoder_core.cpp,180,9,-1,44,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+2d57c6afcf193e2a:1,codec/decoder/core/src/decoder_core.cpp,105,7,-1,30,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+5bb223b097009b1e:1,codec/decoder/core/src/error_concealment.cpp,216,5,-1,43,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+250a83150ad5825a:1,codec/decoder/core/src/error_concealment.cpp,121,24,-1,51,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+6278284f11d61da8:1,codec/decoder/core/src/error_concealment.cpp,116,3,-1,40,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+7e144aa349dc6cef:1,codec/decoder/core/src/error_concealment.cpp,62,59,-1,82,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+bd85b4c5ac4f37ac:1,codec/decoder/core/src/deblocking.cpp,1044,3,-1,21,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+6c3111551cfac3b6:1,codec/decoder/core/src/deblocking.cpp,892,3,-1,64,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+b8c0720b5ebbe492:2,codec/decoder/core/src/manage_dec_ref.cpp,448,75,-1,83,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+b8c0720b5ebbe492:1,codec/decoder/core/src/manage_dec_ref.cpp,431,74,-1,82,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+2d325228f15fd86:1,codec/decoder/core/src/manage_dec_ref.cpp,75,5,-1,27,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+546327dfe960df78:1,codec/decoder/plus/inc/welsDecoderExt.h,55,-1,-1,62,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+d23815c1c15e318d:3,codec/decoder/core/src/rec_mb.cpp,450,5,-1,47,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+d23815c1c15e318d:2,codec/decoder/core/src/rec_mb.cpp,412,5,-1,47,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+98a35a5669b33c91:1,codec/decoder/core/src/rec_mb.cpp,403,5,-1,75,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+d23815c1c15e318d:1,codec/decoder/core/src/rec_mb.cpp,343,5,-1,47,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+376e9c5ee054444e:1,codec/decoder/core/src/rec_mb.cpp,339,5,-1,75,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+6ee811c6954b246a:1,codec/encoder/core/inc/parameter_sets.h,172,-1,175,40,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+e3034d0dd69478da:1,codec/encoder/core/inc/parameter_sets.h,168,-1,-1,41,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+70b14868c1df4e4b:1,codec/encoder/core/inc/parameter_sets.h,157,-1,158,40,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+cc35bb7aff1d26df:1,codec/encoder/core/inc/parameter_sets.h,130,-1,132,50,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+300945149414595b:1,codec/encoder/core/inc/parameter_sets.h,114,49,119,63,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+973bbd9e1582bfa5:1,codec/encoder/core/inc/parameter_sets.h,112,-1,-1,39,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+df8e0423a8a40ef9:1,codec/encoder/core/inc/parameter_sets.h,79,-1,80,40,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+80f259dbc65fdfe5:1,codec/encoder/core/inc/parameter_sets.h,73,-1,75,44,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+6cbd03416bced7ec:1,codec/encoder/core/inc/parameter_sets.h,70,-1,-1,49,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+977f42a97bf53439:1,codec/encoder/core/inc/parameter_sets.h,59,-1,60,32,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+4042ef1433ac00a4:1,codec/encoder/core/inc/parameter_sets.h,54,-1,56,44,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+99001c5b834cd791:1,codec/encoder/core/inc/parameter_sets.h,52,-1,-1,40,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+e0e29f094e179285:1,codec/encoder/core/inc/parameter_sets.h,48,-1,-1,30,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+db40812e8067b179:1,codec/encoder/core/inc/svc_enc_macroblock.h,72,33,-1,167,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+e607f5a41ed9ec38:1,codec/encoder/core/inc/svc_enc_macroblock.h,58,41,-1,146,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+b8c33b620160fadd:1,codec/encoder/core/inc/svc_enc_macroblock.h,44,-1,-1,15,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+247486146c0efcf9:1,codec/encoder/core/inc/mb_cache.h,118,31,-1,115,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+fe1d5224cca6f20f:1,codec/encoder/core/inc/mb_cache.h,91,23,94,54,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+849ff79b67c5e0e9:1,codec/encoder/core/inc/picture.h,134,4,-1,33,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+7073a6b8b8ff121f:1,codec/decoder/core/src/parse_mb_syn_cabac.cpp,1156,3,-1,17,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+737cf57fe3785854:1,codec/encoder/core/inc/svc_enc_slice_segment.h,87,49,-1,104,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+dfa712a1e77a007e:1,codec/encoder/core/inc/svc_enc_slice_segment.h,85,49,-1,87,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+e47cfbfc8eee081e:1,codec/decoder/core/src/parse_mb_syn_cabac.cpp,906,-1,-1,88,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+982d6490f7ce5ea6:1,codec/encoder/core/inc/svc_enc_slice_segment.h,82,49,-1,109,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+769fd8ab3b650e5f:1,codec/decoder/core/src/parse_mb_syn_cabac.cpp,297,25,-1,45,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+bd9cd9b16918f356:1,codec/encoder/core/inc/nal_encap.h,84,-1,-1,70,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+64938a1587ad911f:1,codec/encoder/core/inc/slice.h,107,-1,109,38,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+617e55861b5889d3:1,codec/encoder/core/inc/slice.h,103,-1,-1,41,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+347672f065d458d4:1,codec/encoder/core/inc/slice.h,96,3,-1,28,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+626696794e9f8b4:1,codec/encoder/core/inc/slice.h,76,-1,-1,31,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+52a81cfb4b5a4ce8:1,codec/encoder/core/inc/rc.h,211,-1,-1,31,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+f365220161a44f86:1,codec/decoder/plus/src/welsDecoderExt.cpp,713,3,718,6,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+97e062349c313ef9:1,codec/decoder/plus/src/welsDecoderExt.cpp,708,3,711,28,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+f417293858af4917:1,codec/decoder/plus/src/welsDecoderExt.cpp,705,3,706,53,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+5de82e74aec80c3b:1,codec/decoder/plus/src/welsDecoderExt.cpp,113,3,-1,50,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+712201e741a2233d:1,codec/decoder/plus/src/welsDecoderExt.cpp,101,3,-1,48,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+51329eb31e9a95a1:1,codec/decoder/plus/src/welsDecoderExt.cpp,51,-1,-1,22,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+1b67e7a065a3dcc2:1,codec/decoder/plus/src/welsDecoderExt.cpp,42,-1,-1,22,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+bde7b9fda6045e78:1,codec/encoder/core/inc/wels_func_ptr_def.h,298,4,-1,32,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+3b43a38c21113799:1,codec/encoder/core/inc/paraset_strategy.h,267,3,-1,32,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+aa2593e176bb412a:1,codec/encoder/core/inc/paraset_strategy.h,48,3,-1,52,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+93f30a81a054da5d:1,codec/encoder/core/inc/wels_preprocess.h,75,30,-1,65,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+f9f2b6f06ba74ad7:1,codec/encoder/core/inc/encoder_context.h,153,26,-1,51,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+c831fcb90c564607:1,codec/encoder/core/inc/mt_defs.h,53,-1,54,26,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+d696753eb7d4ac3d:1,codec/encoder/core/inc/wels_task_management.h,102,3,-1,35,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+713aa96d957c8425:1,codec/encoder/core/inc/wels_task_management.h,71,3,72,67,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+a78bf1a6af6b04c3:1,codec/encoder/core/src/encode_mb_aux.cpp,540,-1,-1,16,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+6ef550ed14306da0:1,codec/encoder/core/src/encode_mb_aux.cpp,522,-1,-1,16,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+6e4b24262a3edd97:1,codec/encoder/core/inc/svc_enc_golomb.h,74,3,-1,48,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+af2cb1dd669c2b26:1,codec/encoder/core/inc/vlc_encoder.h,71,-1,-1,31,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+af53a71863bd7e58:1,codec/encoder/core/inc/deblocking.h,50,-1,-1,28,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+ee2c43c01d24b988:1,codec/encoder/core/inc/sample.h,46,-1,47,71,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+7bb0f62731de56ae:1,codec/encoder/core/src/encoder_data_tables.cpp,74,3,-1,88,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+31df13aa7144af17:1,codec/encoder/core/src/encoder_data_tables.cpp,70,3,-1,94,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+6ef8c967da8f0524:1,codec/encoder/core/inc/svc_motion_estimate.h,51,52,-1,69,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+1aaac17b2fa5e41c:1,codec/encoder/core/src/au_set.cpp,605,36,-1,70,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+241a9e78ad9c283a:1,codec/encoder/core/src/au_set.cpp,603,31,-1,66,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+a80cd17585de13e0:1,codec/encoder/core/src/au_set.cpp,434,21,-1,81,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+85a7c0063d06d9fe:1,codec/encoder/core/inc/md.h,91,29,-1,74,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+cbba89dbb8b058cc:1,codec/encoder/core/inc/md.h,80,-1,-1,43,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+e2a94905a93ff86d:1,codec/encoder/core/inc/svc_base_layer_md.h,76,-1,-1,110,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+d38b98840bffe028:1,codec/encoder/core/inc/mv_pred.h,147,-1,-1,84,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+ab38621bef33eb43:1,codec/encoder/core/src/mv_pred.cpp,62,33,-1,46,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+91b91237e52507c8:1,codec/encoder/core/src/mv_pred.cpp,59,61,-1,73,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+7ba6f058844fe01e:1,codec/encoder/core/src/md.cpp,794,-1,796,4,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+2d74647b8c7213df:1,codec/encoder/core/src/md.cpp,445,-1,-1,65,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+1b81182af6da9d0f:1,codec/encoder/core/src/paraset_strategy.cpp,668,3,-1,26,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+70b16c2f96e31b9d:1,codec/encoder/core/src/paraset_strategy.cpp,600,3,604,7,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+d77a2feebc11e64f:1,codec/encoder/core/src/paraset_strategy.cpp,587,3,592,6,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+a10ada0bfdeec93c:1,codec/encoder/core/src/paraset_strategy.cpp,557,-1,559,5,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+63f0b18273471a48:1,codec/encoder/core/src/paraset_strategy.cpp,554,3,-1,6,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+2503a7270f963ab9:1,codec/encoder/core/src/paraset_strategy.cpp,473,3,-1,16,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+14c1b2953e4d08c5:1,codec/encoder/core/src/paraset_strategy.cpp,436,3,-1,6,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+23cb2717fc337e89:1,codec/encoder/core/src/paraset_strategy.cpp,426,3,-1,87,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+61864f29eeb394d0:1,codec/encoder/core/src/paraset_strategy.cpp,417,5,-1,184,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+6a9a99be49c35d92:1,codec/encoder/core/src/paraset_strategy.cpp,324,3,-1,6,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+eae26a9f6979100c:1,codec/encoder/core/src/sample.cpp,268,-1,269,92,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+682b289f6a7813d6:1,codec/encoder/core/src/ratectl.cpp,1326,100,-1,116,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+9004144440b1e1f5:1,codec/encoder/core/src/ratectl.cpp,1313,53,-1,91,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+e238c73065d5ecc:1,codec/encoder/core/src/ratectl.cpp,780,3,-1,119,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+2315cdbb775374ab:1,codec/encoder/core/src/ratectl.cpp,742,-1,-1,134,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+53f25b61bacfa4a1:1,codec/encoder/core/src/svc_enc_slice_segment.cpp,405,5,-1,71,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+5db1557a208b2e99:1,codec/encoder/core/src/encoder_ext.cpp,4471,46,-1,102,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+c2eb2bc3f14b0c29:1,codec/encoder/core/src/encoder_ext.cpp,4463,53,-1,116,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+38f39102996b21a:1,codec/encoder/core/src/encoder_ext.cpp,3907,88,-1,100,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+22203d545ce3559c:1,codec/encoder/core/src/encoder_ext.cpp,3099,3,-1,51,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+bb693fc9cadbdddd:1,codec/encoder/core/src/encoder_ext.cpp,2660,3,-1,70,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+b3cc2fceb9c34cf6:1,codec/encoder/core/src/encoder_ext.cpp,763,-1,-1,33,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+bc84ecf6b6dc26b3:1,codec/encoder/core/src/svc_base_layer_md.cpp,1793,11,-1,101,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+852ebcadef6afa3c:1,codec/encoder/core/src/svc_base_layer_md.cpp,1760,11,-1,101,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+752056a3e893e435:1,codec/encoder/core/src/svc_base_layer_md.cpp,1302,7,-1,34,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+bee7e39c071e6026:1,codec/encoder/core/src/svc_base_layer_md.cpp,1297,-1,-1,101,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+1905c54042a97295:1,codec/encoder/core/src/svc_base_layer_md.cpp,1291,7,-1,34,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+e09cbbbe0fd23abc:1,codec/encoder/core/src/svc_base_layer_md.cpp,1286,-1,-1,101,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+99429768006d9a97:1,codec/encoder/core/src/svc_base_layer_md.cpp,1281,-1,-1,42,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+46ea11afe57bd78c:1,codec/encoder/core/src/svc_base_layer_md.cpp,1273,-1,-1,48,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+cccd50434f624538:1,codec/encoder/core/src/svc_base_layer_md.cpp,1265,7,-1,34,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+bee7e39c071f3acc:1,codec/encoder/core/src/svc_base_layer_md.cpp,1260,-1,-1,101,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+801e20fd874b153c:1,codec/encoder/core/src/svc_base_layer_md.cpp,1257,7,-1,34,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+e09cbbbe0fd34414:1,codec/encoder/core/src/svc_base_layer_md.cpp,1252,-1,-1,101,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+c30e8a550214d23d:1,codec/encoder/core/src/svc_base_layer_md.cpp,1243,-1,-1,98,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+23fcc50a9f030604:1,codec/encoder/core/src/svc_base_layer_md.cpp,1240,-1,-1,48,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+5e92cc965831f09c:1,codec/encoder/core/src/svc_base_layer_md.cpp,1115,-1,-1,16,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+1ba7244c7a590bac:1,codec/encoder/core/src/svc_base_layer_md.cpp,911,7,913,79,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+5d83ac1ea40c5228:1,codec/encoder/core/src/svc_base_layer_md.cpp,878,61,-1,98,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+b3be212a0632322a:1,codec/encoder/core/src/svc_base_layer_md.cpp,875,63,876,94,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+457f77c292ec1efd:1,codec/encoder/core/src/svc_base_layer_md.cpp,854,5,-1,57,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+c5d31603c761594c:1,codec/encoder/core/src/svc_base_layer_md.cpp,823,9,-1,53,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+d21e8d2614f92352:1,codec/encoder/core/src/svc_base_layer_md.cpp,534,5,-1,72,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+563b99d194a780d8:1,codec/encoder/core/src/svc_base_layer_md.cpp,480,7,481,90,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+4119494b2624b361:1,codec/encoder/core/src/svc_base_layer_md.cpp,67,-1,-1,76,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+63c0fd0c54f41b36:1,codec/encoder/core/src/svc_mode_decision.cpp,573,3,577,81,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+75f4cd7cd650e835:1,codec/encoder/core/src/svc_mode_decision.cpp,525,3,-1,22,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+acc59c7e77435405:1,codec/encoder/core/src/svc_mode_decision.cpp,357,3,-1,48,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+28b2cb33f45336d3:1,codec/encoder/core/src/svc_motion_estimate.cpp,704,3,-1,101,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+3f3725124515b9f4:1,codec/encoder/core/src/svc_encode_slice.cpp,752,72,-1,99,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+5187ff7634193dd:1,codec/encoder/core/src/svc_encode_slice.cpp,746,-1,747,66,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+d2b8b0f5618ebc9a:1,codec/encoder/core/src/svc_encode_slice.cpp,381,-1,-1,6,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+ef09f6cfa3d88efc:1,codec/encoder/core/src/svc_encode_slice.cpp,363,-1,-1,6,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+ed7c44d2c080ec5e:1,codec/encoder/core/src/svc_encode_slice.cpp,234,-1,-1,8,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+98964b9d4dc96daf:1,codec/encoder/core/src/svc_encode_slice.cpp,222,-1,-1,8,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+997c95168f44ad4f:1,codec/encoder/core/src/svc_encode_slice.cpp,51,-1,-1,20,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+d17cd12f855bdb44:1,codec/encoder/plus/inc/welsEncoderExt.h,93,3,95,6,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+24755cb027b3face:1,codec/encoder/plus/inc/welsEncoderExt.h,85,3,87,6,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+862c0757c7c05b5d:1,codec/encoder/plus/inc/welsEncoderExt.h,81,3,83,6,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+93bfd9f5bbe6d4d:1,codec/encoder/plus/inc/welsEncoderExt.h,75,3,77,6,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+141c7241b178a8f1:1,codec/encoder/plus/inc/welsEncoderExt.h,65,3,67,6,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+2be1ca7c1db4916e:1,codec/encoder/plus/inc/welsEncoderExt.h,53,-1,55,26,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+32a03d30c5e00d74:1,codec/encoder/core/src/wels_task_management.cpp,225,3,-1,76,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+7ddbc8c56e430a85:1,codec/encoder/core/src/wels_task_management.cpp,209,3,-1,75,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+909adc4c8f2f90f8:1,codec/encoder/core/src/wels_task_management.cpp,201,3,208,6,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+d58895ab7174dc39:1,codec/encoder/core/src/wels_task_management.cpp,198,3,-1,100,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+6cb766dc5db95fb6:1,codec/encoder/core/src/wels_task_management.cpp,194,3,-1,101,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+c4c358c257b1599d:1,codec/encoder/core/src/wels_task_management.cpp,176,3,-1,155,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+5eccc7cde372ce6e:1,codec/encoder/core/src/wels_task_management.cpp,171,3,-1,116,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+f4e9613911640a2:1,codec/encoder/core/src/wels_task_management.cpp,129,3,-1,73,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+6296719e66adf855:1,codec/encoder/core/src/wels_task_management.cpp,127,3,-1,36,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+795146c8d7193276:1,codec/encoder/core/src/wels_task_management.cpp,124,3,-1,72,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+35f8a3f4a8b864f8:1,codec/encoder/core/src/wels_task_management.cpp,118,3,-1,173,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+975348765d25dc0e:1,codec/encoder/core/src/wels_task_management.cpp,109,3,-1,74,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+e44c913eff993106:1,codec/encoder/core/src/wels_task_management.cpp,101,3,-1,88,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+e10f19adb4c690de:1,codec/encoder/core/src/wels_task_management.cpp,92,3,-1,47,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+5c1001564f48a725:1,codec/encoder/core/src/wels_task_encoder.cpp,126,3,-1,72,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+dd94adfc86b30b0c:1,codec/encoder/core/src/wels_task_encoder.cpp,77,3,-1,74,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+8d7ad212ce1bb795:1,codec/encoder/core/src/wels_task_encoder.cpp,68,3,-1,97,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+ac9b583cd77f63cc:1,codec/encoder/plus/src/welsEncoderExt.cpp,269,3,-1,103,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+613356a8366b9cd8:1,codec/encoder/core/src/wels_preprocess.cpp,616,5,-1,107,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+b8f82cab9b915910:1,codec/encoder/core/src/wels_preprocess.cpp,412,9,-1,78,cpp/commented-out-code,Commented-out code,This comment appears to contain commented-out code.,,LOW
+68a682b94e4160fd:1,codec/decoder/core/inc/dec_golomb.h,40,-1,-1,51,cpp/duplicate-include-guard,Duplicate include guard,The macro name 'WELS_EXPONENTIAL_GOLOMB_ENTROPY_CODING_H__' of this include guard is used in 2 different header files.,,HIGH
+68a682b94e4160fd:1,codec/encoder/core/inc/svc_enc_golomb.h,40,-1,-1,51,cpp/duplicate-include-guard,Duplicate include guard,The macro name 'WELS_EXPONENTIAL_GOLOMB_ENTROPY_CODING_H__' of this include guard is used in 2 different header files.,,HIGH
+21d0010cbaf01a86:1,codec/decoder/core/src/decoder.cpp,514,17,-1,22,cpp/redundant-null-check-simple,Redundant null check due to previous dereference,This null check is redundant because [the value is dereferenced](1) in any case.,CWE-476,HIGH
+bd7d340921cf0aa3:1,codec/common/src/memory_align.cpp,170,16,-1,48,cpp/member-const-no-effect,Constant return type on member,The 'const' modifier has no effect on return types. The 'const' modifying the return type can be removed.,,MEDIUM
+e9c54a052aa5e481:1,codec/common/src/memory_align.cpp,166,16,-1,50,cpp/member-const-no-effect,Constant return type on member,The 'const' modifier has no effect on return types. The 'const' modifying the return type can be removed.,,MEDIUM
+e806b3b72638d312:1,codec/console/common/src/read_config.cpp,133,12,-1,34,cpp/member-const-no-effect,Constant return type on member,"The 'const' modifier has no effect on return types. For a const function, the 'const' should go after the parameter list.",,MEDIUM
+431878b2af97394a:1,codec/console/common/src/read_config.cpp,123,12,-1,34,cpp/member-const-no-effect,Constant return type on member,"The 'const' modifier has no effect on return types. For a const function, the 'const' should go after the parameter list.",,MEDIUM
+bb0c1e550da33369:1,codec/console/common/src/read_config.cpp,129,11,-1,32,cpp/member-const-no-effect,Constant return type on member,"The 'const' modifier has no effect on return types. For a const function, the 'const' should go after the parameter list.",,MEDIUM
+7946bea01db61e5b:1,codec/decoder/core/src/au_parser.cpp,975,35,-1,61,cpp/constant-comparison,Comparison result is always the same,Comparison is always false because 99 >= uiProfileIdc.,,MEDIUM
+c3c4e1d64c30a8a4:1,codec/decoder/core/src/au_parser.cpp,976,7,-1,34,cpp/constant-comparison,Comparison result is always the same,Comparison is always false because 99 >= uiProfileIdc.,,MEDIUM
+c3c4e1d64c30a8a4:1,codec/decoder/core/src/au_parser.cpp,976,38,-1,65,cpp/constant-comparison,Comparison result is always the same,Comparison is always false because 99 >= uiProfileIdc.,,MEDIUM
+8b3e43ec8bb17104:1,codec/decoder/core/src/au_parser.cpp,977,7,-1,35,cpp/constant-comparison,Comparison result is always the same,Comparison is always false because 99 >= uiProfileIdc.,,MEDIUM
+8b3e43ec8bb17104:1,codec/decoder/core/src/au_parser.cpp,977,39,-1,57,cpp/constant-comparison,Comparison result is always the same,Comparison is always false because 66 <= uiProfileIdc.,,MEDIUM
+e0bd2c792f45fa95:1,codec/console/enc/src/welsenc.cpp,309,13,-1,45,cpp/constant-comparison,Comparison result is always the same,Comparison is always false because iMultipleThreadIdc >= 0.,,MEDIUM
+8651166ecbae13e2:1,codec/decoder/core/src/decoder_core.cpp,1794,12,-1,38,cpp/constant-comparison,Comparison result is always the same,Comparison is always false because i >= 1.,,MEDIUM
+9e451275e9a607a7:1,codec/decoder/core/src/decoder_core.cpp,1621,12,-1,38,cpp/constant-comparison,Comparison result is always the same,Comparison is always false because i >= 1.,,MEDIUM
+2ca2544d4b535b35:1,codec/decoder/core/src/decoder_core.cpp,1311,16,-1,45,cpp/constant-comparison,Comparison result is always the same,Comparison is always false because uiQualityId <= 0.,,MEDIUM
+d73efeef9a099f57:1,codec/decoder/core/src/decoder_core.cpp,475,47,-1,72,cpp/constant-comparison,Comparison result is always the same,Comparison is always false because iIdx <= 15.,,MEDIUM
+6d91d50595607454:1,codec/decoder/core/src/parse_mb_syn_cabac.cpp,510,32,-1,40,cpp/constant-comparison,Comparison result is always the same,Comparison is always false because iSym >= 1.,,MEDIUM
+80dd8e77c07ffb3b:1,codec/encoder/core/src/ratectl.cpp,737,14,-1,32,cpp/constant-comparison,Comparison result is always the same,Comparison is always false because iBitsRatio <= 10600.,,MEDIUM
+9e891d978951c267:1,codec/common/inc/macros.h,325,46,-1,77,cpp/integer-multiplication-cast-to-long,Multiplication result converted to larger type,Multiplication result may overflow 'int' before it is converted to 'size_t'.,"CWE-190,CWE-192,CWE-197,CWE-681",MEDIUM
+df5897be04c95339:1,codec/decoder/core/src/decoder_core.cpp,2604,48,-1,88,cpp/integer-multiplication-cast-to-long,Multiplication result converted to larger type,Multiplication result may overflow 'unsigned int' before it is converted to 'unsigned long'.,"CWE-190,CWE-192,CWE-197,CWE-681",MEDIUM
+a5fbe90673293ce1:1,codec/decoder/core/src/decoder_core.cpp,2605,62,-1,106,cpp/integer-multiplication-cast-to-long,Multiplication result converted to larger type,Multiplication result may overflow 'unsigned int' before it is converted to 'unsigned long'.,"CWE-190,CWE-192,CWE-197,CWE-681",MEDIUM
+4a553208352d3744:1,codec/decoder/core/src/decoder_core.cpp,2606,58,-1,102,cpp/integer-multiplication-cast-to-long,Multiplication result converted to larger type,Multiplication result may overflow 'unsigned int' before it is converted to 'unsigned long'.,"CWE-190,CWE-192,CWE-197,CWE-681",MEDIUM
+50a5d4340a27773e:1,codec/decoder/core/src/decoder_core.cpp,1508,57,-1,97,cpp/integer-multiplication-cast-to-long,Multiplication result converted to larger type,Multiplication result may overflow 'unsigned int' before it is converted to 'unsigned long'.,"CWE-190,CWE-192,CWE-197,CWE-681",MEDIUM
+6032e921175d36cf:1,codec/decoder/core/src/decoder_core.cpp,1510,70,-1,110,cpp/integer-multiplication-cast-to-long,Multiplication result converted to larger type,Multiplication result may overflow 'unsigned int' before it is converted to 'unsigned long'.,"CWE-190,CWE-192,CWE-197,CWE-681",MEDIUM
+4c845f27e42b3904:1,codec/decoder/core/src/decoder_core.cpp,1512,70,-1,110,cpp/integer-multiplication-cast-to-long,Multiplication result converted to larger type,Multiplication result may overflow 'unsigned int' before it is converted to 'unsigned long'.,"CWE-190,CWE-192,CWE-197,CWE-681",MEDIUM
+a006e424e2220091:1,codec/decoder/core/src/decoder_core.cpp,1515,85,1516,57,cpp/integer-multiplication-cast-to-long,Multiplication result converted to larger type,Multiplication result may overflow 'unsigned int' before it is converted to 'unsigned long'.,"CWE-190,CWE-192,CWE-197,CWE-681",MEDIUM
+bcfa1750b4b2d89e:1,codec/decoder/core/src/decoder_core.cpp,1519,85,1520,57,cpp/integer-multiplication-cast-to-long,Multiplication result converted to larger type,Multiplication result may overflow 'unsigned int' before it is converted to 'unsigned long'.,"CWE-190,CWE-192,CWE-197,CWE-681",MEDIUM
+4fef298c4e5496de:1,codec/decoder/core/src/decoder_core.cpp,1523,75,-1,115,cpp/integer-multiplication-cast-to-long,Multiplication result converted to larger type,Multiplication result may overflow 'unsigned int' before it is converted to 'unsigned long'.,"CWE-190,CWE-192,CWE-197,CWE-681",MEDIUM
+47f92e93334b41d7:1,codec/decoder/core/src/decoder_core.cpp,1526,55,-1,95,cpp/integer-multiplication-cast-to-long,Multiplication result converted to larger type,Multiplication result may overflow 'unsigned int' before it is converted to 'unsigned long'.,"CWE-190,CWE-192,CWE-197,CWE-681",MEDIUM
+cada5ccec7d4893d:1,codec/decoder/core/src/decoder_core.cpp,1528,77,-1,117,cpp/integer-multiplication-cast-to-long,Multiplication result converted to larger type,Multiplication result may overflow 'unsigned int' before it is converted to 'unsigned long'.,"CWE-190,CWE-192,CWE-197,CWE-681",MEDIUM
+d119008f93df4c63:1,codec/decoder/core/src/decoder_core.cpp,1532,67,-1,107,cpp/integer-multiplication-cast-to-long,Multiplication result converted to larger type,Multiplication result may overflow 'unsigned int' before it is converted to 'unsigned long'.,"CWE-190,CWE-192,CWE-197,CWE-681",MEDIUM
+4632e5d202ee7f52:1,codec/decoder/core/src/decoder_core.cpp,1535,63,-1,103,cpp/integer-multiplication-cast-to-long,Multiplication result converted to larger type,Multiplication result may overflow 'unsigned int' before it is converted to 'unsigned long'.,"CWE-190,CWE-192,CWE-197,CWE-681",MEDIUM
+a1c68663bbd335c9:1,codec/decoder/core/src/decoder_core.cpp,1538,71,-1,111,cpp/integer-multiplication-cast-to-long,Multiplication result converted to larger type,Multiplication result may overflow 'unsigned int' before it is converted to 'unsigned long'.,"CWE-190,CWE-192,CWE-197,CWE-681",MEDIUM
+e66ec7d98a024a9a:1,codec/decoder/core/src/decoder_core.cpp,1540,71,-1,111,cpp/integer-multiplication-cast-to-long,Multiplication result converted to larger type,Multiplication result may overflow 'unsigned int' before it is converted to 'unsigned long'.,"CWE-190,CWE-192,CWE-197,CWE-681",MEDIUM
+35c9b0312e4bb709:1,codec/decoder/core/src/decoder_core.cpp,1542,56,-1,96,cpp/integer-multiplication-cast-to-long,Multiplication result converted to larger type,Multiplication result may overflow 'unsigned int' before it is converted to 'unsigned long'.,"CWE-190,CWE-192,CWE-197,CWE-681",MEDIUM
+a1589da2fdbd4763:1,codec/decoder/core/src/decoder_core.cpp,1544,59,-1,99,cpp/integer-multiplication-cast-to-long,Multiplication result converted to larger type,Multiplication result may overflow 'unsigned int' before it is converted to 'unsigned long'.,"CWE-190,CWE-192,CWE-197,CWE-681",MEDIUM
+5d26ce217f1efa26:1,codec/decoder/core/src/decoder_core.cpp,1547,61,-1,101,cpp/integer-multiplication-cast-to-long,Multiplication result converted to larger type,Multiplication result may overflow 'unsigned int' before it is converted to 'unsigned long'.,"CWE-190,CWE-192,CWE-197,CWE-681",MEDIUM
+d2ebd7f62b922209:1,codec/decoder/core/src/decoder_core.cpp,1550,85,1551,53,cpp/integer-multiplication-cast-to-long,Multiplication result converted to larger type,Multiplication result may overflow 'unsigned int' before it is converted to 'unsigned long'.,"CWE-190,CWE-192,CWE-197,CWE-681",MEDIUM
+41c42df6a3b56e27:1,codec/decoder/core/src/decoder_core.cpp,1553,68,-1,108,cpp/integer-multiplication-cast-to-long,Multiplication result converted to larger type,Multiplication result may overflow 'unsigned int' before it is converted to 'unsigned long'.,"CWE-190,CWE-192,CWE-197,CWE-681",MEDIUM
+209ad45d161a4f56:1,codec/decoder/core/src/decoder_core.cpp,1556,86,1557,58,cpp/integer-multiplication-cast-to-long,Multiplication result converted to larger type,Multiplication result may overflow 'unsigned int' before it is converted to 'unsigned long'.,"CWE-190,CWE-192,CWE-197,CWE-681",MEDIUM
+e83e85a33ce392d3:1,codec/decoder/core/src/decoder_core.cpp,1559,70,-1,110,cpp/integer-multiplication-cast-to-long,Multiplication result converted to larger type,Multiplication result may overflow 'unsigned int' before it is converted to 'unsigned long'.,"CWE-190,CWE-192,CWE-197,CWE-681",MEDIUM
+23e56b2f325ed80a:1,codec/decoder/core/src/decoder_core.cpp,1562,63,-1,103,cpp/integer-multiplication-cast-to-long,Multiplication result converted to larger type,Multiplication result may overflow 'unsigned int' before it is converted to 'unsigned long'.,"CWE-190,CWE-192,CWE-197,CWE-681",MEDIUM
+e9c0dabf7c14038:1,codec/decoder/core/src/decoder_core.cpp,1564,52,-1,92,cpp/integer-multiplication-cast-to-long,Multiplication result converted to larger type,Multiplication result may overflow 'unsigned int' before it is converted to 'unsigned long'.,"CWE-190,CWE-192,CWE-197,CWE-681",MEDIUM
+901ca83f85aab10a:1,codec/decoder/core/src/decoder_core.cpp,1566,82,1567,50,cpp/integer-multiplication-cast-to-long,Multiplication result converted to larger type,Multiplication result may overflow 'unsigned int' before it is converted to 'unsigned long'.,"CWE-190,CWE-192,CWE-197,CWE-681",MEDIUM
+48e472374739460f:1,codec/decoder/core/src/decoder_core.cpp,1570,59,-1,99,cpp/integer-multiplication-cast-to-long,Multiplication result converted to larger type,Multiplication result may overflow 'unsigned int' before it is converted to 'unsigned long'.,"CWE-190,CWE-192,CWE-197,CWE-681",MEDIUM
+80417fb173b56ec5:1,codec/decoder/core/src/decoder_core.cpp,1572,66,-1,106,cpp/integer-multiplication-cast-to-long,Multiplication result converted to larger type,Multiplication result may overflow 'unsigned int' before it is converted to 'unsigned long'.,"CWE-190,CWE-192,CWE-197,CWE-681",MEDIUM
+217e8f8b76944e49:1,codec/decoder/core/src/decoder_core.cpp,1575,73,-1,113,cpp/integer-multiplication-cast-to-long,Multiplication result converted to larger type,Multiplication result may overflow 'unsigned int' before it is converted to 'unsigned long'.,"CWE-190,CWE-192,CWE-197,CWE-681",MEDIUM
+7cbc18ad88f86b22:1,codec/decoder/core/src/decoder_core.cpp,1579,70,-1,110,cpp/integer-multiplication-cast-to-long,Multiplication result converted to larger type,Multiplication result may overflow 'unsigned int' before it is converted to 'unsigned long'.,"CWE-190,CWE-192,CWE-197,CWE-681",MEDIUM
+64ef78278522d3d5:1,codec/decoder/core/src/decoder_core.cpp,1582,66,-1,106,cpp/integer-multiplication-cast-to-long,Multiplication result converted to larger type,Multiplication result may overflow 'unsigned int' before it is converted to 'unsigned long'.,"CWE-190,CWE-192,CWE-197,CWE-681",MEDIUM
+df5897bc64eb0d50:1,codec/decoder/core/src/decoder_core.cpp,1618,44,-1,84,cpp/integer-multiplication-cast-to-long,Multiplication result converted to larger type,Multiplication result may overflow 'unsigned int' before it is converted to 'unsigned long'.,"CWE-190,CWE-192,CWE-197,CWE-681",MEDIUM
+da84f5347841d63a:1,codec/decoder/core/src/error_concealment.cpp,94,37,-1,64,cpp/integer-multiplication-cast-to-long,Multiplication result converted to larger type,Multiplication result may overflow 'unsigned int' before it is converted to 'size_t'.,"CWE-190,CWE-192,CWE-197,CWE-681",MEDIUM
+b59eb87aed5a2f3c:1,codec/decoder/core/src/error_concealment.cpp,95,37,-1,72,cpp/integer-multiplication-cast-to-long,Multiplication result converted to larger type,Multiplication result may overflow 'unsigned int' before it is converted to 'size_t'.,"CWE-190,CWE-192,CWE-197,CWE-681",MEDIUM
+d2f8ac7746d714bd:1,codec/decoder/core/src/error_concealment.cpp,96,37,-1,72,cpp/integer-multiplication-cast-to-long,Multiplication result converted to larger type,Multiplication result may overflow 'unsigned int' before it is converted to 'size_t'.,"CWE-190,CWE-192,CWE-197,CWE-681",MEDIUM
+b25be145bfcdee36:1,codec/decoder/core/src/error_concealment.cpp,100,51,-1,78,cpp/integer-multiplication-cast-to-long,Multiplication result converted to larger type,Multiplication result may overflow 'unsigned int' before it is converted to 'size_t'.,"CWE-190,CWE-192,CWE-197,CWE-681",MEDIUM
+16527d1de1b38278:1,codec/decoder/core/src/error_concealment.cpp,101,51,-1,86,cpp/integer-multiplication-cast-to-long,Multiplication result converted to larger type,Multiplication result may overflow 'unsigned int' before it is converted to 'size_t'.,"CWE-190,CWE-192,CWE-197,CWE-681",MEDIUM
+475b370c3341fc29:1,codec/decoder/core/src/error_concealment.cpp,102,51,-1,86,cpp/integer-multiplication-cast-to-long,Multiplication result converted to larger type,Multiplication result may overflow 'unsigned int' before it is converted to 'size_t'.,"CWE-190,CWE-192,CWE-197,CWE-681",MEDIUM
+a0de4dce05f5eed0:1,codec/decoder/core/src/manage_dec_ref.cpp,180,40,-1,81,cpp/integer-multiplication-cast-to-long,Multiplication result converted to larger type,Multiplication result may overflow 'int' before it is converted to 'size_t'.,"CWE-190,CWE-192,CWE-197,CWE-681",MEDIUM
+7218f08122dc9462:1,codec/decoder/core/src/manage_dec_ref.cpp,187,19,-1,60,cpp/integer-multiplication-cast-to-long,Multiplication result converted to larger type,Multiplication result may overflow 'int' before it is converted to 'size_t'.,"CWE-190,CWE-192,CWE-197,CWE-681",MEDIUM
+dc0e015b31a6348a:1,codec/encoder/core/src/encoder_ext.cpp,1482,78,-1,104,cpp/integer-multiplication-cast-to-long,Multiplication result converted to larger type,Multiplication result may overflow 'int' before it is converted to 'unsigned long'.,"CWE-190,CWE-192,CWE-197,CWE-681",MEDIUM
+728d85a473a45eed:1,codec/encoder/core/src/ratectl.cpp,223,29,-1,60,cpp/integer-multiplication-cast-to-long,Multiplication result converted to larger type,Multiplication result may overflow 'int' before it is converted to 'int64_t'.,"CWE-190,CWE-192,CWE-197,CWE-681",MEDIUM
+2e77bb42670e02d3:1,codec/encoder/core/src/svc_enc_slice_segment.cpp,57,22,-1,50,cpp/integer-multiplication-cast-to-long,Multiplication result converted to larger type,Multiplication result may overflow 'int' before it is converted to 'size_t'.,"CWE-190,CWE-192,CWE-197,CWE-681",MEDIUM
+37c8c916cd77ee52:1,codec/encoder/core/src/wels_preprocess.cpp,764,48,-1,78,cpp/integer-multiplication-cast-to-long,Multiplication result converted to larger type,Multiplication result may overflow 'int' before it is converted to 'size_t'.,"CWE-190,CWE-192,CWE-197,CWE-681",MEDIUM
+d945bfd11d365cf8:1,codec/processing/src/backgrounddetection/BackgroundDetection.cpp,112,38,-1,64,cpp/integer-multiplication-cast-to-long,Multiplication result converted to larger type,Multiplication result may overflow 'int' before it is converted to 'unsigned long'.,"CWE-190,CWE-192,CWE-197,CWE-681",MEDIUM
+23636503553f73f3:1,codec/decoder/core/src/au_parser.cpp,1251,5,1252,6,cpp/empty-if,Futile conditional,If-statement with an empty then-branch and no else-branch.,,LOW
+88f3bd8979ace94f:1,codec/encoder/core/inc/param_svc.h,496,12,-1,32,cpp/comparison-with-wider-type,Comparison of narrow type with wide type in loop condition,Comparison between [i](1) of type int8_t and [iSpatialLayerNum](2) of wider type int.,"CWE-190,CWE-197,CWE-835",MEDIUM
+f6e83b82b2fed545:1,codec/encoder/core/inc/param_svc.h,396,12,-1,42,cpp/comparison-with-wider-type,Comparison of narrow type with wide type in loop condition,Comparison between [iIdxSpatial](1) of type int8_t and [iSpatialLayerNum](2) of wider type int.,"CWE-190,CWE-197,CWE-835",MEDIUM
+acb5b38a0af86a8b:1,codec/encoder/core/inc/param_svc.h,252,12,-1,42,cpp/comparison-with-wider-type,Comparison of narrow type with wide type in loop condition,Comparison between [iIdxSpatial](1) of type int8_t and [iSpatialLayerNum](2) of wider type int.,"CWE-190,CWE-197,CWE-835",MEDIUM
+a25a82baf68d50f3:1,codec/encoder/core/src/encoder_ext.cpp,4301,14,-1,51,cpp/comparison-with-wider-type,Comparison of narrow type with wide type in loop condition,Comparison between [iIndexD](1) of type int8_t and [iSpatialLayerNum](2) of wider type int.,"CWE-190,CWE-197,CWE-835",MEDIUM
+f25b9fa6a88e35d4:1,codec/encoder/core/src/encoder_ext.cpp,4312,23,-1,60,cpp/comparison-with-wider-type,Comparison of narrow type with wide type in loop condition,Comparison between [iIndexD](1) of type int8_t and [iSpatialLayerNum](2) of wider type int.,"CWE-190,CWE-197,CWE-835",MEDIUM
+d43f8ce6414a8f5a:1,codec/encoder/core/src/encoder_ext.cpp,4345,23,-1,60,cpp/comparison-with-wider-type,Comparison of narrow type with wide type in loop condition,Comparison between [iIndexD](1) of type int8_t and [iSpatialLayerNum](2) of wider type int.,"CWE-190,CWE-197,CWE-835",MEDIUM
+8c5b50581a6b3475:1,codec/encoder/core/src/encoder_ext.cpp,4445,14,-1,51,cpp/comparison-with-wider-type,Comparison of narrow type with wide type in loop condition,Comparison between [iIndexD](1) of type int8_t and [iSpatialLayerNum](2) of wider type int.,"CWE-190,CWE-197,CWE-835",MEDIUM
+f62f6b64d978cf78:1,codec/encoder/core/src/encoder_ext.cpp,495,15,-1,49,cpp/comparison-with-wider-type,Comparison of narrow type with wide type in loop condition,Comparison between [i](1) of type int8_t and [iSpatialLayerNum](2) of wider type int.,"CWE-190,CWE-197,CWE-835",MEDIUM
+2ad6dc704eeb5e14:1,codec/encoder/core/src/encoder_ext.cpp,653,15,-1,49,cpp/comparison-with-wider-type,Comparison of narrow type with wide type in loop condition,Comparison between [i](1) of type int8_t and [iSpatialLayerNum](2) of wider type int.,"CWE-190,CWE-197,CWE-835",MEDIUM
+2e7c868cccec3af8:1,codec/decoder/core/src/deblocking.cpp,544,10,-1,45,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 127 lines.,,MEDIUM
+12579d9e1cc41d0b:1,codec/console/enc/src/welsenc.cpp,221,5,-1,16,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 171 lines.,,MEDIUM
+82aa8306eb9b859a:1,codec/console/enc/src/welsenc.cpp,447,5,-1,21,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 225 lines.,,MEDIUM
+5afc843a7192d3b9:1,codec/decoder/core/src/rec_mb.cpp,666,9,-1,22,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 390 lines.,,MEDIUM
+6a515a47ad1c8733:1,codec/decoder/core/src/rec_mb.cpp,462,9,-1,21,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 203 lines.,,MEDIUM
+898f40f512957a28:1,codec/decoder/core/src/mv_pred.cpp,950,6,-1,28,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 126 lines.,,MEDIUM
+371e866b656ed6d4:1,codec/decoder/plus/src/welsDecoderExt.cpp,1089,6,-1,47,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 129 lines.,,MEDIUM
+a5739670c427708d:1,codec/encoder/core/src/wels_preprocess.cpp,828,6,-1,47,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 121 lines.,,MEDIUM
+fc8e97a84c4e10cf:1,codec/encoder/core/src/get_intra_predictor.cpp,614,6,-1,28,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 124 lines.,,MEDIUM
+f394b3e259743af7:1,codec/processing/src/vaacalc/vaacalcfuncs.cpp,37,6,-1,21,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 112 lines.,,MEDIUM
+1741e40cdaa9e6da:1,codec/processing/src/vaacalc/vaacalcfuncs.cpp,149,6,-1,21,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 103 lines.,,MEDIUM
+32ff4d8b29e4f46e:1,codec/processing/src/vaacalc/vaacalcfuncs.cpp,338,6,-1,24,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 147 lines.,,MEDIUM
+8b29b6ad165b02c6:1,codec/processing/src/vaacalc/vaacalcfuncs.cpp,486,6,-1,21,cpp/poorly-documented-function,Poorly documented large function,Poorly documented function: fewer than 2% comments for a function of 111 lines.,,MEDIUM
+d057e3898f9763d5:1,codec/decoder/plus/src/welsDecoderExt.cpp,311,7,-1,44,cpp/stack-address-escape,Local variable address stored in non-local memory,A stack address which arrived via a [parameter](1) may be assigned to a non-local variable.,,MEDIUM
+dfafdc7d42b85159:1,codec/processing/src/backgrounddetection/BackgroundDetection.cpp,281,44,-1,126,cpp/incorrect-not-operator-usage,Incorrect 'not' operator usage,Usage of a logical not (!) expression as a bitwise operator.,CWE-480,MEDIUM
+331c341183547cc8:1,codec/common/src/crt_util_safe_x.cpp,234,11,-1,20,cpp/potentially-dangerous-function,Use of potentially dangerous function,Call to 'localtime' is potentially dangerous.,CWE-676,MEDIUM
+7cb1e1d77df65241:1,codec/console/dec/src/h264dec.cpp,259,16,-1,21,cpp/world-writable-file-creation,File created without restricting permissions,"A file may be created here with mode 0666, which would make it world-writable.",CWE-732,MEDIUM
+832fbab5dcec2dd3:1,codec/console/dec/src/h264dec.cpp,272,19,-1,24,cpp/world-writable-file-creation,File created without restricting permissions,"A file may be created here with mode 0666, which would make it world-writable.",CWE-732,MEDIUM
+7b6424a82314f677:1,codec/console/enc/src/welsenc.cpp,869,18,-1,23,cpp/world-writable-file-creation,File created without restricting permissions,"A file may be created here with mode 0666, which would make it world-writable.",CWE-732,MEDIUM
+de636bd402718690:1,codec/console/enc/src/welsenc.cpp,877,20,-1,25,cpp/world-writable-file-creation,File created without restricting permissions,"A file may be created here with mode 0666, which would make it world-writable.",CWE-732,MEDIUM
+c796e7382bed98ec:1,codec/console/dec/src/h264dec.cpp,504,29,-1,37,cpp/path-injection,Uncontrolled data used in path expression,"This argument to a file access function is derived from [user input (a command-line argument)](1) and then passed to CReadConfig::CReadConfig(kpConfigFileName), which calls fopen(__filename).","CWE-022,CWE-023,CWE-036,CWE-073",MEDIUM
+a57a0770371bab38:1,codec/console/dec/src/h264dec.cpp,629,46,-1,51,cpp/path-injection,Uncontrolled data used in path expression,"This argument to a file access function is derived from [user input (a command-line argument)](1) and then passed to H264DecodeInstance(kpH264FileName), which calls fopen(__filename).","CWE-022,CWE-023,CWE-036,CWE-073",MEDIUM
+a57a0770371bab38:1,codec/console/dec/src/h264dec.cpp,629,55,-1,108,cpp/path-injection,Uncontrolled data used in path expression,"This argument to a file access function is derived from [user input (a command-line argument)](1) and then passed to H264DecodeInstance(kpOuputFileName), which calls fopen(__filename).","CWE-022,CWE-023,CWE-036,CWE-073",MEDIUM
+ac75086100e72115:1,codec/console/dec/src/h264dec.cpp,631,24,-1,77,cpp/path-injection,Uncontrolled data used in path expression,"This argument to a file access function is derived from [user input (a command-line argument)](1) and then passed to H264DecodeInstance(pOptionFileName), which calls fopen(__filename).","CWE-022,CWE-023,CWE-036,CWE-073",MEDIUM
+ac75086100e72115:1,codec/console/dec/src/h264dec.cpp,631,81,-1,134,cpp/path-injection,Uncontrolled data used in path expression,"This argument to a file access function is derived from [user input (a command-line argument)](1) and then passed to H264DecodeInstance(pLengthFileName), which calls fopen(__filename).","CWE-022,CWE-023,CWE-036,CWE-073",MEDIUM
+33240bb2bbe7b399:1,codec/console/enc/src/welsenc.cpp,795,19,-1,26,cpp/path-injection,Uncontrolled data used in path expression,"This argument to a file access function is derived from [user input (a command-line argument)](1) and then passed to CReadConfig::Openf(kpStrFile), which calls fopen(__filename).","CWE-022,CWE-023,CWE-036,CWE-073",MEDIUM
+7b6424a82314f677:1,codec/console/enc/src/welsenc.cpp,869,38,-1,43,cpp/path-injection,Uncontrolled data used in path expression,This argument to a file access function is derived from [user input (a command-line argument)](1) and then passed to fopen(__filename).,"CWE-022,CWE-023,CWE-036,CWE-073",MEDIUM
+de636bd402718690:1,codec/console/enc/src/welsenc.cpp,877,42,-1,47,cpp/path-injection,Uncontrolled data used in path expression,This argument to a file access function is derived from [user input (a command-line argument)](1) and then passed to fopen(__filename).,"CWE-022,CWE-023,CWE-036,CWE-073",MEDIUM
+f160aab312a18e95:1,codec/console/enc/src/welsenc.cpp,902,35,-1,40,cpp/path-injection,Uncontrolled data used in path expression,This argument to a file access function is derived from [user input (a command-line argument)](1) and then passed to fopen(__filename).,"CWE-022,CWE-023,CWE-036,CWE-073",MEDIUM
+f70500d640c744b9:1,codec/console/common/src/read_config.cpp,66,42,-1,47,cpp/path-injection,Uncontrolled data used in path expression,This argument to a file access function is derived from [user input (a command-line argument)](1) and then passed to fopen(__filename).,"CWE-022,CWE-023,CWE-036,CWE-073",MEDIUM
+803463199789a165:1,codec/common/src/WelsThreadPool.cpp,276,30,-1,56,cpp/incorrect-allocation-error-handling,Incorrect allocation-error handling,This allocation cannot return null. [This check](1) is unnecessary.,"CWE-570,CWE-252,CWE-755",MEDIUM
+d1c5e021337c5dab:1,codec/common/src/WelsThreadPool.cpp,169,20,-1,52,cpp/incorrect-allocation-error-handling,Incorrect allocation-error handling,This allocation cannot return null. [This check](1) is unnecessary.,"CWE-570,CWE-252,CWE-755",MEDIUM
+d494dda4f679d9a7:1,codec/common/src/WelsThreadPool.cpp,90,25,-1,46,cpp/incorrect-allocation-error-handling,Incorrect allocation-error handling,This allocation cannot return null. [This check](1) is unnecessary.,"CWE-570,CWE-252,CWE-755",MEDIUM
+36b92fe335583c5c:1,codec/console/dec/src/h264dec.cpp,523,45,-1,63,cpp/incorrect-allocation-error-handling,Incorrect allocation-error handling,This allocation cannot return null. [This check](1) is unnecessary.,"CWE-570,CWE-252,CWE-755",MEDIUM
+1b9629940471b500:1,codec/console/dec/src/h264dec.cpp,295,10,-1,36,cpp/incorrect-allocation-error-handling,Incorrect allocation-error handling,This allocation cannot return null. [This check](1) is unnecessary.,"CWE-570,CWE-252,CWE-755",MEDIUM
+ba7e40d64ddbdba8:1,codec/console/enc/src/welsenc.cpp,783,13,-1,31,cpp/incorrect-allocation-error-handling,Incorrect allocation-error handling,This allocation cannot return null. [This check](1) is unnecessary.,"CWE-570,CWE-252,CWE-755",MEDIUM
+401e9ae7af762ed6:1,codec/console/enc/src/welsenc.cpp,820,10,-1,36,cpp/incorrect-allocation-error-handling,Incorrect allocation-error handling,This allocation cannot return null. [This check](1) is unnecessary.,"CWE-570,CWE-252,CWE-755",MEDIUM
+b3e9d060df8a5108:1,codec/decoder/plus/src/welsDecoderExt.cpp,160,18,-1,38,cpp/incorrect-allocation-error-handling,Incorrect allocation-error handling,This allocation cannot return null. [This check](1) is unnecessary.,"CWE-570,CWE-252,CWE-755",MEDIUM
+ffd727f17189e5e1:1,codec/decoder/plus/src/welsDecoderExt.cpp,1482,16,-1,34,cpp/incorrect-allocation-error-handling,Incorrect allocation-error handling,This allocation cannot return null. [This check](1) is unnecessary.,"CWE-570,CWE-252,CWE-755",MEDIUM
+8455da9e5d5c7493:1,codec/encoder/core/src/paraset_strategy.cpp,47,29,-1,106,cpp/incorrect-allocation-error-handling,Incorrect allocation-error handling,This allocation cannot return null. [This check](1) is unnecessary.,"CWE-570,CWE-252,CWE-755",MEDIUM
+cbb344a5f4ca2638:1,codec/encoder/core/src/paraset_strategy.cpp,52,29,-1,104,cpp/incorrect-allocation-error-handling,Incorrect allocation-error handling,This allocation cannot return null. [This check](1) is unnecessary.,"CWE-570,CWE-252,CWE-755",MEDIUM
+250e629ec38c3e84:1,codec/encoder/core/src/paraset_strategy.cpp,57,29,-1,117,cpp/incorrect-allocation-error-handling,Incorrect allocation-error handling,This allocation cannot return null. [This check](1) is unnecessary.,"CWE-570,CWE-252,CWE-755",MEDIUM
+c914311691f4b7eb:1,codec/encoder/core/src/paraset_strategy.cpp,62,29,-1,107,cpp/incorrect-allocation-error-handling,Incorrect allocation-error handling,This allocation cannot return null. [This check](1) is unnecessary.,"CWE-570,CWE-252,CWE-755",MEDIUM
+b59aee0c68f67337:1,codec/encoder/core/src/paraset_strategy.cpp,68,29,-1,104,cpp/incorrect-allocation-error-handling,Incorrect allocation-error handling,This allocation cannot return null. [This check](1) is unnecessary.,"CWE-570,CWE-252,CWE-755",MEDIUM
+fdea4eba4a634e4:1,codec/encoder/core/src/ref_list_mgr_svc.cpp,1019,26,-1,69,cpp/incorrect-allocation-error-handling,Incorrect allocation-error handling,This allocation cannot return null. [This check](1) is unnecessary.,"CWE-570,CWE-252,CWE-755",MEDIUM
+b8882c196a84be33:1,codec/encoder/core/src/wels_task_management.cpp,151,13,-1,67,cpp/incorrect-allocation-error-handling,Incorrect allocation-error handling,This allocation cannot return null. [This check](1) is unnecessary.,"CWE-570,CWE-252,CWE-755",MEDIUM
+223d163da313b9f3:1,codec/encoder/core/src/wels_task_management.cpp,65,17,-1,51,cpp/incorrect-allocation-error-handling,Incorrect allocation-error handling,This allocation cannot return null. [This check](1) is unnecessary.,"CWE-570,CWE-252,CWE-755",MEDIUM
+1b0f134248588a4f:1,codec/encoder/plus/src/welsEncoderExt.cpp,166,18,-1,38,cpp/incorrect-allocation-error-handling,Incorrect allocation-error handling,This allocation cannot return null. [This check](1) is unnecessary.,"CWE-570,CWE-252,CWE-755",MEDIUM
+d01af6dcb9674028:1,codec/encoder/plus/src/welsEncoderExt.cpp,1372,21,-1,46,cpp/incorrect-allocation-error-handling,Incorrect allocation-error handling,This allocation cannot return null. [This check](1) is unnecessary.,"CWE-570,CWE-252,CWE-755",MEDIUM
+9c4c78f2b20daf3b:1,codec/processing/src/common/WelsFrameWorkEx.cpp,69,22,-1,34,cpp/incorrect-allocation-error-handling,Incorrect allocation-error handling,This allocation cannot return null. [This check](1) is unnecessary.,"CWE-570,CWE-252,CWE-755",MEDIUM
+5484dba9b4285e3:1,codec/processing/src/common/WelsFrameWork.cpp,72,23,-1,52,cpp/incorrect-allocation-error-handling,Incorrect allocation-error handling,This allocation cannot return null. [This check](1) is unnecessary.,"CWE-570,CWE-252,CWE-755",MEDIUM

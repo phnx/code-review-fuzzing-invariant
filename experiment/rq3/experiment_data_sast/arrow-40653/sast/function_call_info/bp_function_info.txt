@@ -1,0 +1,18 @@
+=====================
+cpp/src/arrow/ipc/reader.cc
+=====================
+{
+    "0": {
+        "bp_line": 2053,
+        "func_name": "FuzzIpcStream",
+        "func_start": 2039,
+        "func_end": 2057
+    },
+    "1": {
+        "bp_line": 2070,
+        "func_name": "FuzzIpcFile",
+        "func_start": 2059,
+        "func_end": 2074
+    }
+}
+

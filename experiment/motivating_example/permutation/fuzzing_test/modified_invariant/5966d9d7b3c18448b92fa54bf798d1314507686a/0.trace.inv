@@ -1,0 +1,25 @@
+settings:INFO:2025-04-10 06:47:36.101740: /program/dig/src/dig.py /script/motivating_example/sample_set/permutation/fuzzing_test/modified_trace/5966d9d7b3c18448b92fa54bf798d1314507686a/0.trace -log 3 --nofilter --nosimplify --seed 27
+alg:INFO:analyzing '/script/motivating_example/sample_set/permutation/fuzzing_test/modified_trace/5966d9d7b3c18448b92fa54bf798d1314507686a/0.trace'
+alg:INFO:got 28 traces over 1 locs
+alg:INFO:check 21 invs using 28 traces (0.05s)
+dummy (20 invs):
+1. i**4 - 6*i**3 + 11*i**2 - 6*i == 0
+2. i <= 3
+3. -i <= 0
+4. index <= 3
+5. -index <= 0
+6. i - index <= 3
+7. i + index <= 6
+8. -i + index <= 3
+9. -i - index <= 0
+10. min(i, 0) - index <= 0
+11. min(index, 0) - i <= 0
+12. min(curr_val, 0) - i <= 0
+13. index - max(curr_val, 0) <= 0
+14. index - max(curr_val, i) <= 0
+15. min(curr_val, index, 0) - i <= 0
+16. index - max(curr_val, i, 0) <= 0
+17. min(curr_val, 0) - index - 1 <= 0
+18. min(curr_val, i, 0) - index - 1 <= 0
+19. curr_val === 3 (mod 5)
+20. -curr_val === 2 (mod 5)

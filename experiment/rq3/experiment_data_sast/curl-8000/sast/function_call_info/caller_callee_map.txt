@@ -1,0 +1,270 @@
+=====================
+lib/http_chunks.c
+=====================
+{
+    "Curl_isxdigit_ascii": [],
+    "Curl_httpchunk_init": [],
+    "Curl_httpchunk_read": [
+        "Curl_client_write",
+        "Curl_isxdigit_ascii",
+        "Curl_convert_from_network",
+        "curlx_strtoofft",
+        "curlx_sotouz",
+        "Curl_unencode_write",
+        "Curl_client_write",
+        "Curl_httpchunk_init",
+        "Curl_convert_from_network",
+        "Curl_client_write",
+        "realloc",
+        "malloc",
+        "curlx_sotouz"
+    ],
+    "*Curl_chunked_strerror": []
+}
+
+=====================
+lib/transfer.c
+=====================
+{
+    "*Curl_checkheaders": [
+        "strlen",
+        "strncasecompare",
+        "Curl_headersep"
+    ],
+    "Curl_fillreadbuffer": [
+        "Curl_set_in_callback",
+        "data->state.fread_func",
+        "Curl_set_in_callback",
+        "failf",
+        "failf",
+        "failf",
+        "CURL_DO_LINEEND_CONV",
+        "snprintf",
+        "memcpy",
+        "memcpy",
+        "strlen",
+        "strlen",
+        "Curl_convert_to_network",
+        "infof",
+        "strlen",
+        "Curl_convert_to_network"
+    ],
+    "Curl_readrewind": [
+        "Curl_mime_rewind",
+        "failf",
+        "Curl_set_in_callback",
+        "",
+        "Curl_set_in_callback",
+        "failf",
+        "Curl_set_in_callback",
+        "",
+        "Curl_set_in_callback",
+        "infof",
+        "failf",
+        "fseek",
+        "failf"
+    ],
+    "data_pending": [
+        "Curl_ssl_data_pending",
+        "Curl_ssl_data_pending"
+    ],
+    "read_rewind": [
+        "DEBUGASSERT",
+        "CURLMIN",
+        "memcpy",
+        "DEBUGF",
+        "infof"
+    ],
+    "Curl_meets_timecondition": [
+        "infof",
+        "infof"
+    ],
+    "readwrite_data": [
+        "Curl_read",
+        "DEBUGF",
+        "infof",
+        "Curl_pgrsTime",
+        "Curl_now",
+        "DEBUGF",
+        "infof",
+        "conn->handler->readwrite",
+        "Curl_http_readwrite_headers",
+        "conn->handler->readwrite",
+        "Curl_pipeline_wanted",
+        "infof",
+        "read_rewind",
+        "infof",
+        "streamclose",
+        "infof",
+        "infof",
+        "connclose",
+        "failf",
+        "Curl_meets_timecondition",
+        "infof",
+        "connclose",
+        "Curl_debug",
+        "Curl_debug",
+        "Curl_debug",
+        "Curl_httpchunk_read",
+        "failf",
+        "failf",
+        "Curl_chunked_strerror",
+        "infof",
+        "Curl_pipeline_wanted",
+        "infof",
+        "read_rewind",
+        "DEBUGF",
+        "infof",
+        "Curl_pipeline_wanted",
+        "infof",
+        "read_rewind",
+        "infof",
+        "Curl_pgrsSetDownloadCounter",
+        "Curl_client_write",
+        "Curl_client_write",
+        "Curl_pop3_write",
+        "Curl_client_write",
+        "Curl_unencode_write",
+        "conn->handler->readwrite",
+        "data_pending",
+        "infof"
+    ],
+    "done_sending": [
+        "Curl_http2_done_sending",
+        "Curl_readrewind"
+    ],
+    "readwrite_upload": [
+        "Curl_pgrsTime",
+        "Curl_now",
+        "Curl_expire",
+        "Curl_fillreadbuffer",
+        "done_sending",
+        "CURL_DO_LINEEND_CONV",
+        "malloc",
+        "failf",
+        "Curl_smtp_escape_eob",
+        "Curl_write",
+        "Curl_debug",
+        "infof",
+        "done_sending",
+        "Curl_pgrsSetUploadCounter"
+    ],
+    "Curl_readwrite": [
+        "DEBUGF",
+        "infof",
+        "Curl_socket_check",
+        "failf",
+        "readwrite_data",
+        "readwrite_upload",
+        "Curl_now",
+        "Curl_timediff",
+        "Curl_expire_done",
+        "infof",
+        "Curl_pgrsUpdate",
+        "Curl_speedcheck",
+        "Curl_timeleft",
+        "failf",
+        "Curl_timediff",
+        "failf",
+        "Curl_timediff",
+        "CURL_DO_LINEEND_CONV",
+        "failf",
+        "failf",
+        "Curl_pgrsUpdate"
+    ],
+    "Curl_single_getsock": [
+        "conn->handler->perform_getsock",
+        "DEBUGASSERT",
+        "GETSOCK_READSOCK",
+        "DEBUGASSERT",
+        "GETSOCK_WRITESOCK"
+    ],
+    "Curl_init_CONNECT": [],
+    "Curl_pretransfer": [
+        "failf",
+        "Curl_safefree",
+        "Curl_ssl_initsessions",
+        "Curl_safefree",
+        "strlen",
+        "Curl_cookie_loadfiles",
+        "Curl_loadhostpairs",
+        "signal",
+        "Curl_initinfo",
+        "Curl_pgrsResetTransferSizes",
+        "Curl_pgrsStartNow",
+        "Curl_expire",
+        "Curl_expire",
+        "Curl_wildcard_init"
+    ],
+    "Curl_posttransfer": [
+        "signal"
+    ],
+    "*find_host_sep": [
+        "strstr",
+        "strchr",
+        "strchr",
+        "strlen",
+        "strlen"
+    ],
+    "strlen_url": [
+        "find_host_sep"
+    ],
+    "strcpy_url": [
+        "find_host_sep",
+        "ISPRINT",
+        "snprintf"
+    ],
+    "is_absolute_url": [
+        "sscanf"
+    ],
+    "*concat_url": [
+        "strdup",
+        "strstr",
+        "strchr",
+        "strrchr",
+        "strchr",
+        "strrchr",
+        "strchr",
+        "strchr",
+        "strchr",
+        "strlen_url",
+        "strlen",
+        "malloc",
+        "free",
+        "memcpy",
+        "strcpy_url",
+        "free"
+    ],
+    "Curl_follow": [
+        "Curl_safefree",
+        "strdup",
+        "is_absolute_url",
+        "concat_url",
+        "strlen_url",
+        "malloc",
+        "strcpy_url",
+        "failf",
+        "Curl_safefree",
+        "infof",
+        "infof",
+        "infof",
+        "infof",
+        "Curl_pgrsTime",
+        "Curl_pgrsResetTransferSizes"
+    ],
+    "Curl_retry_request": [
+        "infof",
+        "infof",
+        "strdup",
+        "connclose",
+        "Curl_readrewind"
+    ],
+    "Curl_setup_transfer": [
+        "DEBUGASSERT",
+        "DEBUGASSERT",
+        "Curl_pgrsSetDownloadSize",
+        "Curl_now",
+        "Curl_expire"
+    ]
+}
+
